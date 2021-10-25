@@ -1,13 +1,294 @@
-<document xmlns="http://cnx.rice.edu/cnxml">
-  <title>Regression Applications in Finance</title>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Best-Fit Linear Model</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
-    <md:title>Regression Applications in Finance</md:title>
+    <md:title>Best-Fit Linear Model</md:title>
     <md:content-id>m00089</md:content-id>
     <md:uuid>90199356-2f30-46cc-afb7-518370a50735</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
+    <section class="learning-objectives" id="sect-00001">
+      <title>Learning Outcomes</title>
+      <para id="para-00001">By the end of this section, you will be able to:</para>
+      <list id="list-00001">
+      <item>Calculate the slope and <emphasis effect="italics">y</emphasis>-intercept for a linear regression model using technology.</item>
+      <item>Interpret and apply the slope and <emphasis effect="italics">y</emphasis>-intercepts.</item>
+      </list>
+      </section>
+      <section id="sect-00002">
+      <title>Calculate the Slope and <emphasis effect="italics">y</emphasis>-Intercept for a Linear Regression Model Using Technology</title>
+      <para id="para-00002">Once a correlation has been deemed as significant, a linear regression model is developed. The goal in the regression analysis is to determine the coefficients <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> in the following regression equation:</para>
+      <equation id="eq-00001"><m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:math></equation>
+      <para id="para-00003">The slope (<emphasis effect="italics">b</emphasis>) and <emphasis effect="italics">y</emphasis>-intercept (<emphasis effect="italics">a</emphasis>) can be calculated using the following formulas:</para>
+      <equation id="eq-00002"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mi>b</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>∑</m:mo><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>-</m:mo><m:mfenced close="}"><m:mrow><m:mo>∑</m:mo><m:mfenced open="{"><m:mi>x</m:mi></m:mfenced><m:mfenced close="}"><m:mrow><m:mo>∑</m:mo><m:mfenced open="{"><m:mi>y</m:mi></m:mfenced></m:mrow></m:mfenced></m:mrow></m:mfenced></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>∑</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mfenced close="}"><m:mrow><m:mo>∑</m:mo><m:mfenced open="{"><m:mi>x</m:mi></m:mfenced></m:mrow></m:mfenced><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>a</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mfrac><m:mrow><m:mo>∑</m:mo><m:mi>y</m:mi></m:mrow><m:mi>n</m:mi></m:mfrac><m:mo>-</m:mo><m:mi>b</m:mi><m:mfrac><m:mrow><m:mo>∑</m:mo><m:mi>x</m:mi></m:mrow><m:mi>n</m:mi></m:mfrac></m:mtd></m:mtr></m:mtable></m:math></equation>
+      <para id="para-00004">These formulas can be quite cumbersome, especially for a significant number of data pairs, and thus technology is often used (such as Excel, a calculator, R statistical software, etc.).</para>
+      <para id="para-00005"><emphasis effect="bold">Using <term class="no-emphasis" id="term-00001">Excel</term>:</emphasis> To calculate the slope and <emphasis effect="italics">y</emphasis>-intercept of the linear model, start by entering the (<emphasis effect="italics">x, y</emphasis>) data in two columns in Excel. Then the Excel commands =SLOPE and =INTERCEPT can be used to calculate the slope and intercept, respectively.</para>
+      <para id="para-00006">The following data set will be used as an example: the monthly amount spent on advertising and the monthly revenue for a Fortune 500 company for 12 months (data is shown in Table 14.4).</para>
+      <table summary=" " id="table-00001">
+      <title>Table 14.4 Revenue versus Advertising for Fortune 500 Company ($000s)</title>
+      <tgroup cols="3">
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <thead>
+      <row>
+      <entry align="center">Month</entry>
+      <entry align="center">Amount Spent on Advertising</entry>
+      <entry align="center">Revenue</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="center">Jan</entry>
+      <entry align="right">49</entry>
+      <entry align="right">12,210</entry>
+      </row>
+      <row>
+      <entry align="center">Feb</entry>
+      <entry align="right">145</entry>
+      <entry align="right">17,590</entry>
+      </row>
+      <row>
+      <entry align="center">Mar</entry>
+      <entry align="right">57</entry>
+      <entry align="right">13,215</entry>
+      </row>
+      <row>
+      <entry align="center">Apr</entry>
+      <entry align="right">153</entry>
+      <entry align="right">19,200</entry>
+      </row>
+      <row>
+      <entry align="center">May</entry>
+      <entry align="right">92</entry>
+      <entry align="right">14,600</entry>
+      </row>
+      <row>
+      <entry align="center">Jun</entry>
+      <entry align="right">83</entry>
+      <entry align="right">14,100</entry>
+      </row>
+      <row>
+      <entry align="center">Jul</entry>
+      <entry align="right">117</entry>
+      <entry align="right">17,100</entry>
+      </row>
+      <row>
+      <entry align="center">Aug</entry>
+      <entry align="right">142</entry>
+      <entry align="right">18,400</entry>
+      </row>
+      <row>
+      <entry align="center">Sep</entry>
+      <entry align="right">69</entry>
+      <entry align="right">14,100</entry>
+      </row>
+      <row>
+      <entry align="center">Oct</entry>
+      <entry align="right">106</entry>
+      <entry align="right">15,500</entry>
+      </row>
+      <row>
+      <entry align="center">Nov</entry>
+      <entry align="right">109</entry>
+      <entry align="right">16,300</entry>
+      </row>
+      <row>
+      <entry align="center">Dec</entry>
+      <entry align="right">121</entry>
+      <entry align="right">17,020</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      <para id="para-00007">To calculate the slope of the regression model, use the Excel command</para>
+      <code display="block">=SLOPE(<emphasis effect="italics">y-</emphasis>data range, <emphasis effect="italics">x</emphasis>-data range)</code>
+      <para id="para-00008">It’s important to note that this Excel command expects that the <emphasis effect="italics">y</emphasis>-data range is entered first and the <emphasis effect="italics">x</emphasis>-data range is entered second. Since revenue depends on amount spent on advertising, revenue is considered the <emphasis effect="italics">y</emphasis>-variable and amount spent on advertising is considered the <emphasis effect="italics">x</emphasis>-variable. Notice the <emphasis effect="italics">y</emphasis>-data is contained in cells C2 through C13 and the <emphasis effect="italics">x</emphasis>-data is contained in cells B2 through B13. Thus the Excel command for slope would be entered as</para>
+      <equation id="eq-00003">=SLOPE(C2:C13, B2:B13)</equation>
+      <para id="para-00009">In the same way, the Excel command to calculate the <emphasis effect="italics">y</emphasis>-intercept of the regression model is</para>
+      <para id="para-00010">=INTERCEPT(<emphasis effect="italics">y-</emphasis>data range, <emphasis effect="italics">x</emphasis>-data range)</para>
+      <para id="para-00011">For the data set shown in the above table, the Excel command would be</para>
+      <equation id="eq-00004">=INTERCEPT(C2:C13, B2:B13)</equation>
+      <para id="para-00012">The results are shown in Figure 14.6, where</para>
+      <equation id="eq-00005"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mpadded lspace="-1px"><m:mi>slope</m:mi><m:mo> </m:mo><m:mi>b</m:mi><m:mo> </m:mo></m:mpadded></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mo> </m:mo><m:mn>61</m:mn><m:mo>.</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>intercept</m:mi><m:mo> </m:mo><m:mi>a</m:mi><m:mo> </m:mo></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mo> </m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>376</m:mn><m:mo>.</m:mo><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
+      <figure id="fig-00001">
+      <title><emphasis effect="bold">Figure 14.6</emphasis> Revenue versus Advertising for Fortune 500
+      Company ($000s) Showing Slope and <emphasis effect="italics">y</emphasis>-Intercept Calculation in Excel</title>
+      <media alt="A screenshot of a spreadsheet showing the Excel commands to calculate the slope and intercept of monthly values for advertising expenditure and revenue from January to December. The calculated slope is 61.8 and the calculated intercept is 9,376.7.">
+      <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_03_006.png"/></media>
+      <caption/>
+      </figure>
+      <para id="para-00013">Based on this, the regression equation can be written as</para>
+      <equation id="eq-00006"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>376</m:mn><m:mo>.</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>61</m:mn><m:mo>.</m:mo><m:mn>8</m:mn><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:math></equation>
+      <para id="para-00014">where <emphasis effect="italics">x</emphasis> represents the amount spent on advertising (in thousands of dollars) and <emphasis effect="italics">y</emphasis> represents the amount of revenue (in thousands of dollars)</para>
+      <section id="sect-00003">
+      <title>Using a Financial Calculator</title>
+      <para id="para-00015">The financial calculator provides the slope and <emphasis effect="italics">y</emphasis>-intercept for the linear regression model once the (<emphasis effect="italics">x, y</emphasis>) data is inputted into the calculator.</para>
+      <para id="para-00016">Follow the steps in Table 14.5 for calculating the slope and <emphasis effect="italics">y</emphasis>-intercept for the data set of amounts spent on advertising and revenue shown previously.</para>
+      <table summary=" " id="table-00002">
+      <title>Table 14.5 Calculator Steps for the Slope and y-Intercept</title>
+      <tgroup cols="5">
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
+      <thead>
+      <row>
+      <entry align="center">Step</entry>
+      <entry align="center">Description</entry>
+      <entry align="center">Enter</entry>
+      <entry align="center" namest="c4" nameend="c5">Display</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="center">1</entry>
+      <entry align="left">Enter <span class="primary-function">[DATA]</span> entry mode</entry>
+      <entry align="left"><span class="primary-function">2<sup>nd</sup></span> <span class="primary-function">[DATA]</span></entry>
+      <entry align="left">X01</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">2</entry>
+      <entry align="left">Clear any previous data</entry>
+      <entry align="left"><span class="primary-function">2<sup>nd</sup></span> <span class="primary-function">[CLRWORK]</span></entry>
+      <entry align="left">X01</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">3</entry>
+      <entry align="left">Enter first <emphasis effect="italics">x</emphasis>-value of 49</entry>
+      <entry align="left">49 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">X01</entry>
+      <entry align="right">49.00</entry>
+      </row>
+      <row>
+      <entry align="center">4</entry>
+      <entry align="left">Move to next data entry</entry>
+      <entry align="left">▢</entry>
+      <entry align="left">Y01</entry>
+      <entry align="right">1.00</entry>
+      </row>
+      <row>
+      <entry align="center">5</entry>
+      <entry align="left">Enter first <emphasis effect="italics">y</emphasis>-value of 12210</entry>
+      <entry align="left">12210 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">Y01</entry>
+      <entry align="right">12,210.00</entry>
+      </row>
+      <row>
+      <entry align="center">6</entry>
+      <entry align="left">Move to next data entry</entry>
+      <entry align="left">▢</entry>
+      <entry align="left"/>
+      <entry align="right"/>
+      </row>
+      <row>
+      <entry align="center">7</entry>
+      <entry align="left">Enter second <emphasis effect="italics">x</emphasis>-value of 145</entry>
+      <entry align="left">145 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">X02</entry>
+      <entry align="right">145.00</entry>
+      </row>
+      <row>
+      <entry align="center">8</entry>
+      <entry align="left">Move to next data entry</entry>
+      <entry align="left">▢</entry>
+      <entry align="left"/>
+      <entry align="right"/>
+      </row>
+      <row>
+      <entry align="center">9</entry>
+      <entry align="left">Enter second <emphasis effect="italics">y</emphasis>-value of 17590</entry>
+      <entry align="left">17590 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">Y02</entry>
+      <entry align="right">17,590</entry>
+      </row>
+      <row>
+      <entry align="center">10</entry>
+      <entry align="left">Move to next data entry</entry>
+      <entry align="left">▢</entry>
+      <entry align="left"/>
+      <entry align="right"/>
+      </row>
+      <row>
+      <entry align="center">11</entry>
+      <entry align="left">Continue to enter remaining data values</entry>
+      <entry align="left"/>
+      <entry align="left"/>
+      <entry align="right"/>
+      </row>
+      <row>
+      <entry align="center">12</entry>
+      <entry align="left">Enter <span class="primary-function">[STAT]</span> mode</entry>
+      <entry align="left"><span class="primary-function">2<sup>nd</sup></span> <span class="primary-function">[STAT]</span></entry>
+      <entry align="left"/>
+      <entry align="right"/>
+      </row>
+      <row>
+      <entry align="center"/>
+      <entry align="left">Press <span class="primary-function">[SET]</span> until LIN appears</entry>
+      <entry align="left"><span class="primary-function">2<sup>nd</sup></span> <span class="primary-function">[SET]</span></entry>
+      <entry align="left"/>
+      <entry align="right"/>
+      </row>
+      <row>
+      <entry align="center">13</entry>
+      <entry align="left">Move to 1<sup>st</sup> statistical result</entry>
+      <entry align="left">▢</entry>
+      <entry align="left"><m:math><m:mi>n</m:mi><m:mo>=</m:mo></m:math></entry>
+      <entry align="right">12.00</entry>
+      </row>
+      <row>
+      <entry align="center">14</entry>
+      <entry align="left">Move to next statistical result</entry>
+      <entry align="left">▢</entry>
+      <entry align="left"><m:math><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo></m:math></entry>
+      <entry align="right">103.58</entry>
+      </row>
+      <row>
+      <entry align="center">15</entry>
+      <entry align="left">Continue to scroll down until the value of <emphasis effect="italics">a</emphasis> is displayed</entry>
+      <entry align="left">▢</entry>
+      <entry align="left"><m:math><m:mi>a</m:mi><m:mo>=</m:mo></m:math></entry>
+      <entry align="right">9,376.7</entry>
+      </row>
+      <row>
+      <entry align="center">16</entry>
+      <entry align="left">Continue to scroll down until the value of <emphasis effect="italics">b</emphasis> is displayed</entry>
+      <entry align="left">▢</entry>
+      <entry align="left"><m:math><m:mi>b</m:mi><m:mo>=</m:mo></m:math></entry>
+      <entry align="right">61.8</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      <para id="para-00017">From the statistical results shown on the calculator display, the slope <emphasis effect="italics">b</emphasis> is 61.8 and the <emphasis effect="italics">y</emphasis>-intercept <emphasis effect="italics">a</emphasis> is 9,367.7.</para>
+      <para id="para-00018">Based on this, the regression equation can be written as</para>
+      <equation id="eq-00007"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>376</m:mn><m:mo>.</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>61</m:mn><m:mo>.</m:mo><m:mn>8</m:mn><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:math></equation>
+      </section>
+      </section>
+      <section id="sect-00004">
+      <title>Interpret and Apply the Slope and <emphasis effect="italics">y</emphasis>-Intercept</title>
+      <para id="para-00019">The slope of the line, <emphasis effect="italics">b</emphasis>, describes how changes in the variables are related. It is important to interpret the slope of the line in the context of the situation represented by the data. You should be able to write a sentence interpreting the slope in plain English.</para>
+      <section id="sect-00005">
+      <title>Interpretation of the Slope</title>
+      <para id="para-00020">The slope of the best-fit line tells us how the dependent variable (<emphasis effect="italics">y</emphasis>) changes for every one unit increase in the independent (<emphasis effect="italics">x</emphasis>) variable, on average.</para>
+      <para id="para-00021">In the previous example, the linear regression model for the monthly amount spent on advertising and the monthly revenue for a Fortune 500 company for 12 months was generated as follows:</para>
+      <equation id="eq-00008"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>376</m:mn><m:mo>.</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>61</m:mn><m:mo>.</m:mo><m:mn>8</m:mn><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:math></equation>
+      <para id="para-00022">Since the slope was determined to be 61.8, the company can interpret this to mean that for every $1,000 dollars spent on advertising, on average, this will result in an increase in revenues of $61,800.</para>
+      <para id="para-00023">The intercept of the regression equation is the corresponding <emphasis effect="italics">y</emphasis>-value when.</para>
+      </section>
+      <section id="sect-00006">
+      <title>Interpretation of the Intercept</title>
+      <para id="para-00024">The intercept of the best-fit line tells us the expected mean value of <emphasis effect="italics">y</emphasis> in the case where the <emphasis effect="italics">x</emphasis>-variable is equal to zero.</para>
+      <para id="para-00025">However, in many scenarios it may not make sense to have the <emphasis effect="italics">x</emphasis>-variable equal zero, and in these cases, the intercept does not have any meaning in the context of the problem. In other examples, the <emphasis effect="italics">x</emphasis>-value of zero is outside the range of the <emphasis effect="italics">x</emphasis>-data that was collected. In this case, we should not assign any interpretation to the <emphasis effect="italics">y</emphasis>-intercept.</para>
+      <para id="para-00026">In the previous example, the range of data collected for the <emphasis effect="italics">x</emphasis>-variable was from $49 to $153 spent per month on advertising. Since this interval does not include an <emphasis effect="italics">x</emphasis>-value of zero, we would not provide any interpretation for the intercept.</para>
+      </section>
+      </section>
 </content>
+<glossary>
+  <definition id="def-00001"><term>best-fit linear model</term> <meaning>an equation of the form <m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:math> that provides the best-fit straight line to the (<emphasis effect="italics">x, y</emphasis>) data points</meaning></definition>
+  <definition id="def-00002"><term>beta</term> <meaning>the measure of the volatility of a stock as compared to a benchmark such as the S&amp;P 500 index</meaning></definition>
+</glossary>
 </document>

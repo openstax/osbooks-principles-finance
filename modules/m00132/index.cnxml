@@ -1,0 +1,259 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Use of R Statistical Analysis Tool for Regression Analysis</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:title>Use of R Statistical Analysis Tool for Regression Analysis</md:title>
+    <md:content-id>m00132</md:content-id>
+    <md:uuid>ca98fc45-b624-4f66-9fe9-8a599fe55876</md:uuid>
+  </metadata>
+  <content>
+    <section class="learning-objectives" id="sect-00001">
+      <title>Learning Outcomes</title>
+      <para id="para-00001">By the end of this section, you will be able to:</para>
+      <list id="list-00001">
+      <item>Generate correlation coefficients using the R statistical tool.</item>
+      <item>Generate linear regression models using the R statistical tool.</item>
+      </list>
+      </section>
+      <section id="sect-00002">
+      <title>Generate Correlation Coefficients Using the R Statistical Tool</title>
+      <para id="para-00002"><term class="no-emphasis" id="term-00001">R</term> is an open-source statistical analysis tool that is widely used in the finance industry. R is available as a free program and provides an integrated suite of functions for data analysis, graphing, and statistical programming. R provides many functions and capabilities for regression analysis.</para>
+      <para id="para-00003">Recall that most calculations in R are handled via functions.</para>
+      <para id="para-00004">The typical method for using functions in statistical applications is to first create a vector of data values. There are several ways to create vectors in R. For example, the c function is often used to combine values into a vector. For example, this R command will generate a vector called salaries, containing the data values 40,000, 50,000, 75,000, and 92,000:</para>
+      <code class="r" display="block"><span class="red-code">> salaries &lt;- c(40000, 50000, 75000, 92000)</span></code>
+      <para id="para-00005">To calculate the correlation coefficient <emphasis effect="italics">r</emphasis>, we use the R command called <emphasis effect="italics">cor</emphasis>.</para>
+      <para id="para-00006">As an example, consider the data set in Table 14.8, which tracks the return on the S&amp;P 500 versus return on<term class="no-emphasis" id="term-00002"> Coca-Cola</term> stock for a seven-month time period.</para>
+      <table summary=" " id="table-00001">
+      <title>Table 14.8 Monthly Returns of Coca-Cola Stock versus Monthly Returns for the S&amp;P 500</title>
+      <tgroup cols="3">
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <thead>
+      <row>
+      <entry align="center">Month</entry>
+      <entry align="center">S&amp;P 500 Monthly Return (%)</entry>
+      <entry align="center">Coca-Cola Monthly Return (%)</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="center">Jan</entry>
+      <entry align="right">8</entry>
+      <entry align="right">6</entry>
+      </row>
+      <row>
+      <entry align="center">Feb</entry>
+      <entry align="right">1</entry>
+      <entry align="right">0</entry>
+      </row>
+      <row>
+      <entry align="center">Mar</entry>
+      <entry align="right">0</entry>
+      <entry align="right">-2</entry>
+      </row>
+      <row>
+      <entry align="center">Apr</entry>
+      <entry align="right">2</entry>
+      <entry align="right">1</entry>
+      </row>
+      <row>
+      <entry align="center">May</entry>
+      <entry align="right">-3</entry>
+      <entry align="right">-1</entry>
+      </row>
+      <row>
+      <entry align="center">Jun</entry>
+      <entry align="right">7</entry>
+      <entry align="right">8</entry>
+      </row>
+      <row>
+      <entry align="center">Jul</entry>
+      <entry align="right">4</entry>
+      <entry align="right">2</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      <para id="para-00007">Create two vectors in R, one vector for the S&amp;P 500 returns and a second vector for Coca-Cola returns:</para>
+      <code class="r" display="block">
+      <span class="red-code">> SP500 &lt;- c(8,1,0,2,-3,7,4)</span>
+
+      <span class="red-code">> CocaCola &lt;- c(6,0,-2,1,-1,8,2)</span>
+      </code>
+      <para id="para-00008">The R command called <emphasis effect="italics">cor</emphasis> returns the correlation coefficient for the <emphasis effect="italics">x</emphasis>-data vector and <emphasis effect="italics">y</emphasis>-data vector:</para>
+      <code class="r" display="block"><span class="red-code">> cor(SP500, CocaCola)</span></code>
+      </section>
+      <section id="sect-00003">
+      <title>Generate Linear Regression Models Using the R Statistical Tool</title>
+      <para id="para-00009">To create a linear model in R, assuming the correlation is significant, the command <emphasis effect="italics">lm</emphasis> (for linear model) will provide the slope and <emphasis effect="italics">y</emphasis>-intercept for the linear regression equation.</para>
+      <para id="para-00010">The format of the R command is</para>
+      <code display="block">lm(dependent_variable_vector ~ independent_variable_vector)</code>
+      <para id="para-00011">Notice the use of the tilde symbol as the separator between the dependent variable vector and the independent variable vector.</para>
+      <para id="para-00012">We use the returns on Coca-Cola stock as the dependent variable and the returns on the S&amp;P 500 as the independent variable, and thus the R command would be</para>
+      <code class="r" display="block">
+      <span class="red-code">> lm(CocaCola ~ SP500)</span>
+
+      <span class="blue-code">Call:</span>
+      
+      <span class="blue-code">lm(formula = CocaCola ~ SP500)</span>
+      
+      <span class="blue-code">Coefficients:</span>
+      
+      <span class="blue-code">(Intercept)    SP500</span>
+      
+      <span class="blue-code"> -0.3453    0.8641</span>
+      </code>
+      <para id="para-00013">The R output provides the value of the <emphasis effect="italics">y</emphasis>-intercept as -0.3453 and the value of the slope as 0.8641. Based on this, the linear model would be</para>
+      <para id="para-00014"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>3453</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>8641</m:mn><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:math></para>
+      <para id="para-00015">where <emphasis effect="italics">x</emphasis> represents the value of S&amp;P 500 return and <emphasis effect="italics">y</emphasis> represents the value of Coca-Cola stock return.</para>
+      <para id="para-00016">The results can also be saved as a formula and called “model” using the following R command. To obtain more detailed results for the linear regression, the <emphasis effect="italics">summary</emphasis> command can be used, as follows:</para>
+      <code class="r" display="block">
+      <span class="red-code">> model &lt;- lm(CocaCola ~ SP500)</span>
+      
+      <span class="red-code">> summary(model)</span>
+      
+      <span class="blue-code">Call:</span>
+      
+      <span class="blue-code">lm(formula = CocaCola ~ SP500)</span>
+      
+      <span class="blue-code">Residuals:</span>
+      
+      <span class="blue-code">  1    2    3    4    5    6    7</span>
+      
+      <span class="blue-code">-0.5672 -0.5188 -1.6547 -0.3828 1.9375 2.2969 -1.1109</span>
+      
+      <span class="blue-code">Coefficients:</span>
+      
+      <span class="blue-code">     Estimate Std. Error t value Pr(>|t|)</span>
+      
+      <span class="blue-code">(Intercept) -0.3453   0.7836 -0.441 0.67783</span>
+      
+      <span class="blue-code">SP500     0.8641   0.1734  4.984 0.00416 **</span>
+      
+      <span class="blue-code">---</span>
+      
+      <span class="blue-code">Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1</span>
+      
+      <span class="blue-code">Residual standard error: 1.658 on 5 degrees of freedom</span>
+      
+      <span class="blue-code">Multiple R-squared: 0.8325,  Adjusted R-squared: 0.7989</span>
+      
+      <span class="blue-code">F-statistic: 24.84 on 1 and 5 DF, p-value: 0.004161</span>
+      </code>
+      <para id="para-00017">In this output, the <emphasis effect="italics">y</emphasis>-intercept and slope is given, as well as the residuals for each <emphasis effect="italics">x</emphasis>-value. The output includes additional statistical details regarding the regression analysis.</para>
+      <para id="para-00018">Predicted values and prediction intervals can also be generated within R.</para>
+      <para id="para-00019">First, we can create a structure in R called a data frame to hold the values of the independent variable for which we want to generate a prediction. For example, we would like to generate the predicted return for Coca-Cola stock, given that the return for the S&amp;P 500 is 6.</para>
+      <para id="para-00020">We use the R command called <emphasis effect="italics">predict</emphasis>.</para>
+      <para id="para-00021">To generate a prediction for the linear regression equation called <emphasis effect="italics">model</emphasis>, using the data frame where the value of the S&amp;P 500 is 6, the R commands will be</para>
+      <code class="r" display="block">
+      <span class="red-code">> a &lt;- data.frame(SP500=6)</span>
+      
+      <span class="red-code">> predict(model, a)</span>
+      
+      <span class="blue-code">   1</span>
+      
+      <span class="blue-code">4.839062</span>
+      </code>
+      <para id="para-00022">The output from the <emphasis effect="italics">predict</emphasis> command indicates that the predicted return for Coca-Cola stock will be 4.8% when the return for the S&amp;P 500 is 6%.</para>
+      <para id="para-00023">We can extend this analysis to generate a 95% prediction interval for this result by using the following R command, which adds an option to the <emphasis effect="italics">predict</emphasis> command to generate a prediction interval:</para>
+      <code class="r" display="block">
+      <span class="red-code">> predict(model,a, interval="predict")</span>
+      
+      <span class="blue-code">   fit    lwr   upr</span>
+      
+      <span class="blue-code">1 4.839062 0.05417466 9.62395</span>
+      </code>
+      <para id="para-00024">Thus the 95% prediction interval for Coca-Cola return is (0.05%, 9.62%) when the return for the S&amp;P 500 is 6%.</para>
+      </section>
+      <section class="section-summary" id="sect-00004">
+      <section id="sect-00005">
+      <title>14.1 Correlation Analysis</title>
+      <para id="para-00025">Correlation is the measure of association between two numeric variables. A correlation coefficient called <emphasis effect="italics">r</emphasis> is used to assess the strength and direction of the correlation. The value of <emphasis effect="italics">r</emphasis> is always between -1 and +1. The size of the correlation <emphasis effect="italics">r</emphasis> indicates the strength of the linear relationship between the two variables. Values of <emphasis effect="italics">r</emphasis> close to -1 or to +1 indicate a stronger linear relationship. A positive value of <emphasis effect="italics">r</emphasis> means that when <emphasis effect="italics">x</emphasis> increases, <emphasis effect="italics">y</emphasis> tends to increase and when <emphasis effect="italics">x</emphasis> decreases, <emphasis effect="italics">y</emphasis> tends to decrease (positive correlation). A negative value of <emphasis effect="italics">r</emphasis> means that when <emphasis effect="italics">x</emphasis> increases, <emphasis effect="italics">y </emphasis>tends to decrease and when <emphasis effect="italics">x</emphasis> decreases, <emphasis effect="italics">y</emphasis> tends to increase (negative correlation).</para>
+      </section>
+      <section id="sect-00006">
+      <title>14.2 Linear Regression Analysis</title>
+      <para id="para-00026">Linear regression analysis uses a straight-line fit to model the relationship between the two variables. Once a straight-line model is developed, this model can then be used to predict the value of the dependent variable for a specific value of the independent variable. Two parameters are calculated for the linear model, the slope of the best-fit line and the <emphasis effect="italics">y</emphasis>-intercept of the best-fit line. The method of least squares is used to generate these parameters; this method is based on minimizing the squared differences between the predicted values and observed values for <emphasis effect="italics">y</emphasis>.</para>
+      </section>
+      <section id="sect-00007">
+      <title>14.3 Best-Fit Linear Model</title>
+      <para id="para-00027">Once a correlation has been deemed significant, a linear regression model is developed. The goal in the regression analysis is to determine the coefficients <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> in the following regression equation: <m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:math>. Typically some technology, such as Excel, R statistical tool, or a calculator, is used to generate the coefficients <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> since manual calculations are cumbersome.</para>
+      </section>
+      <section id="sect-00008">
+      <title>14.4 Regression Applications in Finance</title>
+      <para id="para-00028">Regression analysis is used extensively in finance-related applications. Many typical applications involve determining if there is a correlation between various stock market indices such as the S&amp;P 500, the DJIA, and the Russell 2000 index. The procedure is to first generate a scatter plot to determine if a visual trend is observed, then calculate a correlation coefficient and check for significance. If the correlation coefficient is significant, a linear model can then be generated and used for predictions.</para>
+      </section>
+      <section id="sect-00009">
+      <title>14.5 Predictions and Prediction Intervals</title>
+      <para id="para-00029">A key aspect of generating the linear regression model is to then use the model for predictions, provided that the correlation is significant. To generate predictions or forecasts using the linear regression model, substitute the value of the independent variable (<emphasis effect="italics">x</emphasis>) in the regression equation and solve the equation for the dependent variable (<emphasis effect="italics">y</emphasis>). When making predictions using the linear model, it is generally recommended to only predict values for <emphasis effect="italics">y</emphasis> using values of <emphasis effect="italics">x</emphasis> that are in the original range of the data collection.</para>
+      </section>
+      <section id="sect-00010">
+      <title>14.6 Use of R Statistical Analysis Tool for Regression Analysis</title>
+      <para id="para-00030">R is an open-source statistical analysis tool that is widely used in the finance industry and <link url="https://openstax.org/r/finance_industry">can be found online</link>. R provides an integrated suite of functions for data analysis, graphing, and correlation and regression analysis. R is increasingly being used as a data analysis and statistical tool because it is an open-source language and additional features are constantly being added by the user community. The tool can be used on many different computing platforms.</para>
+      </section>
+      </section>
+      <section class="multiple-choice" id="sect-00011">
+        <title>Multiple Choice</title>
+        <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00031"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_MCQ1"/></para></problem></exercise>
+        <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00032"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_MCQ2"/></para></problem></exercise>
+        <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00033"><link class="os-embed" url="#exercise/FI_Ch14_Sec2_MCQ3"/></para></problem></exercise>
+        <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00034"><link class="os-embed" url="#exercise/FI_Ch14_Sec2_MCQ4"/></para></problem></exercise>
+        <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00035"><link class="os-embed" url="#exercise/FI_Ch14_Sec3_MCQ5"/></para></problem></exercise>
+        <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00036"><link class="os-embed" url="#exercise/FI_Ch14_Sec3_MCQ6"/></para></problem></exercise>
+        <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00037"><link class="os-embed" url="#exercise/FI_Ch14_Sec4_MCQ7"/></para></problem></exercise>
+        <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00038"><link class="os-embed" url="#exercise/FI_Ch14_Sec5_MCQ8"/></para></problem></exercise>
+        <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00039"><link class="os-embed" url="#exercise/FI_Ch14_Sec5_MCQ9"/></para></problem></exercise>
+        <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00040"><link class="os-embed" url="#exercise/FI_Ch14_Sec6_MCQ10"/></para></problem></exercise>
+        <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00041"><link class="os-embed" url="#exercise/FI_Ch14_Sec6_MCQ11"/></para></problem></exercise>
+        </section>
+        <section class="review-questions" id="sect-00012">
+        <title>Questions</title>
+        <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00042"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_RVQ1"/></para></problem></exercise>
+        <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00043"><link class="os-embed" url="#exercise/FI_Ch14_Sec2_RVQ2"/></para></problem></exercise>
+        <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00044"><link class="os-embed" url="#exercise/FI_Ch14_Sec3_RVQ3"/></para></problem></exercise>
+        <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00045"><link class="os-embed" url="#exercise/FI_Ch14_Sec5_RVQ4"/></para></problem></exercise>
+        <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00046"><link class="os-embed" url="#exercise/FI_Ch14_Sec5_RVQ5"/></para></problem></exercise>
+        </section>
+        <section class="problem-set" id="sect-00013">
+        <title>Problems</title>
+        <exercise id="exer-00017"><problem id="prob-00017"><para id="para-00047"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_PRQ1"/></para></problem></exercise>
+        <exercise id="exer-00018"><problem id="prob-00018"><para id="para-00048"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_PRQ2"/></para></problem></exercise>
+        <exercise id="exer-00019"><problem id="prob-00019"><para id="para-00049"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_PRQ3"/></para></problem></exercise>
+        <exercise id="exer-00020"><problem id="prob-00020"><para id="para-00050"><link class="os-embed" url="#exercise/FI_Ch14_Sec3_PRQ4"/></para></problem></exercise>
+        <exercise id="exer-00021"><problem id="prob-00021"><para id="para-00051"><link class="os-embed" url="#exercise/FI_Ch14_Sec5_PRQ5"/></para></problem></exercise>
+        <exercise id="exer-00022"><problem id="prob-00022"><para id="para-00052"><link class="os-embed" url="#exercise/FI_Ch14_Sec5_PRQ6"/></para></problem></exercise>
+        <exercise id="exer-00023"><problem id="prob-00023"><para id="para-00053"><link class="os-embed" url="#exercise/FI_Ch14_Sec2_PRQ7"/></para></problem></exercise>
+        </section>
+       <section class="video-activity" id="sect-00014">
+        <section id="sect-00015">
+        <title>Simple Linear Regression</title>
+        <media alt="linear-regress">
+        <iframe width="660" height="371.4" src="https://openstax.org/r/liner_regression"/></media>
+        <exercise id="exer-00024">
+        <problem id="prob-00024">
+        <para id="para-00054"><link class="os-embed" url="#exercise/FI_Ch14_Sec3_VA1Q1"/></para>
+        </problem>
+        </exercise>
+        <exercise id="exer-00025">
+        <problem id="prob-00025">
+        <para id="para-00055"><link class="os-embed" url="#exercise/FI_Ch14_Sec3_VA1Q2"/></para>
+        </problem>
+        </exercise>
+        </section>
+      <section id="sect-00016">
+        <title>How to Calculate Correlation for Stocks, Bonds, and Funds</title>
+        <media alt="correl-stocks">
+        <iframe width="660" height="371.4" src="https://openstax.org/r/bonds_and_funds"/></media>
+        <exercise id="exer-00026">
+        <problem id="prob-00026">
+        <para id="para-00056"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_VA2Q3"/></para>
+        </problem>
+        </exercise>
+        <exercise id="exer-00027">
+        <problem id="prob-00027">
+        <para id="para-00057"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_VA2Q4"/></para>
+        </problem>
+        </exercise>
+        </section>
+      </section>
+    </content>
+    </document>
