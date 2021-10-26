@@ -224,7 +224,7 @@
       <entry align="left">Enter <span class="secondary-function">[DATA]</span> entry mode</entry>
       <entry align="left"><span class="primary-function">2<sup>nd</sup></span> <span class="secondary-function">[DATA]</span></entry>
       <entry align="left">X01</entry>
-      <entry align="left">0.00</entry>
+      <entry align="right">0.00</entry>
       </row>
       <row>
       <entry align="center">2</entry>
