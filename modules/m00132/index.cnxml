@@ -23,7 +23,7 @@
       <para id="para-00005">To calculate the correlation coefficient <emphasis effect="italics">r</emphasis>, we use the R command called <emphasis effect="italics">cor</emphasis>.</para>
       <para id="para-00006">As an example, consider the data set in Table 14.8, which tracks the return on the S&amp;P 500 versus return on<term class="no-emphasis" id="term-00002"> Coca-Cola</term> stock for a seven-month time period.</para>
       <table summary=" " id="table-00001">
-      <title>Table 14.8 Monthly Returns of Coca-Cola Stock versus Monthly Returns for the S&amp;P 500</title>
+      <title>Monthly Returns of Coca-Cola Stock versus Monthly Returns for the S&amp;P 500</title>
       <tgroup cols="3">
       <colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
@@ -87,7 +87,7 @@
       <title>Generate Linear Regression Models Using the R Statistical Tool</title>
       <para id="para-00009">To create a linear model in R, assuming the correlation is significant, the command <emphasis effect="italics">lm</emphasis> (for linear model) will provide the slope and <emphasis effect="italics">y</emphasis>-intercept for the linear regression equation.</para>
       <para id="para-00010">The format of the R command is</para>
-      <code display="block">lm(dependent_variable_vector ~ independent_variable_vector)</code>
+      <equation id="eq-00001">lm(dependent_variable_vector ~ independent_variable_vector)</equation>
       <para id="para-00011">Notice the use of the tilde symbol as the separator between the dependent variable vector and the independent variable vector.</para>
       <para id="para-00012">We use the returns on Coca-Cola stock as the dependent variable and the returns on the S&amp;P 500 as the independent variable, and thus the R command would be</para>
       <code class="r" display="block">
@@ -104,7 +104,7 @@
       <span class="blue-code"> -0.3453    0.8641</span>
       </code>
       <para id="para-00013">The R output provides the value of the <emphasis effect="italics">y</emphasis>-intercept as -0.3453 and the value of the slope as 0.8641. Based on this, the linear model would be</para>
-      <para id="para-00014"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>3453</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>8641</m:mn><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:math></para>
+      <equation id="eq-00002"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>3453</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>8641</m:mn><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:math></equation>
       <para id="para-00015">where <emphasis effect="italics">x</emphasis> represents the value of S&amp;P 500 return and <emphasis effect="italics">y</emphasis> represents the value of Coca-Cola stock return.</para>
       <para id="para-00016">The results can also be saved as a formula and called “model” using the following R command. To obtain more detailed results for the linear regression, the <emphasis effect="italics">summary</emphasis> command can be used, as follows:</para>
       <code class="r" display="block">
@@ -166,6 +166,7 @@
       <para id="para-00024">Thus the 95% prediction interval for Coca-Cola return is (0.05%, 9.62%) when the return for the S&amp;P 500 is 6%.</para>
       </section>
       <section class="section-summary" id="sect-00004">
+      <title/>
       <section id="sect-00005">
       <title>14.1 Correlation Analysis</title>
       <para id="para-00025">Correlation is the measure of association between two numeric variables. A correlation coefficient called <emphasis effect="italics">r</emphasis> is used to assess the strength and direction of the correlation. The value of <emphasis effect="italics">r</emphasis> is always between -1 and +1. The size of the correlation <emphasis effect="italics">r</emphasis> indicates the strength of the linear relationship between the two variables. Values of <emphasis effect="italics">r</emphasis> close to -1 or to +1 indicate a stronger linear relationship. A positive value of <emphasis effect="italics">r</emphasis> means that when <emphasis effect="italics">x</emphasis> increases, <emphasis effect="italics">y</emphasis> tends to increase and when <emphasis effect="italics">x</emphasis> decreases, <emphasis effect="italics">y</emphasis> tends to decrease (positive correlation). A negative value of <emphasis effect="italics">r</emphasis> means that when <emphasis effect="italics">x</emphasis> increases, <emphasis effect="italics">y </emphasis>tends to decrease and when <emphasis effect="italics">x</emphasis> decreases, <emphasis effect="italics">y</emphasis> tends to increase (negative correlation).</para>
@@ -224,6 +225,7 @@
         <exercise id="exer-00023"><problem id="prob-00023"><para id="para-00053"><link class="os-embed" url="#exercise/FI_Ch14_Sec2_PRQ7"/></para></problem></exercise>
         </section>
        <section class="video-activity" id="sect-00014">
+        <title/>
         <section id="sect-00015">
         <title>Simple Linear Regression</title>
         <media alt="linear-regress">

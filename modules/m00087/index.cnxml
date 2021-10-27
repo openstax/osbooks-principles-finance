@@ -26,7 +26,7 @@
       <para id="para-00007">In this format, <emphasis effect="italics">b</emphasis> is the slope of the line, and <emphasis effect="italics">a</emphasis> is the <emphasis effect="italics">y</emphasis>-intercept of the line. The notation <m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:math> is called <emphasis effect="italics">y-hat</emphasis> and is used to indicate a predicted value of the dependent variable <emphasis effect="italics">y</emphasis> for a certain value of the independent variable <emphasis effect="italics">x</emphasis>.</para>
       <para id="para-00008">If a line extends uphill from left to right, the slope is a positive value, and if the line extends downhill from left to right, the slope is a negative value. Refer to Figure 14.3.</para>
       <figure id="fig-00001">
-      <title><emphasis effect="bold">Figure 14.3</emphasis> Three Possible Graphs of <m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo> </m:mo></m:math></title>
+      <title>Three Possible Graphs of <m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo> </m:mo></m:math></title>
       <media alt="Three possible line graphs for the equation ŷ = a + bx, labeled (a), (b), and (c) respectively. Graph (a) shows a line sloping upward to the right, if b > 0. Graph (b) shows a horizontal line, if b = 0. Graph (c) shows a line sloping downward to the right, if b &lt; 0.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_02_003.png"/></media>
       <caption>(a) If <m:math><m:mi>b</m:mi><m:mo>></m:mo><m:mn>0</m:mn></m:math>, the line slopes upward to the right. (b) If <m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>, the line is horizontal. (c) If <m:math><m:mi>b</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn></m:math>, the line slopes downward to the right.</caption></figure>
@@ -37,7 +37,7 @@
       <para id="para-00012">where <emphasis effect="italics">x</emphasis> represents the monthly amount spent on advertising (in thousands of dollars) and <m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:math> represents the monthly revenues for the company (in thousands of dollars).</para>
       <para id="para-00013">A scatter plot of the (<emphasis effect="italics">x, y</emphasis>) data is shown in Figure 14.4.</para>
       <figure id="fig-00002">
-      <title><emphasis effect="bold">Figure 14.4</emphasis> Scatter Plot of Revenue versus Advertising for a Fortune 500 Company ($000s)</title>
+      <title>Scatter Plot of Revenue versus Advertising for a Fortune 500 Company ($000s)</title>
       <media alt="A scatter plot helps a Fortune 500 company predict its monthly revenue, depending on level of advertising spend. The diagram shows its revenue increasing from approximately $12,000,000 to $19,000,000, as advertising spend increases from approximately $50,000 to $150,000.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_02_004.png"/></media>
       <caption/></figure>
@@ -80,7 +80,7 @@
       <item>The data are produced from a well-designed, random sample or randomized experiment.</item>
       </list>
       <figure id="fig-00003">
-      <title><emphasis effect="bold">Figure 14.5</emphasis> Best-Fit Line</title>
+      <title>Best-Fit Line</title>
       <media alt="Two diagrams of a best-fit line. The first diagram (a) shows a linearly descending line running through the center of three sets of scattered points along the y-axis. The second diagram (b) shows a linearly descending line running through the mean of three tilted bell curves.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_02_005.png"/></media>
       <caption>The <emphasis effect="italics">y</emphasis>-values for each <emphasis effect="italics">x</emphasis>-value are normally distributed about the line with the same standard deviation. For each <emphasis effect="italics">x</emphasis>-value, the mean of the <emphasis effect="italics">y</emphasis>-values lies on the regression line. More <emphasis effect="italics">y</emphasis>-values lie near the line than are scattered further away from the line.</caption></figure>

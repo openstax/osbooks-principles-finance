@@ -24,7 +24,7 @@
       <para id="para-00005"><emphasis effect="bold">Using <term class="no-emphasis" id="term-00001">Excel</term>:</emphasis> To calculate the slope and <emphasis effect="italics">y</emphasis>-intercept of the linear model, start by entering the (<emphasis effect="italics">x, y</emphasis>) data in two columns in Excel. Then the Excel commands =SLOPE and =INTERCEPT can be used to calculate the slope and intercept, respectively.</para>
       <para id="para-00006">The following data set will be used as an example: the monthly amount spent on advertising and the monthly revenue for a Fortune 500 company for 12 months (data is shown in Table 14.4).</para>
       <table summary=" " id="table-00001">
-      <title>Table 14.4 Revenue versus Advertising for Fortune 500 Company ($000s)</title>
+      <title>Revenue versus Advertising for Fortune 500 Company ($000s)</title>
       <tgroup cols="3">
       <colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
@@ -101,17 +101,17 @@
       </tgroup>
       </table>
       <para id="para-00007">To calculate the slope of the regression model, use the Excel command</para>
-      <code display="block">=SLOPE(<emphasis effect="italics">y-</emphasis>data range, <emphasis effect="italics">x</emphasis>-data range)</code>
+      <equation id="eq-00009">=SLOPE(<m:math><m:mi>y</m:mi></m:math>-data range, <m:math><m:mi>x</m:mi></m:math>-data range)</equation>
       <para id="para-00008">It’s important to note that this Excel command expects that the <emphasis effect="italics">y</emphasis>-data range is entered first and the <emphasis effect="italics">x</emphasis>-data range is entered second. Since revenue depends on amount spent on advertising, revenue is considered the <emphasis effect="italics">y</emphasis>-variable and amount spent on advertising is considered the <emphasis effect="italics">x</emphasis>-variable. Notice the <emphasis effect="italics">y</emphasis>-data is contained in cells C2 through C13 and the <emphasis effect="italics">x</emphasis>-data is contained in cells B2 through B13. Thus the Excel command for slope would be entered as</para>
       <equation id="eq-00003">=SLOPE(C2:C13, B2:B13)</equation>
       <para id="para-00009">In the same way, the Excel command to calculate the <emphasis effect="italics">y</emphasis>-intercept of the regression model is</para>
-      <para id="para-00010">=INTERCEPT(<emphasis effect="italics">y-</emphasis>data range, <emphasis effect="italics">x</emphasis>-data range)</para>
+      <equation id="eq-00010">=INTERCEPT(<m:math><m:mi>y</m:mi></m:math>-data range, <m:math><m:mi>x</m:mi></m:math>-data range)</equation>
       <para id="para-00011">For the data set shown in the above table, the Excel command would be</para>
       <equation id="eq-00004">=INTERCEPT(C2:C13, B2:B13)</equation>
       <para id="para-00012">The results are shown in Figure 14.6, where</para>
       <equation id="eq-00005"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mpadded lspace="-1px"><m:mi>slope</m:mi><m:mo> </m:mo><m:mi>b</m:mi><m:mo> </m:mo></m:mpadded></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mo> </m:mo><m:mn>61</m:mn><m:mo>.</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>intercept</m:mi><m:mo> </m:mo><m:mi>a</m:mi><m:mo> </m:mo></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mo> </m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>376</m:mn><m:mo>.</m:mo><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
       <figure id="fig-00001">
-      <title><emphasis effect="bold">Figure 14.6</emphasis> Revenue versus Advertising for Fortune 500
+      <title>Revenue versus Advertising for Fortune 500
       Company ($000s) Showing Slope and <emphasis effect="italics">y</emphasis>-Intercept Calculation in Excel</title>
       <media alt="A screenshot of a spreadsheet showing the Excel commands to calculate the slope and intercept of monthly values for advertising expenditure and revenue from January to December. The calculated slope is 61.8 and the calculated intercept is 9,376.7.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_03_006.png"/></media>
@@ -125,7 +125,7 @@
       <para id="para-00015">The financial calculator provides the slope and <emphasis effect="italics">y</emphasis>-intercept for the linear regression model once the (<emphasis effect="italics">x, y</emphasis>) data is inputted into the calculator.</para>
       <para id="para-00016">Follow the steps in Table 14.5 for calculating the slope and <emphasis effect="italics">y</emphasis>-intercept for the data set of amounts spent on advertising and revenue shown previously.</para>
       <table summary=" " id="table-00002">
-      <title>Table 14.5 Calculator Steps for the Slope and y-Intercept</title>
+      <title>Calculator Steps for the Slope and y-Intercept</title>
       <tgroup cols="5">
       <colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>

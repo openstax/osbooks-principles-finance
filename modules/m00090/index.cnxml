@@ -20,7 +20,7 @@
       <para id="para-00003">As an example, suppose we would like to determine if there is a correlation between the Russell 2000 index and the DJIA. Does the value of the Russell 2000 index depend on the value of the <term class="no-emphasis" id="term-00004">DJIA</term>? Is it possible to predict the value of the Russell 2000 index for a certain value of the DJIA? We can explore these questions using regression analysis.</para>
       <para id="para-00004">Table 14.6 shows a summary of monthly closing prices of the DJIA and the Russell 2000 for a 12-month time period. We consider the DJIA to be the independent variable and the Russell 2000 index to be the dependent variable.</para>
       <table summary=" " id="table-00001">
-      <title>Table 14.6 Monthly Closing Prices of the DJIA and the Russell 2000 for a 12-Month Time Period</title>
+      <title>Monthly Closing Prices of the DJIA and the Russell 2000 for a 12-Month Time Period</title>
       <tgroup cols="3">
       <colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
@@ -98,14 +98,16 @@
       <caption>(source: Yahoo! Finance)</caption>
       </table>
       <para id="para-00005">The first step is to create a scatter plot to determine if the data points appear to follow a linear pattern. The scatter plot is shown in Figure 14.7. The scatter plot clearly shows a linear pattern; the next step is to calculate the correlation coefficient and determine if the correlation is significant.</para>
-      <para id="para-00006">Using the Excel command =CORREL, the correlation coefficient is calculated to be 0.947. This value of the correlation coefficient is significant using the test for significance referenced earlier in <link document="m00086">Correlation Analysis</link>.</para>
-      <para id="para-00007">Using the Excel commands =SLOPE and =INTERCEPT, the value of the slope and <emphasis effect="italics">y</emphasis>-intercept are calculated as 0.11 and -1,496.34, respectively, when rounded to two decimal places.</para>
+      <list id="list-00002">
+      <item>Using the Excel command =CORREL, the correlation coefficient is calculated to be 0.947. This value of the correlation coefficient is significant using the test for significance referenced earlier in <link document="m00086">Correlation Analysis</link>.</item>
+      <item>Using the Excel commands =SLOPE and =INTERCEPT, the value of the slope and <emphasis effect="italics">y</emphasis>-intercept are calculated as 0.11 and -1,496.34, respectively, when rounded to two decimal places.</item>
+      </list>
       <para id="para-00008">The Excel output is shown below:</para>
-      <para id="para-00009">=CORREL(C3:C14,B3:B14):	 0.947</para>
-      <para id="para-00010">=SLOPE(C3:C14,B3:B14):	 0.113</para>
+      <para id="para-00009">=CORREL(C3:C14,B3:B14):   0.947</para>
+      <para id="para-00010">=SLOPE(C3:C14,B3:B14):    0.113</para>
       <para id="para-00011">=INTERCEPT(C3:C14,B3:B14): 	-1,496.340</para>      
       <figure id="fig-00001">
-      <title><emphasis effect="bold">Figure 14.7</emphasis> Scatter Plot for Monthly Closing Prices of the DJIA versus the Russell 2000 for a 12-Month Time Period</title>
+      <title>Scatter Plot for Monthly Closing Prices of the DJIA versus the Russell 2000 for a 12-Month Time Period</title>
       <media alt="A scatter plot showing a positive correlation between the monthly closing prices of the Russell 2000 and the Dow Jones Industrial Average stock index values over 12 months. The diagram shows the Russell 2000 index rising from approximately 1,400 to over 2,200, as the DJIA increases from approximately 25,000 to over 34,000.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_04_007.png"/></media>
       <caption>(source: Yahoo! Finance)</caption>
@@ -121,7 +123,7 @@
       <para id="para-00015">An important application of regression analysis is to determine the systematic risk for a particular stock, which is referred to as <term id="term-00005">beta</term>. A stock’s beta is a measure of the volatility of the stock compared to a benchmark such as the S&amp;P 500 index. If a stock has more volatility compared to the benchmark, then the stock will have a beta greater than 1.0. If a stock has less volatility compared to the benchmark, then the stock will have a beta less than 1.0.</para>
       <para id="para-00016">Beta can be determined as the slope of the regression line when the stock returns are plotted versus the returns for the benchmark, such as the S&amp;P 500. As an example, consider the calculation for beta of Nike stock based on monthly returns of Nike stock versus monthly returns for the S&amp;P 500 over the time period from May 2020 to March 2021. The monthly return data is shown in Table 14.7.</para>
       <table summary=" " id="table-00002">
-      <title>Table 14.7 Monthly Returns of Nike Stock versus Monthly Returns for the S&amp;P 500 </title>
+      <title>Monthly Returns of Nike Stock versus Monthly Returns for the S&amp;P 500 </title>
       <tgroup cols="5">
       <colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
@@ -235,7 +237,7 @@
       </table>
       <para id="para-00017">The scatter plot that graphs S&amp;P monthly return versus Nike monthly return is shown in Figure 14.8.</para>
       <figure id="fig-00002">
-      <title><emphasis effect="bold">Figure 14.8</emphasis> Scatter Plot of Monthly Returns of Nike Stock versus Monthly Returns for the S&amp;P 500 ($)</title>
+      <title>Scatter Plot of Monthly Returns of Nike Stock versus Monthly Returns for the S&amp;P 500 ($)</title>
       <media alt="A scatter plot of the monthly return for Nike stock against the monthly return for the S&amp;P 500 index shows a dashed regression line through the scatter points. This is a regression line corresponding to the slope of 0.83 and the formula y = 0.83x + 0.02.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_04_008.png"/></media>
       <caption>(source: Yahoo! Finance)</caption>

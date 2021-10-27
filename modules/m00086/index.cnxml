@@ -21,7 +21,7 @@
       <para id="para-00003"><term id="term-00001">Correlation</term> is the measure of association between two numeric variables. For example, we may be interested to know if there is a correlation between bond prices and interest rates or between the age of a car and the value of the car. To investigate the correlation between two numeric quantities, the first step is to create a scatter plot that will graph the (<emphasis effect="italics">x, y</emphasis>) ordered pairs. The independent, or explanatory, quantity is labeled as the <emphasis effect="italics">x</emphasis>-variable, and the dependent, or response, quantity is labeled as the <emphasis effect="italics">y</emphasis>-variable.</para>
       <para id="para-00004">For example, we may be interested to know if the price of <term class="no-emphasis" id="term-00002">Nike</term> stock is correlated with the value of the <term class="no-emphasis" id="term-00003">S&amp;P 500</term> (<term class="no-emphasis" id="term-00004">Standard &amp; Poor’s 500 stock market index</term>). To investigate this, monthly data can be collected for Nike stock prices and value of the S&amp;P 500 for a period of time, and a scatter plot can be created and examined. A <term id="term-00005">scatter plot</term>, or <term id="term-00006">scatter diagram</term>, is a graphical display intended to show the relationship between two variables. The setup of the scatter plot is that one variable is plotted on the horizontal axis and the other variable is plotted on the vertical axis. Each pair of data values is considered as an (<emphasis effect="italics">x, y</emphasis>) point, and the various points are plotted on the diagram. A visual inspection of the plot is then made to detect any patterns or trends on the scatter diagram. Table 14.1 shows the relationship between the Nike stock price and its S&amp;P value over a one-year time period.</para>
       <table summary=" " id="table-00001">
-      <title>Table 14.1 Nike Stock Price ($) and Value of S&amp;P 500 over a One-Year Time Period</title>
+      <title>Nike Stock Price ($) and Value of S&amp;P 500 over a One-Year Time Period</title>
       <tgroup cols="3">
       <colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
@@ -105,7 +105,7 @@
       </table>
       <para id="para-00005">To assess linear correlation, the graphical trend of the data points is examined on the scatter plot to determine if a straight-line pattern exists. If a linear pattern exists, the correlation may indicate either a positive or a negative correlation. A positive correlation indicates that as the independent variable increases, the dependent variable tends to increase as well, or, as the independent variable decreases, the dependent variable tends to decrease (the two quantities move in the same direction). A negative correlation indicates that as the independent variable increases, the dependent variable decreases, or, as the independent variable decreases, the dependent variable increases (the two quantities move in opposite directions). If there is no relationship or association between the two quantities, where one quantity changing does not affect the other quantity, we conclude that there is no correlation between the two variables.</para>
       <figure id="fig-00001">
-      <title><emphasis effect="bold">Figure 14.2</emphasis> Scatter Plot of Nike Stock Price ($) and Value of S&amp;P 500</title>
+      <title>Scatter Plot of Nike Stock Price ($) and Value of S&amp;P 500</title>
       <media alt="A scatter plot showing a positive correlation between the Nike stock price and the value of the S&amp;P 500 over 12 months. As the Nike stock price rises from approximately $87 to $140 per share, the S&amp;P 500 rises from approximately 2,900 to 4,000.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_01_002.png"/></media>
       <caption>(source: Yahoo! Finance)</caption></figure>
@@ -114,10 +114,9 @@
       <para id="para-00008">The <term id="term-00007">correlation coefficient</term>, which was developed by statistician Karl Pearson in the early 1900s, is a measure of the strength and direction of the correlation between the independent variable <emphasis effect="italics">x</emphasis> and the dependent variable <emphasis effect="italics">y</emphasis>.</para>
       <para id="para-00009">The formula for <emphasis effect="italics">r</emphasis> is shown below; however, technology, such as Excel or the statistical analysis program R, is typically used to calculate the correlation coefficient.</para>        
       <equation id="eq-00001"><m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>∑</m:mo><m:mrow><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>-</m:mo><m:mo>(</m:mo><m:mo>∑</m:mo><m:mrow><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mo>∑</m:mo><m:mrow><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow><m:msqrt><m:mi>n</m:mi><m:mo>∑</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mo>∑</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:msqrt><m:msqrt><m:mi>n</m:mi><m:mo>∑</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mo>∑</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:msqrt></m:mrow></m:mfrac></m:math></equation>
-      <para id="para-00010">where <emphasis effect="italics">n</emphasis> refers to the number of data pairs and the symbol <m:math><m:mo>∑</m:mo><m:mi>x</m:mi></m:math></para>
-      <para id="para-00011">indicates to sum the <emphasis effect="italics">x</emphasis>-values.</para>
+      <para id="para-00010">where <emphasis effect="italics">n</emphasis> refers to the number of data pairs and the symbol <m:math><m:mo>∑</m:mo><m:mi>x</m:mi></m:math> indicates to sum the <emphasis effect="italics">x</emphasis>-values.</para>
       <table summary=" " id="table-00002">
-      <title>Table 14.2 Steps for Calculating the Correlation Coefficient</title>
+      <title>Steps for Calculating the Correlation Coefficient</title>
       <tgroup cols="2">
       <colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
@@ -171,7 +170,7 @@
       <section id="sect-00003">
       <title>Interpret a Correlation Coefficient</title>
       <para id="para-00017">Once the value of <emphasis effect="italics">r</emphasis> is calculated, this measurement provides two indicators for the correlation:</para>
-      <list list-type="enumerated" number-style="lower-alpha" class="stepwise" id="list-00002">
+      <list list-type="enumerated" number-style="lower-alpha" id="list-00002">
       <item>the strength of the correlation based on the <emphasis effect="italics">value</emphasis> of <emphasis effect="italics">r</emphasis></item>
       <item>the direction of the correlation based on the <emphasis effect="italics">sign</emphasis> of <emphasis effect="italics">r</emphasis></item>
       </list>
@@ -203,7 +202,7 @@
       </list>
       <para id="para-00025">Follow the steps in Table 14.3 for calculating the correlation data for the data set of Nike stock price and value of the S&amp;P 500 shown previously.</para>
       <table summary=" " id="table-00003">
-      <title>Table 14.3 Calculator Steps for Finding the Relationship between Nike Stock Price and Value of S&amp;P 500</title>
+      <title>Calculator Steps for Finding the Relationship between Nike Stock Price and Value of S&amp;P 500</title>
       <tgroup cols="5">
       <colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
