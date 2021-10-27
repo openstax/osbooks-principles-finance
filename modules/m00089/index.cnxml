@@ -105,7 +105,7 @@
       <para id="para-00008">It’s important to note that this Excel command expects that the <emphasis effect="italics">y</emphasis>-data range is entered first and the <emphasis effect="italics">x</emphasis>-data range is entered second. Since revenue depends on amount spent on advertising, revenue is considered the <emphasis effect="italics">y</emphasis>-variable and amount spent on advertising is considered the <emphasis effect="italics">x</emphasis>-variable. Notice the <emphasis effect="italics">y</emphasis>-data is contained in cells C2 through C13 and the <emphasis effect="italics">x</emphasis>-data is contained in cells B2 through B13. Thus the Excel command for slope would be entered as</para>
       <equation id="eq-00003">=SLOPE(C2:C13, B2:B13)</equation>
       <para id="para-00009">In the same way, the Excel command to calculate the <emphasis effect="italics">y</emphasis>-intercept of the regression model is</para>
-      <equation id="eq-00010">=INTERCEPT(<m:math><m:mi>y</m:mi></m:math>-data range, <m:math><m:mi>x</m:mi></m:math>-data range)</equation>
+      <equation id="eq-00010">=INTERCEPT(<m:math><m:mi>y</m:mi></m:math>-data range, <m:math><m:mi>y</m:mi></m:math>-data range)</equation>
       <para id="para-00011">For the data set shown in the above table, the Excel command would be</para>
       <equation id="eq-00004">=INTERCEPT(C2:C13, B2:B13)</equation>
       <para id="para-00012">The results are shown in Figure 14.6, where</para>
