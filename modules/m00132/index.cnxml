@@ -21,7 +21,7 @@
       <para id="para-00004">The typical method for using functions in statistical applications is to first create a vector of data values. There are several ways to create vectors in R. For example, the c function is often used to combine values into a vector. For example, this R command will generate a vector called salaries, containing the data values 40,000, 50,000, 75,000, and 92,000:</para>
       <code class="r" display="block"><span class="red-code">> salaries &lt;- c(40000, 50000, 75000, 92000)</span></code>
       <para id="para-00005">To calculate the correlation coefficient <emphasis effect="italics">r</emphasis>, we use the R command called <emphasis effect="italics">cor</emphasis>.</para>
-      <para id="para-00006">As an example, consider the data set in Table 14.8, which tracks the return on the S&amp;P 500 versus return on<term class="no-emphasis" id="term-00002"> Coca-Cola</term> stock for a seven-month time period.</para>
+      <para id="para-00006">As an example, consider the data set in <link target-id="table-00001" document="m00132"/>, which tracks the return on the S&amp;P 500 versus return on<term class="no-emphasis" id="term-00002"> Coca-Cola</term> stock for a seven-month time period.</para>
       <table summary=" " id="table-00001">
       <title>Monthly Returns of Coca-Cola Stock versus Monthly Returns for the S&amp;P 500</title>
       <tgroup cols="3">
@@ -31,8 +31,10 @@
       <thead>
       <row>
       <entry align="center">Month</entry>
-      <entry align="center">S&amp;P 500 Monthly Return (%)</entry>
-      <entry align="center">Coca-Cola Monthly Return (%)</entry>
+      <entry align="center"><para id="para-00014">S&amp;P 500</para>
+      <para id="para-00025">Monthly Return (%)</para></entry>
+      <entry align="center"><para id="para-00026">Coca-Cola</para>
+      <para id="para-00027">Monthly Return (%)</para></entry>
       </row>
       </thead>
       <tbody>
@@ -167,30 +169,7 @@
       </section>
       <section class="section-summary" id="sect-00004">
       <title/>
-      <section id="sect-00005">
-      <title>14.1 Correlation Analysis</title>
-      <para id="para-00025">Correlation is the measure of association between two numeric variables. A correlation coefficient called <emphasis effect="italics">r</emphasis> is used to assess the strength and direction of the correlation. The value of <emphasis effect="italics">r</emphasis> is always between -1 and +1. The size of the correlation <emphasis effect="italics">r</emphasis> indicates the strength of the linear relationship between the two variables. Values of <emphasis effect="italics">r</emphasis> close to -1 or to +1 indicate a stronger linear relationship. A positive value of <emphasis effect="italics">r</emphasis> means that when <emphasis effect="italics">x</emphasis> increases, <emphasis effect="italics">y</emphasis> tends to increase and when <emphasis effect="italics">x</emphasis> decreases, <emphasis effect="italics">y</emphasis> tends to decrease (positive correlation). A negative value of <emphasis effect="italics">r</emphasis> means that when <emphasis effect="italics">x</emphasis> increases, <emphasis effect="italics">y </emphasis>tends to decrease and when <emphasis effect="italics">x</emphasis> decreases, <emphasis effect="italics">y</emphasis> tends to increase (negative correlation).</para>
-      </section>
-      <section id="sect-00006">
-      <title>14.2 Linear Regression Analysis</title>
-      <para id="para-00026">Linear regression analysis uses a straight-line fit to model the relationship between the two variables. Once a straight-line model is developed, this model can then be used to predict the value of the dependent variable for a specific value of the independent variable. Two parameters are calculated for the linear model, the slope of the best-fit line and the <emphasis effect="italics">y</emphasis>-intercept of the best-fit line. The method of least squares is used to generate these parameters; this method is based on minimizing the squared differences between the predicted values and observed values for <emphasis effect="italics">y</emphasis>.</para>
-      </section>
-      <section id="sect-00007">
-      <title>14.3 Best-Fit Linear Model</title>
-      <para id="para-00027">Once a correlation has been deemed significant, a linear regression model is developed. The goal in the regression analysis is to determine the coefficients <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> in the following regression equation: <m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:math>. Typically some technology, such as Excel, R statistical tool, or a calculator, is used to generate the coefficients <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> since manual calculations are cumbersome.</para>
-      </section>
-      <section id="sect-00008">
-      <title>14.4 Regression Applications in Finance</title>
-      <para id="para-00028">Regression analysis is used extensively in finance-related applications. Many typical applications involve determining if there is a correlation between various stock market indices such as the S&amp;P 500, the DJIA, and the Russell 2000 index. The procedure is to first generate a scatter plot to determine if a visual trend is observed, then calculate a correlation coefficient and check for significance. If the correlation coefficient is significant, a linear model can then be generated and used for predictions.</para>
-      </section>
-      <section id="sect-00009">
-      <title>14.5 Predictions and Prediction Intervals</title>
-      <para id="para-00029">A key aspect of generating the linear regression model is to then use the model for predictions, provided that the correlation is significant. To generate predictions or forecasts using the linear regression model, substitute the value of the independent variable (<emphasis effect="italics">x</emphasis>) in the regression equation and solve the equation for the dependent variable (<emphasis effect="italics">y</emphasis>). When making predictions using the linear model, it is generally recommended to only predict values for <emphasis effect="italics">y</emphasis> using values of <emphasis effect="italics">x</emphasis> that are in the original range of the data collection.</para>
-      </section>
-      <section id="sect-00010">
-      <title>14.6 Use of R Statistical Analysis Tool for Regression Analysis</title>
       <para id="para-00030">R is an open-source statistical analysis tool that is widely used in the finance industry and <link url="https://openstax.org/r/finance_industry">can be found online</link>. R provides an integrated suite of functions for data analysis, graphing, and correlation and regression analysis. R is increasingly being used as a data analysis and statistical tool because it is an open-source language and additional features are constantly being added by the user community. The tool can be used on many different computing platforms.</para>
-      </section>
       </section>
       <section class="multiple-choice" id="sect-00011">
         <title>Multiple Choice</title>
@@ -229,7 +208,7 @@
         <section id="sect-00015">
         <title>Simple Linear Regression</title>
         <media alt="linear-regress">
-        <iframe width="660" height="371.4" src="https://openstax.org/r/liner_regression"/></media>
+        <iframe width="660" height="371.4" src="https://openstax.org/r/linear_regression"/></media>
         <exercise id="exer-00024">
         <problem id="prob-00024">
         <para id="para-00054"><link class="os-embed" url="#exercise/FI_Ch14_Sec3_VA1Q1"/></para>
