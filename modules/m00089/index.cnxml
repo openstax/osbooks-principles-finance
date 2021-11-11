@@ -266,7 +266,7 @@
       </table>
       <para id="para-00017">From the statistical results shown on the calculator display, the slope <emphasis effect="italics">b</emphasis> is 61.8 and the <emphasis effect="italics">y</emphasis>-intercept <emphasis effect="italics">a</emphasis> is 9,367.7.</para>
       <para id="para-00018">Based on this, the regression equation can be written as</para>
-      <equation id="eq-00007"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>376</m:mn><m:mo>.</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>61</m:mn><m:mo>.</m:mo><m:mn>8</m:mn><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:math></equation>
+      <equation id="eq-00007"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo></m:mtd><m:mtd><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:mtd></m:mtr><m:mtr><m:mtd><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>376</m:mn><m:mo>.</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>61</m:mn><m:mo>.</m:mo><m:mn>8</m:mn><m:mi>x</m:mi></m:mtd></m:mtr></m:mtable></m:math></equation>
       </section>
       </section>
       <section id="sect-00004">
