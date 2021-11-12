@@ -163,7 +163,7 @@
       <para id="para-00012">Note that since <emphasis effect="italics">r</emphasis> is calculated using sample data, <emphasis effect="italics">r</emphasis> is considered a sample statistic used to measure the strength of the correlation for the two population variables. Sample data indicates data based on a subset of the entire population.</para>
       <para id="para-00013">Given the complexity of this calculation, Excel or other software is typically used to calculate the correlation coefficient.</para>
       <para id="para-00014">The Excel command to calculate the correlation coefficient uses the following format:</para>
-      <equation id="eq-00002">=CORREL(A1:A10, B1:B10)</equation>
+      <code class="centered-code">=CORREL(A1:A10, B1:B10)</code>
       <para id="para-00015">where A1:A10 are the cells containing the <emphasis effect="italics">x</emphasis>-values and B1:B10 are the cells containing the <emphasis effect="italics">y</emphasis>-values.</para>
       <note class="excel-spreadsheet" id="note-00001">
       <para id="para-00016">Download the spreadsheet file containing key Chapter 14 Excel exhibits <link url="https://openstax.org/r/excel_exhibits">at this website</link>.</para>
@@ -194,7 +194,7 @@
       <para id="para-00020"><link url="https://openstax.org/r/video_correlation">This video on correlation concepts</link> discusses them with a specific focus on finance applications.</para>
       </note>
       <para id="para-00021">The Excel command used to find the value of the correlation coefficient for the Nike stock versus S&amp;P 500 example (refer back to <link target-id="table-00001" document="m00086"/>) is</para>
-      <equation id="eq-00003">=CORREL(B2:B14,C2:C14)</equation>
+      <code class="centered-code">=CORREL(B2:B14,C2:C14)</code>
       <para id="para-00022">In this example, the value of <emphasis effect="italics">r</emphasis> is calculated by Excel to be <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>928</m:mn></m:math>.</para>
       <para id="para-00023">Since this is a positive value close to 1, we conclude that the relationship between Nike stock and the value of the S&amp;P 500 over this time period represents a strong, positive correlation.</para>
       <para id="para-00024">The correlation coefficient <emphasis effect="italics">r</emphasis> can also be determined using the statistical capability on the <term class="no-emphasis" id="term-00009">financial calculator</term>:</para>

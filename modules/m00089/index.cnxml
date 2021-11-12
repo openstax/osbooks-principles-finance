@@ -102,13 +102,13 @@
       </tgroup>
       </table>
       <para id="para-00007">To calculate the slope of the regression model, use the Excel command</para>
-      <code display="block">=SLOPE(<emphasis effect="italics">y</emphasis>-data range, <emphasis effect="italics">x</emphasis>-data range)</code>
+      <code class="centered-code">=SLOPE(<emphasis effect="italics">y</emphasis>-data range, <emphasis effect="italics">x</emphasis>-data range)</code>
       <para id="para-00008">It’s important to note that this Excel command expects that the <emphasis effect="italics">y</emphasis>-data range is entered first and the <emphasis effect="italics">x</emphasis>-data range is entered second. Since revenue depends on amount spent on advertising, revenue is considered the <emphasis effect="italics">y</emphasis>-variable and amount spent on advertising is considered the <emphasis effect="italics">x</emphasis>-variable. Notice the <emphasis effect="italics">y</emphasis>-data is contained in cells C2 through C13 and the <emphasis effect="italics">x</emphasis>-data is contained in cells B2 through B13. Thus the Excel command for slope would be entered as</para>
-      <equation id="eq-00003">=SLOPE(C2:C13, B2:B13)</equation>
+      <code class="centered-code">=SLOPE(C2:C13, B2:B13)</code>
       <para id="para-00009">In the same way, the Excel command to calculate the <emphasis effect="italics">y</emphasis>-intercept of the regression model is</para>
-      <code display="block">=INTERCEPT(<emphasis effect="italics">y</emphasis>-data range, <emphasis effect="italics">x</emphasis>-data range)</code>
+      <code class="centered-code">=INTERCEPT(<emphasis effect="italics">y</emphasis>-data range, <emphasis effect="italics">x</emphasis>-data range)</code>
       <para id="para-00011">For the data set shown in the above table, the Excel command would be</para>
-      <equation id="eq-00004">=INTERCEPT(C2:C13, B2:B13)</equation>
+      <code class="centered-code">=INTERCEPT(C2:C13, B2:B13)</code>
       <para id="para-00012">The results are shown in <link target-id="fig-00001" document="m00089"/>, where</para>
       <equation id="eq-00005"><m:math><m:mtable columnspacing="0px" columnalign="right center left"><m:mtr><m:mtd><m:mpadded lspace="-1px"><m:mi>slope</m:mi><m:mo> </m:mo><m:mi>b</m:mi><m:mo> </m:mo></m:mpadded></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mo> </m:mo><m:mn>61</m:mn><m:mo>.</m:mo><m:mn>8</m:mn></m:mtd></m:mtr><m:mtr><m:mtd><m:mi>intercept</m:mi><m:mo> </m:mo><m:mi>a</m:mi><m:mo> </m:mo></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mo> </m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>376</m:mn><m:mo>.</m:mo><m:mn>7</m:mn></m:mtd></m:mtr></m:mtable></m:math></equation>
       <figure id="fig-00001">

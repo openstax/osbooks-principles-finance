@@ -103,9 +103,9 @@
       <item>Using the Excel commands =SLOPE and =INTERCEPT, the value of the slope and <emphasis effect="italics">y</emphasis>-intercept are calculated as 0.11 and -1,496.34, respectively, when rounded to two decimal places.</item>
       </list>
       <para id="para-00008">The Excel output is shown below:</para>
-      <equation id="eq-00005">=CORREL(C3:C14,B3:B14):   0.947</equation>
-      <equation id="eq-00006">=SLOPE(C3:C14,B3:B14):    0.113</equation>
-      <equation id="eq-00007">=INTERCEPT(C3:C14,B3:B14): 	-1,496.340</equation>      
+      <code class="centered-code">=CORREL(C3:C14,B3:B14):   0.947</code>
+      <code class="centered-code">=SLOPE(C3:C14,B3:B14):    0.113</code>
+      <code class="centered-code">=INTERCEPT(C3:C14,B3:B14): 	-1,496.340</code>
       <figure id="fig-00001">
       <title>Scatter Plot for Monthly Closing Prices of the DJIA versus the Russell 2000 for a 12-Month Time Period</title>
       <media alt="A scatter plot showing a positive correlation between the monthly closing prices of the Russell 2000 and the Dow Jones Industrial Average stock index values over 12 months. The diagram shows the Russell 2000 index rising from approximately 1,400 to over 2,200, as the DJIA increases from approximately 25,000 to over 34,000.">
@@ -246,8 +246,8 @@
       <caption>(source: Yahoo! Finance)</caption>
       </figure>
       <para id="para-00018">The slope of the regression line is 0.83, obtained by using the =SLOPE command in Excel.</para>
-      <equation id="eq-00003">=SLOPE (E4:E15,C4:C15)</equation>
-      <equation id="eq-00004">= 0.8306816.58</equation>
+      <code class="centered-code">=SLOPE (E4:E15,C4:C15)</code>
+      <code class="centered-code">= 0.8306816.58</code>
       <para id="para-00019">This indicates the value of beta for Nike stock is 0.83, which indicates that Nike stock had lower volatility versus the S&amp;P 500 for the time period of interest.</para>      
       </section>
       <section class="section-summary" id="sect-00004">
