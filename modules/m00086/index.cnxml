@@ -166,7 +166,7 @@
       <code class="centered-code">=CORREL(A1:A10, B1:B10)</code>
       <para id="para-00015">where A1:A10 are the cells containing the <emphasis effect="italics">x</emphasis>-values and B1:B10 are the cells containing the <emphasis effect="italics">y</emphasis>-values.</para>
       <note class="excel-spreadsheet" id="note-00001">
-      <para id="para-00016">Download the spreadsheet file containing key Chapter 14 Excel exhibits <link url="https://openstax.org/r/excel_exhibits">at this website</link>.</para>
+      <para id="para-00016">Download the <link url="https://openstax.org/r/excel_exhibits">spreadsheet file</link> containing key Chapter 14 Excel exhibits.</para>
       </note>
       </section>
       <section id="sect-00003">
@@ -179,8 +179,8 @@
       <para id="para-00018">The <emphasis effect="italics">value</emphasis> of <emphasis effect="italics">r</emphasis> gives us this information:</para>
       <list id="list-00003">
       <item>The value of <emphasis effect="italics">r</emphasis> is always between <m:math><m:mo>-</m:mo><m:mn>1</m:mn></m:math> and <m:math><m:mo>+</m:mo><m:mn>1</m:mn></m:math>: <m:math><m:mo>-</m:mo><m:mn>1</m:mn><m:mo> </m:mo><m:mo>≤</m:mo><m:mo> </m:mo><m:mi>r</m:mi><m:mo> </m:mo><m:mo>≤</m:mo><m:mo> </m:mo><m:mn>1</m:mn></m:math></item>
-      <item>The size of the correlation <emphasis effect="italics">r</emphasis> indicates the strength of the <term class="no-emphasis" id="term-00008">linear</term> relationship between the two variables. Values of <emphasis effect="italics">r</emphasis> close to -1 or to +1 indicate a stronger linear relationship.</item>
-      <item>If <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>, there is no linear relationship between the two variables (<term id="term-00013">linear correlation</term>).</item>
+      <item>The size of the correlation <emphasis effect="italics">r</emphasis> indicates the strength of the linear relationship between the two variables. Values of <emphasis effect="italics">r</emphasis> close to -1 or to +1 indicate a stronger linear relationship.</item>
+      <item>If <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>, there is no linear relationship between the two variables (<term class="no-emphasis" id="term-00013">linear correlation</term>).</item>
       <item>If <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math>, there is perfect positive correlation.</item>
       <item>If <m:math><m:mi>r</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:math> there is perfect negative correlation. In both of these cases, all the original data points lie on a straight line.</item>
       </list>
@@ -245,8 +245,8 @@
       <entry align="center">4</entry>
       <entry align="left">Move to next data entry</entry>
       <entry align="left">↓</entry>
-      <entry align="left">Y01 =</entry>
-      <entry align="right">1.00</entry>
+      <entry align="left">Y01</entry>
+      <entry align="right">0.00</entry>
       </row>
       <row>
       <entry align="center">5</entry>
@@ -259,8 +259,8 @@
       <entry align="center">6</entry>
       <entry align="left">Move to next data entry</entry>
       <entry align="left">↓</entry>
-      <entry align="left">Y01 =</entry>
-      <entry align="right">1.00</entry>
+      <entry align="left">X02</entry>
+      <entry align="right">0.00</entry>
       </row>
       <row>
       <entry align="center">7</entry>
@@ -273,7 +273,7 @@
       <entry align="center">8</entry>
       <entry align="left">Move to next data entry</entry>
       <entry align="left">↓</entry>
-      <entry align="left">Y01 =</entry>
+      <entry align="left">Y02 =</entry>
       <entry align="right">1.00</entry>
       </row>
       <row>
@@ -287,8 +287,8 @@
       <entry align="center">10</entry>
       <entry align="left">Move to next data entry</entry>
       <entry align="left">↓</entry>
-      <entry align="left">Y01 =</entry>
-      <entry align="right">1.00</entry>
+      <entry align="left">X03</entry>
+      <entry align="right">0.00</entry>
       </row>
       <row>
       <entry align="center">11</entry>
@@ -308,7 +308,7 @@
       <entry align="center">13</entry>
       <entry align="left">Press <span class="secondary-function">[SET]</span> until LIN appears</entry>
       <entry align="left"><span class="primary-function">2ND</span> <span class="secondary-function">[SET]</span></entry>
-      <entry align="left"/>
+      <entry align="left">LIN</entry>
       <entry align="right"/>
       </row>
       <row>
@@ -380,7 +380,7 @@
       <para id="para-00039">Correlations may be helpful in visualizing the data, but they are not appropriately used to explain a relationship between two variables. Perhaps no single statistic is more misused than the correlation coefficient. Citing correlations between health conditions and everything from place of residence to eye color have the effect of implying a cause-and-effect relationship. This simply cannot be accomplished with a correlation coefficient. The correlation coefficient is, of course, innocent of this misinterpretation. It is the duty of analysts to use a statistic that is designed to test for cause-and-effect relationships and to report only those results, if they are intending to make such a claim. The problem is that passing this more rigorous test is difficult, therefore lazy and/or unscrupulous researchers fall back on correlations when they cannot make their case legitimately.</para>
       <note class="link-to-learning" id="note-00004">
       <title>Profile of Karl Pearson</title>
-      <para id="para-00040">Much of the development for the correlation coefficient was originated by Karl <term class="no-emphasis" id="term-00011">Pearson</term>, who applied statistical analysis to many biological studies. In fact, the correlation coefficient is sometimes called the <emphasis effect="italics"><term class="no-emphasis" id="term-00012">Pearson correlation coefficient</term></emphasis> in his honor. Here is <link url="https://openstax.org/r/background_satisfication">more detailed background on this amazing statistician</link> who made many contributions to the statistical analysis that we perform on a routine basis.</para>
+      <para id="para-00040">Much of the development for the correlation coefficient was originated by Karl <term class="no-emphasis" id="term-00011">Pearson</term>, who applied statistical analysis to many biological studies. In fact, the correlation coefficient is sometimes called the <emphasis effect="italics"><term class="no-emphasis" id="term-00012">Pearson correlation coefficient</term></emphasis> in his honor. Here is <link url="https://openstax.org/r/background_satisfication">more detailed background on this amazing satisfication</link> who made many contributions to the statistical analysis that we perform on a routine basis.</para>
       </note>
       </section>
       <section class="section-summary" id="sect-00005">

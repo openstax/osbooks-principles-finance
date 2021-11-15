@@ -32,8 +32,8 @@
       <thead>
       <row>
       <entry align="center">Month</entry>
-      <entry align="center"><para id="para-00010">Amount Spent</para>
-      <para id="para-00028">on Advertising</para></entry>
+      <entry align="center"><para id="para-00010">Advertising</para>
+      <para id="para-00028">Expenditure</para></entry>
       <entry align="center">Revenue</entry>
       </row>
       </thead>
@@ -181,8 +181,8 @@
       <entry align="center">6</entry>
       <entry align="left">Move to next data entry</entry>
       <entry align="left">↓</entry>
-      <entry align="left">Y01 =</entry>
-      <entry align="right">1.00</entry>
+      <entry align="left">X02</entry>
+      <entry align="right">0.00</entry>
       </row>
       <row>
       <entry align="center">7</entry>
@@ -195,7 +195,7 @@
       <entry align="center">8</entry>
       <entry align="left">Move to next data entry</entry>
       <entry align="left">↓</entry>
-      <entry align="left">Y01 =</entry>
+      <entry align="left">Y02 =</entry>
       <entry align="right">1.00</entry>
       </row>
       <row>
@@ -209,8 +209,8 @@
       <entry align="center">10</entry>
       <entry align="left">Move to next data entry</entry>
       <entry align="left">↓</entry>
-      <entry align="left">Y01 =</entry>
-      <entry align="right">1.00</entry>
+      <entry align="left">X03</entry>
+      <entry align="right">0.00</entry>
       </row>
       <row>
       <entry align="center">11</entry>
@@ -230,7 +230,7 @@
       <entry align="center"/>
       <entry align="left">Press <span class="primary-function">[SET]</span> until LIN appears</entry>
       <entry align="left"><span class="primary-function">2ND</span> <span class="primary-function">[SET]</span></entry>
-      <entry align="left"/>
+      <entry align="left">LIN</entry>
       <entry align="right"/>
       </row>
       <row>

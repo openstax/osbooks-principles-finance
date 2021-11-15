@@ -19,7 +19,9 @@
       <para id="para-00002"><term class="no-emphasis" id="term-00001">R</term> is an open-source statistical analysis tool that is widely used in the finance industry. R is available as a free program and provides an integrated suite of functions for data analysis, graphing, and statistical programming. R provides many functions and capabilities for regression analysis.</para>
       <para id="para-00003">Recall that most calculations in R are handled via functions.</para>
       <para id="para-00004">The typical method for using functions in statistical applications is to first create a vector of data values. There are several ways to create vectors in R. For example, the c function is often used to combine values into a vector. For example, this R command will generate a vector called salaries, containing the data values 40,000, 50,000, 75,000, and 92,000:</para>
-      <code class="r" display="block"><span class="red-code">> salaries &lt;- c(40000, 50000, 75000, 92000)</span></code>
+      <code class="r" display="block">
+      <span class="red-code">> salaries &lt;- c(40000, 50000, 75000, 92000)</span>
+      </code>
       <para id="para-00005">To calculate the correlation coefficient <emphasis effect="italics">r</emphasis>, we use the R command called <emphasis effect="italics">cor</emphasis>.</para>
       <para id="para-00006">As an example, consider the data set in <link target-id="table-00001" document="m00132"/>, which tracks the return on the S&amp;P 500 versus return on<term class="no-emphasis" id="term-00002"> Coca-Cola</term> stock for a seven-month time period.</para>
       <table summary=" " id="table-00001">
@@ -32,9 +34,11 @@
       <row>
       <entry align="center">Month</entry>
       <entry align="center"><para id="para-00014">S&amp;P 500</para>
-      <para id="para-00025">Monthly Return (%)</para></entry>
+      <para id="para-00025">Monthly</para>
+      <para id="para-00028">Return (%)</para></entry>
       <entry align="center"><para id="para-00026">Coca-Cola</para>
-      <para id="para-00027">Monthly Return (%)</para></entry>
+      <para id="para-00027">Monthly</para>
+      <para id="para-00029">Return (%)</para></entry>
       </row>
       </thead>
       <tbody>
@@ -83,7 +87,9 @@
       <span class="red-code">> CocaCola &lt;- c(6,0,-2,1,-1,8,2)</span>
       </code>
       <para id="para-00008">The R command called <emphasis effect="italics">cor</emphasis> returns the correlation coefficient for the <emphasis effect="italics">x</emphasis>-data vector and <emphasis effect="italics">y</emphasis>-data vector:</para>
-      <code class="r" display="block"><span class="red-code">> cor(SP500, CocaCola)</span></code>
+      <code class="r" display="block">
+      <span class="red-code">> cor(SP500, CocaCola)</span>
+      </code>
       </section>
       <section id="sect-00003">
       <title>Generate Linear Regression Models Using the R Statistical Tool</title>
