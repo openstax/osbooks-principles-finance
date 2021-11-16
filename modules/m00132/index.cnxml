@@ -95,7 +95,9 @@
       <title>Generate Linear Regression Models Using the R Statistical Tool</title>
       <para id="para-00009">To create a linear model in R, assuming the correlation is significant, the command <emphasis effect="italics">lm</emphasis> (for linear model) will provide the slope and <emphasis effect="italics">y</emphasis>-intercept for the linear regression equation.</para>
       <para id="para-00010">The format of the R command is</para>
-      <equation id="eq-00001">lm(dependent_variable_vector ~ independent_variable_vector)</equation>
+      <code class="r" display="block">
+      <span class="red-code">lm(dependent_variable_vector ~ independent_variable_vector)</span>
+      </code>
       <para id="para-00011">Notice the use of the tilde symbol as the separator between the dependent variable vector and the independent variable vector.</para>
       <para id="para-00012">We use the returns on Coca-Cola stock as the dependent variable and the returns on the S&amp;P 500 as the independent variable, and thus the R command would be</para>
       <code class="r" display="block">
