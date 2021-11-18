@@ -114,8 +114,8 @@
      <para id="para-00007">When inspecting a scatter plot, it may be difficult to assess a correlation based on a visual inspection of the graph alone. A more precise assessment of the correlation between the two quantities can be obtained by calculating the numeric correlation coefficient (referred to using the symbol <emphasis effect="italics">r</emphasis>).</para>
       <para id="para-00008">The <term id="term-00007">correlation coefficient</term>, which was developed by statistician Karl Pearson in the early 1900s, is a measure of the strength and direction of the correlation between the independent variable <emphasis effect="italics">x</emphasis> and the dependent variable <emphasis effect="italics">y</emphasis>.</para>
       <para id="para-00009">The formula for <emphasis effect="italics">r</emphasis> is shown below; however, technology, such as Excel or the statistical analysis program R, is typically used to calculate the correlation coefficient.</para>        
-      <equation id="eq-00001"><m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>∑</m:mo><m:mrow><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>-</m:mo><m:mo>(</m:mo><m:mo>∑</m:mo><m:mrow><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mo>∑</m:mo><m:mrow><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow><m:msqrt><m:mi>n</m:mi><m:mo>∑</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mo>∑</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:msqrt><m:msqrt><m:mi>n</m:mi><m:mo>∑</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mo>∑</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:msqrt></m:mrow></m:mfrac></m:math></equation>
-      <para id="para-00010">where <emphasis effect="italics">n</emphasis> refers to the number of data pairs and the symbol <m:math><m:mo>∑</m:mo><m:mi>x</m:mi></m:math> indicates to sum the <emphasis effect="italics">x</emphasis>-values.</para>
+      <equation id="eq-00001"><math><mi>r</mi><mo>=</mo><mfrac><mrow><mi>n</mi><mo>∑</mo><mrow><mi>x</mi><mi>y</mi><mo>-</mo><mo>(</mo><mo>∑</mo><mrow><mi>x</mi><mo>)</mo><mo>(</mo><mo>∑</mo><mrow><mi>y</mi><mo>)</mo></mrow></mrow></mrow></mrow><mrow><msqrt><mi>n</mi><mo>∑</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><msup><mrow><mo>(</mo><mo>∑</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></msqrt><msqrt><mi>n</mi><mo>∑</mo><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><msup><mrow><mo>(</mo><mo>∑</mo><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup></msqrt></mrow></mfrac></math></equation>
+      <para id="para-00010">where <emphasis effect="italics">n</emphasis> refers to the number of data pairs and the symbol <math><mo>∑</mo><mi>x</mi></math> indicates to sum the <emphasis effect="italics">x</emphasis>-values.</para>
       <para id="para-00011"><link target-id="table-00002" document="m00086"/> provides a step-by-step procedure on how to calculate the correlation coefficient <emphasis effect="italics">r</emphasis>.</para>
       <table summary=" " id="table-00002">
       <title>Steps for Calculating the Correlation Coefficient</title>
@@ -131,23 +131,23 @@
       <tbody>
       <row>
       <entry align="left">1. Calculate the sum of the <emphasis effect="italics">x</emphasis>-values.</entry>
-      <entry align="left"><m:math><m:mo>∑</m:mo><m:mi>x</m:mi></m:math></entry>
+      <entry align="left"><math><mo>∑</mo><mi>x</mi></math></entry>
       </row>
       <row>
       <entry align="left">2. Calculate the sum of the <emphasis effect="italics">y</emphasis>-values.</entry>
-      <entry align="left"><m:math><m:mo>∑</m:mo><m:mi>y</m:mi></m:math></entry>
+      <entry align="left"><math><mo>∑</mo><mi>y</mi></math></entry>
       </row>
       <row>
       <entry align="left">3. Multiply each <emphasis effect="italics">x</emphasis>-value by the corresponding <emphasis effect="italics">y</emphasis>-value and calculate the sum of these<emphasis effect="italics"> xy</emphasis> products.</entry>
-      <entry align="left"><m:math><m:mo>∑</m:mo><m:mi>x</m:mi><m:mi>y</m:mi></m:math></entry>
+      <entry align="left"><math><mo>∑</mo><mi>x</mi><mi>y</mi></math></entry>
       </row>
       <row>
       <entry align="left">4. Square each <emphasis effect="italics">x</emphasis>-value and then calculate the sum of these squared values.</entry>
-      <entry align="left"><m:math><m:mo>∑</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:math></entry>
+      <entry align="left"><math><mo>∑</mo><msup><mi>x</mi><mn>2</mn></msup></math></entry>
       </row>
       <row>
       <entry align="left">5. Square each <emphasis effect="italics">y</emphasis>-value and then calculate the sum of these squared values.</entry>
-      <entry align="left"><m:math><m:mo>∑</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:math></entry>
+      <entry align="left"><math><mo>∑</mo><msup><mi>y</mi><mn>2</mn></msup></math></entry>
       </row>
       <row>
       <entry align="left">6. Determine the value of <emphasis effect="italics">n, </emphasis>which is the number of data pairs.</entry>
@@ -155,7 +155,7 @@
       </row>
       <row>
       <entry align="left">7. Use these results to then substitute into the formula for the correlation coefficient.</entry>
-      <entry align="left"><m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>∑</m:mo><m:mrow><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>-</m:mo><m:mo>(</m:mo><m:mo>∑</m:mo><m:mrow><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mo>∑</m:mo><m:mrow><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow><m:msqrt><m:mi>n</m:mi><m:mo>∑</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mo>∑</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:msqrt><m:msqrt><m:mi>n</m:mi><m:mo>∑</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>-</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mo>∑</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:msqrt></m:mrow></m:mfrac></m:math></entry>
+      <entry align="left"><math><mi>r</mi><mo>=</mo><mfrac><mrow><mi>n</mi><mo>∑</mo><mrow><mi>x</mi><mi>y</mi><mo>-</mo><mo>(</mo><mo>∑</mo><mrow><mi>x</mi><mo>)</mo><mo>(</mo><mo>∑</mo><mrow><mi>y</mi><mo>)</mo></mrow></mrow></mrow></mrow><mrow><msqrt><mi>n</mi><mo>∑</mo><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><msup><mrow><mo>(</mo><mo>∑</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></msqrt><msqrt><mi>n</mi><mo>∑</mo><msup><mi>y</mi><mn>2</mn></msup><mo>-</mo><msup><mrow><mo>(</mo><mo>∑</mo><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup></msqrt></mrow></mfrac></math></entry>
       </row>
       </tbody>
       </tgroup>
@@ -178,11 +178,11 @@
       </list>
       <para id="para-00018">The <emphasis effect="italics">value</emphasis> of <emphasis effect="italics">r</emphasis> gives us this information:</para>
       <list id="list-00003">
-      <item>The value of <emphasis effect="italics">r</emphasis> is always between <m:math><m:mo>-</m:mo><m:mn>1</m:mn></m:math> and <m:math><m:mo>+</m:mo><m:mn>1</m:mn></m:math>: <m:math><m:mo>-</m:mo><m:mn>1</m:mn><m:mo> </m:mo><m:mo>≤</m:mo><m:mo> </m:mo><m:mi>r</m:mi><m:mo> </m:mo><m:mo>≤</m:mo><m:mo> </m:mo><m:mn>1</m:mn></m:math></item>
+      <item>The value of <emphasis effect="italics">r</emphasis> is always between <math><mo>-</mo><mn>1</mn></math> and <math><mo>+</mo><mn>1</mn></math>: <math><mo>-</mo><mn>1</mn><mo> </mo><mo>≤</mo><mo> </mo><mi>r</mi><mo> </mo><mo>≤</mo><mo> </mo><mn>1</mn></math></item>
       <item>The size of the correlation <emphasis effect="italics">r</emphasis> indicates the strength of the linear relationship between the two variables. Values of <emphasis effect="italics">r</emphasis> close to -1 or to +1 indicate a stronger linear relationship.</item>
-      <item>If <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>, there is no linear relationship between the two variables (no <term id="term-00013">linear correlation</term>).</item>
-      <item>If <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math>, there is perfect positive correlation.</item>
-      <item>If <m:math><m:mi>r</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo></m:math> there is perfect negative correlation. In both of these cases, all the original data points lie on a straight line.</item>
+      <item>If <math><mi>r</mi><mo>=</mo><mn>0</mn></math>, there is no linear relationship between the two variables (no <term id="term-00013">linear correlation</term>).</item>
+      <item>If <math><mi>r</mi><mo>=</mo><mn>1</mn></math>, there is perfect positive correlation.</item>
+      <item>If <math><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>1</mn><mo>,</mo></math> there is perfect negative correlation. In both of these cases, all the original data points lie on a straight line.</item>
       </list>
       <para id="para-00019">The <emphasis effect="italics">sign</emphasis> of <emphasis effect="italics">r</emphasis> gives us this information:</para>
       <list id="list-00004">
@@ -195,7 +195,7 @@
       </note>
       <para id="para-00021">The Excel command used to find the value of the correlation coefficient for the Nike stock versus S&amp;P 500 example (refer back to <link target-id="table-00001" document="m00086"/>) is</para>
       <code class="centered-code">=CORREL(B2:B14,C2:C14)</code>
-      <para id="para-00022">In this example, the value of <emphasis effect="italics">r</emphasis> is calculated by Excel to be <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>928</m:mn></m:math>.</para>
+      <para id="para-00022">In this example, the value of <emphasis effect="italics">r</emphasis> is calculated by Excel to be <math><mi>r</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>928</mn></math>.</para>
       <para id="para-00023">Since this is a positive value close to 1, we conclude that the relationship between Nike stock and the value of the S&amp;P 500 over this time period represents a strong, positive correlation.</para>
       <para id="para-00024">The correlation coefficient <emphasis effect="italics">r</emphasis> can also be determined using the statistical capability on the <term class="no-emphasis" id="term-00009">financial calculator</term>:</para>
       <list id="list-00005">
@@ -315,21 +315,21 @@
       <entry align="center">14</entry>
       <entry align="left">Move to 1<sup>st</sup> statistical result</entry>
       <entry align="left">↓</entry>
-      <entry align="left"><m:math><m:mi>n</m:mi><m:mo>=</m:mo></m:math></entry>
+      <entry align="left"><math><mi>n</mi><mo>=</mo></math></entry>
       <entry align="right">13.00</entry>
       </row>
       <row>
       <entry align="center">15</entry>
       <entry align="left">Move to next statistical result</entry>
       <entry align="left">↓</entry>
-      <entry align="left"><m:math><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo> </m:mo><m:mo>=</m:mo></m:math></entry>
+      <entry align="left"><math><mover><mi>x</mi><mo>¯</mo></mover><mo> </mo><mo>=</mo></math></entry>
       <entry align="right">3,480.86</entry>
       </row>
       <row>
       <entry align="center">16</entry>
       <entry align="left">Continue to scroll down until the value of <emphasis effect="italics">r</emphasis> is displayed</entry>
       <entry align="left">↓</entry>
-      <entry align="left"><m:math><m:mi>r</m:mi><m:mo>=</m:mo></m:math></entry>
+      <entry align="left"><math><mi>r</mi><mo>=</mo></math></entry>
       <entry align="right">0.93</entry>
       </row>
       </tbody>
@@ -354,15 +354,15 @@
       <para id="para-00031">A hypothesis test can be performed to test if the correlation is significant. A hypothesis test is a statistical method that uses sample data to test a claim regarding the value of a population parameter. In this case, the hypothesis test will be used to test the claim that the population correlation coefficient <emphasis effect="italics">ρ</emphasis> is equal to zero.</para>
       <para id="para-00032">Use these hypotheses when performing the hypothesis test:</para>
       <list id="list-00008">
-      <item>Null hypothesis: <m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:mo> </m:mo><m:mi>ρ</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0</m:mn></m:math></item>
-      <item>Alternate hypothesis: <m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:mo> </m:mo><m:mi>ρ</m:mi><m:mo> </m:mo><m:mo>≠</m:mo><m:mo> </m:mo><m:mn>0</m:mn></m:math></item>
+      <item>Null hypothesis: <math><msub><mi>H</mi><mn>0</mn></msub><mo>:</mo><mo> </mo><mi>ρ</mi><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn></math></item>
+      <item>Alternate hypothesis: <math><msub><mi>H</mi><mi>a</mi></msub><mo>:</mo><mo> </mo><mi>ρ</mi><mo> </mo><mo>≠</mo><mo> </mo><mn>0</mn></math></item>
       </list>
       <para id="para-00033">The hypotheses can be stated in words as follows:</para>
       <list id="list-00009">
       <item>Null hypothesis <emphasis effect="italics">H<sub>0</sub></emphasis>: The population correlation coefficient <emphasis effect="italics">is not</emphasis> significantly different from zero. There <emphasis effect="italics">is not</emphasis> a significant linear relationship (correlation) between <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> in the population.</item>
       <item>Alternate hypothesis <emphasis effect="italics">H<sub>a</sub></emphasis>: The population correlation coefficient is significantly different from zero. There <emphasis effect="italics">is</emphasis> a significant linear relationship (correlation) between <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> in the population.</item>
       </list>
-      <para id="para-00034">A quick shorthand way to test correlations is the relationship between the sample size and the correlation. If <m:math><m:mfenced open="|" close="|"><m:mrow><m:mo> </m:mo><m:mi>r</m:mi><m:mo> </m:mo></m:mrow></m:mfenced><m:mo>≥</m:mo><m:mo> </m:mo><m:mfrac><m:mn>2</m:mn><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>,</m:mo></m:math> then this implies that the correlation between the two variables demonstrates that a linear relationship exists and is statistically significant at approximately the 0.05 level of significance. As the formula indicates, there is an inverse relationship between the sample size and the required correlation for significance of a linear relationship. With only 10 observations, the required correlation for significance is 0.6325; for 30 observations, the required correlation for significance decreases to 0.3651; and at 100 observations, the required level is only 0.2000.</para>
+      <para id="para-00034">A quick shorthand way to test correlations is the relationship between the sample size and the correlation. If <math><mfenced open="|" close="|"><mrow><mo> </mo><mi>r</mi><mo> </mo></mrow></mfenced><mo>≥</mo><mo> </mo><mfrac><mn>2</mn><msqrt><mi>n</mi></msqrt></mfrac><mo>,</mo></math> then this implies that the correlation between the two variables demonstrates that a linear relationship exists and is statistically significant at approximately the 0.05 level of significance. As the formula indicates, there is an inverse relationship between the sample size and the required correlation for significance of a linear relationship. With only 10 observations, the required correlation for significance is 0.6325; for 30 observations, the required correlation for significance decreases to 0.3651; and at 100 observations, the required level is only 0.2000.</para>
       <para id="para-00035">NOTE:</para>
       <list id="list-00010">
       <item>If <emphasis effect="italics">r</emphasis> is significant and the scatter plot shows a linear trend, the line can be used to predict the value of <emphasis effect="italics">y </emphasis>for values of <emphasis effect="italics">x</emphasis> that are within the domain of observed <emphasis effect="italics">x</emphasis>-values.</item>
@@ -374,7 +374,7 @@
       <exercise class="unnumbered" id="exer-00001">
       <problem id="prob-00001"><para id="para-00036">Suppose that the <term class="no-emphasis" id="term-00010">chief financial officer (CFO)</term> of a corporation is investigating the correlation between stock prices and unemployment rate over a period of 10 years and finds the correlation coefficient to be -0.68. There are 10 (<emphasis effect="italics">x, y</emphasis>) data points in the data set. Should the CFO conclude that the correlation is significant for the relationship between stock prices and unemployment rate based on a level of significance of 0.05?</para></problem>
       <solution id="sol-00001"><para id="para-00037"><emphasis effect="bold">Solution:</emphasis></para>
-      <para id="para-00038">When using a level of significance of 0.05, if <m:math><m:mfenced open="|" close="|"><m:mrow><m:mo> </m:mo><m:mi>r</m:mi><m:mo> </m:mo></m:mrow></m:mfenced><m:mo>≥</m:mo><m:mo> </m:mo><m:mfrac><m:mn>2</m:mn><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>,</m:mo></m:math> then this implies that the correlation between the two variables demonstrates a linear relationship that is statistically significant at approximately the 0.05 level of significance. In this example, we check if | -0.68 | is greater than or equal to <m:math><m:mfrac><m:mn>2</m:mn><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt><m:mo> </m:mo></m:mrow></m:mfrac></m:math> where <m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:math>. Since <m:math><m:mfrac><m:mn>2</m:mn><m:mrow><m:msqrt><m:mn>10</m:mn></m:msqrt><m:mo> </m:mo></m:mrow></m:mfrac></m:math> is approximately 0.632, this indicates that the <emphasis effect="italics">r</emphasis>-value of -0.68 is greater than <m:math><m:mfrac><m:mn>2</m:mn><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt><m:mo> </m:mo></m:mrow></m:mfrac></m:math>, and thus the correlation is deemed as significant.</para></solution>
+      <para id="para-00038">When using a level of significance of 0.05, if <math><mfenced open="|" close="|"><mrow><mo> </mo><mi>r</mi><mo> </mo></mrow></mfenced><mo>≥</mo><mo> </mo><mfrac><mn>2</mn><msqrt><mi>n</mi></msqrt></mfrac><mo>,</mo></math> then this implies that the correlation between the two variables demonstrates a linear relationship that is statistically significant at approximately the 0.05 level of significance. In this example, we check if | -0.68 | is greater than or equal to <math><mfrac><mn>2</mn><mrow><msqrt><mi>n</mi></msqrt><mo> </mo></mrow></mfrac></math> where <math><mi>n</mi><mo>=</mo><mn>10</mn></math>. Since <math><mfrac><mn>2</mn><mrow><msqrt><mn>10</mn></msqrt><mo> </mo></mrow></mfrac></math> is approximately 0.632, this indicates that the <emphasis effect="italics">r</emphasis>-value of -0.68 is greater than <math><mfrac><mn>2</mn><mrow><msqrt><mi>n</mi></msqrt><mo> </mo></mrow></mfrac></math>, and thus the correlation is deemed as significant.</para></solution>
       </exercise>
       </note>
       <para id="para-00039">Correlations may be helpful in visualizing the data, but they are not appropriately used to explain a relationship between two variables. Perhaps no single statistic is more misused than the correlation coefficient. Citing correlations between health conditions and everything from place of residence to eye color have the effect of implying a cause-and-effect relationship. This simply cannot be accomplished with a correlation coefficient. The correlation coefficient is, of course, innocent of this misinterpretation. It is the duty of analysts to use a statistic that is designed to test for cause-and-effect relationships and to report only those results, if they are intending to make such a claim. The problem is that passing this more rigorous test is difficult, therefore lazy and/or unscrupulous researchers fall back on correlations when they cannot make their case legitimately.</para>
