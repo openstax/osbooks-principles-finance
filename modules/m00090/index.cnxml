@@ -113,10 +113,10 @@
       <caption>(source: Yahoo! Finance)</caption>
       </figure>
       <para id="para-00012">Based on these results, the corresponding linear regression model is</para>
-      <equation id="eq-00001"><math><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo> </mo><mo>=</mo><mo> </mo></mtd><mtd><mi>a</mi><mo>+</mo><mi>b</mi><mi>x</mi></mtd></mtr><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo>=</mo></mtd><mtd><mo>-</mo><mn>1</mn><mo>,</mo><mn>496</mn><mo>.</mo><mn>34</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>11</mn><mi>x</mi></mtd></mtr></mtable></math></equation>
-      <para id="para-00013">Assume the DJIA has reached a value of 32,000. Predict the corresponding value of the Russell 2000 index. To determine this, substitute the value of the independent variable, <math><mi>x</mi><mo>=</mo><mn>32</mn><mo>,</mo><mn>000</mn></math> (this is the given value of the DJIA), and calculate the corresponding value for the dependent variable, which is the predicted value for the Russell 2000 index:</para>
-      <equation id="eq-00002"><math><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo> </mo><mo>=</mo><mo> </mo></mtd><mtd><mo>-</mo><mn>1</mn><mo>,</mo><mn>496</mn><mo>.</mo><mn>34</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>11</mn><mfenced><mrow><mn>32</mn><mo>,</mo><mn>000</mn></mrow></mfenced></mtd></mtr><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo>=</mo></mtd><mtd><mn>2</mn><mo>,</mo><mn>023</mn><mo>.</mo><mn>66</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00014">Thus the predicted value for the Russell 2000 index is approximately 2,024 when the DJIA reached a value of 32,000.</para>
+      <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo> </mo><mo>=</mo><mo> </mo></mtd><mtd><mi>a</mi><mo>+</mo><mi>b</mi><mi>x</mi></mtd></mtr><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo>=</mo></mtd><mtd><mo>-</mo><mn>1</mn><mo>,</mo><mn>496</mn><mo>.</mo><mn>34</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>11</mn><mi>x</mi></mtd></mtr></mtable></math></equation>
+      <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">Assume the DJIA has reached a value of 32,000. Predict the corresponding value of the Russell 2000 index. To determine this, substitute the value of the independent variable, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>=</mo><mn>32</mn><mo>,</mo><mn>000</mn></math> (this is the given value of the DJIA), and calculate the corresponding value for the dependent variable, which is the predicted value for the Russell 2000 index:</para>
+      <equation id="eq-00002" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo> </mo><mo>=</mo><mo> </mo></mtd><mtd><mo>-</mo><mn>1</mn><mo>,</mo><mn>496</mn><mo>.</mo><mn>34</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>11</mn><mfenced><mrow><mn>32</mn><mo>,</mo><mn>000</mn></mrow></mfenced></mtd></mtr><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo>=</mo></mtd><mtd><mn>2</mn><mo>,</mo><mn>023</mn><mo>.</mo><mn>66</mn></mtd></mtr></mtable></math></equation>
+      <para id="para-00014" xmlns="http://cnx.rice.edu/cnxml">Thus the predicted value for the Russell 2000 index is approximately 2,024 when the DJIA reached a value of 32,000.</para>
       </section>
       <section id="sect-00003">
       <title>Measures of Slope and Intercept from Regression Analysis</title>
@@ -250,7 +250,7 @@
       </figure>
       <para id="para-00018">The slope of the regression line is 0.83, obtained by using the =SLOPE command in Excel.</para>
       <code class="centered-code">=SLOPE (E4:E15,C4:C15)</code>
-      <code class="centered-code">=0.830681658</code>
+      <code class="centered-code">= 0.830681658</code>
       <para id="para-00019">This indicates the value of beta for Nike stock is 0.83, which indicates that Nike stock had lower volatility versus the S&amp;P 500 for the time period of interest.</para>      
       </section>
       <section class="section-summary" id="sect-00004">
