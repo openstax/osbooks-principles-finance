@@ -205,7 +205,7 @@
         <title>Problems</title>
         <exercise id="exer-00017"><problem id="prob-00017"><para id="para-00047"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_PRQ1"/></para></problem></exercise>
         <exercise id="exer-00018"><problem id="prob-00018"><para id="para-00048"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_PRQ2"/></para></problem></exercise>
-        <exercise id="exer-00019"><problem id="prob-00019"><para id="para-00049"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_PRQ3"/></para><para id="para-00058"> </para></problem></exercise>
+        <exercise id="exer-00019"><problem id="prob-00019"><para id="para-00049"><link class="os-embed" url="#exercise/FI_Ch14_Sec1_PRQ3"/><newline count="2" effect="normal"/></para></problem></exercise>
         <exercise id="exer-00020"><problem id="prob-00020"><para id="para-00050"><link class="os-embed" url="#exercise/FI_Ch14_Sec3_PRQ4"/></para></problem></exercise>
         <exercise id="exer-00021"><problem id="prob-00021"><para id="para-00051"><link class="os-embed" url="#exercise/FI_Ch14_Sec5_PRQ5"/></para></problem></exercise>
         <exercise id="exer-00022"><problem id="prob-00022"><para id="para-00052"><link class="os-embed" url="#exercise/FI_Ch14_Sec5_PRQ6"/></para></problem></exercise>
