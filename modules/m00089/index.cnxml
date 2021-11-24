@@ -128,12 +128,12 @@
       <table summary=" " id="table-00002">
 <title>Calculator Steps for the Slope and y-Intercept</title>
 <tgroup cols="5">
-<colspec colnum="1" colname="c1" colwidth="0*"/>
-<colspec colnum="2" colname="c2" colwidth="6*"/>
-<colspec colnum="3" colname="c3" colwidth="3*"/>
-<colspec colnum="4" colname="c4" colwidth="3*"/>
-<colspec colnum="5" colname="c5" colwidth="3*"/>
-<thead>
+  <colspec colnum="1" colname="c1" colwidth="1*"/>
+  <colspec colnum="2" colname="c2" colwidth="4*"/>
+  <colspec colnum="3" colname="c3" colwidth="2*"/>
+  <colspec colnum="4" colname="c4" colwidth="2*"/>
+  <colspec colnum="5" colname="c5" colwidth="1*"/>
+  <thead>
 <row>
 <entry align="center">Step</entry>
 <entry align="center">Description</entry>
@@ -167,14 +167,14 @@
 <entry align="center">4</entry>
 <entry align="left">Move to next data entry</entry>
 <entry align="left">↓</entry>
-<entry align="left">Y01 =</entry>
+<entry align="left">Y01 =</entry>
 <entry align="right">1.00</entry>
 </row>
 <row>
 <entry align="center">5</entry>
 <entry align="left">Enter first <emphasis effect="italics">y</emphasis>-value of 12210</entry>
 <entry align="left">12210 <span class="primary-function">ENTER</span></entry>
-<entry align="left">Y01 =</entry>
+<entry align="left">Y01 =</entry>
 <entry align="right">12,210.00</entry>
 </row>
 <row>
@@ -195,14 +195,14 @@
 <entry align="center">8</entry>
 <entry align="left">Move to next data entry</entry>
 <entry align="left">↓</entry>
-<entry align="left">Y02 =</entry>
+<entry align="left">Y02 =</entry>
 <entry align="right">1.00</entry>
 </row>
 <row>
 <entry align="center">9</entry>
 <entry align="left">Enter second <emphasis effect="italics">y</emphasis>-value of 17590</entry>
 <entry align="left">17590 <span class="primary-function">ENTER</span></entry>
-<entry align="left">Y02 =</entry>
+<entry align="left">Y02 =</entry>
 <entry align="right">17,590</entry>
 </row>
 <row>
