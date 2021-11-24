@@ -128,11 +128,11 @@
       <table summary=" " id="table-00002">
 <title>Calculator Steps for the Slope and y-Intercept</title>
 <tgroup cols="5">
-  <colspec colnum="1" colname="c1" colwidth="1*"/>
-  <colspec colnum="2" colname="c2" colwidth="4*"/>
-  <colspec colnum="3" colname="c3" colwidth="2*"/>
+  <colspec colnum="1" colname="c1" colwidth="0*"/>
+  <colspec colnum="2" colname="c2" colwidth="5*"/>
+  <colspec colnum="3" colname="c3" colwidth="3*"/>
   <colspec colnum="4" colname="c4" colwidth="2*"/>
-  <colspec colnum="5" colname="c5" colwidth="1*"/>
+  <colspec colnum="5" colname="c5" colwidth="0*"/>
   <thead>
 <row>
 <entry align="center">Step</entry>
