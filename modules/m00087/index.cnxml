@@ -81,7 +81,7 @@
       </list>
       <figure id="fig-00003">
       <title>Best-Fit Line</title>
-      <media alt="Two diagrams of a best-fit line. The first diagram (a) shows a linearly descending line running through the center of three sets of scattered points along the y-axis. The second diagram (b) shows a linearly descending line running through the mean of three tilted bell curves.">
+      <media alt="Two diagrams of a best-fit line. The first diagram (a) shows a linearly descending line running through the center of three vertical sets of scattered points. The second diagram (b) shows a linearly descending line running through the mean of three tilted bell curves. The bottom of each bell curve aligns with the position of the three vertical scattered points in diagram a.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_02_005.png"/></media>
       <caption>The <emphasis effect="italics">y</emphasis>-values for each <emphasis effect="italics">x</emphasis>-value are normally distributed about the line with the same standard deviation. For each <emphasis effect="italics">x</emphasis>-value, the mean of the <emphasis effect="italics">y</emphasis>-values lies on the regression line. More <emphasis effect="italics">y</emphasis>-values lie near the line than are scattered further away from the line.</caption></figure>
       </section>

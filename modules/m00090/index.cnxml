@@ -110,7 +110,7 @@
       <title>Scatter Plot for Monthly Closing Prices of the DJIA versus the Russell 2000 for a 12-Month Time Period</title>
       <media alt="A scatter plot showing a positive correlation between the monthly closing prices of the Russell 2000 and the Dow Jones Industrial Average stock index values over 12 months. The diagram shows the Russell 2000 index rising from approximately 1,400 to over 2,200, as the DJIA increases from approximately 25,000 to over 34,000.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_04_007.png"/></media>
-      <caption>(source: Yahoo! Finance)</caption>
+      <caption>(data source: Yahoo! Finance)</caption>
       </figure>
       <para id="para-00012">Based on these results, the corresponding linear regression model is</para>
       <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo> </mo><mo>=</mo><mo> </mo></mtd><mtd><mi>a</mi><mo>+</mo><mi>b</mi><mi>x</mi></mtd></mtr><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo>=</mo></mtd><mtd><mo>-</mo><mn>1</mn><mo>,</mo><mn>496</mn><mo>.</mo><mn>34</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>11</mn><mi>x</mi></mtd></mtr></mtable></math></equation>
@@ -246,7 +246,7 @@
       <title>Scatter Plot of Monthly Returns of Nike Stock versus Monthly Returns for the S&amp;P 500 ($)</title>
       <media alt="A scatter plot of the monthly return for Nike stock against the monthly return for the S&amp;P 500 index shows a dashed regression line through the scatter points. This is a regression line corresponding to the slope of 0.83 and the formula y = 0.83x + 0.02.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_04_008.png"/></media>
-      <caption>(source: Yahoo! Finance)</caption>
+      <caption>(data source: Yahoo! Finance)</caption>
       </figure>
       <para id="para-00018">The slope of the regression line is 0.83, obtained by using the =SLOPE command in Excel.</para>
       <code class="centered-code">=SLOPE (E4:E15,C4:C15)</code>
