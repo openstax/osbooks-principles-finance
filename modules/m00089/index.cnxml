@@ -19,44 +19,7 @@
       <para id="para-00002">Once a correlation has been deemed as significant, a <term id="term-00001">best-fit linear regression model</term> is developed. The goal in the regression analysis is to determine the coefficients <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> in the following regression equation:</para>
       <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>y</mi><mo>^</mo></mover><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><mi>x</mi></math></equation>
       <para id="para-00003" xmlns="http://cnx.rice.edu/cnxml">The slope (<emphasis effect="italics">b</emphasis>) and <emphasis effect="italics">y</emphasis>-intercept (<emphasis effect="italics">a</emphasis>) can be calculated using the following formulas:</para>
-      <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>b</mi><mo>=</mo><mfrac>
-  <mrow>
-   <mi>n</mi><msup>
-    <mstyle mathsize="140%" displaystyle="true"><mo>∑</mo></mstyle>
-    <mtext>​</mtext>
-   </msup>
-   <mi>x</mi><mi>y</mi><mo>−</mo><mo stretchy="false">(</mo><msup>
-    <mstyle mathsize="140%" displaystyle="true"><mo>∑</mo></mstyle>
-    <mtext>​</mtext>
-   </msup>
-   <mi>x</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><msup>
-    <mstyle mathsize="140%" displaystyle="true"><mo>∑</mo></mstyle>
-    <mtext>​</mtext>
-   </msup>
-   <mi>y</mi><mo stretchy="false">)</mo>
-  </mrow>
-  <mrow>
-   <mi>n</mi><msup>
-    <mstyle mathsize="140%" displaystyle="true"><mo>∑</mo></mstyle>
-    <mtext>​</mtext>
-   </msup>
-   <msup>
-    <mi>x</mi>
-    <mn>2</mn>
-   </msup>
-   <mo>−</mo><msup>
-    <mrow>
-     <mo stretchy="false">(</mo><msup>
-      <mstyle mathsize="140%" displaystyle="true"><mo>∑</mo></mstyle>
-      <mtext>​</mtext>
-     </msup>
-     <mi>x</mi><mo stretchy="false">)</mo>
-    </mrow>
-    <mn>2</mn>
-   </msup>
-   
-  </mrow>
- </mfrac></math></equation>
+      <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>b</mi><mo>=</mo><mfrac><mrow><mi>n</mi><msup><mstyle displaystyle="true"><mo>∑</mo></mstyle><mtext>​</mtext></msup><mi>x</mi><mi>y</mi><mo>−</mo><mo stretchy="false">(</mo><msup><mstyle displaystyle="true"><mo>∑</mo></mstyle><mtext>​</mtext></msup><mi>x</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><msup><mstyle displaystyle="true"><mo>∑</mo></mstyle><mtext>​</mtext></msup><mi>y</mi><mo stretchy="false">)</mo></mrow><mrow><mi>n</mi><msup><mstyle displaystyle="true"><mo>∑</mo></mstyle><mtext>​</mtext></msup><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mrow><mo stretchy="false">(</mo><msup><mstyle displaystyle="true"><mo>∑</mo></mstyle><mtext>​</mtext></msup><mi>x</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></mfrac></math></equation>
  <equation id="eq-00003" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>=</mo><mfrac>
   <mrow>
    <msup>
