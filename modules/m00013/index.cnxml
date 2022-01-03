@@ -6,8 +6,126 @@
     <md:uuid>31426484-06a6-4f12-8930-1b1dc5bb6ed8</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
+<section class="learning-objectives" id="sect-00001">
+<title>Learning Outcomes</title>
+<para id="para-00001">By the end of this section, you will be able to:</para>
+<list id="list-00001">
+<item>Describe the oversight functions performed by boards.</item>
+<item>Define an independent board member.</item>
+<item>Compare arguments for and against having independent board members.</item>
+<item>Describe ways boards can become diverse.</item>
+</list>
+</section>
+<section id="sect-00002">
+<title>Functions of a Board of Directors</title>
+<para id="para-00002">A board of directors is a group of people who are elected to represent shareholders, and these directors are then ultimately responsible for running the company. Every public company is legally required to install a board of directors. Nonprofit organizations and many private companies often establish a board of directors as well, even if they are not legally required to do so.</para>
+<para id="para-00003">The board is responsible for protecting shareholders’ interests, establishing management policies, overseeing the corporation or organization, and making decisions about important issues. The board of directors acts as a fiduciary for shareholders. The board is also tasked with a number of other responsibilities, including setting company goals, creating dividend and stock option policies, hiring and firing chief executive officers (CEOs), and ensuring that the company has the resources it needs to perform well.</para>
+<section id="sect-00003">
+<title>Basic Structure of a Board of Directors</title>
+<para id="para-00004">The bylaws of a company or organization determine the structure, responsibilities, and powers given to a board of directors. The bylaws also determine how many board members there are, how the members are elected, and how frequently the board members meet.</para>
+<para id="para-00005">The board must represent shareholder and management interests, so it is best for the board to include both internal and external members. Usually, there is an internal director and an external director. The internal director is a member of the board who is involved with the daily workings of the company and manages the interests of shareholders, officers, and employees. The external director represents the interests of those who function outside of the company. The CEO often serves as the chairman of the company’s board of directors.</para>
+<figure id="fig-00001">
+<title>Corporate Boardroom</title>
+<media alt="A corporate board room with approximately ten chairs placed around a long table."><image mime-type="image/png" src="../../media/FINAN_Figure_02_03_002.jpg"/></media>
+<caption>(credit: “495 Express Lanes Board Room” by Fairfax County Chamber of Commerce/flickr, CC BY 2.0)</caption></figure>
+</section>
+<section id="sect-00004">
+<title>International Structure of a Board of Directors</title>
+<para id="para-00006">The structure of a board of directors varies more outside of the United States. In Asia and the European Union, there are commonly executive and supervisory boards. The executive board is made up of company insiders who are elected by employees and shareholders. In most cases, the executive board is headed by the company CEO or a managing officer. The supervisory board oversees daily business operations and acts much like a typical US board of directors. The chair of the board varies, but the board is always led by someone other than the prominent executive officer.</para>
+</section>
+</section>
+<section id="sect-00005">
+<title>Oversight: Corporate Governance</title>
+<para id="para-00007"><term class="no-emphasis" id="term-00001">Corporate governance</term> is a discipline that focuses on how a company conducts its business and the various controls that are implemented to ensure proper procedures and ethical behavior.</para>
+<para id="para-00008">Although many companies and managers do operate with a fair and honest philosophy, others will try to exploit the temporary benefits of actions that fall outside ethical behavior. Companies do not always adhere to laws. You may have seen or read news stories about false reporting of earnings, failure to reveal financial information, or payments of large bonuses to top executives shortly after a company files for bankruptcy.</para>
+<para id="para-00009">In one infamous example, the insurance giant <term class="no-emphasis" id="term-00002">AIG</term> paid for a lavish trip to California for top employees of the company immediately after declaring that the company was insolvent. It asked for and received financial support from the US government in the bailout of 2008.<footnote id="foot-00001">Scott Vogel. “You Paid for It: AIG’s Retreat Destination, Up Close.” <emphasis effect="italics">Washington Post</emphasis>. October 9, 2008. http://voices.washingtonpost.com/travellog/2008/10/disaster_tourism_comes_to_cali.html</footnote></para>
+<para id="para-00010">At other times, a company may cross the line between legal and illegal and violate the law in order to increase profits. Because of the potential for human self-interest and greed, governments have enacted laws and regulations that require specific actions of a company or restrict its activities in an effort to ensure fair competition and ethical behavior.</para>
+<para id="para-00011">Often, Congress enacts laws and regulations in response to major economic or other highly visible events. Following the great market crash of 1929, the US government created a new set of rules and regulations governing the issuing and trading of securities, the <term class="no-emphasis" id="term-00003">Securities Act of 1933</term> and the <term class="no-emphasis" id="term-00004">Securities Exchange Act of 1934</term>. The government also created the <term id="term-00005">Securities and Exchange Commission (SEC)</term> to oversee these laws and regulations.</para>
+<para id="para-00012">The new laws required that firms make available specific financial information to current owners and prospective owners and that the SEC approve the initial sale of securities to the public. More recently, following a series of major ethical lapses at some firms, the US government enacted new legislation in 2002. One of the most sweeping acts is the <term class="no-emphasis" id="term-00006">Sarbanes-Oxley Act (SOX)</term>, which requires, among other things, the following:</para>
+<list id="list-00002">
+<item>That the <term class="no-emphasis" id="term-00007">CEO</term> and <term class="no-emphasis" id="term-00008">chief financial officer (CFO)</term> must attest to the fairness and accuracy of the company’s financial reporting</item>
+<item>That the company implements and maintains an effective structure of internal controls responsible for the reporting of financial results</item>
+<item>That the company and an external public accounting firm confirm the effectiveness of the controls over the most recent fiscal year</item>
+</list>
+<para id="para-00013">In addition, SOX created the <term class="no-emphasis" id="term-00009">Public Company Accounting Oversight Board</term>, outlining the prohibited activities of auditors. It also set a requirement that the SEC issue new rulings that establish compliance with the act.</para>
+<section id="sect-00006">
+<title>Board of Directors Oversight and Corporate Governance</title>
+<para id="para-00014">Because of the widely publicized control breakdowns at Wells Fargo Bank and recent regulatory actions, boards of directors of public companies and financial institutions have been directed to improve oversight and <term id="term-00010">corporate governance</term>. Boards are evolving from focusing primarily on the needs of top key individuals to considering broader aspects of ethics, values, and corporate culture. Boards now oversee the monitoring systems being put in place and may take on direct responsibilities related to senior management.</para>
+</section>
+<section id="sect-00007">
+<title>The Role of the Audit Committee</title>
+<para id="para-00015">A strong independent <term class="no-emphasis" id="term-00011">audit committee (AC)</term> is an important part of the corporate governance efforts of any firm. The AC is formed by the board of directors as a separately chartered subcommittee of the board of directors. It reports regularly to the BOD and assists the board by assuming responsibilities for critical corporate financial matters, such as reviewing audit plans and findings, approving external public accountants, and coordinating the efforts of both internal and external financial reviews and audits. The audit committee provides expertise in all financial and accounting matters for a company, and it is therefore a critical part of a company’s corporate governance efforts.</para>
+<para id="para-00016">Some important functions of the audit committee include</para>
+<list id="list-00003">
+<item>confirming the accuracy of the firm’s financial reporting;</item>
+<item>verifying that systems of internal control and risk management are operating effectively;</item>
+<item>ensuring compliance with legal and regulatory requirements;</item>
+<item>verifying the qualifications, independence, and performance of the external public auditing firm; and</item>
+<item>coordinating the activities and performance of the internal audit function.</item>
+</list>
+<para id="para-00017">The role of the audit committee has significantly expanded over the years, and it has become exceedingly important with the enactment of the Sarbanes-Oxley Act. Due to this increase in importance and recognition, several boards have shifted some of the audit committee’s responsibilities to separately chartered committees in order to create a balance of duties and ensure that those duties are effectively focused on and efficiently executed. Some of these additional committees have been known to include a compensation committee, a disclosure committee, and a governance committee, and they all have related objectives that need to be documented within the charter of each of the individual committees. It is important for the different committees to have close working relationships so that the audit committee can help each one fulfill its responsibilities to senior management, the greater board of directors, shareholders, and other stakeholders.</para>
+<para id="para-00018">The audit committee performs an internal audit to review the organization’s corporate governance process and to communicate any recommendations for changes. The audit committee will usually follow up and monitor the process put in place to implement any changes or necessary improvements. As with any other corporate function, the audit committee’s role is greatly affected by the legal, institutional, financial, cultural, and political circumstances that impact the company.</para>
+</section>
+<section id="sect-00008">
+<title>Importance of Improving Oversight and Governance</title>
+<para id="para-00019">It is crucial to today’s corporate environment that firms do not lose sight of achieving and maintaining strong and efficient oversight and governance. This is true despite the litany of other important items on the busy agendas of most boards.</para>
+<para id="para-00020">Keeping a focus on the critical ethics of management, as well as the traditional focus on the importance of ethics to the overall organization, is not only timely in this day and age but also sound business practice. The importance of establishing a comprehensive system of checks and balances cannot be overemphasized. Beginning with the chief executive officer, these checks and balances need to progress through senior management, and they ultimately include the board of directors itself. Similar checks and balances need to then filter down though the rest of the entire firm. By taking the appropriate steps to improve corporate oversight and governance, overall business risk can be mitigated and future operational problems reduced. Additionally, such steps can lead to the positive effects of achieving sustainable operational and financial benefits for a company and its shareholders.</para>
+<note class="link-to-learning" id="note-00001">
+<title>PepsiCo</title>
+<para id="para-00021"><link url="https://openstax.org/r/pepsico"><term class="no-emphasis" id="term-00012">PepsiCo</term></link> is a global leader in the food and beverage industry. It has also been noted for its excellence in corporate governance. Take a look at the <link url="https://openstax.org/r/pepsico">PepsiCo website</link>. Why do you think the company has won numerous awards and was featured in <term class="no-emphasis" id="term-00013">Fortune</term>’s annual <term class="no-emphasis" id="term-00014">Blue Ribbon Companies</term> list for 2021?</para>
+</note>
+</section>
+</section>
+<section id="sect-00009">
+<title>The Importance of Independence in Boards of Directors</title>
+<para id="para-00022">An independent board of directors is composed of individuals who have no material interest in the company other than their directorship. They maintain their independence by only accepting compensation from the company for their BOD services. They also have their own information sources, instead of relying on information provided by senior management of the company. It is considered a corporate governance best practice to have independent members serve on boards of directors for both publicly and privately held companies.</para>
+<para id="para-00023">In most cases, board members have no affiliation with activities or organizations that could result in <term class="no-emphasis" id="term-00015">conflicts of interest</term>. An example of this might be a scenario in which a board is considering the formation of a partnership or alliance with an organization that is directly associated with one of its board members. In such an instance, a director might be excused from participating in that decision process, particularly if it is clear that it would lead to potential conflict.</para>
+<para id="para-00024">A board with a majority of independent directors can bring expertise and objectivity, which</para>
+<list id="list-00004">
+<item>helps assure ownership that the company is being run legally, ethically, and in the best interest of shareholders;</item>
+<item>allows for both independence and objectivity regarding senior managerial representatives and limits situations in which a key decision maker might have a vested interest or an “ax to grind”; and</item>
+<item>enables board members to advance discussions with no hidden agendas for self-advancement or other self-profiting motives.</item>
+</list>
+</section>
+<section id="sect-00010">
+<title>The Importance of Diversity in Boards of Directors</title>
+<para id="para-00025">As mentioned earlier, diversity can be an important quality for any board of directors. Increasingly over recent years, corporate management has begun to appreciate the value of diversity in boards of directors. This has resulted in a significant increase in the total number of women and minorities in boardrooms in the United States. However, many business observers believe that corporate governance practices have a long way to go in this respect. Increasing representation has now grown to become a high priority for most businesses and organizations around the world.</para>
+<para id="para-00026">Board members face many challenges in making decisions effectively and efficiently as possible. Because of such challenges, the potential objective of diversifying the boardroom competes with other worthy topics and objectives such as improving cybersecurity, advancing customer service, identifying and reducing risk, improving community relations, and positioning strategically within an industry. This has left corporate governance experts and researchers in a situation where they find themselves “playing catch-up” to adequately diversify.</para>
+</section>
+<section class="section-summary" id="sect-00011">
+<title/>
+<para id="para-00027">The board of directors acts as a fiduciary for shareholders. The board is also tasked with a number of other responsibilities, including setting company goals, creating dividend and stock option policies, hiring and firing CEOs, and ensuring that the company has the resources it needs to perform well. Diversity and experience play important roles in corporate governance and in the strength and effectiveness of a board of directors.</para>
+</section>
+<section class="multiple-choice" id="sect-00012">
+<title/>
+<exercise id="exer-00001"><problem id="prob-00001"><para id="para-00028"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_MCQ1"/></para></problem></exercise>
+<exercise id="exer-00002"><problem id="prob-00002"><para id="para-00029"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_MCQ3"/></para></problem></exercise>
+<exercise id="exer-00003"><problem id="prob-00003"><para id="para-00030"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_MCQ4"/></para></problem></exercise>
+<exercise id="exer-00004"><problem id="prob-00004"><para id="para-00031"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_MCQ6"/></para></problem></exercise>
+<exercise id="exer-00005"><problem id="prob-00005"><para id="para-00032"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_MCQ8"/></para></problem></exercise>
+<exercise id="exer-00006"><problem id="prob-00006"><para id="para-00033"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_MCQ13"/></para></problem></exercise>
+<exercise id="exer-00007"><problem id="prob-00007"><para id="para-00034"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_MCQ14"/></para></problem></exercise>
+</section>
+<section class="review-questions" id="sect-00013">
+<title/>
+<exercise id="exer-00008"><problem id="prob-00008"><para id="para-00035"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_RVQ6"/></para></problem></exercise>
+<exercise id="exer-00009"><problem id="prob-00009"><para id="para-00036"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_RVQ9"/></para></problem></exercise>
+<exercise id="exer-00010"><problem id="prob-00010"><para id="para-00037"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_RVQ10"/></para></problem></exercise>
+<exercise id="exer-00011"><problem id="prob-00011"><para id="para-00038"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_RVQ11"/></para></problem></exercise>
+</section>
+<section class="video-activity" id="sect-00014">
+<title/>
+<section id="sect-00015">
+<title>Corporate Governance (Introduction)</title>
+<media alt="intro-gov"><iframe width="660" height="371.4" src="https://openstax.org/r/corporate_governance"/></media>
+<exercise id="exer-00012"><problem id="prob-00012"><para id="para-00039"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_VA1Q1"/></para></problem></exercise>
+<exercise id="exer-00013"><problem id="prob-00013"><para id="para-00040"><link class="os-embed" url="#exercise/FI_Ch2_Sec3_VA1Q2"/></para></problem></exercise>
+</section>
 </section>
 </content>
+
+<glossary>
+<definition id="def-00001"><term>corporate governance</term> <meaning>the system of rules, practices, and processes by which a firm is directed and controlled</meaning></definition>
+<definition id="def-00002"><term>Securities and Exchange Commission (SEC)</term> <meaning>a large, independent agency of the United States federal government whose primary purpose is to enforce laws against market manipulation; created following the stock market crash of 1929 to protect investors and the national banking system</meaning></definition>
+</glossary>
 </document>

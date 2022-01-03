@@ -6,8 +6,71 @@
     <md:uuid>f513f18d-d837-483b-a5fc-974190539060</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
+<section class="learning-objectives" id="sect-00001">
+<title>Learning Outcomes</title>
+<para id="para-00001">By the end of this section, you will be able to:</para>
+<list id="list-00001">
+<item>Outline the stages of the business cycle.</item>
+<item>Identify recessionary and expansionary periods.</item>
+</list>
 </section>
+<section id="sect-00002">
+<title>What Is the Business Cycle?</title>
+<para id="para-00002">Although the US economy has grown significantly over time, as seen in Figure 3.12, the growth has not occurred at a constant, consistent pace. At times, the economy has experienced faster-than-average growth, and occasionally the economy has experienced negative growth.</para>
+<para id="para-00003">The percentage change in real GDP for each quarter is shown in Figure 3.13. For any quarter in which real GDP is growing, the percentage change will be positive. When the growth rate of real GDP is negative, the economy is shrinking.</para>
+<figure id="fig-00001">
+<title>Quarterly Percentage Change in US Real GDP with Shading Representing Recessions<sup>vii</sup></title>
+<media alt="A line graph shows the Quarterly Percentage Change in U.S. Real GDP from 1950 through 2020. Recessions are shown by shading in the graph and have occurred 11 times. During all recessions, there is a negative percent change in real GDP. 2020 shows the largest decrease in real GDP, at almost negative 10%, although no recession is indicated. This is quickly followed by the largest increase in real GDP, at 7.5% increase."><image mime-type="image/png" src="../../media/FINAN_Figure_03_03_013.png"/></media>
+</figure>
+<para id="para-00004">Figure 3.14 is an illustration of the growth of GDP over time. There has been a definitive long-term upward trend in GDP, but it has not been in a straight line. Instead, the economy has expanded much like the curve; periods of quick growth are followed by slower or even negative growth. These alternating growth periods are known as the <term id="term-00001">business cycle</term>.</para>
+<figure id="fig-00002">
+<title>Growth of GDP and the Business Cycle</title>
+<media alt="A line graph shows how GDP has increased over time. It compares the business cycle to the long run trend."><image mime-type="image/png" src="../../media/FINAN_Figure_03_03_014.png"/></media>
+</figure>
+</section>
+<section id="sect-00003">
+<title>Stages of the Business Cycle</title>
+<para id="para-00005">The business cycle consists of a period of economic expansion followed by a period of economic contraction. During the period of economic <term id="term-00002">expansion</term>, GDP rises. Employment expands as businesses produce more; conversely, unemployment falls. Other measures of economic growth may include increased new business starts and new home construction. The economy is said to be “heating up.” As the expansion continues, inflation often becomes a concern.</para>
+<para id="para-00006">Fast-paced economic expansion is not sustainable. Eventually, growth slows and unemployment rises. The economy has moved from expansion to contraction when this occurs. The point at which the business cycle turns from expansion to contraction is known as the <emphasis effect="italics">peak</emphasis>. The point at which the contraction ends and the economy begins to expand again is known as the <emphasis effect="italics">trough</emphasis>. The length of one business cycle is measured by the time from one trough to the trough of the next cycle, as shown in Figure 3.15.</para>
+<figure id="fig-00003">
+<title>Stages of the Business Cycle</title>
+<media alt="A line graph shows the stages of business . The line starts low on the graph. This is labelled the trough. The line slopes upward until it hits its highest point. The uplward slope of the line is labelled the expansion and the highest point is labelled the peak. The line then slpes downward until it reaches another low point. The downard slope is labelled the contrraction and the low point is labelled the trough. There is a dotted line going from the first trough to the second; this dotted line is labelled one cycle."><image mime-type="image/png" src="../../media/FINAN_Figure_03_03_015.png"/></media>
+</figure>
+<para id="para-00007">Often, the contraction is referred to as a <term id="term-00003">recession</term>. A private think tank, the <term class="no-emphasis" id="term-00004">National Bureau of Economic Research (NBER)</term>, tracks the business cycle in the United States. The NBER is the entity that officially declares recessions in the United States. Historically, a recession was defined as two consecutive quarters of declining GDP. Today, the NBER defines a recession in a broader, less precise manner; it will declare a recession when there is a significant decline in economic activity that is spread across the economy and lasts for at least a few months.<sup>viii</sup> Measures of real income, employment, industrial production, and wholesale and retail sales are considered in addition to real GDP.</para>
+<note class="link-to-learning" id="note-00001">
+<title>National Bureau of Economic Research</title>
+<para id="para-00008">The National Bureau of Economic Research was founded in 1920 to create measures of economic activity that could be used in public policy discussions. It is a private, nonpartisan organization that conducts research that is followed by businesses and the public sector. You can find out more about the NBER and view many of its research papers by visiting its website.</para>
+</note>
+</section>
+<section id="sect-00004">
+<title>Historical Trends</title>
+<para id="para-00009">The NBER has identified business cycle peaks and troughs in data going back to the mid-19th century. Figure 3.16 lists each of these cycles, denoting the months of peaks and troughs. We see a repetition of the economic behavior—an expansion, a peak, a recession, and a trough, followed by yet another expansion, peak, recession, and trough. The cycles are events that repeatedly occur in the same order.</para>
+<figure id="fig-00004">
+<title>Peak and Trough Months of Historical Business Cycles</title>
+<media alt="Table showing data of peaks and trough months of historical business cycles from Dec 1854 to Feb 2020."><image mime-type="image/png" src="../../media/FINAN_Figure_03_03_016.png"/></media>
+<caption>(source: National Bureau of Economic Research)</caption>
+</figure>
+<para id="para-00010">However, the cycles are not identical; the lengths of the cycles vary greatly. On average, the contractions have lasted about 17 months and expansions have lasted about 41 months. The typical business cycle has been about 4.5 years long.</para>
+<para id="para-00011">At the time of this writing, the United States is in an economic recession.<sup>ix</sup> The previous trough was in June 2009. From the summer of 2009 through February 2020, the US economy was in the expansionary phase of the business cycle. This expansion peaked in February 2020, when the economy fell into a contractionary period associated with the COVID-19 pandemic. This 128-month expansion is the longest expansion in US history. Only two other expansions have it lasted for over 100 months: the 120-month expansion that ran through the 1990s and the 106-month expansion that ran during the 1960s. The longest recessionary period on record is the 65-month recession that occurred during the 1870s. The recession that began in 1929 was the second-longest recession in US history. At 43 months long, this recession that ended in 1933 was so severe that it has been called the Great Depression.<sup>x</sup></para>
+</section>
+<section class="section-summary" id="sect-00005">
+<title/>
+<para id="para-00012">The business cycle is the repeated pattern of the economy experiencing expansion, a peak, contraction, and a trough. During the expansion, the economy is growing and real GDP is rising. During a contraction, also known as a recession, the economy is slowing down.</para>
+</section>
+<section class="multiple-choice" id="sect-00006">
+<title/>
+<exercise id="exer-00001"><problem id="prob-00001"><para id="para-00013"><link class="os-embed" url="#exercise/FI_Ch3_Sec3_MCQ5"/></para></problem></exercise>
+<exercise id="exer-00002"><problem id="prob-00002"><para id="para-00014"><link class="os-embed" url="#exercise/FI_Ch3_Sec3_MCQ10"/></para></problem></exercise>
+</section>
+<section class="review-questions" id="sect-00007">
+<title/>
+<exercise id="exer-00003"><problem id="prob-00003"><para id="para-00015"><link class="os-embed" url="#exercise/FI_Ch3_Sec3_RVQ3"/></para></problem></exercise>
+</section>
+
 </content>
+<glossary>
+<definition id="def-00001"><term>business cycle</term> <meaning>a period of economic expansion followed by economic contraction</meaning></definition>
+<definition id="def-00002"><term>expansion</term> <meaning>the part of the business cycle in which GDP is growing</meaning></definition>
+<definition id="def-00003"><term>recession</term> <meaning>the part of the business cycle characterized by contraction</meaning></definition>
+</glossary>
 </document>

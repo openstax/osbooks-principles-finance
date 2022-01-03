@@ -1,13 +1,25 @@
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="introduction">
-  <title>Introduction</title>
+  <title>Why It Matters</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
-    <md:title>Introduction</md:title>
+    <md:title>Why It Matters</md:title>
     <md:content-id>m00010</md:content-id>
     <md:uuid>542954cb-a7a9-4301-a523-d2e798b196db</md:uuid>
   </metadata>
   <content class="introduction">
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
+<figure class="splash" id="fig-00001"><media alt="A conference hall where a large number of people are sitting and working on paper and tablet computers. A smaller group is seated around a circular table, while others are watching a video on screen in audience-style seating."><image mime-type="image/jpeg" src="../../media/FINAN_Figure_02_Intro_001_Splash.jpg"/></media>
+<caption>The legal structure of any business will have a substantial impact on its operations. (credit: “New Board Room at 2 Broadway” by Metropolitan Transportation Authority/Patrick Cashin/flickr, CC BY 2.0)</caption></figure>
+<para id="para-00001">When someone opens a business, it is because they want to fulfill important personal financial goals. In publicly traded companies, managers and employees work on behalf of the shareholders, who own the business through their ownership of company stock. These managers and employees have an ongoing obligation to pursue projects, policies, and corporate investments that will increase or promote stockholder value over the long term. Although many companies focus on financially related goals, such as growth, earnings per share, and market share, the main financial goal is to create value for investors.</para>
+<para id="para-00002">Keep in mind that a company’s stockholders are not just an abstract group. Like the sole business owner, they are individuals who have chosen to invest their hard-earned cash in a company. They are looking for a return on their investment in order to meet their own personal long-term financial goals, which might be saving for retirement, a new home, or college education for their children.</para>
+<para id="para-00003">In addition to increasing value, it is also important to realize that a firm has important nonfinancial goals. Some examples of these might include the following:</para>
+<list id="list-00001">
+<item>Expanding sales to existing customers</item>
+<item>Increasing customer loyalty to the weaker brands</item>
+<item>Developing new products for current and potential customers</item>
+<item>Becoming international by setting up an online ordering service</item>
+<item>Improving customer satisfaction with customer services</item>
+</list>
+<para id="para-00004">If managers are to help stockholders maximize their wealth, they must know how that wealth is determined in the first place. One of the main concepts in finance is that the value of any asset is determined by the present value of the stream of cash flows that the asset will provide to its owners over the course of time. In subsequent chapters, we will also be covering stock valuation in depth, and we will see that stock prices are based on cash flows expected in future years, not only on those coming in at the present time.</para>
+<para id="para-00005">For these reasons, stock price maximization, which leads directly to maximizing shareholder wealth, requires us to take a long-term view of company operations. It is also important to realize that managerial actions that affect a company’s value may not immediately be reflected in the price of a company’s stock but rather will become evident in the long-term prospects of the organization.</para>
+<para id="para-00006">In the case of privately held companies, smaller firms, and sole proprietorships, there are no shareholders. However, attention to long-term growth and maximizing the value of a firm is just as important a goal to the owners, who are also usually senior management with the company.</para>
 </content>
 </document>

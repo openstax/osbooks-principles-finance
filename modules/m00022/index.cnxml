@@ -6,8 +6,75 @@
     <md:uuid>c62a097b-1dee-451d-aa18-7f68486c7862</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
+<section class="learning-objectives" id="sect-00001">
+<title>Learning Outcomes</title>
+<para id="para-00001">By the end of this section, you will be able to:</para>
+<list id="list-00001">
+<item>Explain what it means for a currency to appreciate or depreciate.</item>
+<item>Define spot exchange rate.</item>
+<item>Explain the risks involved in translation exposure.</item>
+</list>
 </section>
+<section id="sect-00002">
+<title>Spot Exchange Rate</title>
+<para id="para-00002">An exchange rate is simply the price of a currency. If you live in the United States and are going on a trip to Mexico, you will need pesos to pay for your food, hotel, and other items. You will need to purchase pesos. Suppose that you go to your bank to purchase pesos. Suppose the bank tells you that it will cost $0.0625 to purchase one Mexican peso. If you want to take 10,000 Mexican pesos with you on your trip, it will cost you $625 to purchase the desired pesos.</para>
+<para id="para-00003">In this example, the price of one peso is six and one-quarter cents. This price will often be written in the form of</para>
+<equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MXN</mi><mo>&amp;#xA0;</mo><mn>1</mn><mo>=</mo><mi>USD</mi><mo>&amp;#xA0;</mo><mn>0</mn><mo>.</mo><mn>0625</mn></math></equation>
+<para id="para-00004" xmlns="http://cnx.rice.edu/cnxml">MXN is an abbreviation for the <term class="no-emphasis" id="term-00001">Mexican peso</term>, and USD is an abbreviation for the US dollar. This price is known as a currency exchange rate, or the rate at which you can exchange one currency for another currency. Because this is the price you would pay to purchase Mexican pesos right now, it is known as the <term id="term-00002">spot exchange rate</term>.</para>
+<para id="para-00005">If you know the price of Mexican pesos in dollars, you can easily find the price of US dollars in Mexican pesos. Simply divide both sides of the equation by 0.0625, or the price of a peso:</para>
+<equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MXN</mi><mo>&amp;#xA0;</mo><mn>1</mn><mo>=</mo><mi>USD</mi><mo>&amp;#xA0;</mo><mn>0</mn><mo>.</mo><mn>0625</mn></math></equation>
+<equation id="eq-00003" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>MXN</mi><mo>&amp;#xA0;</mo><mn>1</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>0625</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>USD</mi><mo>&amp;#xA0;</mo><mn>0</mn><mo>.</mo><mn>0625</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>0625</mn></mrow></mfrac></math></equation>
+<equation id="eq-00004" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MXN</mi><mo>&amp;#xA0;</mo><mn>16</mn><mo>=</mo><mi>USD</mi><mo>&amp;#xA0;</mo><mn>1</mn></math></equation>
+<para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">If you have Mexican pesos and you want to exchange them for dollars, you will be using the pesos to buy dollars. Each US dollar will cost you MXN 16.</para>
+<note class="link-to-learning" id="note-00001">
+<title>Currency Conversion</title>
+<para id="para-00007">Do you want to know how many British pounds your $100 would buy? Or would you like to see how much that 10,000-yen-per-night hotel room will cost you in your home currency? You can enter the amount of one currency in the <link url="https://openstax.org/r/currencyconverter">MSN Money currency converter</link> to see what the equivalent amount is in another currency.</para>
+</note>
+</section>
+<section id="sect-00003">
+<title>Currency Appreciation</title>
+<para id="para-00008">Just as the price of gasoline changes, resulting in it costing more to purchase gasoline on some visits to the gas station than on other visits, the price of a currency also changes. Currency appreciation occurs when it costs more to purchase a currency than it did before.</para>
+<para id="para-00009">If the next time you go to the bank to purchase pesos, the bank quotes an exchange rate of <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MXN</mi><mo>&amp;#xA0;</mo><mn>1</mn><mo>=</mo><mi>USD</mi><mo>&amp;#xA0;</mo><mn>0</mn><mo>.</mo><mn>0800</mn></math>, it means that it now costs $0.0800 (up from $0.0625) to purchase a Mexican peso. Hence, the price of a peso has risen, or the peso has appreciated.</para>
+<para id="para-00010" xmlns="http://cnx.rice.edu/cnxml">Currency prices are determined in the marketplace through the same types of supply-and-demand forces we discussed earlier in this chapter. What would cause the peso to appreciate? Either an increase in the demand for pesos or a decrease in the supply of pesos.</para>
+</section>
+<section id="sect-00004">
+<title>Currency Depreciation</title>
+<para id="para-00011">Just as a currency can appreciate, it can depreciate. If the quote at the bank was <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MXN</mi><mo>&amp;#xA0;</mo><mn>1</mn><mo>=</mo><mi>USD</mi><mo>&amp;#xA0;</mo><mn>0</mn><mo>.</mo><mn>0500</mn></math>, it would only cost $0.0500 to purchase a Mexican peso. When it costs fewer dollars to purchase a peso, the peso has depreciated. Either a decrease in demand for pesos or an increase in supply of pesos will cause the peso to depreciate.</para>
+<para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">Because an exchange rate is the price of one currency expressed in terms of another currency, if one of the currencies depreciates, the other currency must, by definition, appreciate. If it costs $0.0500 to purchase a Mexican peso, the price of a US dollar, in terms of a Mexican peso would be calculated as</para>
+<equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MXN</mi><mo>&amp;#xA0;</mo><mn>1</mn><mo>=</mo><mi>USD</mi><mo>&amp;#xA0;</mo><mn>0</mn><mo>.</mo><mn>0500</mn></math></equation>
+<equation id="eq-00006" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>MXN</mi><mo>&amp;#xA0;</mo><mn>1</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>0500</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>USD</mi><mo>&amp;#xA0;</mo><mn>0</mn><mo>.</mo><mn>0500</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>0500</mn></mrow></mfrac></math></equation>
+<equation id="eq-00007" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MXN</mi><mo>&amp;#xA0;</mo><mn>20</mn><mo>=</mo><mi>USD</mi><mo>&amp;#xA0;</mo><mn>1</mn></math></equation>
+<para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">So, the price of one US dollar would be 20 Mexican pesos.</para>
+</section>
+<section id="sect-00005">
+<title>Exchange Rate Risk</title>
+<para id="para-00014">Businesses that engage in international business face currency exchange rate risk. As exchange rates change, a business can be impacted in a number of ways. One of these risks, <term id="term-00003">transaction exposure</term>, is the risk that the value of a business’s expected receipts or expenses will change as a result of a change in currency exchange rates. A pottery-making business that has sold merchandise to a company in the United States for $20,000, for example, will need to exchange the $20,000 for pesos to be able to pay its workers and other expenses in pesos. How many pesos it will receive for $20,000 will change depending on the exchange rate. If the exchange rate is <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MXN</mi><mo>&amp;#xA0;</mo><mn>16</mn><mo>&amp;#xA0;</mo><mo>=</mo><mo>&amp;#xA0;</mo><mi>USD</mi><mo>&amp;#xA0;</mo><mn>1</mn></math>, the company will receive 320,000 pesos for the $20,000. If the exchange rate is <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>MXN</mi><mo>&amp;#xA0;</mo><mn>20</mn><mo>=</mo><mi>USD</mi><mo>&amp;#xA0;</mo><mn>1</mn></math>, the company will receive 400,000 pesos for the $20,000. Thus, as the peso depreciates (and the US dollar appreciates), the same number of dollars will provide more pesos. Conversely, as the peso appreciates (and the US dollar depreciates), the same number of dollars will provide fewer pesos.</para>
+<para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">Firms that hold assets in a foreign country also face <term id="term-00004">translation exposure</term>. When a company creates its financial statements, items are reported using one currency. As foreign exchange rates change, the value of how items are reported on these financial statements can change. This type of risk is an accounting risk.</para>
+<para id="para-00016"><term id="term-00005">Economic exposure</term> is the risk that a change in exchange rates will impact a business’s number of customers and sales. For example, tourists have the option of spending a week-long vacation at a resort in the United States or in Mexico. As the dollar appreciates, US citizens can exchange their dollars for more pesos, resulting in their purchasing power going further at a Mexican resort. Because an appreciating dollar also means a depreciating peso, it would mean that Mexicans who earn pesos will receive fewer dollars when they exchange their pesos. A Mexican who wants to stay at a $200-per-night hotel in Colorado will need more pesos to pay for the room when the peso depreciates. The depreciating peso will likely mean that more Mexicans will spend their vacation week in <term class="no-emphasis" id="term-00006">Mexico</term>, and fewer will vacation in the United States.</para>
+<para id="para-00017">Even businesses that do not view themselves as involved in international business can face economic exposure. The ski lodge in Colorado will find that its customers from Mexico decrease when the dollar appreciates. Likewise, when the dollar appreciates, some of the ski lodge’s US-based customers may choose instead to visit a resort in Mexico, where their purchasing power is strong.</para>
+</section>
+<section class="section-summary" id="sect-00006">
+<title/>
+<para id="para-00018">A foreign exchange rate is the price of a currency in terms of another currency. If a currency will purchase more of a foreign currency than it would previously, the purchasing currency is said to have appreciated. If a currency will purchase less of a foreign currency than it would previously, the purchasing currency is said to have depreciated.</para>
+</section>
+<section class="multiple-choice" id="sect-00007">
+<title/>
+<exercise id="exer-00001"><problem id="prob-00001"><para id="para-00019"><link class="os-embed" url="#exercise/FI_Ch3_Sec5_MCQ11"/></para></problem></exercise>
+</section>
+<section class="review-questions" id="sect-00008">
+<title/>
+<exercise id="exer-00002"><problem id="prob-00002"><para id="para-00020"><link class="os-embed" url="#exercise/FI_Ch3_Sec5_RVQ5"/></para></problem></exercise>
+</section>
+<section class="problems" id="sect-00009">
+<title/>
+<exercise id="exer-00003"><problem id="prob-00003"><para id="para-00021"><link class="os-embed" url="#exercise/FI_Ch3_Sec5_PRQ1"/></para></problem></exercise>
+</section>
+
 </content>
+<glossary>
+<definition id="def-00001"><term>economic exposure</term> <meaning>the risk that a change in exchange rates will impact a business’s sales and number of customers</meaning></definition>
+<definition id="def-00002"><term>spot exchange rate</term> <meaning>the price to immediately buy one currency in terms of another currency</meaning></definition>
+<definition id="def-00003"><term>transaction exposure</term> <meaning>the risk that the value of a business’s expected receipts or expenses will change as a result of a change in currency exchange rates</meaning></definition>
+<definition id="def-00004"><term>translation exposure</term> <meaning>the risk that a change in exchange rates will impact the financial statements of a company</meaning></definition>
+</glossary>
 </document>

@@ -6,8 +6,117 @@
     <md:uuid>58e35d1b-a71e-4d2e-94fe-8ef845828dbf</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
+<section class="learning-objectives" id="sect-00001">
+<title>Learning Outcomes</title>
+<para id="para-00001">By the end of this section, you will be able to:</para>
+<list id="list-00001">
+<item>Assess the impact of business transactions on cash flow.</item>
+<item>Define double-entry accounting and explain how it supports the accounting equation.</item>
+</list>
+</section>
+<para id="para-00002">How and when we record our transactions can have a significant impact on financial statements, especially the <term id="term-00001">income statement (net income)</term>. In this section you will explore the impact business transactions have on financial statements under each method. In doing so, you’ll be introduced to <term id="term-00002">double-entry accounting</term> and see how it functions to support the accounting equation.</para>
+<section id="sect-00002">
+<title>Timing of Business Activity versus Cash Flow</title>
+<para id="para-00003">The first financial statement prepared is the income statement, a statement that shows the organization’s financial performance <emphasis effect="italics">for a given period of time</emphasis>. We already saw that Chris, who is a sole proprietor, started a summer landscaping business on August 1, 2020. She categorized her business as a service entity and used the cash<emphasis effect="italics">-</emphasis>basis method of accounting to record the initial operations for her business. Although Chris was using her family’s tractor to get her work done, she was responsible for paying for fuel and any maintenance costs. So, on August 31, Chris realized she had only $250 in her checking account.</para>
+<para id="para-00004">This balance was lower than expected because she had spent only slightly less ($1,150 for brakes, fuel, and insurance) than she earned ($1,400)—leaving a net income of $250. While she would like the checking balance to grow each month, she realized that most of the August expenses were infrequent (brakes and insurance) and the insurance, in particular, was an unusually large expense. She knew that the checking account balance would likely grow more in September because she would earn money from some new customers; she also anticipated having fewer expenses.</para>
+<para id="para-00005">This simple landscaping example can be used to discuss the elements of the income statement, which are revenues, expenses, <term id="term-00003">gains</term>, and <term id="term-00004">losses</term> for a particular period of time (see Figure 4.2). Together, these determine whether the organization has net income (where revenues and gains are greater than expenses and losses) or net loss (where expenses and losses are greater than revenues and gains). Revenues, expenses, gains, and losses are further defined in the Income Statement provided.</para>
+<figure id="fig-00001">
+<title>Income Statement for <term class="no-emphasis" id="term-00005">Chris’s Landscaping</term></title>
+<media alt="Chris’ Landscaping, Income Statement, For the Month Ended August 31, 2020. Revenue $1,400, Total revenue $1,400. Expenses: Tractor brake repair 100, Tractor fuel 50, Buiness insurance 1,000; Total Expenses 1,150; Net income $250."><image mime-type="image/png" src="../../media/FINAN_Figure_04_02_002.png"/></media>
+</figure>
+<para id="para-00006">The income statement can also be visualized by the formula:</para>
+<equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Revenue</mi><mo> </mo><mo>–</mo><mi>Expenses</mi><mo>=</mo><mpadded space="+1px"><mfrac><mrow><mi>Net</mi><mo> </mo><mi>Income</mi></mrow><mrow><mo>(</mo><mi>Loss</mi><mo>)</mo></mrow></mfrac></mpadded></math></equation>
+<para id="para-00007" xmlns="http://cnx.rice.edu/cnxml">Let’s change this example slightly and assume the $1,000 payment to the insurance company will be paid in September rather than in August. In this case, the ending balance in Chris’s checking account would be $1,250, a result of earning $1,400 and only spending $100 for the brakes on the tractor and $50 for fuel. This stream of cash flows is an example of cash-basis accounting because it reflects when payments are received and made, not necessarily the time period that they affect. At the end of this section, you will address accrual accounting, which does reflect the time period that payments affect.</para>
+<section id="sect-00003">
+<title>The Accounting Equation</title>
+<para id="para-00008">It may be helpful to think of the <term id="term-00006">accounting equation</term> from a “sources and claims” perspective. Under this approach, the assets (items owned by the organization) were obtained by incurring liabilities or were provided by owners. Stated differently, every asset has a claim against it—by creditors and/or owners.</para>
+<equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>&amp;#xA0;</mo><mo>=</mo><mo>&amp;#xA0;</mo><mi>Liabilities</mi><mo>&amp;#xA0;</mo><mo>+</mo><mo>&amp;#xA0;</mo><mi>Owner</mi><mo>&amp;#x2019;</mo><mi mathvariant="normal">s</mi><mo>&amp;#xA0;</mo><mi>Equity</mi></math></equation>
+<para id="para-00009" xmlns="http://cnx.rice.edu/cnxml">You may recall from mathematics courses that an equation must always be in balance. Therefore, we must ensure that the two sides of the accounting equation are always equal. We will explore the components of the accounting equation in more detail shortly. First, we need to examine several underlying concepts that form the foundation for the accounting equation: the double-entry accounting system, debits and credits, and the “normal” balance for each account that is part of a formal accounting system.</para>
+<note class="think-through" id="note-00001">
+<title>The Accounting Equation</title>
+<exercise class="unnumbered" id="exer-00001">
+<problem id="prob-00001">
+<para id="para-00010">On a sheet of paper, use three columns to create your own accounting equation. In the first column, list all the things you own (assets). List only the asset itself; don’t worry about any associated liabilities (expenses) in that column. In the second column, list any amounts owed (the liabilities). When you are done, total up all the assets. Then total up all the liabilities.</para>
+<para id="para-00011">Now, use the accounting equation to calculate the net amount of the asset (equity). To do so, subtract the total assets from the total liabilities. This figure makes the accounting equation balance and represents equity, or an estimate of your net worth.</para>
+<para id="para-00012">Here is something else to consider: Is it possible to have negative equity? It sure is . . . ask any college student who has taken out loans. At first glance there is no asset directly associated with the amount of the loan. But is that, in fact, the case? You might ask yourself why you should make an investment in a college education—what is the benefit (asset) to going to college? The answer lies in the difference in lifetime earnings with a college degree versus without a college degree. This is influenced by many things, including the supply and demand of jobs and employees. It is also influenced by the earnings for the type of college degree pursued.</para>
+</problem>
+<solution id="sol-00001">
+<para id="para-00013">Answers will vary but may include vehicles, clothing, electronics (include cell phones and computer/gaming systems), and sports equipment. They may also include money owed on these assets, most likely vehicles and perhaps cell phones. In the case of a student loan, there may be a liability with no corresponding asset (yet). Responses should be able to evaluate the benefit of investing in college and the wage differential between earnings with and without a college degree.</para>
+</solution>
+</exercise>
+</note>
+<para id="para-00014">Let’s continue our exploration of the accounting equation, focusing on the equity component in particular. Recall that we defined equity as the net worth of an organization. It is helpful to also think of net worth as the accounting <emphasis effect="italics">value</emphasis> of the organization. Recall, too, that revenues (inflows as a result of providing goods and services) <emphasis effect="italics">increase</emphasis> the accounting value of the organization. So every dollar of revenue an organization generates increases the overall value of the organization.</para>
+<para id="para-00015">Likewise, expenses (outflows as a result of generating revenue) <emphasis effect="italics">decrease</emphasis> the value of the organization. So each dollar of expenses an organization incurs decreases the overall value of the organization. The same approach can be taken with the other elements of the financial statements:</para>
+<list id="list-00002">
+<item>Gains <emphasis effect="italics">increase</emphasis> the value (equity) of the organization.</item>
+<item>Losses <emphasis effect="italics">decrease</emphasis> the value (equity) of the organization.</item>
+<item>Investments by owners <emphasis effect="italics">increase</emphasis> the value (equity) of the organization.</item>
+<item>Distributions to owners <emphasis effect="italics">decrease</emphasis> the value (equity) of the organization.</item>
+<item>Changes in assets and liabilities can <emphasis effect="italics">either</emphasis> increase or decrease the value (equity) of the organization depending on the net result of the transaction.</item>
+</list>
+<para id="para-00016">Let’s look at Chris’s Landscaping business again and do the same quick exercise you did with your personal finances. If we were to total all of Chris’s assets, we would find just one: $250 in cash. She’s using the family’s tractor, but she doesn’t own the tractor, so it is not her asset. Her liabilities are currently $0, as she paid cash for all the expenses she incurred already. If we total her assets, we get $250. Liabilities total $0. Using the accounting equation, we find her equity to currently be $250, or</para>
+<equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>&amp;#xA0;</mo><mo>(</mo><mo>$</mo><mn>250</mn><mo>)</mo><mo>\</mo><mo>&amp;#xA0;</mo><mo>&amp;#x2013;</mo><mo>&amp;#xA0;</mo><mi>Liabilities</mi><mo>&amp;#xA0;</mo><mo>(</mo><mo>$</mo><mn>0</mn><mo>)</mo><mo>&amp;#xA0;</mo><mo>=</mo><mo>&amp;#xA0;</mo><mi>Equity</mi><mo>&amp;#xA0;</mo><mo>(</mo><mo>$</mo><mn>250</mn><mo>)</mo></math></equation>
+</section>
+</section>
+<section id="sect-00004" xmlns="http://cnx.rice.edu/cnxml">
+<title>Double-Entry Accounting</title>
+<para id="para-00017">Accounting is based on a double-entry accounting system, which requires the following:</para>
+<list id="list-00003">
+<item>Each time we record a transaction, we must record a change in at least two different accounts. Having two or more accounts change will allow us to keep the accounting equation in balance.</item>
+<item>Not only will at least two accounts change, but there must also be at least one <term id="term-00007">debit</term> and one <term id="term-00008">credit</term> side impacted.</item>
+<item>The sum of the debits must equal the sum of the credits for each transaction.</item>
+</list>
+<para id="para-00018">In order for companies to record the myriad of transactions they have each year, there is a need for a simple but detailed system. Journals are useful tools to meet this need.</para>
+<section id="sect-00005">
+<title>Debits and Credits</title>
+<para id="para-00019">Each account can be represented visually by splitting the account into left and right sides as shown. The graphic representation of a general ledger account is known as a <term id="term-00009">T-account</term>. It is called this because it looks like a “T,” as you can see with the T-account shown in Figure 4.3.</para>
+<figure id="fig-00002">
+<title>T-Account</title>
+<media alt="A general ledger account or T-account shows debit records financial information on the left side of each account and credit records financial information on the right side of an account. A vertical line divides these sections. The account title goes above the debit and credit information; it is underlined. The underline and dividing line forms a T."><image mime-type="image/png" src="../../media/FINAN_Figure_04_02_003.png"/></media>
+</figure>
+<para id="para-00020">A debit records financial information on the left side of each account. A credit records financial information on the right side of an account. One side of each account will increase, and the other side will decrease. The ending account balance is found by calculating the difference between debits and credits for each account. You will often see the terms <emphasis effect="italics">debit</emphasis> and <emphasis effect="italics">credit</emphasis> represented in shorthand, written as <emphasis effect="italics">DR</emphasis> or <emphasis effect="italics">dr</emphasis> and <emphasis effect="italics">CR</emphasis> or <emphasis effect="italics">cr</emphasis>, respectively. Depending on the account type, the sides that increase and decrease may vary. We can illustrate each account type and its corresponding debit and credit effects in the form of an <emphasis effect="italics">expanded</emphasis> equation (see Figure 4.4).</para>
+<figure id="fig-00003">
+<title>Expanded Accounting Equation</title>
+<media alt="An expanded accounting equation. The general equation is: assets = liabilities + common stocks minus dividends + revenues minus expenses. Common stocks, dividends, revenues, and expenses are collectively known as equity."><image mime-type="image/png" src="../../media/FINAN_Figure_04_02_004.png"/></media>
+</figure>
+<para id="para-00021">As we can see from this expanded accounting equation, Assets accounts increase on the debit side and decrease on the credit side. This is also true of Dividends and Expenses accounts. Liabilities increase on the credit side and decrease on the debit side. This is also true of Common Stock and Revenues accounts. This becomes easier to understand as you become familiar with the <emphasis effect="italics">normal balance</emphasis> of an account.</para>
+<para id="para-00022">The balance sheet is a reflection of the accounting equation (see Figure 4.5). It has two sections, assets in one section and liabilities and equity in the other section. It’s key to note that both assets and liabilities are broken down on the balance sheet into current and noncurrent classifications in order to provide more detail and transparency. Current assets are those that are consumed within a year. Assets that will be in use longer than a year are considered noncurrent. Current liabilities are those that will be due within a year. Noncurrent liabilities are those that are due more than a year into the future.</para>
+<figure id="fig-00004">
+<title>Graphical Representation of the Accounting Equation</title>
+<media alt="Graphical Representation of the Accounting Equation. The balance sheet shows assets and liabilities, categorized as current and noncurrent. Various activities that affect the equity of the business are highlighted. Activities that have a negative impact include distribution to owners, expenses, and losses. Activities that have a positive impact include investments by owners, revenues, and gains. Comprehensive income can have a negative or positive effect on the owner’s equity."><image mime-type="image/png" src="../../media/FINAN_Figure_04_02_005.png"/></media>
+<caption>Both assets and liabilities are categorized as current and noncurrent. Also highlighted are the various activities that affect the equity (or net worth) of the business.</caption>
+</figure>
+<para id="para-00023">Notice each account subcategory (Current Assets and Noncurrent Assets, for example) has an “increase” side and a “decrease” side. As you may recall, these are called T-accounts, and they are used to analyze transactions.</para>
+<para id="para-00024">The basic components of even the simplest accounting system are <emphasis effect="italics">accounts</emphasis> and a <emphasis effect="italics">general ledger</emphasis>. An account is a record showing increases and decreases to assets, liabilities, and equity—the basic components found in the accounting equation. Each of these categories, in turn, includes many individual accounts, all of which a company maintains in its general ledger. A general ledger is a comprehensive listing of all of a company’s accounts with their individual balances.</para>
+</section>
+</section>
+<section class="section-summary" id="sect-00006">
+<title/>
+<para id="para-00025">Double-entry accounting means that each time a transaction is recorded, there are at minimum two accounts impacted by the entry. Each entry’s debits must total its credits in order to support and maintain the balance in the accounting equation. The accounting equation is expressed as <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>&amp;#xA0;</mo><mo>=</mo><mo>&amp;#xA0;</mo><mi>Liabilities</mi><mo>&amp;#xA0;</mo><mo>+</mo><mo>&amp;#xA0;</mo><mi>Owner</mi><mo>&amp;#x2019;</mo><mi mathvariant="normal">s</mi><mo>&amp;#xA0;</mo><mi>Equity</mi><mo>.</mo></math>.</para>
+</section>
+<section class="multiple-choice" id="sect-00007" xmlns="http://cnx.rice.edu/cnxml">
+<title/>
+<exercise id="exer-00002"><problem id="prob-00002"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch4_Sec2_MCQ3"/></para></problem></exercise>
+</section>
+<section class="review-questions" id="sect-00008">
+<title/>
+<exercise id="exer-00003"><problem id="prob-00003"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch4_Sec2_RVQ4"/></para></problem></exercise>
+<exercise id="exer-00004"><problem id="prob-00004"><para id="para-00028"><link class="os-embed" url="#exercise/FI_Ch4_Sec2_RVQ5"/></para></problem></exercise>
+</section>
+<section class="problems" id="sect-00009">
+<title/>
+<exercise id="exer-00005"><problem id="prob-00005"><para id="para-00029"><link class="os-embed" url="#exercise/FI_Ch4_Sec2_PRQ1"/></para></problem></exercise>
+<exercise id="exer-00006"><problem id="prob-00006"><para id="para-00030"><link class="os-embed" url="#exercise/FI_Ch4_Sec2_PRQ2"/></para></problem></exercise>
 </section>
 </content>
+<glossary>
+<definition id="def-00001"><term>accounting equation</term> <meaning><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>&amp;#xA0;</mo><mo>=</mo><mo>&amp;#xA0;</mo><mi>Liabilities</mi><mo>&amp;#xA0;</mo><mo>+</mo><mo>&amp;#xA0;</mo><mi>Owner</mi><mo>&amp;#x2019;</mo><mi mathvariant="normal">s</mi><mo>&amp;#xA0;</mo><mi>Equity</mi><mo>.</mo></math></meaning></definition>
+<definition id="def-00002" xmlns="http://cnx.rice.edu/cnxml"><term>credit</term> <meaning>a record of financial information on the right side of an account</meaning></definition>
+<definition id="def-00003"><term>debit</term> <meaning>a record of financial information on the left side of each account</meaning></definition>
+<definition id="def-00004"><term>double-entry accounting</term> <meaning>an accounting method that requires the sum of the debits to equal the sum of the credits for each transaction</meaning></definition>
+<definition id="def-00005"><term>gains</term> <meaning>increases in organizational value from activities that are “incidental or peripheral” to the primary purpose of the business</meaning></definition>
+<definition id="def-00006"><term>income statement</term> <meaning>a financial statement that measures the organization’s financial performance for a given period of time</meaning></definition>
+<definition id="def-00007"><term>losses</term> <meaning>decreases in organizational value from activities that are “incidental or peripheral” to the primary purpose of the business</meaning></definition>
+<definition id="def-00008"><term>T-account</term> <meaning>a graphic representation of a general ledger account in which each account is visually split into left and right sides</meaning></definition>
+</glossary>
 </document>

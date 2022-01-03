@@ -5,9 +5,69 @@
     <md:content-id>m00025</md:content-id>
     <md:uuid>f57bb0af-5460-4a40-b0c8-0227f8c413d0</md:uuid>
   </metadata>
-  <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
+<content>
+<section class="learning-objectives" id="sect-00001">
+<title>Learning Outcomes</title>
+<para id="para-00001">By the end of this section, you will be able to:</para>
+<list id="list-00001">
+<item>Outline the key concepts of the cash-basis accounting method.</item>
+<item>Explain the key characteristics of the accrual-basis accounting method.</item>
+<item>Identify businesses for which cash accounting or accrual accounting is more appropriate.</item>
+</list>
+</section>
+<para id="para-00002">In this section, we will explore the basic elements of cash and accrual accounting and the businesses that are most likely to use each one. Some private companies may choose to use <term id="term-00001">cash-basis accounting</term> rather than <term id="term-00002">accrual-basis accounting</term> to report financial information.</para>
+<section id="sect-00002">
+<title>Cash-Basis Accounting</title>
+<para id="para-00003">In business, cash is certainly important. In fact, it’s so important that it dictates one of two ways we can account for our business transactions. The <emphasis effect="italics">cash method</emphasis> is just as the name implies—it records transactions only when cash flows. We track cash inflows and outflows as they occur. This method is most commonly used by small businesses that deal primarily in cash transactions. The other method, called the <emphasis effect="italics">accrual method</emphasis>, records transactions when they occur, rather than waiting for cash to be accumulated. Using the accrual method, we match cash inflows and the outflows required to generate them. We call this the <emphasis effect="italics">matching principle</emphasis>. This method is used by most publicly traded companies. In this chapter, you’ll explore both methods, see how each impacts financial statements differently, note the role of timing in each method, and learn how and when to record capital and expense transactions.</para>
+<para id="para-00004">Let’s look at an example. Chris just finished the first month of her landscaping business operations at the end of August, and she used the cash method of accounting to figure out her <term id="term-00003">net income</term>. Most small start-up companies use the cash method of accounting because it is easy to understand, requires no special training, and helps them focus on one big key to their survival—cash. This means that she simply recorded the cash that came in and the cash that went out of her business. She brought in $1,400 in revenue in her first month, which she felt was substantial given that it was her first month. But after deducting her expenses, she had only $250 left, so she worried about the future of her business. Would she have to increase her sales exponentially in order to start bringing in a decent profit each month?</para>
+<para id="para-00005">As you move through the chapter, you’ll get to see the impact of the two methods of accounting and how these methods impact the insights and decisions Chris made for her new business.</para>
+<para id="para-00006">Cash-basis accounting is a method of accounting in which transactions are not recorded in the financial statements until there is an exchange of cash. Cash-basis accounting sometimes impacts the timing of <term id="term-00004">revenue</term> and <term id="term-00005">expense</term> reporting until cash receipts or outlays occur. For example, as you saw above, Chris measured the performance of her landscaping business for the month of August using cash flows. Cash accounting is far simpler to track than accrual-basis accounting.</para>
+</section>
+<section id="sect-00003">
+<title>Accrual-Basis Accounting</title>
+<para id="para-00007">Public companies reporting their financial positions use either US generally accepted accounting principles (<term class="no-emphasis" id="term-00006">GAAP</term>) or <term class="no-emphasis" id="term-00007">International Financial Reporting Standards (IFRS)</term>, as allowed under the <term class="no-emphasis" id="term-00008">Securities and Exchange Commission (SEC)</term> regulations. GAAP is a set of accounting standards created by the <term class="no-emphasis" id="term-00009">Financial Accounting Standards Board (FASB)</term> and the <term class="no-emphasis" id="term-00010">Governmental Accounting Standards Board (GASB)</term>. It’s key to note that though they are similar in many areas, there are still key areas that differ between GAAP and IFRS. Therefore, when using financial statements, it’s important to be aware of the standards under which they were prepared. However, public or private companies using GAAP or IFRS must prepare their financial statements using the rules of accrual accounting. Accrual-basis accounting prescribes that revenues and expenses must be recorded in the accounting period in which they were earned or incurred, no matter when cash receipts or payments occur. It is because of accrual accounting that we have the revenue recognition principle and the expense recognition principle (also known as the matching principle).</para>
+<para id="para-00008">The accrual method is considered to better match revenues and expenses and standardizes reporting information for comparability purposes. Having comparable information is important to external users of information trying to make investment or lending decisions and to internal users trying to make decisions about company performance, budgeting, and growth strategies.</para>
+<section id="sect-00004">
+<title>Who Uses Each Method?</title>
+<para id="para-00009">Cash-basis accounting can be more efficient and well-suited for certain types of businesses, such as farming or professional services provided by lawyers and doctors. However, the accrual basis of accounting is theoretically preferable to the cash basis of accounting because it takes into account the timing of the transactions (when goods and services are provided and when the cash involved in the transactions is received). Cash can often be received a significant amount of time after the initial transaction. Considering this amount allows accountants to provide, in a timely manner, relevant and complete information to stakeholders.</para>
+<para id="para-00010">There are several reasons accrual-basis accounting is preferred to cash-basis accounting. Accrual-basis accounting is required by GAAP because it typically provides a better sense of the financial well-being of a company. Accrual-based accounting information allows management to analyze a company’s progress, and management can use that information to improve their business. Accrual accounting is also used to assist companies in securing financing because banks will typically require a company to provide accrual-basis financial income statements. The <term class="no-emphasis" id="term-00011">Internal Revenue Service</term> requires businesses to report using accrual-basis information when preparing tax returns. In addition, companies with inventory must use accrual-based accounting for income tax purposes, though there are exceptions to the general rule.</para>
+<para id="para-00011">So why might a company use cash-basis accounting? Companies that do not sell stock publicly can use cash-basis instead of accrual-basis accounting for internal management purposes or because they are exempt from such requirements in agreements such as a bank loan. Cash-basis accounting is a simpler accounting system to use than an accrual-basis accounting system when tracking real-time revenues and expenses.</para>
+<note class="think-through" id="note-00001">
+<title>Cash- or Accrual-Basis Accounting?</title>
+<exercise class="unnumbered" id="exer-00001">
+<problem id="prob-00001">
+<para id="para-00012">You are a new accountant at a beauty salon. The salon had previously used cash-basis accounting to prepare its financial records but is now considering switching to an accrual-basis method. You have been tasked with determining if this transition is appropriate.</para>
+<para id="para-00013">When you go through the records, you notice that this transition will greatly impact how the salon reports revenues and expenses. The salon will now report some revenues and expenses before it receives or pays cash.</para>
+<para id="para-00014">How will this change positively impact its business reporting? How will it negatively impact its business reporting? If you were the accountant, would you recommend the salon transition from cash basis to accrual basis?</para>
+</problem>
+<solution id="sol-00001">
+<para id="para-00015">Accrual accounting creates a more accurate picture of profit or loss, so the salon’s owner can have a better understanding of its profitability from period to period. However, it can be more work to record under accrual accounting. If the salon is small and the profits and costs are easily understood, it might not be worth the extra effort to the owner to use accrual-basis accounting. If the salon is seeking ways to better understand profits and costs, accrual-basis accounting would be a great choice.</para>
+</solution>
+</exercise>
+</note>
+</section>
+</section>
+<section class="section-summary" id="sect-00005">
+<title/>
+<para id="para-00016">Cash-basis accounting records revenues and expenses only when cash is received or distributed. Accrual-basis accounting, on the other hand, records revenues and expenses when they are earned or incurred rather than waiting until cash changes hands. Most publicly traded companies are required by the SEC to use accrual-basis accounting. Generally, smaller businesses that deal primarily in cash are the best candidates for using the cash basis since the accrual method more accurately depicts net income or net loss each period.</para>
+</section>
+<section class="multiple-choice" id="sect-00006">
+<title/>
+<exercise id="exer-00002"><problem id="prob-00002"><para id="para-00017"><link class="os-embed" url="#exercise/FI_Ch4_Sec1_MCQ1"/></para></problem></exercise>
+<exercise id="exer-00003"><problem id="prob-00003"><para id="para-00018"><link class="os-embed" url="#exercise/FI_Ch4_Sec1_MCQ2"/></para></problem></exercise>
+</section>
+<section class="review-questions" id="sect-00007">
+<title/>
+<exercise id="exer-00004"><problem id="prob-00004"><para id="para-00019"><link class="os-embed" url="#exercise/FI_Ch4_Sec1_RVQ1"/></para></problem></exercise>
+<exercise id="exer-00005"><problem id="prob-00005"><para id="para-00020"><link class="os-embed" url="#exercise/FI_Ch4_Sec1_RVQ2"/></para></problem></exercise>
+<exercise id="exer-00006"><problem id="prob-00006"><para id="para-00021"><link class="os-embed" url="#exercise/FI_Ch4_Sec1_RVQ3"/></para></problem></exercise>
 </section>
 </content>
+<glossary>
+<definition id="def-00001"><term>accrual-basis accounting</term> <meaning>an accounting system in which revenue is recorded or recognized when earned yet not necessarily received, and in which expenses are recorded when legally incurred and not necessarily when paid</meaning></definition>
+<definition id="def-00002"><term>cash-basis accounting</term> <meaning>a method of accounting in which transactions are not recorded in the financial statements until there is an exchange of cash</meaning></definition>
+<definition id="def-00003"><term>expense</term> <meaning>a cost associated with providing goods or services</meaning></definition>
+<definition id="def-00004"><term>net income</term> <meaning>income earned when revenues and gains are greater than expenses and losses</meaning></definition>
+<definition id="def-00005"><term>revenue</term> <meaning>inflows or other enhancements of assets of an entity or settlements of its liabilities (or a combination of both) from delivering or producing goods, rendering services, or other activities that constitute the entity’s ongoing major or central operations</meaning></definition>
+</glossary>
 </document>

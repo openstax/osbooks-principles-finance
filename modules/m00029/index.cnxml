@@ -6,8 +6,49 @@
     <md:uuid>c3986034-092e-4fbb-88a4-c1896e9514d9</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
+ <section class="learning-objectives" id="sect-00001">
+<title>Learning Outcomes</title>
+<para id="para-00001">By the end of this section, you will be able to:</para>
+<list id="list-00001">
+<item>Outline the components necessary to calculate profit or loss.</item>
+<item>Contrast revenue and gains versus expenses and losses.</item>
+<item>Differentiate revenue and expense versus receipt or payment of cash.</item>
+</list>
+</section>
+<para id="para-00002">It’s a common misconception that if a business has cash they are making a profit, and if they are suffering a loss they must not have any cash. While this could be true, it’s not necessarily true. In this section you’ll explore key differences between cash flow, revenue, expense, profits, and losses.</para>
+<section id="sect-00002">
+<title>Calculating Profit and Loss</title>
+<para id="para-00003">Net income (net loss) is determined by comparing revenues and expenses. Net income is a result of revenues (inflows) being greater than expenses (outflows). A net loss occurs when expenses (outflows) are greater than revenues (inflows). In accounting it is common to present net income in the following format:</para>
+<para id="para-00004">Recall that revenue is the value of goods and services a business provides to its customers and increases the value of the business. Expenses, on the other hand, are the costs of providing the goods and services and decrease the value of the business. When revenues exceed expenses, companies have net income. This means the business has been successful at earning revenues, containing expenses, or a combination of both. If, on the other hand, expenses exceed revenues, companies experience a net loss. This means the business was unsuccessful in earning adequate revenues, sufficiently containing expenses, or a combination of both. While businesses work hard to avoid net loss situations, it is not uncommon for a company to sustain a net loss from time to time. It is difficult, however, for businesses to remain viable while experiencing net losses over the long term.</para>
+<para id="para-00005">Shown as a formula, the net income (loss) function is:</para>
+<equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Revenues</mi><mo>&amp;#xA0;</mo><mo>(</mo><mi>R</mi><mo>)</mo><mo>&amp;#xA0;</mo><mo>&amp;#x2013;</mo><mo>&amp;#xA0;</mo><mi>Expenses</mi><mo>&amp;#xA0;</mo><mo>(</mo><mi>E</mi><mo>)</mo></mtd><mtd><mo>=</mo></mtd><mtd><mi>Net</mi><mo>&amp;#xA0;</mo><mi>Income</mi><mo>&amp;#xA0;</mo><mo>(</mo><mi>when</mi><mo>&amp;#xA0;</mo><mi>R</mi><mo>&amp;gt;</mo><mi>E</mi><mo>)</mo></mtd></mtr><mtr><mtd><mi>Revenues</mi><mo>&amp;#xA0;</mo><mo>(</mo><mi>R</mi><mo>)</mo><mo>&amp;#xA0;</mo><mo>&amp;#x2013;</mo><mo>&amp;#xA0;</mo><mi>Expenses</mi><mo>&amp;#xA0;</mo><mo>(</mo><mi>E</mi><mo>)</mo></mtd><mtd><mo>=</mo></mtd><mtd><mi>Net</mi><mo>&amp;#xA0;</mo><mi>Loss</mi><mo>&amp;#xA0;</mo><mo>(</mo><mi>when</mi><mo>&amp;#xA0;</mo><mi>E</mi><mo>&amp;gt;</mo><mi>R</mi><mo>)</mo></mtd></mtr></mtable></math></equation>
+<para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">To be complete, we must also consider the impact of gains and losses. While gains and losses are infrequent in a business, it is not uncommon that a business would present a gain and/or loss in its financial statements. Recall that gains are similar to revenue and losses are similar to expenses. Therefore, the traditional accounting format would be as shown in Figure 4.17.</para>
+<figure id="fig-00001">
+<title>Gains and Losses</title>
+<media alt="A simple depiction of gains and losses. Revenues, also called sales or fees earned, and gains are added. From that, expenses and losses are deducted to calculate net income or net loss."><image mime-type="image/png" src="../../media/FINAN_Figure_04_05_017.png"/></media>
+</figure>
+<para id="para-00007">Shown as a formula, the net income (loss) function, including gains and losses, is:</para>
+<equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Revenues</mi><mo>&amp;#xA0;</mo><mo>(</mo><mi>R</mi><mo>)</mo><mo>&amp;#xA0;</mo><mo>+</mo><mo>&amp;#xA0;</mo><mi>Gains</mi><mo>&amp;#xA0;</mo><mfenced><mi>G</mi></mfenced><mo>&amp;#xA0;</mo><mo>-</mo><mo>&amp;#xA0;</mo><mi>Expenses</mi><mo>&amp;#xA0;</mo><mfenced><mi>E</mi></mfenced><mo>&amp;#xA0;</mo><mo>-</mo><mo>&amp;#xA0;</mo><mi>Losses</mi><mo>&amp;#xA0;</mo><mfenced><mi>L</mi></mfenced><mo>=</mo><mi>Net</mi><mo>&amp;#xA0;</mo><mi>Income</mi><mo>&amp;#xA0;</mo><mfenced open="["><mrow><mi>when</mi><mo>&amp;#xA0;</mo><mo>(</mo><mi>R</mi><mo>&amp;#xA0;</mo><mo>+</mo><mo>&amp;#xA0;</mo><mi>G</mi></mrow></mfenced><mo>&amp;gt;</mo><mo>(</mo><mi>E</mi><mo>&amp;#xA0;</mo><mo>+</mo><mo>&amp;#xA0;</mo><mi>L</mi><mo>)</mo><mo>]</mo></math></equation>
+<equation id="eq-00003" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Revenues</mi><mo>(</mo><mi mathvariant="normal">R</mi><mo>)</mo><mo>&amp;#xA0;</mo><mo>+</mo><mi>Gains</mi><mo>&amp;#xA0;</mo><mfenced><mi>G</mi></mfenced><mo>-</mo><mi>Expenses</mi><mo>&amp;#xA0;</mo><mfenced><mi>E</mi></mfenced><mo>-</mo><mi>Losses</mi><mo>&amp;#xA0;</mo><mfenced><mi>L</mi></mfenced><mo>=</mo><mi>Net</mi><mo>&amp;#xA0;</mo><mi>Loss</mi><mo>&amp;#xA0;</mo><mfenced open="["><mrow><mi>when</mi><mo>&amp;#xA0;</mo><mo>(</mo><mi>E</mi><mo>&amp;#xA0;</mo><mo>+</mo><mo>&amp;#xA0;</mo><mi>L</mi></mrow></mfenced><mo>&amp;gt;</mo><mo>(</mo><mi>R</mi><mo>&amp;#xA0;</mo><mo>+</mo><mo>&amp;#xA0;</mo><mi>G</mi><mo>)</mo><mo>]</mo></math></equation>
+<para id="para-00008" xmlns="http://cnx.rice.edu/cnxml">When assessing a company’s net income, it is important to understand the source of the net income. Businesses strive to attain “high quality” net income (earnings). High-quality earnings are based on sustainable earnings, also called permanent earnings, while relying less on infrequent earnings, also called temporary earnings. Recall that revenues represent the ongoing value of goods and services the business provides (sells) to its customers, while gains are infrequent and involve items ancillary to the primary purpose of the business. For example, assume a bakery sells the truck it uses to deliver wedding cakes and experiences a gain on the sale. The bakery is not in the business of buying and selling trucks. It is in the baked goods business. Thus, the gain on the sale of the truck would be ancillary to the primary purpose of the business and represent a gain rather than revenue. We should use caution if a business attains a significant portion of its net income as a result of gains rather than revenues. Likewise, net losses derived as a result of losses should be put into the proper perspective due to the infrequent nature of losses. While net losses are undesirable for any reason, net losses that result from expenses related to ongoing operations, rather than losses that are infrequent, are more concerning for the business.</para>
+</section>
+<section id="sect-00003">
+<title>Profit versus Cash Flow</title>
+<para id="para-00009">Knowing the difference between the cash basis and accrual basis of accounting is necessary to understand the need for the statement of cash flows. Stakeholders need to know the financial performance (as measured by the income statement—that is, net income or net loss) and financial position (as measured by the balance sheet—that is, assets, liabilities, and owners’ equity) of the business. This information is provided in the income statement, statement of owner’s equity, and balance sheet. However, since these financial statements are prepared using accrual accounting, stakeholders do not have a clear picture of the business’s cash activities. The statement of cash flows solves this inadequacy by specifically focusing on the cash inflows and cash outflows. It also helps better delineate the difference between revenues and cash flow in versus expenses and cash flow out. As mentioned in prior sections, revenue can occur without cash actually flowing. For example, a customer may buy a good on account. Revenues would be recorded, but cash would not yet be received. The same is true on the expenses side. An expense can be incurred, such as an electric bill, but cash may not have been paid out yet. Thus, an expense is recorded and recognized on the income statement, but cash has not yet been given up. The statement of cash flows helps reconcile the difference between net income (a result of recorded revenues and expenses) and actual cash flow.</para>
+</section>
+<section class="section-summary" id="sect-00004">
+<title/>
+<para id="para-00010">Profit or loss for a company is calculated by subtracting expenses from revenue. The result is a profit if revenues are larger than expenses. Profit (or loss) is the money earned from the day-to-day general business operations. Gains and losses, on the other hand, occur when the business does something they don’t normally do (like sell a piece of their equipment) and earns or loses money on the transaction. It’s key to note that the timing of cash flows can vary from the timing of recording revenues or expenses. Thus a revenue does not necessarily equal cash in, and an expense does not necessarily equal a cash flow out.</para>
+</section>
+<section class="video-activity" id="sect-00005">
+<title/>
+<section id="sect-00006">
+<title>Difference between Cash Flow and Profit</title>
+<media alt="cash-profit">
+<iframe width="660" height="371.4" src="https://openstax.org/r/difference-cashflow-profit"/></media>
+<exercise id="exer-00001"><problem id="prob-00001"><para id="para-00011"><link class="os-embed" url="#exercise/FI_Ch4_Sec5_VA1Q1"/></para></problem></exercise>
+<exercise id="exer-00002"><problem id="prob-00002"><para id="para-00012"><link class="os-embed" url="#exercise/FI_Ch4_Sec5_VA1Q2"/></para></problem></exercise>
+</section>
 </section>
 </content>
 </document>

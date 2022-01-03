@@ -6,8 +6,56 @@
     <md:uuid>b81b0c54-4415-4080-8fce-cad4b9393690</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
+<section class="learning-objectives" id="sect-00001">
+<title>Learning Outcomes</title>
+<para id="para-00001">By the end of this section, you will be able to:</para>
+<list id="list-00001">
+<item>Explain why corporations expand beyond domestic borders.</item>
+<item>Determine how different strategic decisions may influence corporate performance.</item>
+</list>
+</section>
+<section id="sect-00002">
+<title>Important Differences among Domestic, International, and Global Organizations</title>
+<para id="para-00002">If a company becomes global or multinational in scope, fundamental analysis of the organization by the investment community can become more complex. In order to better understand a company, it is important to determine what laws affect the company’s governance process and which set of accounting rules is used to fashion its financial reports.</para>
+<para id="para-00003">Domestic companies operate completely or for the most part within the borders of the United States. While such organizations may import raw materials and supplies from other nations or end up exporting their finished products to other countries around the world, in the end, these international activities represent only a very small portion of their overall business activities.</para>
+<para id="para-00004">Domestic companies are typically governed by US accounting and securities laws that have been established by the SEC. Further, financial reporting for these domestic organizations is to be completed using <term id="term-00001">Generally Accepted Accounting Principles (GAAP)</term>.</para>
+<para id="para-00005">International firms, while based in the United States, will typically maintain significant levels of international investment and conduct operations that may be quite diverse, both geographically and culturally. For such international firms, parent company accounting will usually adhere to GAAP standards. Conversely, non-US subsidiaries of such international firms may be regulated by laws dictated by their host countries. These will often differ significantly from those in the United States.</para>
+<para id="para-00006">In recent years, accounting regulations in countries outside the United States have come under the jurisdiction of <term class="no-emphasis" id="term-00002">International Financial Reporting Standards (IFRS)</term>. It should be noted that guidelines and regulations under IFRS and those under GAAP can differ significantly. As a result of these regulatory differences, any specific divergences in accounting or governance practices between foreign subsidiaries and a US parent company should be clearly stated and disclosed in the parent company’s financial reports.</para>
+<para id="para-00007">Global firms have substantial operations and investments in different countries (<term id="term-00003">global markets</term>), and they may have no single center or basis of operational activity. In such cases, regulations for corporate governance are usually determined by the laws of the country in which the parent company has been established. While there are some global firms that report their financial statements according to GAAP standards, usually to satisfy the informational needs of US investors, most global parent companies’ financials will adhere to IFRS reporting standards.</para>
+</section>
+<section id="sect-00003">
+<title>Difference in Financial Reporting: GAAP versus IFRS</title>
+<para id="para-00008">Generally Accepted Accounting Principles (GAAP) and <term class="no-emphasis" id="term-00004">International Financial Reporting Standards (IFRS)</term> were designed with similar objectives in mind: to provide a common and structured set of guidelines to assist in the preparation of accurate and unbiased financial reporting for public corporations.</para>
+<para id="para-00009">Yet despite these commonalities in purpose, there are important differences between them. Among these are differences in inventory accounting and reporting, guidelines for consolidation of subsidiaries, and the accounting and reporting of minority interests.</para>
+<note class="link-to-learning" id="note-00001">
+<title>GAAP and IFRS</title>
+<para id="para-00010">Learn more about US GAAP reporting from the <link url="https://openstax.org/r/corpfin-manual">SEC website</link>, and learn about international standards from the <link url="https://openstax.org/r/ifrs-org">IFRS website</link>.</para>
+</note>
+</section>
+<section id="sect-00004">
+<title>SEC Reporting and EDGAR</title>
+<para id="para-00011"><term id="term-00005">EDGAR (Electronic Data Gathering, Analysis, and Retrieval system)</term> is the primary system for collecting and indexing documents submitted by companies to the SEC under the Securities Act of 1933, the Securities Exchange Act of 1934, the Trust Indenture Act of 1939, and the Investment Company Act of 1940.</para>
+<note class="link-to-learning" id="note-00002">
+<title><term class="no-emphasis" id="term-00006">EDGAR System</term></title>
+<para id="para-00012">The <link url="https://openstax.org/r/edgar-html">SEC’s EDGAR system</link> contains millions of corporate and individual filings. It benefits investors, corporations, and the US economy overall by increasing the efficiency, transparency, and fairness of the securities markets. The system processes about 3,000 filings per day, serves up 3,000 terabytes of data to the public annually, and accommodates 40,000 new filers per year on average.<footnote id="foot-00001">“About EDGAR.” US Securities and Exchange Commission. Modified March 23, 2021. https://www.sec.gov/edgar/about</footnote></para>
+</note>
+</section>
+<section class="section-summary" id="sect-00005">
+<title/>
+<para id="para-00013">Companies sometimes expand internationally, and there are advantages and disadvantages of such growth. International or global expansion efforts require careful and efficient communication, planning, and financing.</para>
+</section>
+<section class="cfa-institute" id="sect-00006">
+<title>CFA Institute</title>
+<para id="para-00014">This chapter supports some of the <link url="https://openstax.org/r/cfa-institue-org">Learning Outcome Statements (LOS)</link> in this CFA® Level I Study Session. Reference with permission of CFA Institute.</para>
+</section>
+<section class="multiple-choice" id="sect-00007">
+<title/>
+<exercise id="exer-00001"><problem id="prob-00001"><para id="para-00015"><link class="os-embed" url="#exercise/FI_Ch2_Sec6_MCQ18"/></para></problem></exercise>
 </section>
 </content>
+<glossary>
+<definition id="def-00001"><term>Electronic Data Gathering, Analysis, and Retrieval system (EDGAR)</term> <meaning>the primary system for collecting and indexing documents submitted by companies and others under the Securities Act of 1933, the Securities Exchange Act of 1934, the Trust Indenture Act of 1939, and the Investment Company Act of 1940</meaning></definition>
+<definition id="def-00002"><term>Generally Accepted Accounting Principles (GAAP)</term> <meaning>a common set of accounting principles, standards, and procedures issued by the Financial Accounting Standards Board (FASB)</meaning></definition>
+<definition id="def-00003"><term>global markets</term> <meaning>economies or markets that are multinational in nature, spanning several different countries or jurisdictions</meaning></definition>
+</glossary>
 </document>

@@ -6,8 +6,73 @@
     <md:uuid>aa1be439-4af7-4102-97df-717615d3b5f5</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
+<section class="learning-objectives" id="sect-00001">
+<title>Learning Outcomes</title>
+<para id="para-00001">By the end of this section, you will be able to:</para>
+<list id="list-00001">
+<item>Explain the relationship between the nominal interest rate and inflation.</item>
+<item>Calculate the real rate of interest.</item>
+<item>Explain the relationship between interest rates and risk.</item>
+</list>
 </section>
+<section id="sect-00002">
+<title>Market for Loanable Funds</title>
+<para id="para-00002">An interest rate is the rental price of money. The concepts of supply, demand, and equilibrium apply in this market just as they do in other markets. This market is referred to as the <emphasis effect="italics">market for loanable funds</emphasis>.</para>
+<para id="para-00003">In the market for loanable funds, the suppliers of funds are economic entities that currently have a surplus in their budget. In other words, they have more income than they currently want to spend; they would like to save some of their money and spend it in future time periods. Instead of just putting these savings in a box on a shelf for safekeeping until they want to spend it, they can let someone else borrow that money. In essence, they are renting that money to someone else, who pays a rental price called the <emphasis effect="italics">interest rate</emphasis>.</para>
+<para id="para-00004">The suppliers of loanable funds, also known as lenders, are represented by the upward-sloping curve in Figure 3.17. A higher interest rate will encourage these lenders to supply a larger quantity of loanable funds.</para>
+<para id="para-00005">The demanders of funds in the loanable funds market are economic entities that currently have a deficit in their budget. They want to spend more than they currently have in income. For example, a grocery store chain that wants to expand into new cities and build new grocery stores will need to spend money on land and buildings. The cost of buying the land and buildings exceeds the chain’s current income. In the long run, its business expansion will be profitable, and it can pay back the money that it has borrowed.</para>
+<para id="para-00006">The downward-sloping curve in Figure 3.17 represents the demanders of loanable funds, also known as borrowers. Higher interest rates will be associated with lower quantities demanded of loanable funds. At lower interest rates, more borrowers will be interested in borrowing larger quantities of funds because the price of renting those funds will be cheaper.</para>
+<figure id="fig-00001">
+<title>Equilibrium in the Loanable Funds Market</title>
+<media alt="The graph shows the Equilibrium in the Loanable Funds Market. The equilibrium interest rate is determined by the intersection of the demand and supply curves."><image mime-type="image/png" src="../../media/FINAN_Figure_03_04_017.png"/></media>
+</figure>
+<para id="para-00007">The equilibrium interest rate is determined by the intersection of the demand and supply curves. At that interest rate, the quantity supplied of loanable funds exactly equals the quantity demanded of loanable funds. There is no shortage of loanable funds, nor is there any surplus.</para>
+</section>
+<section id="sect-00003">
+<title>Nominal Interest Rates</title>
+<para id="para-00008">The <term id="term-00001">nominal interest rate</term> is the stated, or quoted, interest rate. If you want to borrow money to purchase a car and the bank quotes an interest rate of 5.5% on a four-year auto loan, the 5.5% is the nominal interest rate.</para>
+<para id="para-00009">Or suppose you have $1,000 you would like to place in a savings account. If the bank quotes an interest rate of 6% on its savings accounts, the 6% is a nominal interest rate. This means that if you place your $1,000 in a savings account for one year, you will receive $60 in interest for the year. At the end of the year, you will have a balance of $1,060 in your savings account—your original $1,000 plus the $60 in interest that you earned.</para>
+</section>
+<section id="sect-00004">
+<title>Real Interest Rates</title>
+<para id="para-00010">Suppose you are deciding between saving your $1,000 for the year and using it to purchase a flat-screen TV. The advantage of spending the money on the TV today is that you can enjoy watching programs on it over the next year. The advantage of saving the money is that you will earn 6% nominal interest; in one year, you will have $1,060 to spend.</para>
+<para id="para-00011">If there is a 2% inflation rate, you would expect the TV that costs $1,000 today to cost $1,020 in one year. If you save the $1,000, you will have $1,060 in one year. You could purchase the TV for $1,020 and have $40 left over; then you could use the $40 to order pizza to celebrate the first big game you are watching on the new TV.</para>
+<para id="para-00012">Your choice comes down to enjoying a TV today or enjoying a TV and $40 in one year. The $40 is your reward for delaying consumption. It is your real return for saving money. The remaining $20 of the interest you earned just covered the rate of inflation. This reward for delaying consumption is known as the <term id="term-00002">real interest rate</term>. The real interest rate is calculated as</para>
+<equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Real</mi><mo> </mo><mi>Interest</mi><mo> </mo><mi>Rate</mi><mo>=</mo><mi>Nominal</mi><mo> </mo><mi>Interest</mi><mo> </mo><mi>Rate</mi><mo>-</mo><mi>Inflation</mi><mo> </mo><mi>Rate</mi></math></equation>
+<para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">The real interest rate, rather than the nominal interest rate, is the true determinant of the cost of borrowing and the reward for lending. For example, if a business had to pay 15% nominal interest rate in 1980, when the inflation rate was 12%, the real cost of borrowing for the firm was 3%. The company would have had to pay $15 in interest each year for each $100 it borrowed, but $12 of that was simply compensating the lender for inflation. In real terms, the business was only paying $3 to borrow $100.</para>
+<para id="para-00014">In recent years, a business may have paid 6% interest to borrow money. This nominal rate is half of what it was in 1980. However, inflation has been much lower. If inflation is 1% and the company pays 6% nominal interest, that results in a 5% real interest rate. For every $100 the company borrows, it pays $6 in interest; $1 is compensating for inflation, and the remaining $5 is the real cost of borrowing.</para>
+</section>
+<section id="sect-00005">
+<title>Risk Premiums</title>
+<para id="para-00015">As we have discussed interest rates, we have talked about how the interest rate is determined by the demand and supply of loanable funds. This tells us the underlying interest rate in the economy. You will notice, however, if you look at the financial news, that there is more than one interest rate in the economy at any given time.</para>
+<para id="para-00016">Figure 3.18 shows the interest rates that three different types of borrowers have paid over the past 20 years. The bottom line shows the interest rate that the US government paid to borrow money for a three-month period. This rate is often referred to as the risk-free rate of interest. While theoretically it would be possible for the US government to default and not pay back those people who have loaned money to it, the chances of that are occurring are extremely low.</para>
+<para id="para-00017">When someone borrows money, they enter into a contract to repay the money and the interest owed. However, sometimes, certain circumstances arise such that the lender has a difficult time collecting the money, even though the lender has the legal right to the money. For example, if a company goes bankrupt after borrowing the money and before paying back the loan, the lender may not be able to collect what is due. The chance that the lender may not be able to collect all of the money due at the time it is due is considered <emphasis effect="italics"><term class="no-emphasis" id="term-00003">credit risk</term></emphasis>. Lenders want to be rewarded for taking on this risk, so they charge a premium to borrowers who are higher risk.</para>
+<para id="para-00018">Companies are more likely to go bankrupt and not be able to pay their bills on time than is the US government. So, corporations have to pay a higher interest rate than the US government. If a lender can earn 1% lending to the US government, the lender will only be willing to lend to the riskier corporation if they can earn more than 1%. In Figure 3.18, the interest rates paid by very creditworthy companies is shown. The prime rate is the interest rate that banks charge their very best customers—large companies that are financially very strong and have a very low risk of default.</para>
+<para id="para-00019">It is generally riskier for a lender to make a loan to an individual than to a corporation. Individuals are more likely to become ill, lose their job, or experience some other financial setback that makes it difficult for them to repay their loans. In Figure 3.18, the interest rate on credit card loans is much higher than the interest rate charged to corporate borrowers. That is because credit card loans are a high risk to the lender. Unlike other loans made to an individual, such as a car loan, the credit card company has no collateral if a consumer cannot pay back the loan. With car loans, if the borrower fails to repay the borrowed money, the lender can repossess the automobile and sell it to recoup some of the money it is owed. If you use a credit card to buy groceries and do not repay the loan, the credit card company cannot repossess the groceries that you purchased. Therefore, credit card loans have notoriously high interest rates to compensate the lender for the high risk.</para>
+<figure id="fig-00002">
+<title>Interest Rate on US Treasury Bills and Credit Cards<sup>xi</sup></title>
+<media alt="A line graph showsthe Interest Rate on U.S. Treasury Bills, the bank prime loan rate, and Credit Cards. It shows that the interest rate on credit cards is the highest, while the interest rate on 3-month treasury constant maturity rate is the lowest. The Bank Prime Loan Rate is in the middle of these two rates. The three rates rise and fall during the same time periods, although the credit card rate is always significantly higher than the other two rates."><image mime-type="image/png" src="../../media/FINAN_Figure_03_04_018.png"/></media>
+<caption>This graph shows the rates posted by a majority of top 25 (by assets in domestic offices) insured US-chartered commercial banks. The prime rate is one of several base rates used by banks to price short-term business loans. For further information regarding Treasury constant maturity data, please refer to the Board of Governors and the Treasury.</caption></figure>
+</section>
+<section class="section-summary" id="sect-00006">
+<title/>
+<para id="para-00020">The interest rate is the rental price of money. The nominal interest rate is the quoted, or stated, rate of interest. The real rate of interest equals the nominal interest rate minus the inflation rate. Lenders charge a risk premium to compensate them for lending to higher-risk borrowers.</para>
+</section>
+<section class="multiple-choice" id="sect-00007">
+<title/>
+<exercise id="exer-00001"><problem id="prob-00001"><para id="para-00021"><link class="os-embed" url="#exercise/FI_Ch3_Sec4_MCQ6"/></para></problem></exercise>
+<exercise id="exer-00002"><problem id="prob-00002"><para id="para-00022"><link class="os-embed" url="#exercise/FI_Ch3_Sec4_MCQ7"/></para></problem></exercise>
+</section>
+<section class="review-questions" id="sect-00008">
+<title/>
+<exercise id="exer-00003"><problem id="prob-00003"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch3_Sec4_RVQ4"/></para></problem></exercise>
+<exercise id="exer-00004"><problem id="prob-00004"><para id="para-00024"><link class="os-embed" url="#exercise/FI_Ch3_Sec4_RVQ6"/></para></problem></exercise>
+<exercise id="exer-00005"><problem id="prob-00005"><para id="para-00025"><link class="os-embed" url="#exercise/FI_Ch3_Sec4_RVQ7"/></para></problem></exercise>
+</section>
+
 </content>
+<glossary>
+<definition id="def-00001"><term>nominal interest rate</term> <meaning>the quoted or stated interest rate</meaning></definition>
+<definition id="def-00002"><term>real interest rate</term> <meaning> the nominal interest rate minus the rate of inflation</meaning></definition>
+</glossary>
 </document>

@@ -5,9 +5,137 @@
     <md:content-id>m00023</md:content-id>
     <md:uuid>a82ef8f5-a467-43bb-9597-bef21c1d6cec</md:uuid>
   </metadata>
-  <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
+  <section class="learning-objectives" id="sect-00001">
+<title>Learning Outcomes</title>
+<para id="para-00001">By the end of this section, you will be able to:</para>
+<list id="list-00001">
+<item>Interpret economic data.</item>
+<item>Compute the percent change for economic variables.</item>
+</list>
 </section>
-</content>
+<section id="sect-00002">
+<title>FRED: Federal Reserve Economic Data</title>
+<para id="para-00002">One of the largest sources of economic data is the <term class="no-emphasis" id="term-00001">Federal Reserve Economic Data (FRED)</term> database.<sup>xii</sup> This database is maintained by the Federal Reserve Bank of St. Louis and contains more than 765,000 economic time series. These time series are compiled by the Federal Reserve and come from a number of sources, including the Bureau of Labor Statistics and the US Census.</para>
+<note class="link-to-learning" id="note-00001">
+<title><term class="no-emphasis" id="term-00002">FRED</term></title>
+<para id="para-00003">Data included in the FRED database is divided into these broad categories:</para>
+<list id="list-00002">
+<item>Money, Banking, and Finance</item>
+<item>Population, Employment, and Labor Markets</item>
+<item>National Accounts</item>
+<item>Production and Business Activity</item>
+<item>Prices</item>
+<item>International Data</item>
+<item>US Regional Data</item>
+<item>Academic Data</item>
+</list>
+<para id="para-00004">Watch this <link url="https://openstax.org/r/fred-introduction-video">FRED introduction video</link> to learn more information about how to use FRED.</para>
+</note>
+<para id="para-00005">You can find statistics on employment, inflation, exchange rates, gross domestic product, interest rates, and many other economic variables in the FRED database. Although much of the data is about the US markets, macroeconomic data from other countries is also available. In addition to being viewable in graphical and text form on the FRED site, the data is easily downloaded into an Excel spreadsheet for analysis.</para>
+<note class="link-to-learning" id="note-00002">
+<title>Creating a <term class="no-emphasis" id="term-00003">Stacked Area Graph</term></title>
+<para id="para-00006">Not only does FRED provide an excellent source for economic data, but it allows users to create custom graphs that can be used in presentations and reports. To learn more about how to create these graphs, read this article on using stacking. This tutorial provides step-by-step instructions for creating a stacked area graph of real GDP and its separate components and a real GDP area graph showing the percent that each of these components contributes to the total value of real GDP.</para>
+</note>
+</section>
+<section id="sect-00003">
+<title>Levels versus Percentage Changes</title>
+<para id="para-00007">The same information can be presented in graphs several different ways. The particular format you choose will depend on how you are using the data.</para>
+<para id="para-00008">Figure 3.19 shows the real GDP of <term class="no-emphasis" id="term-00004">Japan</term> for 2010–2020. This chart is created showing the level of real GDP. The steep drop in 2020 highlights the economic decline associated with the COVID-19 pandemic. Looking at the chart, it is easy to see that after 10 years of a general upward trend, Japan’s GDP quickly fell to a level not seen in the previous decade as COVID-19 began spreading in early 2020.</para>
+<figure id="fig-00001">
+<title>Real Gross Domestic Product for Japan, 2010–2020<sup>xiii</sup></title>
+<media alt="Graphical representation of the Real Gross Domestic Product for Japan, 2010–2020. It shows that the real GDP for Japan kept on rising from 2011 to 2019, then dropped dramatically in 2020 before it dramatically rose again."><image mime-type="image/png" src="../../media/FINAN_Figure_03_06_019.png"/></media>
+</figure>
+<para id="para-00009">The vertical axis in Figure 3.19 is measured in yen. Over the time period shown, the real GDP ranged from 500 trillion yen to 560 trillion yen. The general trend (until COVID-19) was upward, indicating growth in the Japanese economy. However, the growth was not consistent from year to year.</para>
+<para id="para-00010">Figure 3.20 also contains information about Japanese real GDP from 2010 to 2020. This chart measures the percent change for each quarter on the vertical axis. It is created using the same underlying data as Figure 3.19. Figure 3.20 demonstrates a way of highlighting the growth (or contraction) of an economy at a particular point in time.</para>
+<figure id="fig-00002">
+<title>Percent Change for Gross Domestic Product for Japan, 2010–2020<sup>xiv</sup></title>
+<media alt="Graphical representation of percent change for Gross Domestic Product for Japan, 2010–2020. It shows that the real GDP for Japan was steady from 2011 to 2020, never falling below negative 2.5 percent change or rising above 2.5 percent change. In 2020, the percent change went to more than negative 7.5 percent before quickly rising to 5 percent change."><image mime-type="image/png" src="../../media/FINAN_Figure_03_06_020.png"/></media>
+</figure>
+<para id="para-00011">The formula to calculate the percentage change from one quarter to the next is</para>
+<equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Percentage</mi><mo>&amp;#xA0;</mo><mi>Change</mi><mo>=</mo><mfrac><mrow><msub><mi>Quarter</mi><mn>2</mn></msub><mo>-</mo><msub><mi>Quarter</mi><mn>1</mn></msub></mrow><msub><mi>Quarter</mi><mn>1</mn></msub></mfrac></math></equation>
+<para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">In the first quarter of 2013, the real GDP for Japan was 522,594.2 billion yen. In the second quarter of 2013, the real GDP had risen to 527,277.0 billion yen. Thus, the percentage change in real GDP from quarter one to quarter two was</para>
+<equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Percentage</mi><mo>&amp;#xA0;</mo><mi>Change</mi><mo>=</mo><mfrac><mrow><msub><mrow><mi mathvariant="normal">Q</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">r</mi></mrow><mn>2</mn></msub><mo>-</mo><msub><mrow><mi mathvariant="normal">Q</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">r</mi></mrow><mn>1</mn></msub></mrow><msub><mrow><mi mathvariant="normal">Q</mi><mi mathvariant="normal">u</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">t</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">r</mi></mrow><mn>1</mn></msub></mfrac><mo>=</mo><mfrac><mrow><mn>527</mn><mo>,</mo><mn>277</mn><mo>.</mo><mn>0</mn><mo>-</mo><mn>522</mn><mo>,</mo><mn>594</mn><mo>.</mo><mn>2</mn></mrow><mrow><mn>522</mn><mo>,</mo><mn>594</mn><mo>.</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>00896</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>896</mn><mi>%</mi></math></equation>
+<para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">As long as the percentage change for a quarter is positive, the real GDP in Figure 3.20 will rise; this indicates that the economy is growing. If the percentage change shown in Figure 3.20 is negative, then real GDP will fall; this indicates that the economy is contracting. Looking at the percentage change in Figure 3.20 is helpful for detecting when the economy is growing but the growth is slowing. If the percentage change is positive but lower than it was for the previous quarter, then GDP is growing, but the growth rate is slowing.</para>
+</section>
+<section id="sect-00004">
+<title>Indexes</title>
+<para id="para-00014">An <term class="no-emphasis" id="term-00005">index</term> is created to track the performance of a particular aspect of the economy or the financial markets. An index helps compare the level of a variable at one point in time relative to another point in time. Indexes are often used when movement over time is more important than the absolute level of the variable at any one point in time.</para>
+<para id="para-00015">Earlier in this chapter, we looked at the rate of change in the CPI to measure the rate of inflation. In its raw form, the CPI is an index. Remember that the CPI is a measure of the cost of a market basket of goods. When the index is created, the total cost of the market basket, whether it is $300 or $950, is irrelevant. What economists are interested in is the magnitude of the difference in cost of the same market basket at a later date.</para>
+<para id="para-00016">In order to focus on the change over time, a base year is identified. The cost of the market basket in the base year is given an index level of 100. Let’s assume that the market basket costs $300 in the base year. If the same basket of goods costs $330 the following year, then the index level the following year would be 110. The index level increases by 10% when the cost of the market basket increases by 10%. This makes it easy to compare different measures of inflation.</para>
+<para id="para-00017">For example, suppose a market basket costs 40,000 yen in the first year and 42,000 yen in the second year. In the base year, the CPI in Japan would be set at 100; the following year, the index would rise to 105 (because of the 5% rise in the market basket cost). Comparing the levels of the index in Japan with the index in the United States allows you to compare inflation trends in the two countries.</para>
+<para id="para-00018">Table 3.6 contains the CPI for the United States, Japan, and Switzerland for each decade since 1970. A base year of 1970 is used for all three countries, so the index level is 100 for all three countries in 1970. You can see that Japan has experienced virtually no inflation for the last several decades. If the index level remains the same from one year to the next, there is a zero rate of inflation. Negative rates of inflation, or deflation, would be associated with a falling index level.</para>
+<table summary=" " id="table-00001">
+<title>CPI Levels for the United States, Switzerland, and Japan<sup>xv</sup></title>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry align="center">Year</entry>
+<entry align="center"><term class="no-emphasis" id="term-00006">United States</term></entry>
+<entry align="center"><term class="no-emphasis" id="term-00007">Switzerland</term></entry>
+<entry align="center"><term class="no-emphasis" id="term-00008">Japan</term></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">1970</entry>
+<entry align="center">100.0</entry>
+<entry align="center">100.0</entry>
+<entry align="center">100.0</entry>
+</row>
+<row>
+<entry align="center">1980</entry>
+<entry align="center">212.3</entry>
+<entry align="center">162.3</entry>
+<entry align="center">232.5</entry>
+</row>
+<row>
+<entry align="center">1990</entry>
+<entry align="center">336.5</entry>
+<entry align="center">226.4</entry>
+<entry align="center">291.2</entry>
+</row>
+<row>
+<entry align="center">2000</entry>
+<entry align="center">443.5</entry>
+<entry align="center">278.2</entry>
+<entry align="center">322.1</entry>
+</row>
+<row>
+<entry align="center">2010</entry>
+<entry align="center">561.6</entry>
+<entry align="center">304.3</entry>
+<entry align="center">313.6</entry>
+</row>
+<row>
+<entry align="center">2020</entry>
+<entry align="center">666.6</entry>
+<entry align="center">302.3</entry>
+<entry align="center">331.8</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="para-00019">Using an index level helps us compare the impact that inflation has had on the cost of living in the three countries. Prices were rising rapidly in Japan in the 1970s, outpacing price increases in both the United States and Switzerland. By the mid-1980s, however, price increases in Japan tapered off. Although prices in Switzerland rose much more slowly in the 1970s, the price level continued to rise over the next couple of decades. Even though the price increases have followed different patterns in Switzerland and Japan, the overall price level today is about three times what it was in 1970 in both of those countries. However, the price level in the United States has continued to rise; today, the price level in the United States is about seven times higher than it was in in the 1970s.</para>
+</section>
+<section class="section-summary" id="sect-00005">
+<title/>
+<para id="para-00020">One of the most comprehensive sources of economic data is the FRED database, maintained by the Federal Reserve Bank of St. Louis. Over 765,000 time series of data are available. In addition to being viewable in graphical and text form on the FRED site, the data is easily downloaded into an Excel spreadsheet for analysis.</para>
+</section>
+<section class="cfa-institute" id="sect-00006">
+<title/>
+<para id="para-00021">This chapter supports some of the Learning Outcome Statements (LOS) in this CFA® Level I Study Session. Reference with permission of CFA Institute.</para>
+</section>
+<section class="multiple-choice" id="sect-00007">
+<title/>
+<exercise id="exer-00001"><problem id="prob-00001"><para id="para-00022"><link class="os-embed" url="#exercise/FI_Ch3_Sec6_MCQ12"/></para></problem></exercise>
+</section>
+<section class="problems" id="sect-00008">
+<title/>
+<exercise id="exer-00002"><problem id="prob-00002"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch3_Sec6_PRQ2"/></para></problem></exercise>
+</section>
+
 </document>

@@ -6,8 +6,171 @@
     <md:uuid>8202b6cd-702f-45be-9b14-5012a0a81b3d</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
+<section class="learning-objectives" id="sect-00001">
+<title>Learning Outcomes</title>
+<para id="para-00001">By the end of this section, you will be able to:</para>
+<list id="list-00001">
+<item>Identify the business form created by most organizations.</item>
+<item>Contrast the advantages and disadvantages that the corporate form has over sole proprietorships.</item>
+<item>Contrast the advantages and disadvantages that the corporate form has over partnerships.</item>
+<item>List and describe characteristics associated with a hybrid business structure.</item>
+</list>
+</section>
+<section id="sect-00002">
+<title>The Most Common Types of Business Organization</title>
+<para id="para-00002">The functions of most executive management teams are very similar for most businesses, and they will not differ in any significant manner based on how they may be structured or organized. However, the legal structure of any company will have a substantial impact on its operations, and it therefore deserves a significant amount of analysis and discussion. The four most common forms of business organizations are the following:</para>
+<list list-type="enumerated" id="list-00002">
+<item>Sole proprietorships</item>
+<item>Partnerships</item>
+<item>Corporations</item>
+<item>Hybrids, such as limited liability companies (LLCs) and limited liability partnerships (LLPs)</item>
+</list>
+<para id="para-00003">The vast majority of businesses take the form of a proprietorship. However, based on the total dollar value of combined sales, more than 80 percent of all business in the United States is conducted by a <term id="term-00001">corporation</term>.<footnote id="foot-00001">Aaron Krupkin and Adam Looney. “9 Facts about Pass-Through Businesses.” Brookings. The Brookings Institution, May 15, 2017. https://www.brookings.edu/research/9-facts-about-pass-through-businesses</footnote> Because corporations engage in the most business, and because most successful businesses eventually convert into corporations, we will focus on corporations in this chapter. However, it is still important to understand the legal differences between different types of firms and their advantages and disadvantages.</para>
+</section>
+<section id="sect-00003">
+<title>Sole Proprietorships</title>
+<para id="para-00004">A proprietorship is typically defined as an unincorporated business owned by a single person. The process of forming a business as a <term id="term-00002">sole proprietor</term> is usually a simple matter. A business owner merely decides to begin conducting business operations, and that person is immediately off and running. Compared to other forms of business organizations, proprietorships have the following four important advantages:</para>
+<list list-type="enumerated" id="list-00003">
+<item>They have a basic structure and are simple and inexpensive to form.</item>
+<item>They are subject to relatively few government rules and regulations.</item>
+<item>Taxation on sole proprietorships is far simpler than on other organizational forms. There are no separate taxes associated with a sole proprietorship, as there are with corporations. Sole proprietors simply report all their business income and losses on their personal income tax returns.</item>
+<item>Controlling responsibilities of the firm are not divided in any way. This results in less complicated managerial decisions and improved timeliness of necessary corrective actions.</item>
+</list>
+<para id="para-00005">However, despite the ease of their formation and these stated advantages, proprietorships have four notable shortcomings:</para>
+<list list-type="enumerated" id="list-00004">
+<item>A sole proprietor has unlimited personal liability for any financial obligations or business debts, so in the end, they risk incurring greater financial losses than the total amount of money they originally invested in the company’s formation. As an example, a sole proprietor might begin with an initial investment of $5,000 to start their business. Now, let’s say a customer slips on some snow-covered stairs while entering this business establishment and sues the company for $500,000. If the organization loses the lawsuit, the sole proprietor would be responsible for the entire $500,000 settlement (less any liability insurance coverage the business might have).</item>
+<item>Unlike with a corporation, the life of the business is limited to the life of the individual who created it. Also, if the sole proprietor brings in any new equity or financing, the additional <term id="term-00003">investor</term>(s) might demand a change in the organizational structure of the business.</item>
+<item>Because of these first two points, sole proprietors will typically find it difficult to obtain large amounts of financing. For these reasons, the vast majority of sole proprietorships in the United States are small businesses.</item>
+<item>A sole proprietor may lack specific expertise or experience in important business disciplines, such as finance, accounting, taxation, or organizational management. This could result in additional costs associated with periodic consulting with experts to assist in these various business areas.</item>
+</list>
+<para id="para-00006">It is often the case that businesses that were originally formed as proprietorships are later converted into corporations when growth of the business causes the disadvantages of the sole proprietorship structure to outweigh the advantages.</para>
+</section>
+<section id="sect-00004">
+<title>Partnerships</title>
+<para id="para-00007">A <term id="term-00004">partnership</term> is a business structure that involves a legal arrangement between two or more people who decide to do business as an organization together. In some ways, partnerships are similar to sole proprietorships in that they can be established fairly easily and without a large initial investment or cost.</para>
+<para id="para-00008">Partnerships offer some important advantages over sole proprietorships. Among them, two or more partners may have different or higher levels of business expertise than a single sole proprietor, which can lead to superior management of a business. Further, additional partners can bring greater levels of investment capital to a firm, making the process of initial business formation smoother and less risky.</para>
+<para id="para-00009">A partnership also has certain tax advantages in that the firm’s income is allocated on a pro rata basis to the partners. This income is then taxed on an individual basis, allowing the company to avoid corporate income tax. However, similar to the sole proprietorship, all of the partners are subject to unlimited personal liability, which means that if a partnership becomes bankrupt and any partner is unable to meet their pro rata share of the firm’s liabilities, the remaining partners will be responsible for paying the unsatisfied claims.</para>
+<para id="para-00010">For this reason, the actions of a single partner that might cause a company to fail could end up bringing potential ruin to other partners who had nothing at all to do with the actions that led to the downfall of the company. Also, as with most sole proprietorships, unlimited liability makes it difficult for most partnerships to raise large amounts of capital.</para>
+</section>
+<section id="sect-00005">
+<title>Corporations</title>
+<para id="para-00011">The most common type of organizational structure for larger businesses is the corporation. A corporation is a legal business entity that is created under the laws of a state. This entity operates separately and distinctly from its owners and managers. It is the separation of the corporate entity from its owners and managers that limits stockholders’ losses to the amount they originally invest in the firm. In other words, a corporation can lose all of its money and go bankrupt, but its owners will only lose the funds that they originally invested in the company.</para>
+<para id="para-00012">Unlike other forms of organization, corporations have unlimited lives as business entities. It is far easier to transfer shares of stock in a corporation than it is to transfer one’s interest in an unincorporated business. These factors make it much easier for corporations to raise the capital necessary to operate large businesses. Many companies, such as <term class="no-emphasis" id="term-00005">Microsoft</term> and <term class="no-emphasis" id="term-00006">Hewlett-Packard</term>, originally began as proprietorships or partnerships, but at some point, they found it more advantageous to adopt a corporate form of organization as they grew in size and complexity.</para>
+<para id="para-00013">An important disadvantage to corporations is income taxes. The earnings of most corporations in the United States are subject to something referred to as double taxation. First, the corporation’s earnings are taxed; then, when its after-tax earnings are paid out as dividend income to <term id="term-00007">shareholders (stockholders)</term>, those earnings are taxed again as personal income.</para>
+<para id="para-00014">It is important to note that after recognizing this problem of double taxation, Congress created the <term id="term-00008">S corporation</term>, designed to aid small businesses in this area. S corporations are taxed as if they were proprietorships or partnerships and are exempt from corporate income tax. In order to qualify for S corporation status, a company can have no more than 100 stockholders. Thus, this corporate form is useful for relatively small, privately owned firms but precludes larger, more diverse organizations. A larger corporation is often referred to as a <term id="term-00009">C corporation</term>. The vast majority of small corporations prefer to elect S status. This structure will usually suit them very well until the business reaches a point where their financing needs grow and they make the decision to raise funds by offering their stock to the public. At such time, they will usually become C corporations. Generally speaking, an S corporation structure is more popular with smaller businesses because of the likely tax savings, and a C corporation structure is more prevalent among larger companies due to the greater flexibility in raising capital.</para>
+</section>
+<section id="sect-00006">
+<title>Hybrids: Limited Liability Corporations and Partnerships</title>
+<para id="para-00015">Another form of business organization is the <term id="term-00010">limited liability corporation (LLC)</term>. This type of business structure has become a very popular type of organization. The LLC is essentially a <term id="term-00011">hybrid form of business</term> that has elements of both a corporation and a partnership. Another form of organizational structure is something called a <term id="term-00012">limited liability partnership (LLP)</term>, which is quite similar to the LLC in structure and in use. It is very common to see LLPs used as the organizational form for professional services firms, often in such fields as accounting, architecture, and law. Conversely, LLCs are typically used by other forms of businesses.</para>
+<para id="para-00016">Similar to corporation structures, LLCs and LLPs will provide their principals with a certain amount of liability protection, but they are taxed as partnerships. Also, unlike in limited partnerships, where a senior general partner will have overall control of the business, investors in an LLC or LLP have votes that are in direct proportion to their percentage of ownership interest or the relative amount of their original investment.</para>
+<para id="para-00017">A particular advantage of a limited liability partnership is that it allows some of the partners in a firm to limit their liability. Under such a structure, only designated partners have unlimited liability for company debts; other partners can be designated as limited partners, only liable up to the amount of their initial contribution. Limited partners are typically not active decision makers within the firm.</para>
+<para id="para-00018">Some important differences between LLCs and LLPs are highlighted in Table 2.1.</para>
+<table summary=" " id="table-00001">
+<title>Advantages and Disadvantages of LLCs and LLPs</title>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry align="center" namest="c1" nameend="c2">Limited Liability Corporation</entry>
+<entry align="center" namest="c3" nameend="c4">Limited Liability Partnership</entry>
+</row>
+<row>
+<entry align="center">Advantages</entry>
+<entry align="center">Disadvantages</entry>
+<entry align="center">Advantages</entry>
+<entry align="center">Disadvantages</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Fewer restrictions on eligibility (only one member allowed; can be professional, although some states disallow professionals)</entry>
+<entry/>
+<entry/>
+<entry>Only certain professions eligible</entry>
+</row>
+<row>
+<entry>Usually more personal liability protection</entry>
+<entry>Limited protection from partners’ actions</entry>
+<entry>Personal protection as well as protection from negligence of other partners</entry>
+<entry/>
+</row>
+<row>
+<entry>Flexibility in taxation</entry>
+<entry>Earnings included in members’ personal taxes</entry>
+<entry>Earnings taxed just once</entry>
+<entry>Must file taxes as pass-through entity</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para id="para-00019">LLCs and LLPs have gained great popularity in recent years, but larger companies still find substantial advantages in being structured as C corporations. This is primarily due to the benefits of raising capital to support long-term growth. It is interesting to note that LLC and LLP organizational structures were essentially devised by attorneys. They generally are rather complicated, and the legal protection offered to their ownership principals may vary from state to state. For these reasons, it is usually necessary to retain a knowledgeable lawyer when establishing an organization of this type.</para>
+<para id="para-00020">Obviously, when a company choosing an organizational structure, it must carefully evaluate the advantages and disadvantages that come with any form of doing business. For example, if an organization is considering a corporation structure, it would have to evaluate the trade-off of having the ability to raise greater amounts of funding to support growth and future expansion versus the effects of double taxation. Yet despite such organizational concerns with corporations, time has proven that the value of most businesses, other than relatively small ones, is very likely to be maximized if they are organized as corporations. This follows from the idea that limited ownership liability reduces the overall risks borne by investors. All other things being equal, the lower a firm’s risk, the higher its value.</para>
+<para id="para-00021">Growth opportunities will also have a tremendous impact on the overall value of a business. Because corporations can raise financing more easily than most other types of organizations, they are better able to engage in profitable projects, make investments, and otherwise take superior advantage of their many favorable growth opportunities.</para>
+<para id="para-00022">The value of any asset will, to a large degree, depend on its liquidity. <emphasis effect="italics"><term class="no-emphasis" id="term-00013">Liquidity</term></emphasis> refers to asset characteristics that enable the asset to be sold or otherwise converted into cash in a relatively short period of time and with minimal effort to attain fair market value for the owner. Because ownership of corporate stock is far easier to transfer to a potential buyer than is any interest in a business proprietorship or partnership, and because most investors are more willing to invest their funds in stocks than they are in partnerships that may carry unlimited liability, an investment in corporate stock will remain relatively liquid. This, too, is an advantage of a corporation and is another factor that enhances its value.</para>
+<note class="link-to-learning" id="note-00001">
+<title><term class="no-emphasis" id="term-00014">Amazon</term></title>
+<para id="para-00023">Most people are surprised to learn than Amazon, the largest online retailer, is set up as an LLC. Amazon.com Services LLC is set up as a subsidiary of the larger Amazon.com Inc. Take a look at the <link url="https://openstax.org/r/company-profiles-amazon">Amazon LLC company profile provided by Dun &amp; Bradstreet</link>. Why do you think such a large corporation is set up as an LLC?</para>
+</note>
+</section>
+<section id="sect-00007">
+<title>Incorporating a Business</title>
+<para id="para-00024">Many business owners decide to structure their business as a corporation. In order to begin the process of incorporation, an organization must file a business registration form with the US state in which it will be based and carry on its primary business activities. The document that must be used for this application is generally referred to as the <term id="term-00015">articles of incorporation</term> or a <term class="no-emphasis" id="term-00016">corporate charter</term>. Articles of incorporation are the single most important governing documents of a corporation. The registration allows the state to collect taxes and ensure that the business is complying with all applicable state laws.</para>
+<para id="para-00025">The exact form of the articles of incorporation differs depending on the type of corporation. Some types of articles of incorporation include the following:</para>
+<list id="list-00005">
+<item><term id="term-00017">Domestic corporation</term> (in state)</item>
+<item><term id="term-00018">Foreign corporation</term> (out of state or out of country)</item>
+<item><term id="term-00019">Close (closely held) corporation</term></item>
+<item><term id="term-00020">Professional corporation</term></item>
+<item><term id="term-00021">Nonprofit corporation</term> (several different types of nonprofits)</item>
+<item><term id="term-00022">Stock corporation</term></item>
+<item><term id="term-00023">Non-stock corporation</term></item>
+<item><term id="term-00024">Public benefit corporation</term></item>
+</list>
+<para id="para-00026">It is important to note that articles of incorporation are only required to establish a regular corporation. Limited liability corporations require what are referred to as <emphasis effect="italics"><term class="no-emphasis" id="term-00025">articles of organization</term></emphasis> (or similar documents) to register their business with a state. Some types of limited partnerships must also register with their state. However, sole proprietorships do not have to register; for this reason, they are often the preferred organizational structure for a person who is just starting out in business, at least initially.</para>
+<para id="para-00027">Articles of incorporation provide the basic information needed to legally form the company and register the business in its state. The state will need to know the name of the business, its purpose, and the people who will be in charge of running it (the <term id="term-00026">board of directors</term>). The state also needs to know about any stock that the business will be selling to the public. The websites of various <term id="term-00027">secretaries of state</term> will have information on the different types of articles of incorporation, the requirements, and the filing process.</para>
+</section>
+<section class="section-summary" id="sect-00008">
+<title/>
+<para id="para-00028">The most common forms of business organizations are sole proprietorships, partnerships, corporations, and hybrids. There are advantages and disadvantages to each type of organization involving ease of formation, tax requirements, and personal liabilities. The most common type of organization for larger businesses is the corporation, the establishment of which involves filing articles of incorporation.</para>
+</section>
+<section class="multiple-choice" id="sect-00009">
+<title/>
+<exercise id="exer-00001"><problem id="prob-00001"><para id="para-00029"><link class="os-embed" url="#exercise/FI_Ch2_Sec1_MCQ2"/></para></problem></exercise>
+<exercise id="exer-00002"><problem id="prob-00002"><para id="para-00030"><link class="os-embed" url="#exercise/FI_Ch2_Sec1_MCQ20"/></para></problem></exercise>
+</section>
+<section class="review-questions" id="sect-00010">
+<title/>
+<exercise id="exer-00003"><problem id="prob-00003"><para id="para-00031"><link class="os-embed" url="#exercise/FI_Ch2_Sec1_RVQ1"/></para></problem></exercise>
+<exercise id="exer-00004"><problem id="prob-00004"><para id="para-00032"><link class="os-embed" url="#exercise/FI_Ch2_Sec1_RVQ2"/></para></problem></exercise>
+<exercise id="exer-00005"><problem id="prob-00005"><para id="para-00033"><link class="os-embed" url="#exercise/FI_Ch2_Sec1_RVQ3"/></para></problem></exercise>
+<exercise id="exer-00006"><problem id="prob-00006"><para id="para-00034"><link class="os-embed" url="#exercise/FI_Ch2_Sec1_RVQ4"/></para></problem></exercise>
+<exercise id="exer-00007"><problem id="prob-00007"><para id="para-00035"><link class="os-embed" url="#exercise/FI_Ch2_Sec1_RVQ5"/></para></problem></exercise>
+<exercise id="exer-00008"><problem id="prob-00008"><para id="para-00036"><link class="os-embed" url="#exercise/FI_Ch2_Sec1_RVQ7"/></para></problem></exercise>
 </section>
 </content>
+<glossary>
+<definition id="def-00001"><term>articles of incorporation</term> <meaning>a set of formal documents filed with a government body to legally document the creation of a corporation</meaning></definition>
+<definition id="def-00002"><term>board of directors (BOD)</term> <meaning>a group of people who jointly supervise the activities of an organization</meaning></definition>
+<definition id="def-00003"><term>C corporation</term> <meaning>a legal structure for a corporation in which the owners, or shareholders, are taxed separately from the entity</meaning></definition>
+<definition id="def-00004"><term>close (closely held) corporation</term> <meaning>a company that has only a limited number of shareholders</meaning></definition>
+<definition id="def-00005"><term>corporation</term> <meaning>a legal entity that is separate and distinct from its owners</meaning></definition>
+<definition id="def-00006"><term>domestic corporation (in state)</term> <meaning>a corporation incorporated under the laws of the country or state in which it does business</meaning></definition>
+<definition id="def-00007"><term>foreign corporation (out of state or out of country)</term> <meaning>an existing corporation that conducts business in a state or jurisdiction other than where it was originally incorporated</meaning></definition>
+<definition id="def-00008"><term>hybrid form of business</term> <meaning>a limited liability company (LLC) or limited liability partnership (LLP) that combines the characteristics of a corporation with those of a sole proprietorship or partnership</meaning></definition>
+<definition id="def-00009"><term>investor</term> <meaning>a person or an entity, such as a firm or mutual fund, that invests capital with the expectation of receiving financial returns</meaning></definition>
+<definition id="def-00010"><term>limited liability corporation (LLC)</term> <meaning>a US-specific form of a private limited company; a business structure that can combine the pass-through taxation of a partnership or sole proprietorship with the limited liability of a corporation</meaning></definition>
+<definition id="def-00011"><term>limited liability partnership (LLP)</term> <meaning>a partnership in which some or all partners have limited liabilities; can exhibit elements of both partnerships and corporations</meaning></definition>
+<definition id="def-00012"><term>nonprofit (not-for-profit) corporation</term> <meaning>a legal entity that has been incorporated under the law of its jurisdiction for purposes other than making profits for its owners or shareholders</meaning></definition>
+<definition id="def-00013"><term>non-stock corporation</term> <meaning>a corporation that does not have owners represented by shares of stock but typically has members who are the functional equivalent of stockholders in a stock corporation (having the right to vote, etc.); describes the vast majority of not-for-profit corporations</meaning></definition>
+<definition id="def-00014"><term>partnership</term> <meaning>a formal arrangement by two or more parties to manage and operate a business and share its profits and liabilities equally</meaning></definition>
+<definition id="def-00015"><term>professional corporation</term> <meaning>a form of corporate entity used by licensed professionals such as attorneys, architects, engineers, public accountants, and physicians, which is regulated by special provisions in many corporation statutes</meaning></definition>
+<definition id="def-00016"><term>public benefit corporation</term> <meaning>a specific type of Delaware general corporation that is owned by shareholders who expect the company to make a profit and return some of that money to them in the form of dividends</meaning></definition>
+<definition id="def-00017"><term>S corporation</term> <meaning>a closely held corporation that makes a valid election to be taxed under Subchapter S of Chapter 1 of the Internal Revenue Code, which does not require such corporations to pay income taxes and instead taxes owners as individuals</meaning></definition>
+<definition id="def-00018"><term>secretaries of state</term> <meaning>the state officials who head the agencies responsible for, among other functions, the chartering of businesses (usually including partnerships and corporations) that wish to operate within their state and, in most states, for maintaining all records on business activities within the state; also known as secretaries of the commonwealth in Massachusetts, Pennsylvania, and Virginia</meaning></definition>
+<definition id="def-00019"><term>sole proprietor (and sole proprietorship)</term> <meaning>a form of business that is operated and run by a single individual, known as the sole trader, with no legal distinction between the owner and the business entity</meaning></definition>
+<definition id="def-00020"><term>stock corporation</term> <meaning>a for-profit organization that issues shares of stock to shareholders (also known as stockholders) to raise capital, with each share representing partial ownership of the corporation and granting shareholders certain ownership rights to shape company policies</meaning></definition>
+</glossary>
 </document>
