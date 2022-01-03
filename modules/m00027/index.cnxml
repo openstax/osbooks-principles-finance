@@ -5,7 +5,7 @@
     <md:content-id>m00027</md:content-id>
     <md:uuid>a4911505-8540-45f4-b180-bc88d95586e5</md:uuid>
   </metadata>
-  <content/>
+  <content>
 <section class="learning-objectives" id="sect-00001">
 <title>Learning Outcomes</title>
 <para id="para-00001">By the end of this section, you will be able to:</para>
@@ -26,6 +26,7 @@
 <para id="para-00004">Think about a coffee shop in your area. Identify items the coffee shop sells that would be classified as revenues. Remember, revenues for the coffee shop are related to its primary purpose: selling coffee and related items. Or, better yet, make a trip to the local coffee shop and get a first-hand experience.</para>
 </problem>
 <solution id="sol-00001">
+<para id="para-00025"><emphasis effect="bold">Solution:</emphasis></para>
 <para id="para-00005">Many coffee shops earn revenue through multiple revenue streams, including coffee and other specialty drinks, food items, gift cards, and merchandise.</para>
 </solution>
 </exercise>
@@ -102,6 +103,7 @@
 <para id="para-00017">While thinking about or visiting a coffee shop in your area, look around (or visualize) and identify items or activities that are the expenses of the coffee shop. Remember, expenses for the coffee shop are related to resources consumed while generating revenue from selling coffee and related items. Do not forget about any expenses that might not be so obvious—as a general rule, every activity in a business has an associated cost.</para>
 </problem>
 <solution id="sol-00002">
+<para id="para-00026"><emphasis effect="bold">Solution:</emphasis></para>
 <para id="para-00018">Costs of the coffee shop that might be readily observed would include rent, wages for the employees, and the cost of the coffee, pastries, and other items/merchandise that may be sold. In addition, costs such as utilities, equipment, and cleaning or other supplies might also be readily observable. More obscure costs of the coffee shop would include insurance, regulatory costs such as health department licensing, point-of-sale/credit card costs, advertising, donations, and payroll costs such as workers’ compensation, unemployment, and so on. There are also unseen costs, such as aging of the building (if owned by the coffee shop) and wear and tear or aging of the equipment.</para>
 </solution>
 </exercise>
@@ -121,10 +123,11 @@
 <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00022"><link class="os-embed" url="#exercise/FI_Ch4_Sec3_RVQ7"/></para></problem></exercise>
 <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch4_Sec3_RVQ8"/></para></problem></exercise>
 </section>
-<section class="problems" id="sect-00008">
+<section class="problem-set" id="sect-00008">
 <title/>
 <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00024"><link class="os-embed" url="#exercise/FI_Ch4_Sec3_PRQ3"/></para></problem></exercise>
 </section>
+</content>
 <glossary>
 <definition id="def-00001"><term>revenue recognition</term> <meaning>principle stating that a company must recognize revenue in the period in which it is earned; it is not considered earned until a product or service has been provided</meaning></definition>
 </glossary>

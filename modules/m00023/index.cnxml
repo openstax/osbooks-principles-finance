@@ -35,7 +35,7 @@
 <para id="para-00005">You can find statistics on employment, inflation, exchange rates, gross domestic product, interest rates, and many other economic variables in the FRED database. Although much of the data is about the US markets, macroeconomic data from other countries is also available. In addition to being viewable in graphical and text form on the FRED site, the data is easily downloaded into an Excel spreadsheet for analysis.</para>
 <note class="link-to-learning" id="note-00002">
 <title>Creating a <term class="no-emphasis" id="term-00003">Stacked Area Graph</term></title>
-<para id="para-00006">Not only does FRED provide an excellent source for economic data, but it allows users to create custom graphs that can be used in presentations and reports. To learn more about how to create these graphs, read this article on using stacking. This tutorial provides step-by-step instructions for creating a stacked area graph of real GDP and its separate components and a real GDP area graph showing the percent that each of these components contributes to the total value of real GDP.</para>
+<para id="para-00006">Not only does FRED provide an excellent source for economic data, but it allows users to create custom graphs that can be used in presentations and reports. To learn more about how to create these graphs, read <link url="https://openstax.org/r/fred-gdp-stacking">this article on using stacking</link>. This tutorial provides step-by-step instructions for creating a stacked area graph of real GDP and its separate components and a real GDP area graph showing the percent that each of these components contributes to the total value of real GDP.</para>
 </note>
 </section>
 <section id="sect-00003">
@@ -134,7 +134,7 @@
 <title/>
 <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00022"><link class="os-embed" url="#exercise/FI_Ch3_Sec6_MCQ12"/></para></problem></exercise>
 </section>
-<section class="problems" id="sect-00008">
+<section class="problem-set" id="sect-00008">
 <title/>
 <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch3_Sec6_PRQ2"/></para></problem></exercise>
 </section>
