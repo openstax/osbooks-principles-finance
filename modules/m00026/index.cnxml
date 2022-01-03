@@ -30,7 +30,7 @@
 <section id="sect-00003">
 <title>The Accounting Equation</title>
 <para id="para-00008">It may be helpful to think of the <term id="term-00006">accounting equation</term> from a “sources and claims” perspective. Under this approach, the assets (items owned by the organization) were obtained by incurring liabilities or were provided by owners. Stated differently, every asset has a claim against it—by creditors and/or owners.</para>
-<equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>&amp;#xA0;</mo><mo>=</mo><mo>&amp;#xA0;</mo><mi>Liabilities</mi><mo>&amp;#xA0;</mo><mo>+</mo><mo>&amp;#xA0;</mo><mi>Owner</mi><mo>&amp;#x2019;</mo><mi mathvariant="normal">s</mi><mo>&amp;#xA0;</mo><mi>Equity</mi></math></equation>
+<equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo> </mo><mo>=</mo><mo> </mo><mi>Liabilities</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Owner</mi><mo>&amp;#x2019;</mo><mi mathvariant="normal">s</mi><mo> </mo><mi>Equity</mi></math></equation>
 <para id="para-00009" xmlns="http://cnx.rice.edu/cnxml">You may recall from mathematics courses that an equation must always be in balance. Therefore, we must ensure that the two sides of the accounting equation are always equal. We will explore the components of the accounting equation in more detail shortly. First, we need to examine several underlying concepts that form the foundation for the accounting equation: the double-entry accounting system, debits and credits, and the “normal” balance for each account that is part of a formal accounting system.</para>
 <note class="think-through" id="note-00001">
 <title>The Accounting Equation</title>
@@ -55,7 +55,7 @@
 <item>Changes in assets and liabilities can <emphasis effect="italics">either</emphasis> increase or decrease the value (equity) of the organization depending on the net result of the transaction.</item>
 </list>
 <para id="para-00016">Let’s look at Chris’s Landscaping business again and do the same quick exercise you did with your personal finances. If we were to total all of Chris’s assets, we would find just one: $250 in cash. She’s using the family’s tractor, but she doesn’t own the tractor, so it is not her asset. Her liabilities are currently $0, as she paid cash for all the expenses she incurred already. If we total her assets, we get $250. Liabilities total $0. Using the accounting equation, we find her equity to currently be $250, or</para>
-<equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>&amp;#xA0;</mo><mo>(</mo><mo>$</mo><mn>250</mn><mo>)</mo><mo>\</mo><mo>&amp;#xA0;</mo><mo>&amp;#x2013;</mo><mo>&amp;#xA0;</mo><mi>Liabilities</mi><mo>&amp;#xA0;</mo><mo>(</mo><mo>$</mo><mn>0</mn><mo>)</mo><mo>&amp;#xA0;</mo><mo>=</mo><mo>&amp;#xA0;</mo><mi>Equity</mi><mo>&amp;#xA0;</mo><mo>(</mo><mo>$</mo><mn>250</mn><mo>)</mo></math></equation>
+<equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo> </mo><mo>(</mo><mo>$</mo><mn>250</mn><mo>)</mo><mo>\</mo><mo> </mo><mo>&amp;#x2013;</mo><mo> </mo><mi>Liabilities</mi><mo> </mo><mo>(</mo><mo>$</mo><mn>0</mn><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mi>Equity</mi><mo> </mo><mo>(</mo><mo>$</mo><mn>250</mn><mo>)</mo></math></equation>
 </section>
 </section>
 <section id="sect-00004" xmlns="http://cnx.rice.edu/cnxml">
@@ -92,7 +92,7 @@
 </section>
 <section class="section-summary" id="sect-00006">
 <title/>
-<para id="para-00025">Double-entry accounting means that each time a transaction is recorded, there are at minimum two accounts impacted by the entry. Each entry’s debits must total its credits in order to support and maintain the balance in the accounting equation. The accounting equation is expressed as <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>&amp;#xA0;</mo><mo>=</mo><mo>&amp;#xA0;</mo><mi>Liabilities</mi><mo>&amp;#xA0;</mo><mo>+</mo><mo>&amp;#xA0;</mo><mi>Owner</mi><mo>&amp;#x2019;</mo><mi mathvariant="normal">s</mi><mo>&amp;#xA0;</mo><mi>Equity</mi><mo>.</mo></math>.</para>
+<para id="para-00025">Double-entry accounting means that each time a transaction is recorded, there are at minimum two accounts impacted by the entry. Each entry’s debits must total its credits in order to support and maintain the balance in the accounting equation. The accounting equation is expressed as <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo> </mo><mo>=</mo><mo> </mo><mi>Liabilities</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Owner</mi><mo>&amp;#x2019;</mo><mi mathvariant="normal">s</mi><mo> </mo><mi>Equity</mi><mo>.</mo></math>.</para>
 </section>
 <section class="multiple-choice" id="sect-00007" xmlns="http://cnx.rice.edu/cnxml">
 <title/>
@@ -110,7 +110,7 @@
 </section>
 </content>
 <glossary>
-<definition id="def-00001"><term>accounting equation</term> <meaning><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>&amp;#xA0;</mo><mo>=</mo><mo>&amp;#xA0;</mo><mi>Liabilities</mi><mo>&amp;#xA0;</mo><mo>+</mo><mo>&amp;#xA0;</mo><mi>Owner</mi><mo>&amp;#x2019;</mo><mi mathvariant="normal">s</mi><mo>&amp;#xA0;</mo><mi>Equity</mi><mo>.</mo></math></meaning></definition>
+<definition id="def-00001"><term>accounting equation</term> <meaning><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo> </mo><mo>=</mo><mo> </mo><mi>Liabilities</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Owner</mi><mo>&amp;#x2019;</mo><mi mathvariant="normal">s</mi><mo> </mo><mi>Equity</mi><mo>.</mo></math></meaning></definition>
 <definition id="def-00002" xmlns="http://cnx.rice.edu/cnxml"><term>credit</term> <meaning>a record of financial information on the right side of an account</meaning></definition>
 <definition id="def-00003"><term>debit</term> <meaning>a record of financial information on the left side of each account</meaning></definition>
 <definition id="def-00004"><term>double-entry accounting</term> <meaning>an accounting method that requires the sum of the debits to equal the sum of the credits for each transaction</meaning></definition>
