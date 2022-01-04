@@ -19,7 +19,7 @@
 <title>Demand</title>
 <para id="para-00002">Microeconomics focuses on the decisions and actions of individual agents, such as businesses or customers, within the economy. The interactions of the decisions that businesses and customers make will determine the price and quantity of a good or service that is sold in the marketplace. Financial managers need a strong foundation in <term id="term-00001">microeconomics</term>. This foundation helps them understand the market for the company’s products and services, including pricing considerations. Microeconomics also helps managers understand the availability and prices of resources that are necessary for the company to create its products and services.</para>
 <para id="para-00003">A successful business cannot just create and manufacture a product or provide a service; it must produce a product or service that customers will purchase. <term id="term-00002">Demand</term> refers to the quantity of a good or service that consumers are willing and able to purchase at various prices during a given time period, <term id="term-00003">ceteris paribus</term> (a Latin phrase meaning “all other things being equal”).</para>
-<para id="para-00004">Let’s consider what the demand for pizza might look like. Suppose that at a price of $30 per pizza, no one will purchase a pizza, but if the price of a pizza is $25, 10 people might buy a pizza. If the price falls even lower, more pizzas will be purchased, as shown in Table 3.1.</para>
+<para id="para-00004">Let’s consider what the demand for pizza might look like. Suppose that at a price of $30 per pizza, no one will purchase a pizza, but if the price of a pizza is $25, 10 people might buy a pizza. If the price falls even lower, more pizzas will be purchased, as shown in <link target-id="table-00001" document="m00018"/>.</para>
 <table summary=" " id="table-00001">
 <title>Demand Schedule for Pizza</title>
 <tgroup cols="2">
@@ -59,7 +59,7 @@
 </tbody>
 </tgroup>
 </table>
-<para id="para-00005">The information in Table 3.1 can be viewed in the form of a graph, as in Figure 3.2. Economists refer to the line in Figure 3.2 as a <emphasis effect="italics"><term class="no-emphasis" id="term-00004">demand curve</term></emphasis>. When plotting a demand curve, price is placed on the vertical axis, and quantity is placed on the horizontal axis. Because more pizzas are bought at lower prices than at higher prices, this demand curve is downward sloping. This inverse relationship is referred to as the <term id="term-00005">law of demand</term>.</para>
+<para id="para-00005">The information in <link target-id="table-00001" document="m00018"/> can be viewed in the form of a graph, as in <link target-id="fig-00001" document="m00018"/>. Economists refer to the line in <link target-id="fig-00001" document="m00018"/> as a <emphasis effect="italics"><term class="no-emphasis" id="term-00004">demand curve</term></emphasis>. When plotting a demand curve, price is placed on the vertical axis, and quantity is placed on the horizontal axis. Because more pizzas are bought at lower prices than at higher prices, this demand curve is downward sloping. This inverse relationship is referred to as the <term id="term-00005">law of demand</term>.</para>
 <figure id="fig-00001">
 <title>Demand Curve for Pizzas</title>
 <media alt="A graph shows the Demand Curve for pizzas as the price increases.A downward sloping line shows that as the price of pizzas go down, the demand increases."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_002.png"/></media>
@@ -67,7 +67,7 @@
 <para id="para-00006">The inverse relationship between the price of a good and the quantity of a good sold occurs for two reasons. First, as you consume more and more pizza, the amount of happiness that one more pizza will bring you diminishes. If you have had nothing to eat all day and you are hungry, you might be more willing to pay a high price for a pizza, and that pizza will bring you a great deal of satisfaction. However, after your hunger has been somewhat satisfied, you may not be willing to pay as much for a second pizza. You may only be willing to purchase a third pizza (to freeze at home) if you can get it at a fairly low price. Second, demand depends not only on your willingness to pay but also on your ability to pay. If you have limited income, then as the price of pizza rises, you simply cannot buy as much pizza.</para>
 <para id="para-00007">The demand curve is drawn as a relationship between the price of the good and the quantity of the good purchased. It isolates the relationship between price and quantity demand. A demand curve is drawn assuming that no relevant factor besides the price of the product is changing. This assumption is, as mentioned above, ceteris paribus.</para>
 <para id="para-00008">If another relevant economic factor changes, the demand curve can change. Relevant economic factors would include consumer income, the size of the population, the tastes and preferences of consumers, and the price of other goods. For example, if the price of hamburgers doubled, then families might substitute having a pizza night for having a hamburger cookout. This would cause the demand for pizzas to increase.</para>
-<para id="para-00009">If the demand for pizzas increased, the quantities of pizza purchased at every price level would be higher. The demand schedule for pizzas might look like Table 3.2 after an increase in the price of hamburgers.</para>
+<para id="para-00009">If the demand for pizzas increased, the quantities of pizza purchased at every price level would be higher. The demand schedule for pizzas might look like <link target-id="table-00002" document="m00018"/> after an increase in the price of hamburgers.</para>
 <table summary=" " id="table-00002">
 <title>Demand Schedule for Pizzas after the Price of Hamburgers Doubles</title>
 <tgroup cols="2">
@@ -107,7 +107,7 @@
 </tbody>
 </tgroup>
 </table>
-<para id="para-00010">This change leads to a movement in the demand curve—outward to the right, as shown in Figure 3.3. This is known as an increase in demand. Now, at a price of $25, people will purchase 19 pizzas instead of 10; and at a price of $15, people will purchase 39 pizzas instead of 30.</para>
+<para id="para-00010">This change leads to a movement in the demand curve—outward to the right, as shown in <link target-id="fig-00002" document="m00018"/>. This is known as an increase in demand. Now, at a price of $25, people will purchase 19 pizzas instead of 10; and at a price of $15, people will purchase 39 pizzas instead of 30.</para>
 <figure id="fig-00002">
 <title>An Increase in Demand Represented as a Movement of the Demand Curve to the Right</title>
 <media alt="The previous Demand Curve for pizzas is labelled as Demand 1. A second demand curve, labelled Demand 2. Both lines slope downard at the same rate, but Demand 2 is shown to the right of Demand 1. This represents an increase in demand for pizzas."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_003.png"/></media>
@@ -120,7 +120,7 @@
 </section>
 <section id="sect-00003">
 <title>Supply</title>
-<para id="para-00013"><term id="term-00006">Supply</term> is the quantity of a good or service that firms are willing to sell at various prices, during a given time period, ceteris paribus. Table 3.3 is a fictional example of a supply schedule for pizzas. In some cases, higher prices encourage producers to provide more of their product for sale. Thus, there is a positive relationship between the price and quantity supplied.</para>
+<para id="para-00013"><term id="term-00006">Supply</term> is the quantity of a good or service that firms are willing to sell at various prices, during a given time period, ceteris paribus. <link target-id="table-00003" document="m00018"/> is a fictional example of a supply schedule for pizzas. In some cases, higher prices encourage producers to provide more of their product for sale. Thus, there is a positive relationship between the price and quantity supplied.</para>
 <table summary=" " id="table-00003">
 <title>Supply Schedule for Pizzas</title>
 <tgroup cols="2">
@@ -160,7 +160,7 @@
 </tbody>
 </tgroup>
 </table>
-<para id="para-00014">The data from the supply schedule can be pictured in a graph, as is shown in Figure 3.4. Because a higher price encourages suppliers to sell more pizzas, the <term class="no-emphasis" id="term-00007">supply curve</term> will be upward sloping.</para>
+<para id="para-00014">The data from the supply schedule can be pictured in a graph, as is shown in <link target-id="fig-00003" document="m00018"/>. Because a higher price encourages suppliers to sell more pizzas, the <term class="no-emphasis" id="term-00007">supply curve</term> will be upward sloping.</para>
 <figure id="fig-00003">
 <title>Supply Curve for Pizzas</title>
 <media alt="The supply curve shows the relationship between the price of pizzas and the quantity of pizzas supplied. It shows that the price of pizzas increases as the supply of pizzas increases."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_004.png"/></media>
@@ -173,12 +173,12 @@
 </section>
 <section id="sect-00004">
 <title>Equilibrium Price</title>
-<para id="para-00017">Demand represents buyers, and supply represents sellers. In the market, these two groups interact to determine the price of a good and the quantity of the good that is sold. Because both the demand curve and the supply curve are graphed with price on the vertical axis and quantity on the horizontal axis, these two curves can be placed in the same graph, as is shown in Figure 3.5.</para>
+<para id="para-00017">Demand represents buyers, and supply represents sellers. In the market, these two groups interact to determine the price of a good and the quantity of the good that is sold. Because both the demand curve and the supply curve are graphed with price on the vertical axis and quantity on the horizontal axis, these two curves can be placed in the same graph, as is shown in <link target-id="fig-00004" document="m00018"/>.</para>
 <figure id="fig-00004">
 <title>Graph of Demand and Supply Showing Equilibrium Price and Quantity</title>
 <media alt="Graph of demand and supply of pizza showing equilibrium price and quantity when supply and demand curves intersect each other. The point where the demand and supply graphs meet is known as the intersection point. In this graph, the equilibrium occurs when the price of pizza is fifteen dollars and the quantity of pizzas is 30."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_005.png"/></media>
 </figure>
-<para id="para-00018">The point at which the supply and demand curves intersect is known as the <term id="term-00008">equilibrium</term>. At the <term id="term-00009">equilibrium price</term>, the quantity demanded will equal exactly the quantity supplied. There is no shortage or surplus of the product. In the example shown in Figure 3.5, when the price is $15, consumers want to purchase 30 pizzas and sellers want to make 30 pizzas available for purchase. The market is in balance.</para>
+<para id="para-00018">The point at which the supply and demand curves intersect is known as the <term id="term-00008">equilibrium</term>. At the <term id="term-00009">equilibrium price</term>, the quantity demanded will equal exactly the quantity supplied. There is no shortage or surplus of the product. In the example shown in <link target-id="fig-00004" document="m00018"/>, when the price is $15, consumers want to purchase 30 pizzas and sellers want to make 30 pizzas available for purchase. The market is in balance.</para>
 <para id="para-00019">A price higher than the equilibrium price will not be sustainable in a competitive marketplace. If the price of a pizza were $20, suppliers would make 40 pizzas available, but the quantity of pizzas demanded would be only 20 pizzas. This would be a surplus, or excess quantity supplied, of pizzas. Restaurant owners who see that they have 40 pizzas to sell but can only sell 20 of those pizzas will lower their prices to encourage more customers to purchase pizzas. At the same time, the restaurant owners will cut back on their pizza production. This process will drive the pizza price down from $20 toward the equilibrium price.</para>
 <para id="para-00020">The opposite would occur if the price of a pizza were only $5. Customers may want to purchase 50 pizzas, but restaurants would only want to sell 10 pizzas at the low price. Quantity demanded would exceed quantity supplied. At a price below the equilibrium price, a shortage would occur. Shortages drive prices up toward the equilibrium price.</para>
 <note class="link-to-learning" id="note-00003">
@@ -189,7 +189,7 @@
 <title>Graphing Demand and Supply</title>
 <exercise class="unnumbered" id="exer-00001">
 <problem id="prob-00001">
-<para id="para-00022">Consider the demand and supply schedules for sweatshirts shown below. Sketch a graph of demand and supply, placing quantity on the horizontal axis and price on the vertical axis. What will the equilibrium price for sweatshirts be? Table 3.4 provides the demand and supply schedules for the sweatshirts.</para>
+<para id="para-00022">Consider the demand and supply schedules for sweatshirts shown below. Sketch a graph of demand and supply, placing quantity on the horizontal axis and price on the vertical axis. What will the equilibrium price for sweatshirts be? <link target-id="table-00004" document="m00018"/> provides the demand and supply schedules for the sweatshirts.</para>
 <table summary=" " id="table-00004">
 <title>Demand and Supply Schedules for Sweatshirts</title>
 <tgroup cols="5">
@@ -296,7 +296,7 @@
 </problem>
 <solution id="sol-00001">
 <para id="para-00038"><emphasis effect="bold">Solution:</emphasis></para>
-<para id="para-00023">The demand curve for sweatshirts is the downward-sloping curve in Figure 3.6, showing the inverse relationship between price and quantity demanded. The upward-sloping curve is the supply curve for sweatshirts. The equilibrium price will be $30. At a price of $30, the quantity demanded of 20 sweatshirts equals the quantity supplied of 20 sweatshirts.</para>
+<para id="para-00023">The demand curve for sweatshirts is the downward-sloping curve in <link target-id="fig-00005" document="m00018"/>, showing the inverse relationship between price and quantity demanded. The upward-sloping curve is the supply curve for sweatshirts. The equilibrium price will be $30. At a price of $30, the quantity demanded of 20 sweatshirts equals the quantity supplied of 20 sweatshirts.</para>
 <figure id="fig-00005">
 <title>Graph of Demand and Supply for Sweatshirts</title>
 <media alt="Graph of demand and supply of sweatshirts showing equilibrium price and quantity when supply and demand curves intersect each other. The Equilibrium point occurs when the price of sweatshirts is thirty dollars and the quantity of sweatshirts is twenty."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_006.png"/></media>
@@ -308,13 +308,13 @@
 <section id="sect-00005">
 <title>Changes in Equilibrium Price</title>
 <para id="para-00024">A price that is either too high (above the equilibrium price) or too low (below the equilibrium price) is not sustainable in a competitive market. Market forces pull prices to the equilibrium, where they stay until either supply or demand changes.</para>
-<para id="para-00025">If supply increases and the curve moves outward to the right, as in Figure 3.7, then the equilibrium price will fall. With the original supply curve, Supply1, the equilibrium price was $15; quantity demanded and quantity supplied were both 30 pizzas at that price. If a new pizza restaurant opens, increasing the supply of pizzas to Supply2, the equilibrium will move from Equilibrium1 (<emphasis effect="italics">E</emphasis>1) to Equilibrium2 (<emphasis effect="italics">E</emphasis>2). The new equilibrium price will be $10. This new equilibrium is associated with a quantity demanded of 40 pizzas and a quantity supplied of 40 pizzas.</para>
+<para id="para-00025">If supply increases and the curve moves outward to the right, as in <link target-id="fig-00006" document="m00018"/>, then the equilibrium price will fall. With the original supply curve, Supply1, the equilibrium price was $15; quantity demanded and quantity supplied were both 30 pizzas at that price. If a new pizza restaurant opens, increasing the supply of pizzas to Supply2, the equilibrium will move from Equilibrium1 (<emphasis effect="italics">E</emphasis>1) to Equilibrium2 (<emphasis effect="italics">E</emphasis>2). The new equilibrium price will be $10. This new equilibrium is associated with a quantity demanded of 40 pizzas and a quantity supplied of 40 pizzas.</para>
 <figure id="fig-00006">
 <title>Supply Curve Changes When Supply Increases</title>
 <media alt="Graph of demand and supply of pizza showing equilibrium price and quantity when supply increases. The line for the original supply is labbeled Supply 1 and the line for the increased supply is labelled Supply 2. Both lines slope upward at the same rate; however Supply 2 is to the right of Supply 1. It shows that the equilibrium drops to a lower price level if the supply increases."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_007.png"/></media>
 <caption>An increase in supply leads to a lower equilibrium price and an increase in quantity demanded.</caption></figure>
-<para id="para-00026">It is important to note that the demand curve in Figure 3.7 does not move. In other words, demand does not change. As the equilibrium price falls, consumers move along the demand curve to a point with a combination of a lower price and a higher quantity. Economists call this movement an <emphasis effect="italics">increase in quantity demanded</emphasis>. Distinguishing between an increase in quantity demanded (a movement along the demand curve) and an increase in demand (a shift in the demand curve) is critical when analyzing market equilibriums.</para>
-<para id="para-00027">Equilibrium price will also fall if demand falls. Remember that a decrease in demand is represented as a shift of the demand curve inward to the left. In Figure 3.8, you can see how a decrease in demand causes a change from <emphasis effect="italics">E</emphasis>1 to <emphasis effect="italics">E</emphasis>2.</para>
+<para id="para-00026">It is important to note that the demand curve in <link target-id="fig-00006" document="m00018"/> does not move. In other words, demand does not change. As the equilibrium price falls, consumers move along the demand curve to a point with a combination of a lower price and a higher quantity. Economists call this movement an <emphasis effect="italics">increase in quantity demanded</emphasis>. Distinguishing between an increase in quantity demanded (a movement along the demand curve) and an increase in demand (a shift in the demand curve) is critical when analyzing market equilibriums.</para>
+<para id="para-00027">Equilibrium price will also fall if demand falls. Remember that a decrease in demand is represented as a shift of the demand curve inward to the left. In <link target-id="fig-00007" document="m00018"/>, you can see how a decrease in demand causes a change from <emphasis effect="italics">E</emphasis>1 to <emphasis effect="italics">E</emphasis>2.</para>
 <figure id="fig-00007">
 <title>A Decrease in Demand</title>
 <media alt="Graph of demand and supply of pizza showing equilibrium price and quantity demand decreases. The line for the original demand is labbeled Demand 1 and the line for the decreased demand is labelled Demand 2. Both lines slope downward at the same rate; however Demand 2 is to the left of Demand 1. The intersection of Supply and Demand 2 is labelled Equilibrium 2 and shows how the equilibrium drops to a lower price level if the demand drops."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_008.png"/></media>
@@ -324,7 +324,7 @@
 <title>Graphing Demand</title>
 <exercise class="unnumbered" id="exer-00002">
 <problem id="prob-00002">
-<para id="para-00029">Suppose that the demand for sweatshirts in our previous example changes, and the demand schedule becomes the data shown in Table 3.5.</para>
+<para id="para-00029">Suppose that the demand for sweatshirts in our previous example changes, and the demand schedule becomes the data shown in <link target-id="table-00005" document="m00018"/>.</para>
 <table summary=" " id="table-00005">
 <title>Demand Schedule for Sweatshirts</title>
 <tgroup cols="2">
@@ -387,7 +387,7 @@
 <para id="para-00030">Has the demand for sweatshirts increased or decreased? Show this movement in a graph. What happens to the equilibrium? What are some reasons you can think of that may have caused this change in demand?</para></problem>
 <solution id="sol-00002">
 <para id="para-00039"><emphasis effect="bold">Solution:</emphasis></para>
-<para id="para-00031">This is an increase in demand. At every price, consumers now want to purchase more sweatshirts than they did before. This is shown in the graph as a movement of the demand curve outward to the right. Both the equilibrium price and the equilibrium quantity will rise because of this increase in demand. The equilibrium price will now be $40, and the equilibrium quantity of sweatshirts will be 30. Note that there is not an increase in supply; the supply curve does not move. There is simply an increase in quantity supplied (see Figure 3.9).</para>
+<para id="para-00031">This is an increase in demand. At every price, consumers now want to purchase more sweatshirts than they did before. This is shown in the graph as a movement of the demand curve outward to the right. Both the equilibrium price and the equilibrium quantity will rise because of this increase in demand. The equilibrium price will now be $40, and the equilibrium quantity of sweatshirts will be 30. Note that there is not an increase in supply; the supply curve does not move. There is simply an increase in quantity supplied (see <link target-id="fig-00008" document="m00018"/>).</para>
 <figure id="fig-00008">
 <title>Graph Showing Increase in Sweatshirt Supply</title>
 <media alt="Graph of demand and supply of sweatshirts showing equilibrium price and quantity when supply and demand curves intersect each other. It shows that the equilibrium rises to a higher price level if the demand increases."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_009.png"/></media>
