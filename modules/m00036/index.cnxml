@@ -6,8 +6,51 @@
     <md:uuid>d575fc7b-0bae-47c2-b667-6ab6669b1316</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Calculate operating cash flow and free cash flow.</item>
+    <item>Assess organizational cash management performance.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Operating Cash Flow</title>
+    <para id="para-00002">Now that we have a statement of cash flows prepared, we can move on to a few key elements of the statement used to assess organizational cash management performance. Operating cash flow, or net cash flow from operating activities, is calculated in the first section of the statement of cash flows. It depicts the cash generated (or used by) the primary business activities. Remember, operating cash flow is calculated under the indirect method by adjusting net income for noncash expenses like depreciation and adjustments for changes in current asset and liability accounts (changes in working capital).</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Operating</mi><mo> </mo><mi>Cash</mi><mo> </mo><mi>Flow</mi><mo>=</mo><mi>Operating</mi><mo> </mo><mi>Income</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Depreciation</mi><mo> </mo><mo>–</mo><mo> </mo><mi>Taxes</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Change</mi><mo> </mo><mi>in</mi><mo> </mo><mi>Working</mi><mo> </mo><mi>Capital</mi></math></equation>
+    <para id="para-00003" xmlns="http://cnx.rice.edu/cnxml">Operating cash flow is helpful in assessing organizational cash management performance as it relates to the core business function—operations. Key management practices in this area can have a profound impact on the firm’s cash flow. Practices and policies include customer payment terms, collection policies and practices, and vendor payment terms. Though changing a customer or vendor payment terms will not change the profit or loss for the firm, it will have an impact on the timing to cash flows. This is a key element of managing operational cash flow.</para>
+    </section>
+    <section id="sect-00003">
+    <title>Free Cash Flow</title>
+    <para id="para-00004"><term class="no-emphasis" id="term-00001">Free cash flow (FCF)</term> is calculated by taking operating cash flows less capital expenditures. Free cash flow is an important measure, as it depicts the cash available to support the business’s operations and maintain its fixed assets. It is commonly used by investors as part of their overall evaluation of an investment, as it is a key measure of cash flow management practices and a firm’s ability to generate enough cash to cover operations and capital assets and it shows if there is any left over for other considerations such as dividend payments, debt repayment, and contributions to increase working capital for future growth.</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Free</mi><mo> </mo><mi>Cash</mi><mo> </mo><mi>Flow</mi><mo> </mo><mo>(</mo><mi>FCF</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mi>Operating</mi><mo> </mo><mi>Cash</mi><mo> </mo><mi>Flow</mi><mo> </mo><mo>-</mo><mo> </mo><mi>Capital</mi><mo> </mo><mi>Expenditures</mi></math></equation>
+    <para id="para-00005" xmlns="http://cnx.rice.edu/cnxml">Using the data for Clear Lake Sporting Goods, we can calculate its free cash flow as follows:</para>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Free</mi><mo> </mo><mi>Cash</mi><mo> </mo><mi>Flow</mi><mo> </mo><mo>(</mo><mi>FCF</mi><mo>)</mo><mo>=</mo><mo>$</mo><mn>53</mn><mo>,</mo><mn>600</mn><mo> </mo><mo>-</mo><mo> </mo><mo>$</mo><mn>13</mn><mo>,</mo><mn>600</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>40</mn><mo>,</mo><mn>000</mn></math></equation>
+    <para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">This means that Clear Lake Sporting Goods has $40,000 of cash available to repay debt or pay cash dividends after having covered the cash needs of its operations and capital asset investments.</para>
+    </section>
+    <section id="sect-00004">
+    <title>Managing Cash Flow</title>
+    <para id="para-00007">Managing cash flow is not an easy task. A firm has a myriad of places that its cash flows from or to. However, there are a few key areas to place attention in order to manage or improve cash flows. First, consider where cash is coming from—customers. Managing terms and collection efforts with customers can have a significant impact on a firm’s cash flow. For example, a customer with terms of net 10 will likely yield payment quite quickly—10 days, give or take. A customer with terms of net 60, on the other hand, will require roughly 60 days to collect assuming they pay on time. The 50-day difference between these two examples means that the firm will go 50 additional days having expended the resources to provide the customer their good or service, but with no cash flow yet to cover it.</para>
+    <para id="para-00008">The same theory holds true on the opposite side with accounts payable and the vendors a firm uses. Accepting net 10 terms requires the firm to give up its cash quickly, while pushing for more favorable terms like net 30 or net 60 allows the firm to wait much longer to give up its cash.</para>
+    <para id="para-00009">It is important to assess both sides of cash flow and the impact it has on the firm as well as the customer and vendor relationships it maintains. Some customers may not have difficulty negotiating a more favorable payment term in order for the firm to improve its cash flow. Others, however, may not be willing to accept shorter payment terms. In order to be competitive in the industry, the firm must assess the customer relationships, industry standards, and its own ability to support cash flow when considering its customer payment terms.</para>
+    <para id="para-00010">When there is a gap in cash flow, it is crucial that it is recognized early, with proper cash flow forecasting, so financing can be obtained to bridge the gap. A common tool used to manage the ebb and flow of cash flow for a firm is an open line of credit with a bank. This allows the firm to borrow and repay from month to month as cash flow fluctuates.</para>
+    <para id="para-00011">Now that you’ve become more familiar with the four basic financial statements, let’s move on to a tool helpful in evaluating them: common-size statements. Common-size financial statements, also termed vertical analysis, restate the financial statement items as a percentage of a base item. Doing so helps reveal relationships between items, aids in assessing performance over time, and makes it easier to compare one company to another, regardless of size (thus the name common-size).</para>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00012">Operating cash flow reflects the cash generated by (or used by) the core business function. Free cash flow to the firm (FCFF) or simply free cash flow (FCF) is calculated by deducting capital expenditures from operating cash flow. FCF reflects the cash available to repay debts, pay dividends to shareholders, and contribute to cash needs for growth.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00013"><link class="os-embed" url="#exercise/FI_Ch5_Sec6_MCQ6"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00007">
+    <title/>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00014"><link class="os-embed" url="#exercise/FI_Ch5_Sec6_RVQ6"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00008">
+    <title/>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00015"><link class="os-embed" url="#exercise/FI_Ch5_Sec6_PRQ6"/></para></problem></exercise>
+    </section>
+    </content>
 </document>
