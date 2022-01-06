@@ -6,8 +6,722 @@
     <md:uuid>a12f6608-665e-4297-881f-ef136d7d319b</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives">
+    <title>Learning Outcomes</title>
+    <para>By the end of this section, you will be able to:</para>
+    <list>
+    <item>Compute the realized return from an individual investment.</item>
+    <item>Compute the average return and volatility of returns from historical data.</item>
+    <item>Describe firm-specific risk.</item>
+    </list>
+    </section>
+    <section>
+    <title>Measuring Historical Returns</title>
+    <para><emphasis effect="italics">Risk</emphasis> and <emphasis effect="italics">return</emphasis> are often referred to as the two Rs of finance. Investors are interested in both risk and return because understanding one without the other is really meaningless. In terms of investment, the concept of <emphasis effect="italics">return</emphasis> is fairly straightforward; return is the benefit, or profit, the investor expects from an expenditure. It is the reward for investing&#8212;the reason an investment is made in the first place. However, no investment is a sure thing. The return may not be what the investor was expecting. This uncertainty about what the return will be is referred to as <emphasis effect="italics">risk</emphasis>.</para>
+    <para>We begin by looking at how to measure both risk and return when considering an individual asset, such as one stock. If your grandparents bought 100 shares of <term class="no-emphasis">Apple</term> stock for you when you were born, you are interested in knowing how well that investment has done. You may even want to compare how that investment has fared to how an investment in a different stock, perhaps <term class="no-emphasis">Disney</term>, would have done. You are interested in measuring the historical return.</para>
+    <section>
+    <title>Individual Investment Realized Return</title>
+    <para>The <term>realized return</term> of an investment is the total return that occurs over a particular time period. Suppose that you purchased a share of <term class="no-emphasis">Target (TGT)</term> at the beginning of January 2020 for &#36;128.74. At the end of the year, you sold the stock for &#36;176.53, which was &#36;47.79 more than you paid for it. This increase in value is known as a <emphasis effect="italics">capital gain</emphasis>. As the owner of the stock, you also received &#36;2.68 in dividends during 2020. The <emphasis effect="italics">total dollar return</emphasis> from your investment is calculated as</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Total</mi><mo>&#xA0;</mo><mi>Dollar</mi><mo>&#xA0;</mo><mi>Return</mi><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mi>Dividend</mi><mo>&#xA0;</mo><mi>Income</mi><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mi>Capital</mi><mo>&#xA0;</mo><mi>Gain</mi></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mn>2</mn><mo>.</mo><mn>68</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mo>&#36;</mo><mn>47</mn><mo>.</mo><mn>79</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>&#36;</mo><mn>50</mn><mo>.</mo><mn>47</mn></mtd></mtr></mtable></math></equation>
+    <para>It is common to express investment returns in percentage terms rather than dollar terms. This allows you to answer the question &#8220;How much do I receive for each dollar invested?&#8221; so that you can compare investments of different sizes. The <emphasis effect="italics">total percent return</emphasis> from your investment is</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Total</mi><mo>&#xA0;</mo><mi>Percent</mi><mo>&#xA0;</mo><mi>Return</mi><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mi>Dividend</mi><mo>&#xA0;</mo><mi>Yield</mi><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mi>Capital</mi><mo>&#xA0;</mo><mi>Gain</mi><mo>&#xA0;</mo><mi>Yield</mi></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mfrac><mrow><mo>&#36;</mo><mn>2</mn><mo>.</mo><mn>68</mn></mrow><mrow><mo>&#36;</mo><mn>128</mn><mo>.</mo><mn>74</mn></mrow></mfrac><mo>&#43;</mo><mfrac><mrow><mo>&#36;</mo><mn>47</mn><mo>.</mo><mn>79</mn></mrow><mrow><mo>&#36;</mo><mn>128</mn><mo>.</mo><mn>74</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>0208</mn><mo>&#43;</mo><mn>0</mn><mo>.</mo><mn>3712</mn><mo>=</mo><mn>0</mn><mo>.</mo><mn>3920</mn><mo>=</mo><mn>39</mn><mo>.</mo><mn>20</mn><mo>&#37;</mo></mtd></mtr></mtable></math></equation>
+    <para>The <term>dividend yield</term> is calculated by dividing the dividends you received by the initial stock price. This calculation says that for each dollar invested in TGT in 2020, you received &#36;0.0208 in dividends. The <term>capital gain yield</term> is the change in the stock price divided by the initial stock price. This calculation says that for each dollar invested in TGT in 2020, you received &#36;0.3712 in capital gains. Your total percent return of 39.20&#37; means that you made &#36;0.392 for every dollar invested when your gains from both dividends and stock price appreciation are totaled together.</para>
+    <note class="think-through">
+    <title>Calculating Return</title>
+    <exercise class="unnumbered">
+    <problem>
+    <para>You purchased 10 shares of <term class="no-emphasis">3M (MMM)</term> stock in January 2020 for &#36;175 per share, received dividends of &#36;5.91 per share, and sold the stock at the end of the year for &#36;169.72 per share. Calculate your total dollar return, your dividend yield, your capital gain yield, and your total percent yield.</para>
+    </problem>
+    <solution>
+    <para>Because you purchased 10 shares, you received <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>&#36;</mo><mn>5</mn><mo>.</mo><mn>91</mn><mo>&#xA0;</mo><mo>&#xD7;</mo><mo>&#xA0;</mo><mn>10</mn><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mo>&#36;</mo><mn>59</mn><mo>.</mo><mn>10</mn></mtd></mtr></mtable></math> in dividend income. You spent <emphasis effect="italics">&#36;175.00&#215;10=&#36;1,750.00</emphasis> to purchase the stock, and you sold it for <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>&#36;</mo><mn>169</mn><mo>.</mo><mn>72</mn><mo>&#xA0;</mo><mo>&#xD7;</mo><mo>&#xA0;</mo><mn>10</mn></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#36;</mo><mn>1</mn><mo>,</mo><mn>697</mn><mo>.</mo><mn>20</mn><mo>.</mo></mtd></mtr></mtable></math>. Your total dollar return is</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Total</mi><mo>&#xA0;</mo><mi>Dollar</mi><mo>&#xA0;</mo><mi>Return</mi><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mi>Dividend</mi><mo>&#xA0;</mo><mi>Income</mi><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mi>Capital</mi><mo>&#xA0;</mo><mi>Gain</mi></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo>&#36;</mo><mn>59</mn><mo>.</mo><mn>10</mn><mo>&#43;</mo><mo>(</mo><mo>&#36;</mo><mn>1</mn><mo>,</mo><mn>697</mn><mo>.</mo><mn>20</mn><mo>-</mo><mo>&#36;</mo><mn>1</mn><mo>,</mo><mn>750</mn><mo>.</mo><mn>00</mn><mo>)</mo><mo>=</mo><mo>&#36;</mo><mn>6</mn><mo>.</mo><mn>30</mn></mtd></mtr><mtr><mtd/><mtd/><mtd/></mtr></mtable></math></equation>
+    <para>Your dividend yield is <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mfrac><mrow><mo>&#36;</mo><mn>5</mn><mo>.</mo><mn>91</mn></mrow><mrow><mo>&#36;</mo><mn>175</mn><mo>.</mo><mn>00</mn></mrow></mfrac><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mn>0</mn><mo>.</mo><mn>0338</mn></mtd></mtr></mtable></math>, or 3.38&#37;, and your capital gain yield is <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mfrac><mrow><mo>&#36;</mo><mn>169</mn><mo>.</mo><mn>72</mn><mo>-</mo><mo>&#36;</mo><mn>175</mn><mo>.</mo><mn>00</mn></mrow><mrow><mo>&#36;</mo><mn>175</mn><mo>.</mo><mn>00</mn></mrow></mfrac></mtd><mtd><mo>=</mo></mtd><mtd><mo>-</mo><mn>0</mn><mo>.</mo><mn>0302</mn></mtd></mtr></mtable></math>, or 3.02&#37;. Your total percent return is <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3</mn><mo>.</mo><mn>38</mn><mi>&#37;</mi><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mo>(</mo><mo>-</mo><mn>3</mn><mo>.</mo><mn>02</mn><mi>&#37;</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>0</mn><mo>.</mo><mn>36</mn><mi>&#37;</mi><mo>.</mo></math>.</para>
+    <para>Notice that you sold MMM for a price lower than what you paid for it at the beginning of the year. Your capital gain is negative, or what is often referred to as a <emphasis effect="italics">capital loss</emphasis>. Although the price fell, you still had a positive total dollar return because of the dividend income.</para>
+    </solution>
+    </exercise>
+    </note>
+    <para>Of course, investors seldom purchase a stock and then sell it exactly one year later. Assume that you purchased shares of <term class="no-emphasis">Facebook (FB)</term> on June 1, 2020, for &#36;228.50 per share and sold the shares three months later for &#36;261.90. You received no dividends. In this case, your <term>holding period percentage return</term> is calculated as</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>&#36;</mo><mn>261</mn><mo>.</mo><mn>90</mn><mo>-</mo><mo>&#36;</mo><mn>228</mn><mo>.</mo><mn>5</mn></mrow><mrow><mo>&#36;</mo><mn>228</mn><mo>.</mo><mn>50</mn></mrow></mfrac><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>0</mn><mo>.</mo><mn>1462</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>14</mn><mo>.</mo><mn>62</mn><mo>&#37;</mo></math></equation>
+    <para>This 14.62&#37; is your return for a three-month holding period. To compare them to other investment opportunities, you need to express returns on a per-year, or <emphasis effect="italics">annualized</emphasis>, basis. The holding period returned is converted to an <term>effective annual rate (EAR)</term> using the formula <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EAR</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msup><mfenced><mrow><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mi>Holding</mi><mo>&#xA0;</mo><mi>Period</mi><mo>&#xA0;</mo><mi>Percentage</mi><mo>&#xA0;</mo><mi>Return</mi></mrow></mfenced><mi>m</mi></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>1</mn></math> where <emphasis effect="italics">m</emphasis> is the number of holding periods in a year.</para>
+    <para>There are four three-month periods in a year. So, the EAR for this investment is <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EAR</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><msup><mrow><mn>0</mn><mo>.</mo><mn>1462</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>1</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>0</mn><mo>.</mo><mn>7260</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>72</mn><mo>.</mo><mn>60</mn><mi>&#37;</mi></math></para>
+    <para>What happens if you own a stock for more than one year? Your holding period return would have occurred over a period longer than a year, but the process to calculate the EAR is the same. Suppose you purchased shares of FB in May 2015, when it was selling for &#36;79.30 per share. You held the stock until May 2020, when you sold it for &#36;224.59. Your holding period percentage return would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>&#36;</mo><mn>224</mn><mo>.</mo><mn>59</mn><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mo>&#36;</mo><mn>79</mn><mo>.</mo><mn>30</mn></mrow><mrow><mo>&#36;</mo><mn>79</mn><mo>.</mo><mn>30</mn></mrow></mfrac><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>383</mn><mo>.</mo><mn>32</mn><mo>&#37;</mo></math>. You more than tripled your money, but it took you five years to do so. Your EAR, which will be smaller than this five-year holding period return rate, is calculated as</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EAR</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><msup><mrow><mn>3</mn><mo>.</mo><mn>8332</mn><mo>)</mo></mrow><mfrac><mn>1</mn><mn>5</mn></mfrac></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>1</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>37</mn><mo>.</mo><mn>04</mn><mi>&#37;</mi></math></equation>
+    </section>
+    <section>
+    <title>Average Annual Returns</title>
+    <para>Suppose that you purchased shares of <term class="no-emphasis">Delta Airlines (DAL)</term> at the beginning of 2011 for &#36;11.19 and held the stock for 10 years before selling it for &#36;40.21. You made <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#36;</mo><mn>40</mn><mo>.</mo><mn>21</mn><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mo>&#36;</mo><mn>11</mn><mo>.</mo><mn>19</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>&#36;</mo><mn>29</mn><mo>.</mo><mn>02</mn><mo>&#xA0;</mo></math> on your investment over a 10-year period. This is a 259.34&#37; holding period return. The EAR for this investment is</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EAR</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><msup><mrow><mn>2</mn><mo>.</mo><mn>5934</mn><mo>)</mo></mrow><mfrac><mn>1</mn><mn>10</mn></mfrac></msup><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>1</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>13</mn><mo>.</mo><mn>65</mn><mi>&#37;</mi></math></equation>
+    <para>To calculate the EAR using the above formula, the holding period return must first be calculated. The holding period return represents the percentage return earned over the entire time the investment is held. Then the holding period return is converted to an annual percentage rate using the formula.</para>
+    <para>You can also use the basic time value of money formula to calculate the EAR on an investment. In time value of money language, the initial price paid for the investment, &#36;11.19, is the present value. The price the stock is sold for, &#36;40.21, is the future value. It takes 10 years for the &#36;11.19 to grow to &#36;40.21. Using the time value of money will result in a calculation of</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>P</mi><mi>V</mi><mo>&#xA0;</mo><mo>&#xD7;</mo><mo>&#xA0;</mo><msup><mfenced><mrow><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mi>i</mi></mrow></mfenced><mi>n</mi></msup><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mi>F</mi><mi>V</mi></mtd></mtr><mtr><mtd><mn>1</mn><mo>.</mo><mn>19</mn><mo>&#xA0;</mo><mo>&#xD7;</mo><mo>&#xA0;</mo><msup><mfenced><mrow><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mi>i</mi></mrow></mfenced><mn>10</mn></msup><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mn>40</mn><mo>.</mo><mn>21</mn></mtd></mtr><mtr><mtd><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mi>i</mi><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><msup><mrow><mn>3</mn><mo>.</mo><mn>5934</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>10</mn></mrow></msup></mtd></mtr><mtr><mtd><mi>i</mi><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mn>13</mn><mo>.</mo><mn>65</mn><mi>&#37;</mi></mtd></mtr></mtable></math></equation>
+    <para>The EAR formula and the time value of money both result in a 13.65&#37; annual return. Mathematically, the two formulas are the same; one is simply an algebraic rearrangement of the other.</para>
+    <para>If you earned 13.65&#37; each year, compounded for 10 years, you would have converted your &#36;11.19 per share investment to &#36;40.21 per share. Of course, DAL stock did not increase by exactly 13.65&#37; each year. The returns for DAL for each year are shown in Table 15.1. Some years, the return was much higher than 13.65&#37;. In 2013, the return was almost 133&#37;! Other years, the return was much lower than 13.65&#37;; in fact, in the return was negative in four of the years.</para>
+    <table summary=" " class="timeline-table">
+    <title>Yearly Returns for DAL, 2011-2020: Value of Initial Investment at Each Year End</title>
+    <tgroup cols="4">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <thead>
+    <row>
+    <entry align="center">Year</entry>
+    <entry align="center">Return</entry>
+    <entry align="center">1 + Return</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">2011</entry>
+    <entry align="center">-0.3579</entry>
+    <entry align="center">0.6421</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2012</entry>
+    <entry align="center">0.4672</entry>
+    <entry align="center">1.4672</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2013</entry>
+    <entry align="center">1.3261</entry>
+    <entry align="center">2.3261</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2014</entry>
+    <entry align="center">0.8053</entry>
+    <entry align="center">1.8053</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2015</entry>
+    <entry align="center">0.0405</entry>
+    <entry align="center">1.0405</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2016</entry>
+    <entry align="center">-0.0135</entry>
+    <entry align="center">0.9865</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2017</entry>
+    <entry align="center">0.1623</entry>
+    <entry align="center">1.1623</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2018</entry>
+    <entry align="center">-0.0866</entry>
+    <entry align="center">0.9134</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2019</entry>
+    <entry align="center">0.2038</entry>
+    <entry align="center">1.2038</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2020</entry>
+    <entry align="center">-0.3077</entry>
+    <entry align="center">0.6923</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Arithmetic Avg</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">0.2240</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">3.5928</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Product of (1 + Return)</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Std Dev</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">0.5190</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">1.1364</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Product raised to 1/N</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center"><emphasis effect="bold">0.1364</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Geometric Average</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para>Although an investment in DAL of &#36;11.19 at the beginning of 2011 grew to &#36;40.20 by the end of 2020, this growth was not consistent each year. The amount that the stock was worth at the end of each year is also shown in Table 15.1. During 2011, the return for DAL was -35.79&#37;, resulting in the value of the investment falling to <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>&#36;</mo><mn>11</mn><mo>.</mo><mn>19</mn><mo>&#xA0;</mo><mo>&#xD7;</mo><mo>&#xA0;</mo><mfenced open="[" close="]"><mrow><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mfenced><mrow><mo>-</mo><mn>0</mn><mo>.</mo><mn>3579</mn></mrow></mfenced></mrow></mfenced><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mo>&#36;</mo><mn>7</mn><mo>.</mo><mn>19</mn></mtd></mtr></mtable></math>. The following year, 2012, the return for DAL was 46.72&#37;. Therefore, the value of the investment was <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>&#36;</mo><mn>7</mn><mo>.</mo><mn>19</mn><mo>&#xA0;</mo><mo>&#xD7;</mo><mo>&#xA0;</mo><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mfenced><mrow><mn>1</mn><mo>&#43;</mo><mn>0</mn><mo>.</mo><mn>4672</mn></mrow></mfenced><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mo>&#36;</mo><mn>10</mn><mo>.</mo><mn>54</mn></mtd></mtr></mtable></math> at the end of 2012. This process continues each year that the stock is held.</para>
+    <para>The compounded annual return derived from the EAR and time value of money formulas is also known as a <term>geometric average return</term>. A geometric average return is calculated using the formula</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Geometric</mi><mo>&#xA0;</mo><mi>Average</mi><mo>&#xA0;</mo><mi>Return</mi><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><msup><mrow><mfenced open="[" close="]"><mrow><mfenced><mrow><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><msub><mi>R</mi><mn>1</mn></msub></mrow></mfenced><mo>&#xA0;</mo><mo>&#xD7;</mo><mo>&#xA0;</mo><mfenced><mrow><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><msub><mi>R</mi><mn>2</mn></msub></mrow></mfenced><mi>X</mi><mo>&#xA0;</mo><mo>&#x2026;</mo><mo>&#xA0;</mo><mo>&#xA0;</mo><mi>X</mi><mfenced><mrow><mn>1</mn><mo>&#43;</mo><msub><mi>R</mi><mi>N</mi></msub></mrow></mfenced></mrow></mfenced><mo>&#xA0;</mo></mrow><mfrac><mn>1</mn><mi>N</mi></mfrac></msup><mo>-</mo><mo>&#xA0;</mo><mn>1</mn></mtd></mtr></mtable></math></equation>
+    <para>where <emphasis effect="italics">R<sub>N</sub></emphasis> is the return for each year in the time period for which the average is calculated.</para>
+    <para>The calculation of the geometric average return for DAL is shown in the right column of Table 15.2. (The slight difference in the geometric average return of 13.64&#37; from the 13.65&#37; derived from the EAR and time value of money calculations is due to rounding errors.)</para>
+    <table summary=" " class="timeline-table">
+    <title>Yearly Returns for DAL, 2011&#8211;2020, with Calculation of the Arithmetic Mean, Standard Deviation, and Geometric Mean</title>
+    <tgroup cols="4">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <thead>
+    <row>
+    <entry align="center"><emphasis effect="bold">Year</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Return</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">1 + Return</emphasis></entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">2011</entry>
+    <entry align="center">-0.3579</entry>
+    <entry align="center">0.6421</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2012</entry>
+    <entry align="center">0.4672</entry>
+    <entry align="center">1.4672</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2013</entry>
+    <entry align="center">1.3261</entry>
+    <entry align="center">2.3261</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2014</entry>
+    <entry align="center">0.8053</entry>
+    <entry align="center">1.8053</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2015</entry>
+    <entry align="center">0.0405</entry>
+    <entry align="center">1.0405</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2016</entry>
+    <entry align="center">-0.0135</entry>
+    <entry align="center">0.9865</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2017</entry>
+    <entry align="center">0.1623</entry>
+    <entry align="center">1.1623</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2018</entry>
+    <entry align="center">-0.0866</entry>
+    <entry align="center">0.9134</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2019</entry>
+    <entry align="center">0.2038</entry>
+    <entry align="center">1.2038</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2020</entry>
+    <entry align="center">-0.3077</entry>
+    <entry align="center">0.6923</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Arithmetic Avg</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">0.2240</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">3.5928</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Product of (1 + Return)</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Std Dev</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">0.5190</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">1.1364</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Product raised to 1/N</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center"><emphasis effect="bold">0.1364</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Geometric Average</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para>Looking at Table 15.2, you will notice that the geometric average return differs from the mean return. Adding each of the annual returns and dividing the sum by 10 results in a 22.4&#37; average annual return. This 22.4&#37; is called the <term>arithmetic average return</term>.</para>
+    <para>The geometric average return will be smaller than the arithmetic average return (unless the returns for all years are identical). This is due to the basic arithmetic of compounding. Think of a very simple example in which you invest &#36;100 for two years. If you have a positive return of 50&#37; the first year and a negative 50&#37; return the second year, you will have an arithmetic average return of <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>5</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mfenced><mrow><mo>-</mo><mn>0</mn><mo>.</mo><mn>50</mn></mrow></mfenced></mrow><mn>2</mn></mfrac><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>0</mn><mo>.</mo><mn>0</mn><mi>&#37;</mi></math>, but you will have a geometric average return of <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="[" close="]"><mrow><mo>(</mo><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#xD7;</mo><mo>&#xA0;</mo><mo>(</mo><mn>1</mn><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mrow></mfenced><mn>0</mn><mo>.</mo><mn>5</mn><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>1</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>-</mo><mn>13</mn><mo>.</mo><mn>4</mn><mo>&#37;</mo><mo>.</mo></math>. With a 50&#37; positive return the first year, you ended the year with &#36;150. The second year, you lost 50&#37; of that balance and were left with only &#36;75.</para>
+    <para>Another important fact when studying average returns is that the order in which you earn the returns is not important. Consider what would have occurred if the returns in the two years were reversed, so that you faced a loss of 50&#37; in the first year of your investment and a gain of 50&#37; in the second year of your investment. With a -50&#37; return in the first year, you would have ended that year with only &#36;50. Then, if that &#36;50 earned a positive 50&#37; return the second year, you would have a &#36;75 balance at the end of the two-year period. A negative return of 50&#37; followed by a positive return of 50&#37; still results in an arithmetic average return of 0&#37; and a geometric average return of <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="[" close="]"><mrow><mo>(</mo><mn>1</mn><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#xD7;</mo><mo>&#xA0;</mo><mo>(</mo><mn>1</mn><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mn>0</mn><mo>.</mo><mn>5</mn><mo>)</mo></mrow></mfenced><mn>0</mn><mo>.</mo><mn>5</mn><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>1</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>-</mo><mn>13</mn><mo>.</mo><mn>4</mn><mi>&#37;</mi></math>.</para>
+    <note class="think-through">
+    <title>Calculating Arithmetic and Geometric Average Return</title>
+    <exercise class="unnumbered">
+    <problem>
+    <para>The annual returns for <term class="no-emphasis">CVS Health Corp. (CVS)</term> for the 10-year period of 2011&#8211;2020 are shown in Table 15.3.</para>
+    <table summary=" " class="timeline-table">
+    <title>CVS Annual Returns, 2011&#8211;2020</title>
+    <tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <thead>
+    <row>
+    <entry align="center"><emphasis effect="bold">Year</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Returns</emphasis></entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">2011</entry>
+    <entry align="center">18.94%</entry>
+    </row>
+    <row>
+    <entry align="center">2012</entry>
+    <entry align="center">20.28%</entry>
+    </row>
+    <row>
+    <entry align="center">2013</entry>
+    <entry align="center">50.38%</entry>
+    </row>
+    <row>
+    <entry align="center">2014</entry>
+    <entry align="center">37.12%</entry>
+    </row>
+    <row>
+    <entry align="center">2015</entry>
+    <entry align="center">2.90%</entry>
+    </row>
+    <row>
+    <entry align="center">2016</entry>
+    <entry align="center">-17.83%</entry>
+    </row>
+    <row>
+    <entry align="center">2017</entry>
+    <entry align="center">-5.75%</entry>
+    </row>
+    <row>
+    <entry align="center">2018</entry>
+    <entry align="center">-7.04%</entry>
+    </row>
+    <row>
+    <entry align="center">2019</entry>
+    <entry align="center">17.26%</entry>
+    </row>
+    <row>
+    <entry align="center">2020</entry>
+    <entry align="center">-5.14%</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    <source>(source: Yahoo! Finance)</source>
+    </table>
+    <para>What was the arithmetic average return during the decade? What was the geometric average return during the decade?</para>
+    </problem>
+    <solution>
+    <para>See Table 15.4 for the arithmetic mean and geometric mean calculations.</para>
+    <table summary=" " class="timeline-table">
+    <title>Yearly Returns for CVS, 2011&#8211;2020</title>
+    <tgroup cols="4">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <thead>
+    <row>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center"><emphasis effect="bold">Arithmetic Average Calculation</emphasis></entry>
+    <entry namest="c3" namend="c4" align="center"><emphasis effect="bold">Geometric Average Calculation</emphasis></entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center"><emphasis effect="bold">Year</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Return</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">1 + Return</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">&nbsp;</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center">2011</entry>
+    <entry align="center">0.1894</entry>
+    <entry align="center">1.1894</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2012</entry>
+    <entry align="center">0.2028</entry>
+    <entry align="center">1.2028</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2013</entry>
+    <entry align="center">0.5038</entry>
+    <entry align="center">1.5038</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2014</entry>
+    <entry align="center">0.3712</entry>
+    <entry align="center">1.3712</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2015</entry>
+    <entry align="center">0.0290</entry>
+    <entry align="center">1.0290</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2016</entry>
+    <entry align="center">-0.1783</entry>
+    <entry align="center">0.8217</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2017</entry>
+    <entry align="center">-0.0575</entry>
+    <entry align="center">0.9425</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2018</entry>
+    <entry align="center">-0.0704</entry>
+    <entry align="center">0.9296</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2019</entry>
+    <entry align="center">0.1726</entry>
+    <entry align="center">1.1726</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2020</entry>
+    <entry align="center">-0.0514</entry>
+    <entry align="center">0.9486</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Sum of Returns</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">1.1112</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">2.4309</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Product of (1 + Return)</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Sum Divided by 10</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">0.1111</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">1.0929</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Raise Product to 1/10</emphasis></entry>
+    </row>
+    <row>
+    <entry namest="" namend=""><emphasis effect="bold">Arithmetic Average</emphasis></entry>
+    <entry namest="" namend=""><emphasis effect="bold">11.11%</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">0.0929</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Subtract 1</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">9.29%</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Geometric Average</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para>The arithmetic average return for CVS was 11.11&#37;, and the geometric average return was 9.29&#37;.</para>
+    </solution>
+    </exercise>
+    </note>
+    <para>Both the arithmetic average return and the geometric average return are &#8220;correct&#8221; calculations. They simply answer different questions. The geometric average tells you what you actually earned per year on average, compounded annually. It is useful for calculating how much a particular investment grows over a period of time. The arithmetic average tells you what you earned in a typical year. When we are looking at the historical description of the distribution of returns and want to predict what to expect in a particular year, the arithmetic average is the relevant calculation.</para>
+    </section>
+    </section>
+    <section>
+    <title>Measuring Risk</title>
+    <para>Although the arithmetic average return for <term class="no-emphasis">DAL</term> for 2011&#8211;2020 was 22.4&#37;, there is not a year in which the return was exactly 22.4&#37;. In fact, in some years, the return was much higher than the average, such as in 2013, when it was 132.61&#37;. In other years, the return was negative, such as 2011, when it was -35.79&#37;. Looking at the yearly returns in Table 15.2, the return for DAL varies widely from year to year. In finance, this volatility of returns is considered risk.</para>
+    <section>
+    <title>Volatility of Returns</title>
+    <para>The most commonly used measure of volatility of returns in finance is the standard deviation of the returns. The standard deviation of returns for DAL for the sample period 2011&#8211;2020 is 51.9&#37;. Remember that if the normal distribution (a bell-shaped curve) describes returns, then 68&#37; (or about two-thirds) of the time, the return in a particular year will be within one standard deviation above and one standard deviation below the arithmetic average return. Given DAL&#8217;s average return of 22.4&#37;, the actual yearly return will be somewhere between -29.5&#37; and 74.29&#37; in two out of three years. A very high return of greater than 74.29&#37; would occur 16&#37; of the time; a very large loss of more than 29.5&#37; would also occur 16&#37; of the time.</para>
+    <para>As you can see, there is a wide range of what can be considered a &#8220;typical&#8221; year for DAL. Although we can calculate an average return, the return in any particular year is likely to vary from that average. The larger the standard deviation, the greater this range of returns is. Thus, a larger standard deviation indicates a greater volatility of returns and, hence, more risk.</para>
+    <note class="think-through">
+    <title>Calculating the Standard Deviation of Returns</title>
+    <exercise class="unnumbered">
+    <problem>
+    <para>You calculated the arithmetic average return for <term class="no-emphasis">CVS</term> to be 11.11&#37; for the 10-year period of 2011&#8211;2020. Calculate the standard deviation of returns for CVS for the same period (see Table 15.5). What does this tell you about what an investor in CVS experienced in a typical year during that decade?</para>
+    </problem>
+    <solution>
+    <table summary=" " class="timeline-table">
+    <title>Standard Deviation of CVS Returns</title>
+    <tgroup cols="5">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <thead>
+    <row>
+    <entry align="center"><emphasis effect="bold">Year</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Return</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Return &ndash; Mean</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Squared Difference</emphasis></entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">2011</entry>
+    <entry align="center">0.1894</entry>
+    <entry align="center">0.0783</entry>
+    <entry align="center">0.0061</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2012</entry>
+    <entry align="center">0.2028</entry>
+    <entry align="center">0.0917</entry>
+    <entry align="center">0.0084</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2013</entry>
+    <entry align="center">0.5038</entry>
+    <entry align="center">0.3927</entry>
+    <entry align="center">0.1542</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2014</entry>
+    <entry align="center">0.3712</entry>
+    <entry align="center">0.2601</entry>
+    <entry align="center">0.0676</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2015</entry>
+    <entry align="center">0.0290</entry>
+    <entry align="center">-0.0821</entry>
+    <entry align="center">0.0067</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2016</entry>
+    <entry align="center">-0.1783</entry>
+    <entry align="center">-0.2894</entry>
+    <entry align="center">0.0838</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2017</entry>
+    <entry align="center">-0.0575</entry>
+    <entry align="center">-0.1686</entry>
+    <entry align="center">0.0284</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2018</entry>
+    <entry align="center">-0.0704</entry>
+    <entry align="center">-0.1815</entry>
+    <entry align="center">0.0329</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2019</entry>
+    <entry align="center">0.1726</entry>
+    <entry align="center">0.0615</entry>
+    <entry align="center">0.0038</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center">2020</entry>
+    <entry align="center">-0.0514</entry>
+    <entry align="center">-0.1625</entry>
+    <entry align="center">0.0264</entry>
+    <entry align="center">&nbsp;</entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Mean</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">0.1111</emphasis></entry>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center"><emphasis effect="bold">0.4185</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Sum of Squared Differences</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center"><emphasis effect="bold">0.0465</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Sum Divided by N &ndash; 1</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center"><emphasis effect="bold">0.2156</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">Square Root</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para>The standard deviation of returns for CVS during the sample period of 2011&#8211;2020 was 21.56&#37;. With an arithmetic average return of 11.11&#37;, the return would lie between -10.45&#37; and 32.67&#37; in about two out of three years. Even though the average return is 11.11&#37;, a return in a particular year might be much higher or much lower than that average. In fact, a loss of more than 10.45&#37; would be expected about once every six years. Also, about once every six years, a return greater than 32.67&#37; would be expected.</para>
+    </solution>
+    </exercise>
+    </note>
+    </section>
+    <section>
+    <title>Firm-Specific Risk</title>
+    <para>Investors purchase a share of stock hoping that the stock will increase in value and they will receive a positive return. You can see, however, that even with well-established companies such as ExxonMobil and CVS, returns are highly volatile. Investors can never perfectly predict what the return on a stock will be, or even if it will be positive.</para>
+    <para>The yearly returns for four companies&#8212;<term class="no-emphasis">Delta Airlines</term>, <term class="no-emphasis">Southwest Airlines (LUV)</term>, <term class="no-emphasis">ExxonMobil (XOM)</term>, and <term class="no-emphasis">CVS Health Corp</term>.&#8212;are shown in Table 15.6. Each of these stocks had years in which the performance was much better or much worse than the arithmetic average. In fact, none of the stocks appear to have a typical return that occurs year after year.</para>
+    <table summary=" " class="timeline-table">
+    <title>Yearly Returns for <term class="no-emphasis">DAL</term>, <term class="no-emphasis">LUV</term>, <term class="no-emphasis">XOM</term>, and <term class="no-emphasis">CVS</term></title>
+    <tgroup cols="4">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <thead>
+    <row>
+    <entry align="center"><emphasis effect="bold">Year</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">DAL</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">LUV</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">XOM</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">CVS</emphasis></entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">2011</entry>
+    <entry align="center">-35.79%</entry>
+    <entry align="center">-33.93%</entry>
+    <entry align="center">18.67%</entry>
+    <entry align="center">18.94%</entry>
+    </row>
+    <row>
+    <entry align="center">2012</entry>
+    <entry align="center">46.72%</entry>
+    <entry align="center">20.03%</entry>
+    <entry align="center">4.70%</entry>
+    <entry align="center">20.28%</entry>
+    </row>
+    <row>
+    <entry align="center">2013</entry>
+    <entry align="center">132.61%</entry>
+    <entry align="center">85.38%</entry>
+    <entry align="center">20.12%</entry>
+    <entry align="center">50.38%</entry>
+    </row>
+    <row>
+    <entry align="center">2014</entry>
+    <entry align="center">80.53%</entry>
+    <entry align="center">126.47%</entry>
+    <entry align="center">-6.06%</entry>
+    <entry align="center">37.12%</entry>
+    </row>
+    <row>
+    <entry align="center">2015</entry>
+    <entry align="center">4.05%</entry>
+    <entry align="center">2.43%</entry>
+    <entry align="center">-12.79%</entry>
+    <entry align="center">2.90%</entry>
+    </row>
+    <row>
+    <entry align="center">2016</entry>
+    <entry align="center">-1.35%</entry>
+    <entry align="center">16.72%</entry>
+    <entry align="center">19.88%</entry>
+    <entry align="center">-17.83%</entry>
+    </row>
+    <row>
+    <entry align="center">2017</entry>
+    <entry align="center">16.23%</entry>
+    <entry align="center">32.41%</entry>
+    <entry align="center">-3.81%</entry>
+    <entry align="center">-5.75%</entry>
+    </row>
+    <row>
+    <entry align="center">2018</entry>
+    <entry align="center">-8.66%</entry>
+    <entry align="center">-28.28%</entry>
+    <entry align="center">-15.09%</entry>
+    <entry align="center">-7.04%</entry>
+    </row>
+    <row>
+    <entry align="center">2019</entry>
+    <entry align="center">20.38%</entry>
+    <entry align="center">17.69%</entry>
+    <entry align="center">7.23%</entry>
+    <entry align="center">17.26%</entry>
+    </row>
+    <row>
+    <entry align="center">2020</entry>
+    <entry align="center">-30.77%</entry>
+    <entry align="center">-13.04%</entry>
+    <entry align="center">-36.21%</entry>
+    <entry align="center">-5.14%</entry>
+    </row>
+    <row>
+    <entry align="center">Average</entry>
+    <entry align="center">22.40%</entry>
+    <entry align="center">22.59%</entry>
+    <entry align="center">-0.34%</entry>
+    <entry align="center">11.11%</entry>
+    </row>
+    <row>
+    <entry align="center">Std Dev</entry>
+    <entry align="center">51.90%</entry>
+    <entry align="center">49.84%</entry>
+    <entry align="center">18.18%</entry>
+    <entry align="center">21.56%</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para>Figure 15.2 contains a graph of the returns for each of these four stocks by year. In this graph, it is easy to see that DAL and LUV both have more volatility, or returns that vary more from year to year, than do XOM or CVS. This higher volatility leads to DAL and LUV having higher standard deviations of returns than XOM or CVS.</para>
+    <figure>
+    <title>Yearly Returns for DAL, LUV, XOM, and CVS</title>
+    <media alt="A bar graph that shows Yearly Returns for DAL, LUV, XOM, and CVS. The graph shows returns from 2011 through 2020. The graph shows that DAL and LUV both have more volatility or returns that vary from year to year than do XOM or CVS. DAL and LUV both have negative returns in 2011, high returns in 2012 and 2013. The returns for XOM and CVS are consistently between approximately 20&#37; and 40&#37; during this time period. The returns for all companies from 2015 through 2019 range from negative 10&#37; to just over 20&#37;. All companies show negative returns in 2020."><image mime-type="image/png" src="../../media/FINAN_Figure_15_01_002.png"/></media>
+    <caption>(source: Data from Yahoo! Finance)</caption>
+    </figure>
+    <para>Standard deviation is considered a measure of the risk of owning a stock. The larger the standard deviation of a stock&#8217;s annual returns, the further from the average that stock&#8217;s return is likely to be in any given year. In other words, the return for the stock is highly unpredictable. Although the return for CVS varies from year to year, it is not subject to the wide swings of the returns for DAL or LUV.</para>
+    <para>Why are stock returns so volatile? The value of the stock of a company changes as the expectations of the future revenues and expenses of the company change. These expectations may change due to a number of events and new information. Good news about a company will tend to result in an increase in the stock price. For example, DAL announcing that it will be opening new routes and flying to cities it has not previously serviced suggests that DAL will have more customers and more revenue in future years. Or if CVS announces that it has negotiated lower rent for many of its locations, investors will expect the expenses of the company to fall, leading to more profits. Those types of announcements will often be associated with a higher stock price. Conversely, if the pilots and flight attendants for DAL negotiate higher salaries, the expenses for DAL will increase, putting downward pressure on profits and the stock price.</para>
+    <note class="link-to-learning">
+    <title><term class="no-emphasis">Peloton</term> and Risk</title>
+    <para>An example of how news can impact the price of a stock occurred on May 5, 2021, when Peloton recalled all of its Tread&#43; and Tread products after the tragic death of a child and 70 injuries associated with use of its products.<footnote>Trefis Team and Great Speculations. &#8220;Is Peloton&#8217;s Tread&#43; Recall an Opportunity to Buy the Stock?&#8221; Forbes, May 7, 2021. https://www.forbes.com/sites/greatspeculations/2021/05/07/is-pelotons-tread-recall-an-opportunity-to-buy-the-stock/</footnote> The previous day, Peloton stock traded for &#36;96.70 per share. The stock price dropped approximately 15&#37; when the recall was announced. The closing price for a share of Peloton on May 5 was &#36;82.62.<footnote>Tomi Kilgore. &#8220;Peloton Stock Sinks to 8-Month Low after 125,000 Treadmills Recalled for &#8216;Risk of Injury or Death.&#8217;&#8221; MarketWatch. May 6, 2021. https://www.marketwatch.com/story/peloton-stock-sinks-toward-9-month-low-after-125-000-treadmills-recalled-for-risk-of-injury-or-death-11620233715</footnote> You can read <link url="https://openstax.org/r/the_companys_recall">the company&#8217;s statement about this recall</link> online.</para>
+    </note>
+    </section>
+    </section>
+    <section class="multiple-choice">
+    <title/>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec1_MCQ1"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec1_MCQ2"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec1_MCQ3"/></para></problem></exercise>
+    </section>
+    <section class="problem-set">
+    <title/>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec1_PRQ1"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec1_PRQ2"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec1_PRQ3"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec1_PRQ4"/></para></problem></exercise>
+    </section>
+    <section class="video-activity">
+    <title/>
+    <section>
+    <title>John Bogle and the Buy-and-Hold Strategy</title>
+    <media alt="cash-profit">
+    <iframe width="660" height="371.4" src="https://openstax.org/r/double_your_money"/></media>
+    <p>In this video, Jim Cramer explains how compounding can help investors build and preserve wealth. He provides suggestions for how young people can use the stock market to build financial independence.</p>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec1_VA2Q1"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec1_VA2Q2"/></para></problem></exercise>
+    </section>
+    </section>
+    </content>
+    <glossary>
+    <definition><term>arithmetic average return</term> <meaning>the sum of an asset&#8217;s annual returns over a number of years divided by the number of years</meaning></definition>
+    <definition><term>capital gain yield</term> <meaning>the difference between the price a stock is sold for and the price that was originally paid for it divided by the price originally paid</meaning></definition>
+    <definition><term>dividend yield</term> <meaning>the total dividends received by the owner of a share of stock divided by the price originally paid for the stock</meaning></definition>
+    <definition><term>effective annual rate (EAR)</term> <meaning>returns expressed on an annualized or yearly basis; allows for the comparison of various investments</meaning></definition>
+    <definition><term>geometric average return</term> <meaning>the compound annual return derived from the effective annual rate and time value of money formulas</meaning></definition>
+    <definition><term>holding period percentage return</term> <meaning>the gain received from holding a stock, calculated by adding the amount received when the stock is sold to any dividends earned while holding the stock, subtracting the price originally paid for the stock, then dividing the difference by the price originally paid</meaning></definition>
+    <definition><term>realized return</term> <meaning>the total return of an investment that occurs over a particular time period</meaning></definition>
+    </glossary>
 </document>

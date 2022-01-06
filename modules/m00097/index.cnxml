@@ -6,8 +6,106 @@
     <md:uuid>8565bc18-a887-4797-a49b-7861f5d3862c</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Calculate the average return and standard deviation for a stock.</item>
+    <item>Calculate the average return and standard deviation for a portfolio.</item>
+    <item>Calculate the beta of a stock.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Average Return and Standard Deviation for a Single Stock</title>
+    <para id="para-00002">Excel can be used to calculate the average returns and the standard deviation of returns for both a single stock and a portfolio of stocks. It can also be used to calculate the beta for a stock. Historic stock price data for stocks you are interested in analyzing can easily be downloaded from sites such as Yahoo! Finance into Excel. The examples in this section use monthly stock data from December 2017 to December 2020 from Yahoo! Finance.</para>
+    <para id="para-00003">Monthly price data for <term class="no-emphasis" id="term-00001">(AMZN (Amazon)</term> is shown in column B of Figure 15.4. To begin, monthly returns must be calculated from the price data using the formula</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Monthly</mi><mo> </mo><mi>Return</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>Ending</mi><mo> </mo><mi>Price</mi><mo> </mo><mo>-</mo><mo> </mo><mi>Beginning</mi><mo> </mo><mi>Price</mi></mrow><mrow><mi>Beginning</mi><mo> </mo><mi>Price</mi></mrow></mfrac></math></equation>
+    <para id="para-00004" xmlns="http://cnx.rice.edu/cnxml">The ending prices shown in Figure 15.4 are the last price the stock traded for each month. Each month, the return is calculated under the assumption that you purchased the stock at the last trading price of the previous month and sold at the last price of the current month. Thus, the return for January 2018 is calculated as</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Monthly</mi><mo> </mo><mi>Return</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>Jan</mi><mo> </mo><mn>2018</mn><mo> </mo><mi>Price</mi><mo> </mo><mo>-</mo><mo> </mo><mi>Dec</mi><mo> </mo><mn>2017</mn><mo> </mo><mi>Price</mi></mrow><mrow><mi>D</mi><mi>e</mi><mi>c</mi><mo> </mo><mn>2017</mn><mo> </mo><mi>P</mi><mi>r</mi><mi>i</mi><mi>c</mi><mi>e</mi></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>450</mn><mo>.</mo><mn>89</mn><mo> </mo><mo>-</mo><mo> </mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>169</mn><mo>.</mo><mn>47</mn></mrow><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>169</mn><mo>.</mo><mn>47</mn></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>2406</mn><mo> </mo><mo>=</mo><mo> </mo><mn>24</mn><mo>.</mo><mn>06</mn><mo>%</mo></math></equation>
+    <para id="para-00005" xmlns="http://cnx.rice.edu/cnxml">This is accomplished in Excel by placing the formula =(B3-B2)/B2 in cell C3. This formula can then be copied down the spreadsheet through row C38. Now that each monthly return is in column C, you can calculate the average of the monthly returns in cell C39 and the standard deviation of returns in cell C40.</para>
+    <figure id="fig-00001">
+    <title>Calculating the Average Return and the Standard Deviation of Returns for AMZN</title>
+    <media alt="An Excel screenshot the ending price and monthly return of Amazon’s stock price for 13 months. The average monthly return is 0.0330. The standard deviation is 0.0933"><image mime-type="image/png" src="../../media/FINAN_Figure_15_05_004.png"/></media>
+    <caption>(data source: Yahoo! Finance)</caption>
+    </figure>
+    <para id="para-00006">Over the three-year period, the average monthly return for AMZN was 3.3%. However, this return was highly volatile, with a standard deviation of 9.33%. Remember that this means that approximately two-thirds of the time, the monthly return from AMZN was between -6.03% and 12.63%.</para>
+    <note class="excel-spreadsheet" id="note-00001">
+    <para id="para-00007">Download the <link url="https://openstax.org/r/google_spred_sheet">spreadsheet file</link> containing key Chapter 15 Excel exhibits.</para>
+    </note>
+    </section>
+    <section id="sect-00003">
+    <title>Average Return and Standard Deviation for a Portfolio</title>
+    <para id="para-00008">The Excel screenshot in Figure 15.5 shows the return and standard deviation calculation for a portfolio. This sample four-stock portfolio contains AMZN, CVS, <term class="no-emphasis" id="term-00002">AAPL (Apple)</term>, and <term class="no-emphasis" id="term-00003">NFLX (Netflix)</term>. This portfolio is constructed as an equally weighted portfolio; because there are four stocks in this portfolio, each has a weight of 25%.</para>
+    <figure id="fig-00002">
+    <title>Calculation of the Average Return and Standard Deviation for a Portfolio</title>
+    <media alt="The Excel screenshot shows the Average Return and Standard Deviation for a Portfolio containing four-stocks: Amazon, CVS, Apple, and Netflix. The monthly average return and standard deviation is calculated for the individual stocks, as well as the entire portfolio. It shows that the portfolio has a Monthly Average Return of 0.0269 and a Standard Deviation of 0.0710."><image mime-type="image/png" src="../../media/FINAN_Figure_15_05_005.png"/></media>
+    <caption>(source: Data from Yahoo! Finance)</caption>
+    </figure>
+    <para id="para-00009">The monthly returns for each stock are recorded in their respective columns. The portfolio return for each month is calculated as the weighted average of the four monthly individual stock returns. The formula for the portfolio return is</para>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Portfolio</mi><mo> </mo><mi>Return</mi><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>25</mn><mo> </mo><mo>×</mo><mo> </mo><msub><mi>R</mi><mi>AMZN</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>25</mn><mo> </mo><mo>×</mo><mo> </mo><msub><mi>R</mi><mi>CVS</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>25</mn><mo> </mo><mo>×</mo><mo> </mo><msub><mi>R</mi><mi>AAPL</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>25</mn><mo> </mo><mo>×</mo><mo> </mo><msub><mi>R</mi><mi>NFLX</mi></msub></math></equation>
+    <para id="para-00010" xmlns="http://cnx.rice.edu/cnxml">The formula =$B$1*B3+$C$1*C3+$D$1*D3+$E$1*E3 is placed in cell F3. The formula is then copied down column F to calculate the portfolio return for each month. After the monthly portfolio return is calculated, then the average monthly portfolio return is calculated in cell F39. The average monthly portfolio return is 2.69%.</para>
+    <para id="para-00011">Because this is an equally weighted portfolio, with each of the four stocks impacting the portfolio return in the same way, the average monthly portfolio return of 2.69% is the same as the sum of the average monthly returns of the four stocks divided by four, or <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0330</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>0021</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>0380</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>0347</mn></mrow><mn>4</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>0269</mn><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>69</mn><mi>%</mi></math>.</para>
+    <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">The standard deviation of the monthly portfolio returns is calculated in cell F40. This four-stock portfolio has a standard deviation of 7.10%. Unlike the average return, this standard deviation is not equal to the average of the standard deviations of returns of the four stocks. In fact, the standard deviation for the portfolio is less than the standard deviation for any one of the four stocks. Remember that this occurs because the stock returns are not perfectly positively correlated. The high return of one of the stocks in one month is dampened by a lower return in another stock during the same month. Likewise, a negative return in one stock during a month might be offset by a positive return in one of the other three stocks during the same month. This is the risk reduction benefit of holding a portfolio of stocks.</para>
+    </section>
+    <section id="sect-00004">
+    <title>Calculating Beta</title>
+    <para id="para-00013">The standard deviation of a stock’s returns indicates the stock’s volatility. Remember that the volatility is caused by both firm-specific and systematic risk. Investors will not be rewarded for firm-specific risk because they can diversify away from it. Investors are, however, rewarded for systematic risk. To determine how much of a firm’s risk is due to systematic risk, you can use Excel to calculate the stock’s beta.</para>
+    <para id="para-00014">To calculate a stock’s beta, you need the monthly return for the market in addition to the monthly market return for the stock. In column B in Figure 15.6, the monthly return for <term class="no-emphasis" id="term-00004">SPY</term>, the SPDR S&amp;P 500 Trust, is recorded. SPY is an ETF that was created to mimic the performance of the S&amp;P 500 index by <term class="no-emphasis" id="term-00005">State Street Global Advisors</term> and is often used as a proxy for the overall market performance. The monthly returns for AMZN are visible in column C. It is important that these returns be lined up so that the returns for a particular month for both securities appear in the same row number. Also, you want to place the returns for SPY in the column to the left of the returns for AMZN so that when you create your graph, SPY will automatically appear on the horizontal axis.</para>
+    <note class="link-to-learning" id="note-00002">
+    <title>State Street Global Advisors</title>
+    <para id="para-00015">You can learn more about State Street Global Advisors and its creation of the first ETF by visiting the company’s <link url="https://openstax.org/r/ssga_institutional_our-history">history page at its website (ssga.com)</link>.</para>
+    </note>
+    <para id="para-00016">You will use a scatter plot to create a graph. In Excel, go to the Insert tab, and then from the Chart menu, choose the first scatter plot option.</para>
+    <figure id="fig-00003">
+    <title>Excel Format for Calculating Beta</title>
+    <media alt="An Excel screenshot shows the how to create a scatterplot using excel. The data for the monthly return for two stocks, SPY and AMZN are placed in columns B and C, respectively. These columns are selected. On the insert tab, the scatterplot icon is selected, revealing the different types of scatterplots available for this data."><image mime-type="image/png" src="../../media/FINAN_Figure_15_05_006.png"/></media>
+    <caption>(data source: Yahoo! Finance)</caption>
+    </figure>
+    <para id="para-00017">Selecting the scatter plot option will result in a chart being inserted that looks like the chart in Figure 15.7. Each dot represents one month’s combination of returns, with the return for SPY measured on the horizontal axis and the return for AMZN measured on the vertical axis. Consider, for example, the dot in the furthest upper right-hand section of the figure. This dot is the plot of returns for the month of April 2020, when the return for SPY was 13.36% (measured on the horizontal axis) and the return for AMZN was 26.89% (measured on the vertical axis).</para>
+    <para id="para-00018">Hover your mouse over one of the dots, and right-click the dot to pull up a chart formatting menu. This menu will allow you to add labels to your axis and polish your chart in additional ways if you would like. Select the option Add Trendline.</para>
+    <figure id="fig-00004">
+    <title>Creating a Scatter Plot in Excel</title>
+    <media alt="A screenshot of scatter plot created in excel. The scatterplot is over the data that was entered into the Excel sheet."><image mime-type="image/png" src="../../media/FINAN_Figure_15_05_007.png"/></media>
+    <caption>(data source: Yahoo! Finance)</caption>
+    </figure>
+    <para id="para-00019">When the trendline is inserted, a formatting box will appear on the right of your screen (see Figure 15.8). If it is not already selected, choose the Linear trendline option. Scroll down and select the “Display Equation on chart” option. You will see the equation <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>y</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>1477</mn><mi>x</mi><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>0186</mn></math> appear on the screen. This is the equation for the best-fit line that shows how AMZN moves when the market moves. The slope of this line, 1.1477, is the beta for AMZN. This tells you that for every 10% move the overall market makes, AMZN tends to move 11.477%. Because AMZN tends to move a little more than the broader market, it has a little more systematic risk than the average stock in the market.</para>
+    <figure id="fig-00005" xmlns="http://cnx.rice.edu/cnxml">
+    <title>Inserting a Trendline to Determine Beta</title>
+    <media alt="A screenshot of an Excel sheet that shows the formatting box used to format a trendline for a scatter plot. Different trendline options are available to select."><image mime-type="image/png" src="../../media/FINAN_Figure_15_05_008.png"/></media>
+    <caption>(data source: Yahoo! Finance)</caption>
+    </figure>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title>15.1 Risk and Return to an Individual Asset</title>
+    <para id="para-00020">Investors are interested in both the return they can expect to receive when making an investment and the risk associated with that investment. In finance, risk is considered the volatility of the return from time period to time period. Historical returns are measured by the arithmetic average, and the risk is measured by the standard deviation of returns.</para>
+    </section>
+    <section class="section-summary" id="sect-00006">
+    <title>15.2 Risk and Return to Multiple Assets</title>
+    <para id="para-00021">As investors hold multiple assets in a portfolio, they are able to eliminate firm-specific risk. However, systematic or market risk remains, even if an investor holds the market portfolio. The return to a portfolio is measured by the arithmetic average, and the risk is measured by the standard deviation of the returns of the portfolio. The risk of the portfolio will be lower than the weighted average of the risk of the individual securities because the returns of the securities are not perfectly correlated. A low or negative return for one stock in a period can be offset by a high return for another stock in the same period.</para>
+    </section>
+    <section class="section-summary" id="sect-00007">
+    <title>15.3 The Capital Asset Pricing Model (CAPM)</title>
+    <para id="para-00022">The capital asset pricing model (CAPM) relates the expected return of an asset to the systematic risk of that asset. Investors will be rewarded for taking on systematic risk. They will not be rewarded for taking on firm-specific risk, however, because that risk can be diversified away.</para>
+    </section>
+    <section class="section-summary" id="sect-00008">
+    <title>15.4 Applications in Performance Measurement</title>
+    <para id="para-00023">Because investors are not simply interested in returns but are also interested in risk, the success of a portfolio cannot be measured simply by considering the portfolio’s return. In order to compare investment portfolios, risk and return must both be taken into consideration. The Sharpe ratio and the Treynor ratio are two measures that provide a reward-to-risk measure of a portfolio. Jensen’s alpha provides a measure of the abnormal return of a portfolio, considering the portfolio’s risk level.</para>
+    </section>
+    <section class="section-summary" id="sect-00009">
+    <title>15.5 Using Excel to Make Investment Decisions</title>
+    <para id="para-00024">Using Excel to manipulate publicly available stock data makes calculating the average return of a stock and the standard deviation of returns easy. The average return for a portfolio and the standard deviation of the portfolio returns can also be calculated easily. By comparing the returns of a stock with the returns of the overall market using Excel charting tools, the beta for a stock, which measures systematic risk, can be determined.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00010">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00025"><link class="os-embed" url="#exercise/FI_Ch15_Sec5_MCQ11"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00011">
+    <title/>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch15_Sec5_PRQ7"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch15_Sec5_PRQ8"/></para></problem></exercise>
+    </section>
+    <section class="cfa-institute" id="sect-00012">
+    <para id="para-00028">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfainstitute_documents_study-session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+    </section>
+    </content>    
 </document>

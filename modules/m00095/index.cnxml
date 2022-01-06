@@ -6,8 +6,90 @@
     <md:uuid>93dc309c-3781-41d2-b9db-e8e768b2dce4</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Define risk premium.</item>
+    <item>Explain the concept of beta.</item>
+    <item>Compute the required return of a security using the CAPM.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Risk-Free Rate</title>
+    <para id="para-00002">The <term id="term-00001">capital asset pricing model (CAPM)</term> is a financial theory based on the idea that investors who are willing to hold stocks that have higher systematic risk should be rewarded more for taking on this market risk. The CAPM focuses on systematic risk, rather than a stock’s individual risk, because firm-specific risk can be eliminated through diversification.</para>
+    <para id="para-00003">Suppose that your grandparents have given you a gift of $20,000. After you graduate from college, you plan to work for a few years and then apply to law school. You want to use the $20,000 your grandparents gave you to pay for part of your law school tuition. It will be several years before you are ready to spend the money, and you want to keep the money safe. At the same time, you would like to invest the money and have it grow until you are ready to start law school.</para>
+    <para id="para-00004">Although you would like to earn a return on the money so that you have more than $20,000 by the time you start law school, your primary objective is to keep the money safe. You are looking for a risk-free investment. Lending money to the US government is considered the lowest-risk investment that you can make. You can purchase a US Treasury security. The chances of the US government not paying its debts is close to zero. Although, in theory, no investment is 100% risk-free, investing in US government securities is generally considered a risk-free investment because the risk is so miniscule.</para>
+    <para id="para-00005">The rate that you can earn by purchasing US Treasury securities is a proxy for the <term class="no-emphasis" id="term-00002">risk-free rate</term>. It is used as an investing benchmark. The average rate of return for the three-month US Treasury security from 1928 to 2020 is 3.36%.<footnote id="foot-00001">“Historical Return on Stocks, Bonds and Bills: 1928–2020.” Damodaran Online. Stern School of Business, New York University, January 2021. http://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html</footnote> You can see that you will not become immensely wealthy by investing in US Treasury bills. Another characteristic of US Treasury securities, however, is that their volatility tends to be much lower than that of stocks. In fact, the standard deviation of returns for the US Treasury bills is 3.0%. Unlike the returns for stocks, the return on US Treasury bills has never been negative. The lowest annual return was 0.03%, which occurred in 2014.<footnote id="foot-00002">Ibid.</footnote></para>
+    <note class="link-to-learning" id="note-00001">
+    <title><term class="no-emphasis" id="term-00003">US Treasury Securities</term></title>
+    <para id="para-00006">Visit the website of the <term class="no-emphasis" id="term-00004"><link url="https://openstax.org/r/home.treasury">US Department of the Treasury</link></term> to learn more about US Treasury securities. You will find current interest rates for both short-term securities (US Treasury bills) and long-term securities (US Treasury bonds).</para>
+    </note>
+    </section>
+    <section id="sect-00003">
+    <title>Risk Premium</title>
+    <para id="para-00007">You know that if you use your $20,000 to invest in stock rather than in US Treasury bills, the outcome of the investment will be uncertain. Your investments may do well, but there is also a risk of losing money. You will only be willing to take on this risk if you are rewarded for doing so. In other words, you will only be willing to take the risk of investing in stocks if you think that doing so will make you more than you would make investing in US Treasury securities.</para>
+    <para id="para-00008">From 1928 to 2020, the average return for the S&amp;P 500 stock index has been 11.64%, which is much higher than the 3.36% average return for US Treasury bills.<footnote id="foot-00003">Ibid.</footnote> Stock returns, with a standard deviation of 19.49%, however, have also been much more volatile. In fact, there were 25 years in which the return for the S&amp;P 500 index was negative.</para>
+    <para id="para-00009">You may not be willing to take the risk of losing some of the money your grandparents gave you because you have been setting it aside for law school. If that’s the case, you will want to invest in US Treasury securities. You may have money that you are saving for other long-term goals, such as retirement, with which you are willing to take some risk. The extra return that you will earn for taking on risk is known as the risk premium. The risk premium can be thought of as your reward for being willing to bear risk.</para>
+    <para id="para-00010">The risk premium is calculated as the difference between the return you receive for taking on risk and what you would have returned if you did not take on risk. Using the average return of the S&amp;P 500 (to measure what investors who bear the risk earn) and the US Treasury bill rate (to measure what investors who do not bear risk earn), the risk premium is calculated as</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Risk</mi><mo> </mo><mi>Premium</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi mathvariant="normal">S</mi><mo>&amp;</mo><mi mathvariant="normal">P</mi><mo> </mo><mn>500</mn><mo> </mo><mi>Avg</mi><mo> </mo><mi>Return</mi><mo> </mo><mo>-</mo><mo> </mo><mtext>US T-Bill Avg Return</mtext></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mn>11</mn><mo>.</mo><mn>64</mn><mi>%</mi><mo> </mo><mo>-</mo><mo> </mo><mn>3</mn><mo>.</mo><mn>36</mn><mi>%</mi><mo> </mo><mo>=</mo><mo> </mo><mn>8</mn><mo>.</mo><mn>28</mn><mi>%</mi></mtd></mtr></mtable></math></equation>
+    </section>
+    <section id="sect-00004" xmlns="http://cnx.rice.edu/cnxml">
+    <title>Beta</title>
+    <para id="para-00011">The risk premium represents how much an investor who takes on the market portfolio is rewarded for risk. Investors who purchase one stock—DAL, for example—experience volatility, which is measured by the standard deviation of that stock’s returns. Remember that some of that volatility, the volatility caused by firm-specific risk, can be diversified away. Because investors can eliminate firm-specific risk through diversification, they will not be rewarded for that risk. Investors are rewarded for the amount of systematic risk they incur.</para>
+    <section id="sect-00005">
+    <title>Interpreting Beta</title>
+    <para id="para-00012">The relevant risk for investors is the systematic risk they incur. The systematic risk of a particular stock is measured by how much the stock moves with the market. The measure of how much a stock moves with the market is known as its <term id="term-00005">beta</term>. A stock that tends to move in sync with the market will have a beta of 1. For these stocks, if the market goes up 10%, the stock generally also goes up 10%; if the market goes down 5%, stocks with a beta of 1 also tend to go down 5%.</para>
+    <para id="para-00013">If a company has a beta greater than 1, then the stock tends to have a more pronounced move in the same direction as a market move. For example, if a stock has a beta of 2, the stock will tend to increase by 20% when the market goes up by 10%. If the market falls by 5%, that same stock will tend to fall by twice as much, or 10%. Thus, stocks with a beta greater than 1 experience greater swings than the overall market and are considered to be riskier than the average stock.</para>
+    <para id="para-00014">On the other hand, stocks with a beta less than 1 experience smaller swings than the overall market. A beta of 0.5, for example, means that a stock tends to experience moves that are only 50% of overall market moves. So, if the market increases by 10%, a stock with a beta of 0.5 would tend to rise by only 5%. A market decline of 5% would tend to be associated with a 2.5% decrease in the stock.</para>
+    </section>
+    <section id="sect-00006">
+    <title>Calculating Betas</title>
+    <para id="para-00015">The calculation of beta for DAL is demonstrated in Figure 15.3. Monthly returns for DAL and for the S&amp;P 500 are plotted in the diagram. Each dot in the scatter plot corresponds to a month from 2018 to 2020; for example, the dot that lies furthest in the upper right-hand corner represents November 2020. The return for the S&amp;P 500 was 10.88% that month; this return is plotted along the horizontal axis. The return for DAL during November 2020 was 31.36%; this return is plotted along the vertical axis.</para>
+    <para id="para-00016">You can see that generally, when the overall stock market as measured by the S&amp;P 500 is positive, the return for DAL is also positive. Likewise, in months in which the return for the S&amp;P 500 is negative, the return for DAL is also usually negative. Drawing a line that best fits the data, also known as a regression line, summarizes the relationship between the returns for DAL and the S&amp;P 500. The slope of this line, 1.39, is DAL’s beta. Beta measures the amount of systematic risk that DAL has.</para>
+    <figure id="fig-00001">
+    <title>Calculation of Beta for DAL</title>
+    <media alt="A scatter plot shows monthly returns for DAL and the S&amp;P 500. A regression line shows the correlation between the DAL returns and the S&amp;P 500 returns. "><image mime-type="image/png" src="../../media/FINAN_Figure_15_03_003.png"/></media>
+    <caption>(source: Data from Yahoo! Finance)</caption>
+    </figure>
+    </section>
+    </section>
+    <section id="sect-00007">
+    <title>CAPM Equation</title>
+    <para id="para-00017">Because DAL’s beta of 1.39 is greater than 1, DAL is riskier than the average stock in the market. Finance theory suggests that investors who purchase DAL will expect a higher rate of return to compensate them for this risk. DAL has 139% of the average stock’s systematic risk; therefore, investors in the stock should receive 139% of the <term class="no-emphasis" id="term-00006">market risk premium</term>.</para>
+    <para id="para-00018">The capital asset pricing model (CAPM) equation is</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>R</mi><mi>e</mi></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><msub><mi>R</mi><mi mathvariant="normal">f</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mi>Beta</mi><mo> </mo><mo>×</mo><mo> </mo><mi>Market</mi><mo> </mo><mi>Risk</mi><mo> </mo><mi>Premium</mi></mtd></mtr><mtr><mtd><msub><mi>R</mi><mi>e</mi></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><msub><mi>R</mi><mi mathvariant="normal">f</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mi>Beta</mi><mo> </mo><mo>×</mo><mo> </mo><mo>(</mo><msub><mi>R</mi><mi mathvariant="normal">m</mi></msub><mo> </mo><mo>-</mo><mo> </mo><msub><mi>R</mi><mi mathvariant="normal">f</mi></msub><mo>)</mo></mtd></mtr></mtable></math></equation>
+    <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">where <emphasis effect="italics">R<sub>e</sub></emphasis> is the expected return of the asset, <emphasis effect="italics">R<sub>f</sub></emphasis> is the risk-free rate of return, and <emphasis effect="italics">R<sub>m</sub></emphasis> is the expected return of the market. Given the average S&amp;P 500 return of 11.64% and the average US Treasury bill return of 3.36%, the expected return of DAL would be calculated as</para>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>R</mi><mi>e</mi></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><msub><mi>R</mi><mrow><mi mathvariant="normal">U</mi><mi mathvariant="normal">S</mi><mo> </mo><mi mathvariant="normal">T</mi><mo>-</mo><mi mathvariant="normal">b</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">l</mi><mi mathvariant="normal">l</mi></mrow></msub><mo> </mo><mo>+</mo><mo> </mo><mi>B</mi><mi>e</mi><mi>t</mi><mi>a</mi><mo> </mo><mo>×</mo><mfenced><mrow><msub><mi>R</mi><mrow><mi mathvariant="normal">S</mi><mo>&amp;</mo><mi mathvariant="normal">P</mi></mrow></msub><mo> </mo><mo>-</mo><mo> </mo><msub><mi>R</mi><mrow><mi>US</mi><mo> </mo><mi mathvariant="normal">T</mi><mo>-</mo><mi>bill</mi></mrow></msub></mrow></mfenced></mtd></mtr><mtr><mtd><msub><mi>R</mi><mi>e</mi></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>0</mn><mo>.</mo><mn>0336</mn><mo> </mo><mo>+</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>39</mn><mo> </mo><mo>×</mo><mo> </mo><mfenced><mrow><mn>0</mn><mo>.</mo><mn>1164</mn><mo> </mo><mo>-</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>0336</mn></mrow></mfenced><mo> </mo><mo>=</mo><mo> </mo><mn>14</mn><mo>.</mo><mn>87</mn><mi>%</mi></mtd></mtr></mtable></math></equation>
+    <note class="link-to-learning" id="note-00002" xmlns="http://cnx.rice.edu/cnxml">
+    <title>Calculating Beta</title>
+    <para id="para-00020">Many providers of stock data and investment information will list a company’s beta. Two internet sources that can be used to find a company’s beta are <link url="https://openstax.org/r/finance.yahoo">Yahoo! Finance</link> and <link url="https://openstax.org/r/marketwatch_search">MarketWatch</link>. Various sources may not provide the exact same value for beta for a company. For example, in early February 2021, <term class="no-emphasis" id="term-00007">Yahoo! Finance</term> reported that the beta for DAL was 1.46,<footnote id="foot-00004">“Delta Air Lines, Inc. (DAL).” Yahoo! Finance. Verizon Media, accessed February 2021. https://finance.yahoo.com/quote/DAL/</footnote> while <term class="no-emphasis" id="term-00008">MarketWatch</term> reported it as 1.29.<footnote id="foot-00005">“Delta Air Lines Inc.” MarketWatch. Accessed February 2021. https://www.marketwatch.com/investing/stock/dal</footnote> Both of these numbers are slightly different from the 1.39 calculated in the graph above.</para>
+    <para id="para-00021">There are several reasons why beta may vary slightly from source to source. One is the time frame used in the beta calculation. Data from three years were used to calculate the beta in Figure 15.3. Time frames ranging from three to five years are commonly used when calculating beta. Another reason different sources might report different betas is the frequency with which the data is collected. Monthly returns are used in Figure 15.3; some analysts will use weekly data. Finally, the S&amp;P 500 is used to measure the market return in Figure 15.3; the S&amp;P 500 is one of the most common measures of overall market returns, but alternatives exist and are used by some analysts</para>
+    </note>
+    <note class="link-to-learning" id="note-00003">
+    <title><term class="no-emphasis" id="term-00009">CAPM</term></title>
+    <para id="para-00022">Watch <link url="https://openstax.org/r/ricing Model_CAPM">this video</link> for further information about the CAPM.</para>
+    </note>
+    </section>
+    <section class="multiple-choice" id="sect-00008">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch15_Sec3_MCQ7"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00024"><link class="os-embed" url="#exercise/FI_Ch15_Sec3_MCQ8"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00009">
+    <title/>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00025"><link class="os-embed" url="#exercise/FI_Ch15_Sec3_RVQ1"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00010">
+    <title/>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch15_Sec3_PRQ5"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>beta</term> <meaning>a measure of how a stock moves relative to the market</meaning></definition>
+    <definition id="def-00002"><term>capital asset pricing model (CAPM)</term> <meaning>the expected return of a security, equal to the risk-free rate plus a premium for the amount of risk taken</meaning></definition>
+    <definition id="def-00003"><term>market risk premium</term> <meaning>the reward for taking on the average amount of market risk</meaning></definition>
+    <definition id="def-00004"><term>risk-free rate</term> <meaning>the reward for lending money when there is no risk of not receiving the principal and interest as promised</meaning></definition>
+    <definition id="def-00005"><term>risk premium</term> <meaning>the extra return earned by taking on risk</meaning></definition>
+    </glossary>    
 </document>

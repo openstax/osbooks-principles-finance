@@ -6,8 +6,211 @@
     <md:uuid>d3625624-4efc-4379-a4cc-8a69f7e32e1c</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
-</document>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Define internal rate of return (IRR).</item>
+    <item>Calculate internal rate of return.</item>
+    <item>List advantages and disadvantages of using the internal rate of return method.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Internal Rate of Return (IRR) Calculation</title>
+    <para id="para-00002">The <term id="term-00001">internal rate of return (IRR)</term> is the discount rate that sets the present value of the cash inflows equal to the present value of the cash outflows. In considering whether Sam’s Sporting Goods should purchase the embroidery machine, the IRR method approaches the time value of money problem from a slightly different angle. Instead of using the company’s cost of attracting funds for the discount rate and solving for NPV, as we did in the first NPV equation, we set NPV equal to zero and solve for the discount rate to find the IRR:</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>NPV</mi><mo>=</mo><mfrac><mrow><mo>$</mo><mn>2</mn><mo>,</mo><mn>000</mn></mrow><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>i</mi></mrow></mfenced><mn>1</mn></msup></mfrac><mo>+</mo><mfrac><mrow><mo>$</mo><mn>4</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>(</mo><msup><mrow><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mrow><mo>$</mo><mn>5</mn><mo>,</mo><mn>000</mn></mrow><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi></mrow></mfenced><mn>3</mn></msup></mfrac><mo>+</mo><mfrac><mrow><mo>$</mo><mn>5</mn><mo>,</mo><mn>000</mn></mrow><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi></mrow></mfenced><mn>4</mn></msup></mfrac><mo>+</mo><mfrac><mrow><mo>$</mo><mn>5</mn><mo>,</mo><mn>000</mn></mrow><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi></mrow></mfenced><mn>5</mn></msup></mfrac><mo>+</mo><mfrac><mrow><mo>$</mo><mn>5</mn><mo>,</mo><mn>000</mn></mrow><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi></mrow></mfenced><mn>6</mn></msup></mfrac><mo>-</mo><mo>$</mo><mn>16</mn><mo>,</mo><mn>000</mn><mo>=</mo><mn>0</mn></math></equation>
+    <para id="para-00003" xmlns="http://cnx.rice.edu/cnxml">The IRR is the discount rate at which the NPV profile graph crosses the horizontal axis. If the IRR is greater than the cost of capital, a project should be accepted. If the IRR is less than the cost of capital, a project should be rejected. The NPV profile graph for the embroidery machine crossed the horizontal axis at 14%. Therefore, if Sam’s Sporting Goods can attract capital for less than 14%, the IRR exceeds the cost of capital and the embroidery machine should be purchased. However, if it costs Sam’s more than 14% to attract capital, the embroidery machine should not be purchased.</para>
+    <para id="para-00004">In other words, a company wants to accept projects that have an IRR that exceed the company’s cost of attracting funds. The cash flow from these projects will be great enough to cover the cost of attracting money from investors in addition to the other costs of the project. A company should reject any project that has an IRR less than the company’s cost of attracting funds; the cash flows from such a project are not enough to compensate the investors for the use of their funds.</para>
+    <para id="para-00005">Calculating IRR without a financial calculator is an arduous, time-consuming process that requires trial and error to find the discount rate that makes NPV exactly equal zero. Your calculator uses the same type of trial-and-error iterative process, but because it uses an automated process, it can do so much more quickly than you can. A problem that might require 30 minutes of detailed mathematical calculations by hand can be completed in a matter of seconds with the assistance of a financial calculator.</para>
+    <para id="para-00006">All the information your calculator needs to calculate IRR is the value of each cash flow and the time period in which it occurs. To calculate IRR, begin by entering the cash flows for the project, just as you do for the NPV calculation (see Table 16.4). After these cash flows are entered, simply compute IRR in the final step.</para>
+    <table summary="Some cells are left blank for visual design purposes." id="table-00001">
+    <title>Calculator Steps for IRR</title>
+    <tgroup cols="5">
+    <colspec colnum="1" colname="c1" colwidth="0*"/>
+    <colspec colnum="2" colname="c2" colwidth="5*"/>
+    <colspec colnum="3" colname="c3" colwidth="3*"/>
+    <colspec colnum="4" colname="c4" colwidth="2*"/>
+    <colspec colnum="5" colname="c5" colwidth="0*"/>
+    <thead>
+    <row>
+    <entry>Step</entry>
+    <entry>Description</entry>
+    <entry>Enter</entry>
+    <entry namest="c4" nameend="c5">Display</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">1</entry>
+    <entry align="left">Select cash flow worksheet</entry>
+    <entry align="left"><span class="primary-function">CF</span></entry>
+    <entry align="left">CF0</entry>
+    <entry align="right">XXXX</entry>
+    </row>
+    <row>
+    <entry align="center">2</entry>
+    <entry align="left">Clear the cash flow worksheet</entry>
+    <entry align="left"><span class="primary-function">2ND</span> <span class="secondary-function">[CLR WORK</span>]</entry>
+    <entry align="left">CF0</entry>
+    <entry align="right">0</entry>
+    </row>
+    <row>
+    <entry align="center">3</entry>
+    <entry align="left">Enter initial cash flow</entry>
+    <entry align="left">16000 <span class="primary-function">+/-</span> <span class="primary-function">ENTER</span></entry>
+    <entry align="left">CF0 =</entry>
+    <entry align="right">-16,000.00</entry>
+    </row>
+    <row>
+    <entry align="center">4</entry>
+    <entry align="left">Enter cash flow for the first year</entry>
+    <entry align="left">↓     2000 <span class="primary-function">ENTER</span></entry>
+    <entry align="left">C01 =</entry>
+    <entry align="right">2,000.00</entry>
+    </row>
+    <row>
+    <entry align="center"> </entry>
+    <entry align="left"> </entry>
+    <entry align="left">↓</entry>
+    <entry align="left">F01 =</entry>
+    <entry align="right">1.0</entry>
+    </row>
+    <row>
+    <entry align="center">5</entry>
+    <entry align="left">Enter cash flow for the second year</entry>
+    <entry align="left">↓     4000 <span class="primary-function">ENTER</span></entry>
+    <entry align="left">C02 =</entry>
+    <entry align="right">4,000.00</entry>
+    </row>
+    <row>
+    <entry align="center"> </entry>
+    <entry align="left"> </entry>
+    <entry align="left">↓</entry>
+    <entry align="left">F02 =</entry>
+    <entry align="right">1.0</entry>
+    </row>
+    <row>
+    <entry align="center">6</entry>
+    <entry align="left">Enter cash flow for the third year</entry>
+    <entry align="left">↓     5000 <span class="primary-function">ENTER</span></entry>
+    <entry align="left">C03 =</entry>
+    <entry align="right">5,000.00</entry>
+    </row>
+    <row>
+    <entry align="center"> </entry>
+    <entry align="left"> </entry>
+    <entry align="left">↓</entry>
+    <entry align="left">F03 =</entry>
+    <entry align="right">1.0</entry>
+    </row>
+    <row>
+    <entry align="center">7</entry>
+    <entry align="left">Enter cash flow for the fourth year</entry>
+    <entry align="left">↓     5000 <span class="primary-function">ENTER</span></entry>
+    <entry align="left">C04 =</entry>
+    <entry align="right">5,000.00</entry>
+    </row>
+    <row>
+    <entry align="center"> </entry>
+    <entry align="left"> </entry>
+    <entry align="left">↓</entry>
+    <entry align="left">F04 =</entry>
+    <entry align="right">1.0</entry>
+    </row>
+    <row>
+    <entry align="center">8</entry>
+    <entry align="left">Enter cash flow for the fifth year</entry>
+    <entry align="left">↓     5000 <span class="primary-function">ENTER</span></entry>
+    <entry align="left">C05 =</entry>
+    <entry align="right">5,000.00</entry>
+    </row>
+    <row>
+    <entry align="center"> </entry>
+    <entry align="left"> </entry>
+    <entry align="left">↓</entry>
+    <entry align="left">F05 =</entry>
+    <entry align="right">1.0</entry>
+    </row>
+    <row>
+    <entry align="center">9</entry>
+    <entry align="left">Enter cash flow for the sixth year</entry>
+    <entry align="left">↓     5000 <span class="primary-function">ENTER</span></entry>
+    <entry align="left">C06 =</entry>
+    <entry align="right">5,000.00</entry>
+    </row>
+    <row>
+    <entry align="center"> </entry>
+    <entry align="left"> </entry>
+    <entry align="left">↓</entry>
+    <entry align="left">F06 =</entry>
+    <entry align="right">1.0</entry>
+    </row>
+    <row>
+    <entry align="center">10</entry>
+    <entry align="left">Compute IRR</entry>
+    <entry align="left"><span class="primary-function">IRR</span> <span class="primary-function">CPT</span></entry>
+    <entry align="left">IRR =</entry>
+    <entry align="right">14.09</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    </section>
+    <section id="sect-00003">
+    <title>Advantages</title>
+    <para id="para-00007">The primary advantage of using the IRR method is that it is easy to interpret and explain. Investors like to speak in terms of annual percentage returns when evaluating investment possibilities.</para>
+    </section>
+    <section id="sect-00004">
+    <title>Disadvantages</title>
+    <para id="para-00008">One disadvantage of using IRR is that it can be tedious to calculate. We knew the IRR was about 14% for the embroidery machine project because we had previously calculated the NPV for several discount rates. The IRR is about, but not exactly, 14%, because NPV is not exactly equal to zero (just very close to zero) when we use 14% as the discount rate. Before the prevalence of financial calculators and spreadsheets, calculating the exact IRR was difficult and time-consuming. With today’s technology, this is no longer a major consideration. Later in this chapter, we will look at how to use a spreadsheet to do these calculations.</para>
+    <para id="para-00009"><emphasis effect="bold">No Single Mathematical Solution.</emphasis> Another disadvantage of using the IRR method is that there may not be a single mathematical solution to an IRR problem. This can happen when negative cash flows occur in more than one period in the project. Suppose your company is considering building a facility for an upcoming Olympic competition. The construction cost would be $350 million. The facility would be used for one year and generate cash inflows of $950 million. Then, the following year, your company would be required to convert the facility into a public park area for the city, which is expected to cost $620 million. Placing these cash flows in a timeline results in the following:</para>
+    <table summary=" " class="timeline-table" id="table-00002">
+    <tgroup cols="4">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <thead>
+    <row>
+    <entry>Year</entry>
+    <entry>0</entry>
+    <entry>1</entry>
+    <entry>2</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">Cash Flow ($Millions)</entry>
+    <entry align="center">(350)</entry>
+    <entry align="center">950</entry>
+    <entry align="center">(620)</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00010">The NPV profile for this project looks like Figure 16.3. The NPV is negative at low interest rates, becomes positive at higher interest rates, and then turns negative again as the interest rate continues to rise. Because the NPV profile line crosses the horizontal axis twice, there are two IRRs. In other words, there are two interest rates at which NPV equals zero.</para>
+    <figure id="fig-00001">
+    <title>NPV Profile Graph for a Project with Two IRRs</title>
+    <media alt="Net present value graph for a project with two IRRs. It shows that the NPV is negative at low-interest rates, and becomes positive at higher interest rates. The NPV then turns negative again as the interest rate continues to rise. Because the NPV profile line crosses the horizontal axis twice, there are two IRRs."><image mime-type="image/png" src="../../media/FINAN_Figure_16_03_003.png"/></media>
+    </figure>
+    <para id="para-00011"><emphasis effect="bold">Reinvestment Rate Assumption.</emphasis> The IRR assumes that the cash flows are reinvested at the internal rate of return when they are received. This is a disadvantage of the IRR method. The firm may not be able to find any other projects with returns equal to a high-IRR project, so the company may not be able to reinvest at the IRR.</para>
+    <para id="para-00012">The reinvestment rate assumption becomes problematic when a company has several acceptable projects and is attempting to rank the projects. We will look more closely at the issues that can arise when considering mutually exclusive projects later in this chapter. If a company is simply deciding whether to accept a single project, the reinvestment assumption limitation is not relevant.</para>
+    <para id="para-00013"><emphasis effect="bold">Overlooking Differences in Scale.</emphasis> Another disadvantage of using the IRR method to choose among various acceptable projects is that it ignores differences in scale. The IRR converts the cash flows to percentages and ignores differences in the size or scale of projects. Issues that occur when comparing projects of different scales are covered later in this chapter.</para>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00014">The internal rate of return (IRR) of a project is the discount rate that sets the present value of a project’s cash inflows exactly equal to the present value of the project’s cash outflows. A project should be accepted if its IRR is greater than the firm’s cost of attracting capital.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00015"><link class="os-embed" url="#exercise/FI_Ch16_Sec3_MCQ4"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00016"><link class="os-embed" url="#exercise/FI_Ch16_Sec3_MCQ6"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00017"><link class="os-embed" url="#exercise/FI_Ch16_Sec3_MCQ8"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00007">
+    <title/>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00018"><link class="os-embed" url="#exercise/FI_Ch16_Sec3_PRQ4"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary><definition id="def-00001"><term>internal rate of return (IRR)</term><meaning>the discount rate that sets the NPV of a project equal to zero</meaning></definition></glossary>
+  </document>

@@ -6,8 +6,182 @@
     <md:uuid>54f734d5-1bb7-43d6-9808-17c8af5f5de4</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Define payback period.</item>
+    <item>Calculate payback period.</item>
+    <item>List the advantages and disadvantages of using the payback period method.</item>
+    </list>
+    </section>
+    <para id="para-00002">The payback period method provides a simple calculation that the managers at Sam’s Sporting Goods can use to evaluate whether to invest in the embroidery machine. The <term id="term-00001">payback period</term> calculation focuses on how long it will take for a company to make enough free cash flow from the investment to recover the initial cost of the investment.</para>
+    <section id="sect-00002">
+    <title>Payback Period Calculation</title>
+    <para id="para-00003">In order to purchase the embroidery machine, Sam’s Sporting Goods must spend $16,000. During the first year, Sam’s expects to see a $2,000 benefit from purchasing the machine, but this means that after one year, the company will have spent $14,000 more than it has made from the project. During the second year that it uses the machine, Sam’s expects that its cash inflow will be $4,000 greater than it would have been if it had not had the machine. Thus, after two years, the company will have spent $10,000 more than it has benefited from the machine. This process is continued year after year until the accumulated increase in cash flow is $16,000, or equal to the original investment. The process is summarized in the timeline below.</para>
+    <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00001">
+    <tgroup cols="7">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <colspec colnum="6" colname="c6"/>
+    <colspec colnum="7" colname="c7"/>
+    <thead>
+    <row>
+    <entry>Year</entry>
+    <entry>0</entry>
+    <entry>1</entry>
+    <entry>2</entry>
+    <entry>3</entry>
+    <entry>4</entry>
+    <entry>5</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="left">Initial Investment ($)</entry>
+    <entry align="right">(16,000)</entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    </row>
+    <row>
+    <entry align="left">Cash Inflow ($)</entry>
+    <entry align="right">-</entry>
+    <entry align="right">2,000</entry>
+    <entry align="right">4,000</entry>
+    <entry align="right">5,000</entry>
+    <entry align="right">5,000</entry>
+    <entry align="right">5,000</entry>
+    </row>
+    <row>
+    <entry align="left">Accumulated Inflow ($)</entry>
+    <entry align="right">-</entry>
+    <entry align="right">2,000</entry>
+    <entry align="right">6,000</entry>
+    <entry align="right">11,000</entry>
+    <entry align="right">16,000</entry>
+    <entry align="right">21,000</entry>
+    </row>
+    <row>
+    <entry align="left">Balance ($)</entry>
+    <entry align="right">(16,000)</entry>
+    <entry align="right">(14,000)</entry>
+    <entry align="right">(10,000)</entry>
+    <entry align="right">(5,000)</entry>
+    <entry align="right">-</entry>
+    <entry align="right">5,000</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00004">Sam’s Sporting Goods is expecting its cash inflow to increase by $16,000 over the first four years of using the embroidery machine. Thus, the payback period for the embroidery machine is four years. In other words, it takes four years to accumulate $16,000 in cash inflow from the embroidery machine and recover the cost of the machine.</para>
+    <note class="link-to-learning" id="note-00001">
+    <title>Calculating the Payback Period</title>
+    <para id="para-00005">It is possible that a project will not fully recover the initial cost in one year but will have more than recovered its initial cost by the following year. In these cases, the payback period will not be an integer but will contain a fraction of a year. This video demonstrates <link url="https://openstax.org/r/how-to-calculate">how to calculate the payback period</link> in such a situation.</para>
+    </note>
+    </section>
+    <section id="sect-00003">
+    <title>Advantages</title>
+    <para id="para-00006">The principal advantage of the payback period method is its simplicity. It can be calculated quickly and easily. It is easy for managers who have little finance training to understand. The payback measure provides information about how long funds will be tied up in a project. The shorter the payback period of a project, the greater the project’s liquidity.</para>
+    </section>
+    <section id="sect-00004">
+    <title>Disadvantages</title>
+    <para id="para-00007">Although it is simple to calculate, the payback period method has several shortcomings. First, the payback period calculation ignores the time value of money. Suppose that in addition to the embroidery machine, Sam’s is considering several other projects. The cash flows from these projects are shown in the timeline below. Both Project B and Project C have a payback period of five years. For both of these projects, Sam’s estimates that it will take five years for cash inflows to add up to $16,000. The payback period method does not differentiate between these two projects.</para>
+    <table summary=" " class="timeline-table" id="table-00002">
+    <tgroup cols="8">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <colspec colnum="6" colname="c6"/>
+    <colspec colnum="7" colname="c7"/>
+    <colspec colnum="8" colname="c8"/>
+    <thead>
+    <row>
+    <entry>Year</entry>
+    <entry>0</entry>
+    <entry>1</entry>
+    <entry>2</entry>
+    <entry>3</entry>
+    <entry>4</entry>
+    <entry>5</entry>
+    <entry>6</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="left">Project A ($)</entry>
+    <entry align="right">(16,000)</entry>
+    <entry align="right">2,000</entry>
+    <entry align="right">4,000</entry>
+    <entry align="right">5,000</entry>
+    <entry align="right">5,000</entry>
+    <entry align="right">5,000</entry>
+    <entry align="right">5,000</entry>
+    </row>
+    <row>
+    <entry align="left">Project B ($)</entry>
+    <entry align="right">(16,000)</entry>
+    <entry align="right">1,000</entry>
+    <entry align="right">2,000</entry>
+    <entry align="right">3,000</entry>
+    <entry align="right">4,000</entry>
+    <entry align="right">6,000</entry>
+    <entry align="right">-</entry>
+    </row>
+    <row>
+    <entry align="left">Project C ($)</entry>
+    <entry align="right">(16,000)</entry>
+    <entry align="right">6,000</entry>
+    <entry align="right">4,000</entry>
+    <entry align="right">3,000</entry>
+    <entry align="right">2,000</entry>
+    <entry align="right">1,000</entry>
+    <entry align="right">-</entry>
+    </row>
+    <row>
+    <entry align="left">Project D ($)</entry>
+    <entry align="right">(16,000)</entry>
+    <entry align="right">1,000</entry>
+    <entry align="right">2,000</entry>
+    <entry align="right">3,000</entry>
+    <entry align="right">4,000</entry>
+    <entry align="right">6,000</entry>
+    <entry align="right">8,000</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00008">However, we know that money has a time value, and receiving $6,000 in year 1 (as occurs in Project C) is preferable to receiving $6,000 in year 5 (as in Projects B and D). From what we learned about the time value of money, Projects B and C are not identical projects. The payback period method breaks the important finance rule of not adding or comparing cash flows that occur in different time periods.</para>
+    <para id="para-00009">A second disadvantage of using the payback period method is that there is not a clearly defined acceptance or rejection criterion. When the payback period method is used, a company will set a length of time in which a project must recover the initial investment for the project to be accepted. Projects with longer payback periods than the length of time the company has chosen will be rejected. If Sam’s were to set a payback period of four years, Project A would be accepted, but Projects B, C, and D have payback periods of five years and so would be rejected. Sam’s choice of a payback period of four years would be arbitrary; it is not grounded in any financial reasoning or theory. No argument exists for a company to use a payback period of three, four, five, or any other number of years as its criterion for accepting projects.</para>
+    <para id="para-00010">A third drawback of this method is that cash flows after the payback period are ignored. Projects B, C, and D all have payback periods of five years. However, Projects B and C end after year 5, while Project D has a large cash flow that occurs in year 6, which is excluded from the analysis. The payback method is shortsighted in that it favors projects that generate cash flows quickly while possibly rejecting projects that create much larger cash flows after the arbitrary payback time criterion.</para>
+    <para id="para-00011">Fourth, no risk adjustment is made for uncertain cash flows. No matter how careful the planning and analysis, a business is seldom sure what future cash flows will be. Some projects are riskier than others, with less certain cash flows, but the payback period method treats high-risk cash flows the same way as low-risk cash flows.</para>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00012">The payback period is the simplest project evaluation method. It is the time it takes the company to recoup its initial investment. Its usefulness is limited, however, because it ignores the time value of money.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00013"><link class="os-embed" url="#exercise/FI_Ch16_Sec1_MCQ1"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00007">
+    <title/>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00014"><link class="os-embed" url="#exercise/FI_Ch16_Sec1_RVQ1"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00008">
+    <title/>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00015"><link class="os-embed" url="#exercise/FI_Ch16_Sec1_PRQ1"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>capital budgeting</term><meaning>the process a business follows to evaluate potential major projects or investments</meaning></definition>
+    <definition id="def-00002"><term>payback period</term><meaning>the length of time it will take for a company to make enough money from an investment to recover the initial cost of the investment</meaning></definition>
+    </glossary>
 </document>

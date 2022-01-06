@@ -1,13 +1,426 @@
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
-  <title>Choosing Between Projects</title>
+  <title>Choosing between Projects</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
-    <md:title>Choosing Between Projects</md:title>
+    <md:title>Choosing between Projects</md:title>
     <md:content-id>m00103</md:content-id>
     <md:uuid>0a9bea9c-d8cb-44f5-b708-4645d8dee473</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Choose between mutually exclusive projects.</item>
+    <item>Compare projects with different lives.</item>
+    <item>Compare projects of different scales.</item>
+    <item>Rank projects when resources are limited.</item>
+    </list>
+    </section>
+    <para id="para-00002">So far, we have considered methods for deciding to accept or to reject a single stand-alone project. Sometimes, managers must make decisions regarding which of two projects to accept, or a company might be faced with a number of good, acceptable projects and have to decide which of those projects to take on during the current year.</para>
+    <section id="sect-00002">
+    <title>Choosing between Mutually Exclusive Projects</title>
+    <para id="para-00003">Earlier in this chapter, we saw that the embroidery machine that Sam’s Sporting Goods was considering had a positive NPV, making it a project that Sam’s should accept. However, another, more expensive embroidery machine may be available that is able to make more stitches per minute. Although the initial cost of this heavy-duty machine is higher, it would allow Sam’s to embroider and sell more items each year, generating more revenue. The two embroidery machines are <term id="term-00001">mutually exclusive projects</term>. Mutually exclusive projects compete with one another; purchasing one embroidery machine excludes Sam’s from purchasing the other embroidery machine.</para>
+    <para id="para-00004">The timeline below shows the cash outflow and inflows expected from the original embroidery machine considered as well as the heavy-duty machine. The heavy-duty machine costs $25,000, but it will generate more cash inflows in years 3 through 6. Both machines have a positive NPV, leading to decisions to accept the projects. Also, both machines have an IRR exceeding the company’s 9% cost of raising capital, also leading to decisions to accept the projects.</para>
+    <para id="para-00005">When considered by themselves, each of the machines is a good project for Sam’s to pursue. The question the managers face is which is the better of the two projects. When faced with this type of decision, the rule is to take the project with the highest NPV. Remember that the goal is to choose projects that add value to the company. Because the NPV of a project is the estimate of how much value it will create, choosing the project with the higher NPV is choosing the project that will create the greater value.</para>
+    <table summary=" " class="timeline-table" id="table-00001">
+    <tgroup cols="10">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <colspec colnum="6" colname="c6"/>
+    <colspec colnum="7" colname="c7"/>
+    <colspec colnum="8" colname="c8"/>
+    <colspec colnum="9" colname="c9"/>
+    <colspec colnum="10" colname="c10"/>
+    <thead>
+    <row>
+    <entry>Year</entry>
+    <entry>0</entry>
+    <entry>1</entry>
+    <entry>2</entry>
+    <entry>3</entry>
+    <entry>4</entry>
+    <entry>5</entry>
+    <entry>6</entry>
+    <entry>NPV</entry>
+    <entry>IRR</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="left">Regular Machine ($)</entry>
+    <entry align="right">(16,000)</entry>
+    <entry align="right">2,000</entry>
+    <entry align="right">4,000</entry>
+    <entry align="right">5,000</entry>
+    <entry align="right">5,000</entry>
+    <entry align="right">5,000</entry>
+    <entry align="right">5,000</entry>
+    <entry align="right"><emphasis effect="bold">2,835.62 </emphasis></entry>
+    <entry align="right"><emphasis effect="bold">14.10%</emphasis></entry>
+    </row>
+    <row>
+    <entry align="left">Heavy-Duty Machine ($)</entry>
+    <entry align="right">(25,000)</entry>
+    <entry align="right">2,000</entry>
+    <entry align="right">4,000</entry>
+    <entry align="right">8,000</entry>
+    <entry align="right">9,000</entry>
+    <entry align="right">9,000</entry>
+    <entry align="right">9,000</entry>
+    <entry align="right"><emphasis effect="bold">3,970.67</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">13.20%</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <note class="link-to-learning" id="note-00001">
+    <title><term class="no-emphasis" id="term-00002">American Economic Association (aeaweb.org)</term></title>
+    <para id="para-00006">The investment analysis procedures used by companies are also used by government entities when evaluating projects. Olympic host cities receive direct revenues from broadcast rights, ticket sales, and licensing agreements. The cities also expect indirect benefits from increased tourism, including increased employment and higher tax revenues. These benefits come after the city makes a major investment in infrastructure, spending money on stadiums, housing, and transportation. The investment in infrastructure for the <term class="no-emphasis" id="term-00003">2014 Winter Olympics</term> in <term class="no-emphasis" id="term-00004">Sochi, Russia</term>, was over $50 billion.<footnote id="foot-00001">David Filipov. “Russia Spent $50 Billion on the Sochi Olympics. It Might Actually Have Been Worth It.” Washington Post, November 15, 2017. https://www.washingtonpost.com/world/europe/that-sochi-olympic-boondoggle-russians-say-all-the-investment-is-paying-off/2017/11/13/65014bd0-b82c-11e7-9b93-b97043e57a22_story.html</footnote> Why do you think the infrastructure investment for these games was so much higher than the amount spent by cities hosting previous games? If your city were discussing the possibility of bidding to be an Olympic host city, what would you suggest it consider when evaluating the opportunity? Check out <link url="https://openstax.org/r/this-article">this article</link> for more information.</para>
+    </note>
+    </section>
+    <section id="sect-00003">
+    <title>Choosing between Projects with Different Lives</title>
+    <para id="para-00007">Suppose you are considering starting an ice-cream truck business. You find that you can purchase a used truck for $50,000. You estimate that the truck will last for three years, and you will be able to sell enough ice cream treats to generate a cash inflow of $40,000 during each of those years. Your cost of capital is 10%. The positive NPV of $49,474 for the project makes this an acceptable project.</para>
+    <para id="para-00008">Another ice-cream truck is also for sale for $50,000. This truck is smaller and will not be able to hold as many frozen treats. However, the truck is newer, with lower mileage, and you estimate that you can use it for six years. This newer truck will allow you to generate a cash inflow of $30,000 each year for the next six years. The NPV of the newer truck is $80,658.</para>
+    <para id="para-00009">Because both trucks are acceptable projects but you can only drive one truck at a time, you must choose which truck to purchase. At first, it may be tempting to purchase the newer, lower-mileage truck because of its higher NPV. Unfortunately, when comparing two projects that have different lives, a decision cannot be made simply by comparing the NPVs. Although the ice-cream truck with the six-year life span has a much higher NPV than the larger truck, it consumes your resources for a long time.</para>
+    <para id="para-00010">There are two methods for comparing projects with different lives. Both assume that when the short-life project concludes, another, similar project will be available.</para>
+    <section id="sect-00004">
+    <title>Replacement Chain Approach</title>
+    <para id="para-00011">With the <term id="term-00005">replacement chain approach</term>, as many short-life projects as necessary are strung together to equal the life of the long-life project. You can purchase the newer, lower-mileage ice-cream truck and run your business for six years. To make a comparison, you assume that if you purchase the larger truck that will last for three years, you will be able to repeat the same project, purchasing another larger truck that will last for the next three years. In essence, you are comparing a six-year project with two consecutive three-year projects so that both options will generate cash inflows for six years. Your timeline for the projects (comparing an older, larger truck with a newer, lower-mileage truck) will look like the following:</para>
+    <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00002">
+    <tgroup cols="8">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <colspec colnum="6" colname="c6"/>
+    <colspec colnum="7" colname="c7"/>
+    <colspec colnum="8" colname="c8"/>
+    <thead>
+    <row>
+    <entry>Year</entry>
+    <entry>0</entry>
+    <entry>1</entry>
+    <entry>2</entry>
+    <entry>3</entry>
+    <entry>4</entry>
+    <entry>5</entry>
+    <entry>6</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="left">Older Truck ($)</entry>
+    <entry align="right">($50,000)</entry>
+    <entry align="right">40,000</entry>
+    <entry align="right">40,000</entry>
+    <entry align="right"> 40,000</entry>
+    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
+    </row>
+    <row>
+    <entry align="left">Older Truck ($)</entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"><emphasis effect="bold">(50,000)</emphasis></entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    </row>
+    <row>
+    <entry align="left"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    </row>
+    <row>
+    <entry align="left">Newer Truck ($)</entry>
+    <entry align="right">(50,000)</entry>
+    <entry align="right">30,000</entry>
+    <entry align="right">30,000</entry>
+    <entry align="right">30,000</entry>
+    <entry align="right">30,000</entry>
+    <entry align="right">30,000</entry>
+    <entry align="right">30,000</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00012">The present values of all of the cash inflows and outflows from purchasing two of the older, larger trucks consecutively are added together to find the NPV of that alternative. The NPV of this alternative is $86,645, which is higher than the NPV of $80,658 of the newer truck, as shown in the timeline below:</para>
+    <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00003">
+    <tgroup cols="8">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <colspec colnum="6" colname="c6"/>
+    <colspec colnum="7" colname="c7"/>
+    <colspec colnum="8" colname="c8"/>
+    <thead>
+    <row>
+    <entry>Year</entry>
+    <entry>0</entry>
+    <entry>1</entry>
+    <entry>2</entry>
+    <entry>3</entry>
+    <entry>4</entry>
+    <entry>5</entry>
+    <entry>6</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="left">Older Truck ($)</entry>
+    <entry align="right"> </entry>
+    <entry align="right">40,000</entry>
+    <entry align="right">40,000</entry>
+    <entry align="right">40,000</entry>
+    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">40,000.</emphasis></entry>
+    </row>
+    <row>
+    <entry align="left">Older Truck ($)</entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"><emphasis effect="bold">(50,000)</emphasis></entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    </row>
+    <row>
+    <entry align="left">Older Truck ($)</entry>
+    <entry align="right"><emphasis effect="bold">(50,000)</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">36,363.64</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">33,057.85</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">(7,513.15)</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">27,320.54</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">24,836.85</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">22,578.96</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>NPV</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>86</mn><mo>,</mo><mn>644</mn><mo>.</mo><mn>69</mn></mtd></mtr></mtable></math></equation>
+    <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">When using the replacement chain approach, the short-term project is repeated any number of times to equal the length of the longer-term project. If one project is 5 years and another is 20 years, the short one is repeated four times. This method can become tedious when the length of the longer project is not a multiple of the shorter project. For example, when choosing between a five-year project and a seven-year project, the short one would have to be duplicated seven times and the long project would have to be repeated five times to get to a common length of 35 years for the two projects.</para>
+    </section>
+    <section id="sect-00005">
+    <title>Equal Annuity Approach</title>
+    <para id="para-00014">The <term id="term-00006">equal annuity approach</term> assumes that both the short-term and the long-term projects can be repeated forever. This approach involves the following steps:</para>
+    <list list-type="enumerated" number-style="arabic" class="stepwise" id="list-00002">
+    <item>Find the NPV of each of the projects.
+    <list id="list-00003">
+    <item>The NPV of the larger, older ice-cream truck is $49,474.</item>
+    <item>The NPV of the smaller, newer ice-cream truck is $80,658.</item>
+    </list></item>
+    <item>Find the annuity that has the same present value as the NPV and the same number of periods as the project.
+    <list id="list-00004">
+    <item>For the larger, older ice-cream truck, we want to find the three-year annuity that would have a present value of $49,474 when using a 10% discount rate. This is $19,894.</item>
+    <item>For the smaller, newer ice-cream truck, we want to find the six-year annuity that would have a present value of $80,658 when using a 10% discount rate. This is $18,520.</item>
+    </list></item>
+    <item>Assume that these projects, or similar projects, can be repeated over and over and that these annuities will continue forever. Calculate the present value of these annuities continuing forever using the perpetuity formula.</item>
+    </list>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>P</mi><mi>V</mi><mo> </mo><mfenced><mrow><mi>Larger</mi><mo> </mo><mi>Truck</mi></mrow></mfenced><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mfrac><mrow><mo>$</mo><mn>19</mn><mo>,</mo><mn>894</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>10</mn></mrow></mfrac><mo>=</mo><mo>$</mo><mn>198</mn><mo>,</mo><mn>940</mn></mtd></mtr><mtr><mtd><mi>P</mi><mi>V</mi><mo> </mo><mfenced><mrow><mi>Smaller</mi><mo> </mo><mi>Truck</mi></mrow></mfenced></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mfrac><mrow><mo>$</mo><mn>18</mn><mo>,</mo><mn>520</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>10</mn></mrow></mfrac><mo>=</mo><mo>$</mo><mn>185</mn><mo>,</mo><mn>200</mn></mtd></mtr></mtable></math></equation>
+    <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">We again find that the older, larger truck is preferred to the newer, smaller truck.</para>
+    <para id="para-00016">These methods correct for unequal lives, but managers need to be aware that some unavoidable issues come up when these adjustments are made. Both the replacement chain and equal annuity approaches assume that projects can be replicated with identical projects in the future. It is important to note that this is not always a reasonable assumption; these replacement projects may not exist. Estimating cash flows from potential projects is prone to errors, as we will discuss in Financial Forecasting these errors are compounded and become more significant as projects are expected to be repeated. Inflation and changing market conditions are likely to result in cash flows varying in the future from our predictions, and as we go further into the future, these changes are potentially greater.</para>
+    </section>
+    </section>
+    <section id="sect-00006">
+    <title>Choosing Projects When Resources Are Limited</title>
+    <para id="para-00017">Choosing positive NPV projects adds value to a company. Although we often assume that the company will choose to pursue all positive NPV projects, in reality, managers often face a budget that restricts the amount of capital that they may invest in a given time period. Thus, managers are forced to choose among several positive NPV projects. The goal is to maximize the total NPV of the firm’s projects while remaining within budget constraints.</para>
+    <note class="link-to-learning" id="note-00002">
+    <title>Profitability Index</title>
+    <para id="para-00018">Managers should reject any project with a negative NPV. When managers find themselves with an array of projects with a positive NPV, the profitability index can be used to choose among those projects. To learn more, watch this video about how a company <link url="https://openstax.org/r/might-use">might use the profitability index</link>.</para>
+    </note>
+    <para id="para-00019">For example, suppose Southwest Manufacturing is considering the seven projects displayed in Table 16.5. Each of the projects has a positive NPV and would add value to the company. The firm has a budget of $200 million to put toward new projects in the upcoming year. Doing all seven of the projects would require initial investments totaling $430 million. Thus, although all of the projects are good projects, Southwest Manufacturing cannot fund them all in the upcoming year and must choose among these projects. Southwest Manufacturing could choose the combination of Projects A and D; the combination of Projects B, C, and E; or several other combinations of projects and exhaust its $200 million investment budget.</para>
+    <table summary=" " id="table-00004">
+    <title>Projects Being Considered by Southwest Manufacturing</title>
+    <tgroup cols="5">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <thead>
+    <row>
+    <entry>Project</entry>
+    <entry>NPV ($Millions)</entry>
+    <entry>Initial Investment ($Millions)</entry>
+    <entry>Profitability Index</entry>
+    <entry>Cumulative Investment Required ($Millions)</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">A</entry>
+    <entry align="center">60</entry>
+    <entry align="center">150</entry>
+    <entry align="center">1.40</entry>
+    <entry align="center">150</entry>
+    </row>
+    <row>
+    <entry align="center">B</entry>
+    <entry align="center">25</entry>
+    <entry align="center">100</entry>
+    <entry align="center">1.25</entry>
+    <entry align="center">250</entry>
+    </row>
+    <row>
+    <entry align="center">C</entry>
+    <entry align="center">10</entry>
+    <entry align="center">70</entry>
+    <entry align="center">1.14</entry>
+    <entry align="center">320</entry>
+    </row>
+    <row>
+    <entry align="center">D</entry>
+    <entry align="center">15</entry>
+    <entry align="center">50</entry>
+    <entry align="center">1.30</entry>
+    <entry align="center">370</entry>
+    </row>
+    <row>
+    <entry align="center">E</entry>
+    <entry align="center">11</entry>
+    <entry align="center">30</entry>
+    <entry align="center">1.37</entry>
+    <entry align="center">400</entry>
+    </row>
+    <row>
+    <entry align="center">F</entry>
+    <entry align="center">7</entry>
+    <entry align="center">20</entry>
+    <entry align="center">1.35</entry>
+    <entry align="center">420</entry>
+    </row>
+    <row>
+    <entry align="center">G</entry>
+    <entry align="center">2</entry>
+    <entry align="center">10</entry>
+    <entry align="center">1.20</entry>
+    <entry align="center">430</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00020">To decide which combination results in the largest added NPV for the company, rank the projects based on their profitability index, as is done in Table 16.6. Projects A, E, and F should be chosen, as they have the highest profitability indexes. Because those three projects require a cumulative investment of $200 million, none of the remaining projects can be undertaken at the present time. Doing those three projects will add $78 million in NPV to the firm. Out of this set of choices, there is no combination of projects that is affordable given Southwest Manufacturing’s budget that would add more than $78 million in NPV.</para>
+    <table summary=" " id="table-00005">
+    <title>Projects Ranked by Profitability Index</title>
+    <tgroup cols="5">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <thead>
+    <row>
+    <entry>Project</entry>
+    <entry>NPV ($Millions)</entry>
+    <entry>Initial Investment ($Millions)</entry>
+    <entry>Profitability Index</entry>
+    <entry>Cumulative Investment Required ($Millions)</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">A</entry>
+    <entry align="center">60</entry>
+    <entry align="center">150</entry>
+    <entry align="center">1.40</entry>
+    <entry align="center">150</entry>
+    </row>
+    <row>
+    <entry align="center">E</entry>
+    <entry align="center">11</entry>
+    <entry align="center">30</entry>
+    <entry align="center">1.37</entry>
+    <entry align="center">180</entry>
+    </row>
+    <row>
+    <entry align="center">F</entry>
+    <entry align="center">7</entry>
+    <entry align="center">20</entry>
+    <entry align="center">1.35</entry>
+    <entry align="center">200</entry>
+    </row>
+    <row>
+    <entry align="center">D</entry>
+    <entry align="center">15</entry>
+    <entry align="center">50</entry>
+    <entry align="center">1.30</entry>
+    <entry align="center">250</entry>
+    </row>
+    <row>
+    <entry align="center">B</entry>
+    <entry align="center">25</entry>
+    <entry align="center">100</entry>
+    <entry align="center">1.25</entry>
+    <entry align="center">350</entry>
+    </row>
+    <row>
+    <entry align="center">G</entry>
+    <entry align="center">2</entry>
+    <entry align="center">10</entry>
+    <entry align="center">1.20</entry>
+    <entry align="center">360</entry>
+    </row>
+    <row>
+    <entry align="center">C</entry>
+    <entry align="center">10</entry>
+    <entry align="center">70</entry>
+    <entry align="center">1.14</entry>
+    <entry align="center">430</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00021">Notice that when choices must be made among projects, the decision cannot be made by simply ranking the projects from highest to lowest NPV. Project D has an NPV of $15 million, which is higher than both the $11 million of Project E and the $7 million of Project F. However, Project D requires $50 million for an initial investment. For the same $50 million of investment funds, Southwest Manufacturer can accept both Projects E and F for a total NPV of $18 million. Investment capital is a scare resource for this company. By ranking projects based on their profitability index, the company is able to determine the best way to allocate its scarce capital for the largest potential increase in NPV.</para>
+    <note class="concepts-practice" id="note-00003">
+    <title>Capital Budgeting Challenges</title>
+    <para id="para-00022">Although the basic techniques of project evaluation are straightforward, real-world capital budgeting decisions are complex and multifaceted. The goal of capital budgeting is to choose the projects that will bring the most value to the shareholders of the company. The NPV rule provides a clear, concise criterion for which projects will bring value to the shareholders. It is important to remember, however, that all of the project valuation calculations are based on projected cash flows. These projected cash flows are estimates, based on the best educated guesses that a company makes about its business opportunities over the next few years. Because no company has a crystal ball that can predict the future, its calculation of NPV is an estimate of what it expects.</para>
+    <para id="para-00023">Think, for example, of an oil company deciding whether to drill for oil. The project will require expenditures on equipment, land, and other items. The cash inflows will depend on the likelihood of oil being found, the quantity of oil produced by the well, and the price at which the oil can be sold. If a company estimates that oil will sell for $100 per barrel during the next few years, the project will have a much higher NPV than if the company estimates that oil will sell for only $50 per barrel.</para>
+    <para id="para-00024">A project that has a positive NPV and is accepted when a company is planning how to allocate its capital toward investments may end up being a bad project that the company wishes it had avoided if the future is much different from what it projected. Managers must stay attuned to economic developments and reevaluate capital budgeting decisions when significant changes occur. In spring 2020, managers around the globe were faced with a dramatically changing economic environment amid a pandemic. Oil companies, for example, saw oil prices drop from over $50 per barrel at the beginning of March to under $15 per barrel by the end of April.</para>
+    </note>
+    <note class="link-to-learning" id="note-00004">
+    <title>Reducing Capital Spending</title>
+    <para id="para-00025">In June 2020, <term class="no-emphasis" id="term-00007">McKinsey &amp; Company</term> looked at major companies around the world that were reducing their capital expenditures in the face of the COVID-19 pandemic. These companies were cutting their capital budgets by 10% to 80% from their originally planned levels for 2020. Reductions were especially large in the oil and gas industry, as companies found their revenue projections, and thus the NPV of their planned projects, falling dramatically. In addition, companies found themselves needing to free up cash; with more limited cash resources, fewer positive NPV projects could be accepted and funded.<footnote id="foot-00002">Tom Brinded, Zak Cutler, Erikhans Kok, and Prakash Parbhoo. “Resetting Capital Spending in the Wake of COVID-19.” McKinsey &amp; Company. June 25, 2020. https://www.mckinsey.com/business-functions/operations/our-insights/resetting-capital-spending-in-the-wake-of-covid-19</footnote> Due to the <term class="no-emphasis" id="term-00008">COVID-19</term> pandemic, many CFOs were challenged to stabilize their corporate cash flows. This article explains how <link url="https://openstax.org/r/quickly-reducing">quickly reducing capital spending</link>, which is usually a quick enough fix, was able to help.</para>
+    </note>
+    </section>
+    <section class="section-summary" id="sect-00007">
+    <title/>
+    <para id="para-00026">Firms may need to choose among a variety of good projects. The projects may have different lives or be differently sized projects that require different amounts of resources. By choosing projects with the highest profitability index, companies can take on the projects that will lead to the greatest increase in value for the company.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00008">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch16_Sec5_MCQ5"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00028"><link class="os-embed" url="#exercise/FI_Ch16_Sec5_MCQ7"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00029"><link class="os-embed" url="#exercise/FI_Ch16_Sec5_MCQ9"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00009">
+    <title/>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00030"><link class="os-embed" url="#exercise/FI_Ch16_Sec5_RVQ3"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00031"><link class="os-embed" url="#exercise/FI_Ch16_Sec5_RVQ4"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00010">
+    <title/>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00032"><link class="os-embed" url="#exercise/FI_Ch16_Sec5_PRQ8"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>equal annuity approach</term><meaning>a method of comparing projects of different lives by assuming that the projects can be repeated forever</meaning></definition>
+    <definition id="def-00002"><term>mutually exclusive projects</term><meaning>projects that compete against each other so that when one project is chosen, the other project cannot be done</meaning></definition>
+    <definition id="def-00003"><term>replacement chain approach</term><meaning>a method of comparing projects of differing lives by repeating shorter projects multiple times until they reach the lifetime of the longest project</meaning></definition>
+    </glossary>
 </document>

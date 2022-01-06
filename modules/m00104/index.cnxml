@@ -6,8 +6,103 @@
     <md:uuid>48e217ba-0cc6-4a17-9782-1b0011a2b439</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Calculate NPV using Excel.</item>
+    <item>Calculate IRR using Excel.</item>
+    <item>Create an NPV profile using Excel.</item>
+    </list>
+    </section>
+    <para id="para-00002">A Microsoft <term class="no-emphasis" id="term-00001">Excel</term> spreadsheet provides an alternative to using a financial calculator to automate the arithmetic necessary to calculate NPV and IRR. An advantage of using Excel is that you can quickly change any assumptions or numbers in your problem and recalculate NPV or IRR based on that updated information. Excel is a versatile tool with more than one way to set up most problems. We will consider a couple of straightforward examples of using Excel to calculate NPV and IRR.</para>
+    <para id="para-00003">Suppose your company is considering a project that will cost $30,000 this year. The cash inflow from this project is expected to be $6,000 next year and $8,000 the following year. The cash inflow is expected to increase by $2,000 yearly, resulting in a cash inflow of $18,000 in year 7, the final year of the project. You know that your company’s cost of funds is 9%. Your company would like to evaluate this project.</para>
+    <section id="sect-00002">
+    <title>Calculating NPV Using Excel</title>
+    <para id="para-00004">To calculate NPV using Excel, you would begin by placing each year’s expected cash flows in a sheet, as in row 5 in Figure 16.4. One approach to calculating NPV is to use the formula for discounting future cash flows, as is shown in row 6.</para>
+    <figure id="fig-00001">
+    <title>Inserting Present Cash Flows Using Excel ($ except Cost of Funds)</title>
+    <media alt="A screenshot of an Excel spreadsheet shows the cash flow and present value of cash flow for a company. The company’s cost of funds is 9%, entered into cell C2 of the spreadsheet. The year number is entered into Columns C through J of Row 4. The cash flow for years 0-7 is entered in columns C through J of Row 5. The formula to find the present value of cash flow for year 0 is entered in Row C6. The formula is =C5 slash open parenthesis 1 + dollar sign C2 close parentheses carat C4. In this formula, C2, remains constant. The other cell references change to represent the cell the data is entered in. The NPV is calculated using the formula = SUM open parenthesis C6 colon J6 close parenthesis."><image mime-type="image/png" src="../../media/FINAN_Figure_16_06_004.png"/></media>
+    </figure>
+    <para id="para-00005">Figure 16.5 shows the present value of each year’s cash flow resulting from the formula. The NPV is then calculated by summing the present values of the cash flows.</para>
+    <note class="excel-spreadsheet" id="note-00001">
+    <para id="para-00006">Download the <link url="https://openstax.org/r/spreadsheet-file">spreadsheet file</link> containing key Chapter 16 Excel exhibits.</para>
+    </note>
+    <figure id="fig-00002">
+    <title>NPV Calculated by Summing Present Values of Cash Flows ($ except Cost of Funds)</title>
+    <media alt="A screenshot of an Excel sheet shows the results of the calculations from Figure 16.4."><image mime-type="image/png" src="../../media/FINAN_Figure_16_06_005.png"/></media>
+    </figure>
+    <para id="para-00007">Alternatively, Excel is programmed with financial functions, including a calculation for NPV. The NPV formula is shown in cell J7 in Figure 16.6 below. However, it is important to pay attention to how Excel defines NPV. The Excel NPV function calculates the sum of the present values of the cash flows occurring from period 1 through the end of the project using the designated discount rate, but it fails to include the initial investment at time period zero at the beginning of the project. The NPV function in cell J6 will return $56,947 for this project. You must subtract the initial cash outflow of $30,000 that occurs at time 0 to get the NPV of $26,947 for the project.</para>
+    <para id="para-00008">When entering the Excel-programmed NPV function, you must remember to include references only to the cells that contain cash flows from year 1 to the end of the project. Then, subtract the initial investment of year 0 to calculate NPV according to the standard definition of NPV—the present values of the cash inflows minus the present value of the cash outflow. Note: Because of the nonstandard use of the term NPV by Excel, many users prefer to use the method described above rather than this predefined function.</para>
+    <figure id="fig-00003">
+    <title>NPV Formula ($ except IRR/Cost of Funds)</title>
+    <media alt="A screenshot of an Excel sheet showing the NPV formula, except IRR/Cost of Funds. The cash flow figures for years zero to seven are entered in columns c through J of Row 5. The formula for calculating NPV is = NPV open parenthesis C2, D5 colon J5 close parenthesis + C5."><image mime-type="image/png" src="../../media/FINAN_Figure_16_06_006.png"/></media>
+    </figure>
+    </section>
+    <section id="sect-00003">
+    <title>Calculating IRR Using Excel</title>
+    <para id="para-00009">Excel also provide a function for calculating IRR. This function is shown in Figure 16.7, cell J8. The IRR function properly uses all the project’s cash flows, including the initial cash outflow at time 0, in its calculation, unlike the NPV function. This function will correctly return the IRR of 27.7% for the project. Figure 16.8 shows the completed spreadsheet.</para>
+    <figure id="fig-00004">
+    <title>Function for Calculating IRR ($ except IRR/Cost of Funds)</title>
+    <media alt="Screenshot of excel sheet showing the function for calculating IRR, except for IRR/Cost of Funds. The cash flow figures for years zero to seven are entered in columns c through J of Row 5. The corresponding formulae for present value of cash flow are displayed below them in row 6. The formula for NPV is equal sign SUM open parenthesis C6 colon J6 close parenthesis. The formula for I R R is equal sign I R R open parenthesis C5 colon J5 close parenthesis."><image mime-type="image/png" src="../../media/FINAN_Figure_16_06_007.png"/></media>
+    </figure>
+    <figure id="fig-00005">
+    <title>Final Spreadsheet ($ except IRR/Cost of Funds)</title>
+    <media alt="Screenshot of excel sheet showing the final spreadsheet. It shows the company's cost of funds, the cash flow and present value of cash flow for years zero to seven, and the resulting NPV and IRR.  The NPV is 26,947 and the IRR is 27.7%."><image mime-type="image/png" src="../../media/FINAN_Figure_16_06_008.png"/></media>
+    </figure>
+    </section>
+    <section id="sect-00004">
+    <title>Using Excel to Create an NPV Profile</title>
+    <para id="para-00010">Firms often do not know exactly what their cost of attracting capital is, so they must use estimates in their decision-making. Also, the cost of attracting capital can change with economic and market conditions. Especially if markets are volatile, a company may use an NPV profile to see how sensitive their decisions are to changes in financing costs. Excel simplifies the creation of an NPV profile.</para>
+    <para id="para-00011">Middleton Manufacturing is considering installing solar panels to heat water and provide lighting throughout its plant. To do so will cost the company $800,000 this year. However, this upgrade will save the company an estimated $150,000 in electrical costs each year for the next 10 years. Constructing an NPV profile of this project will allow Middleton to see how the NPV of the project changes with the cost of attracting funds.</para>
+    <para id="para-00012">First, the project cash flows must be placed in an Excel spreadsheet, as is shown in cells D2 through N2 in Figure 16.9. The company’s cost of funds is placed in cell B1; begin by putting in 10% for this rate. Next, the formula for NPV is placed in cell B6; cell B6 shows the NPV of the cash flows in cells D2 through N2, using the rate that is in cell B1.</para>
+    <para id="para-00013">For reference, compute IRR in cell B4. Calculating IRR is not necessary for creating the NPV profile. However, it gives a good reference point. Remember that if the IRR of a project is greater than the firm’s cost of attracting capital, then the NPV will be positive; if the IRR of a project is less than the firm’s cost of attracting capital, then the NPV will be negative.</para>
+    <para id="para-00014">An NPV profile is created by calculating the NPV of the project for a variety of possible costs of attracting capital. In other words, you want to calculate NPV using the project cash flows in cells D2 through N2, using a variety of discount rates in cell B1. This is accomplished by using the Excel data table function. The data table function shows how the outcome of an Excel formula changes when one of the cells in the spreadsheet changes. In this instance, you want to determine how the value of the NPV formula (cell B6) changes when the discount rate (cell B1) changes.</para>
+    <figure id="fig-00006">
+    <title>Project Cash Flows Inserted into Excel</title>
+    <media alt="Screenshot of an Excel sheet shows how to create an NPV profile by inserting project cash flows into an Excel sheet. The discount rate is 10%. The cash flow in year zero is negative 800,000. For the remaining 10 years, the cash flow is constant at 150,000. The IRR is 13.41%. The NPV is 121,685.07. The figures for discount rates between 1% and 20% are required."><image mime-type="image/png" src="../../media/FINAN_Figure_16_06_009.png"/></media>
+    </figure>
+    <para id="para-00015">To do this, enter the range of interest rates that you want to consider down a column, beginning in cell A7. This example shows rates from 1% to 20% entered in cells A7 through A26. Your Excel file should now look like the screenshot in Figure 16.9.</para>
+    <para id="para-00016">Next, highlight the cells containing the NPV calculation and the range of discount rates. Thus, you will highlight cells A6 through A26 and B6 through B26 (see Figure 16.10). Click Data at the top of the Excel menu so that you see the What-If Analysis feature. Choose Data Table. Because the various discount rates you want to use are in a column, use the “Column input cell” option. Enter “B1” in this box. You are telling Excel to calculate NPV using each of the numbers in this column as the cost of attracting funds in cell B1. Click OK.</para>
+    <figure id="fig-00007">
+    <title>Creating a Data Table in Excel</title>
+    <media alt="A screenshot of an Excel sheet shows the creation of a Data Table in Excel. The screenshot is the same as Figure 16.9  except cells A6 through A26 and B6 through B26 are highlighted. A pop-up screen called Data table has two fields - Row input cell and column input cell. B1 is entered into column input cell."><image mime-type="image/png" src="../../media/FINAN_Figure_16_06_010.png"/></media>
+    </figure>
+    <para id="para-00017">After clicking OK, the cells in column B next to the list of various discount rates will fill with the NPVs corresponding to each of the rates. This is shown in Figure 16.11.</para>
+    <figure id="fig-00008">
+    <title>NPV Calculated for Various Discount Rates</title>
+    <media alt="A screenshot of an Excel sheet shows the NPV calculated for various discount rates. The screenshot is the same as Figure 16.10, however, the NPV for discount rates ranging from 1% through 20% are now calculated."><image mime-type="image/png" src="../../media/FINAN_Figure_16_06_011.png"/></media>
+    </figure>
+    <para id="para-00018">Now that the various NPVs are calculated, you can create the NPV profile graph. To create the graph, begin by highlighting the discount rates and NPVs that are in cells A7 through A26 and B7 through B26. Next, go to the Insert tab in the menu at the top of Excel. Several different chart options will be available; choose Scatter. You will end up with a chart that looks like the one in Figure 16.12. You can customize the chart by renaming it, labeling the axes, and making other cosmetic changes if you like.</para>
+    <para id="para-00019">You will notice that the NPV profile crosses the <emphasis effect="italics">x</emphasis>-axis between 13% and 14%; remember that the NPV will be zero when the discount rate that is used to calculate the NPV is equal to the project’s IRR, which we previously calculated to be 13.43%. If the firm’s cost of raising funds is lower than 13.43%, the NPV profile shows that the project has a positive NPV, and the project should be accepted. Conversely, if the firm’s cost of raising funds is greater than 13.43%, the NPV of this project will be negative, and the project should not be accepted.</para>
+    <figure id="fig-00009">
+    <title>NPV Profile Created Using Excel</title>
+    <media alt="An Excel screenshot shows how to create an NPV profile graph using Excel. The screenshot is the same as Figure 16.11, however, a scatter chart is added to the screen. Within the Insert menu the scatter chart from the Scatter sub-menu is displayed."><image mime-type="image/png" src="../../media/FINAN_Figure_16_06_012.png"/></media>
+    </figure>
+    <para id="para-00020">Middleton Manufacturing can use this NPV profile to evaluate its solar panel installation project. If the managers think that the cost of attracting funds for the company is 10%, then the project has a positive NPV of $121,685 and the company should install the panels. The NPV profile shows that if the managers are underestimating the cost of funds even by 30% and it will really cost Middleton 13% to attract funds, the project is still a good project. The cost of attracting funds would have to be higher than 13.43% for the solar panel project to be rejected.</para>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00021">Excel spreadsheets provide a way to easily calculate the NPV and IRR of a project. Using Excel to create an NPV profile allows a company to see how much its estimates of the cost of raising funds can err from the true cost and have the project still be an acceptable project.</para>
+    </section>
+    <section class="cfa-institute" id="sect-00006">
+    <para id="para-00022">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfa-level-i-study-session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+    </section>
+    <section class="problem-set" id="sect-00007">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch16_Sec6_PRQ9"/></para></problem></exercise>
+    </section>
+    <section class="video-activity" id="sect-00008">
+    <title/>
+    <section id="sect-00009">
+    <title>The <term class="no-emphasis" id="term-00002">Tokyo Olympics</term></title>
+    <media alt="Tokyo-Olympics">
+    <iframe width="660" height="371.4" src="https://openstax.org/r/tokyo-olympics"/>
+    </media>
+    <para id="para-00024">The capital investment a city must undertake to host the Olympic Games is massive. Learn more about the capital investments and expenses Tokyo faced as host of the 2020 Summer Olympics and how it was impacted by a global pandemic by watching this video, How the Tokyo Olympics Became the Most Expensive Summer Games Ever.</para>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00025"><link class="os-embed" url="#exercise/FI_Ch16_Sec6_VA2Q1"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch16_Sec6_VA2Q2"/></para></problem></exercise>
+    </section>
+    </section>
+    </content>
 </document>

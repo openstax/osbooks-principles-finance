@@ -6,8 +6,185 @@
     <md:uuid>92c64210-eb9b-4312-bc65-76eec076106a</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives">
+    <title>Learning Outcomes</title>
+    <para>By the end of this section, you will be able to:</para>
+    <list>
+    <item>Explain the benefits of diversification.</item>
+    <item>Describe the relationship between risk and return for large portfolios.</item>
+    <item>Compare firm-specific and systematic risk.</item>
+    <item>Discuss how portfolio size impacts risk.</item>
+    </list>
+    </section>
+    <section>
+    <title>Diversification</title>
+    <para>So far, we have looked at the return and the volatility of an individual stock. Most investors, however, own shares of stock in multiple companies. This collection of stocks is known as a <term>portfolio</term>. Let&#8217;s explore why it is wise for investors to hold a portfolio of stocks rather than to pick just one favorite stock to own.</para>
+    <para>We saw that investors who owned DAL experienced an average annual return of 20.87&#37; but also a large standard deviation of 51.16&#37;. Investors who used all their funds to purchase DAL stock did exceptionally well during 2012&#8211;2014. But in 2020, those investors lost almost one-third of their money as <term class="no-emphasis">COVID-19</term> caused a sharp reduction in air travel worldwide. To protect against these extreme outcomes, investors practice what is called <term>diversification</term>, or owning a variety of stocks in their portfolios.</para>
+    <para>Suppose, for example, you have saved &#36;50,000 that you want to invest. If you purchased &#36;50,000 of DAL stock, you would not be diversified. Your return would depend solely on the return on DAL stock. If, instead, you used &#36;5,000 to purchase DAL stock and used the remaining &#36;45,000 to purchase nine other stocks, you would be diversifying. Your return would depend not only on DAL&#8217;s return but also on the returns of the other nine stocks in your portfolio. Investors practice diversification to manage risk.</para>
+    <para>It is akin to the saying &#8220;Don&#8217;t put all of your eggs in one basket.&#8221; If you place all of your eggs in one basket and that basket breaks, all of your eggs will fall and crack. If you spread your eggs out across a number of baskets, it is unlikely that all of the baskets will break and all of your eggs will crack. One basket may break, and you will lose the eggs in that basket, but you will still have your other eggs. The same idea holds true for investing. If you own stock in a company that does poorly, perhaps even goes out of business, you will lose the money you placed in that particular investment. However, with a diversified portfolio, you do not lose all your money because your money is spread out across a number of different companies.</para>
+    <note class="link-to-learning">
+    <title>Diversification</title>
+    <para><term class="no-emphasis">Fidelity Investments Inc.</term> is a multinational financial services firm and one of the largest asset managers in the world. In this <link url="https://openstax.org/r/educational_investors">educational video for investors</link>, Fidelity provides an explanation of what diversification is and how it impacts an investor&#8217;s portfolio.</para>
+    </note>
+    <para>Table 15.7 shows the returns of investors who placed 50&#37; of their money in DAL and the remaining 50&#37; in LUV, XOM, or CVS. Notice that the standard deviation of returns is lower for the two-stock portfolios than for DAL as an individual investment.</para>
+    <table summary=" " class="timeline-table">
+    <title>Yearly Returns for DAL Versus a Two-Stock Portfolio Containing DAL and LUV, XOM, or CVS</title>
+    <tgroup cols="5">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <thead>
+    <row>
+    <entry align="center">&nbsp;</entry>
+    <entry align="center">&nbsp;</entry>
+    <entry namest="c3" namend="c5" align="center">Two-Stock Portfolio</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center"><emphasis effect="bold">Year</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">DAL</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">DAL and LUV</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">DAL and XOM</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">DAL and CVS</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center">2011</entry>
+    <entry align="center">-35.79%</entry>
+    <entry align="center">-34.86%</entry>
+    <entry align="center">-8.56%</entry>
+    <entry align="center">-8.43%</entry>
+    </row>
+    <row>
+    <entry align="center">2012</entry>
+    <entry align="center">46.72%</entry>
+    <entry align="center">33.38%</entry>
+    <entry align="center">25.71%</entry>
+    <entry align="center">33.50%</entry>
+    </row>
+    <row>
+    <entry align="center">2013</entry>
+    <entry align="center">132.61%</entry>
+    <entry align="center">109.00%</entry>
+    <entry align="center">76.36%</entry>
+    <entry align="center">91.50%</entry>
+    </row>
+    <row>
+    <entry align="center">2014</entry>
+    <entry align="center">80.53%</entry>
+    <entry align="center">103.50%</entry>
+    <entry align="center">37.24%</entry>
+    <entry align="center">58.83%</entry>
+    </row>
+    <row>
+    <entry align="center">2015</entry>
+    <entry align="center">4.05%</entry>
+    <entry align="center">3.24%</entry>
+    <entry align="center">-4.37%</entry>
+    <entry align="center">3.47%</entry>
+    </row>
+    <row>
+    <entry align="center">2016</entry>
+    <entry align="center">-1.35%</entry>
+    <entry align="center">7.69%</entry>
+    <entry align="center">9.27%</entry>
+    <entry align="center">-9.59%</entry>
+    </row>
+    <row>
+    <entry align="center">2017</entry>
+    <entry align="center">16.23%</entry>
+    <entry align="center">24.32%</entry>
+    <entry align="center">6.21%</entry>
+    <entry align="center">5.24%</entry>
+    </row>
+    <row>
+    <entry align="center">2018</entry>
+    <entry align="center">-8.66%</entry>
+    <entry align="center">-18.47%</entry>
+    <entry align="center">-11.88%</entry>
+    <entry align="center">-7.85%</entry>
+    </row>
+    <row>
+    <entry align="center">2019</entry>
+    <entry align="center">20.38%</entry>
+    <entry align="center">19.03%</entry>
+    <entry align="center">13.81%</entry>
+    <entry align="center">18.82%</entry>
+    </row>
+    <row>
+    <entry align="center">2020</entry>
+    <entry align="center">-30.77%</entry>
+    <entry align="center">-21.90%</entry>
+    <entry align="center">-33.49%</entry>
+    <entry align="center">-17.95%</entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Average</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">22.40%</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">22.49%</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">11.03%</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">16.75%</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Std Dev</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">51.90%</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">49.11%</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">30.43%</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">35.10%</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    <caption>(data source: Yahoo! Finance)</caption>
+    </table>
+    <para>As investors diversify their portfolios, the volatility of one particular stock becomes less important. XOM has good years with above-average returns and bad years with below-average (and even negative) returns, just like DAL. But the years in which those above-average and below-average returns occur are not always the same for the two companies. In 2014, for example, the return for DAL was greater than 80&#37;, while the return for XOM was negative. On the other hand, in 2011, when DAL had a return of -35.15&#37;, XOM had a positive return. When more than one stock is held, the gains in one stock can offset the losses in another stock, washing away some of the volatility.</para>
+    <para>When an investor holds only one stock, that one stock&#8217;s volatility contributes 100&#37; to the portfolio&#8217;s volatility. When two stocks are held, the volatility of each stock contributes to the volatility of the portfolio. However, the volatility of the portfolio is not simply the average of the volatility of each stock held independently. How correlated the two stocks are, or how much they move together, will impact the volatility of the portfolio.</para>
+    <para>You will recall from our study of correlation in [link]Regression Analysis in Finance[/link] [Production: Create short link to Chapter 14] that a correlation coefficient describes how two variables move relative to each other. A correlation coefficient of 1 means that there is a perfect, positive correlation between the two variables, while a correlation coefficient of -1 means that the two variables move exactly opposite of each other. Stocks that are in the same industry will tend to be more strongly correlated than stocks that are in much different industries. During the 2011&#8211;2020 time period, the correlation coefficient for DAL and LUV was 0.87, the correlation coefficient for DAL and XOM was 0.35, and the correlation coefficient for DAL and CVS was 0.79. Combining stocks that are not perfectly positively correlated in a portfolio decreases risk.</para>
+    <para>Notice that investors who owned DAL and LUV from 2011 to 2020 would have had a lower portfolio standard deviation, but not much lower, than investors who just owned DAL. Because the correlation coefficient is less than one, the standard deviation fell. However, because the two stocks are in the same industry and exposed to many of the same economic issues, the correlation coefficient is relatively high, and combining those two stocks provides only a small decrease in risk.</para>
+    <para>This is because, as airlines, DAL and LUV face many of the same market conditions. In years when the economy is strong, the weather is good, fuel prices are low, and people are traveling a lot, both companies will do well. When something such as bad weather conditions reduces the amount of air travel for several weeks, both companies are harmed. By holding LUV in addition to DAL, investors can reduce exposure to risk that is specific to DAL (perhaps a problem that DAL has with its reservation system), but they do not reduce exposure to the risk associated with the airline industry (perhaps rising jet fuel prices). DAL and LUV tend to experience positive returns in the same years and negative returns in the same years.</para>
+    <para>On the other hand, investors who added XOM to their portfolio saw a significantly lower standard deviation than those who held just DAL. In years when jet fuel prices rise, harming the profits of both DAL and LUV, XOM is likely to see high profits. Diversifying a portfolio across firms that are less correlated will reduce the standard deviation of the portfolio more.</para>
+    <note class="link-to-learning">
+    <title>How to Build a Diversified Portfolio</title>
+    <para>TV personality, former hedge fund manager, and author Jim Cramer encourages investors to build a diversified portfolio, having no more than 20&#37; of a portfolio in one sector.<footnote>Abigail Stevenson. &#8220;Jim Cramer Shares His #1 Rule for Investing.&#8221; Make It. CNBC, March 15, 2016. https://www.cnbc.com/2016/03/03/cramer-forget-sectors-a-better-way-to-diversify.html</footnote> Watch <link url="https://openstax.org/r/CNBC_video">this CNBC video</link> to learn more about how he suggests investors can build a diversified portfolio by purchasing five to 10 stocks.</para>
+    </note>
+    <section>
+    <title>Portfolio Size and Risk</title>
+    <para>As you add more stocks to a portfolio, the volatility, or standard deviation, of the portfolio decreases. The volatility of individual assets becomes less and less important. As we discussed earlier, the risk that is associated with events related to a particular company is called <term>firm-specific risk</term>, or unsystematic, risk. Examples of unsystematic risk would include a company facing a product liability lawsuit, a company inventing a new product, or accounting irregularities being detected. Holding a portfolio of stocks means that if one company you have invested in goes out of business because of poor management, you do not lose all your savings because some of your money is invested in other companies. Portfolio diversification protects you from being significantly impacted by unsystematic risk.</para>
+    <para>However, there is a level below which the portfolio risk does not drop, no matter how diversified the portfolio becomes. The risk that never goes away is known as <term>systematic risk</term>. Systematic risk is the risk of holding the market portfolio.</para>
+    <para>We have talked about reasons why a firm&#8217;s returns might be volatile; for example, the firm discovering a new technology or having a product liability lawsuit brought against it will impact that firm specifically. There are also events that broadly impact the stock market. Changes in the Federal Reserve Bank&#8217;s monetary policy and interest rates impact all companies. Geopolitical events, major storms, and pandemics can also impact the entire market. Investors in stocks cannot avoid this type of risk. This unavoidable risk is the systematic risk that investors in stocks have. This systematic risk cannot be eliminated through diversification.</para>
+    <para>In addition, as per research conducted by Meir Statman,<footnote>Meir Statman. &#8220;How Many Stocks Make a Diversified Portfolio?&#8221; Journal of Financial and Quantitative Analysis 22, no. 3 (September 1987): 353&#8211;363. https://doi.org/10.2307/2330969</footnote> the standard deviation of a portfolio drops quickly as the number of stocks in the portfolio increases from one to two or three (see Figure 2 illustration in <link url="https://openstax.org/r/subsequent_Statman">this subsequent article by Statman</link> for context). Increasing the size of the portfolio decreases the standard deviation, and thus the risk, of the portfolio. However, as the portfolio increases in size, the amount of risk reduced by adding one more stock to the portfolio will decrease. How many stocks does an investor need for a portfolio to be well-diversified? There is not an exact number that all financial managers agree on. A portfolio of 15 highly correlated stocks will offer less benefits of diversification than a portfolio of 10 stocks with lower correlation coefficients. A portfolio that consists of American Airlines, Spirit Airlines, United Airlines, Southwest Airlines, Delta Airlines, and Jet Blue, along with a few other stocks, is not very diversified because of the heavy concentration in the airline industry. The term <emphasis effect="italics">diversified portfolio</emphasis> is a relative concept, but the average investor can create a reasonably diversified portfolio with approximately a dozen stocks.</para>
+    </section>
+    </section>
+    <section class="multiple-choice">
+    <title/>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec2_MCQ4"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec2_MCQ5"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec2_MCQ6"/></para></problem></exercise>
+    </section>
+    <section class="review-questions">
+    <title/>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec2_RVQ2"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec2_RVQ3"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec2_RVQ4"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec2_RVQ5"/></para></problem></exercise>
+    </section>
+    <section class="video-activity">
+    <title/>
+    <section>
+    <title>John Bogle and the Buy-and-Hold Strategy</title>
+    <media alt="cash-profit">
+    <iframe width="660" height="371.4" src="https://openstax.org/r/grow_with_America"/></media>
+    <p>In this video, the legendary investor Jack Bogle, founder and former CEO of Vanguard, discusses strategies for investors.</p>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec2_VA1Q1"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch15_Sec2_VA1Q2"/></para></problem></exercise>
+    </section>
+    </section>
+    </content>
+    <glossary>
+    <definition><term>diversification</term> <meaning>holding a variety of assets in a portfolio</meaning></definition>
+    <definition><term>firm-specific risk</term> <meaning>the risk that an event may impact the expected revenue or costs of a firm, thereby impacting the returns to investors; also known as diversifiable risk</meaning></definition>
+    <definition><term>portfolio</term> <meaning>a collection of owned stocks</meaning></definition>
+    <definition><term>systematic risk</term> <meaning>risk that impacts the entire market and cannot be diversified away; also known as market risk</meaning></definition>
+    </glossary>  
 </document>
