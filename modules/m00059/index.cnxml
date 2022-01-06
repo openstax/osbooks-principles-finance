@@ -6,8 +6,650 @@
     <md:uuid>91eff659-989c-4ef1-aa3a-dce3878af5db</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+      <title>Learning Outcomes</title>
+      <para id="para-00001">By the end of this section, you will be able to:</para>
+      <list id="list-00001">
+      <item>Calculate unequal payments using a financial calculator.</item>
+      <item>Calculate unequal payments using Microsoft Excel.</item>
+      </list>
+      </section>
+      <section id="sect-00002">
+      <title>Using a Financial Calculator</title>
+      <para id="para-00002">A financial calculator provides utilities to make aspects of the analysis of uneven mixed cash streams simple (see Table 9.1).</para>
+      <para id="para-00003">Earlier, we explored the future value of a seven-year mixed stream, with $2,000 being saved each year, plus an additional $10,000 in year 4 and an additional $3,000 in year 6. All cash flows and balances earn 7% per year compounded annually, and the payments are made at the start of each year. We proved that this result totals approximately $35,062.26. We begin by clearing all memory functions and then entering each cash flow as follows:</para>
+      <table summary=" " id="table-00001">
+      <title>Steps for Calculating Uneven Mixed Cash Flows<footnote id="foot-00001">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup> Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
+      <tgroup cols="5">
+      <colspec colnum="1" colname="c1" colwidth="0*"/>
+      <colspec colnum="2" colname="c2" colwidth="5*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="2*"/>
+      <colspec colnum="5" colname="c5" colwidth="0*"/>
+      <thead>
+      <row>
+      <entry align="center">Step</entry>
+      <entry align="center">Description</entry>
+      <entry align="center">Enter</entry>
+      <entry align="center" namest="c4" nameend="c5">Display</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="center">1</entry>
+      <entry align="left">Clear cash flow memory</entry>
+      <entry align="left"><span class="primary-function">CF</span> <span class="primary-function">2ND</span> <span class="secondary-function">[CLR WORK]</span></entry>
+      <entry align="left">CF0</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">2</entry>
+      <entry align="left">Enter 0 for cash flow at Time 0</entry>
+      <entry align="left"><span class="primary-function">ENTER </span>↓</entry>
+      <entry align="left">CF0</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">3</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓</entry>
+      <entry align="left">C01</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">4</entry>
+      <entry align="left">Enter first cash flow</entry>
+      <entry align="left">2000 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">C01 =</entry>
+      <entry align="right">2000.00</entry>
+      </row>
+      <row>
+      <entry align="center">5</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓ ↓</entry>
+      <entry align="left">C02</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">6</entry>
+      <entry align="left">Enter second cash flow</entry>
+      <entry align="left">2000 <span class="primary-function">ENTER</span> ↓</entry>
+      <entry align="left">C02 =</entry>
+      <entry align="right">2000.00</entry>
+      </row>
+      <row>
+      <entry align="center">7</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓ ↓</entry>
+      <entry align="left">C03</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">8</entry>
+      <entry align="left">Enter third cash flow</entry>
+      <entry align="left">2000 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">C03 =</entry>
+      <entry align="right">2000.00</entry>
+      </row>
+      <row>
+      <entry align="center">9</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓ ↓</entry>
+      <entry align="left">C04</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">10</entry>
+      <entry align="left">Enter fourth cash flow</entry>
+      <entry align="left">12000 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">C04 =</entry>
+      <entry align="right">12000.00</entry>
+      </row>
+      <row>
+      <entry align="center">11</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓ ↓</entry>
+      <entry align="left">C05</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">12</entry>
+      <entry align="left">Enter fifth cash flow</entry>
+      <entry align="left">2000 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">C05 =</entry>
+      <entry align="right">2000.00</entry>
+      </row>
+      <row>
+      <entry align="center">13</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓ ↓</entry>
+      <entry align="left">C06</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">14</entry>
+      <entry align="left">Enter sixth cash flow</entry>
+      <entry align="left">5000 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">C06 =</entry>
+      <entry align="right">5000.00</entry>
+      </row>
+      <row>
+      <entry align="center">15</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓ ↓</entry>
+      <entry align="left">C07</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">16</entry>
+      <entry align="left">Enter seventh cash flow</entry>
+      <entry align="left">2000 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">C07 =</entry>
+      <entry align="right">2000.00</entry>
+      </row>
+      <row>
+      <entry align="center">17</entry>
+      <entry align="left">Press <span class="primary-function">NPV</span></entry>
+      <entry align="left"><span class="primary-function">NPV</span></entry>
+      <entry align="left">I</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">18</entry>
+      <entry align="left">Enter interest rate</entry>
+      <entry align="left">7 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">I =</entry>
+      <entry align="right">7.00</entry>
+      </row>
+      <row>
+      <entry align="center">19</entry>
+      <entry align="left">Press down arrow to show current NPV rate</entry>
+      <entry align="left">↓</entry>
+      <entry align="left">NPV</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">20</entry>
+      <entry align="left">Press <span class="primary-function">CPT</span> to find net present value</entry>
+      <entry align="left"><span class="primary-function">CPT</span></entry>
+      <entry align="left">NPV</entry>
+      <entry align="right">20,406.56</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      <para id="para-00004">At this point, we have found the net present value of this uneven stream of payments. You will recall, however, that we are not trying to calculate present values; we are looking for future values. The TI BA II Plus™ Professional calculator does not have a similar function for future value. This means that either we can find the future value for each payment in the stream and combine them, or we can take the net present value we just calculated and easily project it forward using the following keystrokes. Note the net present value solution in Step 20 above. We will use that and then use the simpler of the two approaches to calculate future value (see Table 9.2).</para>
+      <table summary=" " id="table-00003">
+      <title>Steps for Calculating Uneven Mixed Cash Flows, Continued</title>
+      <tgroup cols="5">
+      <colspec colnum="1" colname="c1" colwidth="0*"/>
+      <colspec colnum="2" colname="c2" colwidth="5*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="2*"/>
+      <colspec colnum="5" colname="c5" colwidth="0*"/>
+      <thead>
+      <row>
+      <entry align="center">Step</entry>
+      <entry align="center">Description</entry>
+      <entry align="center">Enter</entry>
+      <entry align="center" namest="c4" nameend="c5">Display</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="center">21</entry>
+      <entry align="left">Enter <span class="primary-function">NPV</span> from Step 20</entry>
+      <entry align="left">20406.56</entry>
+      <entry align="left">PV =</entry>
+      <entry align="right">20,406.56</entry>
+      </row>
+      <row>
+      <entry align="center">22</entry>
+      <entry align="left">Enter number of compounding periods</entry>
+      <entry align="left">8 <span class="primary-function">N</span></entry>
+      <entry align="left">N =</entry>
+      <entry align="right">8.00</entry>
+      </row>
+      <row>
+      <entry align="center">23</entry>
+      <entry align="left">Enter interest rate</entry>
+      <entry align="left">7 <span class="primary-function">I/Y</span></entry>
+      <entry align="left">I/Y =</entry>
+      <entry align="right">7.00</entry>
+      </row>
+      <row>
+      <entry align="center">24</entry>
+      <entry align="left">Calculate future value</entry>
+      <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">FV</span></entry>
+      <entry align="left">FV =</entry>
+      <entry align="right">-35,062.27</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      <para id="para-00005">This is consistent with the solution we found earlier, with a difference of one cent due to rounding error.</para>
+      <para id="para-00006">We may also use the calculator to solve for the present value of a mixed cash stream. Earlier in this chapter, we asked how much money you would need today to fund the following five annual withdrawals, with each withdrawal made at the end of the year, beginning one year from now, and all remaining money earning 6% compounded annually:</para>
+      <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00002">
+      <tgroup cols="6">
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
+      <colspec colnum="6" colname="c6"/>
+      <thead>
+      <row>
+      <entry align="center">Year</entry>
+      <entry align="center">1</entry>
+      <entry align="center">2</entry>
+      <entry align="center">3</entry>
+      <entry align="center">4</entry>
+      <entry align="center">5</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="right"> </entry>
+      <entry align="right">$17,000</entry>
+      <entry align="right">$17,000</entry>
+      <entry align="right">$17,000</entry>
+      <entry align="right">$17,500</entry>
+      <entry align="right">$18,000</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      <para id="para-00007">We determined these withdrawals to have a total present value of $72,753.30. Here is an approach to a solution using a financial calculator. In this example, we will store all cash flows in the calculator and perform an operation on them as a whole (see Table 9.3). Because we will use the NPV function (to be explored in more detail in a later chapter), we enter our starting point as 0 because we do not withdraw any cash until one year after we begin.</para>
+      <table summary=" " id="table-00004">
+      <title>Steps for Calculating the Present Value of a Mixed Cash Stream</title>
+      <tgroup cols="5">
+      <colspec colnum="1" colname="c1" colwidth="0*"/>
+      <colspec colnum="2" colname="c2" colwidth="5*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="2*"/>
+      <colspec colnum="5" colname="c5" colwidth="0*"/>
+      <thead>
+      <row>
+      <entry align="center">Step</entry>
+      <entry align="center">Description</entry>
+      <entry align="center">Enter</entry>
+      <entry align="center" namest="c4" nameend="c5">Display</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="center">1</entry>
+      <entry align="left">Clear cash flow memory</entry>
+      <entry align="left"><span class="primary-function">CF</span> <span class="primary-function">2ND</span> <span class="secondary-function">[CLR WORK]</span></entry>
+      <entry align="left">CF0</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">2</entry>
+      <entry align="left">Enter 0 for cash flow at Time 0</entry>
+      <entry align="left"><span class="primary-function">ENTER</span> ↓</entry>
+      <entry align="left">CF0</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">3</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓</entry>
+      <entry align="left">C01</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">4</entry>
+      <entry align="left">Enter first cash flow</entry>
+      <entry align="left">17000 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">C01 =</entry>
+      <entry align="right">17000.00</entry>
+      </row>
+      <row>
+      <entry align="center">5</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓ ↓</entry>
+      <entry align="left">C02</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">6</entry>
+      <entry align="left">Enter second cash flow</entry>
+      <entry align="left">17000 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">C02 =</entry>
+      <entry align="right">17000.00</entry>
+      </row>
+      <row>
+      <entry align="center">7</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓ ↓</entry>
+      <entry align="left">C03</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">8</entry>
+      <entry align="left">Enter third cash flow</entry>
+      <entry align="left">17000 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">C03 =</entry>
+      <entry align="right">17000.00</entry>
+      </row>
+      <row>
+      <entry align="center">9</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓ ↓</entry>
+      <entry align="left">C04</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">10</entry>
+      <entry align="left">Enter fourth cash flow</entry>
+      <entry align="left">17500 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">C04 =</entry>
+      <entry align="right">17500.00</entry>
+      </row>
+      <row>
+      <entry align="center">11</entry>
+      <entry align="left">Move to next entry</entry>
+      <entry align="left">↓ ↓</entry>
+      <entry align="left">C05</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">12</entry>
+      <entry align="left">Enter fifth cash flow</entry>
+      <entry align="left">18000 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">C05 =</entry>
+      <entry align="right">18000.00</entry>
+      </row>
+      <row>
+      <entry align="center">13</entry>
+      <entry align="left">Press <span class="primary-function">NPV</span></entry>
+      <entry align="left"><span class="primary-function">NPV</span></entry>
+      <entry align="left">I</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">14</entry>
+      <entry align="left">Enter interest rate</entry>
+      <entry align="left">6 <span class="primary-function">ENTER</span></entry>
+      <entry align="left">I =</entry>
+      <entry align="right">6</entry>
+      </row>
+      <row>
+      <entry align="center">15</entry>
+      <entry align="left">Press down arrow to show current <span class="primary-function">NPV</span> rate</entry>
+      <entry align="left">↓</entry>
+      <entry align="left">NPV</entry>
+      <entry align="right">0.00</entry>
+      </row>
+      <row>
+      <entry align="center">16</entry>
+      <entry align="left">Press <span class="primary-function">CPT</span> to find net present value</entry>
+      <entry align="left"><span class="primary-function">CPT</span></entry>
+      <entry align="left">NPV =</entry>
+      <entry align="right">72,753.49</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      <para id="para-00008">This result, you will remember, was calculated earlier in the chapter by the formula approach.</para>
+      </section>
+      <section id="sect-00003">
+      <title>Using Microsoft Excel</title>
+      <para id="para-00009">Several of the exhibits already in this chapter have been prepared with Microsoft Excel. While full mastery of <term class="no-emphasis" id="term-00001">Excel</term> requires extensive study and practice, enough basics can be learned in two or three hours to provide the user with the ability to quickly and conveniently solve problems, including extensive financial applications. Potential employers and internship hosts have come to expect basic Excel knowledge, something to which you are exposed to in college.</para>
+      <para id="para-00010">We will demonstrate the same two problems using Excel rather than a calculator:</para>
+      <list list-type="enumerated" id="list-00002">
+      <item>The future value of a mixed cash stream for a seven-year investment</item>
+      <item>The present value of a mixed cash stream of five withdrawals that you wish to make from a fund to be established today</item>
+      </list>
+      <para id="para-00011">Beginning with the future value problem, we created a simple matrix to lay out the mixed stream of future cash flows, starting on the first day of each year, with all funds earning 7% throughout. Our goal is to determine how much money you will have saved at the end of this seven-year period.</para>
+      <para id="para-00012">This table from an earlier section is repeated for your convenience:</para>
+      <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00005">
+      <tgroup cols="9">
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
+      <colspec colnum="6" colname="c6"/>
+      <colspec colnum="7" colname="c7"/>
+      <colspec colnum="8" colname="c8"/>
+      <colspec colnum="9" colname="c9"/>
+      <thead>
+      <row>
+      <entry align="center">Year</entry>
+      <entry align="center">0</entry>
+      <entry align="center">1</entry>
+      <entry align="center">2</entry>
+      <entry align="center">3</entry>
+      <entry align="center">4</entry>
+      <entry align="center">5</entry>
+      <entry align="center">6</entry>
+      <entry align="center">7</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="left">Cash Invested</entry>
+      <entry align="right"> </entry>
+      <entry align="right">$2,000</entry>
+      <entry align="right">$2,000</entry>
+      <entry align="right">$2,000</entry>
+      <entry align="right">$12,000</entry>
+      <entry align="right">$2,000</entry>
+      <entry align="right">$5,000</entry>
+      <entry align="right">$2,000</entry>
+      </row>
+      <row>
+      <entry align="left">Cumulative Cash Flows</entry>
+      <entry align="right"> </entry>
+      <entry align="right">$2,000</entry>
+      <entry align="right">$4,000</entry>
+      <entry align="right">$6,000</entry>
+      <entry align="right">$18,000</entry>
+      <entry align="right">$20,000</entry>
+      <entry align="right">$25,000</entry>
+      <entry align="right">$27,000</entry>
+      </row>
+      <row>
+      <entry align="left">Years to Compound</entry>
+      <entry align="center"> </entry>
+      <entry align="center">7</entry>
+      <entry align="center">6</entry>
+      <entry align="center">5</entry>
+      <entry align="center">4</entry>
+      <entry align="center">3</entry>
+      <entry align="center">2</entry>
+      <entry align="center">1</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      <para id="para-00013">Figure 9.2 is an Excel matrix that parallels the table above.</para>
+      <figure id="fig-00001">
+      <title>Compound Interest Example</title>
+      <media alt="A screenshot of excel shows compound interest assuming a 7% rate of interest. The amount invested, interest received on balance, and cumulative cash flow are shown for 7 years. These are added to find the total for each line item at the end of seven years."><image mime-type="image/png" src="../../media/FINAN_Figure_09_02_002.png"/></media>
+      </figure>
+      <note class="excel-spreadsheet" id="note-00001">
+      <para id="para-00014">Download the <link url="https://openstax.org/r/chapter9-excel-exhibits">spreadsheet file</link> containing key Chapter 9 Excel exhibits.</para>
+      </note>
+      <para id="para-00015">We begin by entering the cash flow as shown in the table above. The assumed interest rate is 7%. The interest on the balance is calculated as the amount invested at the start of the year multiplied by the assumed interest rate. The cumulative cash flows of each year are calculated as follows: for year 1, the amount invested plus the interest on the balance; for years 2 through 7, the amount invested plus the interest on the balance plus the previous year’s running balance. By adding up the amount invested and the interest on the balance, you should arrive at a total of $35,062.27.</para>
+      <para id="para-00016">We can use Excel formulas to solve time value of money problems. For example, if we wanted to find the present value of the amount invested at 7% over the seven-year time period, we could use the NPV function in Excel. The dialog box for this function (Rate, Value 1, Value2) is shown in Figure 9.3.</para>
+      <figure id="fig-00002">
+      <title>Dialog Box for NPV Function, Problem 1</title>
+      <media alt="The NPV function in Excel shows drop-down menus where you can enter numerical values for Rate, Value 1, and Value 2."><image mime-type="image/png" src="../../media/FINAN_Figure_09_02_003.png"/></media>
+      </figure>
+      <para id="para-00017">The function argument Rate is the interest rate; Value1, Value2, and so on are the cash flows; and “Formula result” is the answer.</para>
+      <para id="para-00018">We can apply the NPV function to our problem as shown in Figure 9.4.</para>
+      <figure id="fig-00003">
+      <title>Applying the NPV Function, Problem 1</title>
+      <media alt="The NPV function in Excel shows the drop-down menu with the Rate cell value as open parenthesis C1 close parenthesis and Value 1 as open parenthesis C3 colon I3 close parenthesis. The formula result is $20,406.56."><image mime-type="image/png" src="../../media/FINAN_Figure_09_02_004.png"/></media>
+      </figure>
+      <para id="para-00019">Please note that the Rate cell value (C1) and the Value1 cell range (C3:I3) will vary depending on how you set up your spreadsheet.</para>
+      <para id="para-00020">The non-Excel version of the problem, using an assumed interest rate of 7%, produces the same result.</para>
+      <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00006">
+      <tgroup cols="8">
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
+      <colspec colnum="6" colname="c6"/>
+      <colspec colnum="7" colname="c7"/>
+      <colspec colnum="8" colname="c8"/>
+      <thead>
+      <row>
+      <entry align="center">Year</entry>
+      <entry align="center">1</entry>
+      <entry align="center">2</entry>
+      <entry align="center">3</entry>
+      <entry align="center">4</entry>
+      <entry align="center">5</entry>
+      <entry align="center">6</entry>
+      <entry align="center">7</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="center">Amount Invested at Start</entry>
+      <entry align="right">$2,000</entry>
+      <entry align="right">$2,000</entry>
+      <entry align="right">$2,000</entry>
+      <entry align="right">$12,000</entry>
+      <entry align="right">$2,000</entry>
+      <entry align="right">$5,000</entry>
+      <entry align="right">$2,000</entry>
+      </row>
+      <row>
+      <entry align="center">NPV</entry>
+      <entry align="right">$20,406.56</entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      <para id="para-00021">We conclude with the second problem addressed earlier in this chapter: finding the present value of an uneven stream of payments. We can use Excel’s NPV function to solve this problem as well (see Figure 9.5).</para>
+      <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00007">
+      <tgroup cols="7">
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
+      <colspec colnum="6" colname="c6"/>
+      <colspec colnum="7" colname="c7"/>
+      <thead>
+      <row>
+      <entry align="center">Year</entry>
+      <entry align="center">0</entry>
+      <entry align="center">1</entry>
+      <entry align="center">2</entry>
+      <entry align="center">3</entry>
+      <entry align="center">4</entry>
+      <entry align="center">5</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="left">Expected Amount to Be Withdrawn at End of Year</entry>
+      <entry align="right"> </entry>
+      <entry align="right">$17,000</entry>
+      <entry align="right">$17,000</entry>
+      <entry align="right">$17,000</entry>
+      <entry align="right">$17,500</entry>
+      <entry align="right">$18,000</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      <figure id="fig-00004">
+      <title>Dialog Box for NPV Function, Problem 2</title>
+      <media alt="The NPV function in Excel shows drop-down menus where you can enter numerical values for Rate, Value 1, and Value 2."><image mime-type="image/png" src="../../media/FINAN_Figure_09_02_005.png"/></media>
+      </figure>
+      <para id="para-00022">Again, Rate is the interest rate; Value1, Value 2, and so on are the cash flows; and “Formula result” is the answer.</para>
+      <para id="para-00023">Let us apply the NPV function to our problem, as shown in Figure 9.6 and Figure 9.7.</para>
+      <figure id="fig-00005">
+      <title>Applying the NPV Function, Problem 2: Excel Data</title>
+      <media alt="A screenshot shows the excel data for problem 2. The data in Row 1 are Year, 0, 1, 2, 3, 4, and 5. These are entered in cells A1 through G1. The desired withdrawals each year are listed in row 2. In years 1 through 3 17,0000 is the desired withdrawal; in year 4 it is 17,500 and in year 5 it is 18,000. These values are entered in rows C2 through G2. The interest rate is 6%. This is entered in cell B3. The NPV is 72,753.49."><image mime-type="image/png" src="../../media/FINAN_Figure_09_02_006.png"/></media>
+      </figure>
+      <figure id="fig-00006">
+      <title>Applying the NPV Function, Problem 2: Function Argument</title>
+      <media alt="The NPV function in Excel shows the drop-down menu with the Rate cell value open parenthesis B3 close parenthesis and Value 1 open parenthesis C2 colon G2 close parenthesis. The formula result is $72,753.49."><image mime-type="image/png" src="../../media/FINAN_Figure_09_02_007.png"/></media>
+      </figure>
+      <para id="para-00024">Please note that the Rate cell value (B3) and the Value1 cell range (C2:G2) will vary depending on how you set up your spreadsheet.</para>
+      <para id="para-00025">The non-Excel version of the problem produces the same result: an NPV of $72,753.49.</para>
+      <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00008">
+      <tgroup cols="7">
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
+      <colspec colnum="6" colname="c6"/>
+      <colspec colnum="7" colname="c7"/>
+      <thead>
+      <row>
+      <entry align="center">Year</entry>
+      <entry align="center">0</entry>
+      <entry align="center">1</entry>
+      <entry align="center">2</entry>
+      <entry align="center">3</entry>
+      <entry align="center">4</entry>
+      <entry align="center">5</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="left">Desired Withdrawals<newline/>Each Year</entry>
+      <entry align="right">$17,000</entry>
+      <entry align="right">$17,000</entry>
+      <entry align="right">$17,000</entry>
+      <entry align="right">$17,500</entry>
+      <entry align="right">$18,000</entry>
+      </row>
+      <row>
+      <entry align="left">Interest Rate</entry>
+      <entry align="center">0.06</entry>
+      <entry align="center"> </entry>
+      <entry align="center"> </entry>
+      <entry align="center"> </entry>
+      <entry align="center"> </entry>
+      <entry align="center"> </entry>
+      </row>
+      <row>
+      <entry align="left"><emphasis effect="bold">NPV</emphasis></entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"><emphasis effect="bold">$72,753.49</emphasis></entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+      </section>
+      <section class="section-summary" id="sect-00004">
+      <title/>
+      <para id="para-00026">This section discussed the use of two tools for managing and understanding the time value of money and its many applications when the flows of cash are unequal: the TI BA II Plus™ Professional financial calculator and the spreadsheet application Excel.</para>
+      </section>
+      <section class="cfa-institute" id="sect-00005">
+      <title/>
+      <para id="para-00027">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfa-level1-study-session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+      </section>
+      <section class="video-activity" id="sect-00006">
+      <title/>
+      <section id="sect-00007">
+      <title>Video 1: Future Value of Uneven Cash Flows</title>
+      <media alt="future-value"><iframe width="660" height="371.4" src="https://openstax.org/r/uneven-cash-flows"/></media>
+      <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00028"><link class="os-embed" url="exercise/FI_Ch9_Sec2_VA1Q1"/></para></problem></exercise>
+      <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00029"><link class="os-embed" url="exercise/FI_Ch9_Sec2_VA1Q2"/></para></problem></exercise>
+      </section>
+      </section>
+      </content>
 </document>
