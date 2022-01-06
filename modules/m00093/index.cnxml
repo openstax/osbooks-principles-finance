@@ -42,11 +42,13 @@
     </note>
     <para id="para-00011">Of course, investors seldom purchase a stock and then sell it exactly one year later. Assume that you purchased shares of <term class="no-emphasis" id="term-00008">Facebook (FB)</term> on June 1, 2020, for $228.50 per share and sold the shares three months later for $261.90. You received no dividends. In this case, your <term id="term-00009">holding period percentage return</term> is calculated as</para>
     <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>261</mn><mo>.</mo><mn>90</mn><mo>-</mo><mo>$</mo><mn>228</mn><mo>.</mo><mn>5</mn></mrow><mrow><mo>$</mo><mn>228</mn><mo>.</mo><mn>50</mn></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>1462</mn><mo> </mo><mo>=</mo><mo> </mo><mn>14</mn><mo>.</mo><mn>62</mn><mo>%</mo></math></equation>
-    <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">This 14.62% is your return for a three-month holding period. To compare them to other investment opportunities, you need to express returns on a per-year, or <emphasis effect="italics">annualized</emphasis>, basis. The holding period returned is converted to an <term id="term-00010">effective annual rate (EAR)</term> using the formula <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EAR</mi><mo> </mo><mo>=</mo><mo> </mo><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>Holding</mi><mo> </mo><mi>Period</mi><mo> </mo><mi>Percentage</mi><mo> </mo><mi>Return</mi></mrow></mfenced><mi>m</mi></msup><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn></math> where <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">m</emphasis> is the number of holding periods in a year.</para>
+    <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">This 14.62% is your return for a three-month holding period. To compare them to other investment opportunities, you need to express returns on a per-year, or <emphasis effect="italics">annualized</emphasis>, basis. The holding period returned is converted to an <term id="term-00010">effective annual rate (EAR)</term> using the formula
+    <equation id="eq-00009"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EAR</mi><mo> </mo><mo>=</mo><mo> </mo><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>Holding</mi><mo> </mo><mi>Period</mi><mo> </mo><mi>Percentage</mi><mo> </mo><mi>Return</mi></mrow></mfenced><mi>m</mi></msup><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn></math></equation>
+      <para id="para-00053" xmlns="http://cnx.rice.edu/cnxml">where <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">m</emphasis> is the number of holding periods in a year.</para>
     <para id="para-00013">There are four three-month periods in a year. So, the EAR for this investment is <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EAR</mi><mo> </mo><mo>=</mo><mo> </mo><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><msup><mrow><mn>0</mn><mo>.</mo><mn>1462</mn><mo>)</mo></mrow><mn>4</mn></msup><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>7260</mn><mo> </mo><mo>=</mo><mo> </mo><mn>72</mn><mo>.</mo><mn>60</mn><mi>%</mi></math></para>
     <para id="para-00014" xmlns="http://cnx.rice.edu/cnxml">What happens if you own a stock for more than one year? Your holding period return would have occurred over a period longer than a year, but the process to calculate the EAR is the same. Suppose you purchased shares of FB in May 2015, when it was selling for $79.30 per share. You held the stock until May 2020, when you sold it for $224.59. Your holding period percentage return would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>224</mn><mo>.</mo><mn>59</mn><mo> </mo><mo>-</mo><mo> </mo><mo>$</mo><mn>79</mn><mo>.</mo><mn>30</mn></mrow><mrow><mo>$</mo><mn>79</mn><mo>.</mo><mn>30</mn></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>383</mn><mo>.</mo><mn>32</mn><mo>%</mo></math>. You more than tripled your money, but it took you five years to do so. Your EAR, which will be smaller than this five-year holding period return rate, is calculated as</para>
     <equation id="eq-00005" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EAR</mi><mo> </mo><mo>=</mo><mo> </mo><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><msup><mrow><mn>3</mn><mo>.</mo><mn>8332</mn><mo>)</mo></mrow><mfrac><mn>1</mn><mn>5</mn></mfrac></msup><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mn>37</mn><mo>.</mo><mn>04</mn><mi>%</mi></math></equation>
-    </section>
+    
     <section id="sect-00004" xmlns="http://cnx.rice.edu/cnxml">
     <title>Average Annual Returns</title>
     <para id="para-00015">Suppose that you purchased shares of <term class="no-emphasis" id="term-00011">Delta Airlines (DAL)</term> at the beginning of 2011 for $11.19 and held the stock for 10 years before selling it for $40.21. You made <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>40</mn><mo>.</mo><mn>21</mn><mo> </mo><mo>-</mo><mo> </mo><mo>$</mo><mn>11</mn><mo>.</mo><mn>19</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>29</mn><mo>.</mo><mn>02</mn><mo> </mo></math> on your investment over a 10-year period. This is a 259.34% holding period return. The EAR for this investment is</para>
@@ -417,8 +419,8 @@
     <entry align="center"><emphasis effect="bold">Raise Product to 1/10</emphasis></entry>
     </row>
     <row>
-    <entry align="center"><emphasis effect="bold">Arithmetic Average</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">11.11%</emphasis></entry>
+    <entry align="center" colspan="2"><emphasis effect="bold">Arithmetic Average</emphasis></entry>
+    <entry align="center" colspan="2"><emphasis effect="bold">11.11%</emphasis></entry>
     <entry align="center"><emphasis effect="bold">0.0929</emphasis></entry>
     <entry align="center"><emphasis effect="bold">Subtract 1</emphasis></entry>
     </row>
@@ -435,7 +437,7 @@
     </note>
     <para id="para-00031">Both the arithmetic average return and the geometric average return are “correct” calculations. They simply answer different questions. The geometric average tells you what you actually earned per year on average, compounded annually. It is useful for calculating how much a particular investment grows over a period of time. The arithmetic average tells you what you earned in a typical year. When we are looking at the historical description of the distribution of returns and want to predict what to expect in a particular year, the arithmetic average is the relevant calculation.</para>
     </section>
-    </section>
+    
     <section id="sect-00005">
     <title>Measuring Risk</title>
     <para id="para-00032">Although the arithmetic average return for <term class="no-emphasis" id="term-00015">DAL</term> for 2011–2020 was 22.4%, there is not a year in which the return was exactly 22.4%. In fact, in some years, the return was much higher than the average, such as in 2013, when it was 132.61%. In other years, the return was negative, such as 2011, when it was -35.79%. Looking at the yearly returns in <link target-id="table-00002" document="m00093"/>, the return for DAL varies widely from year to year. In finance, this volatility of returns is considered risk.</para>
@@ -714,7 +716,7 @@
     <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00052"><link class="os-embed" url="#exercise/FI_Ch15_Sec1_VA2Q2"/></para></problem></exercise>
     </section>
     </section>
-    </content>
+    
     <glossary>
     <definition id="def-00001"><term>arithmetic average return</term> <meaning>the sum of an asset’s annual returns over a number of years divided by the number of years</meaning></definition>
     <definition id="def-00002"><term>capital gain yield</term> <meaning>the difference between the price a stock is sold for and the price that was originally paid for it divided by the price originally paid</meaning></definition>
@@ -724,4 +726,4 @@
     <definition id="def-00006"><term>holding period percentage return</term> <meaning>the gain received from holding a stock, calculated by adding the amount received when the stock is sold to any dividends earned while holding the stock, subtracting the price originally paid for the stock, then dividing the difference by the price originally paid</meaning></definition>
     <definition id="def-00007"><term>realized return</term> <meaning>the total return of an investment that occurs over a particular time period</meaning></definition>
     </glossary>
-</document>
+</para></section></section></content></document>

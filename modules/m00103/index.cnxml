@@ -36,16 +36,16 @@
     <colspec colnum="10" colname="c10"/>
     <thead>
     <row>
-    <entry>Year</entry>
-    <entry>0</entry>
-    <entry>1</entry>
-    <entry>2</entry>
-    <entry>3</entry>
-    <entry>4</entry>
-    <entry>5</entry>
-    <entry>6</entry>
-    <entry>NPV</entry>
-    <entry>IRR</entry>
+    <entry align="center">Year</entry>
+    <entry align="center">0</entry>
+    <entry align="center">1</entry>
+    <entry align="center">2</entry>
+    <entry align="center">3</entry>
+    <entry align="center">4</entry>
+    <entry align="center">5</entry>
+    <entry align="center">6</entry>
+    <entry align="center">NPV</entry>
+    <entry align="center">IRR</entry>
     </row>
     </thead>
     <tbody>
@@ -102,14 +102,14 @@
     <colspec colnum="8" colname="c8"/>
     <thead>
     <row>
-    <entry>Year</entry>
-    <entry>0</entry>
-    <entry>1</entry>
-    <entry>2</entry>
-    <entry>3</entry>
-    <entry>4</entry>
-    <entry>5</entry>
-    <entry>6</entry>
+    <entry align="center">Year</entry>
+    <entry align="center">0</entry>
+    <entry align="center">1</entry>
+    <entry align="center">2</entry>
+    <entry align="center">3</entry>
+    <entry align="center">4</entry>
+    <entry align="center">5</entry>
+    <entry align="center">6</entry>
     </row>
     </thead>
     <tbody>
@@ -169,14 +169,14 @@
     <colspec colnum="8" colname="c8"/>
     <thead>
     <row>
-    <entry>Year</entry>
-    <entry>0</entry>
-    <entry>1</entry>
-    <entry>2</entry>
-    <entry>3</entry>
-    <entry>4</entry>
-    <entry>5</entry>
-    <entry>6</entry>
+    <entry align="center">Year</entry>
+    <entry align="center">0</entry>
+    <entry align="center">1</entry>
+    <entry align="center">2</entry>
+    <entry align="center">3</entry>
+    <entry align="center">4</entry>
+    <entry align="center">5</entry>
+    <entry align="center">6</entry>
     </row>
     </thead>
     <tbody>
@@ -253,11 +253,11 @@
     <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
-    <entry>Project</entry>
-    <entry>NPV ($Millions)</entry>
-    <entry>Initial Investment ($Millions)</entry>
-    <entry>Profitability Index</entry>
-    <entry>Cumulative Investment Required ($Millions)</entry>
+    <entry align="center">Project</entry>
+    <entry align="center">NPV ($Millions)</entry>
+    <entry align="center">Initial Investment ($Millions)</entry>
+    <entry align="center">Profitability Index</entry>
+    <entry align="center">Cumulative Investment Required ($Millions)</entry>
     </row>
     </thead>
     <tbody>
@@ -324,11 +324,11 @@
     <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
-    <entry>Project</entry>
-    <entry>NPV ($Millions)</entry>
-    <entry>Initial Investment ($Millions)</entry>
-    <entry>Profitability Index</entry>
-    <entry>Cumulative Investment Required ($Millions)</entry>
+    <entry align="center">Project</entry>
+    <entry align="center">NPV ($Millions)</entry>
+    <entry align="center">Initial Investment ($Millions)</entry>
+    <entry align="center">Profitability Index</entry>
+    <entry align="center">Cumulative Investment Required ($Millions)</entry>
     </row>
     </thead>
     <tbody>
