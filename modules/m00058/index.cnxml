@@ -506,39 +506,39 @@
       <section class="multiple-choice" id="sect-00005">
       <title/>
       <para id="para-00065">General instructions: Approximations and minor differences because of rounding are acceptable. Ignore the effect of taxes. Please assume that all percentages are annual rates and compounding occurs annually unless otherwise indicated.</para>
-      <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00066"><link class="os-embed" url="exercise/FI_Ch9_Sec1_MCQ1"/></para></problem></exercise>
-      <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00067"><link class="os-embed" url="exercise/FI_Ch9_Sec1_MCQ2"/></para></problem></exercise>
-      <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00068"><link class="os-embed" url="exercise/FI_Ch9_Sec1_MCQ3"/></para></problem></exercise>
-      <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00069"><link class="os-embed" url="exercise/FI_Ch9_Sec1_MCQ4"/></para></problem></exercise>
-      <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00070"><link class="os-embed" url="exercise/FI_Ch9_Sec1_MCQ5"/></para></problem></exercise>
-      <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00071"><link class="os-embed" url="exercise/FI_Ch9_Sec1_MCQ6"/></para></problem></exercise>
-      <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00072"><link class="os-embed" url="exercise/FI_Ch9_Sec1_MCQ7"/></para></problem></exercise>
+      <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00066"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ1"/></para></problem></exercise>
+      <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00067"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ2"/></para></problem></exercise>
+      <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00068"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ3"/></para></problem></exercise>
+      <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00069"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ4"/></para></problem></exercise>
+      <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00070"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ5"/></para></problem></exercise>
+      <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00071"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ6"/></para></problem></exercise>
+      <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00072"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ7"/></para></problem></exercise>
       </section>
       <section class="review-questions" id="sect-00006">
       <title/>
-      <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00073"><link class="os-embed" url="exercise/FI_Ch9_Sec1_RVQ1"/></para></problem></exercise>
-      <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00074"><link class="os-embed" url="exercise/FI_Ch9_Sec1_RVQ2"/></para></problem></exercise>
-      <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00075"><link class="os-embed" url="exercise/FI_Ch9_Sec1_RVQ3"/></para></problem></exercise>
+      <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00073"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_RVQ1"/></para></problem></exercise>
+      <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00074"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_RVQ2"/></para></problem></exercise>
+      <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00075"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_RVQ3"/></para></problem></exercise>
       </section>
       <section class="problem-set" id="sect-00007">
       <title/>
-      <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00076"><link class="os-embed" url="exercise/FI_Ch9_Sec1_PRQ1"/></para></problem></exercise>
-      <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00077"><link class="os-embed" url="exercise/FI_Ch9_Sec1_PRQ2"/></para></problem></exercise>
-      <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00078"><link class="os-embed" url="exercise/FI_Ch9_Sec1_PRQ3"/></para></problem></exercise>
-      <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00079"><link class="os-embed" url="exercise/FI_Ch9_Sec1_PRQ4"/></para></problem></exercise>
-      <exercise id="exer-00017"><problem id="prob-00017"><para id="para-00080"><link class="os-embed" url="exercise/FI_Ch9_Sec1_PRQ5"/></para></problem></exercise>
-      <exercise id="exer-00018"><problem id="prob-00018"><para id="para-00081"><link class="os-embed" url="exercise/FI_Ch9_Sec1_PRQ6"/></para></problem></exercise>
-      <exercise id="exer-00019"><problem id="prob-00019"><para id="para-00082"><link class="os-embed" url="exercise/FI_Ch9_Sec1_PRQ7"/></para></problem></exercise>
-      <exercise id="exer-00020"><problem id="prob-00020"><para id="para-00083"><link class="os-embed" url="exercise/FI_Ch9_Sec1_PRQ8"/></para></problem></exercise>
-      <exercise id="exer-00021"><problem id="prob-00021"><para id="para-00084"><link class="os-embed" url="exercise/FI_Ch9_Sec1_PRQ9"/></para></problem></exercise>
+      <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00076"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ1"/></para></problem></exercise>
+      <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00077"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ2"/></para></problem></exercise>
+      <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00078"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ3"/></para></problem></exercise>
+      <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00079"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ4"/></para></problem></exercise>
+      <exercise id="exer-00017"><problem id="prob-00017"><para id="para-00080"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ5"/></para></problem></exercise>
+      <exercise id="exer-00018"><problem id="prob-00018"><para id="para-00081"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ6"/></para></problem></exercise>
+      <exercise id="exer-00019"><problem id="prob-00019"><para id="para-00082"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ7"/></para></problem></exercise>
+      <exercise id="exer-00020"><problem id="prob-00020"><para id="para-00083"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ8"/></para></problem></exercise>
+      <exercise id="exer-00021"><problem id="prob-00021"><para id="para-00084"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ9"/></para></problem></exercise>
       </section>
       <section class="video-activity" id="sect-00008">
       <title/>
       <section id="sect-00009">
       <title>Video 2: Calculate the Present Value for Multiple Cash Flows</title>
       <media alt="present-value"><iframe width="660" height="371.4" src="https://openstax.org/r/calculate-the-present-value"/></media>
-      <exercise id="exer-00022"><problem id="prob-00022"><para id="para-00085"><link class="os-embed" url="exercise/FI_Ch9_Sec1_VA2Q1"/></para></problem></exercise>
-      <exercise id="exer-00023"><problem id="prob-00023"><para id="para-00086"><link class="os-embed" url="exercise/FI_Ch9_Sec1_VA2Q2"/></para></problem></exercise>
+      <exercise id="exer-00022"><problem id="prob-00022"><para id="para-00085"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_VA2Q1"/></para></problem></exercise>
+      <exercise id="exer-00023"><problem id="prob-00023"><para id="para-00086"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_VA2Q2"/></para></problem></exercise>
       </section>
       </section>
       </content>
