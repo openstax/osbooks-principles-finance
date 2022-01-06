@@ -91,7 +91,7 @@
     <row>
     <entry align="center">2</entry>
     <entry align="left">Clear the cash flow worksheet</entry>
-    <entry align="left"><span class="secondary-function">2ND</span> <span class="secondary-function">[CLR WORK]</span></entry>
+    <entry align="left"><span class="primary-function">2ND</span> <span class="secondary-function">[CLR WORK]</span></entry>
     <entry align="left">CF0</entry>
     <entry align="right">0</entry>
     </row>
@@ -147,7 +147,7 @@
     <row>
     <entry align="center">7</entry>
     <entry align="left">Enter cash flow for the fourth year</entry>
-    <entry align="left">↓5000 <span class="primary-function">ENTER</span></entry>
+    <entry align="left">↓     5000 <span class="primary-function">ENTER</span></entry>
     <entry align="left">C04 =</entry>
     <entry align="right">5,000.00</entry>
     </row>
@@ -161,7 +161,7 @@
     <row>
     <entry align="center">8</entry>
     <entry align="left">Enter cash flow for the fifth year</entry>
-    <entry align="left">↓5000 <span class="primary-function">ENTER</span></entry>
+    <entry align="left">↓     5000 <span class="primary-function">ENTER</span></entry>
     <entry align="left">C05 =</entry>
     <entry align="right">5,000.00</entry>
     </row>
@@ -175,7 +175,7 @@
     <row>
     <entry align="center">9</entry>
     <entry align="left">Enter cash flow for the sixth year</entry>
-    <entry align="left">↓5000 <span class="primary-function">ENTER</span></entry>
+    <entry align="left">↓     5000 <span class="primary-function">ENTER</span></entry>
     <entry align="left">C06 =</entry>
     <entry align="right">5,000.00</entry>
     </row>
@@ -203,7 +203,7 @@
     <row>
     <entry align="center">13</entry>
     <entry align="left">Compute NPV</entry>
-    <entry align="left">↓<span class="primary-function">CPT</span></entry>
+    <entry align="left">↓     <span class="primary-function">CPT</span></entry>
     <entry align="left">NPV =</entry>
     <entry align="right">2,835.63</entry>
     </row>
