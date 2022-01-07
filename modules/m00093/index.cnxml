@@ -33,6 +33,7 @@
     <para id="para-00007">You purchased 10 shares of <term class="no-emphasis" id="term-00007">3M (MMM)</term> stock in January 2020 for $175 per share, received dividends of $5.91 per share, and sold the stock at the end of the year for $169.72 per share. Calculate your total dollar return, your dividend yield, your capital gain yield, and your total percent yield.</para>
     </problem>
     <solution id="sol-00001">
+      <para id="para-00054"><emphasis effect="bold">Solution:</emphasis></para>
     <para id="para-00008">Because you purchased 10 shares, you received <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>5</mn><mo>.</mo><mn>91</mn><mo> </mo><mo>×</mo><mo> </mo><mn>10</mn><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>59</mn><mo>.</mo><mn>10</mn></mtd></mtr></mtable></math> in dividend income. You spent <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">$175.00×10=$1,750.00</emphasis> to purchase the stock, and you sold it for <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>169</mn><mo>.</mo><mn>72</mn><mo> </mo><mo>×</mo><mo> </mo><mn>10</mn></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>1</mn><mo>,</mo><mn>697</mn><mo>.</mo><mn>20</mn><mo>.</mo></mtd></mtr></mtable></math>. Your total dollar return is</para>
     <equation id="eq-00003" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Total</mi><mo> </mo><mi>Dollar</mi><mo> </mo><mi>Return</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi>Dividend</mi><mo> </mo><mi>Income</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Capital</mi><mo> </mo><mi>Gain</mi></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>59</mn><mo>.</mo><mn>10</mn><mo>+</mo><mo>(</mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>697</mn><mo>.</mo><mn>20</mn><mo>-</mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>750</mn><mo>.</mo><mn>00</mn><mo>)</mo><mo>=</mo><mo>$</mo><mn>6</mn><mo>.</mo><mn>30</mn></mtd></mtr><mtr><mtd/><mtd/><mtd/></mtr></mtable></math></equation>
     <para id="para-00009" xmlns="http://cnx.rice.edu/cnxml">Your dividend yield is <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mfrac><mrow><mo>$</mo><mn>5</mn><mo>.</mo><mn>91</mn></mrow><mrow><mo>$</mo><mn>175</mn><mo>.</mo><mn>00</mn></mrow></mfrac><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>0</mn><mo>.</mo><mn>0338</mn></mtd></mtr></mtable></math>, or 3.38%, and your capital gain yield is <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mfrac><mrow><mo>$</mo><mn>169</mn><mo>.</mo><mn>72</mn><mo>-</mo><mo>$</mo><mn>175</mn><mo>.</mo><mn>00</mn></mrow><mrow><mo>$</mo><mn>175</mn><mo>.</mo><mn>00</mn></mrow></mfrac></mtd><mtd><mo>=</mo></mtd><mtd><mo>-</mo><mn>0</mn><mo>.</mo><mn>0302</mn></mtd></mtr></mtable></math>, or  3.02%. Your total percent return is <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3</mn><mo>.</mo><mn>38</mn><mi>%</mi><mo> </mo><mo>+</mo><mo> </mo><mo>(</mo><mo>-</mo><mn>3</mn><mo>.</mo><mn>02</mn><mi>%</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>36</mn><mi>%</mi><mo>.</mo></math>.</para>
@@ -58,103 +59,80 @@
     <equation id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>P</mi><mi>V</mi><mo> </mo><mo>×</mo><mo> </mo><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi></mrow></mfenced><mi>n</mi></msup><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi>F</mi><mi>V</mi></mtd></mtr><mtr><mtd><mn>1</mn><mo>.</mo><mn>19</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi></mrow></mfenced><mn>10</mn></msup><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>40</mn><mo>.</mo><mn>21</mn></mtd></mtr><mtr><mtd><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><msup><mrow><mn>3</mn><mo>.</mo><mn>5934</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>10</mn></mrow></msup></mtd></mtr><mtr><mtd><mi>i</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>13</mn><mo>.</mo><mn>65</mn><mi>%</mi></mtd></mtr></mtable></math></equation>
     <para id="para-00018" xmlns="http://cnx.rice.edu/cnxml">The EAR formula and the time value of money both result in a 13.65% annual return. Mathematically, the two formulas are the same; one is simply an algebraic rearrangement of the other.</para>
     <para id="para-00019">If you earned 13.65% each year, compounded for 10 years, you would have converted your $11.19 per share investment to $40.21 per share. Of course, DAL stock did not increase by exactly 13.65% each year. The returns for DAL for each year are shown in <link target-id="table-00001" document="m00093"/>. Some years, the return was much higher than 13.65%. In 2013, the return was almost 133%! Other years, the return was much lower than 13.65%; in fact, in the return was negative in four of the years.</para>
-    <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00001">
-    <title>Yearly Returns for DAL, 2011-2020: Value of Initial Investment at Each Year End</title>
-    <tgroup cols="4">
-    <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <thead>
-    <row>
-    <entry align="center">Year</entry>
-    <entry align="center">Return</entry>
-    <entry align="center">1 + Return</entry>
-    <entry align="center"> </entry>
-    </row>
-    </thead>
-    <tbody>
-    <row>
-    <entry align="center">2011</entry>
-    <entry align="center">-0.3579</entry>
-    <entry align="center">0.6421</entry>
-    <entry align="center"> </entry>
-    </row>
-    <row>
-    <entry align="center">2012</entry>
-    <entry align="center">0.4672</entry>
-    <entry align="center">1.4672</entry>
-    <entry align="center"> </entry>
-    </row>
-    <row>
-    <entry align="center">2013</entry>
-    <entry align="center">1.3261</entry>
-    <entry align="center">2.3261</entry>
-    <entry align="center"> </entry>
-    </row>
-    <row>
-    <entry align="center">2014</entry>
-    <entry align="center">0.8053</entry>
-    <entry align="center">1.8053</entry>
-    <entry align="center"> </entry>
-    </row>
-    <row>
-    <entry align="center">2015</entry>
-    <entry align="center">0.0405</entry>
-    <entry align="center">1.0405</entry>
-    <entry align="center"> </entry>
-    </row>
-    <row>
-    <entry align="center">2016</entry>
-    <entry align="center">-0.0135</entry>
-    <entry align="center">0.9865</entry>
-    <entry align="center"> </entry>
-    </row>
-    <row>
-    <entry align="center">2017</entry>
-    <entry align="center">0.1623</entry>
-    <entry align="center">1.1623</entry>
-    <entry align="center"> </entry>
-    </row>
-    <row>
-    <entry align="center">2018</entry>
-    <entry align="center">-0.0866</entry>
-    <entry align="center">0.9134</entry>
-    <entry align="center"> </entry>
-    </row>
-    <row>
-    <entry align="center">2019</entry>
-    <entry align="center">0.2038</entry>
-    <entry align="center">1.2038</entry>
-    <entry align="center"> </entry>
-    </row>
-    <row>
-    <entry align="center">2020</entry>
-    <entry align="center">-0.3077</entry>
-    <entry align="center">0.6923</entry>
-    <entry align="center"> </entry>
-    </row>
-    <row>
-    <entry align="center"><emphasis effect="bold">Arithmetic Avg</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">0.2240</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">3.5928</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">Product of (1 + Return)</emphasis></entry>
-    </row>
-    <row>
-    <entry align="center"><emphasis effect="bold">Std Dev</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">0.5190</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">1.1364</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">Product raised to 1/N</emphasis></entry>
-    </row>
-    <row>
-      <entry align="center"> </entry>
-      <entry align="center"> </entry>
-    <entry align="center"><emphasis effect="bold">0.1364</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">Geometric Average</emphasis></entry>
-    </row>
-    </tbody>
-    </tgroup>
-    </table>
+    <table summary="Some cells are left blank for visual design purposes." id="table-00001">
+<title>Yearly Returns for DAL, 2011-2020: Value of Initial Investment at Each Year End</title>
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry align="center">Year</entry>
+<entry align="center">Return</entry>
+<entry align="center">Value of Investment ($)</entry>
+</row>
+<row>
+<entry align="center"> </entry>
+<entry align="center"> </entry>
+<entry align="center">Initial investment of 11.19</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">2011</entry>
+<entry align="center">-0.3579</entry>
+<entry align="center">7.19</entry>
+</row>
+<row>
+<entry align="center">2012</entry>
+<entry align="center">0.4672</entry>
+<entry align="center">10.54</entry>
+</row>
+<row>
+<entry align="center">2013</entry>
+<entry align="center">1.3261</entry>
+<entry align="center">24.52</entry>
+</row>
+<row>
+<entry align="center">2014</entry>
+<entry align="center">0.8053</entry>
+<entry align="center">44.27</entry>
+</row>
+<row>
+<entry align="center">2015</entry>
+<entry align="center">0.0405</entry>
+<entry align="center">46.06</entry>
+</row>
+<row>
+<entry align="center">2016</entry>
+<entry align="center">-0.0135</entry>
+<entry align="center">45.44</entry>
+</row>
+<row>
+<entry align="center">2017</entry>
+<entry align="center">0.1623</entry>
+<entry align="center">52.81</entry>
+</row>
+<row>
+<entry align="center">2018</entry>
+<entry align="center">-0.0866</entry>
+<entry align="center">48.24</entry>
+</row>
+<row>
+<entry align="center">2019</entry>
+<entry align="center">0.2038</entry>
+<entry align="center">58.07</entry>
+</row>
+<row>
+<entry align="center">2020</entry>
+<entry align="center">-0.3077</entry>
+<entry align="center">40.20</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
     <para id="para-00020">Although an investment in DAL of $11.19 at the beginning of 2011 grew to $40.20 by the end of 2020, this growth was not consistent each year. The amount that the stock was worth at the end of each year is also shown in <link target-id="table-00001" document="m00093"/>. During 2011, the return for DAL was -35.79%, resulting in the value of the investment falling to <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>11</mn><mo>.</mo><mn>19</mn><mo> </mo><mo>×</mo><mo> </mo><mfenced open="[" close="]"><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mfenced><mrow><mo>-</mo><mn>0</mn><mo>.</mo><mn>3579</mn></mrow></mfenced></mrow></mfenced><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>7</mn><mo>.</mo><mn>19</mn></mtd></mtr></mtable></math>. The following year, 2012, the return for DAL was 46.72%. Therefore, the value of the investment was <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>7</mn><mo>.</mo><mn>19</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mfenced><mrow><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>4672</mn></mrow></mfenced><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>10</mn><mo>.</mo><mn>54</mn></mtd></mtr></mtable></math> at the end of 2012. This process continues each year that the stock is held.</para>
     <para id="para-00021" xmlns="http://cnx.rice.edu/cnxml">The compounded annual return derived from the EAR and time value of money formulas is also known as a <term id="term-00012">geometric average return</term>. A geometric average return is calculated using the formula</para>
     <equation id="eq-00008"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Geometric</mi><mo> </mo><mi>Average</mi><mo> </mo><mi>Return</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><msup><mrow><mfenced open="[" close="]"><mrow><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><msub><mi>R</mi><mn>1</mn></msub></mrow></mfenced><mo> </mo><mo>×</mo><mo> </mo><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><msub><mi>R</mi><mn>2</mn></msub></mrow></mfenced><mi>X</mi><mo> </mo><mo>…</mo><mo> </mo><mo> </mo><mi>X</mi><mfenced><mrow><mn>1</mn><mo>+</mo><msub><mi>R</mi><mi>N</mi></msub></mrow></mfenced></mrow></mfenced><mo> </mo></mrow><mfrac><mn>1</mn><mi>N</mi></mfrac></msup><mo>-</mo><mo> </mo><mn>1</mn></mtd></mtr></mtable></math></equation>
@@ -265,7 +243,7 @@
     <exercise class="unnumbered" id="exer-00002">
     <problem id="prob-00002">
     <para id="para-00027">The annual returns for <term class="no-emphasis" id="term-00014">CVS Health Corp. (CVS)</term> for the 10-year period of 2011–2020 are shown in <link target-id="table-00003" document="m00093"/>.</para>
-    <table summary=" " class="timeline-table" id="table-00003">
+    <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00003">
     <title>CVS Annual Returns, 2011–2020</title>
     <tgroup cols="2">
     <colspec colnum="1" colname="c1"/>
@@ -324,7 +302,8 @@
     <para id="para-00028">What was the arithmetic average return during the decade? What was the geometric average return during the decade?</para>
     </problem>
     <solution id="sol-00002">
-    <para id="para-00029">See <link target-id="table-00004" document="m00093"/> for the arithmetic mean and geometric mean calculations.</para>
+    <para id="para-00055"><emphasis effect="bold">Solution:</emphasis></para>
+      <para id="para-00029">See <link target-id="table-00004" document="m00093"/> for the arithmetic mean and geometric mean calculations.</para>
     <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00004">
     <title>Yearly Returns for CVS, 2011–2020</title>
     <tgroup cols="4">
@@ -452,6 +431,7 @@
     <para id="para-00035">You calculated the arithmetic average return for <term class="no-emphasis" id="term-00016">CVS</term> to be 11.11% for the 10-year period of 2011–2020. Calculate the standard deviation of returns for CVS for the same period (see <link target-id="table-00005" document="m00093"/>). What does this tell you about what an investor in CVS experienced in a typical year during that decade?</para>
     </problem>
     <solution id="sol-00003">
+      <para id="para-00056"><emphasis effect="bold">Solution:</emphasis></para>
     <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00005">
     <title>Standard Deviation of CVS Returns</title>
     <tgroup cols="5">
