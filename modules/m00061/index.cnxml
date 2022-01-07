@@ -36,7 +36,7 @@
     <item><term id="term-00007">Maturity date</term>: The maturity date is the expiration date of the bond, or the point in time when the term of a bond comes to an end. On the maturity date, the issuer will make the final interest or coupon payment on the bond and will also pay off its principal, or face value. In our example, the maturity date is at the end of the 20-year period.</item>
     <item><term id="term-00008">Yield to maturity (YTM)</term>: The YTM is essentially the discount rate used to bring the future cash flows of a bond into present value terms. It also equals the return that the investor will receive if the bond is held to maturity. The YTM helps quantify the overall investment value of a bond. We will explore how to compute this rate later in the chapter.</item>
     </list>
-    <para id="para-00008">Table 10.1 displays a selected listing of bonds available for purchase or sale. First, let’s review the columns so you can learn how to read this table.</para>
+    <para id="para-00008"><link target-id="table-00001" document="m00061"/> displays a selected listing of bonds available for purchase or sale. First, let’s review the columns so you can learn how to read this table.</para>
     <table summary=" " id="table-00001">
     <title>Bond Information, March 2021</title>
     <tgroup cols="8">
@@ -182,7 +182,7 @@
     <section id="sect-00005">
     <title>Government Bonds</title>
     <para id="para-00010">The safest category of bonds are short-term <term id="term-00011">US Treasury bills (T-bills)</term>. These investments are considered safe because they have the full backing of the US government and the likelihood of <term id="term-00012">default</term> (nonpayment) is remote. However, T-bills also pay the least interest due to their safety and the economics of risk and return, which state that investors must be compensated for the assumption of risk. As risk increases, so should return on investment. Treasury notes are a form of government security that have maturities ranging from one to 10 years, while Treasury bonds are long-term investments that have maturities of 10 to 30 years from their date of issue.</para>
-    <para id="para-00011"><term id="term-00013">Savings bonds</term> (see Figure 10.2) are debt securities that investors purchase to pay for certain government programs. Essentially, the purchase of a US savings bond involves the buyer loaning money to the government with a guaranteed promise that they will earn back the face value of the bond plus a certain amount of interest in the future. Savings bonds are backed by the US government, meaning that there is virtually no possibility of the buyer losing their investment. For this reason, the return on savings bonds is relatively low compared to other forms of bonds and investments.</para>
+    <para id="para-00011"><term id="term-00013">Savings bonds</term> (see <link target-id="fig-00001" document="m00061"/>) are debt securities that investors purchase to pay for certain government programs. Essentially, the purchase of a US savings bond involves the buyer loaning money to the government with a guaranteed promise that they will earn back the face value of the bond plus a certain amount of interest in the future. Savings bonds are backed by the US government, meaning that there is virtually no possibility of the buyer losing their investment. For this reason, the return on savings bonds is relatively low compared to other forms of bonds and investments.</para>
     <note class="link-to-learning" id="note-00002">
     <title>Government Bonds</title>
     <para id="para-00012">Review this <link url="https://openstax.org/r/treasury-bonds-prices">introductory video</link> about government bonds.</para>
@@ -204,7 +204,7 @@
     <section id="sect-00007">
     <title>The Global Bond Market versus the Global Stock Market</title>
     <para id="para-00017">Bonds have long been a trusted investment vehicle for many investors. Though the global fixed-income debt market remains considerably larger than the global stock market, this is not an entirely fair comparison. Bond markets include sovereign bonds, or bonds that are issues by governments, while stock markets do not. Some experts believe that a more relevant comparison is between the value of corporate bond markets only (excluding sovereign bonds) and total stock market value.</para>
-    <para id="para-00018">The chart in Figure 10.3 provides global market value information by category so that we may make our own conclusions about these markets.</para>
+    <para id="para-00018">The chart in <link target-id="fig-00002" document="m00061"/> provides global market value information by category so that we may make our own conclusions about these markets.</para>
     <figure id="fig-00002">
     <title>Global Bonds versus Stocks: Total Market Values ($Trillions), November 2020</title>
     <media alt="A bar graph shows global market value information for the Stock Market, Corporate Bonds, Sovereign Bonds, and Total Bonds. The stock market is just under 100 trillion dollars, corporate bonds are just over 60 trillion dollars, sovereign bonds are also just over 60 trillion dollars, and total bonds are just over 120 trillion dollars."><image mime-type="image/png" src="../../media/FINAN_Figure_10_01_003.png"/></media>
@@ -219,7 +219,7 @@
     </section>
     <section id="sect-00009">
     <title>The Relationship between Bond Prices and Interest Rates</title>
-    <para id="para-00022"><term id="term-00019">Bond price</term> and interest rate have an inverse relationship. When interest rates fall, bond prices rise, and vice versa (see Figure 10.4). If interest rates increase, the value of bonds sold at lower interest rates will decline. Similarly, if interest rates decline, the value of fixed-rate bonds will increase. An exception to this general rule is <term id="term-00020">floating-rate bonds</term> (often referred to as “floaters,” floating-rate notes, or FRNs).</para>
+    <para id="para-00022"><term id="term-00019">Bond price</term> and interest rate have an inverse relationship. When interest rates fall, bond prices rise, and vice versa (see <link target-id="fig-00003" document="m00061"/>). If interest rates increase, the value of bonds sold at lower interest rates will decline. Similarly, if interest rates decline, the value of fixed-rate bonds will increase. An exception to this general rule is <term id="term-00020">floating-rate bonds</term> (often referred to as “floaters,” floating-rate notes, or FRNs).</para>
     <figure id="fig-00003">
     <title>The Seesaw Effect of Bond Prices and Interest Rates</title>
     <media alt="A figure shows interest rates and bond prices balanced, as if they were on opposite ends of a seesaw. As interest rates change, the values of bonds goes up or down to maintain the balance between interest rates and bond prices."><image mime-type="image/png" src="../../media/FINAN_Figure_10_01_004.png"/></media>

@@ -20,11 +20,11 @@
     <section id="sect-00002">
     <title>Pricing a Bond in Steps</title>
     <para id="para-00002">Why do we want to learn how to price a bond? The answer goes to the heart of finance: the valuation of assets. We need to ascertain what a given bond is worth to a willing buyer and a willing seller. What is its value to these interested parties? Remember that a bond is a financial asset that a company sells to raise money from willing investors. Whether you are the company selling the bond or the investor buying the bond, you want to make sure that you are selling or buying at the best available price.</para>
-    <para id="para-00003">Let’s begin our pricing examples with the <term class="no-emphasis" id="term-00001">3M </term>Company corporate bond listed in Table 10.1 above. The table information tells us that 3M issued a series of corporate bonds that promise to pay coupons annually on September 19 and to pay back the principal, or face value, on the maturity date of September 19, 2026. While this is not specified in the table, let’s say these are 15-year corporate bonds. In that case, we know that they were issued on September 20, 2011.</para>
+    <para id="para-00003">Let’s begin our pricing examples with the <term class="no-emphasis" id="term-00001">3M </term>Company corporate bond listed in <link target-id="table-00001" document="m00061"/> above. The table information tells us that 3M issued a series of corporate bonds that promise to pay coupons annually on September 19 and to pay back the principal, or face value, on the maturity date of September 19, 2026. While this is not specified in the table, let’s say these are 15-year corporate bonds. In that case, we know that they were issued on September 20, 2011.</para>
     <para id="para-00004">The 3M bonds have an annual coupon rate of 2.25%, which indicates that the annual interest payment on the bond will be the face value (assumed to be $1,000.00 multiplied by 2.25%), or $22.50. The appropriate discount rate to apply to these future payments is the yield to bond maturity, 1.24%.</para>
     <para id="para-00005">Note that the 3M bond is selling at a premium (above par or face value) due to the fact that its coupon rate is greater than the YTM percentage. This means that the bond earns more value in interest than it loses due to discounting its cash flows to allow for the time value of money principle.</para>
     <para id="para-00006">Finally, the table tells us some of the bond’s features. For example, Standard &amp; Poor’s, an international rating agency, rates 3M Co. as A+ (high credit quality). Additionally, the bonds are designated as callable, meaning that 3M has the option of redeeming them before their maturity on September 19, 2026.</para>
-    <para id="para-00007">We can price a bond using the same methods from earlier chapters: an equation, a calculator, and a spreadsheet. Let’s start with the equation method (see Figure 10.5).</para>
+    <para id="para-00007">We can price a bond using the same methods from earlier chapters: an equation, a calculator, and a spreadsheet. Let’s start with the equation method (see <link target-id="fig-00001" document="m00062"/>).</para>
     <figure id="fig-00001">
     <title>Steps in Pricing a Bond</title>
     <media alt="Steps in Pricing a Bond. The first step is to identify the amounts and the timing future cash flows. The second step determines the discount rate. The third step is to find the present value of the lump sum principle and the annuity stream of coupons. The fourth step is to add the present value of the lump sum principle and the present value of coupons."><image mime-type="image/png" src="../../media/FINAN_Figure_10_02_005.png"/></media>
@@ -39,7 +39,7 @@
     </figure>
     <para id="para-00011">Note that in the timeline shown, annual coupon payments are made each year on September 19, and the first annual coupon payment date is September 19, 2012. The annual payments continue for 15 years, with the last payment being made on September 19, 2026. At this point, we can apply previously learned concepts: the coupon payments constitute an annuity stream, or payments of the same amount at regular intervals.</para>
     <para id="para-00012">The principal of $1,000 is also paid out at maturity. Here, we recognize another key concept: the final amount is a lump sum payment. So, we now have the promised set of future cash flows for the 3M Co. bond.</para>
-    <para id="para-00013">In Step 2, we will need to decide on a discount rate to use on these future bond cash payments. For now, we will jump to the answer and simply use the YTM of 1.24% from the bond data in Table 10.1. Later in the chapter, we will develop the concepts behind how an appropriate discount rate is determined.</para>
+    <para id="para-00013">In Step 2, we will need to decide on a discount rate to use on these future bond cash payments. For now, we will jump to the answer and simply use the YTM of 1.24% from the bond data in <link target-id="table-00001" document="m00061"/>. Later in the chapter, we will develop the concepts behind how an appropriate discount rate is determined.</para>
     <para id="para-00014">For Step 3, we now apply two equations to the set of future cash flows from the bond. This will then provide us with the present values of these cash flows, or the expected present-day value of the bond. Because we know that the coupon payments constitute an annuity stream, we can use the equation for the present value of an annuity (discussed in <link document="m00051">Time Value of Money II: Equal Multiple Payments</link>. To value the one-time par value payment, we use the equation for the present value of a lump sum payment. So, by combining these, we will have the present value of the coupon payment stream, or</para>
     <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Coupon</mi><mo> </mo><mi>Payment</mi><mo> </mo><mi>Amount</mi><mo> </mo><mo>×</mo><mo> </mo><mfrac><mfenced open="[" close="]"><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mi>n</mi></msup></mfrac></mrow></mfenced><mi>r</mi></mfrac><mo> </mo><mo>=</mo><mo> </mo><msub><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">V</mi></mrow><mi>Coupon</mi></msub></math></equation>
     <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">So, for our example above, this becomes</para>
@@ -51,13 +51,13 @@
     <para id="para-00018" xmlns="http://cnx.rice.edu/cnxml">Adding the present values of the two payment streams gives us</para>
     <equation id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>306</mn><mo>.</mo><mn>25</mn><mo> </mo><mo>+</mo><mo> </mo><mo>$</mo><mn>831</mn><mo>.</mo><mn>22</mn><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>137</mn><mo>.</mo><mn>47</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">Our bond price is $1,137.47. This bond price represents the value of the financial asset to both a willing buyer and a willing seller.</para>
-    <para id="para-00020">In this example, the willing seller is 3M Company. The willing buyer is an investor who is demanding a 1.24% yield on the investment. As per Table 10.1 above, the 3M bond sold for $1,051.20 in March 2021. However, we display the price as a percentage of the par value, so we have the displayed price as</para>
+    <para id="para-00020">In this example, the willing seller is 3M Company. The willing buyer is an investor who is demanding a 1.24% yield on the investment. As per <link target-id="table-00001" document="m00061"/> above, the 3M bond sold for $1,051.20 in March 2021. However, we display the price as a percentage of the par value, so we have the displayed price as</para>
     <equation id="eq-00008"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>051</mn><mo>.</mo><mn>20</mn></mrow><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>1</mn><mo>.</mo><mn>05120</mn><mo>,</mo><mo> </mo><mi>or</mi><mo> </mo><mn>105</mn><mo>.</mo><mn>120</mn><mi>%</mi></math></equation>
     <para id="para-00021" xmlns="http://cnx.rice.edu/cnxml">Because we round the percent of par, we do not see the cents digit in the quoted price.</para>
     </section>
     <section id="sect-00003">
     <title>Pricing a Bond Using a Financial Calculator</title>
-    <para id="para-00022">A financial calculator can also be used to solve common types of bond valuations. For example, what would be the current price (value) of a 4% coupon bond, paid semiannually, with a face value of $1,000 and a remaining term to maturity of 15 years, assuming a required YTM rate of 5%? The steps to solve this problem are shown in Table 10.2 below.</para>
+    <para id="para-00022">A financial calculator can also be used to solve common types of bond valuations. For example, what would be the current price (value) of a 4% coupon bond, paid semiannually, with a face value of $1,000 and a remaining term to maturity of 15 years, assuming a required YTM rate of 5%? The steps to solve this problem are shown in <link target-id="table-00001" document="m00062"/> below.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00001">
     <title>Calculator Steps for Bond Valuations<footnote id="foot-00001">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup> Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
     <tgroup cols="5">
@@ -220,7 +220,7 @@
     <para id="para-00035">The solution, when solving for discount rates, requires us to revisit the bond pricing formula, which is</para>
     <equation id="eq-00009"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Bond Price</mtext><mo>=</mo><mtext>Par Value</mtext><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mi>n</mi></msup></mfrac><mo> </mo><mo>+</mo><mo> </mo><mtext>Coupon Payment Amount</mtext><mo> </mo><mo>×</mo><mo> </mo><mfrac><mfenced open="[" close="]"><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mi>n</mi></msup></mfrac></mrow></mfenced><mi mathvariant="normal">r</mi></mfrac></math></equation>
     <para id="para-00036" xmlns="http://cnx.rice.edu/cnxml">Of course, with one equation, we can solve for only one unknown, and here the variable of concern is <emphasis effect="italics">r</emphasis>, which is the YTM. Unfortunately, it is difficult to isolate <emphasis effect="italics">r</emphasis> on the left-hand side of the equation. Therefore, we need to use a calculator or spreadsheet to solve for the bond’s YTM.</para>
-    <para id="para-00037">Let’s take another bond, the <term class="no-emphasis" id="term-00003">Coca-Cola</term> bond, from Table 10.1 above and again back up our time to March 2021. If the Coca-Cola bond has just been issued in March 2021, then it would be a seven-year, semiannual bond with a coupon rate of 1.0% and an original price of $952.06 at the time of issue (Table 10.3).</para>
+    <para id="para-00037">Let’s take another bond, the <term class="no-emphasis" id="term-00003">Coca-Cola</term> bond, from <link target-id="table-00001" document="m00061"/> above and again back up our time to March 2021. If the Coca-Cola bond has just been issued in March 2021, then it would be a seven-year, semiannual bond with a coupon rate of 1.0% and an original price of $952.06 at the time of issue (<link target-id="table-00003" document="m00062"/>).</para>
     <table summary=" " id="table-00003">
     <title>Overview of Coca-Cola Bond (as of March 2021)</title>
     <tgroup cols="2">
@@ -277,7 +277,7 @@
     <equation id="eq-00010"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mtext>par value</mtext></math></equation>
     <equation id="eq-00011" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>14</mn><mo> </mo><mtext>payments</mtext><mo> </mo><mo>(</mo><mi>n</mi><mo>=</mo><mn>7</mn><mo> </mo><mtext>years</mtext><mo>×</mo><mn>2</mn><mo> </mo><mtext>payments per year</mtext><mo>)</mo></math></equation>
     <equation id="eq-00012" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>5</mn><mo>.</mo><mn>00</mn><mo> </mo><mtext>coupon per period</mtext><mo> </mo><mfenced><mrow><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1</mn><mo>%</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mo>$</mo><mn>5</mn><mo>.</mo><mn>00</mn></mrow></mfenced><mo> </mo></math></equation>
-    <para id="para-00040" xmlns="http://cnx.rice.edu/cnxml">If the bond’s selling price was $952.06 at issue, we have all the information we need to determine the bond’s YTM at issue. Table 10.4 shows the steps for using a calculator to come to an answer.</para>
+    <para id="para-00040" xmlns="http://cnx.rice.edu/cnxml">If the bond’s selling price was $952.06 at issue, we have all the information we need to determine the bond’s YTM at issue. <link target-id="table-00004" document="m00062"/> shows the steps for using a calculator to come to an answer.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00004">
     <title>Calculator Steps for Bond’s Yield to Maturity at Issue</title>
     <tgroup cols="5">
@@ -344,7 +344,7 @@
     <para id="para-00042">So, the YTM of the Coca-Cola bond at issue date was 1.73%. It is important to know that unless otherwise indicated, bond yields are expressed in annual percentage terms.</para>
     <para id="para-00043">We have just demonstrated how a calculator can be used to determine the YTM or interest rate of a bond. Let’s look at a few more examples that cover the most common types of bond problems. These are determining a YTM, calculating a bond’s current price (or value), and determining a bond’s maturity period.</para>
     <para id="para-00044">First, let’s work through another example of calculating a YTM, but this time with a bond that has annual interest payments instead of semiannual coupons.</para>
-    <para id="para-00045">Let’s say you are considering buying a bond, but you want to calculate the YTM to determine if it will meet your overall return requirements. Some facts you have on the bond are that it has a $1,000 face value and that it matures in 12 years. Assume that the current price of the bond is $675 and it pays coupons annually at 3.5%. See Table 10.5 for the steps to calculate the YTM.</para>
+    <para id="para-00045">Let’s say you are considering buying a bond, but you want to calculate the YTM to determine if it will meet your overall return requirements. Some facts you have on the bond are that it has a $1,000 face value and that it matures in 12 years. Assume that the current price of the bond is $675 and it pays coupons annually at 3.5%. See <link target-id="table-00005" document="m00062"/> for the steps to calculate the YTM.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00005">
     <title>Calculator Steps for Computing Yield to Maturity</title>
     <tgroup cols="5">
@@ -412,7 +412,7 @@
     </section>
     <section id="sect-00010">
     <title>Determining Bond Price or Value Using a Calculator</title>
-    <para id="para-00048">Let’s say a friend recommends a 20-year bond that has a face value of $1,000 and a 6% annual coupon rate. If similar bonds are yielding 4% annually, what would be a fair price for this bond today? Table 10.6 shows the steps to make this determination.</para>
+    <para id="para-00048">Let’s say a friend recommends a 20-year bond that has a face value of $1,000 and a 6% annual coupon rate. If similar bonds are yielding 4% annually, what would be a fair price for this bond today? <link target-id="table-00006" document="m00062"/> shows the steps to make this determination.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00006">
     <title>Calculator Steps for Computing Present Value</title>
     <tgroup cols="5">
@@ -479,7 +479,7 @@
     </section>
     <section id="sect-00011">
     <title>Determining Bond Maturity Using a Calculator</title>
-    <para id="para-00050">Imagine you are considering investing in a bond that is selling for $820, has a face value of $1,000, and has an annual coupon rate of 3%. If the YTM is 10%, how long would it take for the bond to mature? See Table 10.7 for the steps to calculate the time to maturity.</para>
+    <para id="para-00050">Imagine you are considering investing in a bond that is selling for $820, has a face value of $1,000, and has an annual coupon rate of 3%. If the YTM is 10%, how long would it take for the bond to mature? See <link target-id="table-00007" document="m00062"/> for the steps to calculate the time to maturity.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00007">
     <title>Calculator Steps for Computing Time to Maturity</title>
     <tgroup cols="5">
@@ -547,7 +547,7 @@
     <title>Using a Calculator</title>
     <exercise class="unnumbered" id="exer-00001">
     <problem id="prob-00001">
-    <para id="para-00052">If a $1,000 face value bond is selling for $595, has 20 years until it matures, and has a YTM of 6.5%, what are the coupon rate and the periodic coupon payment of the bond? Follow the steps in Table 10.8.</para>
+    <para id="para-00052">If a $1,000 face value bond is selling for $595, has 20 years until it matures, and has a YTM of 6.5%, what are the coupon rate and the periodic coupon payment of the bond? Follow the steps in <link target-id="table-00008" document="m00062"/>.</para>
     </problem>
     <solution id="sol-00001">
     <para id="para-00053"><emphasis effect="bold">Solution:</emphasis></para>
@@ -622,7 +622,7 @@
     <title>The Coupon Rate</title>
     <para id="para-00055">The coupon rate is the rate that we use to determine the amount of a bond’s coupon payments. The issuer states the rate as an annual rate, even though payments may be made more frequently. Thus, for semiannual bonds, the most common type of corporate and government bond, the coupon payment is the par value of the bond multiplied by the annual coupon rate and then divided by the number of payments per year, 2.</para>
     <para id="para-00056">We have already seen the coupon rate. The first bond we reviewed, the 3M Co. bond, was an annual coupon bond with a coupon rate of 2.25%. Using a par value of $1,000, we determined that the annual coupon payments would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>0225</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>22</mn><mo>.</mo><mn>50</mn></math>.</para>
-    <para id="para-00057" xmlns="http://cnx.rice.edu/cnxml">For the Coca-Cola bond, we note from Table 10.3 that it has a coupon rate of 1% and is paid semiannually. Using a par value of $1,000, we can determine that the coupon payments would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1</mn><mo>%</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mo>$</mo><mn>5</mn><mo>.</mo><mn>00</mn></math>.</para>
+    <para id="para-00057" xmlns="http://cnx.rice.edu/cnxml">For the Coca-Cola bond, we note from <link target-id="table-00003" document="m00062"/> that it has a coupon rate of 1% and is paid semiannually. Using a par value of $1,000, we can determine that the coupon payments would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1</mn><mo>%</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mo>$</mo><mn>5</mn><mo>.</mo><mn>00</mn></math>.</para>
     </section>
     </section>
     <section id="sect-00013" xmlns="http://cnx.rice.edu/cnxml">
