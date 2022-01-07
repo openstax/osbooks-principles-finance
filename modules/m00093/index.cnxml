@@ -49,7 +49,7 @@
     <para id="para-00013">There are four three-month periods in a year. So, the EAR for this investment is <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EAR</mi><mo> </mo><mo>=</mo><mo> </mo><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><msup><mrow><mn>0</mn><mo>.</mo><mn>1462</mn><mo>)</mo></mrow><mn>4</mn></msup><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>7260</mn><mo> </mo><mo>=</mo><mo> </mo><mn>72</mn><mo>.</mo><mn>60</mn><mi>%</mi></math></para>
     <para id="para-00014" xmlns="http://cnx.rice.edu/cnxml">What happens if you own a stock for more than one year? Your holding period return would have occurred over a period longer than a year, but the process to calculate the EAR is the same. Suppose you purchased shares of FB in May 2015, when it was selling for $79.30 per share. You held the stock until May 2020, when you sold it for $224.59. Your holding period percentage return would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>224</mn><mo>.</mo><mn>59</mn><mo> </mo><mo>-</mo><mo> </mo><mo>$</mo><mn>79</mn><mo>.</mo><mn>30</mn></mrow><mrow><mo>$</mo><mn>79</mn><mo>.</mo><mn>30</mn></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>383</mn><mo>.</mo><mn>32</mn><mo>%</mo></math>. You more than tripled your money, but it took you five years to do so. Your EAR, which will be smaller than this five-year holding period return rate, is calculated as</para>
     <equation id="eq-00005" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EAR</mi><mo> </mo><mo>=</mo><mo> </mo><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><msup><mrow><mn>3</mn><mo>.</mo><mn>8332</mn><mo>)</mo></mrow><mfrac><mn>1</mn><mn>5</mn></mfrac></msup><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mn>37</mn><mo>.</mo><mn>04</mn><mi>%</mi></math></equation>
-    
+  </section>
     <section id="sect-00004" xmlns="http://cnx.rice.edu/cnxml">
     <title>Average Annual Returns</title>
     <para id="para-00015">Suppose that you purchased shares of <term class="no-emphasis" id="term-00011">Delta Airlines (DAL)</term> at the beginning of 2011 for $11.19 and held the stock for 10 years before selling it for $40.21. You made <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>40</mn><mo>.</mo><mn>21</mn><mo> </mo><mo>-</mo><mo> </mo><mo>$</mo><mn>11</mn><mo>.</mo><mn>19</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>29</mn><mo>.</mo><mn>02</mn><mo> </mo></math> on your investment over a 10-year period. This is a 259.34% holding period return. The EAR for this investment is</para>
@@ -416,7 +416,7 @@
     </note>
     <para id="para-00031">Both the arithmetic average return and the geometric average return are “correct” calculations. They simply answer different questions. The geometric average tells you what you actually earned per year on average, compounded annually. It is useful for calculating how much a particular investment grows over a period of time. The arithmetic average tells you what you earned in a typical year. When we are looking at the historical description of the distribution of returns and want to predict what to expect in a particular year, the arithmetic average is the relevant calculation.</para>
     </section>
-    
+  </section>    
     <section id="sect-00005">
     <title>Measuring Risk</title>
     <para id="para-00032">Although the arithmetic average return for <term class="no-emphasis" id="term-00015">DAL</term> for 2011–2020 was 22.4%, there is not a year in which the return was exactly 22.4%. In fact, in some years, the return was much higher than the average, such as in 2013, when it was 132.61%. In other years, the return was negative, such as 2011, when it was -35.79%. Looking at the yearly returns in <link target-id="table-00002" document="m00093"/>, the return for DAL varies widely from year to year. In finance, this volatility of returns is considered risk.</para>
@@ -677,7 +677,6 @@
     </note>
     </section>
     </section>
-  </section>
   <section class="section-summary" id="sect-00105">
     <title/>
     <para id="para-00120">Investors are interested in both the return they can expect to receive when making an investment and the risk associated with that investment. In finance, risk is considered the volatility of the return from time period to time period. Historical returns are measured by the arithmetic average, and the risk is measured by the standard deviation of returns.</para>
@@ -698,13 +697,12 @@
     <section class="video-activity" id="sect-00010">
     <title/>
     <section id="sect-00011">
-    <title>John Bogle and the Buy-and-Hold Strategy</title>
+    <title>How to Double Your Money in Seven Years</title>
     <media alt="cash-profit">
     <iframe width="660" height="371.4" src="https://openstax.org/r/double_your_money"/></media>
     <para id="para-00050">In this video, Jim Cramer explains how compounding can help investors build and preserve wealth. He provides suggestions for how young people can use the stock market to build financial independence.</para>
     <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00051"><link class="os-embed" url="#exercise/FI_Ch15_Sec1_VA2Q1"/></para></problem></exercise>
     <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00052"><link class="os-embed" url="#exercise/FI_Ch15_Sec1_VA2Q2"/></para></problem></exercise>
-    </section>
     </section>
     </section>
   </content>
