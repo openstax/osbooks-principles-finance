@@ -6,8 +6,96 @@
     <md:uuid>3416d4a5-0b08-4247-b0e5-3f3cc6d4b94e</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Use the yield curve to show the term structure of interest rates.</item>
+    <item>Describe and define changes in the yield curve shape.</item>
+    <item>Explain the importance of the yield curve shape.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Term Structure of Interest Rates</title>
+    <para id="para-00002">The expected yields of various bonds across different maturity periods are referred to as the <emphasis effect="italics">term structure of interest rates</emphasis>. This is because they represent interest rates for different periods of time, maturities, or terms.</para>
+    <para id="para-00003">When interest rate yields are plotted against their respective maturity periods and these plotted points are connected, the resulting line is called a <term id="term-00001">yield curve</term>. Essentially, the yield curve is a result of this plotting process and becomes a graphical representation of the term structure of interest rates. A yield curve will always be constructed by showing the value of yields (rates) on the <emphasis effect="italics">y</emphasis>-axis and maturities or time periods on the <emphasis effect="italics">x</emphasis>-axis (see Figure 10.6).</para>
+    <para id="para-00004">To create a useful graph of the yield curve, interest rate yields should be computed for all government bonds at all remaining times to maturity. For example, the yields on all government bonds with a single year remaining until maturity should be calculated. This value is then plotted on the <emphasis effect="italics">y</emphasis>-axis against the one-year term on the <emphasis effect="italics">x</emphasis>-axis. Similarly, yields on government bonds with two years remaining until maturity are calculated and plotted on the <emphasis effect="italics">y</emphasis>-axis against two years on the <emphasis effect="italics">x</emphasis>-axis, and so on, until a point of critical mass of information is reached and the resulting graph displays useful information.</para>
+    <para id="para-00005">The yield curve for government bonds is also known as the <emphasis effect="italics">risk-free yield curve</emphasis> because these securities are thought of as safe investments that are not expected to fail or default and will in all likelihood repay or otherwise meet all financial obligations made through the bond issuance.</para>
+    <figure id="fig-00001">
+    <title>A Normal Yield Curve: Long-Term Rates Are Higher Than Short-Term Rates</title>
+    <media alt="A Normal Yield Curve shows the value of yields (rates) on the y-axis and maturities or time periods on the x-axis. The yield increases as the term increases."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_007.png"/></media>
+    </figure>
+    <para id="para-00006">A normal yield curve slopes upward, with yield increasing as the term increases. This is because yields on fixed-income investments such as bonds will rise as maturity periods increase and produce greater levels of risk.</para>
+    <para id="para-00007">Corporate issuers of bonds will usually offer bond issues at higher yields that the government, which is understandable because they are potentially riskier for investors. Government securities are guaranteed by governments and have little to no chance of default or nonpayment. This is not the case for corporate bonds, where there is always a chance of default, though the likelihood of this occurring will vary by individual company or issuer as well as by bond type and term. We will discuss bond default and default risk next.</para>
+    <note class="link-to-learning" id="note-00001">
+    <title>The Yield Curve</title>
+    <para id="para-00008">Review <link url="https://openstax.org/r/introduction-to-the-yield-curve">this video</link> that introduces the concept of the yield curve.</para>
+    </note>
+    <section id="sect-00003">
+    <title>Different Shapes of the Yield Curve</title>
+    <para id="para-00009">There are two important elements to any yield curve that will define its shape: its level and its slope. The level of a yield curve directly relates to the yield rates depicted on the <emphasis effect="italics">y</emphasis>-axis of the graph (see Figure 10.7). The slope of the yield curve indicates the difference between yields on short-term and longer-term investments. The difference in yields is primarily due to investors’ expectations of the direction of interest rates in the economy and how the federal funds rate (referred to as <term id="term-00002">cash rate</term> in many countries) is uncertain and may differ significantly over time. As an example, yields on three-year bonds incorporate the expectations of investors on how bank rates might move over the next three years, combined with the uncertainty of those rates over the three-year period.</para>
+    <figure id="fig-00002">
+    <title>Changes in Yield Curve Depending on Cash Rate</title>
+    <media alt="A line graph shows the changes in Yield Curve Depending on Cash Rate. The slope of the yield curve indicates the difference between yields on short- and longer-term investments. Investments with a higher cash rate have a higher yield, although the change in yield is not as dramatic over time. Investments with a lower cash rate have a lower yield, although the change in yield is more dramatic over time."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_008.png"/></media>
+    </figure>
+    <para id="para-00010">As we briefly discussed above, a positive or normal yield curve is indicative of the investment community’s requirements for higher rates of return as financial consideration for assuming the risk of entering into fixed-income investments, such as the purchase of bond issues. Typically, as a bond term increases, so will the potential interest rate risk to the bondholder. Therefore, bonds with longer terms will usually carry higher coupon rates to make returns greater for investors. Additionally, economists have come to believe that a steep positive yield curve is a sign that investors anticipate relatively high inflation in the future and thus higher interest rates accompanied by higher investment yields over shorter (inflationary) periods of time.</para>
+    <para id="para-00011">Normal yield curves are generally observed during periods of economic expansion, when growth and inflation are increasing. In any expansionary economy, there is a greater likelihood that future interest rates will be higher than current rates. This tends to occur because investors will anticipate the Fed or the central bank raising its short-term rates in response to higher inflation rates within the economy.</para>
+    <note class="concepts-practice" id="note-00002">
+    <title>How COVID-19 Impacted the Yield Curve</title>
+    <para id="para-00012">Figure 10.8 shows the relatively normal-shaped yield curve effective in February 2021.</para>
+    <figure id="fig-00003">
+    <title>Yield Curve in February 2021</title>
+    <media alt="A line graph shows yield increasing as the length of time to maturity also increases."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_009.png"/></media>
+    </figure>
+    <para id="para-00013">A yield curve with an inverted (downward-sloping) shape is considered unusual and will occur when long-term rates are lower than short-term rates. This causes the yield curve to assume an inverted shape with a negative slope. An inverted yield curve has historically been observed as a prelude to a general decline in economic activity and interest rate levels. In some countries, such as the United States, an inverted yield curve has been associated with upcoming recession and economic contraction.</para>
+    <para id="para-00014">This may occur because central banks, such as the Federal Reserve in the United States, will often attempt to stimulate a stagnant economy by reducing interest rates. Essentially, the potential actions of the central bank to improve the economy have the effect of lowering overall money rates with the economy, which is exactly what investors anticipated would happen and why the yield curve was inverted to begin with.</para>
+    <para id="para-00015">The yield curve was considered normal with an upward slope in August 2018, as shown in Figure 10.9, but the curve inverted in March 2019 as yields on short-term bonds exceeded those of longer-term bonds, resulting in concerns surrounding impending recession and other economic problems. This inverted shape to the yield curve continued into 2020, as evidenced in Figure 10.10.</para>
+    <figure id="fig-00004">
+    <title>The Economy Shifts to an Inverted Yield Curve</title>
+    <media alt="A line graph plots three lines comparing interest rates to maturity terms. In the line labelled August 13, 2018, interest rates increase as the term increases. In the lines labelled July 12, 2019 and August 13, 2019, interest rates stay flat or crop as the term increases, until around the 5 year term, where interest rates begin to rise with the term lengths."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_010.png"/></media>
+    <caption>(data source: US Department of the Treasury, Resource Center, Daily Treasury Yield Curve Rates)</caption>
+    </figure>
+    <para id="para-00016">Yield curves constructed on different days in early 2020 appeared similar to the examples below. Again, these are obviously not normal yield structures. As a specific example, note on the February 21, 2020, curve that rates on five-year securities are lower than those of one-year and even three-month securities.</para>
+    <figure id="fig-00005">
+    <title>Elements of Inversion in Recent Yield Curves</title>
+    <media alt="A line graph shows an inverted yield curve in February 2021, where 5 year securities have a lower interest rate than 1 year securities."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_011.png"/></media>
+    <caption>(data source: US Department of the Treasury, Resource Center, Daily Treasury Yield Curve Rates)</caption>
+    </figure>
+    <para id="para-00017">This inverted yield curve signaled the beginning of a recessionary period in the United States, which was compounded by the <term class="no-emphasis" id="term-00003">COVID-19</term> pandemic and the shuttering of many restaurants and other publicly frequented businesses.</para>
+    <para id="para-00018">In March and April 2020, the US economy experienced a significant decline. In fact, most economic indicators dropped so badly that the National Bureau of Economic Research’s <term id="term-00004">Business Cycle Dating Committee</term>, the US agency that officially declares recessions, was required to intervene. It later determined that February 2020 was the peak and that the United States was indeed in the midst of a full-blown recession.<footnote id="foot-00001">National Bureau of Economic Research. “Business Cycle Dating Committee Announcement June 8, 2020.” <emphasis effect="italics">NBER News</emphasis>. June 8, 2020. https://www.nber.org/news/business-cycle-dating-committee-announcement-june-8-2020</footnote></para>
+    <para id="para-00019">The recession declaration process by the committee is completed over the course of four months, but in this instance, it only took a total of 15 weeks for the committee to make its declaration. This remains the fastest declaration by the committee on record since the founding of the National Bureau of Economic Research (NBER) in 1978.<footnote id="foot-00002">Jeffrey Frankel. “The US Is Officially in Recession Thanks to the Corona Virus Crisis.” <emphasis effect="italics">The Belfer Center for Science and International Affairs</emphasis>. Harvard Kennedy School, June 16, 2020. https://www.belfercenter.org/publication/us-officially-recession-thanks-corona-virus-crisis</footnote></para>
+    <para id="para-00020">In July 2021, the committee declared that the economy had reached a trough in April 2020, marking the end of the recession of the early 2020s and making it the shortest US recession on record as well as the most quickly identified one.<footnote id="foot-00003">National Bureau of Economic Research. “Business Cycle Dating Committee Announcement July 19, 2021.” <emphasis effect="italics">NBER News</emphasis>. July 19, 2021. https://www.nber.org/news/business-cycle-dating-committee-announcement-july-19-2021</footnote></para>
+    <para id="para-00021">(sources: www.nytimes.com/2019/11/08/business/yield-curve-recession-indicator.html; www.nber.org/news/business-cycle-dating-committee-announcement-june-8-2020; fredblog.stlouisfed.org/2020/11/are-we-still-in-a-recession/)</para>
+    </note>
+    <para id="para-00022">A flat shape for the yield curve occurs when there is not a great deal of difference between short-term and long-term yields (see Figure 10.11). A flat curve is usually not long lasting and is often observed when the curve is transitioning between a normal and an inverted shape, or vice versa.</para>
+    <para id="para-00023">A flat yield curve has also been observed as a result of low interest rate levels or some types of unconventional monetary policy.</para>
+    <figure id="fig-00006">
+    <title>Graph Depicting Normal, Flat, and Inverted Yield Curves</title>
+    <media alt="Graph depicting Normal, Flat, and Inverted Yield Curves. A flat shape for the yield curve shows no change between yield and term to maturity. A normal yield curve shows the yield increasing as the maturity rate increases. An inverted yield curve shows the yield decreasing as the maturity rate increases."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_012.png"/></media>
+    </figure>
+    </section>
+    </section>
+    <section id="sect-00004">
+    <title>Why Is the Yield Curve Important?</title>
+    <para id="para-00024">Market technicians, brokers, and investment analysts will study the yield curve in great detail by keeping track of its many changes and movements. This is because of the overall importance of the yield curve as an economic indicator and how it can be representative of the ideas, attitudes, and bond market expectations of individuals as well as large institutional investors that exert significant influence on investment markets and the economy as a whole.</para>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00025">When interest rate yields are plotted against their respective maturity periods and these plotted points are connected, the resulting line is called the yield curve. The yield curve is a graphical representation of the term structure of interest rates. A yield curve always shows the value of yields (rates) on the <emphasis effect="italics">y</emphasis>-axis and maturities or time periods on the <emphasis effect="italics">x</emphasis>-axis.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch10_Sec3_MCQ5"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch10_Sec3_MCQ13"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00007">
+    <title/>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00028"><link class="os-embed" url="#exercise/FI_Ch10_Sec3_RVQ4"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>Business Cycle Dating Committee</term> <meaning>a subdivision of the National Bureau of Economic Research (NBER), the US government agency that maintains a chronology of US business cycles</meaning></definition>
+    <definition id="def-00002"><term>cash rate</term> <meaning>the interest rate that a central bank, such as the Reserve Bank of Australia or the US Federal Reserve System, will charge commercial banks for loans; also known as the bank rate or the base interest rate</meaning></definition>
+    <definition id="def-00003"><term>yield curve</term> <meaning>a line that plots yields (interest rates) of bonds having equal credit quality but differing maturity dates; gives an idea of future interest rate changes and economic activity</meaning></definition>
+    </glossary>
 </document>

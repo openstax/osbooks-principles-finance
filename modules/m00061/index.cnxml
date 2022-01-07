@@ -6,8 +6,273 @@
     <md:uuid>41ad1b18-407f-4efe-b4ba-70ea22ce2a51</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>List and define the basic characteristics of bonds.</item>
+    <item>List and describe the various types of bonds available.</item>
+    <item>Explain how a bond price is inversely related to its return (yield).</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Bonds as Investments</title>
+    <para id="para-00002">One way to look at bond investments is to consider the fact that any investor who purchases a bond is essentially buying a future cash flow stream that the bond issuer (or borrower) promises to make as per agreement.</para>
+    <para id="para-00003">Because bonds provide a set amount of cash inflow to their owners, they are often called fixed-income securities. Thus, future cash flows from the bond are clearly stated per agreement and fixed when the bond sale is completed.</para>
+    <para id="para-00004">Bonds are a basic form of investment that typically include a straightforward financial agreement between issuer and purchaser. Nevertheless, the terminology surrounding bonds is unique and rather extensive. Much of the specialized vocabulary surrounding bonds is designed to convey the concept that a bond is similar to other financial instruments in that it is an investment that can be bought and sold. Much of this unique terminology will be covered later in this chapter, but we can set out some of the basics here with an example.</para>
+    <para id="para-00005">Let’s say that you buy a $1,000 bond that was issued by Apple Inc. at 5% interest, paid annually, for 20 years. Here, you are the lender, and Apple Inc. is the borrower.</para>
+    <note class="link-to-learning" id="note-00001">
+    <title>Informational Basics on Bonds</title>
+    <para id="para-00006"><link url="https://openstax.org/r/the-basics-of-bonds">This video</link> from <emphasis effect="italics"><term class="no-emphasis" id="term-00001">MoneyWeek</term></emphasis> editor Tim <term class="no-emphasis" id="term-00002">Bennett</term> provides information about the basics of bonds—what they are, how they work, why companies and governments issue them, and why investors might buy them.</para>
+    </note>
+    </section>
+    <section id="sect-00003">
+    <title>Basic Terminology</title>
+    <para id="para-00007">We need to know the following basic bond terms and pricing in order to apply the necessary time value of money equation to value this <term class="no-emphasis" id="term-00003">Apple</term>, Inc. bond issue:</para>
+    <list id="list-00002">
+    <item><term id="term-00004">Par value</term>: A bond will always clearly state its par value, also called face amount or face value. This is equal to the principal amount that the issuer will repay at the end of the bond term or maturity date. In our example, the par value of the bond is $1,000.</item>
+    <item><term id="term-00005">Coupon rate</term>: This is the interest rate that is used to calculate periodic interest, or coupon payments, on the bond. It is important to note that coupon rates are always expressed in annual terms, even if coupon payments are scheduled for different periods of time. The most common periods for coupon payments other than annual are semiannual and quarterly. Coupon rates will typically remain unchanged for the entire life of the bond. In our example, the coupon rate is the 5% interest rate.</item>
+    <item><term id="term-00006">Coupon payment</term>: This refers to the regular interest payment on the bond. The coupon or periodic interest payment is determined by multiplying the par value of the bond by the coupon rate. It is important to note that no adjustment needs to be made to the coupon rate if the bond pays interest annually. However, if a bond pays interest on a semiannual or quarterly basis, the coupon rate will have to be divided by 2 or 4, respectively, to convert the stated annual rate to the correct periodic rate. In our example, coupons are paid annually, so the periodic or annual interest that is paid is equal to <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>05</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>50</mn></math>. You may notice that because these payments are the same amount and made at regular intervals, they constitute an annuity stream (refer to <link document="m00057" xmlns="http://cnx.rice.edu/cnxml">Time Value of Money II: Equal Multiple Payments</link>.</item>
+    <item><term id="term-00007">Maturity date</term>: The maturity date is the expiration date of the bond, or the point in time when the term of a bond comes to an end. On the maturity date, the issuer will make the final interest or coupon payment on the bond and will also pay off its principal, or face value. In our example, the maturity date is at the end of the 20-year period.</item>
+    <item><term id="term-00008">Yield to maturity (YTM)</term>: The YTM is essentially the discount rate used to bring the future cash flows of a bond into present value terms. It also equals the return that the investor will receive if the bond is held to maturity. The YTM helps quantify the overall investment value of a bond. We will explore how to compute this rate later in the chapter.</item>
+    </list>
+    <para id="para-00008">Table 10.1 displays a selected listing of bonds available for purchase or sale. First, let’s review the columns so you can learn how to read this table.</para>
+    <table summary=" " id="table-00001">
+    <title>Bond Information, March 2021</title>
+    <tgroup cols="8">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <colspec colnum="6" colname="c3"/>
+    <colspec colnum="7" colname="c4"/>
+    <colspec colnum="8" colname="c5"/>
+    <thead>
+    <row>
+    <entry align="center">Issuer</entry>
+    <entry align="center">Bond Type</entry>
+    <entry align="center">Current Price %</entry>
+    <entry align="center">Callable?</entry>
+    <entry align="center">Coupon Rate %</entry>
+    <entry align="center">Maturity Date</entry>
+    <entry align="center">Yield%</entry>
+    <entry align="center">Rating</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="left">3M Co.</entry>
+    <entry align="center">Corp</entry>
+    <entry align="right">105.120</entry>
+    <entry align="center">Yes</entry>
+    <entry align="center">2.25</entry>
+    <entry align="center">9/19/2026</entry>
+    <entry align="right">1.240</entry>
+    <entry align="center">A+</entry>
+    </row>
+    <row>
+    <entry align="left">Alteryx</entry>
+    <entry align="center">Corp</entry>
+    <entry align="right">98.818</entry>
+    <entry align="center">No</entry>
+    <entry align="center">1.00</entry>
+    <entry align="center">8/1/2026</entry>
+    <entry align="right">1.206</entry>
+    <entry align="center">None</entry>
+    </row>
+    <row>
+    <entry align="left">Anheuser-Busch Cos. LLC</entry>
+    <entry align="center">Corp</entry>
+    <entry align="right">125.319</entry>
+    <entry align="center">Yes</entry>
+    <entry align="center">5.95</entry>
+    <entry align="center">1/25/2033</entry>
+    <entry align="right">3.340</entry>
+    <entry align="center">BBB+</entry>
+    </row>
+    <row>
+    <entry align="left">City of Chicago</entry>
+    <entry align="center">Muni</entry>
+    <entry align="right">103.164</entry>
+    <entry align="center">Yes</entry>
+    <entry align="center">5.00</entry>
+    <entry align="center">1/1/2033</entry>
+    <entry align="right">1.030</entry>
+    <entry align="center">BBB+</entry>
+    </row>
+    <row>
+    <entry align="left">Coca-Cola Co.</entry>
+    <entry align="center">Corp</entry>
+    <entry align="right">95.206</entry>
+    <entry align="center">Yes</entry>
+    <entry align="center">1.00</entry>
+    <entry align="center">3/15/2028</entry>
+    <entry align="right">1.731</entry>
+    <entry align="center">A+</entry>
+    </row>
+    <row>
+    <entry align="left">DuPont De Nemours Inc.</entry>
+    <entry align="center">Corp</entry>
+    <entry align="right">100.815</entry>
+    <entry align="center">Yes</entry>
+    <entry align="center">2.17</entry>
+    <entry align="center">5/1/2023</entry>
+    <entry align="right">1.775</entry>
+    <entry align="center">BBB+</entry>
+    </row>
+    <row>
+    <entry align="left">Exxon Mobil Corp.</entry>
+    <entry align="center">Corp</entry>
+    <entry align="right">107.325</entry>
+    <entry align="center">Yes</entry>
+    <entry align="center">3.18</entry>
+    <entry align="center">3/15/2024</entry>
+    <entry align="right">0.483</entry>
+    <entry align="center">AA-</entry>
+    </row>
+    <row>
+    <entry align="left">Ford Motor Co.</entry>
+    <entry align="center">Corp</entry>
+    <entry align="right">114.880</entry>
+    <entry align="center">No</entry>
+    <entry align="center">7.13</entry>
+    <entry align="center">11/15/2025</entry>
+    <entry align="right">3.623</entry>
+    <entry align="center">BB+</entry>
+    </row>
+    <row>
+    <entry align="left">Nordstrom Inc.</entry>
+    <entry align="center">Corp</entry>
+    <entry align="right">112.905</entry>
+    <entry align="center">No</entry>
+    <entry align="center">6.95</entry>
+    <entry align="center">3/15/2028</entry>
+    <entry align="right">4.758</entry>
+    <entry align="center">BB+</entry>
+    </row>
+    <row>
+    <entry align="left">Tennessee Energy Acquisition Corp.</entry>
+    <entry align="center">Muni</entry>
+    <entry align="right">102.168</entry>
+    <entry align="center">No</entry>
+    <entry align="center">5.25</entry>
+    <entry align="center">9/1/2021</entry>
+    <entry align="right">0.451</entry>
+    <entry align="center">BBB+</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    <caption>(source: FINRA-Markets.Morningstar.com)</caption>
+    </table>
+    <list id="list-00003">
+    <item><emphasis effect="bold">Column 1: Issuer.</emphasis> The first column shows the company, city, or state issuing the bond. This bond listing includes two municipal issuers (<term class="no-emphasis" id="term-00009">City of Chicago</term> and <term class="no-emphasis" id="term-00010">Tennessee Energy</term>) as well as several corporate issuers.</item>
+    <item><emphasis effect="bold">Column 2: Bond Type.</emphasis> This describes the issue of the bond and indicates whether it is a corporation or a municipality.</item>
+    <item><emphasis effect="bold">Column 3: Current Price.</emphasis> The third column shows the price as a percent of par value. It is the price someone is willing to pay for the bond in today’s market. We quote the price in relation to $100. For example, the Nordstrom bond is selling for 112.905% of its par value, or $112.905 per $100.00 of par value. If this bond has a $1,000.00 par value, it will sell for <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>1</mn><mo>,</mo><mn>129</mn><mo>.</mo><mn>05</mn><mo> </mo><mo>(</mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>12905</mn><mo>)</mo></math>. Note: Throughout this chapter, we use $1,000 as the par value of a bond because it is the most common par value for corporate bonds.</item>
+    <item xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">Column 4: Callable?</emphasis> This column states whether or not the bond has a call feature (if it can be retired or ended before its normal maturity date).</item>
+    <item><emphasis effect="bold">Column 5: Coupon Rate.</emphasis> The fifth column states the coupon rate, or annual interest rate, of each bond.</item>
+    <item><emphasis effect="bold">Column 6: Maturity Date.</emphasis> This column shows the maturity date of the issue—the date on which the corporation will pay the final interest installment and repay the principal.</item>
+    <item><emphasis effect="bold">Column 7: Yield.</emphasis> The seventh column indicates each bond’s yield to maturity—the yield or investment return that you would receive if you purchased the bond today at the price listed in column 3 and held the bond to maturity. We will use the YTM as the discount rate in the bond pricing formula.</item>
+    <item><emphasis effect="bold">Column 8: Rating.</emphasis> The final column gives the bond rating, a grade that indicates credit quality. As we progress through this chapter, we will examine prices, coupon rates, yields, and bond ratings in more detail</item>
+    </list>
+    </section>
+    <section id="sect-00004">
+    <title>Types of Bonds</title>
+    <para id="para-00009">There are three primary categories of bonds, though the specifics of these different types of bond can vary depending on their issuer, length until maturity, interest rate, and risk.</para>
+    <section id="sect-00005">
+    <title>Government Bonds</title>
+    <para id="para-00010">The safest category of bonds are short-term <term id="term-00011">US Treasury bills (T-bills)</term>. These investments are considered safe because they have the full backing of the US government and the likelihood of <term id="term-00012">default</term> (nonpayment) is remote. However, T-bills also pay the least interest due to their safety and the economics of risk and return, which state that investors must be compensated for the assumption of risk. As risk increases, so should return on investment. Treasury notes are a form of government security that have maturities ranging from one to 10 years, while Treasury bonds are long-term investments that have maturities of 10 to 30 years from their date of issue.</para>
+    <para id="para-00011"><term id="term-00013">Savings bonds</term> (see Figure 10.2) are debt securities that investors purchase to pay for certain government programs. Essentially, the purchase of a US savings bond involves the buyer loaning money to the government with a guaranteed promise that they will earn back the face value of the bond plus a certain amount of interest in the future. Savings bonds are backed by the US government, meaning that there is virtually no possibility of the buyer losing their investment. For this reason, the return on savings bonds is relatively low compared to other forms of bonds and investments.</para>
+    <note class="link-to-learning" id="note-00002">
+    <title>Government Bonds</title>
+    <para id="para-00012">Review this <link url="https://openstax.org/r/treasury-bonds-prices">introductory video</link> about government bonds.</para>
+    </note>
+    <figure id="fig-00001">
+    <title>US Savings Bond</title>
+    <media alt="$50 Series EE US Savings Bond."><image mime-type="image/png" src="../../media/FINAN_Figure_10_01_002.jpg"/></media>
+    <caption>(credit: “$50 Series EE US Savings Bond” by United States Department of the Treasury/Wikimedia Commons, Public Domain)</caption>
+    </figure>
+    <para id="para-00013"><term id="term-00014">Municipal bonds (munis)</term> are issued by cities, states, and localities or their agencies. Munis typically will return a little more than Treasury bills while being just a bit riskier.</para>
+    </section>
+    <section id="sect-00006">
+    <title>Corporate Bonds</title>
+    <para id="para-00014">Corporate bonds are issued by companies. They carry more risk than government bonds because corporations can’t raise taxes to pay for their bond issues. The risk and return of a corporate bond will depend on how creditworthy the company is. The highest-paying and highest-risk corporate bonds are often referred to as non-investment grade or, more commonly, <term id="term-00015">junk bonds</term>.</para>
+    <para id="para-00015">Corporate bonds that do not make regular coupon payments to their owners are referred to as <term id="term-00016">zero-coupon bonds</term>. These bonds are issued at a deep discount from their par values and will repay the full par value at their maturity date. The difference between what the investor spends on them in original purchase price and the par value paid at maturity will represent the investor’s total dollar value return.</para>
+    <para id="para-00016"><term id="term-00017">Convertible bonds</term> are similar to other types of corporate bonds but have a feature that allows for their conversion into a predetermined number of common stock shares. The conversion from the bond to stock can be done at certain times during the bond’s life, usually at the discretion of the bondholder.</para>
+    </section>
+    </section>
+    <section id="sect-00007">
+    <title>The Global Bond Market versus the Global Stock Market</title>
+    <para id="para-00017">Bonds have long been a trusted investment vehicle for many investors. Though the global fixed-income debt market remains considerably larger than the global stock market, this is not an entirely fair comparison. Bond markets include sovereign bonds, or bonds that are issues by governments, while stock markets do not. Some experts believe that a more relevant comparison is between the value of corporate bond markets only (excluding sovereign bonds) and total stock market value.</para>
+    <para id="para-00018">The chart in Figure 10.3 provides global market value information by category so that we may make our own conclusions about these markets.</para>
+    <figure id="fig-00002">
+    <title>Global Bonds versus Stocks: Total Market Values ($Trillions), November 2020</title>
+    <media alt="A bar graph shows global market value information for the Stock Market, Corporate Bonds, Sovereign Bonds, and Total Bonds. The stock market is just under 100 trillion dollars, corporate bonds are just over 60 trillion dollars, sovereign bonds are also just over 60 trillion dollars, and total bonds are just over 120 trillion dollars."><image mime-type="image/png" src="../../media/FINAN_Figure_10_01_003.png"/></media>
+    <caption>(data source: Nasdaq)</caption>
+    </figure>
+    <para id="para-00019">While the total value of bond markets continues to exceed that of stocks, the prevailing trend over the past several years has been that stock markets are gaining in terms of total market size. The primary reason for this is that stocks have traditionally outperformed bonds in terms of return on investment over extended periods of time and are likely to continue to do so. This makes them more attractive to investors, despite the higher risk associated with stock.</para>
+    </section>
+    <section id="sect-00008">
+    <title>The Two Sides of a Bond Investment</title>
+    <para id="para-00020">There are essentially two sides to a bond investment, meaning the bondholder will receive two types of cash inflow from the bond investment over its term. These are the payment of the par value at maturity (often referred to as payment of the face value of the bond at term end), and the periodic coupon payments (also called <term id="term-00018">interest income</term>) from the bond. These coupon payments are contractually determined and clearly indicated in the bond issue documentation received by the bondholder upon purchase.</para>
+    <para id="para-00021">As a result of these two types of inflow, bond valuation requires two different time value of money techniques—specifically, present value calculations—to be computed separately and then added together.</para>
+    </section>
+    <section id="sect-00009">
+    <title>The Relationship between Bond Prices and Interest Rates</title>
+    <para id="para-00022"><term id="term-00019">Bond price</term> and interest rate have an inverse relationship. When interest rates fall, bond prices rise, and vice versa (see Figure 10.4). If interest rates increase, the value of bonds sold at lower interest rates will decline. Similarly, if interest rates decline, the value of fixed-rate bonds will increase. An exception to this general rule is <term id="term-00020">floating-rate bonds</term> (often referred to as “floaters,” floating-rate notes, or FRNs).</para>
+    <figure id="fig-00003">
+    <title>The Seesaw Effect of Bond Prices and Interest Rates</title>
+    <media alt="A figure shows interest rates and bond prices balanced, as if they were on opposite ends of a seesaw. As interest rates change, the values of bonds goes up or down to maintain the balance between interest rates and bond prices."><image mime-type="image/png" src="../../media/FINAN_Figure_10_01_004.png"/></media>
+    </figure>
+    <para id="para-00023">A floating-rate note is a form of debt instrument that is similar to a standard fixed-rate bond but has a variable interest rate. Rates for floating-rate bonds are typically tied to a benchmark interest rate that exists in the economy. Common benchmark rates include the <term id="term-00021">US Treasury note rate</term>, the <term id="term-00022">Federal Reserve funds rate (federal funds rate)</term>, the <term id="term-00023">London Interbank Offered Rate (LIBOR)</term>, and the <term id="term-00024">prime rate</term>.</para>
+    <para id="para-00024">So, investors who decide to purchase normal (fixed rate) bonds may not be thrilled to hear that the economy is signaling inflation and that interest rates are forecasted to rise. These bond investors are aware that when interest rates rise, their bond investments will lose value. This is not the case with floating- or variable-rate bonds.</para>
+    <para id="para-00025">Bonds with very low coupon rates are referred to as <term id="term-00025">deep discount bonds</term>. Of course, the bond that has the greatest discount is the zero-coupon bond, with a coupon rate of zero. The smaller the coupon rate, the greater the change in price when interest rates move.</para>
+    <note class="link-to-learning" id="note-00003">
+    <title>Relationship between Bond Prices and Interest Rates</title>
+    <para id="para-00026">Review <link url="https://openstax.org/r/relationship-bond-prices">this video</link> explaining the relationship between bond prices and interest rates within financial and capital markets.</para>
+    </note>
+    </section>
+    <section class="section-summary" id="sect-00010">
+    <title/>
+    <para id="para-00027">Bonds are typically a basic form of investment that entails a straightforward financial agreement between issuer and purchaser. There are three primary categories of bonds: government bonds, corporate bonds, and convertible bonds. These different types of bond vary depending on their issuer, length until maturity, interest rate, and risk.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00011">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00028"><link class="os-embed" url="#exercise/FI_Ch10_Sec1_MCQ4"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00029"><link class="os-embed" url="#exercise/FI_Ch10_Sec1_MCQ7"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00030"><link class="os-embed" url="#exercise/FI_Ch10_Sec1_MCQ9"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00031"><link class="os-embed" url="#exercise/FI_Ch10_Sec1_MCQ10"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00032"><link class="os-embed" url="#exercise/FI_Ch10_Sec1_MCQ11"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00033"><link class="os-embed" url="#exercise/FI_Ch10_Sec1_MCQ12"/></para></problem></exercise>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00034"><link class="os-embed" url="#exercise/FI_Ch10_Sec1_MCQ14"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00012">
+    <title/>
+    <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00035"><link class="os-embed" url="#exercise/FI_Ch10_Sec1_RVQ2"/></para></problem></exercise>
+    <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00036"><link class="os-embed" url="#exercise/FI_Ch10_Sec1_RVQ3"/></para></problem></exercise>
+    <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00037"><link class="os-embed" url="#exercise/FI_Ch10_Sec1_RVQ5"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>bond price</term> <meaning>the present, discounted value of the future cash stream generated by a bond; the sum of the present values of all likely coupon payments and the present value of the par value at maturity</meaning></definition>
+    <definition id="def-00002"><term>convertible bonds</term> <meaning>fixed-income corporate debt securities that yield interest payments but can be converted into a predetermined number of common stock or equity shares</meaning></definition>
+    <definition id="def-00003"><term>coupon payment</term> <meaning>the periodic dollar value of interest that is paid to a bondholder by the bond issuer</meaning></definition>
+    <definition id="def-00004"><term>coupon rate</term> <meaning>the amount of annual interest paid by the bond issuer; is multiplied by the face value of a bond to determine annual interest or coupon payment amounts</meaning></definition>
+    <definition id="def-00005"><term>deep discount bonds</term> <meaning>bonds that sell at significantly lower values than their par values</meaning></definition>
+    <definition id="def-00006"><term>default</term> <meaning>when an issuer fails to make scheduled interest or principal payments on its bonds</meaning></definition>
+    <definition id="def-00007"><term>Federal Reserve funds rate (federal funds rate)</term> <meaning>the target interest rate, set by the Federal Reserve, at which commercial banks borrow and lend their excess reserves to each other</meaning></definition>
+    <definition id="def-00008"><term>floating-rate bonds</term> <meaning>bonds with variable interest rates that allow investors to benefit from rising interest rates</meaning></definition>
+    <definition id="def-00009"><term>interest income</term> <meaning>annual interest amounts paid, or coupon payments made, on a bond between its issue date and the date of maturity</meaning></definition>
+    <definition id="def-00010"><term>junk bonds</term> <meaning>bonds that have been given a low credit rating, below investment grade; riskier than other bonds due to a greater chance that the issuer will default or experience a credit event</meaning></definition>
+    <definition id="def-00011"><term>London Interbank Offered Rate (LIBOR)</term> <meaning>a benchmark interest rate at which major global banks lend to one another in the international interbank market for short-term loans</meaning></definition>
+    <definition id="def-00012"><term>maturity date</term> <meaning>the date on which a bondholder ceases to receive interest payments on a bond investment and instead is repaid its par, or face, value</meaning></definition>
+    <definition id="def-00013"><term>municipal bonds (munis)</term> <meaning>debt securities issued by state and local governments; can be thought of as loans that investors make to local governments to fund infrastructure</meaning></definition>
+    <definition id="def-00014"><term>par value</term> <meaning>also called the face amount or face value; the value written on the front of the bond, which is the amount of money that bond issuers promise to be paid at maturity</meaning></definition>
+    <definition id="def-00015"><term>prime rate</term> <meaning>the interest rate that banks charge creditworthy corporate customers; among the most widely used benchmarks for setting home equity lines of credit and credit card rates, based on the federal funds rate set by the Federal Reserve</meaning></definition>
+    <definition id="def-00016"><term>savings bonds</term> <meaning>debt securities purchased by investors, as a personal investments or as gifts, that the US government issues to pay for certain public or government programs</meaning></definition>
+    <definition id="def-00017"><term>US Treasury note rate</term> <meaning>the interest rate that the US government pays to borrow money for different lengths of time; notes are issued in terms of two, three, five, seven, and 10 years</meaning></definition>
+    <definition id="def-00018"><term>US Treasury bills (T-bills)</term> <meaning>short-term US government debt obligations backed by the Treasury Department with a maturity of one year or less</meaning></definition>
+    <definition id="def-00019"><term>yield to maturity (YTM)</term> <meaning>the total return anticipated on a bond if the investment is held until maturity</meaning></definition>
+    <definition id="def-00020"><term>zero-coupon bonds</term> <meaning>bonds that are issued at a deep discount from face value and offer no interest or coupon payments</meaning></definition>
+    </glossary>
 </document>
