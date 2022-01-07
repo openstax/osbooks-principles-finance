@@ -59,7 +59,11 @@
     </exercise>
     </note>
     </section>
-    <section class="multiple-choice" id="sect-00005">
+    <section class="section-summary" id="sect-00008">
+      <title/>
+      <para id="para-00023">Because investors are not simply interested in returns but are also interested in risk, the success of a portfolio cannot be measured simply by considering the portfolio’s return. In order to compare investment portfolios, risk and return must both be taken into consideration. The Sharpe ratio and the Treynor ratio are two measures that provide a reward-to-risk measure of a portfolio. Jensen’s alpha provides a measure of the abnormal return of a portfolio, considering the portfolio’s risk level.</para>
+      </section>
+        <section class="multiple-choice" id="sect-00005">
     <title/>
     <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00020"><link class="os-embed" url="#exercise/FI_Ch15_Sec4_MCQ9"/></para></problem></exercise>
     <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00021"><link class="os-embed" url="#exercise/FI_Ch15_Sec4_MCQ10"/></para></problem></exercise>

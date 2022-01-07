@@ -78,42 +78,42 @@
     <row>
     <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
-    <entry align="left"><span class="primary-section">CE/C</span></entry>
+    <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
     <entry align="center">2</entry>
     <entry align="left">Enter future or par value as a negative amount</entry>
-    <entry align="left">1000 <span class="primary-section">+|-</span> <span class="primary-section">FV</span></entry>
+    <entry align="left">1000 <span class="primary-function">+|-</span> <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">-1,000.0000</entry>
     </row>
     <row>
     <entry align="center">3</entry>
     <entry align="left">Enter interest rate <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mfrac><mrow><mn>5</mn><mi mathvariant="normal">%</mi><mo> </mo><mi>annual</mi><mo> </mo><mi>rate</mi></mrow><mn>2</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>5</mn><mi mathvariant="normal">%</mi><mo> </mo><mi>semiannual</mi><mo> </mo><mi>rate</mi></mrow></mfenced></math></entry>
-    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">2.5 <span class="primary-section">I/Y</span></entry>
+    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">2.5 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">2.5000</entry>
     </row>
     <row>
     <entry align="center">4</entry>
     <entry align="left">Enter periods Enter periods <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>15</mn><mo> </mo><mi>years</mi><mo> </mo><mo>×</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>30</mn><mo> </mo><mi>semiannual</mi><mo> </mo><mi>periods</mi><mo>)</mo></math></entry>
-    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">30 <span class="primary-section">N</span></entry>
+    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">30 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">30.0000</entry>
     </row>
     <row>
     <entry align="center">5</entry>
     <entry align="left">Enter coupon payment <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>4</mn><mo>%</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mo>$</mo><mn>20</mn></math> as a negative amount</entry>
-    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">20 <span class="primary-section">+|-</span> <span class="primary-section">PMT</span></entry>
+    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">20 <span class="primary-function">+|-</span> <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">-20.0000</entry>
     </row>
     <row>
     <entry align="center">6</entry>
     <entry align="left">Compute present value or price</entry>
-    <entry align="left"><span class="primary-section">CPT</span> <span class="primary-section">PV</span></entry>
+    <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">895.3485</entry>
     </row>
@@ -298,42 +298,42 @@
     <row>
     <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
-    <entry align="left"><span class="primary-section">CE/C</span></entry>
+    <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
     <entry align="center">2</entry>
     <entry align="left">Enter present value or price as a negative amount</entry>
-    <entry align="left">952.06 <span class="primary-section">+|-</span> <span class="primary-section">PV</span></entry>
+    <entry align="left">952.06 <span class="primary-function">+|-</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">-952.0600</entry>
     </row>
     <row>
     <entry align="center">3</entry>
     <entry align="left">Enter future or par value</entry>
-    <entry align="left">1000 <span class="primary-section">FV</span></entry>
+    <entry align="left">1000 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">1,000.0000</entry>
     </row>
     <row>
     <entry align="center">4</entry>
     <entry align="left">Enter periods <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>7</mn><mo> </mo><mi>years</mi><mo> </mo><mo>×</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>14</mn><mo> </mo><mi>semiannual</mi><mo> </mo><mi>periods</mi></math></entry>
-    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">14 <span class="primary-section">N</span></entry>
+    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">14 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">14.0000</entry>
     </row>
     <row>
     <entry align="center">5</entry>
     <entry align="left">Enter coupon payment <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1</mn><mo>%</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mo>$</mo><mn>5</mn><mo>.</mo><mn>00</mn></mrow></mfenced></math></entry>
-    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">5 <span class="primary-section">PMT</span></entry>
+    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">5 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">5.0000</entry>
     </row>
     <row>
     <entry align="center">6</entry>
     <entry align="left">Compute interest rate</entry>
-    <entry align="left"><span class="primary-section">CPT</span> <span class="primary-section">I/Y</span></entry>
+    <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">0.8651</entry>
     </row>
@@ -365,42 +365,42 @@
     <row>
     <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
-    <entry align="left"><span class="primary-section">CE/C</span></entry>
+    <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
     <entry align="center">2</entry>
     <entry align="left">Enter present value or price as a negative amount</entry>
-    <entry align="left">675 <span class="primary-section">+|-</span> <span class="primary-section">PV</span></entry>
+    <entry align="left">675 <span class="primary-function">+|-</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">-675.0000</entry>
     </row>
     <row>
     <entry align="center">3</entry>
     <entry align="left">Enter future or par value</entry>
-    <entry align="left">1000 <span class="primary-section">FV</span></entry>
+    <entry align="left">1000 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">1,000.0000</entry>
     </row>
     <row>
     <entry align="center">4</entry>
     <entry align="left">Enter periods (12 years)</entry>
-    <entry align="left">12 <span class="primary-section">N</span></entry>
+    <entry align="left">12 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">12.0000</entry>
     </row>
     <row>
     <entry align="center">5</entry>
     <entry align="left">Enter coupon payment <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>3</mn><mo>.</mo><mn>5</mn><mo>%</mo><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>35</mn><mo>.</mo><mn>00</mn><mo>)</mo></math></entry>
-    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">35 <span class="primary-section">PMT</span></entry>
+    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">35 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">35.0000</entry>
     </row>
     <row>
     <entry align="center">6</entry>
     <entry align="left">Compute interest rate</entry>
-    <entry align="left">CPT <span class="primary-section">I/Y</span></entry>
+    <entry align="left">CPT <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">7.7589</entry>
     </row>
@@ -433,42 +433,42 @@
     <row>
     <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
-    <entry align="left"><span class="primary-section">CE/C</span></entry>
+    <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
     <entry align="center">2</entry>
     <entry align="left">Enter future or par value as a negative amount</entry>
-    <entry align="left">1000 <span class="primary-section">+|-</span> <span class="primary-section">FV</span></entry>
+    <entry align="left">1000 <span class="primary-function">+|-</span> <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">-1,000.0000</entry>
     </row>
     <row>
     <entry align="center">3</entry>
     <entry align="left">Enter interest rate (4% annual rate)</entry>
-    <entry align="left">4 <span class="primary-section">I/Y</span></entry>
+    <entry align="left">4 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">4.0000</entry>
     </row>
     <row>
     <entry align="center">4</entry>
     <entry align="left">Enter periods (20 years)</entry>
-    <entry align="left">20 <span class="primary-section">N</span></entry>
+    <entry align="left">20 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">20.0000</entry>
     </row>
     <row>
     <entry align="center">5</entry>
     <entry align="left">Enter coupon payment <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>6</mn><mo>%</mo><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>60</mn><mo>)</mo><mo> </mo></math> as a negative amount</entry>
-    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">60 <span class="primary-section">+|-</span> <span class="primary-section">PMT</span></entry>
+    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">60 <span class="primary-function">+|-</span> <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">-60.0000</entry>
     </row>
     <row>
     <entry align="center">6</entry>
     <entry align="left">Compute present value or price</entry>
-    <entry align="left"><span class="primary-section">CPT</span> <span class="primary-section">PV</span></entry>
+    <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">1,271.8065</entry>
     </row>
@@ -500,42 +500,42 @@
     <row>
     <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
-    <entry align="left"><span class="primary-section">CE/C</span></entry>
+    <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
     <entry align="center">2</entry>
     <entry align="left">Enter present value or price as a negative amount</entry>
-    <entry align="left">820 <span class="primary-section">+|-</span> <span class="primary-section">PV</span></entry>
+    <entry align="left">820 <span class="primary-function">+|-</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">-820.0000</entry>
     </row>
     <row>
     <entry align="center">3</entry>
     <entry align="left">Enter interest rate (10% annual rate)</entry>
-    <entry align="left">10 <span class="primary-section">I/Y</span></entry>
+    <entry align="left">10 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">10.0000</entry>
     </row>
     <row>
     <entry align="center">4</entry>
     <entry align="left">Enter future or par value</entry>
-    <entry align="left">1000 <span class="primary-section">FV</span></entry>
+    <entry align="left">1000 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">1,000.0000</entry>
     </row>
     <row>
     <entry align="center">5</entry>
     <entry align="left">Enter coupon payment <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>3</mn><mo>%</mo><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>30</mn><mo>.</mo><mn>00</mn><mo>)</mo><mo> </mo></math></entry>
-    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">30 <span class="primary-section">PMT</span></entry>
+    <entry align="left" xmlns="http://cnx.rice.edu/cnxml">30 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">30.0000</entry>
     </row>
     <row>
     <entry align="center">6</entry>
     <entry align="left">Compute periods until maturity</entry>
-    <entry align="left"><span class="primary-section">CPT</span> <span class="primary-section">N</span></entry>
+    <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">3.1188</entry>
     </row>
@@ -571,42 +571,42 @@
     <row>
     <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
-    <entry align="left"><span class="primary-section">CE/C</span></entry>
+    <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
     <entry align="center">2</entry>
     <entry align="left">Enter present value or price as a negative amount</entry>
-    <entry align="left">595 <span class="primary-section">+|-</span> <span class="primary-section">PV</span></entry>
+    <entry align="left">595 <span class="primary-function">+|-</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">-595.0000</entry>
     </row>
     <row>
     <entry align="center">3</entry>
     <entry align="left">Enter periods</entry>
-    <entry align="left">20 <span class="primary-section">N</span></entry>
+    <entry align="left">20 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">20.0000</entry>
     </row>
     <row>
     <entry align="center">4</entry>
     <entry align="left">Enter future or par value</entry>
-    <entry align="left">1000 <span class="primary-section">FV</span></entry>
+    <entry align="left">1000 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">1,000.0000</entry>
     </row>
     <row>
     <entry align="center">5</entry>
     <entry align="left">Enter interest rate or YTM</entry>
-    <entry align="left">6.5 <span class="primary-section">I/Y</span></entry>
+    <entry align="left">6.5 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">6.5000</entry>
     </row>
     <row>
     <entry align="center">6</entry>
     <entry align="left">Compute coupon payment</entry>
-    <entry align="left"><span class="primary-section">CPT</span> <span class="primary-section">PMT</span></entry>
+    <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">28.2437</entry>
     </row>

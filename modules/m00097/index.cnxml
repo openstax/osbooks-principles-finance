@@ -75,24 +75,8 @@
     <caption>(data source: Yahoo! Finance)</caption>
     </figure>
     </section>
-    <section class="section-summary" id="sect-00005">
-    <title>15.1 Risk and Return to an Individual Asset</title>
-    <para id="para-00020">Investors are interested in both the return they can expect to receive when making an investment and the risk associated with that investment. In finance, risk is considered the volatility of the return from time period to time period. Historical returns are measured by the arithmetic average, and the risk is measured by the standard deviation of returns.</para>
-    </section>
-    <section class="section-summary" id="sect-00006">
-    <title>15.2 Risk and Return to Multiple Assets</title>
-    <para id="para-00021">As investors hold multiple assets in a portfolio, they are able to eliminate firm-specific risk. However, systematic or market risk remains, even if an investor holds the market portfolio. The return to a portfolio is measured by the arithmetic average, and the risk is measured by the standard deviation of the returns of the portfolio. The risk of the portfolio will be lower than the weighted average of the risk of the individual securities because the returns of the securities are not perfectly correlated. A low or negative return for one stock in a period can be offset by a high return for another stock in the same period.</para>
-    </section>
-    <section class="section-summary" id="sect-00007">
-    <title>15.3 The Capital Asset Pricing Model (CAPM)</title>
-    <para id="para-00022">The capital asset pricing model (CAPM) relates the expected return of an asset to the systematic risk of that asset. Investors will be rewarded for taking on systematic risk. They will not be rewarded for taking on firm-specific risk, however, because that risk can be diversified away.</para>
-    </section>
-    <section class="section-summary" id="sect-00008">
-    <title>15.4 Applications in Performance Measurement</title>
-    <para id="para-00023">Because investors are not simply interested in returns but are also interested in risk, the success of a portfolio cannot be measured simply by considering the portfolio’s return. In order to compare investment portfolios, risk and return must both be taken into consideration. The Sharpe ratio and the Treynor ratio are two measures that provide a reward-to-risk measure of a portfolio. Jensen’s alpha provides a measure of the abnormal return of a portfolio, considering the portfolio’s risk level.</para>
-    </section>
     <section class="section-summary" id="sect-00009">
-    <title>15.5 Using Excel to Make Investment Decisions</title>
+    <title/>
     <para id="para-00024">Using Excel to manipulate publicly available stock data makes calculating the average return of a stock and the standard deviation of returns easy. The average return for a portfolio and the standard deviation of the portfolio returns can also be calculated easily. By comparing the returns of a stock with the returns of the overall market using Excel charting tools, the beta for a stock, which measures systematic risk, can be determined.</para>
     </section>
     <section class="multiple-choice" id="sect-00010">
