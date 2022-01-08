@@ -23,7 +23,7 @@
 <para id="para-00004">Every company has its own set of goals and objectives, but it is important to note that the employee and personal goals of managers may differ and may not align with the goals and objectives of stockholders (ownership). Because these differences exist, and because all parties have a desire to maximize their own wealth, agency problems can often arise, having a negative impact on company profits, stock price, and the goodwill of the shareholder base.</para>
 <para id="para-00005">There are three primary types of agency problems, discussed below.</para>
 <note class="concepts-practice" id="note-00001">
-<title>Example of an <term class="no-emphasis" id="term-00003">Agency Problem</term></title>
+<title>Example of an <term id="term-00003">Agency Problem</term></title>
 <para id="para-00006">ABC Co. used to sell organic shampoo for $15, but the stockholders of ABC lobbied for an increase in the selling price of the shampoo from $15 to $18. This was to increase earnings and, ultimately, their own personal wealth through an uptick in stock price. However, as a result of this unnecessary rise in the price of the shampoo, customers were disappointed, and a majority of them wound up boycotting the product. Additionally, some of the consumers who continued to purchase the product noticed a decline in the overall quality of the shampoo and were also very disappointed. In this scenario, agency problems surfaced between stockholders and loyal customers of the company.</para>
 </note>
 <section id="sect-00003">
@@ -44,11 +44,11 @@
 <para id="para-00014">A more specific example of such an agency problem occurred in 2011, when Oregon-based food and gift basket company Harry &amp; David was forced to file for bankruptcy.<footnote id="foot-00002">Beth Kowitt. “Harry &amp; David’s Failed Mr. Fix-It.” <emphasis effect="italics">Fortune</emphasis>. April 1, 2011. https://fortune.com/2011/04/01/harry-davids-failed-mr-fix-it/</footnote> This was a direct result of the company being purchased through a leveraged buyout that left the company saddled with a tremendous amount of debt. However, the most important factor leading to the company’s failure was the actions of Steven Heyer, who was a friend of the new owners and had been hired as CEO. Heyer, who was awarded an exorbitant executive salary, was also allowed to sink the company into further debt. Harry &amp; David has since emerged from bankruptcy under new leadership. But this example should serve as a cautionary tale of what can happen when stockholders are able to put their interests ahead of those of other stakeholders in a corporate environment.</para>
 <note class="concepts-practice" id="note-00002">
 <title>Infamous Agency Problems</title>
-<para id="para-00015"><term class="no-emphasis" id="term-00004">Enron</term></para>
+<para id="para-00015"><term id="term-00004">Enron</term></para>
 <para id="para-00016">Enron is one particularly infamous example of an agency problem. Enron’s directors were responsible for protecting and promoting investor interests, but they failed to carry out their regulatory and oversight responsibilities, enabling the company to venture into illegal activity. The company’s resulting accounting scandal resulted in billions of dollars in losses to its investors.</para>
 <para id="para-00017">At one time, Enron had been one of the largest companies in the United States. Despite being a multibillion-dollar company, Enron began losing money in 1997. It had also started incurring a tremendous amount of debt. Fearing a drop in stock prices, Enron’s management team tried to disguise the problems by misrepresenting them through inappropriate accounting methods, which resulted in confusing and misleading financial statements.</para>
 <para id="para-00018">Disaster started to unfold in 2001, when common stock prices fell from $90 to under $1 per share. The company filed for bankruptcy in December 2001, and criminal charges were brought against several key Enron employees, including former CEO Kenneth Lay and former CFO Andrew Fastow. Jeffrey Skilling was subsequently named CEO in February 2001, but he ended up resigning six months later.</para>
-<para id="para-00019">Bernard L. <term class="no-emphasis" id="term-00005">Madoff Investment Securities LLC</term></para>
+<para id="para-00019">Bernard L. <term id="term-00005">Madoff Investment Securities LLC</term></para>
 <para id="para-00020">Ponzi schemes are common examples of the agency problem. <term id="term-00006">Agency theory</term> claims that a lack of oversight and incentive alignment greatly contributes to these problems. Many investors fall into Ponzi schemes thinking that taking fund management outside a traditional banking institution reduces fees and saves money.</para>
 <para id="para-00021">Even though established financial institutions reduce risk by providing oversight and enforcing legal practices, some Ponzi schemes simply involve taking advantage of consumer suspicions about the banking industry and financial markets. In this type of environment, the consumer cannot ensure that an agent is acting in their best interest. Investments are made under limited or, in many cases, completely nonexistent oversight.</para>
 <para id="para-00022">Bernie Madoff’s scam is probably one of the most infamous examples of a Ponzi scheme. Madoff’s fraud started with friends, relatives, and acquaintances in New York, but it ultimately grew to encompass major charities such as Hadassah, universities such as Tufts and Yeshiva, institutional investors, and wealthy families in Europe, Latin America, and Asia. The cash losses of Madoff’s scheme were recently estimated to be between $17 billion and $20 billion. The returns he promised were higher than what most investment firms and banks were offering—so promising that almost all of his investors ignored any concerns they may have had and basically looked the other way. Madoff paid for any redemption requests with money that had been newly invested.</para>
@@ -98,9 +98,9 @@
 <title/>
 <section id="sect-00012">
 <title>The Basics of Corporate Governance</title>
-<media alt="corp-gov"><iframe width="660" height="371.4" src="https://openstax.org/r/the-basics-of-corporate_governance"/></media>
+<media alt="corp-gov"><iframe width="660" height="371.4" src="https://openstax.org/r/the-basics-of-corporate-governance"/></media>
 <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00038"><link class="os-embed" url="#exercise/FI_Ch2_Sec4_VA2Q3"/></para></problem></exercise>
-<exercise id="exer-00005"><problem id="prob-00005"><para id="para-00039"><link class="os-embed" url="#exercise/FI_Ch2_Sec4_VA2Q3"/></para></problem></exercise>
+<exercise id="exer-00005"><problem id="prob-00005"><para id="para-00039"><link class="os-embed" url="#exercise/FI_Ch2_Sec4_VA2Q4"/></para></problem></exercise>
 </section>
 </section>
 </content>

@@ -36,7 +36,7 @@
 <title>SEC Reporting and EDGAR</title>
 <para id="para-00011"><term id="term-00005">EDGAR (Electronic Data Gathering, Analysis, and Retrieval system)</term> is the primary system for collecting and indexing documents submitted by companies to the SEC under the Securities Act of 1933, the Securities Exchange Act of 1934, the Trust Indenture Act of 1939, and the Investment Company Act of 1940.</para>
 <note class="link-to-learning" id="note-00002">
-<title><term class="no-emphasis" id="term-00006">EDGAR System</term></title>
+<title><term id="term-00006">EDGAR System</term></title>
 <para id="para-00012">The <link url="https://openstax.org/r/edgar-html">SEC’s EDGAR system</link> contains millions of corporate and individual filings. It benefits investors, corporations, and the US economy overall by increasing the efficiency, transparency, and fairness of the securities markets. The system processes about 3,000 filings per day, serves up 3,000 terabytes of data to the public annually, and accommodates 40,000 new filers per year on average.<footnote id="foot-00001">“About EDGAR.” US Securities and Exchange Commission. Modified March 23, 2021. https://www.sec.gov/edgar/about</footnote></para>
 </note>
 </section>
@@ -44,14 +44,14 @@
 <title/>
 <para id="para-00013">Companies sometimes expand internationally, and there are advantages and disadvantages of such growth. International or global expansion efforts require careful and efficient communication, planning, and financing.</para>
 </section>
-<section class="cfa-institute" id="sect-00006">
-<title>CFA Institute</title>
-<para id="para-00014">This chapter supports some of the <link url="https://openstax.org/r/cfa-institue-org">Learning Outcome Statements (LOS)</link> in this CFA® Level I Study Session. Reference with permission of CFA Institute.</para>
-</section>
 <section class="multiple-choice" id="sect-00007">
 <title/>
 <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00015"><link class="os-embed" url="#exercise/FI_Ch2_Sec6_MCQ18"/></para></problem></exercise>
 </section>
+<section class="cfa-institute" id="sect-00006">
+  <title>CFA Institute</title>
+  <para id="para-00014">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfa-institue-org">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+  </section>
 </content>
 <glossary>
 <definition id="def-00001"><term>Electronic Data Gathering, Analysis, and Retrieval system (EDGAR)</term> <meaning>the primary system for collecting and indexing documents submitted by companies and others under the Securities Act of 1933, the Securities Exchange Act of 1934, the Trust Indenture Act of 1939, and the Investment Company Act of 1940</meaning></definition>
