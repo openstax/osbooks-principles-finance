@@ -570,7 +570,7 @@
     <title>Nonconstant Growth Dividends</title>
     <exercise class="unnumbered" id="exer-00003"><problem id="prob-00003"><para id="para-00119">One final issue to address in this section is how we price a stock when dividends are neither constant nor growing at a constant rate. This can make things a bit more complicated. When a future pattern is not an annuity or the modified annuity stream of constant growth, there is no shortcut. You have to estimate every future dividend and then discount each individual dividend back to the present. All is not lost, however. Sometimes you can see patterns in the dividends. For example, a firm might shift into a dividend stream pattern that will allow you to use one of the dividend models to take a shortcut for pricing the stock. Let’s look at an example.</para>
     <para id="para-00120">JM and Company is a small start-up firm that will institute a dividend payment—a $0.25 dividend—for the first time at the end of this year. The company expects rapid growth over the next four years and will increase its dividend to $0.50, then to $1.50, and then to $3.00 before settling into a constant growth dividend pattern with dividends growing at 5% every year (see timeline below). If you believe that JM and Company will deliver this dividend pattern and you desire a 13% return on your investment, what price should you pay for this stock?</para>
-    <table summary="Some cells are left blank for visual design purposes." id="table-00006">
+    <table summary="Some cells are left blank for visual design purposes." id="table-00006" class="timeline-table">
     <tgroup cols="6">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -623,25 +623,25 @@
     </section>
     <section class="multiple-choice" id="sect-00019">
     <title/>
-    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00129"><link class="os-embed" url="exercise/FI_Ch11_Sec2_MCQ8"/></para></problem></exercise>
-    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00130"><link class="os-embed" url="exercise/FI_Ch11_Sec2_MCQ9"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00129"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_MCQ8"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00130"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_MCQ9"/></para></problem></exercise>
     </section>
     <section class="review-questions" id="sect-00020">
     <title/>
-    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00131"><link class="os-embed" url="exercise/FI_Ch11_Sec2_RVQ3"/></para></problem></exercise>
-    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00132"><link class="os-embed" url="exercise/FI_Ch11_Sec2_RVQ8"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00131"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_RVQ3"/></para></problem></exercise>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00132"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_RVQ8"/></para></problem></exercise>
     </section>
     <section class="problem-set" id="sect-00021">
     <title/>
-    <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00133"><link class="os-embed" url="exercise/FI_Ch11_Sec2_PRQ1"/></para></problem></exercise>
-    <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00134"><link class="os-embed" url="exercise/FI_Ch11_Sec2_PRQ2"/></para></problem></exercise>
-    <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00135"><link class="os-embed" url="exercise/FI_Ch11_Sec2_PRQ4"/></para></problem></exercise>
-    <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00136"><link class="os-embed" url="exercise/FI_Ch11_Sec2_PRQ5"/></para></problem></exercise>
-    <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00137"><link class="os-embed" url="exercise/FI_Ch11_Sec2_PRQ6"/></para></problem></exercise>
-    <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00138"><link class="os-embed" url="exercise/FI_Ch11_Sec2_PRQ7"/></para></problem></exercise>
-    <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00139"><link class="os-embed" url="exercise/FI_Ch11_Sec2_PRQ8"/></para></problem></exercise>
-    <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00140"><link class="os-embed" url="exercise/FI_Ch11_Sec2_PRQ9"/></para></problem></exercise>
-    <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00141"><link class="os-embed" url="exercise/FI_Ch11_Sec2_PRQ10"/></para></problem></exercise>
+    <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00133"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_PRQ1"/></para></problem></exercise>
+    <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00134"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_PRQ2"/></para></problem></exercise>
+    <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00135"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_PRQ4"/></para></problem></exercise>
+    <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00136"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_PRQ5"/></para></problem></exercise>
+    <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00137"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_PRQ6"/></para></problem></exercise>
+    <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00138"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_PRQ7"/></para></problem></exercise>
+    <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00139"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_PRQ8"/></para></problem></exercise>
+    <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00140"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_PRQ9"/></para></problem></exercise>
+    <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00141"><link class="os-embed" url="#exercise/FI_Ch11_Sec2_PRQ10"/></para></problem></exercise>
     </section>
     <section class="video-activity" id="sect-00022">
     <title/>
