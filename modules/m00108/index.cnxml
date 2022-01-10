@@ -64,16 +64,16 @@
     <entry align="center" namest="C3" nameend="C5">MarketWatch</entry>
     <entry align="center" namest="C6" nameend="C8">Yahoo! Finance</entry>
     </row>
+    <row>
+      <entry align="center">Beta</entry>
+      <entry align="center">MRP = 5%</entry>
+      <entry align="center">MRP = 8%</entry>
+      <entry align="center">Beta</entry>
+      <entry align="center">MRP = 5%</entry>
+      <entry align="center">MRP = 8%</entry>
+    </row>  
     </thead>
     <tbody>
-    <row>
-    <entry align="center">Beta</entry>
-    <entry align="center">MRP = 5%</entry>
-    <entry align="center">MRP = 8%</entry>
-    <entry align="center">Beta</entry>
-    <entry align="center">MRP = 5%</entry>
-    <entry align="center">MRP = 8%</entry>
-    </row>
     <row>
     <entry><term class="no-emphasis" id="term-00006">Kroger</term></entry>
     <entry>Food retail</entry>
