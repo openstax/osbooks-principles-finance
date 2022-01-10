@@ -6,8 +6,128 @@
     <md:uuid>16f20e50-4562-45db-bb3f-54bdd034aa7f</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Define preferred stock.</item>
+    <item>Calculate the intrinsic value of preferred stock.</item>
+    <item>Understand the difference between common stock and preferred stock.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Features of Preferred Stock</title>
+    <para id="para-00002"><term id="term-00001">Preferred stock</term> is a unique form of equity sold by some firms that offers preferential claims in ownership. Preferred stock will often feature a dividend that a company is obligated to pay out before it makes any dividend payments to common stockholders. In cases of bankruptcy and liquidation of the issuing company, preferred stockholders have priority claim to assets before common stockholders. Additionally, preferred stockholders are usually entitled to a set (or constant) dividend every period.</para>
+    <para id="para-00003">Preferred stock carries a stated par value, but unlike bonds, they have no maturity date, and consequently, there is no final payment of the par value. The only time a company would pay this par value to the shareholder would be if the company ceased operations or retired the preferred stock. Many preferred stock issues are cumulative in nature, meaning that if a company skips or is otherwise unable to pay a cash dividend, it becomes a liability to the company and must eventually be paid out to preferred shareholders at some point in the future. Other preferred stocks may be noncumulative, in which case if the company skips dividends, they are forever lost to the shareholder.</para>
+    <para id="para-00004">The term <emphasis effect="italics">preferred</emphasis> comes from preferred shareholders receiving all past (if cumulative) and present dividends before common shareholders receive any cash dividends. In other words, preferred shareholders’ dividend claims are given preferential treatment over those of common shareholders. Preferred stock is usually a form of permanent funding, but there are circumstances or covenants that could alter the payoff stream.</para>
+    <para id="para-00005">For example, a company may convert preferred stock into common stock at a preset point in the future. It is not uncommon for companies to issue preferred stock that has a conversion feature. Such conversion features give preferred shareholders the right to convert to common shares after a predetermined period.</para>
+    <para id="para-00006">A review of the characteristics of preferred stock will lead to the conclusion that the constant growth dividend model is an excellent approach for valuing such stock. Because shares of preferred stock provide a constant cash dividend based on original par value and the stated dividend rate, these may be considered a form of perpetuity.</para>
+    <para id="para-00007">It is this constant, preferred dividend stream that makes preferred stock seem more like bonds or another form of debt than like stock. In addition, the constant dividend stream leads nicely to the pricing of preferred stock with the four dividend models we presented earlier in this chapter.</para>
+    </section>
+    <section id="sect-00003">
+    <title>Determining the Intrinsic Value of Preferred Stock</title>
+    <para id="para-00008">We can apply a version of the present value of a perpetuity formula to value preferred stock, as in the following example. Oh-Well Heath Services Inc. has issued preferred stock that has a par value of $1,000 and pays an annual dividend rate of 5%. If the market considers the risk of Oh-Well to warrant a 10% discount rate, what would be a fair market price for Oh-Well preferred stock?</para>
+    <para id="para-00009">First, we find the dividend value of Oh-Well:</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Dividend</mi><mo> </mo><mi>Dollar</mi><mo> </mo><mi>Value</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi>Par</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>×</mo><mo> </mo><mi>Annual</mi><mo> </mo><mi>Dividend</mi><mo> </mo><mi>Rate</mi></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>5</mn><mo>%</mo></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>50</mn></mtd></mtr></mtable></math></equation>
+    <para id="para-00010" xmlns="http://cnx.rice.edu/cnxml">We then use the constant dividend model with infinite horizon because we have <emphasis effect="italics">g</emphasis> equal to zero and <emphasis effect="italics">n</emphasis> equal to infinity:</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Stock</mi><mo> </mo><mi>Value</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mfrac><mi>Dividend</mi><mrow><mi>Discount</mi><mo> </mo><mi>Rate</mi></mrow></mfrac></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo> </mo><mfrac><mrow><mo>$</mo><mn>50</mn></mrow><mrow><mn>10</mn><mo>%</mo></mrow></mfrac></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>500</mn></mtd></mtr></mtable></math></equation>
+    <para id="para-00011" xmlns="http://cnx.rice.edu/cnxml">We can also rearrange the formula to determine the required return on this stock, given its annual dividend and current price.</para>
+    <note class="think-through" id="note-00001">
+    <title>Calculating the Return on Preferred Stock</title>
+    <exercise class="unnumbered" id="exer-00001">
+    <problem id="prob-00001"><para id="para-00012">Data Forge Inc. has just issued preferred stock (cumulative) with a par value of $100.00 and an annual dividend rate of 7%. The preferred stock is currently selling for $35.00 per share. What is the yield or return on this preferred stock?</para></problem>
+    <solution id="sol-00001"><para id="para-00013"><emphasis>Solution:</emphasis> The first step is to determine the annual dividend by multiplying the dividend rate by the par value:</para></solution></exercise>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>100</mn><mo> </mo><mo>×</mo><mo> </mo><mn>7</mn><mo>%</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>7</mn><mo>.</mo><mn>00</mn></mtd></mtr></mtable></math></equation>
+    <para id="para-00014" xmlns="http://cnx.rice.edu/cnxml">Now, using this $7.00 annual dividend, the $35.00 current price, and the equation above, we calculate the rate of return as follows:</para>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>$</mo><mn>7</mn><mo>.</mo><mn>00</mn></mrow><mrow><mo>$</mo><mn>35</mn><mo>.</mo><mn>00</mn></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>20</mn><mo>,</mo><mo> </mo><mi>or</mi><mo> </mo><mn>20</mn><mi>%</mi></math></equation>
+    </note>
+    <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">We have introduced the concept of return here, which should be thought of as both the anticipated return for the preferred stockholder and the company’s cost of borrowing money for this particular type of capital.</para>
+    </section>
+    <section id="sect-00004">
+    <title>Differences between Preferred and Common Stock</title>
+    <para id="para-00016">As we have discussed, preferred stock has important differences from common stock that apply to issuing firms and to investors. Some of the most important of these differences are listed in Table 11.5.</para>
+    <table summary="Some cells are left blank for visual design purposes." id="table-00001">
+    <title>Differences between Common Stock and Preferred Stock</title>
+    <tgroup cols="3">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+    <row>
+    <entry align="center">Feature</entry>
+    <entry align="center">Common Stock</entry>
+    <entry align="center">Preferred Stock</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="left">Dividends</entry>
+    <entry align="left">Paid only after preferred stockholders are paid</entry>
+    <entry align="left">Highest priority, paid first</entry>
+    </row>
+    <row>
+    <entry align="left">Dividends</entry>
+    <entry align="left">Variable and may increase or decrease</entry>
+    <entry align="left">Predetermined rates, so constant dividend amounts</entry>
+    </row>
+    <row>
+    <entry align="left">Growth</entry>
+    <entry align="left">High potential but tied to company performance</entry>
+    <entry align="left"> </entry>
+    </row>
+    <row>
+    <entry align="left">Liquidation</entry>
+    <entry align="left">Paid out last, after all creditors and preferred stockholders are paid</entry>
+    <entry align="left">Given preference in terms of payments, similar to bonds</entry>
+    </row>
+    <row>
+    <entry align="left">Voting Rights</entry>
+    <entry align="left">Yes</entry>
+    <entry align="left">No</entry>
+    </row>
+    <row>
+    <entry align="left">Arrears</entry>
+    <entry align="left">No accrual of missed dividends</entry>
+    <entry align="left">If cumulative, unpaid dividends become liability that must be paid out eventually</entry>
+    </row>
+    <row>
+    <entry align="left">Certainty</entry>
+    <entry align="left">Dividends potentially not paid if company earns no profits</entry>
+    <entry align="left">Dividends paid even when company experiences financial losses</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00017">Preferred stock is a unique form of equity sold by some firms that offers preferential claims in ownership. Preferred stock carries a stated par value, but unlike bonds, there is no maturity date, and consequently, there is no final payment of the par value. The term <emphasis effect="italics">preferred</emphasis> comes from preferred shareholders receiving all past (if cumulative) and present dividends before common shareholders receive any cash dividends.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <title/>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00018"><link class="os-embed" url="exercise/FI_Ch11_Sec4_MCQ10"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00007">
+    <title/>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00019"><link class="os-embed" url="exercise/FI_Ch11_Sec4_RVQ4"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00020"><link class="os-embed" url="exercise/FI_Ch11_Sec4_RVQ6"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00008">
+    <title/>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00021"><link class="os-embed" url="exercise/FI_Ch11_Sec4_PRQ3"/></para></problem></exercise>
+    </section>
+    <section class="video-activity" id="sect-00009">
+    <title/>
+    <section id="sect-00010">
+    <title>What Is Preferred Stock?</title>
+    <media alt="cash-profit">
+    <iframe width="660" height="371.4" src="https://openstax.org/r/Preferred_Stock"/></media>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00022"><link class="os-embed" url="#exercise/FI_Ch11_Sec4_VA2Q1"/></para></problem></exercise>
+    <para id="para-00023">Discuss some of the important differences between preferred stocks and common stocks.</para>
+    </section>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>preferred stock</term> <meaning>stock that entitles the holder to a fixed dividend, the payment of which takes priority over payment of common stock dividends</meaning></definition>
+    </glossary>
 </document>
