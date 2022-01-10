@@ -85,7 +85,7 @@
     <title>Variable or Nonconstant Growth Dividend Discount Model</title>
     <para id="para-00031">Many experienced analysts prefer to use the variable (nonconstant) growth DDM because it is a much closer approximation of businesses’ actual dividend payment policies, making it much closer to reality than other forms of DDM. The variable growth model is based on the real-life assumption that a company and its stock value will progress through different stages of growth.</para>
     <para id="para-00032">The variable growth model is estimated by extending the constant growth model to include a separate calculation for each growth period. Determine present values for each of these periods, and then add them all together to arrive at the intrinsic value of the stock. The variable growth model is more involved than other DDM methods, but it is not overly complex and will often provide a more realistic and accurate picture of a stock’s true value.</para>
-    <para id="para-00033">As an example of the variable growth model, let’s say that Maddox Inc. paid $2.00 per share in common stock dividends last year. The company’s policy is to increase its dividends at a rate of 5% for four years, and then the growth rate will change to 3% per year from the fifth year forward. What is the present value of the stock if the required rate of return is 8%? The calculation is shown in Table 11.1.</para>
+    <para id="para-00033">As an example of the variable growth model, let’s say that Maddox Inc. paid $2.00 per share in common stock dividends last year. The company’s policy is to increase its dividends at a rate of 5% for four years, and then the growth rate will change to 3% per year from the fifth year forward. What is the present value of the stock if the required rate of return is 8%? The calculation is shown in <link target-id="table-00002" document="m00068"/>.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00002">
     <title>Value of Stock with 8% Required Rate of Return</title>
     <tgroup cols="6">
@@ -181,7 +181,7 @@
     </list>
     <para id="para-00039">Let’s use an example. Lore Ltd. estimates that its dividend growth will be 13% per year for the next five years. It will then settle to a sustainable, constant, and continuing rate of 5%. Let’s say that the current year’s dividend is $14 and the required rate of return (or discount rate) is 12%. What is the current value of Lore Ltd. stock?</para>
     <para id="para-00040"><emphasis effect="bold">Step 1:</emphasis></para>
-    <para id="para-00041">First, we will need to calculate the dividends for each year until the second, stable growth rate phase is reached. Based on the current dividend value of $14 and the anticipated growth rate of 13%, the values of dividends (<emphasis effect="italics">D</emphasis><sub>1</sub>, <emphasis effect="italics">D</emphasis><sub>2</sub>, <emphasis effect="italics">D</emphasis><sub>3</sub>, <emphasis effect="italics">D</emphasis><sub>4</sub>, <emphasis effect="italics">D</emphasis><sub>5</sub>) can be determined for each year of the first phase. Because the stable growth rate is achieved in the second phase, after five years have passed, if we assume that the current year is 2021, we can lay out the profile for this stock’s dividends through the year 2026, as per Figure 11.3.</para>
+    <para id="para-00041">First, we will need to calculate the dividends for each year until the second, stable growth rate phase is reached. Based on the current dividend value of $14 and the anticipated growth rate of 13%, the values of dividends (<emphasis effect="italics">D</emphasis><sub>1</sub>, <emphasis effect="italics">D</emphasis><sub>2</sub>, <emphasis effect="italics">D</emphasis><sub>3</sub>, <emphasis effect="italics">D</emphasis><sub>4</sub>, <emphasis effect="italics">D</emphasis><sub>5</sub>) can be determined for each year of the first phase. Because the stable growth rate is achieved in the second phase, after five years have passed, if we assume that the current year is 2021, we can lay out the profile for this stock’s dividends through the year 2026, as per <link target-id="fig-00001" document="m00068"/>.</para>
     <figure id="fig-00001"><media alt=""><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_003.png"/></media>
     <caption>Profile of Stock Dividend through 2026</caption></figure>
     <para id="para-00042"><emphasis effect="bold">Step 2:</emphasis></para>
@@ -194,7 +194,7 @@
     <figure id="fig-00003"><media alt="A screenshot of excel shows the dividend with a growth of 13% each year along with the total growth rate in dividends. The screenshot contains the same data as Figure 11.4, except the formula has been replaced with the value 386.91. This shows that the terminal value at the end of 2026 is 386.91."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_005.png"/></media>
     <caption>Terminal Value at the End of 2026</caption></figure>
     <para id="para-00046"><emphasis effect="bold">Step 3:</emphasis></para>
-    <para id="para-00047">Next, we find the PV of all paid dividends that occur during the high-growth period of 2022–2026. This is shown in Figure 11.6. Our required rate of return (discount rate) is 12%.</para>
+    <para id="para-00047">Next, we find the PV of all paid dividends that occur during the high-growth period of 2022–2026. This is shown in <link target-id="fig-00004" document="m00068"/>. Our required rate of return (discount rate) is 12%.</para>
     <figure id="fig-00004"><media alt=""><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_006.png"/></media>
     <caption>Present Value of All Paid Dividends, 2022–2026</caption></figure>
     <para id="para-00048"><emphasis effect="bold">Step 4:</emphasis></para>
@@ -202,7 +202,7 @@
     <equation id="eq-00014"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Future</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>FV</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>386</mn><mo>.</mo><mn>91</mn></mtd></mtr><mtr><mtd><mi>Interest</mi><mo> </mo><mi>Rate</mi><mo> </mo><mo>(</mo><mi mathvariant="normal">I</mi><mo>/</mo><mi mathvariant="normal">Y</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>12</mn></mtd></mtr><mtr><mtd><mi>Number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Periods</mi><mo> </mo><mo>(</mo><mi mathvariant="normal">N</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>5</mn></mtd></mtr><mtr><mtd><mi>Payment</mi><mo> </mo><mo>(</mo><mi>PMT</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>0</mn></mtd></mtr><mtr><mtd><mi>Compute</mi><mo> </mo><mi>Present</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>CPTPV</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>219</mn><mo>.</mo><mn>54</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00050" xmlns="http://cnx.rice.edu/cnxml">Remember that due to the sign convention, either the FV must be entered as a negative value or, if entered as a positive value, the resulting PV will be negative. This example shows the former.</para>
     <para id="para-00051"><emphasis effect="bold">Step 5:</emphasis></para>
-    <para id="para-00052">Our next step is to find the current fair (intrinsic) value of the stock, which comprises the PV of all future dividends plus the PV of the terminal value. This is represented in the following formula, with all factors shown in Figure 11.7:</para>
+    <para id="para-00052">Our next step is to find the current fair (intrinsic) value of the stock, which comprises the PV of all future dividends plus the PV of the terminal value. This is represented in the following formula, with all factors shown in <link target-id="fig-00005" document="m00068"/>:</para>
     <equation id="eq-00015"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Fair</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>PV</mi><mrow><mi>Projected</mi><mo> </mo><mi>Dividends</mi></mrow></msub><mo> </mo><mo>+</mo><mo> </mo><msub><mi>PV</mi><mrow><mi>Terminal</mi><mo> </mo><mi>Value</mi></mrow></msub></math></equation>
     <figure id="fig-00005" xmlns="http://cnx.rice.edu/cnxml"><media alt="A screenshot of excel showing steps to find the Fair Value of the Stock which. The screenshot contains the same data as Figure 11.6 with the following additions. The total of the present value of dividends for 2022 through 2026 is added together to get a total of 71.90. The present value of the terminal value is stated at 219.54. The total of the present value of dividends is add to the present value of terminal value. This sum is 291.44 and represents the fair value."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_007.png"/></media>
     <caption>Fair Value of the Stock</caption></figure>
@@ -241,7 +241,7 @@
     </section>
     <section id="sect-00010" xmlns="http://cnx.rice.edu/cnxml">
     <title>Method 2: Using a Financial Calculator</title>
-    <para id="para-00070">We can also use a calculator or spreadsheet to find the price of the stock (see Table 11.2).</para>
+    <para id="para-00070">We can also use a calculator or spreadsheet to find the price of the stock (see <link target-id="table-00001" document="m00068"/>).</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00001">
     <title>Calculator Steps for Finding the Price of the Stock<footnote id="foot-00004">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup>Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
     <tgroup cols="5">
@@ -310,7 +310,7 @@
     </section>
     <section id="sect-00011">
     <title>Method 3: Using Excel</title>
-    <para id="para-00074">Figure 11.8 shows a spreadsheet setup in Excel to reach a solution to this problem.</para>
+    <para id="para-00074"><link target-id="fig-00006" document="m00068"/> shows a spreadsheet setup in Excel to reach a solution to this problem.</para>
     <figure id="fig-00006"><media alt="A screenshot of excel showing the Nper (N) or Periods of 5, Rate of Return or Interest Rate of 10%, Future Value or Stock Sale Price of $25 each, and Payment (Dividend Amount) of $5 with the total price of the stock amounting to $34.48."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_008.png"/></media>
     <caption>Excel Solution for Finding the Price of the Stock</caption></figure>
     <para id="para-00075">Due to the sign convention in Excel, we can ignore the parentheses around the solution, which indicate a negative value. Therefore, the price is $34.48. The Excel command used in cell F6 to calculate present value is as follows:</para>
@@ -344,7 +344,7 @@
     </section>
     <section id="sect-00014" xmlns="http://cnx.rice.edu/cnxml">
     <title>Method 2: Using a Financial Calculator</title>
-    <para id="para-00086">We can also use a calculator or spreadsheet to find the price of the stock using constant dividends (see Table 11.3).</para>
+    <para id="para-00086">We can also use a calculator or spreadsheet to find the price of the stock using constant dividends (see <link target-id="table-00003" document="m00068"/>).</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00003">
     <title>Calculator Steps for Finding the Price of Stock Using Constant Dividends</title>
     <tgroup cols="3">
@@ -411,7 +411,7 @@
     </section>
     <section id="sect-00015">
     <title>Method 3: Using Excel</title>
-    <para id="para-00088">This same problem can be solved using Excel with a setup similar to that shown in Figure 11.9.</para>
+    <para id="para-00088">This same problem can be solved using Excel with a setup similar to that shown in <link target-id="fig-00007" document="m00068"/>.</para>
     <figure id="fig-00007"><media alt="A screenshot of excel showing the Nper (N) or Periods of 20, Rate of Return or Interest Rate of 10%, Payment (Dividend Amount) of $1, and the Future Value or Stock Sale Price of $30 each with the total price of the stock equaling $12.97."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_009.png"/></media>
     <caption>Excel Solution for Finding the Price of Stock Using Constant Dividends</caption></figure>
     <para id="para-00089">Once again, we can ignore the negative indicator that is generated by the Excel sign convention because we know that the stock will not have a negative value 20 years from now. Therefore, the price is $12.97. The Excel command used in cell F13 to calculate present value is as follows:</para>
@@ -477,7 +477,7 @@
     <para id="para-00100"><emphasis effect="bold">Solution:</emphasis></para>
     <para id="para-00101">First, we need to estimate the annual growth rate of this dividend stream. We can use a shortcut to determine the average growth rate by using the first and last dividends in the stream and the time value of money equation. We want to find the average growth rate given an initial dividend (present value) of $0.70, the most recent dividend (future value) of $2.11, and the number of years (<emphasis effect="italics">n</emphasis>) between the two dividends, or the number of dividend changes, which is 9. So, we calculate the average growth rate as follows:</para>
     <equation id="eq-00026"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>g</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><msup><mfenced><mfrac><mrow><mi>F</mi><mi>V</mi></mrow><mrow><mi>P</mi><mi>V</mi></mrow></mfrac></mfenced><mfrac><mn>1</mn><mi>n</mi></mfrac></msup><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo> </mo><msup><mfenced><mfrac><mrow><mo>$</mo><mn>2</mn><mo>.</mo><mn>11</mn></mrow><mrow><mo>$</mo><mn>0</mn><mo>.</mo><mn>70</mn></mrow></mfrac></mfenced><mfrac><mn>1</mn><mn>9</mn></mfrac></msup><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mn>3</mn><mo>.</mo><msup><mn>0142857</mn><mfrac><mn>1</mn><mn>9</mn></mfrac></msup><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>0</mn><mo>.</mo><mn>1304</mn><mo>,</mo><mo> </mo><mi>or</mi><mo> </mo><mn>13</mn><mo>.</mo><mn>04</mn><mi>%</mi></mtd></mtr><mtr><mtd/><mtd/><mtd/></mtr></mtable></math></equation>
-    <para id="para-00102" xmlns="http://cnx.rice.edu/cnxml">Table 11.4 shows the step-by-step process of using a financial calculator to solve for the growth rate.</para>
+    <para id="para-00102" xmlns="http://cnx.rice.edu/cnxml"><link target-id="table-00005" document="m00068"/> shows the step-by-step process of using a financial calculator to solve for the growth rate.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00005">
     <title>Calculator Steps for Solving the Growth Rate</title>
     <tgroup cols="5">
@@ -541,7 +541,7 @@
     </tgroup>
     </table>
     <para id="para-00103">The calculated growth rate is 13.04%.</para>
-    <para id="para-00104">We can also use Excel to set up a spreadsheet similar to the one in Figure 11.10 that will calculate this growth rate.</para>
+    <para id="para-00104">We can also use Excel to set up a spreadsheet similar to the one in <link target-id="fig-00008" document="m00068"/> that will calculate this growth rate.</para>
     <figure id="fig-00008"><media alt="Screenshot of an Excel based solution for growth rate. The present value or current dividend amount is entered as a negative value and is negative $0.70. The Nper (N) or periods is 9. There is no value for the payment or PMT. The future value (dividend amount in nine years) is 13.04% or $2.11. The growth rate is in cell G22 and is 13.0427%."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_010.png"/></media>
     <caption>Excel Solution for Growth Rate</caption></figure>
     <para id="para-00105">The Excel command used in cell G22 to calculate the growth rate is as follows:</para>
