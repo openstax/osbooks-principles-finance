@@ -176,7 +176,7 @@
     </section>
     <section class="section-summary" id="sect-00006">
     <para id="para-00029">Calculate the weighted average cost of capital (WACC) using the formula</para>
-    <para id="para-00030"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>r</mi><mi>WACC</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mi>D</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">d</mi></msub><mfenced><mrow><mn>1</mn><mo>-</mo><mi>T</mi></mrow></mfenced><mo> </mo><mo>+</mo><mo> </mo><mi>P</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi>pfd</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mi>E</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">e</mi></msub></math></para>
+    <equation id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>r</mi><mi>WACC</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mi>D</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">d</mi></msub><mfenced><mrow><mn>1</mn><mo>-</mo><mi>T</mi></mrow></mfenced><mo> </mo><mo>+</mo><mo> </mo><mi>P</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi>pfd</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mi>E</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">e</mi></msub></math></equation>
     <para id="para-00031" xmlns="http://cnx.rice.edu/cnxml">Remember that the WACC is an estimate; different methods of estimating the cost of equity capital can lead to different estimations of WACC.</para>
     </section>
     <section class="multiple-choice" id="sect-00007">
