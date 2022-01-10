@@ -6,8 +6,199 @@
     <md:uuid>14e5ea01-68f3-40ec-b409-3ada93f33ba9</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Calculate the weighted average cost of capital (WACC).</item>
+    <item>Describe issues that arise from estimating the cost of equity capital.</item>
+    <item>Describe the use of net debt in calculating WACC.</item>
+    </list>
+    </section>
+    <para id="para-00002">Once you know the weights in a company’s capital structure and have estimated the costs of the different sources of its capital, you can calculate the company’s weighted average cost of capital (WACC).</para>
+    <section id="sect-00002">
+    <title>WACC Equation</title>
+    <para id="para-00003">WACC is calculated using the equation</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>r</mi><mi>WACC</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mi>D</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">d</mi></msub><mo> </mo><mfenced><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mi>T</mi></mrow></mfenced><mo> </mo><mo>+</mo><mo> </mo><mi>P</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><mo> </mo><msub><mi>r</mi><mi>pfd</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mi>E</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi>e</mi></msub></math></equation>
+    <para id="para-00004" xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="italics">D%</emphasis>, <emphasis effect="italics">P%</emphasis>, and <emphasis effect="italics">E%</emphasis> represent the weight of debt, preferred stock, and common equity, respectively, in the capital structure. Note that <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi><mi>%</mi><mo> </mo><mo>+</mo><mo> </mo><mi>P</mi><mi>%</mi><mo> </mo><mo>+</mo><mo> </mo><mi>E</mi><mi>%</mi></math> must equal 100% because the company must account for 100% of its financing. The after-tax cost of debt is <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>r</mi><mi>d</mi></msub><mfenced><mrow><mn>1</mn><mo>-</mo><mi>T</mi></mrow></mfenced></math>. The cost of preferred stock capital is represented by <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">r</emphasis><sub>pfd</sub>, and the cost of common stock capital is represented by <emphasis effect="italics">r</emphasis><sub>e</sub>.</para>
+    <para id="para-00005">For a company that does not issue preferred stock, <emphasis effect="italics">P%</emphasis> is equal to zero, and the WACC equation is simply</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>r</mi><mi>WACC</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mi>D</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi>d</mi></msub><mfenced><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mi>T</mi></mrow></mfenced><mo> </mo><mo>+</mo><mo> </mo><mi>E</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi>e</mi></msub></math></equation>
+    <para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">Earlier in this chapter, we calculated the weights in Bluebonnet Industries’ capital structure to be <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi><mi>%</mi><mo>=</mo><mn>24</mn><mo>.</mo><mn>4</mn><mi>%</mi></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>E</mi><mi>%</mi><mo>=</mo><mn>75</mn><mo>.</mo><mn>6</mn><mi>%</mi></math>. We also calculated the after-tax cost of debt for Bluebonnet to be 4.99%. If we use the CAPM to estimate the cost of equity capital for the firm, Bluebonnet’s WACC is computed as</para>
+    <equation id="eq-00003" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>r</mi><mrow><mi>W</mi><mi>ACC</mi></mrow></msub><mo> </mo><mo>=</mo><mo> </mo><mn>24</mn><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><mn>4</mn><mo>.</mo><mn>99</mn><mi>%</mi><mo> </mo><mo>+</mo><mo> </mo><mn>75</mn><mo>.</mo><mn>6</mn><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><mn>13</mn><mo>.</mo><mn>4</mn><mi>%</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>20</mn><mi>%</mi><mo> </mo><mo>+</mo><mo> </mo><mn>10</mn><mo>.</mo><mn>13</mn><mi>%</mi><mo> </mo><mo>=</mo><mo> </mo><mn>11</mn><mo>.</mo><mn>33</mn><mi>%</mi></math></equation>
+    <para id="para-00007" xmlns="http://cnx.rice.edu/cnxml">If we use the constant dividend discount model to estimate the cost of equity for Bluebonnet Industries, the WACC is computed as</para>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>r</mi><mi>WACC</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mn>24</mn><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><mn>4</mn><mo>.</mo><mn>99</mn><mi>%</mi><mo> </mo><mo>+</mo><mo> </mo><mn>75</mn><mo>.</mo><mn>6</mn><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><mn>14</mn><mo>.</mo><mn>24</mn><mi>%</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>20</mn><mi>%</mi><mo> </mo><mo>+</mo><mo> </mo><mn>10</mn><mo>.</mo><mn>77</mn><mi>%</mi><mo> </mo><mo>=</mo><mo> </mo><mn>11</mn><mo>.</mo><mn>97</mn><mi>%</mi></math></equation>
+    </section>
+    <section id="sect-00003" xmlns="http://cnx.rice.edu/cnxml">
+    <title>Calculating WACC in Practice</title>
+    <para id="para-00008">The equation for calculating WACC is straightforward. However, issues come up when financial managers calculate WACC in practice. Both the weights of the equity components and the cost of the equity components are needed to calculate the WACC. The WACC that financial managers derive will depend on the assumptions and models they use to determine what weights and capital costs to use.</para>
+    <section id="sect-00004">
+    <title>Issues in Estimating the Cost of Equity Capital</title>
+    <para id="para-00009">We have explored two ways of estimating the cost of equity capital: the CAPM and the constant dividend growth model. Often, these methods will produce similar estimates of the cost of capital; seldom will the two methods provide the same value.</para>
+    <para id="para-00010">In our example for Bluebonnet Industries, the CAPM estimated the cost of equity capital as 13.4%. The constant dividend growth model estimated the cost of capital as 14.24%. The exact value of the WACC calculation depends on which of these estimates is used. It is important to remember that the WACC is an estimate that is based on a number of assumptions that financial managers made.</para>
+    <para id="para-00011">For example, using the CAPM requires assumptions be made regarding the values of the risk-free interest rate, the market risk premium, and a firm’s beta. The risk-free interest rate is generally determined using US Treasury security yields. In theory, the yield on <term class="no-emphasis" id="term-00001">US Treasury securities</term> that have a maturity equivalent to the length of the company’s investors’ investment horizon should be used. It is common for financial analysts to use yields on long-term <term class="no-emphasis" id="term-00002">US Treasury bonds</term> to determine the risk-free rate.</para>
+    <para id="para-00012">To estimate the market risk premium, analysts turn to historical data. Because this historical data is used to estimate the future market risk premium, the question arises of how many years of historical data should be used. Using more years of historical data can lead to more accurate estimates of what the average past return has been, but very old data may have little relevance if today’s financial market environment is different from what it was in the past. Old data may have little relevance for investors’ expectations today. Typical market risk premiums used by financial managers range from 5% to 8%.</para>
+    <para id="para-00013">The same issue with how much historical data should be considered arises when calculating a company’s beta. Different financial managers can calculate significantly different betas even for well-established, stable companies. In April 2021, for example, the beta for <term class="no-emphasis" id="term-00003">IBM</term> was reported as 0.97 by <term class="no-emphasis" id="term-00004">MarketWatch</term> and as 1.25 by <term class="no-emphasis" id="term-00005">Yahoo! Finance</term>.</para>
+    <para id="para-00014">The CAPM estimate of the cost of equity capital for IBM is significantly different depending on what source is used for the company’s beta and what value is used for the market risk premium. Using a market risk premium of 5%, the beta of 0.97 provided by MarketWatch, and a risk-free rate of 3% results in a cost of capital of</para>
+    <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>r</mi><mi>e</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>03</mn><mo> </mo><mo>+</mo><mo> </mo><mfenced><mrow><mn>0</mn><mo>.</mo><mn>97</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>05</mn></mrow></mfenced><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>03</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>0485</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>0785</mn><mo> </mo><mo>=</mo><mo> </mo><mn>7</mn><mo>.</mo><mn>85</mn><mi>%</mi></math></equation>
+    <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">If, instead, a market risk premium of 8% and the beta of 1.25 provided by Yahoo! Finance are used, the cost of capital is estimated to be</para>
+    <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>r</mi><mi>e</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>03</mn><mo> </mo><mo>+</mo><mo> </mo><mfenced><mrow><mn>1</mn><mo>.</mo><mn>25</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>08</mn></mrow></mfenced><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>03</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>10</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>13</mn><mo> </mo><mo>=</mo><mo> </mo><mn>13</mn><mo>.</mo><mn>0</mn><mi>%</mi></math></equation>
+    <note class="concepts-practice" id="note-00001" xmlns="http://cnx.rice.edu/cnxml">
+    <title>Estimating the Equity Cost of Capital</title>
+    <para id="para-00016">Although the calculation of the cost of capital using the CAPM equation is simple and straightforward, there is not one definitive equity cost of capital for a company that all financial managers will agree on. Consider the eight companies spotlighted in Table 17.3.</para>
+    <para id="para-00017">Four estimates of the equity cost of capital are calculated for each firm. The first two estimates are based on the beta provided by MarketWatch for each of the companies. A risk-free rate of 3% is assumed. Market risk premiums of both 5% and of 8% are considered. A market risk premium of 5% would suggest that long-run investors who hold a well-diversified portfolio, such as one with all of the stocks in the S&amp;P 500, will average a return 5 percentage points higher than the risk-free rate, or 8%. If you assume instead that the average long-run return on the S&amp;P 500 is 11%, then people who purchase a portfolio of those stocks are rewarded by earning 8 percentage points more than the 3% they would earn investing in the risk-free security.</para>
+    <para id="para-00018">The last two estimates of the cost of equity capital for each company also use the same risk-free rate of 3% and the possible market risk premiums of 5% and 8%. The only difference is that the beta provided by Yahoo! Finance is used in the calculation.</para>
+    <table summary=" " id="table-00001">
+    <title>Estimates of Equity Cost of Capital for Eight Companies</title>
+    <tgroup cols="8">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <colspec colnum="6" colname="c6"/>
+    <colspec colnum="7" colname="c7"/>
+    <colspec colnum="8" colname="c8"/>
+    <thead>
+    <row>
+    <entry align="center" morerows="1">Company</entry>
+    <entry align="center" morerows="1">Industry</entry>
+    <entry align="center" namest="C3" nameend="C5">MarketWatch</entry>
+    <entry align="center" namest="C6" nameend="C8">Yahoo! Finance</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">Beta</entry>
+    <entry align="center">MRP = 5%</entry>
+    <entry align="center">MRP = 8%</entry>
+    <entry align="center">Beta</entry>
+    <entry align="center">MRP = 5%</entry>
+    <entry align="center">MRP = 8%</entry>
+    </row>
+    <row>
+    <entry><term class="no-emphasis" id="term-00006">Kroger</term></entry>
+    <entry>Food retail</entry>
+    <entry align="right">0.31</entry>
+    <entry align="right">4.55%</entry>
+    <entry align="right">5.48%</entry>
+    <entry align="right">0.66</entry>
+    <entry align="right">6.30%</entry>
+    <entry align="right">8.28%</entry>
+    </row>
+    <row>
+    <entry><term class="no-emphasis" id="term-00007">Coca-Cola</term></entry>
+    <entry>Nonalcoholic beverages</entry>
+    <entry align="right">0.69</entry>
+    <entry align="right">6.45%</entry>
+    <entry align="right">8.52%</entry>
+    <entry align="right">0.62</entry>
+    <entry align="right">6.10%</entry>
+    <entry align="right">7.96%</entry>
+    </row>
+    <row>
+    <entry><term class="no-emphasis" id="term-00008">AT&amp;T</term></entry>
+    <entry>Telecommunications</entry>
+    <entry align="right">0.74</entry>
+    <entry align="right">6.70%</entry>
+    <entry align="right">8.92%</entry>
+    <entry align="right">0.74</entry>
+    <entry align="right">6.70%</entry>
+    <entry align="right">8.92%</entry>
+    </row>
+    <row>
+    <entry><term class="no-emphasis" id="term-00009">Kraft Heinz</term></entry>
+    <entry>Food products</entry>
+    <entry align="right">0.82</entry>
+    <entry align="right">7.10%</entry>
+    <entry align="right">9.56%</entry>
+    <entry align="right">1.14</entry>
+    <entry align="right">8.70%</entry>
+    <entry align="right">12.12%</entry>
+    </row>
+    <row>
+    <entry><term class="no-emphasis" id="term-00010">Microsoft</term></entry>
+    <entry>Software</entry>
+    <entry align="right">1.19</entry>
+    <entry align="right">8.95%</entry>
+    <entry align="right">12.52%</entry>
+    <entry align="right">0.79</entry>
+    <entry align="right">6.95%</entry>
+    <entry align="right">9.32%</entry>
+    </row>
+    <row>
+    <entry><term class="no-emphasis" id="term-00011">Goodyear Tire and Rubber</term></entry>
+    <entry>Tires</entry>
+    <entry align="right">1.24</entry>
+    <entry align="right">9.20%</entry>
+    <entry align="right">12.92%</entry>
+    <entry align="right">2.26</entry>
+    <entry align="right">14.30%</entry>
+    <entry align="right">21.08%</entry>
+    </row>
+    <row>
+    <entry><term class="no-emphasis" id="term-00012">American Airlines</term></entry>
+    <entry>Passenger airlines</entry>
+    <entry align="right">1.34</entry>
+    <entry align="right">9.70%</entry>
+    <entry align="right">13.72%</entry>
+    <entry align="right">1.93</entry>
+    <entry align="right">12.65%</entry>
+    <entry align="right">18.44%</entry>
+    </row>
+    <row>
+    <entry><term class="no-emphasis" id="term-00013">KB Homes</term></entry>
+    <entry>Residential construction</entry>
+    <entry align="right">1.42</entry>
+    <entry align="right">10.10%</entry>
+    <entry align="right">14.36%</entry>
+    <entry align="right">1.83</entry>
+    <entry align="right">12.15%</entry>
+    <entry align="right">17.64%</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    <caption>(source: Yahoo! Finance; MarketWatch)</caption>
+    </table>
+    <para id="para-00019">The range of the equity cost of capital estimates for each of the firms is significant. Consider, for example, Goodyear Tire and Rubber. According to MarketWatch, the beta for the company is 1.24, resulting in an estimated cost of equity capital between 9.20% and 12.92%. The beta provided by Yahoo! Finance is much higher, at 2.26. Using this higher beta results in an estimated equity cost of capital for Goodyear Tire and Rubber between 14.30% and 21.08%. This leaves the financial managers of Goodyear Tire and Rubber with an estimate of the equity cost of capital between 9.20% and 21.08%, using a range of reasonable assumptions.</para>
+    <para id="para-00020">What is a financial manager to do when one estimate is more than twice as large as another estimate? A financial manager who believes the equity cost of capital is close to 9% is likely to make very different choices from one who believes the cost is closer to 21%. This is why it is important for a financial manager to have a broad understanding of the operations of a particular company. First, the manager must know the historical background from which these numbers were derived. It is not enough for the manager to know that beta is estimated as 1.24 or 2.26; the manager must be able to determine why the estimates are so different. Second, the manager must be familiar enough with the company and the economic environment to draw a conclusion about what set of assumptions will most likely be reasonable going forward. While these numbers are based on historical data, the financial manager’s main concern is what the numbers will be going forward.</para>
+    <para id="para-00021">It is evident that estimating the equity cost of capital is not a simple task for companies. Although we do see a wide range of estimates in the table, some general principles emerge. First, the average company has a beta of 1. With a risk-free rate of 3% and a market risk premium in the range of 5% to 8%, the cost of equity capital will fall within a range of 8% to 11% for the average company. Companies that have a beta less than 1 will have an equity cost of capital that falls below this range, and companies that have a beta greater than 1 will have an equity cost of capital that rises above this range.</para>
+    <para id="para-00022">Recall that a company’s beta is heavily influenced by the type of industry. Grocery stores and providers of food products, for example, tend to have betas less than 1. During recessionary times, people still eat, but during expansionary times, people do not significantly increase their spending on these products. Thus, companies such as <term class="no-emphasis" id="term-00014">Kroger</term>, <term class="no-emphasis" id="term-00015">Coca-Cola</term>, and <term class="no-emphasis" id="term-00016">Kraft Heinz</term> will tend to have low betas and a range of equity cost of capital below 8% to 11%.</para>
+    <para id="para-00023">The sales of companies in other industries tend to be much more volatile. During expansionary periods, people fly to vacation destinations and purchase new homes. During recessionary periods, families cut back on these discretionary expenditures. Thus, companies such as <term class="no-emphasis" id="term-00017">American Airlines</term> and <term class="no-emphasis" id="term-00018">KB Homes</term> will have higher betas and ranges of equity cost of capital that exceed the 8% to 11% average. The higher equity cost of capital is needed to incentivize investors to invest in these companies with riskier cash flows rather than in lower-risk companies.</para>
+    </note>
+    <para id="para-00024">The CAPM estimate depends on assumptions made, but issues also exist with the constant dividend growth model. First, the constant dividend growth model can be used only for companies that pay dividends. Second, the model assumes that the dividends will grow at a constant rate in the future, an assumption that is not always reasonable. It also assumes that the financial manager accurately forecasts the growth rate of dividends; any error in this forecast results in an error in estimating the cost of equity capital.</para>
+    <para id="para-00025">Given the differences in assumptions made when using the constant dividend growth model and the CAPM to estimate the equity cost of capital, it is not surprising that the numbers from the two models differ. When estimating the cost of equity capital for a particular firm, financial managers must examine the assumptions made for both approaches and decide which set of assumptions is more realistic for that particular company.</para>
+    </section>
+    <section id="sect-00005">
+    <title>Net Debt</title>
+    <para id="para-00026">Many practitioners use <term id="term-00019">net debt</term> rather than total debt when calculating the weights for WACC. Net debt is the amount of debt that would remain if a company used all of its liquid assets to pay off as much debt as possible. Net debt is calculated as the firm’s total debt, both short-term and long-term, minus the firm’s cash and cash equivalents. Cash equivalents are current assets that can quickly and easily be converted into cash, such as Treasury bills, commercial paper, and marketable securities.</para>
+    <para id="para-00027">Consider, for example, Apple, which had $112.436 billion in total debt in 2020. The company also had $38.016 billion in cash and cash equivalents. This meant that the net debt for Apple was only $74.420 billion. If Apple used all of its cash and cash equivalents to pay debt, it would be left with $74.420 billion in debt.<footnote id="foot-00001">“Historical Data.” Apple Inc. (AAPL). Yahoo! Finance, accessed October 29, 2021. https://finance.yahoo.com/quote/AAPL/history/</footnote></para>
+    <para id="para-00028">Cash and cash equivalents can be viewed as negative debt. For firms with relatively low levels of cash, this adjustment will not have a large impact on the overall WACC estimate. However, the adjustment can be important for firms that hold substantial cash reserves.</para>
+    </section>
+    </section>
+    <section class="section-summary" id="sect-00006">
+    <para id="para-00029">Calculate the weighted average cost of capital (WACC) using the formula</para>
+    <para id="para-00030"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>r</mi><mi>WACC</mi></msub><mo> </mo><mo>=</mo><mo> </mo><mi>D</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">d</mi></msub><mfenced><mrow><mn>1</mn><mo>-</mo><mi>T</mi></mrow></mfenced><mo> </mo><mo>+</mo><mo> </mo><mi>P</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi>pfd</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mi>E</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">e</mi></msub></math></para>
+    <para id="para-00031" xmlns="http://cnx.rice.edu/cnxml">Remember that the WACC is an estimate; different methods of estimating the cost of equity capital can lead to different estimations of WACC.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00007">
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00032"><link class="os-embed" url="#exercise/FI_Ch17_Sec3_MCQ6"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00008">
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00033"><link class="os-embed" url="#exercise/FI_Ch17_Sec3_PRQ5"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00034"><link class="os-embed" url="#exercise/FI_Ch17_Sec3_PRQ6"/></para></problem></exercise>
+    </section>
+    <section class="video-activity" id="sect-00009">
+    <title/>
+    <section id="sect-00010">
+    <title>Calculating the Weighted Average Cost of Capital</title>
+    <media alt="Weighted-Avg">
+    <iframe width="660" height="371.4" src="https://openstax.org/r/WACC"/>
+    </media>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00035"><link class="os-embed" url="#exercise/FI_Ch17_Sec3_VA1Q1"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00036"><link class="os-embed" url="#exercise/FI_Ch17_Sec3_VA1Q2"/></para></problem></exercise>
+    </section>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>net debt</term><meaning>a company’s total debt minus any cash or risk-free assets the company holds</meaning></definition>
+    </glossary>
 </document>

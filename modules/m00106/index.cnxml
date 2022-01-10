@@ -1,13 +1,69 @@
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
-  <title>The Concept of a Capital Structure</title>
+  <title>The Concept of Capital Structure</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
-    <md:title>The Concept of a Capital Structure</md:title>
+    <md:title>The Concept of Capital Structure</md:title>
     <md:content-id>m00106</md:content-id>
     <md:uuid>1c25c0be-8ddb-4da2-bdbf-ee264421fffc</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Distinguish between the two major sources of capital appearing on a balance sheet.</item>
+    <item>Explain why there is a cost of capital.</item>
+    <item>Calculate the weights in a company’s capital structure.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>The Basic Balance Sheet</title>
+    <para id="para-00002">In order to produce and sell its products or services, a company needs assets. If a firm will produce shirts, for example, it will need equipment such as sewing machines, cutting boards, irons, and a building in which to store its equipment. The company will also need some raw materials such as fabric, buttons, and thread. These items the company needs to conduct its operations are <emphasis effect="italics">assets</emphasis>. They appear on the left-hand side of the balance sheet.</para>
+    <para id="para-00003">The company has to pay for these assets. The sources of the money the company uses to pay for these assets appear on the right-hand side of the balance sheet. The company’s sources of financing represent its <term id="term-00001">capital</term>. There are two broad types of capital: debt (or borrowing) and equity (or ownership).</para>
+    <para id="para-00004">Figure 17.2 is a representation of a basic balance sheet. Remember that the two sides of the balance sheet must be equal: Assets = Liabilities + Equity. Companies typically finance their assets through equity (selling ownership shares to stockholders) and debt (borrowing money from lenders). The debt that a firm uses is often referred to as <term id="term-00002">financial leverage</term>. The relative proportions of debt and equity that a firm uses in financing its assets is referred to as its <term id="term-00003">capital structure</term>.</para>
+    <figure id="fig-00001">
+    <title>Basic Balance Sheet for Company with Debt, Preferred Stock, and Common Equity in Capital Structure</title>
+    <media alt="A basic balance sheet shows that the current and long term assets of a company are equal to its debt, preferred stock, and common equity. In this figure, debt, preferred stock, and common equity are represented by equal sized rectangles. These three rectangles stacked together are the same size as the rectangle representing current and long term assets."><image mime-type="image/png" src="../../media/FINAN_Figure_17_01_002.png"/></media>
+    </figure>
+    </section>
+    <section id="sect-00003">
+    <title>Attracting Capital</title>
+    <para id="para-00005">When a company raises money from investors, those investors forgo the opportunity to invest that money elsewhere. In economics terms, there is an <emphasis effect="italics">opportunity cost</emphasis> to those who buy a company’s bonds or stock.</para>
+    <para id="para-00006">Suppose, for example, that you have $5,000, and you purchase <term class="no-emphasis" id="term-00004">Tesla</term> stock. You could have purchased <term class="no-emphasis" id="term-00005">Apple</term> stock or Disney stock instead. There were many other options, but once you chose Tesla stock, you no longer had the money available for the other options. You would only purchase Tesla stock if you thought that you would receive a return as large as you would have for the same level of risk on the other investments.</para>
+    <para id="para-00007">From Tesla’s perspective, this means that the company can only attract your capital if it offers an expected return high enough for you to choose it as the company that will use your money. Providing a return equal to what potential investors could expect to earn elsewhere for a similar risk is the cost a company bears in exchange for obtaining funds from investors. Just as a firm must consider the costs of electricity, raw materials, and wages when it calculates the costs of doing business, it must also consider the cost of attracting capital so that it can purchase its assets.</para>
+    </section>
+    <section id="sect-00004">
+    <title>Weights in the Capital Structure</title>
+    <para id="para-00008">Most companies have multiple sources of capital. The firm’s overall cost of capital is a weighted average of its debt and equity costs of capital. The average of a firm’s debt and equity costs of capital, weighted by the fractions of the firm’s value that correspond to debt and equity, is known as the <term id="term-00006">weighted average cost of capital (WACC)</term>.</para>
+    <para id="para-00009">The weights in the WACC are the proportions of debt and equity used in the firm’s capital structure. If, for example, a company is financed 25% by debt and 75% by equity, the weights in the WACC would be 25% on the debt cost of capital and 75% on the equity cost of capital. The balance sheet of the company would look like Figure 17.3.</para>
+    <para id="para-00010">These weights can be derived from the right-hand side of a market-value-based balance sheet. Recall that accounting-based book values listed on traditional financial statements reflect historical costs. The market-value balance sheet is similar to the accounting balance sheet, but all values are current market values.</para>
+    <figure id="fig-00002">
+    <title>Balance Sheet of Company with Capital Structure of 25% Debt and 75% Equity</title>
+    <media alt="A balance sheet shows that the market value of assets are equal to market value of debt and the market value of equity. In this figure, the market value of debt is represented by a rectangle that is 25% of the size of the market value of assets. The market value of equity is represented by a rectangle that is 75% of the size of the market value of assets. These two rectangles are stacked on top of each other and together are the same size as the rectangle representing market value of assets."><image mime-type="image/png" src="../../media/FINAN_Figure_17_01_003.png"/></media>
+    </figure>
+    <para id="para-00011">Just as the accounting balance sheet must balance, the market-value balance sheet must balance:</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Market</mi><mo> </mo><mi>Value</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Assets</mi><mo> </mo><mo>=</mo><mo> </mo><mi>Market</mi><mo> </mo><mi>Value</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Debt</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Market</mi><mo> </mo><mi>Value</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Equity</mi></math></equation>
+    <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">This equation reminds us that the values of a company’s debt and equity flow from the market value of the company’s assets.</para>
+    <para id="para-00013">Let’s look at an example of how a company would calculate the weights in its capital structure. <term class="no-emphasis" id="term-00007">Bluebonnet Industries</term> has debt with a book (face) value of $5 million and equity with a book value of $3 million. Bluebonnet’s debt is trading at 97% of its face value. It has one million shares of stock, which are trading for $15 per share.</para>
+    <para id="para-00014">First, the market values of the company’s debt and equity must be determined. Bluebonnet’s debt is trading at a discount; its market value is <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn><mo>.</mo><mn>97</mn><mo>×</mo><mo>$</mo><mn>5</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><mo>=</mo><mo>$</mo><mn>4</mn><mo>,</mo><mn>850</mn><mo>,</mo><mn>000</mn></math>. The market value of Bluebonnet’s equity equals <math xmlns="http://www.w3.org/1998/Math/MathML"><mpadded lspace="-1px"><mi>Number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Shares</mi></mpadded><mo> </mo><mo>×</mo><mo> </mo><mi>Price</mi><mo> </mo><mi>per</mi><mo> </mo><mi>Share</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mo>$</mo><mn>15</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>15</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></math>. Thus, the total market value of the company’s capital is <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>4</mn><mo>,</mo><mn>850</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>+</mo><mo> </mo><mo>$</mo><mn>15</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>19</mn><mo>,</mo><mn>850</mn><mo>,</mo><mn>000</mn></math>. The weight of debt in Bluebonnet’s capital structure is <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>4</mn><mo>,</mo><mn>850</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>$</mo><mn>19</mn><mo>,</mo><mn>850</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>24</mn><mo>.</mo><mn>4</mn><mo>%</mo></math>. The weight of equity in its capital structure is <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>15</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>$</mo><mn>19</mn><mo>,</mo><mn>850</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>75</mn><mo>.</mo><mn>6</mn><mo>%</mo></math>.</para>
+    </section>
+    <section class="section-summary" id="sect-00005" xmlns="http://cnx.rice.edu/cnxml">
+    <para id="para-00015">Capital structure refers to how a company finances its assets. The two main sources of capital are debt financing and equity financing. A cost of capital exists because investors want a return equivalent to what they would receive on an investment with an equivalent risk to persuade them to let the company use their funds. The market values of debt and equity are used to calculate the weights of the components of the capital structure.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00016"><link class="os-embed" url="#exercise/FI_Ch17_Sec1_MCQ1"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00017"><link class="os-embed" url="#exercise/FI_Ch17_Sec1_MCQ2"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00018"><link class="os-embed" url="#exercise/FI_Ch17_Sec1_MCQ3"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00007">
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00019"><link class="os-embed" url="#exercise/FI_Ch17_Sec1_RVQ1"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00008">
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00020"><link class="os-embed" url="#exercise/FI_Ch17_Sec1_PRQ1"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>capital</term><meaning>a company’s sources of financing</meaning></definition>
+    <definition id="def-00002"><term>capital structure</term><meaning>the percentages of a company’s assets that are financed by debt capital, preferred stock capital, and common stock capital</meaning></definition>
+    <definition id="def-00003"><term>financial leverage</term><meaning>the debt used in a company’s capital structure</meaning></definition>
+    <definition id="def-00004"><term>weighted average cost of capital (WACC)</term><meaning>the average of a firm’s debt and equity costs of capital, weighted by the fractions of the firm’s value that correspond to debt and equity</meaning></definition>
+    </glossary>
 </document>

@@ -6,8 +6,263 @@
     <md:uuid>39a89836-eca7-4549-a2f7-60b345f250c9</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Distinguish between a levered and an unlevered firm.</item>
+    <item>Explain why the choice of capital structure does not impact the value of a firm in perfect financial markets.</item>
+    <item>Calculate the interest tax shield.</item>
+    <item>Explain how the interest tax shield encourages the use of leverage.</item>
+    </list>
+    </section>
+    <para id="para-00002">So far, we have taken the company’s capital structure as given. Each firm’s capital structure, however, is a result of intentional decisions made by the financial managers of the company. We now turn our attention to the issues that financial managers consider when making these decisions.</para>
+    <section id="sect-00002">
+    <title>The Unlevered Firm</title>
+    <para id="para-00003">Let’s begin our discussion of capital structure choices by exploring the financing decisions you would face if you were to start a T-shirt business. Suppose that your hometown will host an international cycling competition. The competition itself will last for a month; cyclists will arrive early to train in the local climate. News coverage will be significant, meaning a lot of media personnel will be visiting your area. In addition to fans attending the event, it is expected that tourism will increase over the next year as recreational cyclists will want to ride the route of the professional race. You decide to operate a business for one year that will sell T-shirts highlighting this event.</para>
+    <para id="para-00004">You will need to make an up-front investment of $40,000 to start the business. You estimate that you will generate a cash flow of $52,000, after you cover all of your operating costs, at the end of next year. You know that these profits are risky; you think a 10% risk premium is appropriate for the level of riskiness of the business. If the risk-free rate is 4%, this means that the appropriate discount rate for you to use is 14%. The value of this business opportunity is</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Value</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Business</mi><mo>=</mo><mfrac><mrow><mo>$</mo><mn>52</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>14</mn></mrow></mfrac><mo>-</mo><mo>$</mo><mn>40</mn><mo>,</mo><mn>000</mn><mo>=</mo><mo>$</mo><mn>45</mn><mo>,</mo><mn>614</mn><mo>-</mo><mo>$</mo><mn>40</mn><mo>,</mo><mn>000</mn><mo>=</mo><mo>$</mo><mn>5614</mn><mo>\</mo><mo> </mo></math></equation>
+    <para id="para-00005" xmlns="http://cnx.rice.edu/cnxml">This looks as if it will be a profitable business that should be undertaken. However, you do not have the $40,000 for the up-front investment and will need to raise it.</para>
+    <para id="para-00006">First, consider raising money solely by selling ownership shares to your family and friends. How much would those shares be worth? The value of the stock would be equal to the present value of the expected future cash flows. The potential stockholders would expect to receive $45,614 in one year. If they agree with you that the riskiness of this T-shirt business warrants a discount rate of 14%, then they will value the stock at</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Present</mi><mo> </mo><mi>Value</mi><mo>=</mo><mfrac><mrow><mo>$</mo><mn>52</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>14</mn></mrow></mfrac><mo>=</mo><mo>$</mo><mn>45</mn><mo>,</mo><mn>614</mn></math></equation>
+    <para id="para-00007" xmlns="http://cnx.rice.edu/cnxml">If you sell all of the equity in the company for $45,614 and purchase the equipment necessary for the project for $40,000, you have $5,614 to keep as the entrepreneur who created the business.</para>
+    <para id="para-00008">This business would be financed 100% by equity. The lack of any debt in the capital structure means the firm would have no financial leverage. The equity in a firm that has no financial leverage is called <term id="term-00001">unlevered equity</term>.</para>
+    </section>
+    <section id="sect-00003">
+    <title>The Levered Firm</title>
+    <para id="para-00009">Next, consider borrowing some of the money that you will need to start this T-shirt business. Although the cash flows from the business are uncertain, suppose you are certain that the business will generate at least $18,000. (Perhaps you have a guaranteed order from the cycling competition sponsors.) If you borrowed $17,000 at the risk-free interest rate of 4%, you would owe <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>17</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mo>(</mo><mn>1</mn><mo>.</mo><mn>04</mn><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>17</mn><mo>,</mo><mn>680</mn></math> to the lenders at the end of the year. Because you are certain that you will generate at least $18,000 in cash, which is greater than $17,680, you can borrow the $17,000 without any risk of defaulting.</para>
+    <para id="para-00010" xmlns="http://cnx.rice.edu/cnxml">The $17,000 will not be enough to pay for all the start-up costs. You will also need to raise some capital by selling equity. Because your firm will have some debt, or financial leverage, the equity that you raise will be known as <term id="term-00002">levered equity</term>. The equity holders expect the firm to generate $52,000 in cash flows. Debt holders must be paid before equity holders, so this will leave <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>52</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>-</mo><mo> </mo><mo>$</mo><mn>17</mn><mo>,</mo><mn>680</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>34</mn><mo>,</mo><mn>320</mn></math> for the shareholders.</para>
+    <para id="para-00011" xmlns="http://cnx.rice.edu/cnxml">The expected future cash flows generated by the business are determined by the productivity of its assets, not the manner in which those assets are financed. It is the present value of these expected future cash flows that determines the firm’s value. Thus, the firm’s value in perfect capital markets will not change as a result of the company taking on leverage.</para>
+    <note class="link-to-learning" id="note-00001">
+    <title><term class="no-emphasis" id="term-00003">MM Proposition I</term></title>
+    <para id="para-00012">Nobel laureates Franco <term class="no-emphasis" id="term-00004">Modigliani</term> and Merton <term class="no-emphasis" id="term-00005">Miller</term> wrote influential papers exploring capital structure and the cost of a firm’s capital. They began by considering what would occur in a perfectly competitive market. One of the assumptions of this perfect capital market is that there are no taxes. The idea that the market value of the unlevered and levered firm is the same in perfect capital markets is known in the field of finance as MM Proposition I.</para>
+    <para id="para-00013">Visit Milken Institute’s 5-Minute Finance site to explore more about <link url="https://openstax.org/r/Modigliani">Modigliani and Miller’s contributions</link> to the understanding of capital structure.</para>
+    </note>
+    <para id="para-00014">The value of your T-shirt business remains at $45,614. You can calculate the value of the levered equity as</para>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Value</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Firm</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi>D</mi><mo> </mo><mo>+</mo><mo> </mo><mi>E</mi></mtd></mtr><mtr><mtd><mo>$</mo><mn>45</mn><mo>,</mo><mn>614</mn><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>17</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>+</mo><mo> </mo><mi>E</mi></mtd></mtr><mtr><mtd><mi>E</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>45</mn><mo>,</mo><mn>614</mn><mo> </mo><mo>-</mo><mo> </mo><mo>$</mo><mn>17</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>28</mn><mo>,</mo><mn>614</mn></mtd></mtr></mtable></math></equation>
+    <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">Now, shareholders are willing to pay $28,614 for ownership in this company. They expect to get $34,320 in one year in return for purchasing this equity. What discount rate does this imply?</para>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mfrac><mrow><mo>$</mo><mn>34</mn><mo>,</mo><mn>320</mn></mrow><mrow><mn>1</mn><mo>+</mo><msub><mi>r</mi><mi>E</mi></msub></mrow></mfrac></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>28</mn><mo>,</mo><mn>614</mn></mtd></mtr><mtr><mtd><mfrac><mrow><mo>$</mo><mn>34</mn><mo>,</mo><mn>320</mn></mrow><mrow><mo>$</mo><mn>28</mn><mo>,</mo><mn>614</mn></mrow></mfrac></mtd><mtd><mo>=</mo></mtd><mtd><mn>1</mn><mo>+</mo><msub><mi>r</mi><mi>E</mi></msub></mtd></mtr><mtr><mtd><msub><mi>r</mi><mi>E</mi></msub></mtd><mtd><mo>=</mo></mtd><mtd><mn>19</mn><mo>.</mo><mn>94</mn><mo>%</mo></mtd></mtr></mtable></math></equation>
+    <para id="para-00016" xmlns="http://cnx.rice.edu/cnxml">Notice that the expected return to shareholders has risen from 14% for the unlevered firm to 19.94% for the levered firm. Recall that the expected return to shareholders equals the risk-free rate plus a risk premium. The risk-free rate has remained 4%. With leverage, the risk premium rises from 10% to 15.94%.</para>
+    <para id="para-00017">Why does this risk premium increase? Recall that debt holders are paid before equity holders. Equity holders are residual claimants; they will only receive payment if there is money left over after the debt holders are fully paid. The business is risky. You are certain that the company will have cash flow of at least $18,000 at the end of the year and that $17,680 will be paid to the debt holders. Therefore, if the company performs poorly (perhaps bad weather results in the cancellation of much of the cycling competition) and the cash flows fall way below what you are expecting, there may be only several hundred dollars left for the shareholders.</para>
+    <para id="para-00018">When the firm was unlevered, if the cash flow at the end of the year was only $18,000, the shareholders would receive $18,000. When leverage is used, the same cash flow would result in shareholders receiving only $320. The risk to the shareholders increases as leverage is used; thus, the risk premium that shareholders require also increases as leverage is used.</para>
+    </section>
+    <section id="sect-00004">
+    <title>Leverage and the WACC</title>
+    <para id="para-00019">What happens to the WACC as leverage is used? To figure this out, we must calculate the weights of debt and equity in the capital structure:</para>
+    <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>D</mi><mi>%</mi></mtd><mtd><mo>=</mo></mtd><mtd><mfrac><mrow><mo>$</mo><mn>17</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>$</mo><mn>45</mn><mo>,</mo><mn>614</mn></mrow></mfrac><mo>=</mo><mn>37</mn><mo>.</mo><mn>27</mn><mo>%</mo></mtd></mtr><mtr><mtd><mi>E</mi><mo>%</mo></mtd><mtd><mo>=</mo></mtd><mtd><mfrac><mrow><mo>$</mo><mn>28</mn><mo>,</mo><mn>614</mn></mrow><mrow><mo>$</mo><mn>45</mn><mo>,</mo><mn>614</mn></mrow></mfrac><mo>=</mo><mn>62</mn><mo>.</mo><mn>73</mn><mo>%</mo></mtd></mtr></mtable></math></equation>
+    <para id="para-00020" xmlns="http://cnx.rice.edu/cnxml">In perfect capital markets, an assumption we are making for now, there are no taxes. Because we are using only debt and common stock, the weight of preferred stock is zero, and our WACC can be calculated as</para>
+    <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>r</mi><mi>WACC</mi></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>37</mn><mo>.</mo><mn>27</mn><mo>%</mo><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>04</mn><mfenced><mrow><mn>1</mn><mo>-</mo><mn>0</mn></mrow></mfenced><mo> </mo><mo>+</mo><mo> </mo><mn>62</mn><mo>.</mo><mn>73</mn><mo>%</mo><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>1994</mn></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>1</mn><mo>.</mo><mn>49</mn><mo>%</mo><mo> </mo><mo>+</mo><mo> </mo><mn>12</mn><mo>.</mo><mn>51</mn><mo>%</mo></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>14</mn><mi>%</mi></mtd></mtr></mtable></math></equation>
+    <para id="para-00021" xmlns="http://cnx.rice.edu/cnxml">Notice that the use of leverage does not change the WACC. When only equity was used to finance the business, stockholders required a 14% expected return to encourage them to let the firm use their capital. When leverage was used, the debt holders only required a 4% return. However, the existence of debt holders, who stand in front of shareholders in the order of claimants, puts shareholders in a riskier position. There is a greater chance that the shareholders will not receive payment from this uncertain business. Thus, the shareholders require a higher rate of return to let the leveraged firm use their capital.</para>
+    <para id="para-00022">The cost-savings benefits of using lower-cost debt in your company’s capital structure are exactly offset by the higher return that shareholders require when leverage is used. Mathematically, the increase in the cost of equity when leverage is used will be proportional to the debt–equity ratio. Financial managers refer to this outcome as MM Proposition II. The relationship is expressed by the formula</para>
+    <equation id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>r</mi><mi mathvariant="normal">E</mi></msub><mo> </mo><mo>=</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">u</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mfrac><mi>D</mi><mi>E</mi></mfrac><mo>(</mo><msub><mi>r</mi><mi mathvariant="normal">u</mi></msub><mo> </mo><mo>-</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">D</mi></msub><mo>)</mo></math></equation>
+    <para id="para-00023" xmlns="http://cnx.rice.edu/cnxml">where <emphasis effect="italics">r</emphasis><sub>u</sub> is the required return to equity holders of the unlevered firm.</para>
+    <para id="para-00024">Table 17.4 shows how the cost of equity increases as the weight of debt in the capital structure increases. As the company uses more debt, the risk to equity holders increases. Because equity holders risk that there will be no residual money after bondholders are paid, the equity holders require a higher rate of return to invest in the company as its use of leverage increases. Although debt holders face less risk than equity holders, the risk that they face increases as the amount of debt the company takes on increases. Once the company’s debt exceeds its guaranteed cash flow, which is $18,000 in our example, debt holders face some risk that the company will not be able to pay them. At that point, the cost of debt rises above the risk-free rate. As the weight of debt approaches 100%, the cost of debt capital approaches the cost of equity of the unlevered firm. In other words, if you financed the T-shirt business solely through the use of debt, the debt holders would require a 14% return because they would be bearing the entire risk of the business and would demand to be rewarded for doing so.</para>
+    <para id="para-00025">As the leverage of the firm increases, both the cost of debt capital and the cost of equity capital increase. However, as the firm’s leverage increases, it is using proportionately more of the relatively cheaper source of capital—debt— and proportionately less of the relatively more expensive source of capital—equity. Thus, the WACC remains constant as leverage increases, despite the rising cost of each component.</para>
+    <table summary=" " id="table-00001">
+    <title>Alternative Capital Structures for Your T-Shirt Business</title>
+    <tgroup cols="8">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <colspec colnum="6" colname="c6"/>
+    <colspec colnum="7" colname="c7"/>
+    <thead>
+    <row>
+    <entry align="center">Amount of Debt</entry>
+    <entry align="center">Amount of Equity</entry>
+    <entry align="center">Weight of Debt</entry>
+    <entry align="center">Weight of Equity</entry>
+    <entry align="center">Cost of Debt</entry>
+    <entry align="center">Cost of Equity</entry>
+    <entry align="center">WACC</entry>
+  </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="right">$ -</entry>
+    <entry align="right">$45,614</entry>
+    <entry align="right">0%</entry>
+    <entry align="right">100%</entry>
+    <entry align="right">0.0400</entry>
+    <entry align="right">0.1400</entry>
+    <entry align="right">14%</entry>
+    </row>
+    <row>
+    <entry align="right">$5,000</entry>
+    <entry align="right">$40,614</entry>
+    <entry align="right">11%</entry>
+    <entry align="right">89%</entry>
+    <entry align="right">0.0400</entry>
+    <entry align="right">0.1523</entry>
+    <entry align="right">14%</entry>
+    </row>
+    <row>
+    <entry align="right">$10,000</entry>
+    <entry align="right">$35,614</entry>
+    <entry align="right">22%</entry>
+    <entry align="right">78%</entry>
+    <entry align="right">0.0400</entry>
+    <entry align="right">0.1681</entry>
+    <entry align="right">14%</entry>
+    </row>
+    <row>
+    <entry align="right">$15,000</entry>
+    <entry align="right">$30,614</entry>
+    <entry align="right">33%</entry>
+    <entry align="right">67%</entry>
+    <entry align="right">0.0400</entry>
+    <entry align="right">0.1890</entry>
+    <entry align="right">14%</entry>
+    </row>
+    <row>
+    <entry align="right">$17,000</entry>
+    <entry align="right">$28,614</entry>
+    <entry align="right">37%</entry>
+    <entry align="right">63%</entry>
+    <entry align="right">0.0400</entry>
+    <entry align="right">0.1994</entry>
+    <entry align="right">14%</entry>
+    </row>
+    <row>
+    <entry align="right">$20,000</entry>
+    <entry align="right">$25,614</entry>
+    <entry align="right">44%</entry>
+    <entry align="right">56%</entry>
+    <entry align="right">0.0600</entry>
+    <entry align="right">0.2025</entry>
+    <entry align="right">14%</entry>
+    </row>
+    <row>
+    <entry align="right">$30,000</entry>
+    <entry align="right">$15,614</entry>
+    <entry align="right">66%</entry>
+    <entry align="right">34%</entry>
+    <entry align="right">0.0800</entry>
+    <entry align="right">0.2553</entry>
+    <entry align="right">14%</entry>
+    </row>
+    <row>
+    <entry align="right">$40,000</entry>
+    <entry align="right">$5,614</entry>
+    <entry align="right">88%</entry>
+    <entry align="right">12%</entry>
+    <entry align="right">0.1000</entry>
+    <entry align="right">0.4250</entry>
+    <entry align="right">14%</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    </section>
+    <section id="sect-00005">
+    <title>The Impact of Taxes</title>
+    <para id="para-00026">In perfect capital markets, the choice of capital structure will not impact the value of the firm or the cost of the firm’s financing. In the real world, however, capital markets are not perfect. One of the important market imperfections is the presence of corporate taxes. Because the choice of capital structure can impact the taxes that a company pays, in the real world, capital structure can impact the cost of capital and the firm’s value.</para>
+    <para id="para-00027">Assume that your T-shirt business venture will result in earnings before interest and taxes (EBIT) of $52,000 next year and that the corporate tax rate is 28%. If your company is unlevered, it has no interest expense, and its net income will be $37,440, as shown in Table 17.5.</para>
+    <table summary=" " id="table-00002">
+    <title>Net Income and Leverage</title>
+    <tgroup cols="8">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+    <row>
+    <entry align="center"> </entry>
+    <entry align="center">Without Leverage</entry>
+    <entry align="center">With Leverage</entry>
+  </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry>EBIT</entry>
+    <entry align="right">$52,000.00</entry>
+    <entry align="right">$52,000.00</entry>
+    </row>
+    <row>
+    <entry>Interest Expense</entry>
+    <entry align="right"><emphasis effect="underline">0.00</emphasis></entry>
+    <entry align="right"><emphasis effect="underline">280.00</emphasis></entry>
+    </row>
+    <row>
+    <entry>Income before Taxes</entry>
+    <entry align="right">52,000.00</entry>
+    <entry align="right">51,720.00</entry>
+    </row>
+    <row>
+    <entry>Taxes (28%)</entry>
+    <entry align="right"><emphasis effect="underline">14,560.00</emphasis></entry>
+    <entry align="right"><emphasis effect="underline">14,481.60</emphasis></entry>
+    </row>
+    <row>
+    <entry><emphasis effect="bold"><emphasis effect="underline">Net Income</emphasis></emphasis></entry>
+    <entry align="right"><emphasis effect="bold"><emphasis effect="underline">$37,440.00</emphasis></emphasis><emphasis effect="bold"><emphasis effect="underline"> </emphasis></emphasis></entry>
+    <entry align="right"><emphasis effect="bold"><emphasis effect="underline">$37,238.40</emphasis></emphasis><emphasis effect="bold"><emphasis effect="underline"> </emphasis></emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00028">If your company uses leverage, raising $7,000 of financing by issuing debt with a 4% interest rate, it will have an interest expense of $280. This lowers its taxable income to $51,720 and its taxes to $14,481.60. Because interest is a tax-deductible expense, using leverage lowers the company’s taxes.</para>
+    <para id="para-00029">Table 17.6 shows that the company’s net income is lower with leverage than it would be without leverage. In other words, debt obligations will reduce the value of the equity. However, less equity is needed because some of the firm is financed through debt. The important consideration is how the use of leverage changes the total amount of dollars available to all investors. Table 17.6 shows this impact.</para>
+    <table summary=" " id="table-00003">
+    <title>Total Dollars Available to Investors</title>
+    <tgroup cols="3">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+      <row>
+    <entry align="center"> </entry>
+    <entry align="center">Without Leverage</entry>
+    <entry align="center">With Leverage</entry>
+  </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry>Interest Paid to Debt Holders</entry>
+    <entry align="right">$0.00</entry>
+    <entry align="right">$280.00</entry>
+    </row>
+    <row>
+    <entry>Amount Available to Stockholders</entry>
+    <entry align="right"><emphasis effect="underline">37,440.00</emphasis></entry>
+    <entry align="right"><emphasis effect="underline">37,238.40</emphasis></entry>
+    </row>
+    <row>
+    <entry><emphasis effect="bold">Total Available for All Investors</emphasis><emphasis effect="bold"> </emphasis></entry>
+    <entry align="right"><emphasis effect="bold"><emphasis effect="underline">$37,440.00</emphasis></emphasis><emphasis effect="bold"><emphasis effect="underline"> </emphasis></emphasis></entry>
+    <entry align="right"><emphasis effect="bold"><emphasis effect="underline">$37,518.40</emphasis></emphasis><emphasis effect="bold"><emphasis effect="underline"> </emphasis></emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00030">Using leverage allows the firm to generate $37,518.40 to pay its investors, compared to only $37,440 that is available if the firm is unlevered. Where does the extra $78.40 to pay investors come from? It comes from the reduction in taxes that the firm pays due to leverage. If the company uses no debt, it pays $14,560 in taxes. The levered firm pays only $14,481.60 in taxes, a savings of $78.40.</para>
+    <para id="para-00031">The $280 that the levered company pays in interest is shielded from the corporate tax, resulting in tax savings of <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn><mo>.</mo><mn>28</mn><mo> </mo><mo>×</mo><mo> </mo><mo>$</mo><mn>280</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>78</mn><mo>.</mo><mn>40</mn><mo>.</mo><mo> </mo></math>. The additional amount available to investors because of the tax deductibility of interest payments is known as the <term id="term-00006" xmlns="http://cnx.rice.edu/cnxml">interest tax shield</term>. The interest tax shield is calculated as</para>
+    <equation id="eq-00008"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Interest</mi><mo> </mo><mi>Tax</mi><mo> </mo><mi>Shield</mi><mo> </mo><mo>=</mo><mo> </mo><mi>Corporate</mi><mo> </mo><mi>Tax</mi><mo> </mo><mi>Rate</mi><mo> </mo><mo>×</mo><mo> </mo><mi>Interest</mi><mo> </mo><mi>Payments</mi></math></equation>
+    <para id="para-00032" xmlns="http://cnx.rice.edu/cnxml">When interest is a tax-deductible expense, the total value of the levered firm will exceed the value of the unlevered firm by the amount of this interest tax shield. The tax-advantage status of debt financing impacts the WACC. The WACC with taxes is calculated as</para>
+    <equation id="eq-00009"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>r</mi><mi>WACC</mi></msub></mtd><mtd><mo>=</mo></mtd><mtd><mi>D</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi>d</mi></msub><mfenced><mrow><mn>1</mn><mo>-</mo><mi>T</mi></mrow></mfenced><mo> </mo><mo>+</mo><mo> </mo><mi>E</mi><mi>%</mi><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi>e</mi></msub></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mfrac><mi>D</mi><mrow><mi>E</mi><mo>+</mo><mi>D</mi></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi>d</mi></msub><mfenced><mrow><mn>1</mn><mo>-</mo><mi>T</mi></mrow></mfenced><mo> </mo><mo>+</mo><mo> </mo><mfrac><mi>E</mi><mrow><mi>E</mi><mo> </mo><mo>+</mo><mo> </mo><mi>D</mi></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi>e</mi></msub></mtd></mtr><mtr><mtd/><mtd/><mtd/></mtr></mtable></math></equation>
+    <para id="para-00033" xmlns="http://cnx.rice.edu/cnxml">This formula can be written as</para>
+    <equation id="eq-00010"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>r</mi><mi>WACC</mi></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mfrac><mi>D</mi><mrow><mi>E</mi><mo>+</mo><mi>D</mi></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">d</mi></msub><mo> </mo><mo>-</mo><mo> </mo><mfrac><mi>D</mi><mrow><mi>E</mi><mo>+</mo><mi>D</mi></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">d</mi></msub><mo> </mo><mo>×</mo><mo> </mo><mi>T</mi><mo> </mo><mo>+</mo><mo> </mo><mfrac><mi>E</mi><mrow><mi>E</mi><mo>+</mo><mi>D</mi></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">e</mi></msub></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mfrac><mi>D</mi><mrow><mi>E</mi><mo>+</mo><mi>D</mi></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">d</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mfrac><mi>E</mi><mrow><mi>E</mi><mo>+</mo><mi>D</mi></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">e</mi></msub><mo> </mo><mo>-</mo><mo> </mo><mfrac><mi>D</mi><mrow><mi>E</mi><mo>+</mo><mi>D</mi></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><msub><mi>r</mi><mi mathvariant="normal">d</mi></msub><mo> </mo><mo>×</mo><mo> </mo><mi>T</mi></mtd></mtr><mtr><mtd/><mtd/><mtd/></mtr></mtable></math></equation>
+    <para id="para-00034" xmlns="http://cnx.rice.edu/cnxml">Thus, the WACC with taxes is lower than the pretax WACC because of the interest tax shield. The more debt the firm has, the greater the dollar amount of this interest tax shield. The presence of the interest tax shield encourages firms to use debt financing in their capital structures.</para>
+    </section>
+    <section class="section-summary" id="sect-00006">
+    <para id="para-00035">An unlevered firm uses no debt in its capital structure. A levered firm uses both debt and equity in its capital structure. In perfect financial markets, the value of the firm will be the same regardless of the firm’s decision to use leverage. With the tax deductibility of interest expenses, however, the value of the firm can increase through the use of debt. As the level of debt increases, the value of the interest tax shield increases.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00007">
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00036"><link class="os-embed" url="#exercise/FI_Ch17_Sec4_MCQ7"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00037"><link class="os-embed" url="#exercise/FI_Ch17_Sec4_MCQ8"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00038"><link class="os-embed" url="#exercise/FI_Ch17_Sec4_MCQ9"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00008">
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00039"><link class="os-embed" url="#exercise/FI_Ch17_Sec4_RVQ4"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00040"><link class="os-embed" url="#exercise/FI_Ch17_Sec4_RVQ5"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00009">
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00041"><link class="os-embed" url="#exercise/FI_Ch17_Sec4_PRQ7"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>interest tax shield</term><meaning>the reduction in taxes paid because interest payments on debt are a tax-deductible expense; calculated as the corporate tax rate multiplied by interest payments</meaning></definition>
+    <definition id="def-00002"><term>levered equity</term><meaning>equity in a firm that has debt outstanding</meaning></definition>
+    <definition id="def-00003"><term>unlevered equity</term><meaning>equity in a firm that has no debt outstanding</meaning></definition>
+    </glossary>
 </document>

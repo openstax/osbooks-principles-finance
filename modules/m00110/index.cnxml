@@ -6,8 +6,284 @@
     <md:uuid>814eb134-b6c9-43c5-998c-a52da2b11db6</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Explain how increased use of leverage increases the possibility of financial distress.</item>
+    <item>Explain how the possibility of financial distress impacts the cost of capital.</item>
+    <item>Discuss the trade-offs a firm faces as it increases its leverage.</item>
+    <item>Explain the concept of an optimal capital structure.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Debt and Financial Distress</title>
+    <para id="para-00002">The more debt a company uses in its capital structure, the larger the dollar value of the interest tax shield. Why, then, do we not see firms using a capital structure composed 100% of debt to maximize this interest tax shield?</para>
+    <para id="para-00003">The answer to this question lies in the fact that as a company increases its debt, there is a greater chance that the firm will be unable to make its required interest payments on the debt. If the firm has difficulty meeting its debt obligations, it is said to be in <term id="term-00001">financial distress</term>.</para>
+    <para id="para-00004">A firm in financial distress incurs both direct and indirect costs. The direct costs of financial distress include fees paid to lawyers, consultants, appraisers, and auctioneers. The indirect costs include loss of customers and suppliers.</para>
+    </section>
+    <section id="sect-00003">
+    <title>Trade-Off Theory</title>
+    <para id="para-00005"><term id="term-00002">Trade-off theory</term> weighs the advantages and disadvantages of using debt in the capital structure. The advantage of using debt is the interest tax shield. The disadvantage of using debt is that it increases the risk of financial distress and the costs associated with financial distress.</para>
+    <para id="para-00006">A company has an incentive to increase leverage to exploit the interest tax shield. However, too much debt will make it more likely that the company will default and incur financial distress costs. Calculating the precise balance between these two is difficult if not impossible.</para>
+    <para id="para-00007">For companies with a low level of debt, the risk of default is low, and the main impact of an increase in leverage will be an increase in the interest tax shield. At some point, however, the tax savings that result from increasing the amount of debt in the capital structure will be just offset by the increased probability of incurring the costs of financial distress. For firms that have higher costs of financing distress, this point will be reached sooner. Thus, firms that face higher costs of financial distress have a lower optimal level of leverage than firms that face lower costs of financial distress.</para>
+    <note class="link-to-learning" id="note-00001">
+    <title><term class="no-emphasis" id="term-00003">Netflix</term></title>
+    <para id="para-00008">Netflix has experienced phenomenal growth in the past 25 years. Starting as a DVD rental company, Netflix quickly shifted its model to content streaming. In recent years, the company has become a major producer of content, and it is currently the largest media/entertainment company by market capitalization. It is expensive for Netflix to fund the production of this content. Netflix has funded much of its content through selling debt.</para>
+    <para id="para-00009">You can view the company’s explanation of this capital structure choice by looking at the answers <link url="https://openstax.org/r/the-company-provides">the company provides to common investor questions</link>. You can also find the company’s financial statements on its website and see how the level of debt on Netflix’s balance sheet has increased over the past few years.</para>
+    </note>
+    <para id="para-00010">Figure 17.4 demonstrates how the value of a levered firm varies with the level of debt financing used. <emphasis effect="italics">V</emphasis><sub>u</sub> is the value of the unlevered firm, or the firm with no debt. As the firm begins to add debt to its capital structure, the value of the firm increases due to the interest tax shield. The more debt the company takes on, the greater the tax benefit it receives, up until the point at which the company’s interest expense exceeds its earnings before interest and taxes (EBIT). Once the interest expense equals EBIT, the firm will have no taxable income. There is no tax benefit from paying more interest after that point.</para>
+    <figure id="fig-00001">
+    <title>Maximum Value of a Levered Firm</title>
+    <media alt="A line graph shows the Maximum Value of a Levered Firm. It shows how at first as the firm adds debt, the PV of interest tax shields rises at a similar rate to the debt. As debt increases, the lines diverge. The maximum value of the firm occurs at the optimal debt level. After this point, the magnitude of the costs of financial distress increase as the debt level of the company rises."><image mime-type="image/png" src="../../media/FINAN_Figure_17_05_004.png"/></media>
+    </figure>
+    <para id="para-00011">As the firm increases debt and increases the value of the tax benefit of debt, it also increases the probability of facing financial distress. The magnitude of the costs of financial distress increases as the debt level of the company rises. To some degree, these costs offset the benefit of the interest tax shield.</para>
+    <para id="para-00012">The optimal debt level occurs at the point at which the value of the firm is maximized. A company will use this optimal debt level to determine what the weight of debt should be in its target capital structure. The optimal capital structure is the target. Recall that the market values of a company’s debt and equity are used to determine the costs of capital and the weights in the capital structure. Because market values change daily due to economic conditions, slight variations will occur in the calculations from one day to the next. It is neither practical nor desirable for a firm to recalculate its optimal capital structure each day.</para>
+    <para id="para-00013">Also, a company will not want to make adjustments for minor differences between its actual capital structure and its optimal capital structure. For example, if a company has determined that its optimal capital structure is 22.5% debt and 77.5% equity but finds that its current capital structure is 23.1% debt and 76.9% equity, it is close to its target. Reducing debt and increasing equity would require transaction costs that might be quite significant.</para>
+    <para id="para-00014">Table 17.7 shows the average WACC for some common industries. The calculations are based on corporate information at the end of December 2020. A risk-free rate of 3% and a market-risk premium of 5% are assumed in the calculations. You can see that the capital structure used by firms varies widely by industry. Companies in the online retail industry are financed almost entirely through equity capital; on average, less than 7% of the capital comes from debt for those companies. On the other hand, companies in the rubber and tires industry tend to use a heavy amount of debt in their capital structure. With a debt weight of 63.62%, almost two-thirds of the capital for these companies comes from debt.</para>
+    <table summary=" " id="table-00001">
+    <title>Capital Structure, Cost of Debt, Cost of Equity, and WACC for Selected Industries</title>
+    <tgroup cols="8">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <colspec colnum="6" colname="c6"/>
+    <colspec colnum="7" colname="c7"/>
+    <colspec colnum="8" colname="c8"/>
+    <thead>
+    <row>
+    <entry align="center">Industry Name</entry>
+    <entry align="center">Equity Weight</entry>
+    <entry align="center">Debt Weight</entry>
+    <entry align="center">Beta</entry>
+    <entry align="center">Cost of Equity</entry>
+    <entry align="center">Tax Rate</entry>
+    <entry align="center">After-Tax Cost of Debt</entry>
+    <entry align="center">WACC</entry>
+  </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="left">Retail (online)</entry>
+    <entry align="right">93.33%</entry>
+    <entry align="right">6.67%</entry>
+    <entry align="right">1.16</entry>
+    <entry align="right">8.82%</entry>
+    <entry align="right">2.93%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">8.38%</entry>
+    </row>
+    <row>
+    <entry align="left">Computers/peripherals</entry>
+    <entry align="right">91.45%</entry>
+    <entry align="right">8.55%</entry>
+    <entry align="right">1.18</entry>
+    <entry align="right">8.92%</entry>
+    <entry align="right">3.71%</entry>
+    <entry align="right">1.88%</entry>
+    <entry align="right">8.32%</entry>
+    </row>
+    <row>
+    <entry align="left">Household products</entry>
+    <entry align="right">87.07%</entry>
+    <entry align="right">12.93%</entry>
+    <entry align="right">0.73</entry>
+    <entry align="right">6.65%</entry>
+    <entry align="right">5.06%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">6.07%</entry>
+    </row>
+    <row>
+    <entry align="left">Drugs (pharmaceutical)</entry>
+    <entry align="right">84.62%</entry>
+    <entry align="right">15.38%</entry>
+    <entry align="right">0.91</entry>
+    <entry align="right">7.54%</entry>
+    <entry align="right">1.88%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">6.72%</entry>
+    </row>
+    <row>
+    <entry align="left">Retail (general)</entry>
+    <entry align="right">82.41%</entry>
+    <entry align="right">17.59%</entry>
+    <entry align="right">0.90</entry>
+    <entry align="right">7.49%</entry>
+    <entry align="right">12.48%</entry>
+    <entry align="right">1.88%</entry>
+    <entry align="right">6.51%</entry>
+    </row>
+    <row>
+    <entry align="left">Beverages (soft)</entry>
+    <entry align="right">82.24%</entry>
+    <entry align="right">17.76%</entry>
+    <entry align="right">0.79</entry>
+    <entry align="right">6.96%</entry>
+    <entry align="right">3.32%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">6.11%</entry>
+    </row>
+    <row>
+    <entry align="left">Tobacco</entry>
+    <entry align="right">76.74%</entry>
+    <entry align="right">23.26%</entry>
+    <entry align="right">0.72</entry>
+    <entry align="right">6.61%</entry>
+    <entry align="right">8.69%</entry>
+    <entry align="right">1.88%</entry>
+    <entry align="right">5.51%</entry>
+    </row>
+    <row>
+    <entry align="left">Homebuilding</entry>
+    <entry align="right">75.34%</entry>
+    <entry align="right">24.66%</entry>
+    <entry align="right">1.46</entry>
+    <entry align="right">10.29%</entry>
+    <entry align="right">15.91%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">8.30%</entry>
+    </row>
+    <row>
+    <entry align="left">Food processing</entry>
+    <entry align="right">75.18%</entry>
+    <entry align="right">24.82%</entry>
+    <entry align="right">0.64</entry>
+    <entry align="right">6.18%</entry>
+    <entry align="right">8.56%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">5.19%</entry>
+    </row>
+    <row>
+    <entry align="left">Restaurants/dining</entry>
+    <entry align="right">74.79%</entry>
+    <entry align="right">25.21%</entry>
+    <entry align="right">1.34</entry>
+    <entry align="right">9.72%</entry>
+    <entry align="right">3.19%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">7.82%</entry>
+    </row>
+    <row>
+    <entry align="left">Apparel</entry>
+    <entry align="right">71.74%</entry>
+    <entry align="right">28.26%</entry>
+    <entry align="right">1.10</entry>
+    <entry align="right">8.49%</entry>
+    <entry align="right">4.75%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">6.71%</entry>
+    </row>
+    <row>
+    <entry align="left">Farming/agriculture</entry>
+    <entry align="right">68.94%</entry>
+    <entry align="right">31.06%</entry>
+    <entry align="right">0.87</entry>
+    <entry align="right">7.37%</entry>
+    <entry align="right">6.45%</entry>
+    <entry align="right">1.88%</entry>
+    <entry align="right">5.67%</entry>
+    </row>
+    <row>
+    <entry align="left">Packaging &amp; containers</entry>
+    <entry align="right">64.47%</entry>
+    <entry align="right">35.53%</entry>
+    <entry align="right">0.92</entry>
+    <entry align="right">7.61%</entry>
+    <entry align="right">15.67%</entry>
+    <entry align="right">1.88%</entry>
+    <entry align="right">5.57%</entry>
+    </row>
+    <row>
+    <entry align="left">Food wholesalers</entry>
+    <entry align="right">64.10%</entry>
+    <entry align="right">35.90%</entry>
+    <entry align="right">1.03</entry>
+    <entry align="right">8.17%</entry>
+    <entry align="right">0.52%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">6.02%</entry>
+    </row>
+    <row>
+    <entry align="left">Hotels/gaming</entry>
+    <entry align="right">63.60%</entry>
+    <entry align="right">36.40%</entry>
+    <entry align="right">1.56</entry>
+    <entry align="right">10.82%</entry>
+    <entry align="right">2.02%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">7.68%</entry>
+    </row>
+    <row>
+    <entry align="left">Telecom. services</entry>
+    <entry align="right">54.60%</entry>
+    <entry align="right">45.40%</entry>
+    <entry align="right">0.66</entry>
+    <entry align="right">6.30%</entry>
+    <entry align="right">3.93%</entry>
+    <entry align="right">1.40%</entry>
+    <entry align="right">4.07%</entry>
+    </row>
+    <row>
+    <entry align="left">Retail (grocery and food)</entry>
+    <entry align="right">51.46%</entry>
+    <entry align="right">48.54%</entry>
+    <entry align="right">0.24</entry>
+    <entry align="right">4.21%</entry>
+    <entry align="right">13.52%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">3.23%</entry>
+    </row>
+    <row>
+    <entry align="left">Air transport</entry>
+    <entry align="right">38.26%</entry>
+    <entry align="right">61.74%</entry>
+    <entry align="right">1.61</entry>
+    <entry align="right">11.04%</entry>
+    <entry align="right">6.00%</entry>
+    <entry align="right">2.19%</entry>
+    <entry align="right">5.58%</entry>
+    </row>
+    <row>
+    <entry align="left">Rubber &amp; tires</entry>
+    <entry align="right">36.38%</entry>
+    <entry align="right">63.62%</entry>
+    <entry align="right">1.09</entry>
+    <entry align="right">8.47%</entry>
+    <entry align="right">5.30%</entry>
+    <entry align="right">1.88%</entry>
+    <entry align="right">4.28%</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    <caption>(data source: Aswath Damodaran Online)</caption>
+    </table>
+    <para id="para-00015">Industries that have high betas, such as hotels/gaming and air transport, have high equity costs of capital. More recession-proof industries, such as food processing and household products, have low betas and low equity costs of capital. The WACC for each industry ends up being influenced by the weights of equity and debt the company chooses, the riskiness of the industry, and the tax rates faced by companies in the industry.</para>
+    </section>
+    <section class="section-summary" id="sect-00004">
+    <para id="para-00016">A company wants to choose a capital structure that maximizes its value. Although increasing the level of financial leverage, or debt, in the capital structure increases the value of the interest tax shield, it also increases the probability of financial distress. As the weight of debt in the capital structure increases, the return that providers of both debt and equity capital require to entice them to provide money to the firm increases because their risk increases. Trade-off theory suggests that the value of a company that uses debt equals the value of the unlevered firm plus the value of the interest tax shield minus financial distress costs.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00005">
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00017"><link class="os-embed" url="#exercise/FI_Ch17_Sec5_MCQ10"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00018"><link class="os-embed" url="#exercise/FI_Ch17_Sec5_MCQ11"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00006">
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00019"><link class="os-embed" url="#exercise/FI_Ch17_Sec5_RVQ3"/></para></problem></exercise>
+    </section>
+    <section class="video-activity" id="sect-00007">
+    <title/>
+    <section id="sect-00008">
+    <title>Capital Structure for Real Estate Companies</title>
+    <media alt="Capital-Structure">
+    <iframe width="660" height="371.4" src="https://openstax.org/r/optimal-capital"/>
+    </media>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00020"><link class="os-embed" url="#exercise/FI_Ch17_Sec5_VA2Q1"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00021"><link class="os-embed" url="#exercise/FI_Ch17_Sec5_VA2Q2"/></para></problem></exercise>
+    </section>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>financial distress</term><meaning>when a firm has trouble meeting debt obligations</meaning></definition>
+    <definition id="def-00002"><term>trade-off theory</term><meaning>a theory stating that the total value of a levered company is the value of the firm without leverage plus the value of the interest tax shield less financial distress costs</meaning></definition>
+    </glossary>
 </document>
