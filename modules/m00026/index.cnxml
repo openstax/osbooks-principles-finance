@@ -93,7 +93,8 @@
 </section>
 <section class="section-summary" id="sect-00006">
 <title/>
-<para id="para-00025">Double-entry accounting means that each time a transaction is recorded, there are at minimum two accounts impacted by the entry. Each entry’s debits must total its credits in order to support and maintain the balance in the accounting equation. The accounting equation is expressed as <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo> </mo><mo>=</mo><mo> </mo><mi>Liabilities</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Owner</mi><mo>’</mo><mi mathvariant="normal">s</mi><mo> </mo><mi>Equity</mi><mo>.</mo></math>.</para>
+<para id="para-00025">Double-entry accounting means that each time a transaction is recorded, there are at minimum two accounts impacted by the entry. Each entry’s debits must total its credits in order to support and maintain the balance in the accounting equation. The accounting equation is expressed as</para>
+<equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo> </mo><mo>=</mo><mo> </mo><mi>Liabilities</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Owner</mi><mo>’</mo><mi mathvariant="normal">s</mi><mo> </mo><mi>Equity</mi><mo>.</mo></math></equation>
 </section>
 <section class="multiple-choice" id="sect-00007" xmlns="http://cnx.rice.edu/cnxml">
 <title/>
@@ -111,7 +112,7 @@
 </section>
 </content>
 <glossary>
-<definition id="def-00001"><term>accounting equation</term> <meaning><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo> </mo><mo>=</mo><mo> </mo><mi>Liabilities</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Owner</mi><mo>’</mo><mi mathvariant="normal">s</mi><mo> </mo><mi>Equity</mi><mo>.</mo></math></meaning></definition>
+<definition id="def-00001"><term>accounting equation</term> <meaning><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo> </mo><mo>=</mo><mo> </mo><mi>Liabilities</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Owner</mi><mo>’</mo><mi mathvariant="normal">s</mi><mo> </mo><mi>Equity</mi></math></meaning></definition>
 <definition id="def-00002" xmlns="http://cnx.rice.edu/cnxml"><term>credit</term> <meaning>a record of financial information on the right side of an account</meaning></definition>
 <definition id="def-00003"><term>debit</term> <meaning>a record of financial information on the left side of each account</meaning></definition>
 <definition id="def-00004"><term>double-entry accounting</term> <meaning>an accounting method that requires the sum of the debits to equal the sum of the credits for each transaction</meaning></definition>
