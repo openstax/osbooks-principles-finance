@@ -316,9 +316,9 @@
     <figure id="fig-00006"><media alt="A screenshot of excel showing the Nper (N) or Periods of 5, Rate of Return or Interest Rate of 10%, Future Value or Stock Sale Price of $25 each, and Payment (Dividend Amount) of $5 with the total price of the stock amounting to $34.48."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_008.png"/></media>
     <caption>Excel Solution for Finding the Price of the Stock</caption></figure>
     <para id="para-00075">Due to the sign convention in Excel, we can ignore the parentheses around the solution, which indicate a negative value. Therefore, the price is $34.48. The Excel command used in cell F6 to calculate present value is as follows:</para>
-    <note class="excel-spreadsheet" id="note-00009"/>
+    <note class="excel-spreadsheet" id="note-00009">
     <para id="para-00076">=PV(rate,nper,pmt,[fv],[type])</para>
-    
+    </note>
     </section>
     </section>
     <section id="sect-00012">
