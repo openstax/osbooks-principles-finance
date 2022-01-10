@@ -36,7 +36,8 @@
     <title>Calculating the Return on Preferred Stock</title>
     <exercise class="unnumbered" id="exer-00001">
     <problem id="prob-00001"><para id="para-00012">Data Forge Inc. has just issued preferred stock (cumulative) with a par value of $100.00 and an annual dividend rate of 7%. The preferred stock is currently selling for $35.00 per share. What is the yield or return on this preferred stock?</para></problem>
-    <solution id="sol-00001"><para id="para-00013"><emphasis>Solution:</emphasis> The first step is to determine the annual dividend by multiplying the dividend rate by the par value:</para></solution></exercise>
+    <solution id="sol-00001"><para id="para-00013"><emphasis>Solution:</emphasis></para>
+    <para id="para-00024">The first step is to determine the annual dividend by multiplying the dividend rate by the par value:</para></solution></exercise>
     <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>100</mn><mo> </mo><mo>×</mo><mo> </mo><mn>7</mn><mo>%</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>7</mn><mo>.</mo><mn>00</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00014" xmlns="http://cnx.rice.edu/cnxml">Now, using this $7.00 annual dividend, the $35.00 current price, and the equation above, we calculate the rate of return as follows:</para>
     <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>$</mo><mn>7</mn><mo>.</mo><mn>00</mn></mrow><mrow><mo>$</mo><mn>35</mn><mo>.</mo><mn>00</mn></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>20</mn><mo>,</mo><mo> </mo><mi>or</mi><mo> </mo><mn>20</mn><mi>%</mi></math></equation>

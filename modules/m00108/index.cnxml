@@ -61,8 +61,8 @@
     <row>
     <entry align="center" morerows="1">Company</entry>
     <entry align="center" morerows="1">Industry</entry>
-    <entry align="center" namest="C3" nameend="C5">MarketWatch</entry>
-    <entry align="center" namest="C6" nameend="C8">Yahoo! Finance</entry>
+    <entry align="center" namest="c3" nameend="c5">MarketWatch</entry>
+    <entry align="center" namest="c6" nameend="c8">Yahoo! Finance</entry>
     </row>
     <row>
       <entry align="center">Beta</entry>

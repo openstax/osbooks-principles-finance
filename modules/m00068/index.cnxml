@@ -58,7 +58,8 @@
     <note class="think-through" id="note-00002">
     <title>Constant Growth DDM: Example 1</title>
     <exercise class="unnumbered" id="exer-00001"><problem id="prob-00001"><para id="para-00023">If a stock is paying a dividend of $5.00 this year and the dividend has been steadily growing at 4% annually, what is the intrinsic value of the stock, assuming an investor’s required rate of return of 8%?</para></problem>
-    <solution id="sol-00001"><para id="para-00024"><emphasis>Solution:</emphasis>Apply the constant growth DDM formula:</para>
+    <solution id="sol-00001"><para id="para-00024"><emphasis>Solution:</emphasis></para>
+<para id="para-00144">Apply the constant growth DDM formula:</para>
     <equation id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Stock Value</mtext><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><msub><mi>D</mi><mn>0</mn></msub><mo> </mo><mfenced><mrow><mn>1</mn><mo>+</mo><mi>g</mi></mrow></mfenced></mrow><mrow><mi>r</mi><mo>-</mo><mi>g</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>$</mo><mn>5</mn><mo>.</mo><mn>00</mn><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>08</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>04</mn></mrow></mfrac></math></equation>
     <para id="para-00025" xmlns="http://cnx.rice.edu/cnxml">Simplify to the Gordon growth model:</para>
     <equation id="eq-00008"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>D</mi><mn>1</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mi>D</mi><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>g</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>5</mn><mo>.</mo><mn>00</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>04</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>5</mn><mo>.</mo><mn>20</mn></math></equation>
@@ -68,7 +69,8 @@
     <note class="think-through" id="note-00003" xmlns="http://cnx.rice.edu/cnxml">
     <title>Constant Growth DDM: Example 2</title>
     <exercise class="unnumbered" id="exer-00002"><problem id="prob-00002"><para id="para-00026">If a stock is selling at $250 with a current dividend of $10, what would be the dividend growth rate of this stock, assuming a required rate of return of 12%?</para></problem>
-    <solution id="sol-00002"><para id="para-00027"><emphasis>Solution:</emphasis> Apply the constant growth DDM formula:</para>
+    <solution id="sol-00002"><para id="para-00027"><emphasis>Solution:</emphasis></para>
+    <para id="para-00145">Apply the constant growth DDM formula:</para>
     <equation id="eq-00010"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>250</mn><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>$</mo><mn>10</mn><mo> </mo><mo>×</mo><mo> </mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>g</mi><mo>)</mo></mrow><mrow><mn>0</mn><mo>.</mo><mn>12</mn><mo>-</mo><mi>g</mi><mo> </mo></mrow></mfrac></math></equation>
     <para id="para-00028" xmlns="http://cnx.rice.edu/cnxml">Simplify and continue the calculation:</para>
     <equation id="eq-00011"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mn>30</mn><mo> </mo><mo>-</mo><mo> </mo><mn>250</mn><mi>g</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>10</mn><mo> </mo><mo>+</mo><mo> </mo><mn>10</mn><mi>g</mi></mtd></mtr><mtr><mtd><mn>0</mn><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>10</mn><mo> </mo><mo>+</mo><mo> </mo><mn>260</mn><mi>g</mi></mtd></mtr><mtr><mtd><mn>20</mn><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>260</mn><mi>g</mi></mtd></mtr><mtr><mtd><mn>7</mn><mo>.</mo><mn>69</mn><mi>%</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi>g</mi></mtd></mtr></mtable></math></equation>
@@ -314,7 +316,9 @@
     <figure id="fig-00006"><media alt="A screenshot of excel showing the Nper (N) or Periods of 5, Rate of Return or Interest Rate of 10%, Future Value or Stock Sale Price of $25 each, and Payment (Dividend Amount) of $5 with the total price of the stock amounting to $34.48."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_008.png"/></media>
     <caption>Excel Solution for Finding the Price of the Stock</caption></figure>
     <para id="para-00075">Due to the sign convention in Excel, we can ignore the parentheses around the solution, which indicate a negative value. Therefore, the price is $34.48. The Excel command used in cell F6 to calculate present value is as follows:</para>
+    <note class="excel-spreadsheet" id="note-00009"/>
     <para id="para-00076">=PV(rate,nper,pmt,[fv],[type])</para>
+    
     </section>
     </section>
     <section id="sect-00012">
@@ -415,7 +419,9 @@
     <figure id="fig-00007"><media alt="A screenshot of excel showing the Nper (N) or Periods of 20, Rate of Return or Interest Rate of 10%, Payment (Dividend Amount) of $1, and the Future Value or Stock Sale Price of $30 each with the total price of the stock equaling $12.97."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_009.png"/></media>
     <caption>Excel Solution for Finding the Price of Stock Using Constant Dividends</caption></figure>
     <para id="para-00089">Once again, we can ignore the negative indicator that is generated by the Excel sign convention because we know that the stock will not have a negative value 20 years from now. Therefore, the price is $12.97. The Excel command used in cell F13 to calculate present value is as follows:</para>
+    <note class="excel-spreadsheet" id="note-00010">
     <para id="para-00090">=PV(rate,nper,pmt,[fv],[type])</para>
+  </note>
     <para id="para-00091"><emphasis effect="bold">Example 2:</emphasis></para>
     <para id="para-00092">Let’s look at an example and estimate current stock price given a 10.44% constant growth rate of dividends forever and a desired return on the stock of 13.5%. We will assume that the current stock owner has just received the most recent dividend, <emphasis effect="italics">D</emphasis><sub>0</sub>, and the new buyer will receive all future cash dividends, beginning with <emphasis effect="italics">D</emphasis><sub>1</sub>. This part of the setup of the model is important because the price reflects all future dividends, starting with <emphasis effect="italics">D</emphasis><sub>1</sub>, discounted back to today. (Price<sub>0</sub> refers to the price at time zero, or today.) The first dividend the buyer would receive is one full period away. Using the discounted cash flow approach, we have</para>
     <equation id="eq-00023"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">e</mi></mrow><mn>0</mn></msub><mo>=</mo><mfrac><mrow><msub><mi>D</mi><mn>0</mn></msub><mo>×</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>g</mi></mrow></mfenced><mn>1</mn></msup></mrow><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mn>1</mn></msup></mfrac><mo> </mo><mo>+</mo><mo> </mo><mfrac><mrow><msub><mi>D</mi><mn>0</mn></msub><mo>×</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>g</mi></mrow></mfenced><mn>2</mn></msup></mrow><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mo> </mo><mo>+</mo><mo> </mo><mfrac><mrow><msub><mi>D</mi><mn>0</mn></msub><mo>×</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>g</mi></mrow></mfenced><mn>3</mn></msup></mrow><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mn>3</mn></msup></mfrac><mo> </mo><mo>+</mo><mo> </mo><mfrac><mrow><msub><mi>D</mi><mn>0</mn></msub><mo>×</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>g</mi></mrow></mfenced><mn>4</mn></msup></mrow><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mn>4</mn></msup></mfrac><mo> </mo><mo>…</mo></math></equation>
