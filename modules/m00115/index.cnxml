@@ -65,12 +65,12 @@
     </section>
     <section class="multiple-choice" id="sect-00008">
     <title/>
-    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00018"><link class="os-embed" url="exercise/FI_Ch18_Sec03_MCQ4"/></para></problem></exercise>
-    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00019"><link class="os-embed" url="exercise/FI_Ch18_Sec03_MCQ5"/></para></problem></exercise>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00018"><link class="os-embed" url="#exercise/FI_Ch18_Sec03_MCQ4"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00019"><link class="os-embed" url="#exercise/FI_Ch18_Sec03_MCQ5"/></para></problem></exercise>
     </section>
     <section class="review-questions" id="sect-00009">
     <title/>
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00020"><link class="os-embed" url="exercise/FI_Ch18_Sec03_RVQ3"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00020"><link class="os-embed" url="#exercise/FI_Ch18_Sec03_RVQ3"/></para></problem></exercise>
     </section>
     <section class="video-activity" id="sect-00010">
     <title/>

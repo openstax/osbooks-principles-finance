@@ -59,16 +59,16 @@
     </section>
     <section class="multiple-choice" id="sect-00006">
     <title/>
-    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00026"><link class="os-embed" url="exercise/FI_Ch18_Sec04_MCQ6"/></para></problem></exercise>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch18_Sec04_MCQ6"/></para></problem></exercise>
     </section>
     <section class="review-questions" id="sect-00007">
     <title/>
-    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00027"><link class="os-embed" url="exercise/FI_Ch18_Sec04_RVQ4"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch18_Sec04_RVQ4"/></para></problem></exercise>
     </section>
     <section class="problem-set" id="sect-00008">
     <title/>
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00028"><link class="os-embed" url="exercise/FI_Ch18_Sec04_PRQ3"/></para></problem></exercise>
-    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00029"><link class="os-embed" url="exercise/FI_Ch18_Sec04_PRQ4"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00028"><link class="os-embed" url="#exercise/FI_Ch18_Sec04_PRQ3"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00029"><link class="os-embed" url="#exercise/FI_Ch18_Sec04_PRQ4"/></para></problem></exercise>
     </section>
     </content>    
 </document>
