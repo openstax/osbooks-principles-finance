@@ -6,8 +6,133 @@
     <md:uuid>5eee0113-ebb3-46b9-a793-aa635acda7ea</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Define inflation with concrete examples.</item>
+    <item>Describe the practical impact of inflation on consumption and salary.</item>
+    <item>Explain how expected and actual inflation are measured.</item>
+    <item>Detail the behavior of inflation over various historical periods.</item>
+    </list>
+    </section>
+    <para id="para-00002">Over time, returns in the stock market have easily outperformed returns in the bond market. However, not everyone is comfortable investing in stocks. Taking a more informed and opposing view, financial economist Jeremy <term class="no-emphasis" id="term-00001">Siegel</term> queries, “You have never lost money in stocks over any 20-year period, but you have wiped out half your portfolio in bonds (after inflation). So which is the riskier asset?”<sup>xiv</sup> Siegel brings up a valid point about inflation. Returns adjusted for changes in prices provide a better measure of value or wealth. Baseball pundit Sam Ewing noted, “Inflation is when you pay fifteen dollars for the ten-dollar haircut you used to get for five dollars when you had hair.”<sup>xv</sup> If what you have earned on your investments fails to keep up with changing prices, you may have a larger portfolio with less purchasing power.</para>
+    <section id="sect-00002">
+    <title>Expected versus Actual Inflation</title>
+    <para id="para-00003">Inflation occurs when things cost more and your money buys less today than it did yesterday. It is normal to dislike inflation and to be concerned over the prospect of rising prices. In fact, two of the primary policy objectives of the Federal Reserve are to work for price stability and moderate interest rates. However, is inflation necessarily good or bad? In practice, inflation can benefit some people and harm others at the same time. Consider the impact of differences in expected and actual realized inflation. Empirical evidence suggests that, on average, economists do a good job of developing inflation rate forecasts that match the actual rate of inflation. Estimated inflation is built into the interest rates investors require or are willing to pay for financial products, such as fixed-rate loans or bonds. When the actual rate of inflation exceeds the estimated rate on a product, such as a mortgage loan, this means borrowers are repaying the loan with less-valuable dollars and benefit from the increased inflation rate. Lenders, however, receive those inflation-impacted dollars and are harmed due to their unexpected decrease in purchasing power.</para>
+    <para id="para-00004">Deflation, or falling prices, is associated with economic recessions or even depressions and is thought to be an even more serious problem than inflation. Generally, policy makers tend to support moderate inflation, being careful to stay away from zero or negative price changes.</para>
+    </section>
+    <section id="sect-00003">
+    <title>Inflation Impacts</title>
+    <para id="para-00005">Ultimately, inflation redistributes wealth. Lenders providing fixed-rate loans receive less-valuable dollars in return. Borrowers repay with those same less-valuable dollars. Workers receive less-valuable dollars, especially when their wage increases lag behind changes in prices. Modest inflation can benefit a consumer-driven economy like the United States if consumers are motivated to spend money before prices increase. However, too much inflation can cause frenzied buying, drive prices even higher, and outpace the rate of wage increases. Higher inflation raises the rates on new borrowing instruments and can slow the rate of business investment and economic growth. Inflation raises overall prices and may cause hardship for consumers on a fixed income.</para>
+    <para id="para-00006">Finally, inflation does not have an equal impact on all goods and services. As Table 12.3 shows, consumer prices did not increase at the same rate for the selected items shown. From 1980 to 2020, inflation, as measured by the <term class="no-emphasis" id="term-00002">consumer price index (CPI</term>), grew at an average annual rate of 2.90%. However, the price of college tuition and fees increased at more than double that rate. Rent, another large expense for most college students, increased at an annual rate of 3.67%, also well above the average increase in the CPI. The price increases for ground beef and butter were slightly less than the CPI average. For the selected items presented here, only the average price for used cars and trucks rose at a rate significantly lower than the average rate of inflation.</para>
+    <table summary=" " class="timeline-table" id="table-00001">
+    <title>Changing Consumer Price Levels—Selected Goods</title>
+    <tgroup cols="5">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <thead>
+    <row>
+    <entry align="center">Year</entry>
+    <entry align="center">1980</entry>
+    <entry align="center">2000</entry>
+    <entry align="center">2020</entry>
+    <entry align="center">Annual Change</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="left">College tuition and fees</entry>
+    <entry align="right">70.8</entry>
+    <entry align="right">331.9</entry>
+    <entry align="right">877.3</entry>
+    <entry align="right">6.49%</entry>
+    </row>
+    <row>
+    <entry align="left">Rent</entry>
+    <entry align="right">80.9</entry>
+    <entry align="right">183.9</entry>
+    <entry align="right">341.5</entry>
+    <entry align="right">3.67%</entry>
+    </row>
+    <row>
+    <entry align="left">Used cars and trucks</entry>
+    <entry align="right">62.3</entry>
+    <entry align="right">155.8</entry>
+    <entry align="right">144.2</entry>
+    <entry align="right">2.12%</entry>
+    </row>
+    <row>
+    <entry align="left">Ground beef</entry>
+    <entry align="right">104.6</entry>
+    <entry align="right">125.2</entry>
+    <entry align="right">296.2</entry>
+    <entry align="right">2.64%</entry>
+    </row>
+    <row>
+    <entry align="left">Butter </entry>
+    <entry align="right">89.4</entry>
+    <entry align="right">135.9</entry>
+    <entry align="right">248.7</entry>
+    <entry align="right">2.59%</entry>
+    </row>
+    <row>
+    <entry align="left"><emphasis effect="bold">CPI (1982 to 1984 = 100)</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">82.4</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">172.2</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">258.8</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">2.90%</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    <caption>(data source: US Bureau of Labor Statistics, Consumer Price Index)</caption>
+    </table>
+    </section>
+    <section id="sect-00004">
+    <title>Using Graphs and Charts to Plot Inflation Behavior</title>
+    <para id="para-00007">The CPI is a measure of how prices have changed for a basket of goods across the United States. Figure 12.6 shows the eight major categories of expenditures included in the CPI.<sup>xvi</sup> Different regions of the country and population subgroups may experience different rates of inflation. Retired people may spend a greater portion of their income on healthcare than someone in their twenties.<sup>xvii</sup> Residents on the East and West Coasts spend a higher percentage of their earnings on housing than those living in the Midwest.<sup>xviii</sup> As such, there are several different measures of inflation based on geographic region or other factors.<sup>xix</sup> It is worth noting that a basket of goods and services that cost $100 in 1984 would cost approximately $260 by the end of 2020, an increase of 160% (see Figure 12.7)! Over that same period, the average annual rate of inflation as measured by the CPI was 2.55%. These numbers make it easy to see that even a relatively modest annual inflation rate, lower than the long-run annual US inflation rate of 3%, results in significant price increases.</para>
+    <figure id="fig-00001">
+    <title>The Market Basket Categories of the CPI</title>
+    <media alt="A diagram of the Market Basket Categories of Consumer Price Index. There are eight major expenditure groups: Food and Drink, Housing, Apparel, Education &amp; Communication, Transportation, Other Goods &amp; Services, Recreation, and Medical Care."><image mime-type="image/png" src="../../media/FINAN_Figure_12_02_006.png"/></media>
+    </figure>
+    <figure id="fig-00002">
+    <title>United States Consumer Price Index (CPI) 1984–2020</title>
+    <media alt="A graph from the US Bureau of Labor Statistics that shows consumer price index consistently rising from 1984 to 2008. There is a slight dip between 2008 and 2010 before the data shows a consistent rise again till 2020. What cost $100 in 1984 would cost $260 in 2020."><image mime-type="image/png" src="../../media/FINAN_Figure_12_02_007.png"/></media>
+    <caption>(data source: US Bureau of Labor Statistics)</caption>
+    </figure>
+    <note class="concepts-practice" id="note-00001">
+    <title>Profile of Janet Yellen</title>
+    <figure id="fig-00003">
+    <title>Janet Yellen</title>
+    <media alt="Profile picture of Janet Yellen."><image mime-type="image/jpeg" src="../../media/FINAN_Figure_12_02_008.jpg"/></media>
+    <caption>(credit: “Janet Yellen Official Federal Reserve Portrait.” United States Federal Reserve/Wikimedia Commons, Public Domain)</caption>
+    </figure>
+    <para id="para-00008">Janet <term class="no-emphasis" id="term-00003">Yellen</term> has led a life of firsts. After graduating as valedictorian of her high school class, Yellen later attended Yale University and was the only woman in her 1971 PhD graduating class in economics. Men have long dominated the “dismal science” of economics, but Yellen has proved to be an exception.</para>
+    <para id="para-00009">Motivated by an undergraduate economics professor at Pembroke College of Brown University, Yellen realized how much the US central bank, known as the Federal Reserve, could influence the lives of ordinary people. She changed her major to economics, and the rest, as they say, is history.</para>
+    <para id="para-00010">In her first stint working with the Federal Reserve in 1977, Yellen met and married George Ackerlof. Ackerlof would go on to win a Nobel Prize in Economics. Ackerlof and Yellen eventually established themselves as faculty members at the University of California, Berkeley. Yellen was twice named Outstanding Teacher in the Haas School of Business and was recognized for her award-winning research.</para>
+    <para id="para-00011">In 1993, Yellen began her second tour at the Federal Reserve as an appointed member of the Board of Governors. She left this position in 1997 to head President Bill Clinton’s Council of Economic Advisers. Yellen became just the second woman to head the presidential council.</para>
+    <para id="para-00012">She then returned to California and the Bay Area, eventually becoming president of the Federal Reserve Bank of San Francisco from 2004 to 2010. Later that year she became the vice chair of the Federal Reserve. Four years later, in 2014, Yellen assumed leadership as the first woman chair of the Federal Reserve System.</para>
+    <para id="para-00013">As Fed chair, Yellen earned an enviable record. During her four-year tenure, the rate of unemployment decreased by more than 2.5%, and employment increased in every month of her term. This is the first and only time in the history of the Federal Reserve that the board chair has overseen continuous increases in employment over their entire tenure.</para>
+    <para id="para-00014">Now, another first: In 2021, President Joe Biden appointed Yellen as the first woman Secretary of the Treasury. Yellen has a storied career and a long list of accomplishments, but surely her record of firsts will prove to be an important and lasting legacy for women in business, government, and economics everywhere.</para>
+    <para id="para-00015">(Sources: Ann Saphir. “Factbox: Janet Yellen’s Road to US Treasury Secretary.” Reuters. November 24, 2020. https://www.reuters.com/article/idUSKBN2832WS; Ylan Q. Mui. “New Fed Chief Janet Yellen Lets a Long Career of Breaking Barriers Speak for Itself.” <emphasis effect="italics">Washington Post.</emphasis> February 2, 2014. https://www.washingtonpost.com/business/economy/new-fed-chief-janet-yellen-has-long-history-of-breaking-barriers/2014/02/02/9e8965ca-876d-11e3-833c-33098f9e5267_story.html; Stephanie Grace. “Banker to the Nation.” <emphasis effect="italics">Brown Alumni Magazine</emphasis>. October 30, 2013. https://www.brownalumnimagazine.com/articles/2013-10-30/banker-to-the-nation)</para>
+    </note>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00016">The Federal Reserve considers moderate inflation rates optimal in their oversight of the US economy. We measure inflation by comparing the price of a bundle or basket of goods over time and documenting how prices change. Since not everyone consumes similar baskets of goods, we calculate several different measures of inflation. The most commonly quoted measure of inflation uses changes in the Consumer Price Index (CPI).</para>
+    </section>
+    <section class="review-questions" id="sect-00006">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00017"><link class="os-embed" url="exercise/FI_Ch12_Sec2_RVQ8"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00018"><link class="os-embed" url="exercise/FI_Ch12_Sec2_RVQ9"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00019"><link class="os-embed" url="exercise/FI_Ch12_Sec2_RVQ10"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00020"><link class="os-embed" url="exercise/FI_Ch12_Sec2_RVQ11"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00021"><link class="os-embed" url="exercise/FI_Ch12_Sec2_RVQ12"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00022"><link class="os-embed" url="exercise/FI_Ch12_Sec2_RVQ13"/></para></problem></exercise>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00023"><link class="os-embed" url="exercise/FI_Ch12_Sec2_RVQ14"/></para></problem></exercise>
+    </section>
+    </content>
 </document>
