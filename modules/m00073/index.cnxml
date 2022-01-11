@@ -228,32 +228,32 @@
     </section>
     <section class="multiple-choice" id="sect-00012">
     <title/>
-    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00050"><link class="os-embed" url="exercise/FI_Ch12_Sec1_MCQ1"/></para></problem></exercise>
-    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00051"><link class="os-embed" url="exercise/FI_Ch12_Sec1_MCQ2"/></para></problem></exercise>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00050"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_MCQ1"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00051"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_MCQ2"/></para></problem></exercise>
     </section>
     <section class="review-questions" id="sect-00013">
     <title/>
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00052"><link class="os-embed" url="exercise/FI_Ch12_Sec1_RVQ1"/></para></problem></exercise>
-    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00053"><link class="os-embed" url="exercise/FI_Ch12_Sec1_RVQ2"/></para></problem></exercise>
-    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00054"><link class="os-embed" url="exercise/FI_Ch12_Sec1_RVQ3"/></para></problem></exercise>
-    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00055"><link class="os-embed" url="exercise/FI_Ch12_Sec1_RVQ4"/></para></problem></exercise>
-    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00056"><link class="os-embed" url="exercise/FI_Ch12_Sec1_RVQ5"/></para></problem></exercise>
-    <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00057"><link class="os-embed" url="exercise/FI_Ch12_Sec1_RVQ6"/></para></problem></exercise>
-    <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00058"><link class="os-embed" url="exercise/FI_Ch12_Sec1_RVQ7"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00052"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_RVQ1"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00053"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_RVQ2"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00054"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_RVQ3"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00055"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_RVQ4"/></para></problem></exercise>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00056"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_RVQ5"/></para></problem></exercise>
+    <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00057"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_RVQ6"/></para></problem></exercise>
+    <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00058"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_RVQ7"/></para></problem></exercise>
     </section>
     <section class="video-activity" id="sect-00014">
     <title/>
     <section id="sect-00015">
     <title>How Private Companies Are Bypassing the IPO Process</title>
     <media alt="spac-ipo"><iframe width="660" height="371.4" src="https://openstax.org/r/blank-check-companies"/></media>
-    <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00059"><link class="os-embed" url="exercise/FI_Ch12_Sec1_VA1Q1"/></para></problem></exercise>
-    <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00060"><link class="os-embed" url="exercise/FI_Ch12_Sec1_VA1Q2"/></para></problem></exercise>
+    <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00059"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_VA1Q1"/></para></problem></exercise>
+    <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00060"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_VA1Q2"/></para></problem></exercise>
     </section>
     <section id="sect-00016">
     <title>A Secret Meeting and the Birth of the Federal Reserve </title>
     <media alt="fed-reserve"><iframe width="660" height="371.4" src="https://openstax.org/r/the-birth-of-the-federal"/></media>
-    <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00061"><link class="os-embed" url="exercise/FI_Ch12_Sec1_VA2Q1"/></para></problem></exercise>
-    <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00062"><link class="os-embed" url="exercise/FI_Ch12_Sec1_VA2Q2"/></para></problem></exercise>
+    <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00061"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_VA2Q1"/></para></problem></exercise>
+    <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00062"><link class="os-embed" url="#exercise/FI_Ch12_Sec1_VA2Q2"/></para></problem></exercise>
     </section>
     </section>
     </content>
