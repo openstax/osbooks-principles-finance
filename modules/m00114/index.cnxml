@@ -6,8 +6,77 @@
     <md:uuid>bc5775a3-8adc-42a4-8f3b-f47ce8df9095</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Explain how sales are the main driver for a financial forecast.</item>
+    <item>Determine a past time period to formulate the basis for a financial forecast.</item>
+    <item>Explain the advantages and disadvantages of using past data to forecast future financial performance.</item>
+    <item>Calculate past sales growth averages.</item>
+    <item>Justify adjusting relationships when forecasting future financial performance.</item>
+    </list>
+    </section>
+    <para id="para-00002">In this section of the chapter, you will begin to explore the first step of creating a forecast: forecasting sales. We will discuss common time frames for sales forecasts and why we use historical data in our forecasts (but only with caution), and we will work through the process of forecasting future sales. We will be using the percent-of-sales method to forecast some expenses for Clear Lake Sporting Goods, the example used throughout the chapter. This method relies on sales data, further highlighting why accuracy in forecasting sales is crucial.</para>
+    <section id="sect-00002">
+    <title>Sales as the Driver</title>
+    <para id="para-00003">A significant portion of a business’s costs are driven by how much it sells. Thus, the sales forecast is the necessary first step in preparing a financial forecast. Common costs driven by sales include direct product costs, direct labor costs, and other key variable costs (i.e., costs that vary proportionately to sales), such as sales commissions.</para>
+    </section>
+    <section id="sect-00003">
+    <title>Looking to the Past</title>
+    <para id="para-00004">Forecasting sales is not always an easy task, as no one knows the future. We can, however, use the information we do have to forecast future sales with the greatest accuracy possible. Most firms start by looking at the past. A firm may look at past sales from a variety of prior periods. It’s common to look at the past 12 months to estimate the coming 12 months. Looking at 12 consecutive months helps identify seasonality of sales trends, what time of year sales tend to drop off and when they increase, possible sales spikes that might reoccur, and any other trends that tend to appear over a 12-month period. In Figure 18.7, we see Clear Lake’s sales by month for the past 12 months.</para>
+    <para id="para-00005">Past data is often used in conjunction with probabilities and weighted average calculations derived from probabilities. Though used in several areas of forecasting, this approach is particularly common in drafting the sales forecast. Using multiple scenarios and the probability of each scenario occurring is a common approach to estimating future sales.</para>
+    <figure id="fig-00001"><media alt="Historical Gross Sales Data for Clear Lake Sporting goods shows the monthly gross sales for January through December. The monthly sales are added together to show the total gross sales for the current year."><image mime-type="image/png" src="../../media/FINAN_Figure_18_02_007.png"/></media>
+    <caption>Historical Sales Data</caption></figure>
+    <para id="para-00006">We can see at first glance that sales remain fairly steady from January to April. Sales then goes up significantly in April and May, seem to peak in June, taper off a bit in July, then decline steeply from August to the end of the year, with the lowest sales being in November and December. Though not exact, it’s easy to quickly see that sales follow a seasonal pattern. We will focus on just one year of data here to keep things simple. However, it’s important to note that when a firm has a seasonal sales pattern, it normally uses more than one year of data to detect and evaluate the pattern. It’s not uncommon for firms to have a seasonal sales pattern that fluctuates based on an external factor such as weather patterns, patterns in business or demand, or other factors such as holidays. Common examples might include farm-based businesses that function on a weather pattern for harvesting and selling crops or a toy company that fluctuates around gift-giving holidays.</para>
+    <para id="para-00007">This knowledge is helpful when assembling a first pass at the next year’s sales forecast. Using common-size and horizontal (trend) analyses on sales is also helpful, as shown in Figure 18.8. We can see the exact percentages that sales went up or down each month:</para>
+    <para id="para-00008">In January, the company had sales of $9,000, which was <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>7</mn><mo>.</mo><mn>1</mn><mo>%</mo><mo>&amp;#xA0;</mo><mo>(</mo><mo>$</mo><mn>9</mn><mo>,</mo><mn>000</mn><mo>/</mo><mo>$</mo><mn>126</mn><mo>,</mo><mn>000</mn><mo>)</mo><mo>&amp;#xA0;</mo></math> of the total annual sales.</para>
+    <para id="para-00009" xmlns="http://cnx.rice.edu/cnxml">In June, the company had $19,000 sales, which was <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>15</mn><mo>.</mo><mn>1</mn><mo>%</mo><mo>&amp;#xA0;</mo><mo>(</mo><mo>$</mo><mn>19</mn><mo>,</mo><mn>000</mn><mo>/</mo><mo>$</mo><mn>126</mn><mo>,</mo><mn>000</mn><mo>)</mo><mo>&amp;#xA0;</mo></math> of the total annual sales and <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>211</mn><mo>%</mo><mo>&amp;#xA0;</mo><mo>(</mo><mo>$</mo><mn>19</mn><mo>,</mo><mn>000</mn><mo>/</mo><mo>$</mo><mn>9</mn><mo>,</mo><mn>000</mn><mo>)</mo></math> of January sales.</para>
+    <figure id="fig-00002" xmlns="http://cnx.rice.edu/cnxml"><media alt="Historical Gross Sales Data as a percentage of Clear Lake Sporting Goods shows gross sales for each month as both a dollar value and a percentage of annual sales. The sales from January are used as a baseline, and the percentage change in sales is calculated, comparing each month's sales to January's sales."><image mime-type="image/png" src="../../media/FINAN_Figure_18_02_008.png"/></media>
+    <caption>Historical Sales Data as Percentages</caption></figure>
+    <para id="para-00010">Once a baseline in the 12-month period is assessed, it can also be helpful to look for trends in other ways. For example, the past several years might be assessed to see if there is a trend in total growth or decline for those years on a summary basis or by period. Clear Lake Sporting Goods had sales in the current year of $126,000, in the prior year of $105,000, and two years ago of $89,000. This reflects a 20% increase and an 18% increase, respectively. It might be reasonable to expect a roughly 18 to 20% increase in total sales in the future with only this information in mind. Keep in mind that we will learn about many other factors to consider in the forecast, so the 18 to 20% increase is a good general guideline to consider along with other factors.</para>
+    <note class="think-through" id="note-00001">
+    <title>Sales Forecast for <term class="no-emphasis" id="term-00001">Big 5 Sporting Goods</term></title>
+    <exercise class="unnumbered" id="exer-00001"><problem id="prob-00001"><para id="para-00011">Review the <link url="https://openstax.org/r/2020_annual_report_for_Big_5_Sporting_Goods">2020 annual report for Big 5 Sporting Goods</link>. Locate the consolidated statements of operations on page F-7. Using the company’s net sales figures for the current and prior years, what percentage might you recommend for their sales forecast for the next year?</para></problem>
+    <solution id="sol-00001"><para id="para-00012"><emphasis>Solution:</emphasis></para>
+    <para id="para-00013">Big 5’s sales for 2020 and 2019 were $1,041,212,000 and $996,495,000, respectively. This represents a 4.5% growth from the prior year. Forecasted sales, based solely on this information, might be appropriate at 4.5% growth for the next year, keeping in mind that many other factors should also be considered along with this information. Historical sales are only one set of data to use as a starting point.</para>
+    </solution></exercise></note>
+    <para id="para-00014">Looking at Figure 18.9, assume that Clear Lake Sporting Goods decides to take its first pass at a forecast using the more conservative estimate of 18% total sales growth. The company could consider last year’s sales of $126,000 and increase them by 18% to arrive at total forecasted sales for next year of <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>148</mn><mo>,</mo><mn>680</mn><mo>&amp;#xA0;</mo><mo>(</mo><mo>$</mo><mn>126</mn><mo>,</mo><mn>000</mn><mo>&amp;#xA0;</mo><mo>&amp;#xD7;</mo><mo>&amp;#xA0;</mo><mn>118</mn><mo>%</mo><mo>)</mo></math>. Next, to get the monthly sales, the company could use the same percent of the total for each month that it did for the previous year. For example, sales in January of last year were 7.1% of the full year’s sales. To find the forecast for the next year, the company would take the forecasted sales of $148,680 for the year and multiply that by 7.1% to get $10,620 for January. The process is repeated for each month to get the full year.</para>
+    <figure id="fig-00003" xmlns="http://cnx.rice.edu/cnxml"><media alt="Forecasted Sales Data for Clear Lake Sporting Goods estimates next year's sales will be 18% higher than the current year's sales. To estimate the monthly sales for next year, it is assumed that each month will represent the same percentage of sales as the current year."><image mime-type="image/png" src="../../media/FINAN_Figure_18_02_009.png"/></media>
+    <caption>Forecasted Sales Data</caption></figure>
+    <para id="para-00015">Keep in mind that this is only a starting point. These estimates will be reviewed, assessed, and updated as more information and other factors are taken into consideration.</para>
+    <para id="para-00016">It can also be helpful to look at a shorter period, perhaps just the last few months, on a more detailed basis (by department, by customer, etc.) to see if there are any possible new trends beginning to develop that might be an indicator of performance in the coming year. For example, Clear Lake Sporting Goods might look at detailed sales records for October, November, and December and see that it had an old product line that was discontinued in early October, which contributed to a 2% reduction in monthly sales. This reduction in monthly sales will likely continue into the new year until the new line the company has signed on begins arriving in stores. Thus, the management team feels they should reduce their first quarter monthly estimates by 2%, as reflected in Figure 18.10. January is now <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>10</mn><mo>,</mo><mn>408</mn><mo>&amp;#xA0;</mo><mo>(</mo><mo>$</mo><mn>10</mn><mo>,</mo><mn>620</mn><mo>&amp;#xA0;</mo><mo>&amp;#xD7;</mo><mo>&amp;#xA0;</mo><mn>98</mn><mo>%</mo><mo>)</mo></math>, for example.</para>
+    <figure id="fig-00004" xmlns="http://cnx.rice.edu/cnxml"><media alt="Adjusted Forecasted Sales Data for Clear Lake Sporting Goods shows a 2% reduction in estimated sales for the first quarter. Estimated sales for the remaining months are the same as they were in Figure 18.9. The estimated sales for all of the months are added together for the total estimated sales for the year."><image mime-type="image/png" src="../../media/FINAN_Figure_18_02_010.png"/></media>
+    <caption>Adjusted Forecasted Sales Data</caption></figure>
+    </section>
+    <section id="sect-00004">
+    <title>Changes for the Future</title>
+    <para id="para-00017">It’s important to note that the past is not always a reliable predictor of the future. Circumstances can often change to make the future quite different from the past. The business itself may change, the economy can change, the customer base may undergo a shift in demographics or a change in buying habits, new competition may emerge, and so on. So while past performance is helpful, it is only one step in the process of forecasting sales.</para>
+    <note class="link-to-learning" id="note-00002">
+    <title>Big 5 Sporting Goods <term class="no-emphasis" id="term-00002">MD&amp;A Report</term></title>
+    <para id="para-00018">Review the most recent <link url="https://openstax.org/r/annual_report_for_Big_5_Sporting_Goods">annual report for Big 5 Sporting Goods</link>. Review the management’s discussion and analysis (MD&amp;A) report (Item 7). What information does the report share about the firm, the economy, and other factors that might be useful for forecasting sales growth for next year?</para>
+    </note>
+    <para id="para-00019">Most firms first look to the past to target some form of baseline estimate for the coming year; then, managers begin making adjustments based on what they know about the future. Assume that Clear Lake Sporting Goods will be adding a new brand to its collection of fishing supplies in March. The manufacturer plans to begin running its commercials in late February, which managers anticipate will increase Clear Lake’s monthly sales by about $500 in March, $1,000 in April, $1,400 in May, and $2,000 per month in June, July, and August. We see the monthly adjustments to Clear Lake’s latest sales forecast in Figure 18.11. March, for example, is now $10,908 ($10,408 prior estimate plus $500 increase from new brand).</para>
+    <figure id="fig-00005"><media alt="The Forecasted Monthly Income Statement for Clear Lake Sporting Goods with the forecast adjusted to account for the new brand that will be introduced. Starting in March through August, the monthly sales data is increased based on a manager's estimated sales for the new brand."><image mime-type="image/png" src="../../media/FINAN_Figure_18_02_011.png"/></media>
+    <caption>Forecasted Sales Data with New Brand</caption></figure>
+    <para id="para-00020">What we have discussed here are only some brief examples of the myriad factors that might impact a sales budget for the coming year. It’s critical that all members of the team take the time and effort to research their customers and the factors that impact their business in order to effectively assess the impact of these factors on future sales. Though only two adjustments were made here, it’s likely that a large firm would have to consider many, many factors that would ultimately impact monthly sales figures before arriving at a conclusion.</para>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00021">The sales forecast is the foundation on which much of the rest of the forecast is built. Thus, the sales forecast is completed first. Historical sales data and any other information on the firm, its products, the economy, its customers, and its competitors are all used to create the most accurate sales forecast possible.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <title/>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00022"><link class="os-embed" url="exercise/FI_Ch18_Sec02_MCQ2"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00023"><link class="os-embed" url="exercise/FI_Ch18_Sec02_MCQ3"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00007">
+    <title/>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00024"><link class="os-embed" url="exercise/FI_Ch18_Sec02_RVQ2"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00008">
+    <title/>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00025"><link class="os-embed" url="exercise/FI_Ch18_Sec02_PRQ2"/></para></problem></exercise>
+    </section>
+    </content>    
 </document>
