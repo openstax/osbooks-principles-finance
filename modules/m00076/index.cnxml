@@ -36,9 +36,9 @@
     <colspec colnum="3" colname="c3"/>
     <thead>
     <row>
-    <entry align="center">Asset Class</entry>
-    <entry align="center">Nominal Average<newline/>Annual Returns<newline/>1981–2020</entry>
-    <entry align="center">Standard Deviation of Returns 1981–2020</entry>
+    <entry align="left">Asset Class</entry>
+    <entry align="center">Nominal Average <newline/>Annual Returns <newline/>1981–2020</entry>
+    <entry align="center">Standard Deviation <newline/>of Returns <newline/>1981–2020</entry>
     </row>
     </thead>
     <tbody>
