@@ -6,8 +6,208 @@
     <md:uuid>f10df1e4-d7f5-483b-954b-f2c5f8b72324</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
-</document>
+    <section class="learning-objectives" id="sect-00001">
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Construct and interpret a frequency distribution.</item>
+    <item>Apply and evaluate probabilities using the normal distribution.</item>
+    <item>Apply and evaluate probabilities using the exponential distribution.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Frequency Distributions</title>
+    <para id="para-00002">A <term id="term-00001">frequency distribution</term> provides a method to organize and summarize a data set. For example, we might be interested in the spread, center, and shape of the data set’s distribution. When a data set has many data values, it can be difficult to see patterns and come to conclusions about important characteristics of the data. A frequency distribution allows us to organize and tabulate the data in a summarized way and also to create graphs to help facilitate an interpretation of the data set.</para>
+    <para id="para-00003">To create a basic frequency distribution, set up a table with three columns. The first column will show the intervals for the data, and the second column will show the frequency of the data values, or the count of how many data values fall within each interval. A third column can be added to include the relative frequency for each row, which is calculated by taking the frequency for that row and dividing it by the sum of all the frequencies in the table.</para>
+    <note class="think-through" id="note-00001">
+    <title>Graphing Demand and Supply</title>
+    <exercise class="unnumbered" id="exer-00001">
+    <problem id="prob-00001">
+    <para id="para-00004">A financial consultant at a brokerage firm records the portfolio values for 20 clients, as shown in Table 13.5, where the portfolio values are shown in thousands of dollars.</para>
+    <table summary=" " id="table-00001">
+    <title>Table 13.5 Portfolio Values for 20 Clients at a Brokerage Firm ($000s)</title>
+    <tgroup cols="5">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <tbody>
+    <row>
+    <entry align="right">278</entry>
+    <entry align="right">318</entry>
+    <entry align="right">422</entry>
+    <entry align="right">577</entry>
+    <entry align="right">618</entry>
+    </row>
+    <row>
+    <entry align="right">735</entry>
+    <entry align="right">798</entry>
+    <entry align="right">864</entry>
+    <entry align="right">903</entry>
+    <entry align="right">944</entry>
+    </row>
+    <row>
+    <entry align="right">1,052</entry>
+    <entry align="right">1,099</entry>
+    <entry align="right">1,132</entry>
+    <entry align="right">1,180</entry>
+    <entry align="right">1,279</entry>
+    </row>
+    <row>
+    <entry align="right">1,365</entry>
+    <entry align="right">1,471</entry>
+    <entry align="right">1,572</entry>
+    <entry align="right">1,787</entry>
+    <entry align="right">1,905</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00005">Create a frequency distribution table using the following intervals for the portfolio values:</para>
+    <para id="para-00006">       0–299<newline/>
+       300–599<newline/>
+       600–899<newline/>
+       900–1,199<newline/>
+    1,200–1,499<newline/>
+    1,500–1,799<newline/>
+    1,800–2,099<newline/>
+    </para>
+    </problem>
+    <solution id="sol-00001">
+    <para id="para-00007"><emphasis effect="bold">Solution:</emphasis></para>
+    <para id="para-00008">Create a table where the intervals for portfolio value are listed in the first column. For this example, it was decided to create a frequency distribution table with seven rows and a class width set to 300. The class width is the distance from the start of one interval to the start of the next interval in the subsequent row. For example, the interval for the second row starts at 300, the interval for the third row starts at 600, and so on.</para>
+    <para id="para-00009">In the second column, record the frequency, or the number of data values that fall within the interval, for each row. For example, for the first row, count the number of data values that fall between 0 and 299. Because there is only one data value (278) that falls in this interval, the corresponding frequency is 1. For the second row, there are 3 data values that fall between 300 and 599 (318, 422, and 577). Thus, the frequency for the second row is 3.</para>
+    <para id="para-00010">For the third column, called relative frequency, take the frequency for each row and divide it by the sum of the frequencies, which is 20. For example, in the first row, the relative frequency will be 1 divided by 20, which is 0.05. The relative frequency for the second row will be 3 divided by 20, which is 0.15. The resulting frequency distribution table is shown in Table 13.6.</para>
+    <table summary=" " id="table-00002">
+    <title>Table 13.6 Frequency Distribution of Portfolio Values for 20 Clients at a Brokerage Firm ($000s)</title>
+    <tgroup cols="3">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+    <row>
+    <entry align="center">Portfolio Value Interval ($000s)</entry>
+    <entry align="center">Frequency</entry>
+    <entry align="center">Relative Frequency</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">0–299</entry>
+    <entry align="center">1</entry>
+    <entry align="center">0.05</entry>
+    </row>
+    <row>
+    <entry align="center">300–599</entry>
+    <entry align="center">3</entry>
+    <entry align="center">0.15</entry>
+    </row>
+    <row>
+    <entry align="center">600–899</entry>
+    <entry align="center">4</entry>
+    <entry align="center">0.20</entry>
+    </row>
+    <row>
+    <entry align="center">   900–1,199</entry>
+    <entry align="center">6</entry>
+    <entry align="center">0.30</entry>
+    </row>
+    <row>
+    <entry align="center">1,200–1,499</entry>
+    <entry align="center">3</entry>
+    <entry align="center">0.15</entry>
+    </row>
+    <row>
+    <entry align="center">1,500–1,799</entry>
+    <entry align="center">2</entry>
+    <entry align="center">0.10</entry>
+    </row>
+    <row>
+    <entry align="center">1,800–2,099</entry>
+    <entry align="center">1</entry>
+    <entry align="center">0.05</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00011">The frequency table indicates that most customers have portfolio values between $300,000 and $599,000, as this row in the table shows the highest frequency. Very few customers have portfolios with a value below $299,000 or above $1,800,000, as these frequencies in these rows are very low. Because the highest frequency corresponds to the row in the middle of the table and the frequencies decrease with each interval below and above this middle interval, the frequency table indicates that this distribution is a bell-shaped distribution.</para>
+    <para id="para-00012">The following is a summary of how to create a frequency distribution table (for integer data). Note that the number of classes in a frequency table is the same as the number of rows in the table.</para>
+    <list list-type="enumerated" id="list-00002">
+    <item>Calculate the class width using the formula <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Class</mi><mo> </mo><mi>Width</mi><mo>=</mo><mfrac><mrow><mi>Max</mi><mo> </mo><mo>-</mo><mo> </mo><mi>Min</mi></mrow><mrow><mi>Number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Classes</mi></mrow></mfrac></math>.
+    <list id="list-00003" xmlns="http://cnx.rice.edu/cnxml">
+    <item>Note: For integer data, round the class width up to the next whole number.</item>
+    </list></item>
+    <item>Create a table with a number of rows equal to the number of classes. Create columns for Lower Class Limit, Upper Class Limit, Frequency, and Relative Frequency.</item>
+    <item>Set the lower class limit for the first row equal to the minimum value from the data set, or some other appropriate value.</item>
+    <item>Calculate the lower class limit for the second row by adding the class width to the lower class limit from the first row. Add the class width to each new lower class limit to calculate the lower class limit for each subsequent row.</item>
+    <item>The upper class limit for each row is 1 less than the lower class limit of the subsequent row. You can also add the class width to each upper class limit to determine the upper class limit for the subsequent row.</item>
+    <item>Record the frequency for each row by counting how many data values fall between the lower class limit and the upper class limit for that row.</item>
+    <item>Calculate the relative frequency for each row by taking the frequency for that row and dividing by the total number of data values.</item>
+    </list>
+    </solution>
+    </exercise>
+    </note>
+    </section>
+    <section id="sect-00003">
+    <title>Normal Distribution</title>
+    <para id="para-00013">The normal probability density function, a continuous distribution, is the most important of all the distributions. The <term id="term-00002">normal distribution</term> is applicable when the frequency of data values decreases with each class above and below the mean. The normal distribution can be applied to many examples from the finance industry, including average returns for mutual funds over a certain time period, portfolio values, and others. The normal distribution has two parameters, or numerical descriptive measures: the mean, <emphasis effect="italics"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>μ</mi></math></emphasis>, and the standard deviation, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>σ</mi></math>. The variable <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">x</emphasis> represents the quantity being measured whose data values have a normal distribution.</para>
+    <figure id="fig-00001">
+    <title>Figure 13.3 Graph of the Normal Distribution</title>
+    <media alt="Graph of a normal distribution. It is a bell shaped curve that is symmetrical about a vertical line drawn through the mean."><image mime-type="image/png" src="../../media/FINAN_Figure_13_04_003.png"/></media>
+    </figure>
+    <para id="para-00014">The curve in Figure 13.3 is symmetric about a vertical line drawn through the mean, <emphasis effect="italics"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>μ</mi></math></emphasis>. The mean is the same as the median, which is the same as the mode, because the graph is symmetric about <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>μ</mi></math></emphasis>. As the notation indicates, the normal distribution depends only on the mean and the standard deviation. Because the area under the curve must equal 1, a change in the standard deviation, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>σ</mi></math>, causes a change in the shape of the normal curve; the curve becomes fatter and wider or skinnier and taller depending on <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>σ</mi></math></emphasis>. A change in <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>μ</mi></math></emphasis> causes the graph to shift to the left or right. This means there are an infinite number of normal probability distributions.</para>
+    <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">To determine probabilities associated with the normal distribution, we find specific areas under the normal curve, and this is further discussed in <link document="m00082">Apply the Normal Distribution in Financial Contexts</link>. For example, suppose that at a financial consulting company, the mean employee salary is $60,000 with a standard deviation of $7,500. A normal curve can be drawn to represent this scenario, in which the mean of $60,000 would be plotted on the horizontal axis, corresponding to the peak of the curve. Then, to find the probability that an employee earns more than $75,000, you would calculate the area under the normal curve to the right of the data value $75,000.</para>
+    <para id="para-00016">Excel uses the following command to find the area under the normal curve to the <emphasis effect="italics">left</emphasis> of a specified value:</para>
+    <code class="centered-code">=NORM.DIST(XVALUE, MEAN, STANDARD_DEV, TRUE)</code>
+    <para id="para-00017">For example, at the financial consulting company mentioned above, the mean employee salary is $60,000 with a standard deviation of $7,500. To find the probability that a random employee’s salary is less than $55,000 using Excel, this is the command you would use:</para>
+    <code class="centered-code">=NORM.DIST(55000, 60000, 7500, TRUE)</code>
+    <code class="centered-code">Result: 0.25249</code>
+    <para id="para-00018">Thus, there is a probability of about 25% that a random employee has a salary less than $55,000.</para>
+    </section>
+    <section id="sect-00004">
+    <title>Exponential Distribution</title>
+    <para id="para-00019">The <term id="term-00003">exponential distribution</term> is often concerned with the amount of time until some specific event occurs. For example, a finance professional might want to model the time to default on payments for company debt holders.</para>
+    <para id="para-00020">An exponential distribution is one in which there are fewer large values and more small values. For example, marketing studies have shown that the amount of money customers spend in a store follows an exponential distribution. There are more people who spend small amounts of money and fewer people who spend large amounts of money.</para>
+    <para id="para-00021">Exponential distributions are commonly used in calculations of product reliability, or the length of time a product lasts. The random variable for the exponential distribution is continuous and often measures a passage of time, although it can be used in other applications. Typical questions may be, What is the probability that some event will occur between <emphasis effect="italics">x</emphasis><sub>1</sub> hours and <emphasis effect="italics">x</emphasis><sub>2</sub> hours? or What is the probability that the event will take more than<emphasis effect="italics"> x</emphasis><sub>1</sub> hours to perform? In these examples, the random variable <emphasis effect="italics">x</emphasis> equals either the time between events or the passage of time to complete an action (e.g., wait on a customer). The probability density function is given by</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>f</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mfrac><mn>1</mn><mi>μ</mi></mfrac><msup><mi>e</mi><mrow><mo>-</mo><mo> </mo><mfrac><mn>1</mn><mi>μ</mi></mfrac><mi>x</mi></mrow></msup></math></equation>
+    <para id="para-00022" xmlns="http://cnx.rice.edu/cnxml">where <emphasis effect="italics"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>μ</mi></math></emphasis> is the historical average of the values of the random variable (e.g., the historical average waiting time). This probability density function has a mean and standard deviation of <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mi>μ</mi></mfrac></math>.</para>
+    <para id="para-00023" xmlns="http://cnx.rice.edu/cnxml">To determine probabilities associated with the exponential distribution, we find specific areas under the exponential distribution curve. The following formula can be used to calculate the area under the exponential curve to the left of a certain value:</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>F</mi><mfenced><mi>x</mi></mfenced><mo>=</mo><mn>1</mn><mo>-</mo><msup><mi>e</mi><mrow><mo>-</mo><mo> </mo><mfrac><mn>1</mn><mi>μ</mi></mfrac><mi>x</mi></mrow></msup></math></equation>
+    <note class="think-through" id="note-00002" xmlns="http://cnx.rice.edu/cnxml">
+    <title>Calculating Probability</title>
+    <exercise class="unnumbered" id="exer-00002">
+    <problem id="prob-00002">
+    <para id="para-00024">At a financial company, the mean time between incoming phone calls is 45 seconds, and the time between phone calls follows an exponential distribution, where the time is measured in minutes. Calculate the probability of having 2 minutes or less between phone calls.</para>
+    </problem>
+    <solution id="sol-00002">
+    <para id="para-00025"><emphasis effect="bold">Solution:</emphasis></para>
+    <para id="para-00026">To calculate the probability, find the area under the curve to the left of 1 minute. The mean time is given as 45 seconds, which is the same as 0.75 minutes. The probability can then be calculated as follows:</para>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mpadded lspace="-1px"><mi>Probability</mi></mpadded><mo>=</mo><mn>1</mn><mo>-</mo><mo> </mo><msup><mi>e</mi><mrow><mo>-</mo><mo> </mo><mfrac><mn>1</mn><mrow><mn>0</mn><mo>.</mo><mn>75</mn></mrow></mfrac><mfenced><mn>1</mn></mfenced></mrow></msup><mo>=</mo><mn>0</mn><mo>.</mo><mn>736</mn></math></equation>
+    </solution>
+    </exercise>
+    </note>
+    </section>
+    <section class="section-summary" id="sect-00005" xmlns="http://cnx.rice.edu/cnxml">
+    <title/>
+    <para id="para-00027">A frequency distribution provides a method of organizing and summarizing a data set and allows us to organize and tabulate the data in a summarized way. Once a frequency distribution is generated, it can be used to create graphs to help facilitate an interpretation of the data set. The normal distribution has two parameters, or numerical descriptive measures: the mean, <emphasis effect="italics"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>μ</mi></math></emphasis>, and the standard deviation, <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>σ</mi></math></emphasis>. The exponential distribution is often concerned with the amount of time until some specific event occurs.</para>
+    </section>
+    <section class="problem-set" id="sect-00006" xmlns="http://cnx.rice.edu/cnxml">
+    <title/>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00028"><link class="os-embed" url="#exercise/FI_Ch13_Sec4_PRQ6"/></para></problem></exercise>
+    </section>
+    <section class="video-activity" id="sect-00007">
+    <title/>
+    <section id="sect-00008">
+    <title>Normal Distribution Stock Return Calculations</title>
+    <media alt="stock-return"><iframe width="660" height="371.4" src="https://openstax.org/r/stock-return"/></media>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00029"><link class="os-embed" url="#exercise/FI_Ch13_Sec4_VA2Q1"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00030"><link class="os-embed" url="#exercise/FI_Ch13_Sec4_VA2Q2"/></para></problem></exercise>
+    </section>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>exponential distribution</term> <meaning>a continuous probability distribution that is useful for calculating probabilities within the time between events</meaning></definition>
+    <definition id="def-00002"><term>frequency distribution</term> <meaning>a method of organizing and summarizing a data set that provides the frequency with which each value in the data set occurs</meaning></definition>
+    <definition id="def-00003"><term>normal distribution</term> <meaning>a bell-shaped distribution curve that is used to model many measurements, including IQ scores, salaries, heights, weights, blood pressures, etc.</meaning></definition>
+    </glossary>
+    </document>

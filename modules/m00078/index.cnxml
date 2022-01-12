@@ -6,8 +6,200 @@
     <md:uuid>2ac83c94-090a-4f6e-9b07-8b1bfa4987e5</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
-</document>
+    <section class="learning-objectives" id="sect-00001">
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Calculate various measures of the average of a data set, such as mean, median, mode, and geometric mean.</item>
+    <item>Recognize when a certain measure of center is more appropriate to use, such as weighted mean.</item>
+    <item>Distinguish among arithmetic mean, geometric mean, and weighted mean.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Arithmetic Mean</title>
+    <para id="para-00002">The <emphasis effect="italics">average</emphasis> of a data set is a way of describing location. The most widely used measures of the <emphasis effect="italics">center</emphasis> of a data set are the mean (average), median, and mode. The arithmetic mean is the most common measure of the average. We will discuss the geometric mean later.</para>
+    <para id="para-00003">Note that the words <emphasis effect="italics">mean</emphasis> and <emphasis effect="italics">average</emphasis> are often used interchangeably. The substitution of one word for the other is common practice. The technical term is <emphasis effect="italics">arithmetic mean</emphasis>, and <emphasis effect="italics">average</emphasis> technically refers only to a center location. Formally, the arithmetic mean is called the first moment of the distribution by mathematicians. However, in practice among non-statisticians, <emphasis effect="italics">average</emphasis> is commonly accepted as a synonym for <emphasis effect="italics">arithmetic mean</emphasis>.</para>
+    <para id="para-00004">To calculate the <term id="term-00001">arithmetic mean</term> value of 50 stock portfolios, add the 50 portfolio dollar values together and divide the sum by 50. To calculate the arithmetic mean for a set of numbers, add the numbers together and then divide by the number of data values.</para>
+    <para id="para-00005">In statistical analysis, you will encounter two types of data sets: <term id="term-00002">sample data</term> and <term id="term-00003">population data</term>. Population data represents all the outcomes or measurements that are of interest. Sample data represents outcomes or measurements collected from a subset, or part, of the population of interest.</para>
+    <para id="para-00006">The notation <math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>x</mi><mo>¯</mo></mover></math> is used to indicate the sample mean, where the arithmetic mean is calculated based on data taken from a sample. The notation <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∑</mo><mi>x</mi></math>  is used to denote the sum of the data values, and <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math> is used to indicate the number of data values in the sample, also known as the sample size.</para>
+    <para id="para-00007" xmlns="http://cnx.rice.edu/cnxml">The sample mean can be calculated using the following formula:</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>x</mi><mo>¯</mo></mover><mo>=</mo><mfrac><mrow><mo>∑</mo><mi>x</mi></mrow><mi>n</mi></mfrac></math></equation>
+    <para id="para-00008" xmlns="http://cnx.rice.edu/cnxml">Finance professionals often rely on averages of Treasury bill auction amounts to determine their value. Table 13.1 lists the Treasury bill auction amounts for a sample of auctions from December 2020.</para>
+    <table summary=" " id="table-00001">
+    <title>Table 13.1 United States Treasury Bill Auctions, December 22 and 24, 2020</title>
+    <tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <thead>
+    <row>
+    <entry align="center">Maturity</entry>
+    <entry align="center">Amount ($Billions)</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">4-week T-bills</entry>
+    <entry align="center">$32.9</entry>
+    </row>
+    <row>
+    <entry align="center">8-week T-bills</entry>
+    <entry align="center">38.4</entry>
+    </row>
+    <row>
+    <entry align="center">13-week T-bills</entry>
+    <entry align="center">63.1</entry>
+    </row>
+    <row>
+    <entry align="center">26-week T-bills</entry>
+    <entry align="center">59.6</entry>
+    </row>
+    <row>
+    <entry align="center">52-week T-bills</entry>
+    <entry align="center">39.7</entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Total</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">$233.7</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    <caption>(source: https://www.treasurydirect.gov)</caption>
+    </table>
+    <para id="para-00009">To calculate the arithmetic mean of the amount paid for Treasury bills at auction, in billions of dollars, we use the following formula:</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>x</mi><mo>¯</mo></mover><mo>=</mo><mfrac><mrow><mo>∑</mo><mi>x</mi></mrow><mi>n</mi></mfrac><mo>=</mo><mfrac><mrow><mo>$</mo><mn>233</mn><mo>.</mo><mn>7</mn></mrow><mn>5</mn></mfrac><mo>=</mo><mo>$</mo><mn>46</mn><mo>.</mo><mn>74</mn></math></equation>
+    </section>
+    <section id="sect-00003" xmlns="http://cnx.rice.edu/cnxml">
+    <title>Median</title>
+    <para id="para-00010">To determine the <term id="term-00004">median</term> of a data set, order the data from smallest to largest, and then find the middle value in the ordered data set. For example, to find the median value of 50 portfolios, find the number that splits the data into two equal parts. The portfolio values owned by 25 people will be below the median, and 25 people will have portfolio values above the median. The median is generally a better measure of the average when there are <term id="term-00005">extreme values</term> or <term id="term-00006">outliers</term> in the data set.</para>
+    <para id="para-00011">An outlier or extreme value is a data value that is significantly different from the other data values in a data set. The median is preferred when outliers are present because the median is not affected by the numerical values of the outliers.</para>
+    <para id="para-00012">The ordered data set from Table 13.1 appears as follows:</para>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>32</mn><mo>.</mo><mn>9</mn><mo>,</mo><mo> </mo><mn>38</mn><mo>.</mo><mn>4</mn><mo>,</mo><mo> </mo><mn>39</mn><mo>.</mo><mn>7</mn><mo>,</mo><mo> </mo><mn>59</mn><mo>.</mo><mn>6</mn><mo>,</mo><mo> </mo><mn>63</mn><mo>.</mo><mn>1</mn></math></equation>
+    <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">The middle value in this ordered data set is the third data value, which is 39.7. Thus, the median is $39.7 billion.</para>
+    <para id="para-00014">You can quickly find the location of the median by using the expression <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>. The variable <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">n</emphasis> represents the total number of data values in the sample. If <emphasis effect="italics">n</emphasis> is an odd number, the median is the middle value of the data values when ordered from smallest to largest. If <emphasis effect="italics">n</emphasis> is an even number, the median is equal to the two middle values of the ordered data values added together and divided by 2. In the example from Table 13.1, there are five data values, so <emphasis effect="italics">n</emphasis> = 5. To identify the position of the median, calculate <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>, which is <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>5</mn><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>  or 3. This indicates that the median is located in the third data position, which corresponds to the value 39.7.</para>
+    <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">As mentioned earlier, when outliers are present in a data set, the mean can be nonrepresentative of the center of the data set, and the median will provide a better measure of center. The following Think It Through example illustrates this point.</para>
+    <note class="think-through" id="note-00001">
+    <title>Finding the Measure of Center</title>
+    <exercise class="unnumbered" id="exer-00001">
+    <problem id="prob-00001">
+    <para id="para-00016">Suppose that in a small village of 50 people, one person earns a salary of $5 million per year, and the other 49 individuals each earn $30,000. Which is the better measure of <emphasis effect="italics">center</emphasis>: the mean or the median?</para>
+    </problem>
+    <solution id="sol-00001">
+    <para id="para-00017"><emphasis effect="bold">Solution:</emphasis></para>
+    <para id="para-00018">The <emphasis effect="italics">mean</emphasis>, in dollars, would be arrived at mathematically as follows:</para>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>x</mi><mo>¯</mo></mover><mo>=</mo><mfrac><mrow><mn>5</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><mo>+</mo><mn>49</mn><mo>(</mo><mn>30</mn><mo>,</mo><mn>000</mn><mo>)</mo></mrow><mn>50</mn></mfrac><mo>=</mo><mn>129</mn><mo>,</mo><mn>400</mn></math></equation>
+    <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">However, the <emphasis effect="italics">median</emphasis> would be $30,000. There are 49 people who earn $30,000 and one person who earns $5,000,000.</para>
+    <para id="para-00020">The median is a better measure of the “average” than the mean because 49 of the values are $30,000 and one is $5,000,000. The $5,000,000 is an outlier. The $30,000 gives us a better sense of the middle of the data set.</para>
+    </solution>
+    </exercise>
+    </note>
+    </section>
+    <section id="sect-00004">
+    <title>Mode</title>
+    <para id="para-00021">Another measure of center is the <term id="term-00007">mode</term>. The mode is the most frequent value. There can be more than one mode in a data set as long as those values have the same frequency and that frequency is the highest. A data set with two modes is called <emphasis effect="italics">bimodal</emphasis>. For example, assume that the weekly closing stock price for a technology stock, in dollars, is recorded for 20 consecutive weeks as follows:</para>
+    <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>50</mn><mo>,</mo><mo> </mo><mn>53</mn><mo>,</mo><mo> </mo><mn>59</mn><mo>,</mo><mo> </mo><mn>59</mn><mo>,</mo><mo> </mo><mn>63</mn><mo>,</mo><mo> </mo><mn>63</mn><mo>,</mo><mo> </mo><mn>72</mn><mo>,</mo><mo> </mo><mn>72</mn><mo>,</mo><mo> </mo><mn>72</mn><mo>,</mo><mo> </mo><mn>72</mn><mo>,</mo><mo> </mo><mn>72</mn><mo>,</mo><mo> </mo><mn>76</mn><mo>,</mo><mo> </mo><mn>78</mn><mo>,</mo><mo> </mo><mn>81</mn><mo>,</mo><mo> </mo><mn>83</mn><mo>,</mo><mo> </mo><mn>84</mn><mo>,</mo><mo> </mo><mn>84</mn><mo>,</mo><mo> </mo><mn>84</mn><mo>,</mo><mo> </mo><mn>90</mn><mo>,</mo><mo> </mo><mn>93</mn></math></equation>
+    <para id="para-00022" xmlns="http://cnx.rice.edu/cnxml">To find the mode, determine the most frequent score, which is 72. It occurs five times. Thus, the mode of this data set is 72. It is helpful to know that the most common closing price of this particular stock over the past 20 weeks has been $72.00.</para>
+    </section>
+    <section id="sect-00005">
+    <title>Geometric Mean</title>
+    <para id="para-00023">The arithmetic mean, median, and mode are all measures of the <emphasis effect="italics">center</emphasis> of a data set, or the <emphasis effect="italics">average</emphasis>. They are all, in their own way, trying to measure the common<emphasis effect="italics"/> point within the data—that which is “normal.” In the case of the arithmetic mean, this is accomplished by finding the value from which all points are equal linear distances. We can imagine that all the data values are combined through addition and then distributed back to each data point in equal amounts.</para>
+    <para id="para-00024">The <term id="term-00008">geometric mean</term> redistributes not the sum of the values but their product. It is calculated by multiplying all the individual values and then redistributing them in equal portions such that the total product remains the same. This can be seen from the formula for the geometric mean, x̃ (pronounced <emphasis effect="italics">x</emphasis>-tilde):</para>
+    <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>x</mi><mo>~</mo></mover><mo>=</mo><mroot><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>∙</mo><msub><mi>x</mi><mn>2</mn></msub><mo>⋯</mo><msub><mi>x</mi><mi>n</mi></msub></mrow><mi>n</mi></mroot></math></equation>
+    <para id="para-00025" xmlns="http://cnx.rice.edu/cnxml">The geometric mean is relevant in economics and finance for dealing with growth—of markets, in investments, and so on. For an example of a finance application, assume we would like to know the equivalent percentage growth rate over a five-year period, given the yearly growth rates for the investment.</para>
+    <para id="para-00026">For a five-year period, the annual rate of return for a <term class="no-emphasis" id="term-00009">certificate of deposit (CD) </term>investment is as follows: <newline/>3.21%, 2.79%, 1.88%, 1.42%, 1.17%. Find the single percentage growth rate that is equivalent to these five annual consecutive rates of return. The geometric mean of these five rates of return will provide the solution. To calculate the geometric mean for these values (which must all be positive), first multiply<footnote id="foot-00001">In this chapter, the interpunct dot will be used to indicate the multiplication operation in formulas.</footnote> the rates of return together—after adding 1 to the decimal equivalent of each interest rate—and then take the <emphasis effect="italics">n</emphasis>th root of the product. We are interested in calculating the equivalent overall rate of return for the yearly rates of return, which can be expressed as 1.0321, 1.0279, 1.0188, 1.0142, and 1.0117:</para>
+    <equation id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>x</mi><mo>~</mo></mover><mo>=</mo><mroot><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>·</mo><msub><mi>x</mi><mn>2</mn></msub><mo>⋯</mo><msub><mi>x</mi><mi>n</mi></msub></mrow><mi>n</mi></mroot><mo>=</mo><mroot><mrow><mn>1</mn><mo>.</mo><mn>0321</mn><mo>·</mo><mn>1</mn><mo>.</mo><mn>0279</mn><mo>·</mo><mn>1</mn><mo>.</mo><mn>0188</mn><mo>·</mo><mn>1</mn><mo>.</mo><mn>0142</mn><mo>·</mo><mn>1</mn><mo>.</mo><mn>0117</mn></mrow><mn>5</mn></mroot><mo>=</mo><mn>1</mn><mo>.</mo><mn>0209</mn></math></equation>
+    <para id="para-00027" xmlns="http://cnx.rice.edu/cnxml">Based on the geometric mean, the equivalent annual rate of return for this time period is 2.09%.</para>
+    <note class="link-to-learning" id="note-00002">
+    <title>Arithmetic versus Geometric Means</title>
+    <para id="para-00028">In <link url="https://openstax.org/r/this-video-on-arithmetic">this video on arithmetic versus geometric means</link>, the returns of the S&amp;P 500 are tracked using an arithmetic mean versus a geometric mean, and the difference between these two measurements is discussed.</para>
+    </note>
+    </section>
+    <section id="sect-00006">
+    <title>Weighted Mean</title>
+    <para id="para-00029">A <term id="term-00010">weighted mean</term> is a measure of the center, or average, of a data set where each data value is assigned a corresponding weight. A common financial application of a weighted mean is in determining the average price per share for a certain stock when the stock has been purchased at different points in time and at different share prices.</para>
+    <para id="para-00030">To calculate a weighted mean, create a table with the data values in one column and the weights in a second column. Then create a third column in which each data value is multiplied by each weight on a row-by-row basis. Then, the weighted mean is calculated as the sum of the results from the third column divided by the sum of the weights.</para>
+    <note class="think-through" id="note-00003">
+    <title>Calculating the Weighted Mean</title>
+    <exercise class="unnumbered" id="exer-00002">
+    <problem id="prob-00002">
+    <para id="para-00031">Assume your portfolio contains 1,000 shares of XYZ Corporation, purchased on three different dates, as shown in Table 13.2. Calculate the weighted mean of the purchase price for the 1,000 shares.</para>
+    <table summary=" " id="table-00002">
+    <title>Table 13.2 1,000 Shares of XYZ Corporation</title>
+    <tgroup cols="4">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <thead>
+    <row>
+    <entry align="center">Date Purchased</entry>
+    <entry align="center">Purchase Price ($)</entry>
+    <entry align="center">Number of Shares Purchased</entry>
+    <entry align="center">Price ($) Times Number of Shares</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry>January 17</entry>
+    <entry align="right">78</entry>
+    <entry align="right">200</entry>
+    <entry align="right">15,600</entry>
+    </row>
+    <row>
+    <entry>February 10</entry>
+    <entry align="right">122</entry>
+    <entry align="right">300</entry>
+    <entry align="right">36,600</entry>
+    </row>
+    <row>
+    <entry>March 23</entry>
+    <entry align="right">131</entry>
+    <entry align="right">500</entry>
+    <entry align="right">65,500</entry>
+    </row>
+    <row>
+    <entry><emphasis effect="bold">Total</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">NA</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">1,000</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">117,700</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    </problem>
+    <solution id="sol-00002">
+    <para id="para-00032"><emphasis effect="bold">Solution:</emphasis></para>
+    <para id="para-00033">In this example, the purchase price is weighted by the number of shares. The sum of the third column is $117,700, and sum of the weights is 1,000. The weighted mean is calculated as $117,700 divided by 1,000, which is $117.70.</para>
+    <para id="para-00034">Thus, the average cost per share for the 1,000 shares of XYZ Corporation is $117.70.</para>
+    </solution>
+    </exercise>
+    </note>
+    </section>
+    <section class="section-summary" id="sect-00007">
+    <title/>
+    <para id="para-00035">Several measurements are used to provide the average of a data set, including mean, median, and mode. The terms <emphasis effect="italics">mean</emphasis> and <emphasis effect="italics">average</emphasis> are often used interchangeably. To calculate the mean for a set of numbers, add the numbers together and then divide the sum by the number of data values. The geometric mean redistributes not the sum of the values but the product by multiplying all of the individual values and then redistributing them in equal portions such that the total product remains the same. To calculate the median for a set of numbers, order the data from smallest to largest and identify the middle data value in the ordered data set.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00008">
+    <title/>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00036"><link class="os-embed" url="#exercise/FI_Ch13_Sec1_MCQ1"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00037"><link class="os-embed" url="#exercise/FI_Ch13_Sec1_MCQ2"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00009">
+    <title/>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00038"><link class="os-embed" url="#exercise/FI_Ch13_Sec1_RVQ1"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00039"><link class="os-embed" url="#exercise/FI_Ch13_Sec1_RVQ2"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00010">
+    <title/>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00040"><link class="os-embed" url="#exercise/FI_Ch13_Sec1_PRQ5"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>arithmetic mean</term> <meaning>a measure of center of a data set, calculated by adding up the data values and dividing the sum by the number of data values</meaning></definition>
+    <definition id="def-00002"><term>geometric mean</term> <meaning>a measure of center of a data set, calculated by multiplying the data values and then raising the product to the exponent <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mi>n</mi></mfrac></math>, where <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">n</emphasis> is the number of data values</meaning></definition>
+    <definition id="def-00003"><term>median</term> <meaning>the middle value in an ordered data set</meaning></definition>
+    <definition id="def-00004"><term>mode</term> <meaning>the most frequently occurring data value in a data set</meaning></definition>
+    <definition id="def-00005"><term>outliers</term> <meaning>data values that are significantly different from the other data values in a data set</meaning></definition>
+    <definition id="def-00006"><term>population data</term> <meaning>data representing all the outcomes or measurements that are of interest</meaning></definition>
+    <definition id="def-00007"><term>sample data</term> <meaning>data representing outcomes or measurements collected from a subset or part of a population</meaning></definition>
+    <definition id="def-00008"><term>weighted mean</term> <meaning>a measure of center of a data set in which each data value has a corresponding weighting</meaning></definition>
+    </glossary>
+    </document>

@@ -6,8 +6,257 @@
     <md:uuid>14b7afbe-82b8-444d-987c-4c240f340438</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
-</document>
+    <section class="learning-objectives" id="sect-00001">
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Calculate portfolio weights in an investment.</item>
+    <item>Calculate and interpret the expected values.</item>
+    <item>Apply the normal distribution to characterize average and standard deviation in financial contexts.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Calculate Portfolio Weights</title>
+    <para id="para-00002">In many financial analyses, the <emphasis effect="bold">weightings</emphasis> by asset category in a <term id="term-00001">portfolio</term> are a key index used to assess if the portfolio is meeting allocation metrics. For example, an investor approaching retirement age may wish to shift assets in a portfolio to more conservative and <term class="no-emphasis" id="term-00002">lower-volatility investments</term>. Weightings can be calculated in several different ways—for example, based on individual stocks in a portfolio or on various sectors in a portfolio. Weightings can also be calculated based on number of shares or the value of shares of a stock.</para>
+    <para id="para-00003">To calculate a weighting in a portfolio based on value, take the value of the particular investment and divide it by the total value of the overall portfolio. As an example, consider an individual’s retirement account for which the desired portfolio weighting is determined to be 40% stocks, 50% bonds, and 10% cash equivalents. Table 13.7 shows the current assets in the individual’s portfolio, broken out according to stocks, bonds, and cash equivalents.</para>
+    <table summary=" " id="table-00001">
+    <title>Table 13.7 Portfolio Assets in Stocks, Bonds, and Cash Equivalents</title>
+    <tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <thead>
+    <row>
+    <entry align="center">Asset</entry>
+    <entry align="center">Value ($)</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">Stock A</entry>
+    <entry align="center">134,000</entry>
+    </row>
+    <row>
+    <entry align="center">Stock B</entry>
+    <entry align="center">172,000</entry>
+    </row>
+    <row>
+    <entry align="center">Bond C</entry>
+    <entry align="center">38,000</entry>
+    </row>
+    <row>
+    <entry align="center">Bond D</entry>
+    <entry align="center">102,000</entry>
+    </row>
+    <row>
+    <entry align="center">Bond E</entry>
+    <entry align="center">96,000</entry>
+    </row>
+    <row>
+    <entry align="center">Cash in CDs</entry>
+    <entry align="center">35,700</entry>
+    </row>
+    <row>
+    <entry align="center">Cash in savings</entry>
+    <entry align="center">22,500</entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Total Value</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">600,200</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00004">To determine the weighting in this portfolio for stocks, bonds, and cash, take the total value for each category and divide it by the total value of the entire portfolio. These results are summarized in Table 13.8. Notice that the portfolio weightings shown in the table do not match the target, or desired, allocation weightings of 40% stocks, 50% bonds, and 10% cash equivalents.</para>
+    <table summary="Some cells are left blank for visual design purposes." id="table-00002">
+    <title>Table 13.8 Portfolio Weightings for Stocks, Bonds, and Cash Equivalents</title>
+    <tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+    <row>
+    <entry align="center">Asset Category</entry>
+    <entry align="right">Category Value ($)</entry>
+    <entry align="right">Portfolio Weighting</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">Stocks</entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>306</mn><mo>,</mo><mn>000</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>306</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>51</mn></math></entry>
+    </row>
+    <row xmlns="http://cnx.rice.edu/cnxml">
+    <entry align="center">Bonds</entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>236</mn><mo>,</mo><mn>000</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>236</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>39</mn></math></entry>
+    </row>
+    <row xmlns="http://cnx.rice.edu/cnxml">
+    <entry align="center">Cash</entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>58</mn><mo>,</mo><mn>200</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>58</mn><mo>,</mo><mn>200</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>10</mn></math></entry>
+    </row>
+    <row xmlns="http://cnx.rice.edu/cnxml">
+    <entry align="center"><emphasis effect="bold">Total Value</emphasis></entry>
+    <entry align="right"><emphasis effect="bold"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn mathvariant="bold">600</mn><mo mathvariant="bold">,</mo><mn mathvariant="bold">200</mn></math></emphasis></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"> </entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00005">Portfolio rebalancing is a process whereby the investor buys or sells assets to achieve the desired portfolio weightings. In this example, the investor could sell approximately 10% of the stock assets and purchase bonds with the proceeds to align the asset categories to the desired portfolio weightings.</para>
+    </section>
+    <section id="sect-00003">
+    <title>Calculate and Interpret Expected Values</title>
+    <para id="para-00006">A <term id="term-00003">probability distribution</term> is a mathematical function that assigns probabilities to various outcomes. For example, we can assign a probability to the outcome of a certain stock increasing in value or decreasing in value. One application of a probability distribution function is determining <term id="term-00004">expected value</term>.</para>
+    <para id="para-00007">In many financial situations, we are interested in determining the expected value of the return on a particular investment or the expected return on a portfolio of multiple investments. To calculate expected returns, we formulate a probability distribution and then use the following formula to calculate expected value:</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mpadded lspace="-1px"><mi>Expected</mi><mo> </mo><mi>Value</mi></mpadded><mo>=</mo><msub><mi>P</mi><mn>1</mn></msub><mo>∙</mo><mo> </mo><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>P</mi><mn>2</mn></msub><mo>∙</mo><mo> </mo><msub><mi>R</mi><mn>2</mn></msub><mo>+</mo><msub><mi>P</mi><mn>3</mn></msub><mo>∙</mo><mo> </mo><msub><mi>R</mi><mn>3</mn></msub><mo>+</mo><mo>…</mo><mo>+</mo><msub><mi>P</mi><mi>n</mi></msub><mo>∙</mo><mo> </mo><msub><mi>R</mi><mi>n</mi></msub></math></equation>
+    <para id="para-00008" xmlns="http://cnx.rice.edu/cnxml">where <emphasis effect="italics">P</emphasis><sub>1</sub>, <emphasis effect="italics">P</emphasis><sub>2</sub>, <emphasis effect="italics">P</emphasis><sub>3</sub>, ⋯ <emphasis effect="italics">P<sub>n</sub></emphasis> are the probabilities of the various returns and <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub>, <emphasis effect="italics">R</emphasis><sub>3</sub>, ⋯ <emphasis effect="italics">R<sub>n</sub></emphasis> are the various rates of return.</para>
+    <para id="para-00009">In essence, expected value is a weighted mean where the probabilities form the weights. Typically, these values for <emphasis effect="italics">P<sub>n</sub></emphasis> and <emphasis effect="italics">R<sub>n</sub></emphasis> are derived from historical data. As an example, consider a probability distribution for potential returns for <term class="no-emphasis" id="term-00005">United Airlines</term> common stock. Assume that from historical data gathered over a certain time period, there is a 15% probability of generating a 12% return on investment for this stock, a 35% probability of generating a 5% return, a 25% probability of generating a 2% return, a 14% probability of generating a 5% loss, and an 11% probability of resulting in a 5% loss. This data can be organized into a probability distribution table as seen in Table 13.9.</para>
+    <para id="para-00010">Using the expected value formula, the expected return of United Airlines stock over an extended period of time can be calculated as follows:</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>E</mi><mi>x</mi><mi>p</mi><mi>e</mi><mi>c</mi><mi>t</mi><mi>e</mi><mi>d</mi><mo> </mo><mi>V</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mo>=</mo><msub><mi>P</mi><mn>1</mn></msub><mo>∙</mo><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>P</mi><mn>2</mn></msub><mo>∙</mo><msub><mi>R</mi><mn>2</mn></msub><mo>+</mo><msub><mi>P</mi><mn>3</mn></msub><mo>∙</mo><msub><mi>R</mi><mn>3</mn></msub><mo>+</mo><mo>…</mo><mo>+</mo><msub><mi>P</mi><mi>n</mi></msub><mo>∙</mo><msub><mi>R</mi><mi>n</mi></msub></math></equation>
+    <equation id="eq-00003" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Expected</mi><mo> </mo><mi>Value</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>15</mn><mfenced><mrow><mn>0</mn><mo>.</mo><mn>12</mn></mrow></mfenced><mo>+</mo><mn>0</mn><mo>.</mo><mn>35</mn><mfenced><mrow><mn>0</mn><mo>.</mo><mn>05</mn></mrow></mfenced><mo>+</mo><mn>0</mn><mo>.</mo><mn>25</mn><mfenced><mrow><mn>0</mn><mo>.</mo><mn>02</mn></mrow></mfenced><mo>+</mo><mn>0</mn><mo>.</mo><mn>14</mn><mfenced><mrow><mo>-</mo><mn>0</mn><mo>.</mo><mn>05</mn></mrow></mfenced><mo>+</mo><mn>0</mn><mo>.</mo><mn>11</mn><mfenced><mrow><mo>-</mo><mn>0</mn><mo>.</mo><mn>10</mn></mrow></mfenced><mo>=</mo><mn>0</mn><mo>.</mo><mn>0225</mn></math></equation>
+    <para id="para-00011" xmlns="http://cnx.rice.edu/cnxml">Based on the probability distribution, the expected value of the rate of return for United Airlines common stock over an extended period of time is 2.25%.</para>
+    <table summary=" " id="table-00003">
+    <title>Table 13.9 Probability Distribution for Historical Returns on United Airlines Stock</title>
+    <tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <thead>
+    <row>
+    <entry align="center">Historical Return (%)</entry>
+    <entry align="center">Associated Probability (%)</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">12</entry>
+    <entry align="center">15</entry>
+    </row>
+    <row>
+    <entry align="center">5</entry>
+    <entry align="center">35</entry>
+    </row>
+    <row>
+    <entry align="center">2</entry>
+    <entry align="center">25</entry>
+    </row>
+    <row>
+    <entry align="center">-5</entry>
+    <entry align="center">14</entry>
+    </row>
+    <row>
+    <entry align="center">-10</entry>
+    <entry align="center">11</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00012">We can extend this analysis to evaluate the expected return for an investment portfolio consisting of various asset categories, such as stocks, bonds, and cash equivalents, where the probabilities are associated with the weighting of each category relative to the total value of the portfolio. Using historical return data for each of the asset categories, the expected return of the overall portfolio can be calculated using the expected value formula.</para>
+    <para id="para-00013">Assume an investor has assets in stocks, bonds, and cash equivalents as shown in Table 13.10.</para>
+    <table summary="Some cells are left blank for visual design purposes." id="table-00004">
+    <title>Table 13.10 Portfolio Weightings and Historical Returns for Various Asset Categories</title>
+    <tgroup cols="4">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <thead>
+    <row>
+    <entry align="center">Asset Category</entry>
+    <entry align="center">Value ($)</entry>
+    <entry align="center">Portfolio Weighting </entry>
+    <entry align="center">Historical Return (%)</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">Stocks</entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>306</mn><mo>,</mo><mn>000</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>306</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>51</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml">13.0</entry>
+    </row>
+    <row>
+    <entry align="center">Bonds</entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>236</mn><mo>,</mo><mn>000</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>236</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>39</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml">4.0</entry>
+    </row>
+    <row>
+    <entry align="center">Cash</entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>58</mn><mo>,</mo><mn>200</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>58</mn><mo>,</mo><mn>200</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>10</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml">2.5</entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Total Value</emphasis></entry>
+    <entry align="right"><emphasis effect="bold"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo mathvariant="bold">$</mo><mn mathvariant="bold">600</mn><mo mathvariant="bold">,</mo><mn mathvariant="bold">200</mn></math></emphasis></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"> </entry>
+    <entry align="right"> </entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mpadded lspace="-1px"><mi>Expected</mi><mo> </mo><mi>Value</mi></mpadded><mo>=</mo><msub><mi>P</mi><mn>1</mn></msub><mo>∙</mo><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>P</mi><mn>2</mn></msub><mo>∙</mo><msub><mi>R</mi><mn>2</mn></msub><mo>+</mo><msub><mi>P</mi><mn>3</mn></msub><mo>∙</mo><msub><mi>R</mi><mn>3</mn></msub><mo>+</mo><mo>…</mo><mo>+</mo><msub><mi>P</mi><mi>n</mi></msub><mo>∙</mo><msub><mi>R</mi><mi>n</mi></msub></math></equation>
+    <equation id="eq-00005" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Expected</mi><mo> </mo><mi>Value</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>51</mn><mfenced><mrow><mn>0</mn><mo>.</mo><mn>130</mn></mrow></mfenced><mo>+</mo><mn>0</mn><mo>.</mo><mn>39</mn><mfenced><mrow><mn>0</mn><mo>.</mo><mn>040</mn></mrow></mfenced><mo>+</mo><mn>0</mn><mo>.</mo><mn>10</mn><mfenced><mrow><mn>0</mn><mo>.</mo><mn>025</mn></mrow></mfenced><mo>=</mo><mn>0</mn><mo>.</mo><mn>0844</mn></math></equation>
+    <para id="para-00014" xmlns="http://cnx.rice.edu/cnxml">Based on the probability distribution, the expected value of the rate of return for this portfolio over an extended period of time is 8.44%.</para>
+    </section>
+    <section id="sect-00004">
+    <title>Apply the Normal Distribution in Financial Contexts</title>
+    <para id="para-00015">The normal, or bell-shaped, distribution can be utilized in many applications, including financial contexts. Remember that the normal distribution has two parameters: the mean, which is the center of the distribution, and the standard deviation, which measures the spread of the distribution. Here are several examples of applications of the normal distribution:</para>
+    <list id="list-00002">
+    <item>IQ scores follow a normal distribution, with a mean IQ score of 100 and a standard deviation of 15.</item>
+    <item>Salaries at a certain company follow a normal distribution, with a mean salary of $52,000 and a standard deviation of $4,800.</item>
+    <item>Grade point averages (GPAs) at a certain college follow a normal distribution, with a mean GPA of 3.27 and a standard deviation of 0.24.</item>
+    <item>The average annual gain of the <term class="no-emphasis" id="term-00006">Dow Jones Industrial Average (DJIA)</term> over a 40-year time period follows a normal distribution, with a mean gain of 485 points and a standard deviation of 1,065 points.</item>
+    <item>The average annual return on the <term class="no-emphasis" id="term-00007">S&amp;P 500</term> over a 50-year time period follows a normal distribution, with a mean rate of return of 10.5% and a standard deviation of 14.3%.</item>
+    <item>The average annual return on mid-cap stock funds over the five-year period from 2010 to 2015 follows a normal distribution, with a mean rate of return of 8.9% and a standard deviation of 3.7%.</item>
+    </list>
+    <para id="para-00016">When analyzing data sets that follow a normal distribution, probabilities can be calculated by finding areas under the normal curve. To find the probability that a measurement is within a specific interval, we can compute the area under the normal curve corresponding to the interval of interest.</para>
+    <para id="para-00017">Areas under the normal curve are available in tables, and <term class="no-emphasis" id="term-00008">Excel</term> also provides a method to find these areas. The <term id="term-00009">empirical rule</term> is one method for determining areas under the normal curve that fall within a certain number of standard deviations of the mean (see Figure 13.4).</para>
+    <figure id="fig-00001">
+    <title>Figure 13.4 Normal Distribution Showing Mean and Increments of Standard Deviation</title>
+    <media alt="Graph of a normal distribution showing mean and increments of standard deviation. It is symmetrical about a vertical line drawn through the mean. The standard deviation up to three deviations are displayed on both sides of the mean."><image mime-type="image/png" src="../../media/FINAN_Figure_13_05_004.png"/></media>
+    </figure>
+    <para id="para-00018">If <emphasis effect="italics">x</emphasis> is a random variable and has a normal distribution with mean <emphasis effect="italics">µ</emphasis> and standard deviation <emphasis effect="italics"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>σ</mi></math></emphasis>, then the empirical rule states the following:</para>
+    <list id="list-00003" xmlns="http://cnx.rice.edu/cnxml">
+    <item>About 68% of the <emphasis effect="italics">x</emphasis>-values lie between <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>1</mn><mi>σ</mi></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>+</mo><mn>1</mn><mi>σ</mi></math> units from the mean <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>µ</mo></math>  (within one standard deviation of the mean).</item>
+    <item xmlns="http://cnx.rice.edu/cnxml">About 95% of the <emphasis effect="italics">x</emphasis>-values lie between <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>2</mn><mi>σ</mi></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>+</mo><mn>2</mn><mi>σ</mi></math> units from the mean <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>µ</mo></math> (within two standard deviations of the mean).</item>
+    <item xmlns="http://cnx.rice.edu/cnxml">About 99.7% of the <emphasis effect="italics">x</emphasis>-values lie between <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>3</mn><mi>σ</mi></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>+</mo><mn>3</mn><mi>σ</mi></math> units from the mean <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>µ</mo></math> (within three standard deviations of the mean). Notice that almost all the <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">x</emphasis>-values lie within three standard deviations of the mean.</item>
+    <item>The <emphasis effect="italics">z</emphasis>-scores for <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>+</mo><mn>1</mn><mi>σ</mi></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>1</mn><mi>σ</mi></math> are <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>+</mo><mn>1</mn></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>1</mn></math>, respectively.</item>
+    <item xmlns="http://cnx.rice.edu/cnxml">The <emphasis effect="italics">z</emphasis>-scores for <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>+</mo><mn>2</mn><mi>σ</mi></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>2</mn><mi>σ</mi></math> are <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>+</mo><mn>2</mn></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>2</mn></math>, respectively.</item>
+    <item xmlns="http://cnx.rice.edu/cnxml">The <emphasis effect="italics">z</emphasis>-scores for <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>+</mo><mn>3</mn><mi>σ</mi></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>3</mn><mi>σ</mi></math> are <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>+</mo><mn>3</mn></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>3</mn></math>, respectively.</item>
+    </list>
+    <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">As an example of using the empirical rule, suppose we know that the average annual return for mid-cap stock funds over the five-year period from 2010 to 2015 follows a normal distribution, with a mean rate of return of 8.9% and a standard deviation of 3.7%. We are interested in knowing the likelihood that a randomly selected mid-cap stock fund provides a rate of return that falls within one standard deviation of the mean, which implies a rate of return between 5.2% and 12.6%. Using the empirical rule, the area under the normal curve within one standard deviation of the mean is 68%. Thus, there is a probability, or likelihood, of 0.68 that a mid-cap stock fund will provide a rate of return between 5.2% and 12.6%.</para>
+    <para id="para-00020">If the interval of interest is extended to two standard deviations from the mean (a rate of return between 1.5% and 16.3%), using the empirical rule, we can determine that the area under the normal curve within two standard deviations of the mean is 95%. Thus, there is a probability, or likelihood, of 0.95 that a mid-cap stock fund will provide a rate of return between 1.5% and 16.3%.</para>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00021">A probability distribution is a mathematical function that assigns probabilities to various outcomes. In many financial situations, we are interested in determining the expected value of the return on a particular investment or the expected return on a portfolio of multiple investments. When analyzing distributions that follow a normal distribution, probabilities can be calculated by finding the area under the graph of the normal curve.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00022"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_MCQ10"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_MCQ11"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00007">
+    <title/>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00024"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_PRQ1"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00025"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_PRQ2"/></para></problem></exercise>
+    </section>
+    <section class="video-activity" id="sect-00008">
+    <title/>
+    <section id="sect-00009">
+    <title>Portfolio Weights</title>
+    <media alt="port-weights"><iframe width="660" height="371.4" src="https://openstax.org/r/port-weights"/></media>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_VA1Q1"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_VA1Q2"/></para></problem></exercise>
+    </section>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>empirical rule</term> <meaning>a rule that provides the percentages of data values falling within one, two, and three standard deviations from the mean for a bell-shaped (normal) distribution</meaning></definition>
+    <definition id="def-00002"><term>expected value</term> <meaning>a weighted average of the values of a variable where the weights are the associated probabilities</meaning></definition>
+    <definition id="def-00003"><term>portfolio</term> <meaning>a collection of financial investments, such as stocks, bonds, mutual funds, certificates of deposit, etc.</meaning></definition>
+    <definition id="def-00004"><term>probability distribution</term> <meaning>a mathematical function that assigns probabilities to various outcomes</meaning></definition>
+    </glossary>
+    </document>
