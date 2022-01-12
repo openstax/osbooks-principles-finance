@@ -356,8 +356,8 @@
       <para id="para-00031" xmlns="http://cnx.rice.edu/cnxml">A hypothesis test can be performed to test if the correlation is significant. A hypothesis test is a statistical method that uses sample data to test a claim regarding the value of a population parameter. In this case, the hypothesis test will be used to test the claim that the population correlation coefficient <emphasis effect="italics">ρ</emphasis> is equal to zero.</para>
       <para id="para-00032">Use these hypotheses when performing the hypothesis test:</para>
       <list id="list-00008">
-      <item>Null hypothesis: <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>H</mi><mn>0</mn></msub><mo>:</mo><mi>ρ</mi><mo>=</mo><mn>0</mn></math></item>
-      <item xmlns="http://cnx.rice.edu/cnxml">Alternate hypothesis: <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>H</mi><mi>a</mi></msub><mo>:</mo><mi>ρ</mi><mo>≠</mo><mn>0</mn></math></item>
+      <item>Null hypothesis: <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>H</mi><mn>0</mn></msub><mtext>:</mtext><mo> </mo><mi>ρ</mi><mo>=</mo><mn>0</mn></math></item>
+      <item xmlns="http://cnx.rice.edu/cnxml">Alternate hypothesis: <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>H</mi><mi>a</mi></msub><mtext>:</mtext><mo> </mo><mi>ρ</mi><mo>≠</mo><mn>0</mn></math></item>
       </list>
       <para id="para-00033" xmlns="http://cnx.rice.edu/cnxml">The hypotheses can be stated in words as follows:</para>
       <list id="list-00009">
