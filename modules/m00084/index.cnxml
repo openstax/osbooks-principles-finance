@@ -28,23 +28,28 @@
     <code class="r" display="block">
     Type 'demo()' for some demos, 'help()' for on-line help, or
     'help.start()' for an HTML browser interface to help.
+
     Type 'q()' to quit R.
-    <span class="red-code">></span>
+
+    <span class="red-code">></span> 
     </code>
     <para id="para-00009">R is a command-driven language, meaning that the user enters commands at the prompt, which R then executes one at a time. R can also execute a program containing multiple commands. There are ways to add a <term class="no-emphasis" id="term-00002">graphic user interface (GUI)</term> to R. An example of a GUI tool for R is <link url="https://openstax.org/r/RStudio">RStudio</link>.</para>
     <para id="para-00010">The R command line can be used to perform any numeric calculation, similar to a handheld calculator. For example, to evaluate the expression <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>10</mn><mo>+</mo><mn>3</mn><mo>∙</mo><mn>7</mn><mo>,</mo></math> enter the following expression at the command line prompt and hit return:</para>
     <code class="r" display="block" xmlns="http://cnx.rice.edu/cnxml">
     <span class="red-code">> 10+3*7</span>
-    [1] 31
+
+    [1] 31    
     </code>
     <para id="para-00011">Most calculations in R are handled via functions. For statistical analysis, there are many preestablished functions in R to calculate mean, median, standard deviation, quartiles, and so on. Variables can be named and assigned values using the assignment operator &lt;-. For example, the following R commands assign the value of 20 to the variable named <emphasis effect="italics">x</emphasis> and assign the value of 30 to the variable named <emphasis effect="italics">y</emphasis>:</para>
     <code class="r" display="block">
     <span class="red-code">> x &lt;- 20</span>
+
     <span class="red-code">> y &lt;- 30</span>
     </code>
     <para id="para-00012">These variable names can be used in any calculation, such as multiplying <emphasis effect="italics">x</emphasis> by <emphasis effect="italics">y</emphasis> to produce the result 600:</para>
     <code class="r" display="block">
     <span class="red-code">> x*y</span>
+
     [1] 600
     </code>
     <para id="para-00013">The typical method for using functions in statistical applications is to first create a vector of data values. There are several ways to create vectors in R. For example, the <emphasis effect="italics">c</emphasis> function is often used to combine values into a vector. The following R command will generate a vector called <emphasis effect="italics">salaries</emphasis> that contains the data values 40,000, 50,000, 75,000, and 92,000:</para>
@@ -54,13 +59,20 @@
     <para id="para-00014">This vector <emphasis effect="italics">salaries</emphasis> can then be used in statistical functions such as mean, median, min, max, and so on, as shown:</para>
     <code class="r" display="block">
     <span class="red-code">> mean(salaries)</span>
+
     [1] 64250
+      
     <span class="red-code">> median(salaries)</span>
+      
     [1] 62500
+      
     <span class="red-code">> min(salaries)</span>
+      
     [1] 40000
+      
     <span class="red-code">> max(salaries)</span>
-    [1] 92000
+      
+    [1] 92000      
     </code>
     <para id="para-00015">Another option for generating a vector in R is to use the <emphasis effect="italics">seq</emphasis> function, which will automatically generate a sequence of numbers. For example, we can generate a sequence of numbers from 1 to 5, incremented by 0.5, and call this vector <emphasis effect="italics">example1</emphasis>, as follows:</para>
     <code class="r" display="block">
@@ -69,21 +81,30 @@
     <para id="para-00016">If we then type the name of the vector and hit enter, R will provide a listing of numeric values for that vector name.</para>
     <code class="r" display="block">
     <span class="red-code">> salaries</span>
+
     [1] 40000 50000 75000 92000
+      
     <span class="red-code">> example1</span>
+      
     [1] 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0
     </code>
     <para id="para-00017">Often, we are interested in generating a quick statistical summary of a data set in the form of its mean, median, quartiles, min, and max. The R command called <emphasis effect="italics">summary</emphasis> provides these results.</para>
     <code class="r" display="block">
     <span class="red-code">> summary(salaries)</span>
-    Min.  1st Qu.  Median    Mean 3rd Qu.    Max.
-    40000   47500   62500   64250   79250   92000
+
+      Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   
+     40000   47500   62500   64250   79250   92000   
     </code>
     <para id="para-00018">For measures of spread, R includes a command for standard deviation, called <emphasis effect="italics">sd</emphasis>, and a command for variance, called <emphasis effect="italics">var</emphasis>. The standard deviation and variance are calculated with the assumption that the data set was collected from a sample.</para>
     <code class="r" display="block">
+
     <span class="red-code">> sd(salaries)</span>
+
     [1] 23641.42
+      
     <span class="red-code">> var(salaries)</span>
+      
     [1] 558916667
     </code>
     <para id="para-00019">To calculate a weighted mean in R, create two vectors, one of which contains the data values and the other of which contains the associated weights. Then enter the R command <emphasis effect="italics">weighted.mean(values, weights)</emphasis>.</para>
@@ -128,8 +149,11 @@
     <para id="para-00021">Here is how you would create two vectors in R: the <emphasis effect="italics">price</emphasis> vector will contain the purchase price, and the <emphasis effect="italics">shares</emphasis> vector will contain the number of shares. Then execute the R command <emphasis effect="italics">weighted.mean(price, shares)</emphasis>, as follows:</para>
     <code class="r" display="block">
     <span class="red-code">> price &lt;- c(78, 122, 131)</span>
+
     <span class="red-code">> shares &lt;- c(200, 300, 500)</span>
+      
     <span class="red-code">> weighted.mean(price, shares)</span>
+      
     [1] 117.7
     </code>
     <para id="para-00022">A list of common R statistical commands appears in <link target-id="table-00002" document="m00084"/>.</para>
