@@ -106,7 +106,7 @@
     <title>Time Series Graphs</title>
     <para id="para-00021">Suppose that we want to track the <term class="no-emphasis" id="term-00007">consumer price index (CPI)</term> over the past 10 years. One feature of the data that we may want to consider is the element of time. Because each year is paired with the CPI value for that year, we do not have to think of the data as being random. We can instead use the years given to impose a chronological order on the data. A graph that recognizes this ordering and displays the changing CPI value as the decade progresses is called a time series graph.</para>
     <para id="para-00022">To construct a <term id="term-00008">time series graph</term>, we must look at both pieces of our paired data set. We start with a standard Cartesian coordinate system. The horizontal axis is used to plot the time increments, and the vertical axis is used to plot the values of the variable that we are measuring. By doing this, we make each point on the graph correspond to a point in time and a measured quantity. The points on the graph are typically connected by straight lines in the order in which they occur.</para>
-    <para id="para-00023">Example: The following data set shows the annual CPI for 10 years. We need to construct a time series graph for the (rounded) annual CPI data (see <link target-id="table-00002" document="m00083"/>). The time series graph is shown in <link target-id="fig-00003" document="m00083"/>.</para>
+    <para id="para-00023"><emphasis effect="bold">Example:</emphasis> The following data set shows the annual CPI for 10 years. We need to construct a time series graph for the (rounded) annual CPI data (see <link target-id="table-00002" document="m00083"/>). The time series graph is shown in <link target-id="fig-00003" document="m00083"/>.</para>
     <table summary=" " id="table-00002">
     <title>Data for Time Series Graph of Annual <term class="no-emphasis" id="term-00009">CPI,</term> 2012–2021</title>
     <tgroup cols="2">
@@ -161,6 +161,7 @@
     </row>
     </tbody>
     </tgroup>
+    <caption>(source: US Bureau of Labor Statistics)</caption>
     </table>
     <figure id="fig-00003">
     <title>Time Series Graph of Annual CPI, 2012–2021</title>
@@ -252,6 +253,7 @@
     </row>
     </tbody>
     </tgroup>
+    <caption>(data source: https://finance.yahoo.com/)</caption>
     </table>
     <figure id="fig-00004">
     <title>Scatter Plot of Nike Stock Price versus S&amp;P 500</title>
