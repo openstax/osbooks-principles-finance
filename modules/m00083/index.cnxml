@@ -32,9 +32,9 @@
     <section id="sect-00003">
     <title>Bar Graphs</title>
     <para id="para-00007">A <term id="term-00002">bar graph</term> consists of bars that are separated from each other and compare percentages. The bars can be rectangles, or they can be rectangular boxes (used in three-dimensional plots), and they can be vertical or horizontal. The bar graph shown in the example below has age groups represented on the <term id="term-00003"><emphasis effect="italics">x</emphasis>-axis</term> and proportions on the <term id="term-00004"><emphasis effect="italics">y</emphasis>-axis</term>.</para>
-    <para id="para-00008">By the end of 2021, a certain social media site had over 146 million users in the United States. Table 13.11 shows three age groups, the number of users in each age group, and the proportion (%) of users in each age group. A bar graph using this data is shown in Figure 13.5.</para>
+    <para id="para-00008">By the end of 2021, a certain social media site had over 146 million users in the United States. <link target-id="table-00001" document="m00083"/> shows three age groups, the number of users in each age group, and the proportion (%) of users in each age group. A bar graph using this data is shown in <link target-id="fig-00001" document="m00083"/>.</para>
     <table summary=" " id="table-00001">
-    <title>Table 13.11 Data for Bar Graph of Age Groups</title>
+    <title>Data for Bar Graph of Age Groups</title>
     <tgroup cols="3">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -66,7 +66,7 @@
     </tgroup>
     </table>
     <figure id="fig-00001">
-    <title>Figure 13.5 Bar Graph of Age Groups</title>
+    <title>Bar Graph of Age Groups</title>
     <media alt="A bar graph for age groups showing the proportion of the population. About 45% of the population are in age group 13-25. About 35% of the population are in age group 26-44 About 20% of the population are in age group 45-64."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_005.png"/></media>
     </figure>
     </section>
@@ -92,9 +92,9 @@
     <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>74</mn><mo>.</mo><mn>05</mn><mo>-</mo><mn>59</mn><mo>.</mo><mn>95</mn></mrow><mn>8</mn></mfrac><mo>=</mo><mn>1</mn><mo>.</mo><mn>76</mn></math></equation>
     <para id="para-00018" xmlns="http://cnx.rice.edu/cnxml">We will round up to 2 and make each bar or class interval 2 units wide. Rounding up to 2 is one way to prevent a value from falling on a boundary. Rounding to the next number is often necessary, even if it goes against the standard rules of rounding. For this example, using 1.76 as the width would also work. A guideline that is followed by some for the width of a bar or class interval is to take the square root of the number of data values and then round to the nearest whole number if necessary. For example, if there are 150 data values, take the square root of 150 and round to 12 bars or intervals. The boundaries are as follows:</para>
     <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>59</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>59</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>61</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>61</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>63</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>63</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>65</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>65</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>67</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>67</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>69</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>69</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>71</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>71</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>73</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>73</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>75</mn><mo>.</mo><mn>95</mn></math></equation>
-    <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">The data values 60 through 61.5 are in the interval 59.95–61.95. The data values of 63.5 are in the interval 61.95–63.95. The data values of 64 and 64.5 are in the interval 63.95–65.95. The data values 66 through 67.5 are in the interval 65.95–67.95. The data values 68 through 69.5 are in the interval 67.95–69.95. The data values 70 through 71 are in the interval 69.95–71.95. The data values 72 through 73.5 are in the interval 71.95–73.95. The data value 74 is in the interval 73.95–75.95. The histogram shown in Figure 13.6 displays the portfolio values on the <emphasis effect="italics">x</emphasis>-axis and relative frequency on the <emphasis effect="italics">y</emphasis>-axis.</para>
+    <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">The data values 60 through 61.5 are in the interval 59.95–61.95. The data values of 63.5 are in the interval 61.95–63.95. The data values of 64 and 64.5 are in the interval 63.95–65.95. The data values 66 through 67.5 are in the interval 65.95–67.95. The data values 68 through 69.5 are in the interval 67.95–69.95. The data values 70 through 71 are in the interval 69.95–71.95. The data values 72 through 73.5 are in the interval 71.95–73.95. The data value 74 is in the interval 73.95–75.95. The histogram shown in <link target-id="fig-00002" document="m00083"/> displays the portfolio values on the <emphasis effect="italics">x</emphasis>-axis and relative frequency on the <emphasis effect="italics">y</emphasis>-axis.</para>
     <figure id="fig-00002">
-    <title>Figure 13.6 Histogram of Portfolio Values</title>
+    <title>Histogram of Portfolio Values</title>
     <media alt="A histogram showing relative frequency of portfolio values. The data shows the relative frequency of portfolio values ranging from 59.95 to 75.95. The highest portfolio values of 65.95 to 69.95 have a relative frequency of 0.40, while the other portfolios ranging from 0.01 to 0.17 respectively."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_006.png"/></media>
     </figure>
     </section>
@@ -106,9 +106,9 @@
     <title>Time Series Graphs</title>
     <para id="para-00021">Suppose that we want to track the <term class="no-emphasis" id="term-00007">consumer price index (CPI)</term> over the past 10 years. One feature of the data that we may want to consider is the element of time. Because each year is paired with the CPI value for that year, we do not have to think of the data as being random. We can instead use the years given to impose a chronological order on the data. A graph that recognizes this ordering and displays the changing CPI value as the decade progresses is called a time series graph.</para>
     <para id="para-00022">To construct a <term id="term-00008">time series graph</term>, we must look at both pieces of our paired data set. We start with a standard Cartesian coordinate system. The horizontal axis is used to plot the time increments, and the vertical axis is used to plot the values of the variable that we are measuring. By doing this, we make each point on the graph correspond to a point in time and a measured quantity. The points on the graph are typically connected by straight lines in the order in which they occur.</para>
-    <para id="para-00023">Example: The following data set shows the annual CPI for 10 years. We need to construct a time series graph for the (rounded) annual CPI data (see Table 13.12). The time series graph is shown in Figure 13.7.</para>
+    <para id="para-00023">Example: The following data set shows the annual CPI for 10 years. We need to construct a time series graph for the (rounded) annual CPI data (see <link target-id="table-00002" document="m00083"/>). The time series graph is shown in <link target-id="fig-00003" document="m00083"/>.</para>
     <table summary=" " id="table-00002">
-    <title>Table 13.12 Data for Time Series Graph of Annual <term class="no-emphasis" id="term-00009">CPI,</term> 2012–2021</title>
+    <title>Data for Time Series Graph of Annual <term class="no-emphasis" id="term-00009">CPI,</term> 2012–2021</title>
     <tgroup cols="2">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -163,16 +163,16 @@
     </tgroup>
     </table>
     <figure id="fig-00003">
-    <title>Figure 13.7 Time Series Graph of Annual CPI, 2012–2021</title>
+    <title>Time Series Graph of Annual CPI, 2012–2021</title>
     <media alt="A time-series graph for the annual CPI index from 2012 to 2021. The graph shows the CPI rising consistently from about 228 in 2012 to over 260 in 2021."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_007.png"/></media>
     </figure>
     </section>
     <section id="sect-00007">
     <title>Scatter Plots</title>
     <para id="para-00024">A <term id="term-00010">scatter plot</term>, or scatter diagram, is a graphical display intended to show the relationship between two variables. The setup of the scatter plot is that one variable is plotted on the horizontal axis and the other variable is plotted on the vertical axis. Then each pair of data values is considered as an (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) point, and the various points are plotted on the diagram. A visual inspection of the plot is then made to detect any patterns or trends. Additional statistical analysis can be conducted to determine if there is a correlation or other statistically significant relationship between the two variables.</para>
-    <para id="para-00025">Assume we are interested in tracking the closing price of <term class="no-emphasis" id="term-00011">Nike</term> stock over the one-year time period from April 2020 to March 2021. We would also like to know if there is a correlation or relationship between the price of Nike stock and the value of the S&amp;P 500 over the same time period. To visualize this relationship, we can create a scatter plot based on the (<emphasis effect="italics">x</emphasis>,<emphasis effect="italics"> y</emphasis>) data shown in Table 13.13.<emphasis effect="italics"/> The resulting scatter plot is shown in Figure 13.8.</para>
+    <para id="para-00025">Assume we are interested in tracking the closing price of <term class="no-emphasis" id="term-00011">Nike</term> stock over the one-year time period from April 2020 to March 2021. We would also like to know if there is a correlation or relationship between the price of Nike stock and the value of the S&amp;P 500 over the same time period. To visualize this relationship, we can create a scatter plot based on the (<emphasis effect="italics">x</emphasis>,<emphasis effect="italics"> y</emphasis>) data shown in <link target-id="table-00003" document="m00083"/>.<emphasis effect="italics"/> The resulting scatter plot is shown in <link target-id="fig-00004" document="m00083"/>.</para>
     <table summary=" " id="table-00003">
-    <title>Table 13.13 Data for S&amp;P 500 and Nike Stock Price over a 12-Month Period</title>
+    <title>Data for S&amp;P 500 and Nike Stock Price over a 12-Month Period</title>
     <tgroup cols="2">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -254,7 +254,7 @@
     </tgroup>
     </table>
     <figure id="fig-00004">
-    <title>Figure 13.8 Scatter Plot of Nike Stock Price versus S&amp;P 500</title>
+    <title>Scatter Plot of Nike Stock Price versus S&amp;P 500</title>
     <media alt="A scatter diagram for Nike stock against S&amp;P 500. The diagram shows that the Nike stock price rises from about 85 to 140 as the S&amp;P 500 rises from 2900 to 4000. The data points generally align along an upwardly sloping line."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_008.png"/></media>
     </figure>
     <para id="para-00026">Note the linear pattern of the points on the scatter plot. Because the data points generally align along a straight line, this provides an indication of a linear correlation between the price of Nike stock and the value of the <term class="no-emphasis" id="term-00012">S&amp;P 500</term> over this one-year time period.</para>
@@ -263,10 +263,10 @@
     <item>Enter the <emphasis effect="italics">x</emphasis>-data in column A of a spreadsheet.</item>
     <item>Enter the <emphasis effect="italics">y</emphasis>-data in column B.</item>
     <item>Highlight the data with your mouse.</item>
-    <item>Go to the Insert menu and select the icon for a scatter plot, as shown in Figure 13.9.</item>
+    <item>Go to the Insert menu and select the icon for a scatter plot, as shown in <link target-id="fig-00005" document="m00083"/>.</item>
     </list>
     <figure id="fig-00005">
-    <title>Figure 13.9 Excel Menu Showing the Scatter Plot Icon</title>
+    <title>Excel Menu Showing the Scatter Plot Icon</title>
     <media alt="Screenshot of Excel menu highlighting the Insert menu and the Scatter Plot icon in the Charts area."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_009.png"/></media>
     </figure>
     </section>

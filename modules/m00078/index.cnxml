@@ -23,9 +23,9 @@
     <para id="para-00006">The notation <math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>x</mi><mo>¯</mo></mover></math> is used to indicate the sample mean, where the arithmetic mean is calculated based on data taken from a sample. The notation <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∑</mo><mi>x</mi></math>  is used to denote the sum of the data values, and <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math> is used to indicate the number of data values in the sample, also known as the sample size.</para>
     <para id="para-00007" xmlns="http://cnx.rice.edu/cnxml">The sample mean can be calculated using the following formula:</para>
     <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>x</mi><mo>¯</mo></mover><mo>=</mo><mfrac><mrow><mo>∑</mo><mi>x</mi></mrow><mi>n</mi></mfrac></math></equation>
-    <para id="para-00008" xmlns="http://cnx.rice.edu/cnxml">Finance professionals often rely on averages of Treasury bill auction amounts to determine their value. Table 13.1 lists the Treasury bill auction amounts for a sample of auctions from December 2020.</para>
+    <para id="para-00008" xmlns="http://cnx.rice.edu/cnxml">Finance professionals often rely on averages of Treasury bill auction amounts to determine their value. <link target-id="table-00001" document="m00078"/> lists the Treasury bill auction amounts for a sample of auctions from December 2020.</para>
     <table summary=" " id="table-00001">
-    <title>Table 13.1 United States Treasury Bill Auctions, December 22 and 24, 2020</title>
+    <title>United States Treasury Bill Auctions, December 22 and 24, 2020</title>
     <tgroup cols="2">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -71,10 +71,10 @@
     <title>Median</title>
     <para id="para-00010">To determine the <term id="term-00004">median</term> of a data set, order the data from smallest to largest, and then find the middle value in the ordered data set. For example, to find the median value of 50 portfolios, find the number that splits the data into two equal parts. The portfolio values owned by 25 people will be below the median, and 25 people will have portfolio values above the median. The median is generally a better measure of the average when there are <term id="term-00005">extreme values</term> or <term id="term-00006">outliers</term> in the data set.</para>
     <para id="para-00011">An outlier or extreme value is a data value that is significantly different from the other data values in a data set. The median is preferred when outliers are present because the median is not affected by the numerical values of the outliers.</para>
-    <para id="para-00012">The ordered data set from Table 13.1 appears as follows:</para>
+    <para id="para-00012">The ordered data set from <link target-id="table-00001" document="m00078"/> appears as follows:</para>
     <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>32</mn><mo>.</mo><mn>9</mn><mo>,</mo><mo> </mo><mn>38</mn><mo>.</mo><mn>4</mn><mo>,</mo><mo> </mo><mn>39</mn><mo>.</mo><mn>7</mn><mo>,</mo><mo> </mo><mn>59</mn><mo>.</mo><mn>6</mn><mo>,</mo><mo> </mo><mn>63</mn><mo>.</mo><mn>1</mn></math></equation>
     <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">The middle value in this ordered data set is the third data value, which is 39.7. Thus, the median is $39.7 billion.</para>
-    <para id="para-00014">You can quickly find the location of the median by using the expression <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>. The variable <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">n</emphasis> represents the total number of data values in the sample. If <emphasis effect="italics">n</emphasis> is an odd number, the median is the middle value of the data values when ordered from smallest to largest. If <emphasis effect="italics">n</emphasis> is an even number, the median is equal to the two middle values of the ordered data values added together and divided by 2. In the example from Table 13.1, there are five data values, so <emphasis effect="italics">n</emphasis> = 5. To identify the position of the median, calculate <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>, which is <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>5</mn><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>  or 3. This indicates that the median is located in the third data position, which corresponds to the value 39.7.</para>
+    <para id="para-00014">You can quickly find the location of the median by using the expression <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>. The variable <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">n</emphasis> represents the total number of data values in the sample. If <emphasis effect="italics">n</emphasis> is an odd number, the median is the middle value of the data values when ordered from smallest to largest. If <emphasis effect="italics">n</emphasis> is an even number, the median is equal to the two middle values of the ordered data values added together and divided by 2. In the example from <link target-id="table-00001" document="m00078"/>, there are five data values, so <emphasis effect="italics">n</emphasis> = 5. To identify the position of the median, calculate <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>, which is <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>5</mn><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>  or 3. This indicates that the median is located in the third data position, which corresponds to the value 39.7.</para>
     <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">As mentioned earlier, when outliers are present in a data set, the mean can be nonrepresentative of the center of the data set, and the median will provide a better measure of center. The following Think It Through example illustrates this point.</para>
     <note class="think-through" id="note-00001">
     <title>Finding the Measure of Center</title>
@@ -120,9 +120,9 @@
     <title>Calculating the Weighted Mean</title>
     <exercise class="unnumbered" id="exer-00002">
     <problem id="prob-00002">
-    <para id="para-00031">Assume your portfolio contains 1,000 shares of XYZ Corporation, purchased on three different dates, as shown in Table 13.2. Calculate the weighted mean of the purchase price for the 1,000 shares.</para>
+    <para id="para-00031">Assume your portfolio contains 1,000 shares of XYZ Corporation, purchased on three different dates, as shown in <link target-id="table-00002" document="m00078"/>. Calculate the weighted mean of the purchase price for the 1,000 shares.</para>
     <table summary=" " id="table-00002">
-    <title>Table 13.2 1,000 Shares of XYZ Corporation</title>
+    <title>1,000 Shares of XYZ Corporation</title>
     <tgroup cols="4">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>

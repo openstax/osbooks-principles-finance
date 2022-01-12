@@ -17,9 +17,9 @@
     <section id="sect-00002">
     <title>Calculate Portfolio Weights</title>
     <para id="para-00002">In many financial analyses, the <emphasis effect="bold">weightings</emphasis> by asset category in a <term id="term-00001">portfolio</term> are a key index used to assess if the portfolio is meeting allocation metrics. For example, an investor approaching retirement age may wish to shift assets in a portfolio to more conservative and <term class="no-emphasis" id="term-00002">lower-volatility investments</term>. Weightings can be calculated in several different ways—for example, based on individual stocks in a portfolio or on various sectors in a portfolio. Weightings can also be calculated based on number of shares or the value of shares of a stock.</para>
-    <para id="para-00003">To calculate a weighting in a portfolio based on value, take the value of the particular investment and divide it by the total value of the overall portfolio. As an example, consider an individual’s retirement account for which the desired portfolio weighting is determined to be 40% stocks, 50% bonds, and 10% cash equivalents. Table 13.7 shows the current assets in the individual’s portfolio, broken out according to stocks, bonds, and cash equivalents.</para>
+    <para id="para-00003">To calculate a weighting in a portfolio based on value, take the value of the particular investment and divide it by the total value of the overall portfolio. As an example, consider an individual’s retirement account for which the desired portfolio weighting is determined to be 40% stocks, 50% bonds, and 10% cash equivalents. <link target-id="table-00001" document="m00082"/> shows the current assets in the individual’s portfolio, broken out according to stocks, bonds, and cash equivalents.</para>
     <table summary=" " id="table-00001">
-    <title>Table 13.7 Portfolio Assets in Stocks, Bonds, and Cash Equivalents</title>
+    <title>Portfolio Assets in Stocks, Bonds, and Cash Equivalents</title>
     <tgroup cols="2">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -65,9 +65,9 @@
     </tbody>
     </tgroup>
     </table>
-    <para id="para-00004">To determine the weighting in this portfolio for stocks, bonds, and cash, take the total value for each category and divide it by the total value of the entire portfolio. These results are summarized in Table 13.8. Notice that the portfolio weightings shown in the table do not match the target, or desired, allocation weightings of 40% stocks, 50% bonds, and 10% cash equivalents.</para>
+    <para id="para-00004">To determine the weighting in this portfolio for stocks, bonds, and cash, take the total value for each category and divide it by the total value of the entire portfolio. These results are summarized in <link target-id="table-00002" document="m00082"/>. Notice that the portfolio weightings shown in the table do not match the target, or desired, allocation weightings of 40% stocks, 50% bonds, and 10% cash equivalents.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00002">
-    <title>Table 13.8 Portfolio Weightings for Stocks, Bonds, and Cash Equivalents</title>
+    <title>Portfolio Weightings for Stocks, Bonds, and Cash Equivalents</title>
     <tgroup cols="2">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -111,13 +111,13 @@
     <para id="para-00007">In many financial situations, we are interested in determining the expected value of the return on a particular investment or the expected return on a portfolio of multiple investments. To calculate expected returns, we formulate a probability distribution and then use the following formula to calculate expected value:</para>
     <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mpadded lspace="-1px"><mi>Expected</mi><mo> </mo><mi>Value</mi></mpadded><mo>=</mo><msub><mi>P</mi><mn>1</mn></msub><mo>∙</mo><mo> </mo><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>P</mi><mn>2</mn></msub><mo>∙</mo><mo> </mo><msub><mi>R</mi><mn>2</mn></msub><mo>+</mo><msub><mi>P</mi><mn>3</mn></msub><mo>∙</mo><mo> </mo><msub><mi>R</mi><mn>3</mn></msub><mo>+</mo><mo>…</mo><mo>+</mo><msub><mi>P</mi><mi>n</mi></msub><mo>∙</mo><mo> </mo><msub><mi>R</mi><mi>n</mi></msub></math></equation>
     <para id="para-00008" xmlns="http://cnx.rice.edu/cnxml">where <emphasis effect="italics">P</emphasis><sub>1</sub>, <emphasis effect="italics">P</emphasis><sub>2</sub>, <emphasis effect="italics">P</emphasis><sub>3</sub>, ⋯ <emphasis effect="italics">P<sub>n</sub></emphasis> are the probabilities of the various returns and <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub>, <emphasis effect="italics">R</emphasis><sub>3</sub>, ⋯ <emphasis effect="italics">R<sub>n</sub></emphasis> are the various rates of return.</para>
-    <para id="para-00009">In essence, expected value is a weighted mean where the probabilities form the weights. Typically, these values for <emphasis effect="italics">P<sub>n</sub></emphasis> and <emphasis effect="italics">R<sub>n</sub></emphasis> are derived from historical data. As an example, consider a probability distribution for potential returns for <term class="no-emphasis" id="term-00005">United Airlines</term> common stock. Assume that from historical data gathered over a certain time period, there is a 15% probability of generating a 12% return on investment for this stock, a 35% probability of generating a 5% return, a 25% probability of generating a 2% return, a 14% probability of generating a 5% loss, and an 11% probability of resulting in a 5% loss. This data can be organized into a probability distribution table as seen in Table 13.9.</para>
+    <para id="para-00009">In essence, expected value is a weighted mean where the probabilities form the weights. Typically, these values for <emphasis effect="italics">P<sub>n</sub></emphasis> and <emphasis effect="italics">R<sub>n</sub></emphasis> are derived from historical data. As an example, consider a probability distribution for potential returns for <term class="no-emphasis" id="term-00005">United Airlines</term> common stock. Assume that from historical data gathered over a certain time period, there is a 15% probability of generating a 12% return on investment for this stock, a 35% probability of generating a 5% return, a 25% probability of generating a 2% return, a 14% probability of generating a 5% loss, and an 11% probability of resulting in a 5% loss. This data can be organized into a probability distribution table as seen in <link target-id="table-00003" document="m00082"/>.</para>
     <para id="para-00010">Using the expected value formula, the expected return of United Airlines stock over an extended period of time can be calculated as follows:</para>
     <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>E</mi><mi>x</mi><mi>p</mi><mi>e</mi><mi>c</mi><mi>t</mi><mi>e</mi><mi>d</mi><mo> </mo><mi>V</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mo>=</mo><msub><mi>P</mi><mn>1</mn></msub><mo>∙</mo><msub><mi>R</mi><mn>1</mn></msub><mo>+</mo><msub><mi>P</mi><mn>2</mn></msub><mo>∙</mo><msub><mi>R</mi><mn>2</mn></msub><mo>+</mo><msub><mi>P</mi><mn>3</mn></msub><mo>∙</mo><msub><mi>R</mi><mn>3</mn></msub><mo>+</mo><mo>…</mo><mo>+</mo><msub><mi>P</mi><mi>n</mi></msub><mo>∙</mo><msub><mi>R</mi><mi>n</mi></msub></math></equation>
     <equation id="eq-00003" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Expected</mi><mo> </mo><mi>Value</mi><mo>=</mo><mn>0</mn><mo>.</mo><mn>15</mn><mfenced><mrow><mn>0</mn><mo>.</mo><mn>12</mn></mrow></mfenced><mo>+</mo><mn>0</mn><mo>.</mo><mn>35</mn><mfenced><mrow><mn>0</mn><mo>.</mo><mn>05</mn></mrow></mfenced><mo>+</mo><mn>0</mn><mo>.</mo><mn>25</mn><mfenced><mrow><mn>0</mn><mo>.</mo><mn>02</mn></mrow></mfenced><mo>+</mo><mn>0</mn><mo>.</mo><mn>14</mn><mfenced><mrow><mo>-</mo><mn>0</mn><mo>.</mo><mn>05</mn></mrow></mfenced><mo>+</mo><mn>0</mn><mo>.</mo><mn>11</mn><mfenced><mrow><mo>-</mo><mn>0</mn><mo>.</mo><mn>10</mn></mrow></mfenced><mo>=</mo><mn>0</mn><mo>.</mo><mn>0225</mn></math></equation>
     <para id="para-00011" xmlns="http://cnx.rice.edu/cnxml">Based on the probability distribution, the expected value of the rate of return for United Airlines common stock over an extended period of time is 2.25%.</para>
     <table summary=" " id="table-00003">
-    <title>Table 13.9 Probability Distribution for Historical Returns on United Airlines Stock</title>
+    <title>Probability Distribution for Historical Returns on United Airlines Stock</title>
     <tgroup cols="2">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -152,9 +152,9 @@
     </tgroup>
     </table>
     <para id="para-00012">We can extend this analysis to evaluate the expected return for an investment portfolio consisting of various asset categories, such as stocks, bonds, and cash equivalents, where the probabilities are associated with the weighting of each category relative to the total value of the portfolio. Using historical return data for each of the asset categories, the expected return of the overall portfolio can be calculated using the expected value formula.</para>
-    <para id="para-00013">Assume an investor has assets in stocks, bonds, and cash equivalents as shown in Table 13.10.</para>
+    <para id="para-00013">Assume an investor has assets in stocks, bonds, and cash equivalents as shown in <link target-id="table-00004" document="m00082"/>.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00004">
-    <title>Table 13.10 Portfolio Weightings and Historical Returns for Various Asset Categories</title>
+    <title>Portfolio Weightings and Historical Returns for Various Asset Categories</title>
     <tgroup cols="4">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -212,9 +212,9 @@
     <item>The average annual return on mid-cap stock funds over the five-year period from 2010 to 2015 follows a normal distribution, with a mean rate of return of 8.9% and a standard deviation of 3.7%.</item>
     </list>
     <para id="para-00016">When analyzing data sets that follow a normal distribution, probabilities can be calculated by finding areas under the normal curve. To find the probability that a measurement is within a specific interval, we can compute the area under the normal curve corresponding to the interval of interest.</para>
-    <para id="para-00017">Areas under the normal curve are available in tables, and <term class="no-emphasis" id="term-00008">Excel</term> also provides a method to find these areas. The <term id="term-00009">empirical rule</term> is one method for determining areas under the normal curve that fall within a certain number of standard deviations of the mean (see Figure 13.4).</para>
+    <para id="para-00017">Areas under the normal curve are available in tables, and <term class="no-emphasis" id="term-00008">Excel</term> also provides a method to find these areas. The <term id="term-00009">empirical rule</term> is one method for determining areas under the normal curve that fall within a certain number of standard deviations of the mean (see <link target-id="fig-00001" document="m00082"/>).</para>
     <figure id="fig-00001">
-    <title>Figure 13.4 Normal Distribution Showing Mean and Increments of Standard Deviation</title>
+    <title>Normal Distribution Showing Mean and Increments of Standard Deviation</title>
     <media alt="Graph of a normal distribution showing mean and increments of standard deviation. It is symmetrical about a vertical line drawn through the mean. The standard deviation up to three deviations are displayed on both sides of the mean."><image mime-type="image/png" src="../../media/FINAN_Figure_13_05_004.png"/></media>
     </figure>
     <para id="para-00018">If <emphasis effect="italics">x</emphasis> is a random variable and has a normal distribution with mean <emphasis effect="italics">µ</emphasis> and standard deviation <emphasis effect="italics"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>σ</mi></math></emphasis>, then the empirical rule states the following:</para>

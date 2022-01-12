@@ -62,7 +62,7 @@
     </problem>
     <solution id="sol-00001">
     <para id="para-00018"><emphasis effect="bold">Solution:</emphasis></para>
-    <para id="para-00019">Find the sample variance and sample standard deviation by creating a table with three columns (see Table 13.3).</para>
+    <para id="para-00019">Find the sample variance and sample standard deviation by creating a table with three columns (see <link target-id="table-00001" document="m00079"/>).</para>
     <list list-type="enumerated" id="list-00004">
     <item>The data set is 40, 36, 44, 51, 54, 55, 39, 47, 44, 50.</item>
     <item>This data set has 10 data values. Thus, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo> </mo><mo>=</mo><mo> </mo><mn>10</mn></math>.</item>
@@ -71,7 +71,7 @@
     <item>Column 2 will contain <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>x</mi><mo>-</mo><mover><mi>x</mi><mo>¯</mo></mover><mo>.</mo></math>.</item>
     <item xmlns="http://cnx.rice.edu/cnxml">Column 3 will contain <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mfenced><mrow><mi>x</mi><mo>-</mo><mover><mi>x</mi><mo>¯</mo></mover></mrow></mfenced><mn>2</mn></msup></math>.
     <table summary="Some cells are left blank for visual design purposes." id="table-00001" xmlns="http://cnx.rice.edu/cnxml">
-    <title>Table 13.3 Calculations for Standard Deviation for Age Example</title>
+    <title>Calculations for Standard Deviation for Age Example</title>
     <tgroup cols="3">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -157,9 +157,9 @@
     <item>Enter the data in the calculator using the <span class="secondary-function">[DATA]</span> function, which is located above the <span class="primary-function">7</span> key.</item>
     <item>Access the statistical results provided by the calculator using the <span class="secondary-function">[STAT]</span> function, which is located above the <span class="primary-function">8</span> key.</item>
     </list>
-    <para id="para-00028">Follow the steps in Table 13.4 to calculate mean and standard deviation using the <term class="no-emphasis" id="term-00003">financial calculator</term>. The ages data set from the Think It Through example above is used again here: 40, 36, 44, 51, 54, 55, 39, 47, 44, 50.</para>
+    <para id="para-00028">Follow the steps in <link target-id="table-00002" document="m00079"/> to calculate mean and standard deviation using the <term class="no-emphasis" id="term-00003">financial calculator</term>. The ages data set from the Think It Through example above is used again here: 40, 36, 44, 51, 54, 55, 39, 47, 44, 50.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00002">
-    <title>Table 13.4 Calculator Steps for Mean and Standard Deviation<footnote id="foot-00001">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup> Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
+    <title>Calculator Steps for Mean and Standard Deviation<footnote id="foot-00001">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup> Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
     <tgroup cols="5">
     <colspec colnum="1" colname="c1" colwidth="0*"/>
     <colspec colnum="2" colname="c2" colwidth="5*"/>
@@ -284,9 +284,9 @@
     </tgroup>
     </table>
     <para id="para-00029">From the statistical results, the mean is shown as 46, and the sample standard deviation is shown as 6.50.</para>
-    <para id="para-00030">Excel provides a similar analysis using the built-in functions =AVERAGE (for the mean) and =STDEV.S (for the sample standard deviation). To calculate these statistical results in Excel, enter the data values in a column. Let’s assume the data values are placed in cells A2 through A11. In any cell, type the Excel command =AVERAGE(A2:A11) and press enter. Excel will calculate the arithmetic mean in this cell. Then, in any other cell, type the Excel command =STDEV.S(A2:A11) and press enter. Excel will calculate the sample standard deviation in this cell. Figure 13.2 shows the mean and standard deviation for the 10 ages.</para>
+    <para id="para-00030">Excel provides a similar analysis using the built-in functions =AVERAGE (for the mean) and =STDEV.S (for the sample standard deviation). To calculate these statistical results in Excel, enter the data values in a column. Let’s assume the data values are placed in cells A2 through A11. In any cell, type the Excel command =AVERAGE(A2:A11) and press enter. Excel will calculate the arithmetic mean in this cell. Then, in any other cell, type the Excel command =STDEV.S(A2:A11) and press enter. Excel will calculate the sample standard deviation in this cell. <link target-id="fig-00001" document="m00079"/> shows the mean and standard deviation for the 10 ages.</para>
     <figure id="fig-00001">
-    <title>Figure 13.2 Mean and Standard Deviation in Excel.</title>
+    <title>Mean and Standard Deviation in Excel.</title>
     <media alt="Screenshot of an Excel sheet showing the commands to calculate the mean and standard deviation of a sample data. Ten ages are listed: 40, 36, 44, 51, 54, 55, 39, 47, 44, and 50. The Excel command to calculate the sample mean is =Average open parenthesis A2 colon A11 close parenthesis.  The result is 46.  The Excel command to calculate sample standard deviation is =STDEV dot s open parenthesis A2 colon A11 close parenthesis.  The result is 6.5"><image mime-type="image/png" src="../../media/FINAN_Figure_13_02_002.png"/></media>
     </figure>
     </section>
