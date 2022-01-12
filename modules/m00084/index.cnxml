@@ -76,7 +76,7 @@
     <para id="para-00017">Often, we are interested in generating a quick statistical summary of a data set in the form of its mean, median, quartiles, min, and max. The R command called <emphasis effect="italics">summary</emphasis> provides these results.</para>
     <code class="r" display="block">
     <span class="red-code">> summary(salaries)</span>
-    Min.    1st Qu.  Median    Mean 3rd Qu.    Max.
+    Min.  1st Qu.  Median    Mean 3rd Qu.    Max.
     40000   47500   62500   64250   79250   92000
     </code>
     <para id="para-00018">For measures of spread, R includes a command for standard deviation, called <emphasis effect="italics">sd</emphasis>, and a command for variance, called <emphasis effect="italics">var</emphasis>. The standard deviation and variance are calculated with the assumption that the data set was collected from a sample.</para>
