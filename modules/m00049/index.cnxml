@@ -96,7 +96,7 @@
     <para id="para-00012">Let’s start with a simple example that will provide you with most of the skills needed to perform TVM functions involving a single lump sum payment with a financial calculator.</para>
     <para id="para-00013">Suppose that you have $1,000 and that you deposit this in a savings account earning 3% annually for a period of four years. You will naturally be interested in knowing how much money you will have in your account at the end of this four-year time period (assuming you make no other deposits and withdraw no cash).</para>
     <para id="para-00014">To answer this question, you will need to work with factors of $1,000, the present value (<span class="primary-function">PV</span>); four periods or years, represented by <span class="primary-function">N</span>; and the 3% interest rate, or <span class="primary-function">I/Y</span>. Make sure that the calculator register information is cleared, or you may end up with numbers from previous uses that will interfere with the solution. The register-clearing process will depend on what type of calculator you are using, but for the TI BA II Plus™ Professional calculator, clearing can be accomplished by pressing the keys <span class="primary-function">2ND</span> and <span class="primary-function">FV</span> [<span class="secondary-function">CLR TVM</span>].</para>
-    <para id="para-00015">Once you have cleared any old data, you can enter the values in the appropriate key areas: 4 for <span class="primary-function">N</span>, 3 for <span class="primary-function">I/Y</span>, and 1000 for <span class="primary-function">PV</span>. Now you have entered enough information to calculate the future value. Continue by pressing the <span class="primary-function">CPT</span> (compute) key, followed by the <span class="primary-function">FV</span> key. The answer you end up with should be displayed as 1,125.51 (see Table 7.1).</para>
+    <para id="para-00015">Once you have cleared any old data, you can enter the values in the appropriate key areas: 4 for <span class="primary-function">N</span>, 3 for <span class="primary-function">I/Y</span>, and 1000 for <span class="primary-function">PV</span>. Now you have entered enough information to calculate the future value. Continue by pressing the <span class="primary-function">CPT</span> (compute) key, followed by the <span class="primary-function">FV</span> key. The answer you end up with should be displayed as 1,125.51 (see <link target-id="table-00003" document="m00049"/>).</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00003">
     <title>Calculator Steps for Finding the Future Value of a Single Payment or Lump Sum<footnote id="foot-00001"/></title>
     <tgroup cols="5">
@@ -169,7 +169,7 @@
     <note class="think-through" id="note-00001">
     <title>How to Determine Future Value When Other Variables Are Known</title>
     <exercise class="unnumbered" id="exer-00001">
-    <problem id="prob-00001"><para id="para-00020">Here’s an example of using a financial calculator to solve a common time value of money problem. You have $2,000 invested in a money market account that is expected to earn 4% annually. What will be the total value in the account after five years? (See recommended financial calculator steps in Table 7.2.)</para>
+    <problem id="prob-00001"><para id="para-00020">Here’s an example of using a financial calculator to solve a common time value of money problem. You have $2,000 invested in a money market account that is expected to earn 4% annually. What will be the total value in the account after five years? (See recommended financial calculator steps in <link target-id="table-00004" document="m00049"/>.)</para>
     </problem>
     <solution id="sol-00001">
     <para id="para-00021"><emphasis>Solution:</emphasis></para>
@@ -247,7 +247,7 @@
     <title>How to Determine Present Value When Other Variables Are Known</title>
     <exercise class="unnumbered" id="exer-00002">
     <problem id="prob-00002">
-    <para id="para-00026">Here is another example of using a financial calculator to solve a common time value of money problem. You have just won a second-prize lottery jackpot that will pay a single total lump sum of $50,000 five years from now. How much value would this have in today’s dollars, assuming a 5% interest rate? (See recommended financial calculator steps in Table 7.3.)</para>
+    <para id="para-00026">Here is another example of using a financial calculator to solve a common time value of money problem. You have just won a second-prize lottery jackpot that will pay a single total lump sum of $50,000 five years from now. How much value would this have in today’s dollars, assuming a 5% interest rate? (See recommended financial calculator steps in <link target-id="table-00005" document="m00049"/>.)</para>
     </problem>
     <solution id="sol-00002">
     <para id="para-00027"><emphasis>Solution:</emphasis></para>
@@ -328,7 +328,7 @@
     <title>Determining Periods of Time</title>
     <exercise class="unnumbered" id="exer-00003">
     <problem id="prob-00003">
-    <para id="para-00033">Here is an additional example of using a financial calculator to solve a common time value of money problem. You want to be able to contribute $25,000 to your child’s first year of college tuition and related expenses. You currently have $15,000 in a tuition savings account that is earning 6% interest every year. How long will it take for this account grow into the targeted amount of $25,000, assuming no additional deposits or withdrawals will be made? Table 7.4 shows the steps you will take.</para>
+    <para id="para-00033">Here is an additional example of using a financial calculator to solve a common time value of money problem. You want to be able to contribute $25,000 to your child’s first year of college tuition and related expenses. You currently have $15,000 in a tuition savings account that is earning 6% interest every year. How long will it take for this account grow into the targeted amount of $25,000, assuming no additional deposits or withdrawals will be made? <link target-id="table-00006" document="m00049"/> shows the steps you will take.</para>
     </problem>
     <solution id="sol-00003">
     <para id="para-00034"><emphasis>Solution:</emphasis></para>
@@ -410,7 +410,7 @@
     <exercise class="unnumbered" id="exer-00004">
     <problem id="prob-00004">
     <para id="para-00040">Here is another example of using a financial calculator to solve a common time value of money problem. Let’s use a similar example to the one we used when calculating periods of time to determine an interest or growth rate. You still want to help your child with their first year of college tuition and related expenses. You also still have a starting amount of $15,000, but you have not yet decided on a savings plan to use.</para>
-    <para id="para-00041">Instead, the information you now have is that your child is just under 10 years old and will begin college at age 18. For simplicity’s sake, let’s say that you have eight and a half years before you will need to meet your total savings target of $25,000. What rate of interest will you need to grow your saved money from $15,000 to $25,000 in this time period, again with no other deposits or withdrawals? Follow the steps shown in Table 7.5.</para>
+    <para id="para-00041">Instead, the information you now have is that your child is just under 10 years old and will begin college at age 18. For simplicity’s sake, let’s say that you have eight and a half years before you will need to meet your total savings target of $25,000. What rate of interest will you need to grow your saved money from $15,000 to $25,000 in this time period, again with no other deposits or withdrawals? Follow the steps shown in <link target-id="table-00007" document="m00049"/>.</para>
     </problem>
     <solution id="sol-00004">
     <para id="para-00042"><emphasis>Solution:</emphasis></para>
@@ -587,12 +587,12 @@
     <media alt="Screenshot that shows dialog box to insert PV Function. It shows how to search for a function or select a function that has been used recently. This screenshot shows how to search for PV by typing a brief description of what you want to do and then clicking the go button, which is next to the search bar. Or simply choose PV from the list of the most recently used functions. Since PV is highlighted in the list, an explanation of PV is shown below the list of terms. At the bottom , there is a link for help on this function, and an OK and cancel button."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_008.png"/></media>
     </figure>
     <para id="para-00079">As discussed in the FV function example above, this dialog box allows you to either search for a function or select a function that has been used recently. In this example, you can search for PV by typing this into the search box and selecting Go, or you can simply choose PV from the list of the most recently used functions.</para></item>
-    <item>Once you have highlighted PV, click the OK button, and a new dialog box will appear for you to enter the necessary details. Similar to our FV function example, it will look like Figure 7.9.
+    <item>Once you have highlighted PV, click the OK button, and a new dialog box will appear for you to enter the necessary details. Similar to our FV function example, it will look like <link target-id="fig-00007" document="m00049"/>.
     <figure id="fig-00007">
     <title>New Dialog Box for PV Function Arguments</title>
     <media alt="Screenshot of new dialog box for PV function arguments. It shows the data entry screen called “Function Arguments” and the PV section contains fields for Rate, Nper, Pmt, Fv, and Type, all numerical fields."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_009.png"/></media>
     </figure>
-    <para id="para-00080">Figure 7.10 shows the completed data input for the function arguments. Note that once again, cell addresses are used in this example. This allows the spreadsheet to still be useful if you decide to change any of the variables. As in the FV function example, you may also type values directly in the Function Arguments dialog box, but if you do this and you have to change any of your input later, you will have to reenter the new information. Remember that using cell addresses is always a preferable method of entering the function argument data.</para>
+    <para id="para-00080"><link target-id="fig-00008" document="m00049"/> shows the completed data input for the function arguments. Note that once again, cell addresses are used in this example. This allows the spreadsheet to still be useful if you decide to change any of the variables. As in the FV function example, you may also type values directly in the Function Arguments dialog box, but if you do this and you have to change any of your input later, you will have to reenter the new information. Remember that using cell addresses is always a preferable method of entering the function argument data.</para>
     <figure id="fig-00008">
     <title>Completed Dialog Box for PV Function Arguments</title>
     <media alt="Screenshot of completed dialog box for PV function arguments. In the PV section, all the empty fields are filled with the relevant cell names."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_010.png"/></media>
@@ -620,19 +620,19 @@
     </quote>
     <para id="para-00087">As with our FV and PV examples, you may simply type the values of the arguments in the above formula, or we can again use the Insert Function option in Excel. If you do so, you will need to work with the various dialog boxes after you select Insert Function.</para>
     <list list-type="enumerated" id="list-00007">
-    <item>First, go to Formulas in the upper menu bar, and select the Insert Function option. When you do so, the Insert Function dialog box will appear (see Figure 7.11).
+    <item>First, go to Formulas in the upper menu bar, and select the Insert Function option. When you do so, the Insert Function dialog box will appear (see <link target-id="fig-00009" document="m00049"/>).
     <figure id="fig-00009">
     <title>Dialog Box to Insert NPER Function</title>
     <media alt="Screenshot of dialog box to insert  NPER Function. It shows how to search for a function or select a function that has been used recently. This screenshot shows how to search for the NPER function by typing a brief description of what you want to do and then clicking the go button, which is next to the search bar. From the Select a function list, select the NPER function and click the OK button."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_011.png"/></media>
     </figure>
     <para id="para-00088">As discussed in our previous examples on FV and PV, this menu allows you to either search for a function or select a function that has been used recently. In this example, you can search for NPER by typing this into the search box and selecting Go, or you can simply choose NPER from the list of most recently used functions.</para></item>
-    <item>Once you have highlighted NPER, click the OK button, and a new dialog box will appear for you to enter the necessary details. As in our previous examples, it will look like Figure 7.12.</item>
+    <item>Once you have highlighted NPER, click the OK button, and a new dialog box will appear for you to enter the necessary details. As in our previous examples, it will look like <link target-id="fig-00010" document="m00049"/>.</item>
   </list>
     <figure id="fig-00010">
     <title>New Dialog Box for NPER Function Arguments</title>
     <media alt="Screenshot of New Dialog Box for NPER Function Arguments. It shows the data entry screen called “Function Arguments” and the NPER section contains fields for Rate, Pmt, Pv, Fv, and Type, all numerical fields."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_012.png"/></media>
     </figure>
-    <para id="para-00089">Figure 7.13 shows the completed Function Arguments dialog box. Note that once again, we are using cell addresses in this example. </para>
+    <para id="para-00089"><link target-id="fig-00011" document="m00049"/> shows the completed Function Arguments dialog box. Note that once again, we are using cell addresses in this example. </para>
     <figure id="fig-00011">
     <title>Completed Dialog Box for NPER Function Arguments</title>
     <media alt="Screenshot of Completed Dialog Box for NPER Function Arguments. In the NPER section, all the empty fields are filled with the relevant cell names."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_013.png"/></media>
@@ -657,17 +657,17 @@
     </quote>
     <para id="para-00100">As with our other TVM function examples, you may simply type the values for the arguments into the above formula. We also again have the same alternative to use the Insert Function option in Excel. If you choose this option, you will again see the Insert Function dialog box after you click the Insert Function button.</para>
     <list list-type="enumerated" id="list-00008">
-    <item>First, go to Formulas in the upper menu bar, and select the Insert Function option. When you do so, the Insert Function dialog box will appear (see Figure 7.14).
+    <item>First, go to Formulas in the upper menu bar, and select the Insert Function option. When you do so, the Insert Function dialog box will appear (see <link target-id="fig-00012" document="m00049"/>).
     <figure id="fig-00012">
     <title>Dialog Box to Insert RATE Function</title>
     <media alt="Screnshot of Dialog Box to Insert RATE Function. It shows how to search for a function or select a function that has been used recently. This screenshot shows how to search for the RATE function by typing a brief description of what you want to do and then clicking the go button, which is next to the search bar. From the Select a function list, select the Rate function and click the OK button."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_014.png"/></media>
     </figure></item>
-    <item>This time, find and highlight RATE, and click the OK button once you have done so. The Function Arguments dialog box will look like Figure 7.15.
+    <item>This time, find and highlight RATE, and click the OK button once you have done so. The Function Arguments dialog box will look like <link target-id="fig-00013" document="m00049"/>.
     <figure id="fig-00013">
     <title>New Dialog Box for RATE Function Arguments</title>
     <media alt="Screenshot of New Dialog Box for RATE Function Arguments. It shows the data entry screen called “Function Arguments” and the RATE section contains fields for Nper, Pmt, Pv, Fv, and Type, all numerical fields."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_015.png"/></media>
     </figure>
-    <para id="para-00101">Once we complete the input, again using cell addresses for the required argument values, we will see what is shown in Figure 7.16.</para>
+    <para id="para-00101">Once we complete the input, again using cell addresses for the required argument values, we will see what is shown in <link target-id="fig-00014" document="m00049"/>.</para>
     <figure id="fig-00014">
     <title>Completed Dialog Box for RATE Function Arguments</title>
     <media alt="Screenshot of Completed Dialog Box for RATE Function Arguments. In the RATE section, all the empty fields are filled with the relevant cell names."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_016.png"/></media>

@@ -28,7 +28,7 @@
     </section>
     <section id="sect-00003" xmlns="http://cnx.rice.edu/cnxml">
     <title>The Multiple-Period Scenario</title>
-    <para id="para-00006">There will often be situations when you need to determine the present value of a cash flow that is scheduled to occur several years in the future (see Figure 7.17). We can again use the formula for present value to calculate a value today of future cash flows over multiple time periods.</para>
+    <para id="para-00006">There will often be situations when you need to determine the present value of a cash flow that is scheduled to occur several years in the future (see <link target-id="fig-00001" document="m00050"/>). We can again use the formula for present value to calculate a value today of future cash flows over multiple time periods.</para>
     <figure id="fig-00001">
     <title>Determining Future Cash Flow</title>
     <media alt="A circular graph shows how whjen present value compounds, it results in the future value. Conversely, when the future value discounts, the result is the present value"><image mime-type="image/png" src="../../media/FINAN_Figure_07_04_017.png"/></media>
@@ -48,7 +48,7 @@
     <section id="sect-00005">
     <title>Inflation</title>
     <para id="para-00015">The entire concept of TVM exists largely due to the presence of <term class="no-emphasis" id="term-00002">inflation</term>. Inflation is defined as a general increase in the prices of goods and services and/or a drop in the value of money and its purchasing power.</para>
-    <para id="para-00016">The purchasing power of the consumer dollar is a statistic tracked by the part of the US Bureau of Labor Statistics and is part of the consumer price index (CPI) data that is periodically published by that government agency. In a way, purchasing power can be viewed as a mirror image or exact opposite of inflation or increases in consumer prices, as measured by the CPI. Figure 7.18 demonstrates the decline in the purchasing power of the consumer dollar over the 13-year period from 2007 to 2020.</para>
+    <para id="para-00016">The purchasing power of the consumer dollar is a statistic tracked by the part of the US Bureau of Labor Statistics and is part of the consumer price index (CPI) data that is periodically published by that government agency. In a way, purchasing power can be viewed as a mirror image or exact opposite of inflation or increases in consumer prices, as measured by the CPI. <link target-id="fig-00002" document="m00050"/> demonstrates the decline in the purchasing power of the consumer dollar over the 13-year period from 2007 to 2020.</para>
     <para id="para-00017">With this in mind, we can work with the TVM formula and use it to help determine the present value of money you have in hand today, as well as how this same amount of money may be valued at any specific point in the future and at any specific rate of interest.</para>
     <figure id="fig-00002">
     <title>Historical Purchasing Power Decline as a Result of Inflation, 2007–2020</title>
