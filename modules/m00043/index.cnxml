@@ -6,8 +6,78 @@
     <md:uuid>86278761-8289-43d2-b7fe-9d0b5909cde9</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
-</document>
+    <section class="learning-objectives" id="sect-00001">
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Evaluate organizational solvency using the debt-to-assets and debt-to-equity ratios.</item>
+    <item>Calculate the times interest earned ratio to assess a firm’s ability to cover interest expense on debt as it comes due.</item>
+    </list>
+    </section>
+    <para id="para-00002"><term id="term-00001">Solvency</term> implies that a company can meet its long-term obligations and will likely stay in business in the future. Meeting long-term obligations includes the ability to pay any interest incurred on long-term debt. Two main solvency ratios are the debt-to-equity ratio and the times interest earned ratio.</para>
+    <section id="sect-00002">
+    <title>Debt-to-Assets Ratio</title>
+    <para id="para-00003">The <term id="term-00002">debt-to-assets ratio</term> shows the relationship between debt and assets. It reflects how much of the assets of the business was financed through debt. It reflects the company’s leverage and is helpful to analysts in comparing how leveraged one company is compared to another.</para>
+    <para id="para-00004">Debts normally carry interest expense and must be repaid. The debt-to-assets ratio includes all debt—both long-term debt and current liabilities. The formula for the debt-to-assets ratio is</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Debt-to-Assets Ratio</mtext><mo>=</mo><mfrac><mrow><mi>Current</mi><mo> </mo><mi>Liabilities</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Long</mi><mo>-</mo><mi>Term</mi><mo> </mo><mi>Liabilities</mi></mrow><mrow><mi>Total</mi><mo> </mo><mi>Assets</mi></mrow></mfrac></math></equation>
+    <para id="para-00005" xmlns="http://cnx.rice.edu/cnxml">The information needed to compute the debt-to-assets ratio for Clear Lake Sporting Goods in the current year can be found on the balance sheet. The debt-to-assets ratio for Clear Lake Sporting Goods in the current year is</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Debt</mi><mo>-</mo><mi>to</mi><mo>-</mo><mi>Assets</mi><mo> </mo><mi>Ratio</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>$</mo><mn>100</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>+</mo><mo>$</mo><mn>50</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>$</mo><mn>250</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>6</mn><mo> </mo><mi>or</mi><mo> </mo><mn>60</mn><mi mathvariant="normal">%</mi></math></equation>
+    <para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">This means that 60 percent of Clear Lake’s assets are financed by debt. We can also then infer that the other 40 percent is financed by equity. A ratio higher than 1.0 means the company has more debts than assets, which means it has negative equity. In Clear Lake’s case, a 60 percent debt-to-assets ratio indicates some risk, but perhaps not a high risk. Comparing Clear Lake’s ratio to industry averages would provide better insight.</para>
+    <note class="link-to-learning" id="note-00001">
+    <title><term class="no-emphasis" id="term-00003">Target Corporation</term></title>
+    <para id="para-00007">As we have learned, the debt-to-assets ratio shows the relationship between a firm’s debt and assets. Look through the financial statements in the <link url="https://openstax.org/r/annual-report-for-target">2019 Annual Report for Target</link> and calculate the debt-to-assets ratio. What does the outcome mean for Target?</para>
+    </note>
+    </section>
+    <section id="sect-00003">
+    <title>Debt-to-Equity Ratio</title>
+    <para id="para-00008">The <term id="term-00004">debt-to-equity ratio</term> shows the relationship between debt and equity as it relates to business financing. A company can take out loans, issue stock, and retain earnings to be used in future periods to keep operations running. A key difference in debt and equity is the interest expense repayment that a loan carries as opposed to equity, which does not have this requirement. Therefore, a company wants to know how much debt and equity contribute to its financing. The formula for the debt-to-equity ratio is</para>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Debt</mi><mo>-</mo><mi>to</mi><mo>-</mo><mi>Equity</mi><mo> </mo><mi>Ratio</mi><mo>=</mo><mfrac><mrow><mi>Total</mi><mo> </mo><mi>Liabilities</mi></mrow><mrow><mi>Total</mi><mo> </mo><mi>Stockholder</mi><mo> </mo><mi>Equity</mi></mrow></mfrac></math></equation>
+    <para id="para-00009" xmlns="http://cnx.rice.edu/cnxml">The information needed to compute the debt-to-equity ratio for Clear Lake Sporting Goods in the current year can be found on the balance sheet.</para>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Debt</mi><mo>-</mo><mi>to</mi><mo>-</mo><mi>Equity</mi><mo> </mo><mi>Ratio</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>$</mo><mn>150</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>$</mo><mn>100</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>1</mn><mo>.</mo><mn>5</mn><mo> </mo><mi>or</mi><mo> </mo><mn>1</mn><mo>.</mo><mn>5</mn><mo>:</mo><mn>1</mn></math></equation>
+    <para id="para-00010" xmlns="http://cnx.rice.edu/cnxml">This means that for every one dollar of equity contributed toward financing, $1.50 is contributed from lenders. Recall that total assets equal total liabilities plus total equity. Both the debt-to-assets and debt-to-equity ratio have total liabilities in the numerator. The difference in the two ratios is the denominator. The denominator for the debt-to-equity ratio is total stockholder equity. The denominator for the debt-to-assets ratio is total assets, or total liabilities plus total equity. Thus, the two ratios contain the same information, making calculating both ratios redundant. A financial analyst may prefer to calculate one ratio over the other because of the format of readily available industry data to use for comparison purposes or for consistency with other calculations the analyst is performing.</para>
+    <note class="think-through" id="note-00002">
+    <title>Financing a Business Expansion</title>
+    <exercise class="unnumbered" id="exer-00001">
+    <problem id="prob-00001">
+    <para id="para-00011">You are the CFO of a small corporation. The president, who is one of five shareholders, has created an innovative new product that is testing well with substantial demand. To begin manufacturing, $400,000 is needed to acquire the equipment. The corporation's balance sheet shows total assets of $2,400,000 and total liabilities of $600,000. Most of the liabilities relate to debt that carries a covenant requiring that the company maintain a debt-to-equity ratio not exceeding 0.50. Determine the effect that each of the two options of obtaining additional capital will have on the debt covenant.</para>
+    </problem>
+    <solution id="sol-00001">
+    <para id="para-00012"><emphasis effect="bold">Solution:</emphasis></para>
+    <para id="para-00013">We know the total liabilities for the firm to be $600,000. Using the accounting equation, we can find that the firm has $1,800,000 in equity. <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>600</mn><mo>,</mo><mn>000</mn><mo>/</mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>800</mn><mo>,</mo><mn>000</mn><mo>=</mo></math> current debt-to-equity ratio of 0.33, which is well below the requirement for the debt covenant. If the firm issues debt, the ratio changes to <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><mo>/</mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>800</mn><mo>,</mo><mn>000</mn></math>, which is 0.55 and would violate the debt covenant. If the firm chooses to issue additional stock, the new debt-to-equity ratio would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>600</mn><mo>,</mo><mn>000</mn><mo>/</mo><mo>$</mo><mn>2</mn><mo>,</mo><mn>200</mn><mo>,</mo><mn>000</mn></math>, which is 0.27. This is well below the requirements in the debt covenant.</para>
+    </solution>
+    </exercise>
+    </note>
+    </section>
+    <section id="sect-00004" xmlns="http://cnx.rice.edu/cnxml">
+    <title>Times Interest Earned (TIE) Ratio</title>
+    <para id="para-00014">The <term id="term-00005">times interest earned (TIE) ratio</term> measures the company’s ability to pay interest expense on all debt incurred. This ability to pay is determined by the available earnings before interest and taxes (EBIT) are deducted. These earnings are considered the operating income. Lenders will pay attention to this ratio before extending credit. The more times over a company can cover interest, the more likely a lender will extend long-term credit. The formula for times interest earned is</para>
+    <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Times</mi><mo> </mo><mi>Interest</mi><mo> </mo><mi>Earned</mi><mo>=</mo><mfrac><mrow><mi>Earnings</mi><mo> </mo><mi>Before</mi><mo> </mo><mi>Interest</mi><mo> </mo><mi>and</mi><mo> </mo><mi>Taxes</mi><mo> </mo><mo>(</mo><mi>EBIT</mi><mo>)</mo></mrow><mrow><mi>Interest</mi><mo> </mo><mi>Expense</mi></mrow></mfrac></math></equation>
+    <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">The information needed to compute times interest earned for Clear Lake Sporting Goods in the current year can be found on the income statement.</para>
+    <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Times</mi><mo> </mo><mi>Interest</mi><mo> </mo><mi>Earned</mi><mo>=</mo><mfrac><mrow><mo>$</mo><mn>43</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>$</mo><mn>2</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>21</mn><mo>.</mo><mn>5</mn><mo> </mo><mi>times</mi></math></equation>
+    <para id="para-00016" xmlns="http://cnx.rice.edu/cnxml">The $43,000 is the operating income, representing earnings before interest and taxes. The 21.5 times outcome suggests that Clear Lake Sporting Goods can easily repay interest on an outstanding loan and creditors would have little risk that Clear Lake Sporting Goods would be unable to pay.</para>
+    <note class="link-to-learning" id="note-00003">
+    <title>Times Interest Earned</title>
+    <para id="para-00017">This <link url="https://openstax.org/r/video-about-times">video about times interest earned</link> explains how to calculate it and why the ratio is useful, and it provides an example.</para>
+    </note>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00018">Solvency ratios measure how well an organization can meet its long-term obligations (liabilities) as they come due, or in more general terms, its ability to stay in business. Common solvency ratios include the debt-to-assets ratio and the debt-to-equity ratio.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <title/>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00019"><link class="os-embed" url="#exercise/FI_Ch6_Sec4_MCQ5"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00007">
+    <title/>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00020"><link class="os-embed" url="#exercise/FI_Ch6_Sec4_PRQ5"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00021"><link class="os-embed" url="#exercise/FI_Ch6_Sec4_PRQ6"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00022"><link class="os-embed" url="#exercise/FI_Ch6_Sec4_PRQ7"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>debt-to-assets ratio</term> <meaning>measures the portion of debt used by a company relative to the amount of assets</meaning></definition>
+    <definition id="def-00002"><term>debt-to-equity ratio</term> <meaning>measures the portion of debt used by a company relative to the amount of stockholders’ equity</meaning></definition>
+    <definition id="def-00003"><term>solvency</term> <meaning>implies that a company can meet its long-term obligations and will likely stay in business in the future</meaning></definition>
+    <definition id="def-00004"><term>times interest earned (TIE) ratio</term> <meaning>measures the company’s ability to pay interest expense on long-term debt incurred</meaning></definition>
+    </glossary>
+    </document>
