@@ -665,7 +665,7 @@
     <item>This time, find and highlight RATE, and click the OK button once you have done so. The Function Arguments dialog box will look like <link target-id="fig-00013" document="m00049"/>.
     <figure id="fig-00013">
     <title>New Dialog Box for RATE Function Arguments</title>
-    <media alt="Screenshot of New Dialog Box for RATE Function Arguments. It shows the data entry screen called “Function Arguments” and the RATE section contains fields for Nper, Pmt, Pv, Fv, and Type, all numerical fields."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_015.png"/></media>
+    <media alt="Screenshot of New Dialog Box for RATE Function Arguments. It shows the ata entry screen called “Function Arguments” and the RATE section contains fields for Nper, Pmt, Pv, Fv, and Type, all numerical fields."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_015.png"/></media>
     </figure>
     <para id="para-00101">Once we complete the input, again using cell addresses for the required argument values, we will see what is shown in <link target-id="fig-00014" document="m00049"/>.</para>
     <figure id="fig-00014">
