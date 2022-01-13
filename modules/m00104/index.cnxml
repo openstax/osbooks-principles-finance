@@ -85,9 +85,6 @@
     <title/>
     <para id="para-00021">Excel spreadsheets provide a way to easily calculate the NPV and IRR of a project. Using Excel to create an NPV profile allows a company to see how much its estimates of the cost of raising funds can err from the true cost and have the project still be an acceptable project.</para>
     </section>
-    <section class="cfa-institute" id="sect-00006">
-    <para id="para-00022">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfa-level-i-study-session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
-    </section>
     <section class="problem-set" id="sect-00007">
     <title/>
     <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch16_Sec6_PRQ9"/></para></problem></exercise>
@@ -103,6 +100,9 @@
     <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00025"><link class="os-embed" url="#exercise/FI_Ch16_Sec6_VA2Q1"/></para></problem></exercise>
     <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch16_Sec6_VA2Q2"/></para></problem></exercise>
     </section>
+    </section>
+    <section class="cfa-institute" id="sect-00006">
+    <para id="para-00022">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfa-level-i-study-session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
     </section>
     </content>
 </document>

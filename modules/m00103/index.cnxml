@@ -20,7 +20,7 @@
     <section id="sect-00002">
     <title>Choosing between Mutually Exclusive Projects</title>
     <para id="para-00003">Earlier in this chapter, we saw that the embroidery machine that Sam’s Sporting Goods was considering had a positive NPV, making it a project that Sam’s should accept. However, another, more expensive embroidery machine may be available that is able to make more stitches per minute. Although the initial cost of this heavy-duty machine is higher, it would allow Sam’s to embroider and sell more items each year, generating more revenue. The two embroidery machines are <term id="term-00001">mutually exclusive projects</term>. Mutually exclusive projects compete with one another; purchasing one embroidery machine excludes Sam’s from purchasing the other embroidery machine.</para>
-    <para id="para-00004">The timeline below shows the cash outflow and inflows expected from the original embroidery machine considered as well as the heavy-duty machine. The heavy-duty machine costs $25,000, but it will generate more cash inflows in years 3 through 6. Both machines have a positive NPV, leading to decisions to accept the projects. Also, both machines have an IRR exceeding the company’s 9% cost of raising capital, also leading to decisions to accept the projects.</para>
+    <para id="para-00004"><link target-id="table-00001" document="m00103"/> shows the cash outflow and inflows expected from the original embroidery machine considered as well as the heavy-duty machine. The heavy-duty machine costs $25,000, but it will generate more cash inflows in years 3 through 6. Both machines have a positive NPV, leading to decisions to accept the projects. Also, both machines have an IRR exceeding the company’s 9% cost of raising capital, also leading to decisions to accept the projects.</para>
     <para id="para-00005">When considered by themselves, each of the machines is a good project for Sam’s to pursue. The question the managers face is which is the better of the two projects. When faced with this type of decision, the rule is to take the project with the highest NPV. Remember that the goal is to choose projects that add value to the company. Because the NPV of a project is the estimate of how much value it will create, choosing the project with the higher NPV is choosing the project that will create the greater value.</para>
     <table summary=" " class="timeline-table" id="table-00001">
     <tgroup cols="10">
@@ -77,7 +77,7 @@
     </tgroup>
     </table>
     <note class="link-to-learning" id="note-00001">
-    <title><term class="no-emphasis" id="term-00002">American Economic Association (aeaweb.org)</term></title>
+    <title>American Economic Association (aeaweb.org)</title>
     <para id="para-00006">The investment analysis procedures used by companies are also used by government entities when evaluating projects. Olympic host cities receive direct revenues from broadcast rights, ticket sales, and licensing agreements. The cities also expect indirect benefits from increased tourism, including increased employment and higher tax revenues. These benefits come after the city makes a major investment in infrastructure, spending money on stadiums, housing, and transportation. The investment in infrastructure for the <term class="no-emphasis" id="term-00003">2014 Winter Olympics</term> in <term class="no-emphasis" id="term-00004">Sochi, Russia</term>, was over $50 billion.<footnote id="foot-00001">David Filipov. “Russia Spent $50 Billion on the Sochi Olympics. It Might Actually Have Been Worth It.” Washington Post, November 15, 2017. https://www.washingtonpost.com/world/europe/that-sochi-olympic-boondoggle-russians-say-all-the-investment-is-paying-off/2017/11/13/65014bd0-b82c-11e7-9b93-b97043e57a22_story.html</footnote> Why do you think the infrastructure investment for these games was so much higher than the amount spent by cities hosting previous games? If your city were discussing the possibility of bidding to be an Olympic host city, what would you suggest it consider when evaluating the opportunity? Check out <link url="https://openstax.org/r/this-article">this article</link> for more information.</para>
     </note>
     </section>
@@ -89,7 +89,7 @@
     <para id="para-00010">There are two methods for comparing projects with different lives. Both assume that when the short-life project concludes, another, similar project will be available.</para>
     <section id="sect-00004">
     <title>Replacement Chain Approach</title>
-    <para id="para-00011">With the <term id="term-00005">replacement chain approach</term>, as many short-life projects as necessary are strung together to equal the life of the long-life project. You can purchase the newer, lower-mileage ice-cream truck and run your business for six years. To make a comparison, you assume that if you purchase the larger truck that will last for three years, you will be able to repeat the same project, purchasing another larger truck that will last for the next three years. In essence, you are comparing a six-year project with two consecutive three-year projects so that both options will generate cash inflows for six years. Your timeline for the projects (comparing an older, larger truck with a newer, lower-mileage truck) will look like the following:</para>
+    <para id="para-00011">With the <term id="term-00005">replacement chain approach</term>, as many short-life projects as necessary are strung together to equal the life of the long-life project. You can purchase the newer, lower-mileage ice-cream truck and run your business for six years. To make a comparison, you assume that if you purchase the larger truck that will last for three years, you will be able to repeat the same project, purchasing another larger truck that will last for the next three years. In essence, you are comparing a six-year project with two consecutive three-year projects so that both options will generate cash inflows for six years. Your timeline for the projects (comparing an older, larger truck with a newer, lower-mileage truck) will look like <link target-id="table-00002" document="m00103"/>:</para>
     <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00002">
     <tgroup cols="8">
     <colspec colnum="1" colname="c1"/>
@@ -156,7 +156,7 @@
     </tbody>
     </tgroup>
     </table>
-    <para id="para-00012">The present values of all of the cash inflows and outflows from purchasing two of the older, larger trucks consecutively are added together to find the NPV of that alternative. The NPV of this alternative is $86,645, which is higher than the NPV of $80,658 of the newer truck, as shown in the timeline below:</para>
+    <para id="para-00012">The present values of all of the cash inflows and outflows from purchasing two of the older, larger trucks consecutively are added together to find the NPV of that alternative. The NPV of this alternative is $86,645, which is higher than the NPV of $80,658 of the newer truck, as shown in <link target-id="table-00003" document="m00103"/>:</para>
     <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00003">
     <tgroup cols="8">
     <colspec colnum="1" colname="c1"/>
@@ -201,7 +201,7 @@
     <entry align="right"> </entry>
     </row>
     <row>
-    <entry align="left">Older Truck ($)</entry>
+    <entry align="left">Net Present Value</entry>
     <entry align="right"><emphasis effect="bold">(50,000)</emphasis></entry>
     <entry align="right"><emphasis effect="bold">36,363.64</emphasis></entry>
     <entry align="right"><emphasis effect="bold">33,057.85</emphasis></entry>
@@ -210,10 +210,12 @@
     <entry align="right"><emphasis effect="bold">24,836.85</emphasis></entry>
     <entry align="right"><emphasis effect="bold">22,578.96</emphasis></entry>
     </row>
+    <row>
+    <entry align="center" rowsep="0" namest="c1" nameend="8"><equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>NPV</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>86</mn><mo>,</mo><mn>644</mn><mo>.</mo><mn>69</mn></mtd></mtr></mtable></math></equation></entry>
+    </row>
     </tbody>
     </tgroup>
     </table>
-    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>NPV</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>86</mn><mo>,</mo><mn>644</mn><mo>.</mo><mn>69</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">When using the replacement chain approach, the short-term project is repeated any number of times to equal the length of the longer-term project. If one project is 5 years and another is 20 years, the short one is repeated four times. This method can become tedious when the length of the longer project is not a multiple of the shorter project. For example, when choosing between a five-year project and a seven-year project, the short one would have to be duplicated seven times and the long project would have to be repeated five times to get to a common length of 35 years for the two projects.</para>
     </section>
     <section id="sect-00005">
@@ -232,7 +234,7 @@
     <para id="para-00035">Step 3: Assume that these projects, or similar projects, can be repeated over and over and that these annuities will continue forever. Calculate the present value of these annuities continuing forever using the perpetuity formula.</para>
     <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>P</mi><mi>V</mi><mo> </mo><mfenced><mrow><mi>Larger</mi><mo> </mo><mi>Truck</mi></mrow></mfenced><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mfrac><mrow><mo>$</mo><mn>19</mn><mo>,</mo><mn>894</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>10</mn></mrow></mfrac><mo>=</mo><mo>$</mo><mn>198</mn><mo>,</mo><mn>940</mn></mtd></mtr><mtr><mtd><mi>P</mi><mi>V</mi><mo> </mo><mfenced><mrow><mi>Smaller</mi><mo> </mo><mi>Truck</mi></mrow></mfenced></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mfrac><mrow><mo>$</mo><mn>18</mn><mo>,</mo><mn>520</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>10</mn></mrow></mfrac><mo>=</mo><mo>$</mo><mn>185</mn><mo>,</mo><mn>200</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">We again find that the older, larger truck is preferred to the newer, smaller truck.</para>
-    <para id="para-00016">These methods correct for unequal lives, but managers need to be aware that some unavoidable issues come up when these adjustments are made. Both the replacement chain and equal annuity approaches assume that projects can be replicated with identical projects in the future. It is important to note that this is not always a reasonable assumption; these replacement projects may not exist. Estimating cash flows from potential projects is prone to errors, as we will discuss in Financial Forecasting these errors are compounded and become more significant as projects are expected to be repeated. Inflation and changing market conditions are likely to result in cash flows varying in the future from our predictions, and as we go further into the future, these changes are potentially greater.</para>
+    <para id="para-00016">These methods correct for unequal lives, but managers need to be aware that some unavoidable issues come up when these adjustments are made. Both the replacement chain and equal annuity approaches assume that projects can be replicated with identical projects in the future. It is important to note that this is not always a reasonable assumption; these replacement projects may not exist. Estimating cash flows from potential projects is prone to errors, as we will discuss in <link document="m00112">Financial Forecasting</link> these errors are compounded and become more significant as projects are expected to be repeated. Inflation and changing market conditions are likely to result in cash flows varying in the future from our predictions, and as we go further into the future, these changes are potentially greater.</para>
     </section>
     </section>
     <section id="sect-00006">
@@ -332,21 +334,21 @@
     </row>
     </thead>
     <tbody>
-    <row>
+    <row class="gray-shading">
     <entry align="center">A</entry>
     <entry align="center">60</entry>
     <entry align="center">150</entry>
     <entry align="center">1.40</entry>
     <entry align="center">150</entry>
     </row>
-    <row>
+    <row class="gray-shading">
     <entry align="center">E</entry>
     <entry align="center">11</entry>
     <entry align="center">30</entry>
     <entry align="center">1.37</entry>
     <entry align="center">180</entry>
     </row>
-    <row>
+    <row class="gray-shading">
     <entry align="center">F</entry>
     <entry align="center">7</entry>
     <entry align="center">20</entry>

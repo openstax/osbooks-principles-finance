@@ -379,10 +379,6 @@
       </exercise>
       </note>
       <para id="para-00039" xmlns="http://cnx.rice.edu/cnxml">Correlations may be helpful in visualizing the data, but they are not appropriately used to explain a relationship between two variables. Perhaps no single statistic is more misused than the correlation coefficient. Citing correlations between health conditions and everything from place of residence to eye color have the effect of implying a cause-and-effect relationship. This simply cannot be accomplished with a correlation coefficient. The correlation coefficient is, of course, innocent of this misinterpretation. It is the duty of analysts to use a statistic that is designed to test for cause-and-effect relationships and to report only those results, if they are intending to make such a claim. The problem is that passing this more rigorous test is difficult, therefore lazy and/or unscrupulous researchers fall back on correlations when they cannot make their case legitimately.</para>
-      <note class="link-to-learning" id="note-00004">
-      <title>Profile of Karl Pearson</title>
-      <para id="para-00040">Much of the development for the correlation coefficient was originated by Karl <term class="no-emphasis" id="term-00011">Pearson</term>, who applied statistical analysis to many biological studies. In fact, the correlation coefficient is sometimes called the <emphasis effect="italics"><term class="no-emphasis" id="term-00012">Pearson correlation coefficient</term></emphasis> in his honor. Here is <link url="https://openstax.org/r/background_statistician">more detailed background on this amazing statistician</link> who made many contributions to the statistical analysis that we perform on a routine basis.</para>
-      </note>
       </section>
       <section class="section-summary" id="sect-00005">
         <title/>

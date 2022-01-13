@@ -6,8 +6,41 @@
     <md:uuid>b1700a6d-0328-4eb0-bd34-2b3170894c7f</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Explain why time has an impact on the value of money.</item>
+    <item>Explain the concepts of future value and present value.</item>
+    <item>Explain why lump sum cash flow is the basis for all other cash flows.</item>
+    </list>
+    </section>
+    <section class="learning-objectives" id="sect-00002">
+    <title>How and Why the Passage of Time Affects the Value of Money</title>
+    <para id="para-00002">The concept of the <term id="term-00001">time value of money (TVM)</term> is predicated on the fact that it is possible to earn <term id="term-00002">interest</term> income on cash that you decide to deposit in an <term id="term-00003">investment</term> or interest-bearing account. As times goes by, interest is earned on amounts you have invested (<emphasis effect="italics">present value</emphasis>), which effectively means that time will add value (<emphasis effect="italics">future value</emphasis>) to your savings. The longer the period of time you have your money invested, the more interest income will accrue. Also, the higher the rate of interest your account or investment is earning, again, the more your money will grow.</para>
+    <para id="para-00003">Understanding how to calculate values of money in the present and at different points in the future is a key component of understanding the material presented in this chapter—and of making important personal financial decisions in your future (see Figure 7.2).</para>
+    <figure id="fig-00001">
+    <title>The Time Value of Money</title>
+    <media alt="A graphical representation of four stacks of coins showing money in a deposit account earning interest in years 1, 2, 3, and 4. Year one's coin stack is the smallest; the stack's get bigger in year 2, year 3, and year 4."><image mime-type="image/png" src="../../media/FINAN_Figure_07_01_002.png"/></media>
+    <caption>It is better to be paid today, or you will lose out on the money you would have earned in interest.</caption>
+    </figure>
+    </section>
+    <section id="sect-00003">
+    <title>The Lump Sum Payment or Receipt</title>
+    <para id="para-00004">The most basic type of financial transaction involves a simple, one-time amount of cash, which can be either a receipt (inflow) or a payment (outflow). Such a one-time transaction is typically referred to as a lump sum. A lump sum consists of a one-off cash flow that occurs at any single point in time, present or future. Because it is always possible to dissect more complex transactions into smaller parts, the lump sum cash flow is the basis on which all other types of cash flow are treated. According to the general principle of adding value, every type of cash flow stream can be divided into a series of lump sums. For this reason, it is critical to understand the math associated with lump sums if you wish to have a greater appreciation, and a complete understanding, of more complicated forms of cash flow that may be associated with an investment or a capital purchase by a company.</para>
+    </section>
+    <section class="section-summary" id="sect-00004">
+    <title/>
+    <para id="para-00005">This section discussed the underlying concepts of the time value of money (TVM). Because it is possible to earn interest income on cash that you decide to deposit in an investment or an interest-bearing account, money that you have now or receive sooner will be more valuable to you than the same amount of money received later.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00005">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00006"><link class="os-embed" url="#exercise/FI_Ch7_Sec01_MCQ5"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>interest </term> <meaning>the amount of money that is paid by a borrower to a lender for the use of their money, typically calculated from an annualized rate</meaning></definition>
+    <definition id="def-00002"><term>investment</term> <meaning>an asset or item acquired with the goal of generating financial gain through increased income or appreciation in value</meaning></definition>
+    <definition id="def-00003"><term>time value of money (TMV)</term> <meaning>the concept that an amount of money is worth more today than the exact same amount of money at some point in the future</meaning></definition>
+    </glossary>    
 </document>

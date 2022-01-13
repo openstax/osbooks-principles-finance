@@ -27,7 +27,7 @@
     <section id="sect-00003">
     <title>Discounted Payback Period</title>
     <para id="para-00006">The payback period method provides a fast, simple approach to evaluating a project, but it suffers from the fact that it ignores the time value of money. The <term id="term-00002">discounted payback period</term> method addresses this flaw by discounting cash flows using the company’s cost of funds and then using these discounted values to determine the payback period.</para>
-    <para id="para-00007">Consider Sam’s Sporting Goods’ decision regarding whether to purchase an embroidery machine. The expected cash flows and their values when discounted using the company’s 9% cost of funds are shown in the timeline below. Earlier, we calculated the project’s payback period as four years; that is how long it would take the company to recover all of the cash that it would spend on the project. Remember, however, that the payback period does not consider the company’s cost of funds, so it underestimates the true breakeven time period.</para>
+    <para id="para-00007">Consider Sam’s Sporting Goods’ decision regarding whether to purchase an embroidery machine. The expected cash flows and their values when discounted using the company’s 9% cost of funds are shown in <link target-id="table-00001" document="m00102"/>. Earlier, we calculated the project’s payback period as four years; that is how long it would take the company to recover all of the cash that it would spend on the project. Remember, however, that the payback period does not consider the company’s cost of funds, so it underestimates the true breakeven time period.</para>
     <table summary=" " class="timeline-table" id="table-00001">
     <tgroup cols="8">
     <colspec colnum="1" colname="c1"/>
@@ -94,7 +94,7 @@
     <item>Find the future value of all cash inflows using the firm’s cost of attracting capital as the discount rate. All cash inflows are compounded to the point in time at which the last cash inflow will be received. The sum of the future value of cash inflows is known as the project terminal value.</item>
     <item>Compute the yield that sets the future value of the inflows equal to the present value of the outflows. This yield is the modified internal rate of return.</item>
     </list>
-    <para id="para-00010">For our embroidery machine project, the MIRR would be calculated as shown in this timeline:</para>
+    <para id="para-00010">For our embroidery machine project, the MIRR would be calculated as shown in <link target-id="table-00002" document="m00102"/>:</para>
     <table summary=" " class="timeline-table" id="table-00002">
     <tgroup cols="8">
     <colspec colnum="1" colname="c1"/>
