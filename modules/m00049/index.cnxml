@@ -269,8 +269,8 @@
     </thead>
     <tbody>
     <row>
-    <td>1</td>
-    <td>Clear calculator register</td>
+    <entry align="center">1</entry>
+    <entry align="left">Clear calculator register</entry>
     <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
@@ -502,7 +502,7 @@
     <para id="para-00054">PV: Present Value</para>
     </quote>
     <para id="para-00055">Lump sum problems do not involve payments, so the value of Pmt in such calculations is 0. Another argument, Type, refers to the timing of a payment and carries a default value of the end of the period, which is the most common timing (as opposed to the beginning of a period). This may be ignored in our current example, which means the default value of the end of the period will be used.</para>
-    <para id="para-00056">The spreadsheet in Figure 7.3 shows two examples of using the FV function in Excel to calculate the future value of $100 in five years at 5% interest.</para>
+    <para id="para-00056">The spreadsheet in <link target-id="fig-00001" document="m00049"/> shows two examples of using the FV function in Excel to calculate the future value of $100 in five years at 5% interest.</para>
     <para id="para-00057">In cell E1, the FV function references the values in cells B1 through B4 for each of the arguments. When a user begins to type a function into a spreadsheet, Excel provides helpful information in the form of on-screen tips showing the argument inputs that are required to complete the function. In our spreadsheet example, as the FV formula is being typed into cell E2, a banner showing the arguments necessary to complete the function appears directly below, hovering over cell E3.</para>
     <figure id="fig-00001">
     <title>Using the FV Function in <term class="no-emphasis" id="term-00003">Excel</term></title>
@@ -526,18 +526,18 @@
     </quote>
     <para id="para-00066">You may simply type the values for the arguments in the above formula. Another option is to use the Excel insert function option. If you decide on this second method, below are several screenshots of dialog boxes you will encounter and will be required to complete.</para>
     <list list-type="enumerated" id="list-00002">
-    <item>First, go to Formulas in the upper menu bar, and select the Insert Function option. When you do so, a dialog box will appear that looks like what you see in Figure 7.4.
+    <item>First, go to Formulas in the upper menu bar, and select the Insert Function option. When you do so, a dialog box will appear that looks like what you see in <link target-id="fig-00002" document="m00049"/>.
     <figure id="fig-00002">
     <title>Dialog Box to Insert FV Function</title>
     <media alt="Screenshot that shows dialog box to insert FV Function. It shows how to search for a function or select a function that has been used recently. This screenshot shows how to search for FV by typing a brief description of what you want to do and then clicking the go button, which is next to the search bar. Or simply choose FV from the list of the most recently used functions. Since F V is highlighted in the list, an explanation of F V is shown below the list of terms. At the bottom , there is a link for help on this function, and an OK and cancel button."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_004.png"/></media>
     </figure>
     <para id="para-00067">This dialog box allows you to either search for a function or select a function that has been used recently. In this example, you can search for FV by typing this in the search box and selecting Go, or you can simply choose FV from the list of most recently used functions (as shown here with the highlighted FV option).</para></item>
-    <item>Once you select FV and click the OK button, a new dialog box will appear for you to enter the necessary details. See Figure 7.5.
+    <item>Once you select FV and click the OK button, a new dialog box will appear for you to enter the necessary details. See <link target-id="fig-00003" document="m00049"/>.
     <figure id="fig-00003">
     <title>New Dialog Box for FV Function Arguments</title>
     <media alt="Screenshot of new dialog box for FV function arguments. It shows the data entry screen called “Function Arguments” and the FV section containing fields for Rate, Nper, Pmt, Pv, and Type, all numerical fields."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_005.png"/></media>
     </figure>
-    <para id="para-00068">Figure 7.6 shows the completed data input for the variables, referred to here as “function arguments.” Note that cell addresses are used in this example. This allows the spreadsheet to still be useful if you decide to change any of the variables. You may also type values directly into the Function Arguments dialog box, but if you do this and you have to change any of your inputs later, you will have to reenter the new information. Using cell addresses is always a preferable method of entering the function argument data.</para>
+    <para id="para-00068"><link target-id="fig-00004" document="m00049"/> shows the completed data input for the variables, referred to here as “function arguments.” Note that cell addresses are used in this example. This allows the spreadsheet to still be useful if you decide to change any of the variables. You may also type values directly into the Function Arguments dialog box, but if you do this and you have to change any of your inputs later, you will have to reenter the new information. Using cell addresses is always a preferable method of entering the function argument data.</para>
     <figure id="fig-00004">
     <title>Completed Data Entry Menu for FV Function Arguments</title>
     <media alt="Screenshot of completed dialog box for FV function arguments. In the FV section, all the empty fields are filled with the relevant cell names."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_006.png"/></media>
@@ -554,7 +554,7 @@
     </section>
     <section id="sect-00011">
     <title>Present Value (PV)</title>
-    <para id="para-00072">We have covered the idea that present value is the opposite of future value. As an example, in the spreadsheet shown in Figure 7.3, we calculated that the future value of $100 five years from now at a 5% interest rate would be $127.63. By reversing this process, we can safely state that $127.63 received five years from now with a 5% interest (or discount) rate would have a value of just $100 today. Thus, $100 is its present value. In Excel, the PV function is used to determine present value (see Figure 7.7).</para>
+    <para id="para-00072">We have covered the idea that present value is the opposite of future value. As an example, in the spreadsheet shown in <link target-id="fig-00001" document="m00049"/>, we calculated that the future value of $100 five years from now at a 5% interest rate would be $127.63. By reversing this process, we can safely state that $127.63 received five years from now with a 5% interest (or discount) rate would have a value of just $100 today. Thus, $100 is its present value. In Excel, the PV function is used to determine present value (see <link target-id="fig-00005" document="m00049"/>).</para>
     <figure id="fig-00005">
     <title>Using the PV Function in Excel</title>
     <media alt="Screenshot of PV Function in Excel. Cells E1 and E2 show how the PV function appears in the spreadsheet as it is typed in with the required arguments. Cell E4 shows the calculated answer for cell E1 after hitting the enter key. Once the Enter key is pressed, the hint banner appearing in cell E3 will disappear. The second example of the PV function in our example spreadsheet is in cell E6. Here, the actual numerical values are used in the PV function equation rather than cell references. The method in cell E8 is referred to as hardcoding."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_007.png"/></media>
@@ -579,9 +579,9 @@
     </problem>
     <solution id="sol-00005">
     <para id="para-00077"><emphasis>Solution:</emphasis></para>
-    <para id="para-00078">As with the FV formula covered in the first tab of this workbook, you may simply type the values for the arguments in the above formula. Another option is to again use the Insert Function option in Excel. Figure 7.8, Figure 7.9, and Figure 7.10 provide several screenshots that demonstrate the steps you’ll need to follow if you decide to enter the PV function from the Insert Function menu.</para>
+    <para id="para-00078">As with the FV formula covered in the first tab of this workbook, you may simply type the values for the arguments in the above formula. Another option is to again use the Insert Function option in Excel. <link target-id="fig-00006" document="m00049"/>, <link target-id="fig-00007" document="m00049"/>, and <link target-id="fig-00008" document="m00049"/> provide several screenshots that demonstrate the steps you’ll need to follow if you decide to enter the PV function from the Insert Function menu.</para>
     <list list-type="enumerated" id="list-00005">
-    <item>First, go to Formulas in the upper menu bar, and select Insert Function. When you do so, the Insert Function dialog box will appear (see Figure 7.8).
+    <item>First, go to Formulas in the upper menu bar, and select Insert Function. When you do so, the Insert Function dialog box will appear (see <link target-id="fig-00006" document="m00049"/>).
     <figure id="fig-00006">
     <title>Dialog Box to Insert PV Function</title>
     <media alt="Screenshot that shows dialog box to insert PV Function. It shows how to search for a function or select a function that has been used recently. This screenshot shows how to search for PV by typing a brief description of what you want to do and then clicking the go button, which is next to the search bar. Or simply choose PV from the list of the most recently used functions. Since PV is highlighted in the list, an explanation of PV is shown below the list of terms. At the bottom , there is a link for help on this function, and an OK and cancel button."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_008.png"/></media>
@@ -627,6 +627,7 @@
     </figure>
     <para id="para-00088">As discussed in our previous examples on FV and PV, this menu allows you to either search for a function or select a function that has been used recently. In this example, you can search for NPER by typing this into the search box and selecting Go, or you can simply choose NPER from the list of most recently used functions.</para></item>
     <item>Once you have highlighted NPER, click the OK button, and a new dialog box will appear for you to enter the necessary details. As in our previous examples, it will look like Figure 7.12.</item>
+  </list>
     <figure id="fig-00010">
     <title>New Dialog Box for NPER Function Arguments</title>
     <media alt="Screenshot of New Dialog Box for NPER Function Arguments. It shows the data entry screen called “Function Arguments” and the NPER section contains fields for Rate, Pmt, Pv, Fv, and Type, all numerical fields."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_012.png"/></media>
@@ -639,7 +640,6 @@
     <para id="para-00090">As in the previous function examples, values are shown off to the right of the data input area, and our final answer of approximately 8.77 is displayed at the bottom. Also, once again, the Pmt and Type boxes are not relevant to this single lump sum example.</para>
     <para id="para-00091">Review your answer, and once you are satisfied with the result, click the OK button. The dialog box will disappear, with only the final numerical result appearing in the cell where you have set up the function.</para>
     <para id="para-00092">The amount of time required for the desired growth to occur is calculated as approximately 8.77 years.</para>
-    </list>
     </section>
     <section id="sect-00013">
     <title>Interest or Growth Rate</title>
