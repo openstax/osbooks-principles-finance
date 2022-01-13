@@ -76,7 +76,7 @@
     <section id="sect-00006">
     <title>Performance Analysis</title>
     <para id="para-00022">ROE captures the nuances of all three elements. A good sales margin and a proper asset turnover are both needed for a successful operation. Like all ratios, assessing performance is relative. It’s important to look at the ratio in context of the organization, its history, and the industry. If we compare Clear Lake’s ROE of 26.4% to the recreational products industry average of 12.56% for the same year, it would appear as though Clear Lake Sporting Goods is outperforming the general industry. However, recreational products can include a wide variety of businesses beyond just the outdoor gear in which Clear Lake Sporting Goods specializes. An analyst could look at other key competitors such as <term class="no-emphasis" id="term-00005">Cabela’s</term> or <term class="no-emphasis" id="term-00006">Bass Pro Shops</term> to get even more relevant comparisons.</para>
-    <para id="para-00023">Clear Lake Sporting Goods is also technically a retail store, albeit a specialized one. An analyst might also consider the industry averages for general or online retail of 20.64% and 27.05%, respectively. Compared to the broader retail industry, Clear Lake Sporting Goods is still performing well, but its performance is not as disparate to industry average as when compared to recreational products (see Table 6.1).</para>
+    <para id="para-00023">Clear Lake Sporting Goods is also technically a retail store, albeit a specialized one. An analyst might also consider the industry averages for general or online retail of 20.64% and 27.05%, respectively. Compared to the broader retail industry, Clear Lake Sporting Goods is still performing well, but its performance is not as disparate to industry average as when compared to recreational products (see <link target-id="table-00001" document="m00045"/>).</para>
     <table summary=" " id="table-00001">
     <title>Return on Equity by Industry in 2020</title>
     <tgroup cols="2">
@@ -183,7 +183,7 @@
     </row>
     </tbody>
     </tgroup>
-    <caption>(data source: Aswath Damodaran Online)<newline/> It’s important to look at any ratio in context of the organization, its history, and the industry.</caption>
+    <caption>It’s important to look at any ratio in context of the organization, its history, and the industry. (data source: Aswath Damodaran Online)</caption>
     </table>
     </section>
     <section class="section-summary" id="sect-00007">
