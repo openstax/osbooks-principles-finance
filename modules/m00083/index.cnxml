@@ -6,8 +6,290 @@
     <md:uuid>a2ca2087-b302-434e-8732-47c677158e5f</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
-</document>
+    <section class="learning-objectives" id="sect-00001">
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Determine appropriate graphs to use for various types of data.</item>
+    <item>Create and interpret univariate graphs such as bar graphs and histograms.</item>
+    <item>Create and interpret bivariate graphs such as time series graphs and scatter plot graphs. </item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Graphing Univariate Data</title>
+    <para id="para-00002"><term id="term-00001">Data visualization</term> refers to the use of graphical displays to summarize data to help to interpret patterns and trends in the data. <emphasis effect="italics">Univariate data</emphasis> refers to observations recorded for a single characteristic or attribute, such as salaries or blood pressure measurements. When graphing univariate data, we can choose from among several types of graphs, such as bar graphs, time series graphs, and so on.</para>
+    <para id="para-00003">The most effective type of graph to use for a certain data set will depend on the nature of the data and the purpose of the graph. For example, a time series graph is typically used to show how a measurement is changing over time and to identify patterns or trends over time.</para>
+    <para id="para-00004">Below are some examples of typical applications for various graphs and displays.</para>
+    <para id="para-00005">Graphs used to show the distribution of data:</para>
+    <list id="list-00002">
+    <item>Bar chart: used to show frequency or relative frequency distributions for categorical data</item>
+    <item>Histogram: used to show frequency or relative frequency distributions for continuous data</item>
+    </list>
+    <para id="para-00006">Graphs used to show relationships between data points:</para>
+    <list id="list-00003">
+    <item>Time series graph: used to show measurement data plotted against time, where time is displayed on the horizontal axis</item>
+    <item>Scatter plot: used to show the relationship between a dependent variable and an independent variable </item>
+    </list>
+    <section id="sect-00003">
+    <title>Bar Graphs</title>
+    <para id="para-00007">A <term id="term-00002">bar graph</term> consists of bars that are separated from each other and compare percentages. The bars can be rectangles, or they can be rectangular boxes (used in three-dimensional plots), and they can be vertical or horizontal. The bar graph shown in the example below has age groups represented on the <term id="term-00003"><emphasis effect="italics">x</emphasis>-axis</term> and proportions on the <term id="term-00004"><emphasis effect="italics">y</emphasis>-axis</term>.</para>
+    <para id="para-00008">By the end of 2021, a certain social media site had over 146 million users in the United States. <link target-id="table-00001" document="m00083"/> shows three age groups, the number of users in each age group, and the proportion (%) of users in each age group. A bar graph using this data is shown in <link target-id="fig-00001" document="m00083"/>.</para>
+    <table summary=" " id="table-00001">
+    <title>Data for Bar Graph of Age Groups</title>
+    <tgroup cols="3">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+    <row>
+    <entry align="center">Age Groups</entry>
+    <entry align="center">Number of Site Users</entry>
+    <entry align="center">Percent of Site Users</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">13–25</entry>
+    <entry align="center">65,082,280</entry>
+    <entry align="center">45</entry>
+    </row>
+    <row>
+    <entry align="center">26–44</entry>
+    <entry align="center">53,300,200</entry>
+    <entry align="center">36</entry>
+    </row>
+    <row>
+    <entry align="center">45–64</entry>
+    <entry align="center">27,885,100</entry>
+    <entry align="center">19</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <figure id="fig-00001">
+    <title>Bar Graph of Age Groups</title>
+    <media alt="A bar graph for age groups showing the proportion of the population. About 45% of the population are in age group 13-25. About 35% of the population are in age group 26-44 About 20% of the population are in age group 45-64."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_005.png"/></media>
+    </figure>
+    </section>
+    <section id="sect-00004">
+    <title>Histograms</title>
+    <para id="para-00009">A <term id="term-00005">histogram</term> is a bar graph that is used for continuous numeric data, such as salaries, blood pressures, heights, and so on. One advantage of a histogram is that it can readily display large data sets. A rule of thumb is to use a histogram when the data set consists of 100 values or more.</para>
+    <para id="para-00010">A histogram consists of contiguous (adjoining) boxes. It has both a horizontal axis and a vertical axis. The horizontal axis is labeled with what the data represents (for instance, distance from your home to school). The vertical axis is labeled either Frequency or Relative Frequency (or Percent Frequency or Probability). The graph will have the same shape regardless of the label on the vertical axis. A histogram, like a stem-and-leaf plot, can give you the shape of the data, the center, and the spread of the data.</para>
+    <para id="para-00011">The relative frequency is equal to the frequency of an observed data value divided by the total number of data values in the sample. Remember, frequency is defined as the number of times a solution occurs. Relative frequency is calculated using the formula</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>R</mi><mi>F</mi><mo>=</mo><mfrac><mi>f</mi><mi>n</mi></mfrac></math></equation>
+    <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">where <emphasis effect="italics">f</emphasis> = frequency, <emphasis effect="italics">n</emphasis> = the total number of data values (or the sum of the individual frequencies), and <emphasis effect="italics">RF</emphasis> = relative frequency.</para>
+    <para id="para-00013">To construct a histogram, first decide how many bars or intervals, also called classes, will represent the data. Many histograms consist of 5 to 15 bars or classes for clarity. The number of bars needs to be chosen. Choose a starting point for the first interval that is less than the smallest data value. A convenient starting point is a lower value carried out to one more decimal place than the value with the most decimal places. For example, if the value with the most decimal places is 6.1, and if this is the smallest value, a convenient starting point is 6.05 (because <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>6</mn><mo>.</mo><mn>1</mn><mo> </mo><mo>–</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>05</mn><mo> </mo><mo>=</mo><mo> </mo><mn>6</mn><mo>.</mo><mn>05</mn></math>). We say that 6.05 has more precision. If the value with the most decimal places is 2.23 and the lowest value is 1.5, a convenient starting point is 1.495 (<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>–</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>005</mn><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>495</mn></math>). If the value with the most decimal places is 3.234 and the lowest value is 1.0, a convenient starting point is <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn><mo>.</mo><mn>9995</mn><mo> </mo><mo>(</mo><mn>1</mn><mo>.</mo><mn>0</mn><mo> </mo><mo>–</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>0005</mn><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>9995</mn><mo>)</mo></math>. If all the data values happen to be integers and the smallest value is 2, then a convenient starting point is <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>(</mo><mn>2</mn><mo> </mo><mo>–</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo>.</mo><mn>5</mn><mo>)</mo></math>. Also, when the starting point and other boundaries are carried to one additional decimal place, no data value will fall on a boundary. The next two examples go into detail about how to construct a histogram using continuous data and how to create a histogram using discrete data.</para>
+    <para id="para-00014" xmlns="http://cnx.rice.edu/cnxml"><emphasis effect="bold">Example:</emphasis> The following data values are the portfolio values, in thousands of dollars, for 100 investors.</para>
+    <para id="para-00015">60, 60.5, 61, 61, 61.5<newline/>
+    63.5, 63.5, 63.5<newline/>
+    64, 64, 64, 64, 64, 64, 64, 64.5, 64.5, 64.5, 64.5, 64.5, 64.5, 64.5, 64.5<newline/>
+    66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67.5, 67.5, 67.5, 67.5, 67.5, 67.5, 67.5<newline/>
+    68, 68, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69.5, 69.5, 69.5, 69.5, 69.5<newline/>
+    70, 70, 70, 70, 70, 70, 70.5, 70.5, 70.5, 71, 71, 71<newline/>
+    72, 72, 72, 72.5, 72.5, 73, 73.5<newline/>
+    74</para>
+    <para id="para-00016">The smallest data value is 60. Because the data values with the most decimal places have one decimal place (for instance, 61.5), we want our starting point to have two decimal places. Because the numbers 0.5, 0.05, 0.005, and so on are convenient numbers, use 0.05 and subtract it from 60, the smallest value, to get a convenient starting point: <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>60</mn><mo> </mo><mo>–</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>05</mn><mo> </mo><mo>=</mo><mo> </mo><mn>59</mn><mo>.</mo><mn>95</mn></math>, which is more precise than, say, 61.5 by one decimal place. Thus, the starting point is 59.95. The largest value is 74, and <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>74</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>05</mn><mo> </mo><mo>=</mo><mo> </mo><mn>74</mn><mo>.</mo><mn>05</mn></math>, so 74.05 is the ending value.</para>
+    <para id="para-00017" xmlns="http://cnx.rice.edu/cnxml">Next, calculate the width of each bar or class interval. To calculate this width, subtract the starting point from the ending value and divide the result by the number of bars (you must choose the number of bars you desire). Suppose you choose eight bars. The interval width is calculated as follows:</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>74</mn><mo>.</mo><mn>05</mn><mo>-</mo><mn>59</mn><mo>.</mo><mn>95</mn></mrow><mn>8</mn></mfrac><mo>=</mo><mn>1</mn><mo>.</mo><mn>76</mn></math></equation>
+    <para id="para-00018" xmlns="http://cnx.rice.edu/cnxml">We will round up to 2 and make each bar or class interval 2 units wide. Rounding up to 2 is one way to prevent a value from falling on a boundary. Rounding to the next number is often necessary, even if it goes against the standard rules of rounding. For this example, using 1.76 as the width would also work. A guideline that is followed by some for the width of a bar or class interval is to take the square root of the number of data values and then round to the nearest whole number if necessary. For example, if there are 150 data values, take the square root of 150 and round to 12 bars or intervals. The boundaries are as follows:</para>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>59</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>59</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>61</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>61</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>63</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>63</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>65</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>65</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>67</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>67</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>69</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>69</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>71</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>71</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>73</mn><mo>.</mo><mn>95</mn><mo> </mo><mspace linebreak="newline"/><mn>73</mn><mo>.</mo><mn>95</mn><mo> </mo><mo>+</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>75</mn><mo>.</mo><mn>95</mn></math></equation>
+    <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">The data values 60 through 61.5 are in the interval 59.95–61.95. The data values of 63.5 are in the interval 61.95–63.95. The data values of 64 and 64.5 are in the interval 63.95–65.95. The data values 66 through 67.5 are in the interval 65.95–67.95. The data values 68 through 69.5 are in the interval 67.95–69.95. The data values 70 through 71 are in the interval 69.95–71.95. The data values 72 through 73.5 are in the interval 71.95–73.95. The data value 74 is in the interval 73.95–75.95. The histogram shown in <link target-id="fig-00002" document="m00083"/> displays the portfolio values on the <emphasis effect="italics">x</emphasis>-axis and relative frequency on the <emphasis effect="italics">y</emphasis>-axis.</para>
+    <figure id="fig-00002">
+    <title>Histogram of Portfolio Values</title>
+    <media alt="A histogram showing relative frequency of portfolio values. The data shows the relative frequency of portfolio values ranging from 59.95 to 75.95. The highest portfolio values of 65.95 to 69.95 have a relative frequency of 0.40, while the other portfolios ranging from 0.01 to 0.17 respectively."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_006.png"/></media>
+    </figure>
+    </section>
+    </section>
+    <section id="sect-00005">
+    <title>Graphing Bivariate Data</title>
+    <para id="para-00020"><term id="term-00006">Bivariate data</term> refers to paired data, where each value of one variable is paired with a value of a second variable. An example of paired data would be if data were collected on employees’ years of experience and their corresponding salaries. Typically, it is of interest to investigate possible associations or correlations between the two variables under analysis.</para>
+    <section id="sect-00006">
+    <title>Time Series Graphs</title>
+    <para id="para-00021">Suppose that we want to track the <term class="no-emphasis" id="term-00007">consumer price index (CPI)</term> over the past 10 years. One feature of the data that we may want to consider is the element of time. Because each year is paired with the CPI value for that year, we do not have to think of the data as being random. We can instead use the years given to impose a chronological order on the data. A graph that recognizes this ordering and displays the changing CPI value as the decade progresses is called a time series graph.</para>
+    <para id="para-00022">To construct a <term id="term-00008">time series graph</term>, we must look at both pieces of our paired data set. We start with a standard Cartesian coordinate system. The horizontal axis is used to plot the time increments, and the vertical axis is used to plot the values of the variable that we are measuring. By doing this, we make each point on the graph correspond to a point in time and a measured quantity. The points on the graph are typically connected by straight lines in the order in which they occur.</para>
+    <para id="para-00023"><emphasis effect="bold">Example:</emphasis> The following data set shows the annual CPI for 10 years. We need to construct a time series graph for the (rounded) annual CPI data (see <link target-id="table-00002" document="m00083"/>). The time series graph is shown in <link target-id="fig-00003" document="m00083"/>.</para>
+    <table summary=" " id="table-00002">
+    <title>Data for Time Series Graph of Annual <term class="no-emphasis" id="term-00009">CPI,</term> 2012–2021</title>
+    <tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <thead>
+    <row>
+    <entry align="center">Year</entry>
+    <entry align="center">CPI</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">2012</entry>
+    <entry align="center">226.65</entry>
+    </row>
+    <row>
+    <entry align="center">2013</entry>
+    <entry align="center">230.28</entry>
+    </row>
+    <row>
+    <entry align="center">2014</entry>
+    <entry align="center">233.91</entry>
+    </row>
+    <row>
+    <entry align="center">2015</entry>
+    <entry align="center">233.70</entry>
+    </row>
+    <row>
+    <entry align="center">2016</entry>
+    <entry align="center">236.91</entry>
+    </row>
+    <row>
+    <entry align="center">2017</entry>
+    <entry align="center">242.84</entry>
+    </row>
+    <row>
+    <entry align="center">2018</entry>
+    <entry align="center">247.87</entry>
+    </row>
+    <row>
+    <entry align="center">2019</entry>
+    <entry align="center">251.71</entry>
+    </row>
+    <row>
+    <entry align="center">2020</entry>
+    <entry align="center">257.97</entry>
+    </row>
+    <row>
+    <entry align="center">2021</entry>
+    <entry align="center">261.58</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    <caption>(source: US Bureau of Labor Statistics)</caption>
+    </table>
+    <figure id="fig-00003">
+    <title>Time Series Graph of Annual CPI, 2012–2021</title>
+    <media alt="A time-series graph for the annual CPI index from 2012 to 2021. The graph shows the CPI rising consistently from about 228 in 2012 to over 260 in 2021."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_007.png"/></media>
+    </figure>
+    </section>
+    <section id="sect-00007">
+    <title>Scatter Plots</title>
+    <para id="para-00024">A <term id="term-00010">scatter plot</term>, or scatter diagram, is a graphical display intended to show the relationship between two variables. The setup of the scatter plot is that one variable is plotted on the horizontal axis and the other variable is plotted on the vertical axis. Then each pair of data values is considered as an (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) point, and the various points are plotted on the diagram. A visual inspection of the plot is then made to detect any patterns or trends. Additional statistical analysis can be conducted to determine if there is a correlation or other statistically significant relationship between the two variables.</para>
+    <para id="para-00025">Assume we are interested in tracking the closing price of <term class="no-emphasis" id="term-00011">Nike</term> stock over the one-year time period from April 2020 to March 2021. We would also like to know if there is a correlation or relationship between the price of Nike stock and the value of the S&amp;P 500 over the same time period. To visualize this relationship, we can create a scatter plot based on the (<emphasis effect="italics">x</emphasis>,<emphasis effect="italics"> y</emphasis>) data shown in <link target-id="table-00003" document="m00083"/>.<emphasis effect="italics"/> The resulting scatter plot is shown in <link target-id="fig-00004" document="m00083"/>.</para>
+    <table summary=" " id="table-00003">
+    <title>Data for S&amp;P 500 and Nike Stock Price over a 12-Month Period</title>
+    <tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+    <row>
+    <entry align="center">Date</entry>
+    <entry align="center">S&amp;P 500 </entry>
+    <entry align="center">Nike Stock Price ($)</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="right">4/1/2020</entry>
+    <entry align="right">2,912.43</entry>
+    <entry align="right">87.18</entry>
+    </row>
+    <row>
+    <entry align="right">5/1/2020</entry>
+    <entry align="right">3,044.31</entry>
+    <entry align="right">98.58</entry>
+    </row>
+    <row>
+    <entry align="right">6/1/2020</entry>
+    <entry align="right">3,100.29</entry>
+    <entry align="right">98.05</entry>
+    </row>
+    <row>
+    <entry align="right">7/1/2020</entry>
+    <entry align="right">3,271.12</entry>
+    <entry align="right">97.61</entry>
+    </row>
+    <row>
+    <entry align="right">8/1/2020</entry>
+    <entry align="right">3,500.31</entry>
+    <entry align="right">111.89</entry>
+    </row>
+    <row>
+    <entry align="right">9/1/2020</entry>
+    <entry align="right">3,363.00</entry>
+    <entry align="right">125.54</entry>
+    </row>
+    <row>
+    <entry align="right">10/1/2020</entry>
+    <entry align="right">3,269.96</entry>
+    <entry align="right">120.08</entry>
+    </row>
+    <row>
+    <entry align="right">11/1/2020</entry>
+    <entry align="right">3,621.63</entry>
+    <entry align="right">134.70</entry>
+    </row>
+    <row>
+    <entry align="right">12/1/2020</entry>
+    <entry align="right">3,756.07</entry>
+    <entry align="right">141.47</entry>
+    </row>
+    <row>
+    <entry align="right">1/1/2021</entry>
+    <entry align="right">3,714.24</entry>
+    <entry align="right">133.59</entry>
+    </row>
+    <row>
+    <entry align="right">2/1/2021</entry>
+    <entry align="right">3,811.15</entry>
+    <entry align="right">134.78</entry>
+    </row>
+    <row>
+    <entry align="right">3/1/2021</entry>
+    <entry align="right">3,943.34</entry>
+    <entry align="right">140.45</entry>
+    </row>
+    <row>
+    <entry align="right">3/12/2021</entry>
+    <entry align="right">3,943.34</entry>
+    <entry align="right">140.45</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    <caption>(data source: https://finance.yahoo.com/)</caption>
+    </table>
+    <figure id="fig-00004">
+    <title>Scatter Plot of Nike Stock Price versus S&amp;P 500</title>
+    <media alt="A scatter diagram for Nike stock against S&amp;P 500. The diagram shows that the Nike stock price rises from about 85 to 140 as the S&amp;P 500 rises from 2900 to 4000. The data points generally align along an upwardly sloping line."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_008.png"/></media>
+    </figure>
+    <para id="para-00026">Note the linear pattern of the points on the scatter plot. Because the data points generally align along a straight line, this provides an indication of a linear correlation between the price of Nike stock and the value of the <term class="no-emphasis" id="term-00012">S&amp;P 500</term> over this one-year time period.</para>
+    <para id="para-00027">The scatter plot can be generated using Excel as follows:</para>
+    <list list-type="enumerated" id="list-00004">
+    <item>Enter the <emphasis effect="italics">x</emphasis>-data in column A of a spreadsheet.</item>
+    <item>Enter the <emphasis effect="italics">y</emphasis>-data in column B.</item>
+    <item>Highlight the data with your mouse.</item>
+    <item>Go to the Insert menu and select the icon for a scatter plot, as shown in <link target-id="fig-00005" document="m00083"/>.</item>
+    </list>
+    <figure id="fig-00005">
+    <title>Excel Menu Showing the Scatter Plot Icon</title>
+    <media alt="Screenshot of Excel menu highlighting the Insert menu and the Scatter Plot icon in the Charts area."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_009.png"/></media>
+    </figure>
+    </section>
+    </section>
+    <section class="section-summary" id="sect-00008">
+    <title/>
+    <para id="para-00028"><emphasis effect="italics">Data visualization</emphasis> refers to the use of graphical displays to summarize a data set to help to interpret patterns and trends in the data. <emphasis effect="italics">Univariate data</emphasis> refers to observations recorded for a single characteristic or attribute, such as salaries or blood pressure measurements. When graphing univariate data, we can choose from among several types of graphs. The type of graph to be used for a certain data set will depend on the nature of the data and the purpose of the graph. Examples of graphs for univariate data include line graphs, bar graphs, and histograms. <emphasis effect="italics">Bivariate data</emphasis> refers to paired data where each value of one variable is paired with a value of a second variable. Examples of graphs for bivariate data include time series graphs and scatter plots.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00009">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00029"><link class="os-embed" url="#exercise/FI_Ch13_Sec6_MCQ12"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>bar graph</term> <meaning>a chart that presents categorical data in a summarized form based on frequency or relative frequency</meaning></definition>
+    <definition id="def-00002"><term>bivariate data</term> <meaning>paired data in which each value of one variable is paired with a value of a second variable</meaning></definition>
+    <definition id="def-00003"><term>data visualization</term> <meaning>the use of graphical displays, such as bar charts, histograms, and scatter plots, to help interpret patterns and trends in a data set</meaning></definition>
+    <definition id="def-00004"><term>histogram</term> <meaning>a graphical display of continuous data showing class intervals on the horizontal axis and frequency or relative frequency on the vertical axis</meaning></definition>
+    <definition id="def-00005"><term>scatter plot (or scatter diagram)</term> <meaning>a graphical display that shows the relationship between a dependent variable and an independent variable</meaning></definition>
+    <definition id="def-00006"><term>time series graph</term> <meaning>a graphical display used to show measurement data plotted versus time, where time is displayed on the horizontal axis</meaning></definition>
+    <definition id="def-00007"><term><emphasis effect="italics">x</emphasis>-axis</term> <meaning>the horizontal axis in a rectangular coordinate system</meaning></definition>
+    <definition id="def-00008"><term><emphasis effect="italics">y</emphasis>-axis</term> <meaning>the vertical axis in a rectangular coordinate system</meaning></definition>
+    </glossary>
+    </document>

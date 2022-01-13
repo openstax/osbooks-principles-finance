@@ -6,8 +6,266 @@
     <md:uuid>1129068b-6268-42e8-a9ad-b181c1c220d5</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
-</document>
+    <section class="learning-objectives" id="sect-00001">
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Create a vector of data values for the <term class="no-emphasis" id="term-00001">R statistical analysis tool</term>.</item>
+    <item>Write basic statistical commands using the R statistical analysis tool.</item>
+    </list>
+    </section>
+    <note class="link-to-learning" id="note-00001">
+    <title>Using the R Statistical Tool</title>
+    <para id="para-00002">There are many resources for learning and using the R statistical tool, including the following:</para>
+    <para id="para-00003"><link url="https://openstax.org/r/how-to-install">How to install R on different computer operating systems</link></para>
+    <para id="para-00004"><link url="https://openstax.org/r/introduction-to-using-R">Introduction to using R</link></para>
+    <para id="para-00005"><link url="https://openstax.org/r/how-to-import-and-export">How to import and export data using R</link></para>
+    <para id="para-00006"><link url="https://openstax.org/r/frequently-asked-questions">Frequently asked questions (FAQ) on using R</link></para>
+    </note>
+    <section id="sect-00002">
+    <title>Commands and Vectors in R</title>
+    <para id="para-00007">R is a statistical analysis tool that is widely used in the finance industry. It is available as a free program and provides an integrated suite of functions for data analysis, graphing, and statistical programming. R is increasingly being used as a data analysis and statistical tool as it is an open-source language and additional features are constantly being added by the user community. The tool can be used on many different computing platforms and can be downloaded at <link url="https://openstax.org/r/the-R-project-website">the R Project website</link>.</para>
+    <para id="para-00008">Once you have installed and started R on your computer, at the bottom of the R console, you should see the symbol >, which indicates that R is ready to accept commands.</para>
+    <code class="r" display="block">
+    Type 'demo()' for some demos, 'help()' for on-line help, or
+    'help.start()' for an HTML browser interface to help.
+
+    Type 'q()' to quit R.
+
+    <span class="red-code">></span> 
+    </code>
+    <para id="para-00009">R is a command-driven language, meaning that the user enters commands at the prompt, which R then executes one at a time. R can also execute a program containing multiple commands. There are ways to add a <term class="no-emphasis" id="term-00002">graphic user interface (GUI)</term> to R. An example of a GUI tool for R is <link url="https://openstax.org/r/RStudio">RStudio</link>.</para>
+    <para id="para-00010">The R command line can be used to perform any numeric calculation, similar to a handheld calculator. For example, to evaluate the expression <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>10</mn><mo>+</mo><mn>3</mn><mo>∙</mo><mn>7</mn><mo>,</mo></math> enter the following expression at the command line prompt and hit return:</para>
+    <code class="r" display="block" xmlns="http://cnx.rice.edu/cnxml">
+    <span class="red-code">> 10+3*7</span>
+
+    [1] 31    
+    </code>
+    <para id="para-00011">Most calculations in R are handled via functions. For statistical analysis, there are many preestablished functions in R to calculate mean, median, standard deviation, quartiles, and so on. Variables can be named and assigned values using the assignment operator &lt;-. For example, the following R commands assign the value of 20 to the variable named <emphasis effect="italics">x</emphasis> and assign the value of 30 to the variable named <emphasis effect="italics">y</emphasis>:</para>
+    <code class="r" display="block">
+    <span class="red-code">> x &lt;- 20</span>
+
+    <span class="red-code">> y &lt;- 30</span>
+    </code>
+    <para id="para-00012">These variable names can be used in any calculation, such as multiplying <emphasis effect="italics">x</emphasis> by <emphasis effect="italics">y</emphasis> to produce the result 600:</para>
+    <code class="r" display="block">
+    <span class="red-code">> x*y</span>
+
+    [1] 600
+    </code>
+    <para id="para-00013">The typical method for using functions in statistical applications is to first create a vector of data values. There are several ways to create vectors in R. For example, the <emphasis effect="italics">c</emphasis> function is often used to combine values into a vector. The following R command will generate a vector called <emphasis effect="italics">salaries</emphasis> that contains the data values 40,000, 50,000, 75,000, and 92,000:</para>
+    <code class="r" display="block">
+    <span class="red-code">> salaries &lt;- c(40000, 50000, 75000, 92000)</span>
+    </code>
+    <para id="para-00014">This vector <emphasis effect="italics">salaries</emphasis> can then be used in statistical functions such as mean, median, min, max, and so on, as shown:</para>
+    <code class="r" display="block">
+    <span class="red-code">> mean(salaries)</span>
+
+    [1] 64250
+      
+    <span class="red-code">> median(salaries)</span>
+      
+    [1] 62500
+      
+    <span class="red-code">> min(salaries)</span>
+      
+    [1] 40000
+      
+    <span class="red-code">> max(salaries)</span>
+      
+    [1] 92000      
+    </code>
+    <para id="para-00015">Another option for generating a vector in R is to use the <emphasis effect="italics">seq</emphasis> function, which will automatically generate a sequence of numbers. For example, we can generate a sequence of numbers from 1 to 5, incremented by 0.5, and call this vector <emphasis effect="italics">example1</emphasis>, as follows:</para>
+    <code class="r" display="block">
+    <span class="red-code">> example1 &lt;- seq(1, 5, by=0.5)</span>
+    </code>
+    <para id="para-00016">If we then type the name of the vector and hit enter, R will provide a listing of numeric values for that vector name.</para>
+    <code class="r" display="block">
+    <span class="red-code">> salaries</span>
+
+    [1] 40000 50000 75000 92000
+      
+    <span class="red-code">> example1</span>
+      
+    [1] 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0
+    </code>
+    <para id="para-00017">Often, we are interested in generating a quick statistical summary of a data set in the form of its mean, median, quartiles, min, and max. The R command called <emphasis effect="italics">summary</emphasis> provides these results.</para>
+    <code class="r" display="block">
+    <span class="red-code">> summary(salaries)</span>
+
+      Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   
+     40000   47500   62500   64250   79250   92000   
+    </code>
+    <para id="para-00018">For measures of spread, R includes a command for standard deviation, called <emphasis effect="italics">sd</emphasis>, and a command for variance, called <emphasis effect="italics">var</emphasis>. The standard deviation and variance are calculated with the assumption that the data set was collected from a sample.</para>
+    <code class="r" display="block">
+
+    <span class="red-code">> sd(salaries)</span>
+
+    [1] 23641.42
+      
+    <span class="red-code">> var(salaries)</span>
+      
+    [1] 558916667
+    </code>
+    <para id="para-00019">To calculate a weighted mean in R, create two vectors, one of which contains the data values and the other of which contains the associated weights. Then enter the R command <emphasis effect="italics">weighted.mean(values, weights)</emphasis>.</para>
+    <para id="para-00020">The following is an example of a weighted mean calculation in R:<newline/>Assume your portfolio contains 1,000 shares of XYZ Corporation, purchased on three different dates, as shown in <link target-id="table-00001" document="m00084"/>. Calculate the weighted mean of the purchase price, where the weights are based on the number of shares in the portfolio.</para>
+    <table summary="Some cells are left blank for visual design purposes." id="table-00001">
+    <title>Portfolio of XYZ Shares</title>
+    <tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+    <row>
+    <entry align="center">Date Purchased</entry>
+    <entry align="center">Purchase Price ($)</entry>
+    <entry align="center">Number of Shares Purchased</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="left">January 17</entry>
+    <entry align="center">78</entry>
+    <entry align="center">200</entry>
+    </row>
+    <row>
+    <entry align="left">February 10</entry>
+    <entry align="center">122</entry>
+    <entry align="center">300</entry>
+    </row>
+    <row>
+    <entry align="left">March 23</entry>
+    <entry align="center">131</entry>
+    <entry align="center">500</entry>
+    </row>
+    <row>
+    <entry align="left"><emphasis effect="bold">Total</emphasis></entry>
+    <entry align="center"><emphasis effect="bold"> </emphasis></entry>
+    <entry align="center"><emphasis effect="bold">1,000</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00021">Here is how you would create two vectors in R: the <emphasis effect="italics">price</emphasis> vector will contain the purchase price, and the <emphasis effect="italics">shares</emphasis> vector will contain the number of shares. Then execute the R command <emphasis effect="italics">weighted.mean(price, shares)</emphasis>, as follows:</para>
+    <code class="r" display="block">
+    <span class="red-code">> price &lt;- c(78, 122, 131)</span>
+
+    <span class="red-code">> shares &lt;- c(200, 300, 500)</span>
+      
+    <span class="red-code">> weighted.mean(price, shares)</span>
+      
+    [1] 117.7
+    </code>
+    <para id="para-00022">A list of common R statistical commands appears in <link target-id="table-00002" document="m00084"/>.</para>
+    <table summary=" " id="table-00002">
+    <title>List of Common R Statistical Commands</title>
+    <tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <thead>
+    <row>
+    <entry align="center">R Command</entry>
+    <entry align="center">Result</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry>mean( )</entry>
+    <entry>Calculates the arithmetic mean</entry>
+    </row>
+    <row>
+    <entry>median( )</entry>
+    <entry>Calculates the median</entry>
+    </row>
+    <row>
+    <entry>min( )</entry>
+    <entry>Calculates the minimum value</entry>
+    </row>
+    <row>
+    <entry>max( )</entry>
+    <entry>Calculates the maximum value</entry>
+    </row>
+    <row>
+    <entry>weighted.mean( )</entry>
+    <entry>Calculates the weighted mean</entry>
+    </row>
+    <row>
+    <entry>sum( )</entry>
+    <entry>Calculates the sum of values</entry>
+    </row>
+    <row>
+    <entry>summary( )</entry>
+    <entry>Calculates the mean, median, quartiles, min, and max</entry>
+    </row>
+    <row>
+    <entry>sd( )</entry>
+    <entry>Calculates the sample standard deviation</entry>
+    </row>
+    <row>
+    <entry>var( )</entry>
+    <entry>Calculates the sample variance</entry>
+    </row>
+    <row>
+    <entry>IQR( )</entry>
+    <entry>Calculates the interquartile range</entry>
+    </row>
+    <row>
+    <entry>barplot( )</entry>
+    <entry>Plots a bar chart of non-numeric data</entry>
+    </row>
+    <row>
+    <entry>boxplot( )</entry>
+    <entry>Plots a boxplot of numeric data</entry>
+    </row>
+    <row>
+    <entry>hist( )</entry>
+    <entry>Plots a histogram of numeric data</entry>
+    </row>
+    <row>
+    <entry>plot( )</entry>
+    <entry>Plots various graphs, including a scatter plot</entry>
+    </row>
+    <row>
+    <entry>freq( )</entry>
+    <entry>Creates a frequency distribution table</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    </section>
+    <section id="sect-00003">
+    <title>Graphing in R</title>
+    <para id="para-00023">There are many statistical applications in R, and many graphical representations are possible, such as bar graphs, histograms, time series plots, scatter plots, and others. The basic command to create a plot in R is the plot command, <emphasis effect="italics">plot(x, y)</emphasis>, where <emphasis effect="italics">x</emphasis> is a vector containing the <emphasis effect="italics">x</emphasis>-values of the data set and <emphasis effect="italics">y</emphasis> is a vector containing the <emphasis effect="italics">y</emphasis>-values of the data set.</para>
+    <para id="para-00024">The general format of the command is as follows:</para>
+    <code class="r" display="block">
+    <span class="red-code">>plot(x, y, main="text for title of graph", xlab="text for x-axis label", ylab="text for y-axis label")</span>
+    </code>
+    <para id="para-00025">For example, we are interested in creating a scatter plot to examine the correlation between the value of the S&amp;P 500 and Nike stock prices. Assume we have the data shown in <link target-id="table-00003" document="m00083"/>, collected over a one-year time period.</para>
+    <para id="para-00026">Note that data can be read into R from a text file or Excel file or from the clipboard by using various R commands. Assume the values of the S&amp;P 500 have been loaded into the vector <emphasis effect="italics">SP500</emphasis> and the values of Nike stock prices have been loaded into the vector <emphasis effect="italics">Nike</emphasis>. Then, to generate the scatter plot, we can use the following R command:</para>
+    <code class="r" display="block">
+    <span class="red-code">>plot(SP500, Nike, main="Scatter Plot of Nike Stock Price vs. S&amp;P 500", xlab="S&amp;P 500", ylab="Nike Stock Price")</span>
+    </code>
+    <para id="para-00027">As a result of these commands, R provides the scatter plot shown in <link target-id="fig-00001" document="m00084"/>. This is the same data that was used to generate the scatter plot in <link target-id="fig-00004" document="m00083"/> in Excel.</para>
+    <figure id="fig-00001">
+    <title>Scatter Plot Generated by R for Nike Stock Price versus S&amp;P 500</title>
+    <media alt="A scatter plot generated by the R statistical program compares the Nike stock price against the Standard &amp; Poor's 500 stock market index. The scatter plot shows that the Nike stock price rises from approximately 85 to 140, as the S&amp;P 500 rises from approximately 2900 to 4000. The data points generally align along an upwardly sloping line."><image mime-type="image/png" src="../../media/FINAN_Figure_13_07_010.png"/></media>
+    </figure>
+    <section class="cfa-institute" id="sect-00004">
+    <title>CFA Institute</title>
+    <para id="para-00028">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/chapter13-CFA">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+    </section>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00029">R is an open-source statistical analysis tool that is widely used in the finance industry. It provides an integrated suite of functions for data analysis, graphing, and statistical programming. R is increasingly being used as a data analysis and statistical tool as it is an open-source language, and additional features are constantly being added by the user community. This tool can be used on many different computing platforms and can be downloaded at <link url="https://openstax.org/r/The-R-Project">The R Project for Statistical Computing</link>.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00030"><link class="os-embed" url="#exercise/FI_Ch13_Sec7_MCQ13"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00007">
+    <title/>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00031"><link class="os-embed" url="#exercise/FI_Ch13_Sec7_PRQ7"/></para></problem></exercise>
+    </section>
+    </content>
+    </document>
