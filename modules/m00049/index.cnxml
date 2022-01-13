@@ -491,7 +491,7 @@
     <para id="para-00047">Number of Periods (NPER)</para>
     <para id="para-00048">Interest Rate (RATE)</para>
     </quote>
-    <para id="para-00049">Excel also includes a function called Payment (PMT) that is used in calculations involving multiple payments or deposits (annuities). These will be covered in [link]Time Value of Money II: Equal Multiple Payments [/link] [Production: Create short link to Chapter 8]].</para>
+    <para id="para-00049">Excel also includes a function called Payment (PMT) that is used in calculations involving multiple payments or deposits (annuities). These will be covered in [link]Time Value of Money II: Equal Multiple Payments [/link]].</para>
     <section id="sect-00010">
     <title>Future Value (FV)</title>
     <para id="para-00050">The Future Value function in Excel is also referred to as FV and can be used to calculate the value of a single lump sum amount carried to any point in the future. The FV function syntax is similar to that of the other four basic time-value functions and has the following inputs (referred to as arguments), similar to the functions listed above:</para>
