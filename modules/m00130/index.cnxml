@@ -6,8 +6,251 @@
     <md:uuid>d12839d6-413a-4db7-ace5-a62c7760972c</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Describe interest rate risk.</item>
+    <item>Explain how a change in interest rates changes the value of cash flows.</item>
+    <item>Describe the use of an interest rate swap.</item>
+    </list>
+    </section>
+    <para id="para-00002">An interest rate is simply the price of borrowing money. Just as other prices are volatile, interest rates are also volatile. Just as volatility in other prices leads to uncertain cash flows for a company, volatility in interest rates can also lead to uncertain cash flows.</para>
+    <section id="sect-00002">
+    <title>Measuring Interest Rate Risk</title>
+    <para id="para-00003">Suppose that a company is supposed to pay a bill of $1,000 in 10 years. The present value of this bill depends on the level of interest rates. If the interest rate is 5%, the present value of the bill is <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn></mrow><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>05</mn></mrow></mfenced><mn>10</mn></msup></mfrac><mo>=</mo><mo>$</mo><mn>613</mn><mo>.</mo><mn>91</mn></math>. If the interest rate rises to 6%, the present value of the bill is <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn></mrow><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>06</mn></mrow></mfenced><mn>10</mn></msup></mfrac><mo>=</mo><mo>$</mo><mn>558</mn><mo>.</mo><mn>39</mn></math>. The increase in the interest rate by 1% causes the present value of the expected cash flow to fall by <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>613</mn><mo>.</mo><mn>91</mn><mo>-</mo><mn>558</mn><mo>.</mo><mn>39</mn></mrow><mrow><mn>613</mn><mo>.</mo><mn>91</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>0904</mn><mo>=</mo><mn>9</mn><mo>.</mo><mn>04</mn><mo>%</mo></math>.</para>
+    <para id="para-00004" xmlns="http://cnx.rice.edu/cnxml">Interest rate risk can be highlighted by looking at bonds. Consider two $1,000 face value bonds with a 5% coupon rate, paid semiannually. One of the bonds matures in five years, and the other bond matures in 30 years. If the market interest rate is 5%, each of these bonds will sell for face value, or $1,000. If, instead, the market interest rate is 6%, the five-year bond will sell for $957.35 and the 30-year bond will sell for $861.62.</para>
+    <para id="para-00005">Notice that as the interest rate rises, the price of both of these bonds will fall. However, the price of the longer-term bond will fall by more than the price of the shorter-term bond. The longer-term bond price will fall by 1.38%; the shorter-term bond price will fall by only 0.43%.</para>
+    <para id="para-00006">Consider two additional $1,000 face value bonds. The difference is that these bonds have a 6% coupon rate, paid semiannually. If a bond has a 6% coupon rate and matures in five years, it will sell for $1,043.76 when the market interest rate is 5%. A 30-year bond that matures in 30 years and has a 6% coupon rate will sell for $1,154.54 when the market interest rate is 5%. However, if the interest rate in the economy is 6%, both of these bonds will sell for a price of $1,000. The price of the five-year bond will drop by 4.19%; the price of the 30-year bond will drop by 13.39%.</para>
+    <note class="think-through" id="note-00001">
+    <title>Calculating Bond Prices as the Interest Rates Changes</title>
+    <exercise class="unnumbered" id="exer-00001"><problem id="prob-00001">
+    <para id="para-00007">You are considering purchasing a $10,000 face value bond with a 4% coupon rate, paid semiannually, that matures in 20 years. If you require a 5% return to purchase this bond, what is the maximum price you would be willing to pay for the bond? If, instead, you require an 8% return to purchase this bond, what is the maximum price you would be willing to pay for the bond?</para>
+    </problem>
+    <solution id="sol-00001"><para id="para-00008"><emphasis effect="bold">Solution:</emphasis></para>
+    <para id="para-00009">If the bond pays coupon interest semiannually, you will receive one-half of the face value of the bond multiplied by the coupon rate every six months. So, you will receive 40 coupon payments of <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>10</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>02</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>200</mn></math>. At maturity, you will receive one lump sum of the face value of the bond. Follow the steps in Table 20.3 to calculate the price of the bond if you require a 5% return, using a financial calculator.</para>
+    <table summary="Some cells are left blank for visual design purposes." id="table-00001" xmlns="http://cnx.rice.edu/cnxml">
+    <title>Calculator Step to Price a Bond Requiring a 5% Return<footnote id="foot-00001">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup> Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
+    <tgroup cols="5">
+    <colspec colnum="1" colname="c1" colwidth="1*"/>
+    <colspec colnum="2" colname="c2" colwidth="3*"/>
+    <colspec colnum="3" colname="c3" colwidth="3*"/>
+    <colspec colnum="4" colname="c4" colwidth="3*"/>
+    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <thead>
+    <row>
+    <entry align="center">Step</entry>
+    <entry align="center">Description</entry>
+    <entry align="center">Enter</entry>
+    <entry align="center" namest="c4" nameend="c5">Display</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">1</entry>
+    <entry align="left">Enter the number of coupon payments you will receive</entry>
+    <entry align="right">40 <span class="primary-function">N</span></entry>
+    <entry align="left">N =</entry>
+    <entry align="right">40</entry>
+    </row>
+    <row>
+    <entry align="center">2</entry>
+    <entry align="left">Enter your semiannual required return</entry>
+    <entry align="right">2.5 <span class="primary-function">I/Y</span></entry>
+    <entry align="left">I/Y =</entry>
+    <entry align="right">2.5</entry>
+    </row>
+    <row>
+    <entry align="center">3</entry>
+    <entry align="left">Enter the semiannual coupon payment</entry>
+    <entry align="right">200 <span class="primary-function">PMT</span></entry>
+    <entry align="left">PMT =</entry>
+    <entry align="right">200</entry>
+    </row>
+    <row>
+    <entry align="center">4</entry>
+    <entry align="left">Enter the face value of the bond</entry>
+    <entry align="right">10000 <span class="primary-function">FV</span></entry>
+    <entry align="left">FV =</entry>
+    <entry align="right">10,000</entry>
+    </row>
+    <row>
+    <entry align="center">5</entry>
+    <entry align="left">Calculate the present value</entry>
+    <entry align="right"><span class="primary-function">CPT PV</span></entry>
+    <entry align="left">PV =</entry>
+    <entry align="right">-8,744.86</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00010">When your required yield is 5%, the most you would be willing to pay for this bond is $8,744.86.</para>
+    <para id="para-00011">To calculate the price of the bond if your required return is 8%, use the same process, replacing the I/YR in step 2 with 4 (see Table 20.4). All other variables remain the same because the characteristics of the bond have not changed.</para>
+    <table summary="Some cells are left blank for visual design purposes." id="table-00002">
+    <title>Calculator Steps to Price a Bond Requiring an 8% Return</title>
+    <tgroup cols="5">
+    <colspec colnum="1" colname="c1" colwidth="1*"/>
+    <colspec colnum="2" colname="c2" colwidth="1*"/>
+    <colspec colnum="3" colname="c3" colwidth="3*"/>
+    <colspec colnum="4" colname="c4" colwidth="3*"/>
+    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <thead>
+    <row>
+    <entry align="center">Step</entry>
+    <entry align="center">Description</entry>
+    <entry align="center">Enter</entry>
+    <entry align="center" namest="c4" nameend="c5">Display</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">1</entry>
+    <entry align="left">Enter the number of coupon payments you will receive</entry>
+    <entry align="right">40 <span class="primary-function">N</span></entry>
+    <entry align="left">N =</entry>
+    <entry align="right">40</entry>
+    </row>
+    <row>
+    <entry align="center">2</entry>
+    <entry align="left">Enter your semiannual required return</entry>
+    <entry align="right">4 <span class="primary-function">I/Y</span></entry>
+    <entry align="left">I/Y =</entry>
+    <entry align="right">4</entry>
+    </row>
+    <row>
+    <entry align="center">3</entry>
+    <entry align="left">Enter the semiannual coupon payment</entry>
+    <entry align="right">200 <span class="primary-function">PMT</span></entry>
+    <entry align="left">PMT =</entry>
+    <entry align="right">200</entry>
+    </row>
+    <row>
+    <entry align="center">4</entry>
+    <entry align="left">Enter the face value of the bond</entry>
+    <entry align="right">10000 <span class="primary-function">FV</span></entry>
+    <entry align="left">FV =</entry>
+    <entry align="right">10,000</entry>
+    </row>
+    <row>
+    <entry align="center">5</entry>
+    <entry align="left">Calculate the present value</entry>
+    <entry align="right"><span class="primary-function">CPT PV</span></entry>
+    <entry align="left">PV =</entry>
+    <entry align="right">-6,041.45</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00012">If your required return is 8% to invest in this bond, you will be willing to pay only $6,041.45 to purchase the bond.</para>
+    <para id="para-00013">Thus, if interest rates rise because of changing market conditions, the price of bonds will fall.</para>
+    </solution>
+    </exercise>
+    </note>
+    <para id="para-00014">The sensitivity of bond prices to changes in the interest rate is known as interest rate risk. <term id="term-00001">Duration</term> is an important measure of interest rate risk that incorporates the maturity and coupon rate of a bond as well as the level of current market interest rates. Calculating duration is a complex topic that is beyond the scope of this introductory textbook, but it is useful to note that</para>
+    <list id="list-00002">
+    <item>the higher the duration of a bond, the more sensitive the price of the bond will be to interest rate changes;</item>
+    <item>the duration of a bond will be higher when market yields are lower, all else being equal;</item>
+    <item>the duration of a bond will be higher the longer the maturity of the bond, all else being equal; and</item>
+    <item>the duration of a bond will be higher the lower the coupon rate on the bond, all else being equal.</item>
+    </list>
+    </section>
+    <section id="sect-00003">
+    <title>Swap-Based Hedging</title>
+    <para id="para-00015">As the name suggests, a <term id="term-00002">swap</term> involves two parties agreeing to swap, or exchange, something. Generally, the two parties, known as counterparties, are swapping obligations to make specified payment streams.</para>
+    <para id="para-00016">To illustrate the basics of how an interest rate swap works, let’s consider two hypothetical companies, Alpha and Beta. Alpha is a strong, well-established company with a AAA (triple-A) bond rating. This means that Alpha has the highest rating a company can have. With this high rating, Alpha can borrow at relatively low interest rates. Often, companies in this situation will borrow at a floating rate. This means that their interest rate goes up and down as interest rates in the overall economy vary. The floating rate will be tied to a benchmark rate that is widely quoted in the financial press. Historically, companies have often used the <term class="no-emphasis" id="term-00003">London Interbank Offer Rate (LIBOR)</term> as the benchmark rate. Because published quotes for LIBOR will be phased out by 2023, firms are beginning to use alternative rates. As of yet, no single alternative has emerged as the most commonly used rate; therefore, LIBOR will be used in our example. Suppose that Alpha finds that it can borrow money at rate equal to LIBOR + 0.25%; thus, if LIBOR is 2.75%, the company will pay 3.0% to borrow. If the company wants to borrow at a long-term fixed rate, its cost of borrowing will be 5.0%.</para>
+    <note class="link-to-learning" id="note-00002">
+    <title><term class="no-emphasis" id="term-00004">LIBOR</term> Transition</title>
+    <para id="para-00017">Although the basic principles of financial transactions remain the same over time, the particular financial instruments used change from time to time. Innovation, regulation, and technological advances lead to these changes in financial instruments. The use of LIBOR as a benchmark rate is winding down in the early 2020s. To find out more about this transition and how it impacts companies, visit the <link url="https://openstax.org/r/About_LIBOR_Transition">About LIBOR Transition</link> website.</para>
+    </note>
+    <para id="para-00018">Beta has a BBB bond rating. Although this is considered a good, investment-grade rating, it is lower than the rating of Alpha. Because Beta is less creditworthy and a bit riskier than Alpha, it will have to pay a higher interest rate to borrow money. If Beta wants to borrow money at a floating rate, it will need to pay <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>75</mn><mi>%</mi><mo>.</mo></math>. If LIBOR is 2.75%, Beta must pay 3.5% on its floating rate debt. In order for Beta to borrow at a long-term fixed rate, its cost of borrowing will be 6.75%.</para>
+    <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">Let’s consider how these two companies can enter into a swap in which both parties benefit. Table 20.5 summarizes the situation and the rates at which Alpha and Beta can borrow. It also illustrates a way in which an interest rate swap can benefit both Alpha and Beta.</para>
+    <table summary="" id="table-00003">
+    <title>Example of a Swap Agreement</title>
+    <tgroup cols="3">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+    <row>
+    <entry align="left"> </entry>
+    <entry align="left">Alpha</entry>
+    <entry align="left">Beta</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="right">Bond rating</entry>
+    <entry align="right">AAA</entry>
+    <entry align="right">BBB</entry>
+    </row>
+    <row>
+    <entry align="right">Floating rate</entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>25</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>75</mn></math></entry>
+    </row>
+    <row xmlns="http://cnx.rice.edu/cnxml">
+    <entry align="right">Fixed rate</entry>
+    <entry align="right">5</entry>
+    <entry align="right">6.75</entry>
+    </row>
+    <row>
+    <entry align="right">Rate company chooses</entry>
+    <entry align="right">Fixed at 5.0</entry>
+    <entry align="right">Floating at <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>75</mn></math></entry>
+    </row>
+    <row xmlns="http://cnx.rice.edu/cnxml">
+    <entry align="right">Swap</entry>
+    <entry align="right">N/A</entry>
+    <entry align="right">N/A</entry>
+    </row>
+    <row>
+    <entry align="right">Beta pays Alpha fixed rate</entry>
+    <entry align="right">5.5</entry>
+    <entry align="right">-5.5</entry>
+    </row>
+    <row>
+    <entry align="right">Alpha pays Beta floating rate</entry>
+    <entry align="right">-LIBOR</entry>
+    <entry align="right">+LIBOR</entry>
+    </row>
+    <row>
+    <entry align="right">Payments and receipts</entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>5</mn><mo>.</mo><mn>0</mn><mo> </mo><mo>+</mo><mo> </mo><mn>5</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>–</mo><mo> </mo><mi>LIBOR</mi></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mo>(</mo><mi>LIBOR</mi><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>75</mn><mo>)</mo><mo> </mo><mo>–</mo><mo> </mo><mn>5</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>+</mo><mo> </mo><mi>LIBOR</mi></math></entry>
+    </row>
+    <row xmlns="http://cnx.rice.edu/cnxml">
+    <entry align="right">Net amount</entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>–</mo><mo> </mo><mi>LIBOR</mi></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml">-6.25</entry>
+    </row>
+    <row>
+    <entry align="right">Benefit</entry>
+    <entry align="right">0.75</entry>
+    <entry align="right">0.5</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00020">Alpha borrows in the capital markets at a fixed rate of 5%. Beta chooses to borrow at a floating rate that equals <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>75</mn><mo>%</mo><mo>.</mo><mo> </mo></math> Beta also agrees to pay Alpha a fixed rate of 5.5%. In essence, Beta is paying 5.5% to Alpha, 0.75% to its lender, and LIBOR to its lender.</para>
+    <para id="para-00021" xmlns="http://cnx.rice.edu/cnxml">In return, Alpha promises to pay Beta LIBOR. The exact amount that Alpha will pay to Beta fluctuates as LIBOR fluctuates. However, from Beta’s perspective, the payment of LIBOR it receives from Alpha exactly offsets the payment of LIBOR it makes to its lender. When LIBOR increases, the rate of <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>75</mn><mi>%</mi></math> that Beta is paying to its lender increases, but the LIBOR rate it receives from Alpha also increases. When LIBOR decreases, Beta receives less from Alpha, but it also pays less to its lender. Because the LIBOR it receives from Alpha is exactly equal to the LIBOR it pays to its lender, Beta’s net amount of interest paid is 6.25%—the 5.5% it pays to Alpha plus the 0.75% it pays to its lender.</para>
+    <para id="para-00022" xmlns="http://cnx.rice.edu/cnxml">Alpha is in the position of paying 5.0% to its lender and LIBOR to Beta while receiving 5.5% from Beta. This means that Alpha’s net interest paid is <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo> </mo><mo>–</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>5</mn><mi>%</mi><mo>.</mo></math> Alpha is said to have swapped its fixed interest rate for a floating rate. Because it is paying <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo> </mo><mo>–</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>5</mn><mi>%</mi></math>, it will experience fluctuating interest rates; however, as a company with a AAA bond rating, it is a strong, creditworthy company that can withstand that interest rate exposure. It would have cost Alpha <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>25</mn><mi>%</mi></math> to borrow the money from its lenders at a variable rate. By participating in this swap arrangement, Alpha has been able to lower its interest rate by 0.75%.</para>
+    <para id="para-00023" xmlns="http://cnx.rice.edu/cnxml">Through this swap arrangement, Beta has been able to fix its interest rate at 6.25% rather than having a variable rate. This predictability is a benefit for a company, especially one that is in a bit more precarious position as far as its creditworthiness and stability. The 6.25% Beta pays as a result of this arrangement is 0.5% below the 6.75% it would have paid if it simply borrowed from its lenders at a fixed rate.</para>
+    </section>
+    <section class="section-summary" id="sect-00004">
+    <title/>
+    <para id="para-00024">When interest rates increase, the present value of future cash flows decreases. Duration is a measure of interest rate risk. A swap involves two parties agreeing to exchange something, often specified payment streams.</para>
+    </section>
+    <section class="cfa-institute" id="sect-00005">
+    <para id="para-00025">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/CFA®_Level_I_Study_Session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <title/>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch20_Sec04_MCQ11"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch20_Sec04_MCQ12"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>duration</term> <meaning>a measure of interest rate risk</meaning></definition>
+    <definition id="def-00002"><term>swap</term> <meaning>an agreement between two parties to exchange something, such as their obligations to make specified payment streams</meaning></definition>
+    </glossary>    
 </document>

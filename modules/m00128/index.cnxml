@@ -6,8 +6,108 @@
     <md:uuid>d4420f31-57a2-4f02-9c04-168b7680e32e</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Describe commodity price risk.</item>
+    <item>Explain the use of long-term contracts as a hedge.</item>
+    <item>Explain the use vertical integration as a hedge.</item>
+    <item>Explain the use of futures contracts as a hedge.</item>
+    </list>
+    </section>
+    <para id="para-00002">One of the most significant risks that many companies face arises from normal business operations. Companies purchase raw materials to produce the products and provide the services they sell. A change in the market price of these raw materials can significantly impact the profitability of a company.</para>
+    <para id="para-00003">For example, Starbucks must purchase coffee beans in order to make its coffee drinks. The price of coffee beans is highly volatile. Sample prices of a pound of Arabica coffee beans over the past couple of decades are shown in Table 20.1. Over this period, the price of coffee beans ranged from a low of $0.52 per pound in the summer of 2002 to a high of over $3.00 per pound in the spring of 2011. The costs, and thus the profits, of Starbucks will vary greatly depending on if the company is paying less than $1.00 per pound for coffee or if it is paying three times that much.</para>
+    <table summary="" id="table-00001">
+    <title>Price of Coffee in Select Years, 2000-2020<footnote id="foot-00001">Data from International Monetary Fund. ≴Global Price of Coffee, Other Mild Arabica (PCOFFOTMUSDM).≵ FRED. Federal Reserve Bank of St. Louis, accessed August 6, 2021. https://fred.stlouisfed.org/series/PCOFFOTMUSDM</footnote></title>
+    <tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <thead>
+    <row>
+    <entry align="left">Date</entry>
+    <entry align="left">Price per Pound ($)</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="left">January 1, 2000</entry>
+    <entry align="right">1.09</entry>
+    </row>
+    <row>
+    <entry align="left">January 1, 2004</entry>
+    <entry align="right">0.74</entry>
+    </row>
+    <row>
+    <entry align="left">January 1, 2008</entry>
+    <entry align="right">1.39</entry>
+    </row>
+    <row>
+    <entry align="left">January 1, 2012</entry>
+    <entry align="right">2.41</entry>
+    </row>
+    <row>
+    <entry align="left">January 1, 2016</entry>
+    <entry align="right">1.46</entry>
+    </row>
+    <row>
+    <entry align="left">January 1, 2020</entry>
+    <entry align="right">1.50</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <section class="learning-objectives" id="sect-00002">
+    <title>Long-Term Contracts</title>
+    <para id="para-00004">One method of hedging the risk of volatile input prices is for a firm to enter into long-term contracts with its suppliers. Starbucks, for example, could enter into an agreement with a coffee farmer to purchase a particular quantity of coffee beans at a predetermined price over the next several years.</para>
+    <para id="para-00005">These long-term contracts can benefit both the buyer and the seller. The buyer is concerned that rising commodity prices will increase its cost of goods sold. The seller, however, is concerned that falling commodity prices will mean lower revenue. By entering into a long-term contract, the buyer is able to lock in a price for its raw materials and the seller is able to lock in its sales price. Thus, both parties are able to reduce uncertainty.</para>
+    <para id="para-00006">While long-term contracts reduce uncertainty about the commodity price, and thus reduce risk, there are several possible disadvantages to these types of contracts. First, both parties are exposed to the risk that the other party may default and fail to live up to the terms of the contract. Second, these contracts cannot be entered into anonymously; the parties to the contract know each other’s identity. This lack of anonymity may have strategic disadvantages for some firms. Third, the value of this contract cannot be easily determined, making it difficult to track gains and losses. Fourth, canceling the contract may be difficult or even impossible.</para>
+    </section>
+    <section class="learning-objectives" id="sect-00003">
+    <title>Vertical Integration</title>
+    <para id="para-00007">A common method of handling the risk associated with volatile input prices is <term id="term-00001">vertical integration</term>, which involves the merger of a company and its supplier. For Starbucks, a vertical integration would involve Starbucks owning a coffee bean farm. If the price of coffee beans rises, the firm’s costs increase and the supplier’s revenues rise. The two companies can offset these risks by merging.</para>
+    <para id="para-00008">Although vertical integration can reduce commodity price risk, it is not a perfect hedge. Starbucks may decrease its commodity price risk by purchasing a coffee farm, but that action may expose it to other risks, such as land ownership and employment risk.</para>
+    </section>
+    <section class="learning-objectives" id="sect-00004">
+    <title>Futures Contracts</title>
+    <para id="para-00009">Another method of hedging commodity price risk is the use of a futures contract. A commodity futures contract is designed to avoid some of the disadvantages of entering into a long-term contract with a supplier. A <term id="term-00002">futures contract</term> is an agreement to trade an asset on some future date at a price locked in today. Futures exist for a range of commodities, including natural resources such as oil, natural gas, coal, silver, and gold and agricultural products such as soybeans, corn, wheat, rice, sugar, and cocoa.</para>
+    <para id="para-00010">Futures contracts are traded anonymously on an exchange; the market price is publicly observable, and the market is highly liquid. The company can get out of the contract at any time by selling it to a third party at the current market price.</para>
+    <para id="para-00011">A futures contract does not have the credit risk that a long-term contract has. Futures exchanges require traders to post <term id="term-00003">margin</term> when buying or selling commodities futures contracts. The margin, or collateral, serves as a guarantee that traders will honor their obligations. Additionally, through a procedure known as <term id="term-00004">marking to market</term>, cash flows are exchanged daily rather than only at the end of the contract. Because gains and losses are computed each day based on the change in the price of the futures contract, there is not the same risk as with a long-term contract that the counterparty to the contract will not be able to fulfill their obligation.</para>
+    <note class="think-through" id="note-00001">
+    <title>The CME Group</title>
+    <para id="para-00012">In 2007, the <term class="no-emphasis" id="term-00005">Chicago Mercantile Exchange</term> merged with the <term class="no-emphasis" id="term-00006">Chicago Board of Trade</term> to form <term class="no-emphasis" id="term-00007">CME Group Inc.</term> CME Group provides trading in futures as well as other types of contracts that companies can use to hedge risk.</para>
+    <para id="para-00013">You can watch the video <link url="https://openstax.org/r/Getting_Started_with_Your_Broker">Getting Started with Your Broker</link> to learn how futures contracts for agricultural products such as coffee beans, corn, wheat, and soybeans are traded. You will also see other types of futures contracts traded, including futures for silver, crude oil, natural gas, Japanese yen, and Russian rubles.</para>
+    </note>
+    </section>
+    <section class="section-summary" id="sect-00005">
+    <title/>
+    <para id="para-00014">Companies do not know how much they will have to pay for raw materials in future months. The price of raw materials will change as economic conditions change, impacting a company’s cost of goods sold and profits. Some ways that a company can hedge this risk are through vertical integration, long-term contracts, and futures contracts.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00006">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00015"><link class="os-embed" url="#exercise/FI_Ch20_Sec02_MCQ7"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00007">
+    <title/>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00016"><link class="os-embed" url="#exercise/FI_Ch20_Sec02_RVQ2"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00017"><link class="os-embed" url="#exercise/FI_Ch20_Sec02_RVQ5"/></para></problem></exercise>
+    </section>
+    <section class="video-activity" id="sect-00008">
+    <title/>
+    <section id="sect-00009">
+    <title>Hedging at Southwest Airlines</title>
+    <media alt="cash-profit">
+    <iframe width="660" height="371.4" src="https://openstax.org/r/Single_Biggest_Risk"/></media>
+    <para id="para-00018">Jet fuel costs represent a major expense for airlines. Southwest Airlines has been known as the most aggressive airline when it comes to hedging the risk of jet fuel cost volatility. In this interview, the CEO of Southwest Airlines, Gary Kelly, discusses crude oil prices in the spring of 2012 and the impact on Southwest Airlines.</para>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00019"><link class="os-embed" url="#exercise/FI_Ch20_Sec02_VA1Q1"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00020"><link class="os-embed" url="#exercise/FI_Ch20_Sec02_VA1Q2"/></para></problem></exercise>
+    </section>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>futures contract</term> <meaning>a standardized contract to trade an asset on some future date at a price locked in today</meaning></definition>
+    <definition id="def-00002"><term>margin</term> <meaning>the collateral that must be posted to guarantee that a trader will honor a futures contract</meaning></definition>
+    <definition id="def-00003"><term>marking to market</term> <meaning>a procedure by which cash flows are exchanged daily for a futures contract, rather than at the end of the contract</meaning></definition>
+    <definition id="def-00004"><term>vertical integration</term> <meaning>the merger of a company with its supplier</meaning></definition>
+    </glossary>    
 </document>
