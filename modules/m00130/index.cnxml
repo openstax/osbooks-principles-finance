@@ -28,7 +28,7 @@
     <para id="para-00007">You are considering purchasing a $10,000 face value bond with a 4% coupon rate, paid semiannually, that matures in 20 years. If you require a 5% return to purchase this bond, what is the maximum price you would be willing to pay for the bond? If, instead, you require an 8% return to purchase this bond, what is the maximum price you would be willing to pay for the bond?</para>
     </problem>
     <solution id="sol-00001"><para id="para-00008"><emphasis effect="bold">Solution:</emphasis></para>
-    <para id="para-00009">If the bond pays coupon interest semiannually, you will receive one-half of the face value of the bond multiplied by the coupon rate every six months. So, you will receive 40 coupon payments of <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>10</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>02</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>200</mn></math>. At maturity, you will receive one lump sum of the face value of the bond. Follow the steps in Table 20.3 to calculate the price of the bond if you require a 5% return, using a financial calculator.</para>
+    <para id="para-00009">If the bond pays coupon interest semiannually, you will receive one-half of the face value of the bond multiplied by the coupon rate every six months. So, you will receive 40 coupon payments of <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>10</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>02</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>200</mn></math>. At maturity, you will receive one lump sum of the face value of the bond. Follow the steps in <link target-id="table-00001" document="m00130" xmlns="http://cnx.rice.edu/cnxml"/> to calculate the price of the bond if you require a 5% return, using a financial calculator.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00001" xmlns="http://cnx.rice.edu/cnxml">
     <title>Calculator Step to Price a Bond Requiring a 5% Return<footnote id="foot-00001">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup> Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
     <tgroup cols="5">
@@ -85,7 +85,7 @@
     </tgroup>
     </table>
     <para id="para-00010">When your required yield is 5%, the most you would be willing to pay for this bond is $8,744.86.</para>
-    <para id="para-00011">To calculate the price of the bond if your required return is 8%, use the same process, replacing the I/YR in step 2 with 4 (see Table 20.4). All other variables remain the same because the characteristics of the bond have not changed.</para>
+    <para id="para-00011">To calculate the price of the bond if your required return is 8%, use the same process, replacing the I/YR in step 2 with 4 (see <link target-id="table-00002" document="m00130"/>). All other variables remain the same because the characteristics of the bond have not changed.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00002">
     <title>Calculator Steps to Price a Bond Requiring an 8% Return</title>
     <tgroup cols="5">
@@ -163,7 +163,7 @@
     <para id="para-00017">Although the basic principles of financial transactions remain the same over time, the particular financial instruments used change from time to time. Innovation, regulation, and technological advances lead to these changes in financial instruments. The use of LIBOR as a benchmark rate is winding down in the early 2020s. To find out more about this transition and how it impacts companies, visit the <link url="https://openstax.org/r/About_LIBOR_Transition">About LIBOR Transition</link> website.</para>
     </note>
     <para id="para-00018">Beta has a BBB bond rating. Although this is considered a good, investment-grade rating, it is lower than the rating of Alpha. Because Beta is less creditworthy and a bit riskier than Alpha, it will have to pay a higher interest rate to borrow money. If Beta wants to borrow money at a floating rate, it will need to pay <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>75</mn><mi>%</mi><mo>.</mo></math>. If LIBOR is 2.75%, Beta must pay 3.5% on its floating rate debt. In order for Beta to borrow at a long-term fixed rate, its cost of borrowing will be 6.75%.</para>
-    <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">Let’s consider how these two companies can enter into a swap in which both parties benefit. Table 20.5 summarizes the situation and the rates at which Alpha and Beta can borrow. It also illustrates a way in which an interest rate swap can benefit both Alpha and Beta.</para>
+    <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">Let’s consider how these two companies can enter into a swap in which both parties benefit. <link target-id="table-00003" document="m00130"/> summarizes the situation and the rates at which Alpha and Beta can borrow. It also illustrates a way in which an interest rate swap can benefit both Alpha and Beta.</para>
     <table summary="" id="table-00003">
     <title>Example of a Swap Agreement</title>
     <tgroup cols="3">
