@@ -84,4 +84,4 @@
     <definition id="def-00002"><term>Sharpe ratio</term> <meaning>a reward-to-risk measure of portfolio performance, calculated by subtracting the risk-free rate from the average portfolio return and then dividing by the standard deviation of the portfolio</meaning></definition>
     <definition id="def-00003"><term>Treynor ratio</term> <meaning>a reward-to-risk measure of portfolio performance, calculated by subtracting the risk-free rate from the average portfolio return and then dividing by the beta of the portfolio</meaning></definition>
     </glossary>    
-</document>ent>
+</document>
