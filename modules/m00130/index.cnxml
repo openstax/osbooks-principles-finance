@@ -172,59 +172,59 @@
     <colspec colnum="3" colname="c3"/>
     <thead>
     <row>
-    <entry align="left"> </entry>
-    <entry align="left">Alpha</entry>
-    <entry align="left">Beta</entry>
+    <entry align="center"> </entry>
+    <entry align="center">Alpha</entry>
+    <entry align="center">Beta</entry>
     </row>
     </thead>
     <tbody>
     <row>
-    <entry align="right">Bond rating</entry>
+    <entry align="left">Bond rating</entry>
     <entry align="right">AAA</entry>
     <entry align="right">BBB</entry>
     </row>
     <row>
-    <entry align="right">Floating rate</entry>
+    <entry align="left">Floating rate</entry>
     <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>25</mn></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>75</mn></math></entry>
     </row>
     <row xmlns="http://cnx.rice.edu/cnxml">
-    <entry align="right">Fixed rate</entry>
+    <entry align="left">Fixed rate</entry>
     <entry align="right">5</entry>
     <entry align="right">6.75</entry>
     </row>
     <row>
-    <entry align="right">Rate company chooses</entry>
+    <entry align="left">Rate company chooses</entry>
     <entry align="right">Fixed at 5.0</entry>
     <entry align="right">Floating at <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>75</mn></math></entry>
     </row>
     <row xmlns="http://cnx.rice.edu/cnxml">
-    <entry align="right">Swap</entry>
+    <entry align="left">Swap</entry>
     <entry align="right">N/A</entry>
     <entry align="right">N/A</entry>
     </row>
     <row>
-    <entry align="right">Beta pays Alpha fixed rate</entry>
+    <entry align="left">Beta pays Alpha fixed rate</entry>
     <entry align="right">5.5</entry>
     <entry align="right">-5.5</entry>
     </row>
     <row>
-    <entry align="right">Alpha pays Beta floating rate</entry>
+    <entry align="left">Alpha pays Beta floating rate</entry>
     <entry align="right">-LIBOR</entry>
     <entry align="right">+LIBOR</entry>
     </row>
     <row>
-    <entry align="right">Payments and receipts</entry>
+    <entry align="left">Payments and receipts</entry>
     <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mn>5</mn><mo>.</mo><mn>0</mn><mo> </mo><mo>+</mo><mo> </mo><mn>5</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>–</mo><mo> </mo><mi>LIBOR</mi></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>-</mo><mo>(</mo><mi>LIBOR</mi><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>75</mn><mo>)</mo><mo> </mo><mo>–</mo><mo> </mo><mn>5</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>+</mo><mo> </mo><mi>LIBOR</mi></math></entry>
     </row>
     <row xmlns="http://cnx.rice.edu/cnxml">
-    <entry align="right">Net amount</entry>
+    <entry align="left">Net amount</entry>
     <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn><mo>.</mo><mn>5</mn><mo> </mo><mo>–</mo><mo> </mo><mi>LIBOR</mi></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml">-6.25</entry>
     </row>
     <row>
-    <entry align="right">Benefit</entry>
+    <entry align="left">Benefit</entry>
     <entry align="right">0.75</entry>
     <entry align="right">0.5</entry>
     </row>

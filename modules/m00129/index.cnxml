@@ -168,8 +168,6 @@
     <entry align="center" namest="c4" nameend="c5">Benefits</entry>
     <entry align="center" namest="c6" nameend="c7">Harm</entry>
     </row>
-    </thead>
-    <tbody>
     <row>
     <entry align="center">Party to an Option Contract</entry>
     <entry align="center">Right of the Party</entry>
@@ -179,7 +177,9 @@
     <entry align="center">When</entry>
     <entry align="center">Maximum Loss</entry>
     </row>
-    <row>
+  </thead>
+  <tbody>
+  <row>
     <entry align="center">Buyer of a call</entry>
     <entry align="center">To buy</entry>
     <entry align="center"> </entry>
