@@ -62,9 +62,9 @@
     <title>Calculator Steps for Bond Valuations<footnote id="foot-00001">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup> Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
     <tgroup cols="5">
     <colspec colnum="1" colname="c1" colwidth="0*"/>
-    <colspec colnum="2" colname="c2" colwidth="5*"/>
+    <colspec colnum="2" colname="c2" colwidth="4*"/>
     <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="2*"/>
+    <colspec colnum="4" colname="c4" colwidth="3*"/>
     <colspec colnum="5" colname="c5" colwidth="0*"/>
     <thead>
     <row>
@@ -202,7 +202,7 @@
     </tbody>
     </tgroup>
     </table>
-    <para id="para-00029">This timeline shows the cash inflow of a five-year, 9%, $100,000 corporate bond dated January 1, 2020. The bond will have coupon (interest) payment dates of June 30 and December 31 for each of the following five years. Because the bond was issued on January 1, 2020, the year 2020 is the first full year of the bond, followed by the years 2021, 2022, 2023, and 2024, with the bond maturing in December of the latter year.</para>
+    <para id="para-00029"><link target-id="table-00002" document="m00062"/> shows the cash inflow of a five-year, 9%, $100,000 corporate bond dated January 1, 2020. The bond will have coupon (interest) payment dates of June 30 and December 31 for each of the following five years. Because the bond was issued on January 1, 2020, the year 2020 is the first full year of the bond, followed by the years 2021, 2022, 2023, and 2024, with the bond maturing in December of the latter year.</para>
     <para id="para-00030">Cash inflows will be (1) the coupon or interest payments of <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>9</mn><mo>%</mo><mo> </mo><mo>×</mo><mo> </mo><mo>$</mo><mn>100</mn><mo>,</mo><mn>000</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mo>$</mo><mn>4</mn><mo>,</mo><mn>500</mn></math>, paid to the bondholder every six months, and (2) the one-time principal or face-value payment of $100,000 upon maturity on December 31, 2024.</para>
     </section>
     </section>
@@ -417,9 +417,9 @@
     <title>Calculator Steps for Computing Present Value</title>
     <tgroup cols="5">
     <colspec colnum="1" colname="c1" colwidth="0*"/>
-    <colspec colnum="2" colname="c2" colwidth="5*"/>
+    <colspec colnum="2" colname="c2" colwidth="4*"/>
     <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="2*"/>
+    <colspec colnum="4" colname="c4" colwidth="3*"/>
     <colspec colnum="5" colname="c5" colwidth="0*"/>
     <thead>
     <row>

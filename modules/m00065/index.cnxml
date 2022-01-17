@@ -99,7 +99,7 @@
     <list list-type="enumerated" id="list-00006">
     <item>First, select Formulas from the Excel upper menu bar, and from the dialog box, select PMT (see <link target-id="fig-00010" document="m00065"/>).
     <figure id="fig-00010">
-    <title>Using Excel to enter a PMT or Payment Function</title>
+    <title>Using Excel to Enter a PMT or Payment Function</title>
     <media alt="A screenshot of the Insert Function window, where the PMT function is selected."><image mime-type="image/png" src="../../media/FINAN_Figure_10_05_022.png"/></media>
     </figure></item>
     <item>When the dialog box appears, enter function arguments. Once again, we will use the preferred method of using cell addresses as reference points (see <link target-id="fig-00011" document="m00065"/>).
@@ -117,10 +117,6 @@
     <title/>
     <para id="para-00012">Microsoft Excel can be used to solve common bond problems. It can be used to calculate the value of a coupon bond, the yield to maturity (interest rate) of a bond, the maturity period of a bond, and the coupon rate and interest (coupon) payments of a bond.</para>
     </section>
-    <section class="cfa-institute" id="sect-00007">
-    <title/>
-    <para id="para-00013">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/study-session-14">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
-    </section>
     <section class="video-activity" id="sect-00008">
     <title/>
     <section id="sect-00009">
@@ -131,5 +127,9 @@
     <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00016"><link class="os-embed" url="#exercise/FI_Ch10_Sec5_VA1Q2"/></para></problem></exercise>
     </section>
     </section>
+    <section class="cfa-institute" id="sect-00007">
+      <title/>
+      <para id="para-00013">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/study-session-14">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+      </section>
     </content>
 </document>

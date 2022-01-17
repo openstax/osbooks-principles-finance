@@ -50,7 +50,7 @@
     <figure id="fig-00001">
     <title>Calculation of Beta for DAL</title>
     <media alt="A scatter plot shows monthly returns for DAL and the S&amp;P 500. A regression line shows the correlation between the DAL returns and the S&amp;P 500 returns. "><image mime-type="image/png" src="../../media/FINAN_Figure_15_03_003.png"/></media>
-    <caption>(source: Data from Yahoo! Finance)</caption>
+    <caption>(data source: Yahoo! Finance)</caption>
     </figure>
     </section>
     </section>
@@ -68,12 +68,12 @@
     </note>
     <note class="link-to-learning" id="note-00003">
     <title><term class="no-emphasis" id="term-00009">CAPM</term></title>
-    <para id="para-00022">Watch <link url="https://openstax.org/r/ricing Model_CAPM">this video</link> for further information about the CAPM.</para>
+    <para id="para-00022">Watch <link url="https://openstax.org/r/pricing-model-capm">this video</link> for further information about the CAPM.</para>
     </note>
     </section>
-    <section class="section-summary" id="sect-00007">
+    <section class="section-summary" id="sect-00011">
       <title/>
-      <para id="para-00022">The capital asset pricing model (CAPM) relates the expected return of an asset to the systematic risk of that asset. Investors will be rewarded for taking on systematic risk. They will not be rewarded for taking on firm-specific risk, however, because that risk can be diversified away.</para>
+      <para id="para-00027">The capital asset pricing model (CAPM) relates the expected return of an asset to the systematic risk of that asset. Investors will be rewarded for taking on systematic risk. They will not be rewarded for taking on firm-specific risk, however, because that risk can be diversified away.</para>
       </section>
     <section class="multiple-choice" id="sect-00008">
     <title/>

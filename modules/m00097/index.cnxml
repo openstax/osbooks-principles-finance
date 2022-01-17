@@ -18,7 +18,7 @@
     <section id="sect-00002">
     <title>Average Return and Standard Deviation for a Single Stock</title>
     <para id="para-00002">Excel can be used to calculate the average returns and the standard deviation of returns for both a single stock and a portfolio of stocks. It can also be used to calculate the beta for a stock. Historic stock price data for stocks you are interested in analyzing can easily be downloaded from sites such as Yahoo! Finance into Excel. The examples in this section use monthly stock data from December 2017 to December 2020 from Yahoo! Finance.</para>
-    <para id="para-00003">Monthly price data for <term class="no-emphasis" id="term-00001">(AMZN (Amazon)</term> is shown in column B of <link target-id="fig-00001" document="m00097"/>. To begin, monthly returns must be calculated from the price data using the formula</para>
+    <para id="para-00003">Monthly price data for <term class="no-emphasis" id="term-00001">AMZN (Amazon)</term> is shown in column B of <link target-id="fig-00001" document="m00097"/>. To begin, monthly returns must be calculated from the price data using the formula</para>
     <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Monthly</mi><mo> </mo><mi>Return</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>Ending</mi><mo> </mo><mi>Price</mi><mo> </mo><mo>-</mo><mo> </mo><mi>Beginning</mi><mo> </mo><mi>Price</mi></mrow><mrow><mi>Beginning</mi><mo> </mo><mi>Price</mi></mrow></mfrac></math></equation>
     <para id="para-00004" xmlns="http://cnx.rice.edu/cnxml">The ending prices shown in <link target-id="fig-00001" document="m00097"/> are the last price the stock traded for each month. Each month, the return is calculated under the assumption that you purchased the stock at the last trading price of the previous month and sold at the last price of the current month. Thus, the return for January 2018 is calculated as</para>
     <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Monthly</mi><mo> </mo><mi>Return</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>Jan</mi><mo> </mo><mn>2018</mn><mo> </mo><mi>Price</mi><mo> </mo><mo>-</mo><mo> </mo><mi>Dec</mi><mo> </mo><mn>2017</mn><mo> </mo><mi>Price</mi></mrow><mrow><mi>D</mi><mi>e</mi><mi>c</mi><mo> </mo><mn>2017</mn><mo> </mo><mi>P</mi><mi>r</mi><mi>i</mi><mi>c</mi><mi>e</mi></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>450</mn><mo>.</mo><mn>89</mn><mo> </mo><mo>-</mo><mo> </mo><mo>$</mo><mn>1</mn><mo>,</mo><mn>169</mn><mo>.</mo><mn>47</mn></mrow><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>169</mn><mo>.</mo><mn>47</mn></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>2406</mn><mo> </mo><mo>=</mo><mo> </mo><mn>24</mn><mo>.</mo><mn>06</mn><mo>%</mo></math></equation>
@@ -28,7 +28,7 @@
     <media alt="An Excel screenshot the ending price and monthly return of Amazon’s stock price for 13 months. The average monthly return is 0.0330. The standard deviation is 0.0933"><image mime-type="image/png" src="../../media/FINAN_Figure_15_05_004.png"/></media>
     <caption>(data source: Yahoo! Finance)</caption>
     </figure>
-    <para id="para-00006">Over the three-year period, the average monthly return for AMZN was 3.3%. However, this return was highly volatile, with a standard deviation of 9.33%. Remember that this means that approximately two-thirds of the time, the monthly return from AMZN was between -6.03% and 12.63%.</para>
+    <para id="para-00006">Over the three-year period, the average monthly return for AMZN was 3.3%. However, this return was highly volatile, with a standard deviation of 9.33%. Remember that this means that approximately two-thirds of the time, the monthly return from AMZN was between −6.03% and 12.63%.</para>
     <note class="excel-spreadsheet" id="note-00001">
     <para id="para-00007">Download the <link url="https://openstax.org/r/google_spred_sheet">spreadsheet file</link> containing key Chapter 15 Excel exhibits.</para>
     </note>
@@ -39,7 +39,7 @@
     <figure id="fig-00002">
     <title>Calculation of the Average Return and Standard Deviation for a Portfolio</title>
     <media alt="The Excel screenshot shows the Average Return and Standard Deviation for a Portfolio containing four-stocks: Amazon, CVS, Apple, and Netflix. The monthly average return and standard deviation is calculated for the individual stocks, as well as the entire portfolio. It shows that the portfolio has a Monthly Average Return of 0.0269 and a Standard Deviation of 0.0710."><image mime-type="image/png" src="../../media/FINAN_Figure_15_05_005.png"/></media>
-    <caption>(source: Data from Yahoo! Finance)</caption>
+    <caption>(data source: Yahoo! Finance)</caption>
     </figure>
     <para id="para-00009">The monthly returns for each stock are recorded in their respective columns. The portfolio return for each month is calculated as the weighted average of the four monthly individual stock returns. The formula for the portfolio return is</para>
     <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Portfolio</mi><mo> </mo><mi>Return</mi><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>25</mn><mo> </mo><mo>×</mo><mo> </mo><msub><mi>R</mi><mi>AMZN</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>25</mn><mo> </mo><mo>×</mo><mo> </mo><msub><mi>R</mi><mi>CVS</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>25</mn><mo> </mo><mo>×</mo><mo> </mo><msub><mi>R</mi><mi>AAPL</mi></msub><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>25</mn><mo> </mo><mo>×</mo><mo> </mo><msub><mi>R</mi><mi>NFLX</mi></msub></math></equation>
@@ -58,7 +58,7 @@
     <para id="para-00016">You will use a scatter plot to create a graph. In Excel, go to the Insert tab, and then from the Chart menu, choose the first scatter plot option.</para>
     <figure id="fig-00003">
     <title>Excel Format for Calculating Beta</title>
-    <media alt="An Excel screenshot shows the how to create a scatterplot using excel. The data for the monthly return for two stocks, SPY and AMZN are placed in columns B and C, respectively. These columns are selected. On the insert tab, the scatterplot icon is selected, revealing the different types of scatterplots available for this data."><image mime-type="image/png" src="../../media/FINAN_Figure_15_05_006.png"/></media>
+    <media alt="An Excel screenshot shows how to create a scatterplot using excel. The data for the monthly return for two stocks, SPY and AMZN are placed in columns B and C, respectively. These columns are selected. On the insert tab, the scatterplot icon is selected, revealing the different types of scatterplots available for this data."><image mime-type="image/png" src="../../media/FINAN_Figure_15_05_006.png"/></media>
     <caption>(data source: Yahoo! Finance)</caption>
     </figure>
     <para id="para-00017">Selecting the scatter plot option will result in a chart being inserted that looks like the chart in <link target-id="fig-00004" document="m00097"/>. Each dot represents one month’s combination of returns, with the return for SPY measured on the horizontal axis and the return for AMZN measured on the vertical axis. Consider, for example, the dot in the furthest upper right-hand section of the figure. This dot is the plot of returns for the month of April 2020, when the return for SPY was 13.36% (measured on the horizontal axis) and the return for AMZN was 26.89% (measured on the vertical axis).</para>
@@ -89,7 +89,7 @@
     <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch15_Sec5_PRQ8"/></para></problem></exercise>
     </section>
     <section class="cfa-institute" id="sect-00012">
-    <para id="para-00028">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfainstitute_documents_study-session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+    <para id="para-00028">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfa-ins-chapter18-study-session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
     </section>
     </content>    
 </document>

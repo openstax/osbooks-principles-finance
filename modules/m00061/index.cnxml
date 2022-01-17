@@ -28,11 +28,11 @@
     </section>
     <section id="sect-00003">
     <title>Basic Terminology</title>
-    <para id="para-00007">We need to know the following basic bond terms and pricing in order to apply the necessary time value of money equation to value this <term class="no-emphasis" id="term-00003">Apple</term>, Inc. bond issue:</para>
+    <para id="para-00007">We need to know the following basic bond terms and pricing in order to apply the necessary time value of money equation to value this <term class="no-emphasis" id="term-00003">Apple, Inc.</term> bond issue:</para>
     <list id="list-00002">
     <item><term id="term-00004">Par value</term>: A bond will always clearly state its par value, also called face amount or face value. This is equal to the principal amount that the issuer will repay at the end of the bond term or maturity date. In our example, the par value of the bond is $1,000.</item>
     <item><term id="term-00005">Coupon rate</term>: This is the interest rate that is used to calculate periodic interest, or coupon payments, on the bond. It is important to note that coupon rates are always expressed in annual terms, even if coupon payments are scheduled for different periods of time. The most common periods for coupon payments other than annual are semiannual and quarterly. Coupon rates will typically remain unchanged for the entire life of the bond. In our example, the coupon rate is the 5% interest rate.</item>
-    <item><term id="term-00006">Coupon payment</term>: This refers to the regular interest payment on the bond. The coupon or periodic interest payment is determined by multiplying the par value of the bond by the coupon rate. It is important to note that no adjustment needs to be made to the coupon rate if the bond pays interest annually. However, if a bond pays interest on a semiannual or quarterly basis, the coupon rate will have to be divided by 2 or 4, respectively, to convert the stated annual rate to the correct periodic rate. In our example, coupons are paid annually, so the periodic or annual interest that is paid is equal to <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>05</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>50</mn></math>. You may notice that because these payments are the same amount and made at regular intervals, they constitute an annuity stream (refer to <link document="m00057" xmlns="http://cnx.rice.edu/cnxml">Time Value of Money II: Equal Multiple Payments</link>.</item>
+    <item><term id="term-00006">Coupon payment</term>: This refers to the regular interest payment on the bond. The coupon or periodic interest payment is determined by multiplying the par value of the bond by the coupon rate. It is important to note that no adjustment needs to be made to the coupon rate if the bond pays interest annually. However, if a bond pays interest on a semiannual or quarterly basis, the coupon rate will have to be divided by 2 or 4, respectively, to convert the stated annual rate to the correct periodic rate. In our example, coupons are paid annually, so the periodic or annual interest that is paid is equal to <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>05</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>50</mn></math>. You may notice that because these payments are the same amount and made at regular intervals, they constitute an annuity stream (refer to <link document="m00051" xmlns="http://cnx.rice.edu/cnxml">Time Value of Money II: Equal Multiple Payments</link>.</item>
     <item><term id="term-00007">Maturity date</term>: The maturity date is the expiration date of the bond, or the point in time when the term of a bond comes to an end. On the maturity date, the issuer will make the final interest or coupon payment on the bond and will also pay off its principal, or face value. In our example, the maturity date is at the end of the 20-year period.</item>
     <item><term id="term-00008">Yield to maturity (YTM)</term>: The YTM is essentially the discount rate used to bring the future cash flows of a bond into present value terms. It also equals the return that the investor will receive if the bond is held to maturity. The YTM helps quantify the overall investment value of a bond. We will explore how to compute this rate later in the chapter.</item>
     </list>
@@ -40,14 +40,14 @@
     <table summary=" " id="table-00001">
     <title>Bond Information, March 2021</title>
     <tgroup cols="8">
-    <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <colspec colnum="5" colname="c5"/>
-    <colspec colnum="6" colname="c3"/>
-    <colspec colnum="7" colname="c4"/>
-    <colspec colnum="8" colname="c5"/>
+    <colspec colnum="1" colname="c1" colwidth="1*"/>
+    <colspec colnum="2" colname="c2" colwidth="0*"/>
+    <colspec colnum="3" colname="c3" colwidth="0*"/>
+    <colspec colnum="4" colname="c4" colwidth="0*"/>
+    <colspec colnum="5" colname="c5" colwidth="0*"/>
+    <colspec colnum="6" colname="c3" colwidth="0*"/>
+    <colspec colnum="7" colname="c4" colwidth="0*"/>
+    <colspec colnum="8" colname="c5" colwidth="0*"/>
     <thead>
     <row>
     <entry align="center">Issuer</entry>
@@ -192,7 +192,7 @@
     <media alt="$50 Series EE US Savings Bond."><image mime-type="image/png" src="../../media/FINAN_Figure_10_01_002.jpg"/></media>
     <caption>(credit: “$50 Series EE US Savings Bond” by United States Department of the Treasury/Wikimedia Commons, Public Domain)</caption>
     </figure>
-    <para id="para-00013"><term id="term-00014">Municipal bonds (munis)</term> are issued by cities, states, and localities or their agencies. Munis typically will return a little more than Treasury bills while being just a bit riskier.</para>
+    <para id="para-00013"><term id="term-00014">Municipal bonds (“munis”)</term> are issued by cities, states, and localities or their agencies. Munis typically will return a little more than Treasury bills while being just a bit riskier.</para>
     </section>
     <section id="sect-00006">
     <title>Corporate Bonds</title>
@@ -266,7 +266,7 @@
     <definition id="def-00010"><term>junk bonds</term> <meaning>bonds that have been given a low credit rating, below investment grade; riskier than other bonds due to a greater chance that the issuer will default or experience a credit event</meaning></definition>
     <definition id="def-00011"><term>London Interbank Offered Rate (LIBOR)</term> <meaning>a benchmark interest rate at which major global banks lend to one another in the international interbank market for short-term loans</meaning></definition>
     <definition id="def-00012"><term>maturity date</term> <meaning>the date on which a bondholder ceases to receive interest payments on a bond investment and instead is repaid its par, or face, value</meaning></definition>
-    <definition id="def-00013"><term>municipal bonds (munis)</term> <meaning>debt securities issued by state and local governments; can be thought of as loans that investors make to local governments to fund infrastructure</meaning></definition>
+    <definition id="def-00013"><term>municipal bonds (“munis”)</term> <meaning>debt securities issued by state and local governments; can be thought of as loans that investors make to local governments to fund infrastructure</meaning></definition>
     <definition id="def-00014"><term>par value</term> <meaning>also called the face amount or face value; the value written on the front of the bond, which is the amount of money that bond issuers promise to be paid at maturity</meaning></definition>
     <definition id="def-00015"><term>prime rate</term> <meaning>the interest rate that banks charge creditworthy corporate customers; among the most widely used benchmarks for setting home equity lines of credit and credit card rates, based on the federal funds rate set by the Federal Reserve</meaning></definition>
     <definition id="def-00016"><term>savings bonds</term> <meaning>debt securities purchased by investors, as a personal investments or as gifts, that the US government issues to pay for certain public or government programs</meaning></definition>
