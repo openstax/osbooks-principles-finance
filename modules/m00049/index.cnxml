@@ -486,20 +486,17 @@
     <title>Using Excel to Solve TVM Problems</title>
     <para id="para-00044">Excel spreadsheets can be excellent tools to use when solving time value of money problems. There are dozens of financial functions available in Excel, but a student who can use a few of these functions can solve almost any TVM problem. Special functions that relate to TVM calculations are as follows:</para>
     <quote id="quote-00001">
-    <para id="para-00045">Future Value (FV)</para>
-    <para id="para-00046">Present Value (PV)</para>
-    <para id="para-00047">Number of Periods (NPER)</para>
-    <para id="para-00048">Interest Rate (RATE)</para>
+    <para id="para-00045">Future Value (FV)<newline/>
+    Present Value (PV)<newline/>
+    Number of Periods (NPER)<newline/>
+    Interest Rate (RATE)</para>
     </quote>
     <para id="para-00049">Excel also includes a function called Payment (PMT) that is used in calculations involving multiple payments or deposits (annuities). These will be covered in <link document="m00051">Time Value of Money II: Equal Multiple Payments</link>].</para>
     <section id="sect-00010">
     <title>Future Value (FV)</title>
     <para id="para-00050">The Future Value function in Excel is also referred to as FV and can be used to calculate the value of a single lump sum amount carried to any point in the future. The FV function syntax is similar to that of the other four basic time-value functions and has the following inputs (referred to as arguments), similar to the functions listed above:</para>
     <quote id="quote-00002">
-    <para id="para-00051">Rate: Interest Rate</para>
-    <para id="para-00052">Nper: Number of Periods</para>
-    <para id="para-00053">Pmt: Payment</para>
-    <para id="para-00054">PV: Present Value</para>
+    <para id="para-00051">Rate: Interest Rate<newline/>Nper: Number of Periods<newline/>Pmt: Payment<newline/>PV: Present Value</para>
     </quote>
     <para id="para-00055">Lump sum problems do not involve payments, so the value of Pmt in such calculations is 0. Another argument, Type, refers to the timing of a payment and carries a default value of the end of the period, which is the most common timing (as opposed to the beginning of a period). This may be ignored in our current example, which means the default value of the end of the period will be used.</para>
     <para id="para-00056">The spreadsheet in <link target-id="fig-00001" document="m00049"/> shows two examples of using the FV function in Excel to calculate the future value of $100 in five years at 5% interest.</para>
