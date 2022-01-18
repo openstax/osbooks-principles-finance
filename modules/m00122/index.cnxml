@@ -13,7 +13,7 @@
     <item>List instruments available to a financial manager for investing cash balances.</item>
     </list>
     </section>
-    <para id="para-00002">Cash management means efficiently collecting cash from customers and managing cash outflows. To manage cash, the <term id="term-00001">cash budget</term>—a forward-looking document—is an important planning tool. To understand cash management, you must first understand what is meant by cash holdings and the motivations (reasons) for holding cash. A cash budget example is covered in [link] Using Excel to Create the Short-Term Plan [link] [Production: Create short link to Section 19.6].</para>
+    <para id="para-00002">Cash management means efficiently collecting cash from customers and managing cash outflows. To manage cash, the <term id="term-00001">cash budget</term>—a forward-looking document—is an important planning tool. To understand cash management, you must first understand what is meant by cash holdings and the motivations (reasons) for holding cash. A cash budget example is covered in <link document="m00125">Using Excel to Create the Short-Term Plan</link></para>
     <section id="sect-00002">
     <title>Cash Holdings</title>
     <para id="para-00003">The cash holdings of a company are more than the currency and coins in the cash registers or the treasury vault. Cash includes currency and coins, but usually those amounts are insignificant compared to the cash holdings of checks to be deposited in the company’s bank account and the balances in the company’s checking accounts.</para>
@@ -28,7 +28,7 @@
     <section id="sect-00004">
     <title>Cash Alternatives</title>
     <para id="para-00009">Cash that a company has that is in excess of projected financial needs is often invested in short-term investments, also known as cash equivalents (cash alternatives). The reason for this is that cash does not earn a rate of return; therefore, too much idle cash can affect the profitability of a business.</para>
-    <para id="para-00010">Table 19.2 shows a list of typical investment vehicles used by corporations to earn interest on excess cash. Financial managers search for opportunities that are safe and highly liquid and that will provide a positive rate of return. Cash alternatives, because of their short-term maturities, have low interest rate risk (the risk that an investment’s value will decrease because of changes in market interest rates). In that way, prudent investment of excess cash follows the risk/return trade-off; in order to achieve safe returns, the returns will be lower than the possible returns achieved with risky investments. Cash alternative investments are not committed to the stock market.</para>
+    <para id="para-00010"><link target-id="table-00001" document="m00122"/> shows a list of typical investment vehicles used by corporations to earn interest on excess cash. Financial managers search for opportunities that are safe and highly liquid and that will provide a positive rate of return. Cash alternatives, because of their short-term maturities, have low interest rate risk (the risk that an investment’s value will decrease because of changes in market interest rates). In that way, prudent investment of excess cash follows the risk/return trade-off; in order to achieve safe returns, the returns will be lower than the possible returns achieved with risky investments. Cash alternative investments are not committed to the stock market.</para>
     <table summary=" " id="table-00001">
     <title>Typical Cash Equivalents</title>
     <tgroup cols="3">
@@ -46,7 +46,7 @@
     </tbody>
     </tgroup>
     </table>
-    <para id="para-00011">Figure 19.5 shows a note within the 2021 Annual Report (<term class="no-emphasis" id="term-00006">Form10-K</term>) of <term class="no-emphasis" id="term-00007">Target Corporation</term>. The note discloses the amount of Target’s cash and cash equivalent balances of $8,511,000,000 for January 30, 2021, and $2,577,000,000 for February 1, 2020.</para>
+    <para id="para-00011"><link target-id="fig-00001" document="m00122"/> shows a note within the 2021 Annual Report (<term class="no-emphasis" id="term-00006">Form10-K</term>) of <term class="no-emphasis" id="term-00007">Target Corporation</term>. The note discloses the amount of Target’s cash and cash equivalent balances of $8,511,000,000 for January 30, 2021, and $2,577,000,000 for February 1, 2020.</para>
     <figure id="fig-00001">
     <title>Note from Target Corporation 2021 10-K Filing (source: US Securities and Exchange Commission/EDGAR)</title>
     <media alt="A note describes the Cash and cash equivalents for the Target Corporation in its 2021 10-K Filing. In this filing, Target lists its cash and cash equivalent investments on January 30, 2021 and February 1, 2020.  Target had investments in cash, short-term investments, and receivables from third-party financial institutions for credit and debit card transactions. These were added together for the total cash and cash equivalents."><image mime-type="image/png" src="../../media/FINAN_Figure_19_03_005.png"/></media>
