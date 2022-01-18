@@ -45,7 +45,7 @@
     <para id="para-00014">An aging schedule is a report that organizes the outstanding (unpaid) receivable balances into age categories. The receivables are grouped by the length of time they have been outstanding, and an uncollectible percentage is assigned to each category. The length of uncollectible time increases the percentage assigned. For example, a category might consist of accounts receivable that are 0–30 days past due and is assigned an uncollectible percentage of 6 percent. Another category might be 31–60 days past due and is assigned an uncollectible percentage of 15 percent. All categories of estimated uncollectible amounts are summed to get a total estimated uncollectible balance.</para>
     <para id="para-00015">The aging of accounts is useful to the credit and collection managers, both from a global view—estimating how much of the accounts receivable asset might be bad debts—and on a micro basis—being able to drill down to see which specific customers are slow paying or delinquent so as to implement collection tactics.</para>
     <para id="para-00016">Accountants and auditors also find the aging of accounts to determine a reasonable amount to be reported as <term id="term-00006">bad</term> <term id="term-00007">debt expense</term> and to establish a sufficient balance in the <term id="term-00008">allowance for doubtful accounts</term>. Bad debt expense is the cost of doing business because some customers will not pay the amounts they owe (accounts receivable), while the allowance for doubtful accounts is a <term id="term-00009">contra-asset</term> (it will be deducted from accounts receivable on the balance sheet) that contains management’s best guess (management’s estimate) as to how much of its accounts receivable will never be collected.</para>
-    <para id="para-00017">In Figure 19.6, Foodinia Inc.’s accounts receivable aging report shows that the total receivables balance is $189,000. The company splits its accounts into four age categories: not due, 30 to 60 days past due, 61 to 90 days past due, and more than 90 days past due. Of the $189,000 owed to Foodinia by its customers, $75,500 ($189,000 less $113,500) of invoices have been outstanding (not paid yet) beyond their due dates.</para>
+    <para id="para-00017">In <link target-id="fig-00001" document="m00123"/>, Foodinia Inc.’s accounts receivable aging report shows that the total receivables balance is $189,000. The company splits its accounts into four age categories: not due, 30 to 60 days past due, 61 to 90 days past due, and more than 90 days past due. Of the $189,000 owed to Foodinia by its customers, $75,500 ($189,000 less $113,500) of invoices have been outstanding (not paid yet) beyond their due dates.</para>
     <figure id="fig-00001">
     <title>Foodinia Inc. Aging of Accounts Receivable Schedule</title>
     <media alt="The Aging of Accounts receivable schedule for Foodina, Inc. lists each customer name, and the amount due in each of its four age categories. Foodina, Inc. has $113,500 not yet due; $49,500 30 to 60 days past due; $17,000 61 to 90 days past due; and $9,000 more than 90 days past due.  The total of all receivables is $189,000."><image mime-type="image/png" src="../../media/FINAN_Figure_19_04_006.png"/></media>
@@ -57,7 +57,7 @@
     <title>Accounts Receivables and Notes Receivable</title>
     <para id="para-00020">An accounts receivable is an informal arrangement between a seller (a company) and customer. Accounts receivable are usually paid within a month or two. Accounts receivable don’t require any complex paperwork, are evidenced by an invoice, and do not involve interest payments. In contrast, a note receivable is a more formal arrangement that is evidence by a legal contract called a promissory note specifying the payment amount and date and interest.</para>
     <para id="para-00021">The length of a note receivable can be for any time period including a term longer than the typical account receivable. Some notes receivable have a term greater than a year. The assets of a bank include many notes receivable (a loan made by a bank is an asset for the bank).</para>
-    <para id="para-00022">A note receivable can be used in exchange for products and services or in exchange for cash (usually in the case of a financial lender). Sometimes a company might request that a slow-paying customer sign a note promissory note to further secure the receivable, charge interest, or add some type of collateral to the arrangement, in which case the receivable would be called a secured promissory note. Several characteristics of notes receivable further define the contract elements and scope of use (see Table 19.3).</para>
+    <para id="para-00022">A note receivable can be used in exchange for products and services or in exchange for cash (usually in the case of a financial lender). Sometimes a company might request that a slow-paying customer sign a note promissory note to further secure the receivable, charge interest, or add some type of collateral to the arrangement, in which case the receivable would be called a secured promissory note. Several characteristics of notes receivable further define the contract elements and scope of use (see <link target-id="table-00001" document="m00123"/>).</para>
     <table summary=" " id="table-00001">
     <title>Key Feature Comparison of Accounts Receivable and Notes Receivable</title>
     <tgroup cols="2">
@@ -71,20 +71,20 @@
     </thead>
     <tbody>
     <row>
-    <entry>
-    <ul>
-    <li>An informal agreement between customer and company</li>
-    <li>Receivable in less than one year or within a company’s operating cycle</li>
-    <li>Does not include interest</li>
-    </ul>
+    <entry>     
+    <list id="list-00003">
+    <item>An informal agreement between customer and company</item>
+    <item>Receivable in less than one year or within a company’s operating cycle</item>
+    <item>Does not include interest</item>
+    </list>
     </entry>
     <entry>
-    <ul>
-    <li>A legal contract with established payment terms</li>
-    <li>Receivable beyond one year and outside of a company’s operating cycle</li>
-    <li>Includes interest</li>
-    <li>Could stipulate collateral</li>
-    </ul>
+    <list id="list-00004">
+    <item>A legal contract with established payment terms</item>
+    <item>Receivable beyond one year and outside of a company’s operating cycle</item>
+    <item>Includes interest</item>
+    <item>Could stipulate collateral</item>
+    </list>
     </entry>
     </row>
     </tbody>
