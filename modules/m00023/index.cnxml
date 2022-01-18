@@ -18,8 +18,8 @@
 <title>FRED: Federal Reserve Economic Data</title>
 <para id="para-00002">One of the largest sources of economic data is the <term class="no-emphasis" id="term-00001">Federal Reserve Economic Data (FRED)</term> database.<footnote id="foot-00001">Federal Reserve Bank of St. Louis. Economic Resources &amp; Data. Accessed October 25, 2021. https://www.stlouisfed.org/</footnote> This database is maintained by the Federal Reserve Bank of St. Louis and contains more than 765,000 economic time series. These time series are compiled by the Federal Reserve and come from a number of sources, including the Bureau of Labor Statistics and the US Census.</para>
 <note class="link-to-learning" id="note-00001">
-<title><term class="no-emphasis" id="term-00002">FRED</term></title>
-<para id="para-00003">Data included in the FRED database is divided into these broad categories:</para>
+<title>FRED</title>
+<para id="para-00003">Data included in the <term class="no-emphasis" id="term-00002">FRED</term> database is divided into these broad categories:</para>
 <list id="list-00002">
 <item>Money, Banking, and Finance</item>
 <item>Population, Employment, and Labor Markets</item>
@@ -30,12 +30,12 @@
 <item>US Regional Data</item>
 <item>Academic Data</item>
 </list>
-<para id="para-00004">Watch this <link url="https://openstax.org/r/fred-introduction-video">FRED introduction video</link> to learn more information about how to use FRED.</para>
+<para id="para-00004">Watch this <link url="https://openstax.org/r/what-is-fred">FRED introduction video</link> to learn more information about how to use FRED.</para>
 </note>
 <para id="para-00005">You can find statistics on employment, inflation, exchange rates, gross domestic product, interest rates, and many other economic variables in the FRED database. Although much of the data is about the US markets, macroeconomic data from other countries is also available. In addition to being viewable in graphical and text form on the FRED site, the data is easily downloaded into an Excel spreadsheet for analysis.</para>
 <note class="link-to-learning" id="note-00002">
-<title>Creating a <term class="no-emphasis" id="term-00003">Stacked Area Graph</term></title>
-<para id="para-00006">Not only does FRED provide an excellent source for economic data, but it allows users to create custom graphs that can be used in presentations and reports. To learn more about how to create these graphs, read <link url="https://openstax.org/r/fred-gdp-stacking">this article on using stacking</link>. This tutorial provides step-by-step instructions for creating a stacked area graph of real GDP and its separate components and a real GDP area graph showing the percent that each of these components contributes to the total value of real GDP.</para>
+<title>Creating a Stacked Area Graph</title>
+<para id="para-00006">Not only does FRED provide an excellent source for economic data, but it allows users to create custom graphs that can be used in presentations and reports. To learn more about how to create these graphs, read <link url="https://openstax.org/r/fred-gdp-stacking">this article on using stacking</link>. This tutorial provides step-by-step instructions for creating a <term class="no-emphasis" id="term-00003">stacked area graph</term> of real GDP and its separate components and a real GDP area graph showing the percent that each of these components contributes to the total value of real GDP.</para>
 </note>
 </section>
 <section id="sect-00003">
@@ -126,10 +126,6 @@
 <title/>
 <para id="para-00020">One of the most comprehensive sources of economic data is the FRED database, maintained by the Federal Reserve Bank of St. Louis. Over 765,000 time series of data are available. In addition to being viewable in graphical and text form on the FRED site, the data is easily downloaded into an Excel spreadsheet for analysis.</para>
 </section>
-<section class="cfa-institute" id="sect-00006">
-<title/>
-<para id="para-00021">This chapter supports some of the Learning Outcome Statements (LOS) in this CFA® Level I Study Session. Reference with permission of CFA Institute.</para>
-</section>
 <section class="multiple-choice" id="sect-00007">
 <title/>
 <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00022"><link class="os-embed" url="#exercise/FI_Ch3_Sec6_MCQ12"/></para></problem></exercise>
@@ -137,6 +133,10 @@
 <section class="problem-set" id="sect-00008">
 <title/>
 <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch3_Sec6_PRQ2"/></para></problem></exercise>
+</section>
+<section class="cfa-institute" id="sect-00006">
+<title/>
+<para id="para-00021">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfa-study-session-4-economics">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
 </section>
 </content>
 </document>
