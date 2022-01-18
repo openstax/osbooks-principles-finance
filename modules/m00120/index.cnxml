@@ -6,8 +6,311 @@
     <md:uuid>ccbe5604-ac4e-4a16-aeb9-afb74ec16190</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
-</document>
+    <section class="learning-objectives">
+    <para>By the end of this section, you will be able to:</para>
+    <list>
+    <item>Define working capital.</item>
+    <item>Calculate a firm&#8217;s operating cycle and cash cycle.</item>
+    <item>Compute inventory days, accounts receivable days, and accounts payable days.</item>
+    </list>
+    </section>
+    <para>The concept of business capital is often associated with the cash and assets (such as land and equipment) that the owners contributed to the business. Early political economists like Adam Smith and Karl Marx identified this concept of capital, along with labor and entrepreneurship, to be the factors of production.</para>
+    <para>That general idea of capital is important and critical to a company&#8217;s productive capacity. This chapter is about a specific type of capital&#8212; <term>working capital</term>&#8212;that is just as important as long-term capital. Working capital describes the resources that are needed to meet the daily, weekly, and monthly operating cash flow needs. Employees are paid out of working capital as well as cash from operations, the fulfillment of merchandise orders is possible because of working capital, and the liquidity of a company hinges upon how well management plans and controls working capital.</para>
+    <para>Understanding working capital begins with the concept of <term>current assets</term>&#8212;those resources of a business that are cash, near cash, or expected to be turned into cash within a year through the normal operations of the business. Current assets are necessary for the everyday operation of the firm, and they are synonymous with term <term>gross working capital</term>.</para>
+    <para>Cash is needed to pay the bills and meet the payroll. Excess cash is invested in cash alternatives such as <term>marketable securities</term>, creating <term>liquidity</term> that can be tapped when operating cash flow needs exceed the amount of cash on hand (checking account balances). Investment in inventory is necessary to meet the demand for products (sales), and if the firm extends credit to its customers so that a sale can be made, the balance sheet will also show accounts receivable&#8212;a very common current asset that derives its value from the probability that customers will pay their bills.</para>
+    <para>Working capital is often spoken about in two versions: <emphasis effect="italics">gross working capital</emphasis> and <emphasis effect="italics">net working capital</emphasis>. As was previously stated, gross working capital is equivalent to current assets, particularly those that are cash, cash-like, or will be converted to cash within a short period of time (i.e., in less than one year).</para>
+    <para>Net working capital (NWC) is a more refined concept of working capital. It is best understood by examining its formula:</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Current</mi><mo>&#xA0;</mo><mi>Assets</mi><mo>&#xA0;</mo><mo>&#x2013;</mo><mo>&#xA0;</mo><mi>Current</mi><mo>&#xA0;</mo><mi>Liabilities</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>Net</mi><mo>&#xA0;</mo><mi>Working</mi><mo>&#xA0;</mo><mi>Capital</mi></math></equation>
+    <section>
+    <title>Goal of Working Capital Management</title>
+    <para>The goal of working capital management is to maintain adequate working capital to</para>
+    <list>
+    <item>meet the operational needs of the company;</item>
+    <item>satisfy obligations (current liabilities) as they come due; and</item>
+    <item>maintain an optimal level of current assets such as cash (provides no return), accounts receivable, and inventory.</item>
+    </list>
+    <para>Working capital management encompasses all decisions involving a company&#8217;s current assets and current liabilities. One very important aspect of working capital management is to provide enough cash to satisfy both maturing short-term obligations and operational expenditures&#8212;keeping the company sufficiently liquid.</para>
+    <para>In summary, working capital management helps a company run smoothly and mitigates the risk of illiquidity. Well-run companies make effective use of current liabilities to finance an optimal level of current assets and maintain sufficient cash balances to meet short-term operating goals and to satisfy short-term obligations. Working capital management is accomplished through</para>
+    <list>
+    <item>cash management;</item>
+    <item>credit and receivables management;</item>
+    <item>inventory management; and</item>
+    <item>accounts payable management.</item>
+    </list>
+    </section>
+    <section>
+    <title>Components of Working Capital Management</title>
+    <para>In contrast to net working capital, gross working capital is synonymous with current assets, particularly those current assets that are either cash or cash equivalents or that will be converted to cash within a short period of time (i.e., in less than one year).</para>
+    <para>Below is a list of the components of gross working capital.</para>
+    <list>
+    <item>Cash and cash equivalents</item>
+    <item>Marketable securities</item>
+    <item>Accounts receivable</item>
+    <item>Inventory</item>
+    </list>
+    <para>Here is an example. On December 31, a company has the following balances and gross working capital:</para>
+    <figure>
+    <media alt="A balance sheet of a company shows cash and equivalents ($100,000), marketable securities ($250,000), accounts receivable ($330,000), inventory ($425,000), and the total gross working capital of $1,105,000."><image mime-type="image/png" src="../../media/FINAN_Figure_19_01_A.png"/></media>
+    </figure>
+    <para>Think of the &#36;1,105,000 of gross working capital as a source of funds for the most pressing obligations (i.e., current liabilities) of the company. Gross working capital is available to pay the bills. However, some of the current assets would need to be converted to cash first. Accounts receivable need to be collected, and inventory would need to be sold before it too can become cash. What if the company had &#36;600,000 of current liabilities? That amount of current obligations could not be paid out of cash until the marketable securities were sold and a significant portion of accounts receivable were collected.</para>
+    <para>The second, more refined and useful concept of working capital is <term>net working capital</term>:</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>NWC</mi><mo>=</mo><mi>Current</mi><mo>&#xA0;</mo><mi>Assets</mi><mo>-</mo><mi>Current</mi><mo>&#xA0;</mo><mi>Liabilities</mi></math></equation>
+    <para>For example, if a company has &#36;1,000,000 of current assets and &#36;750,000 of current liabilities, its net working capital would be &#36;250,000 (&#36;1,000,000 less &#36;750,000).</para>
+    <para>NWC provides a better picture because it takes into account the liability &#8220;coverage&#8221; provided by the current assets. As the above example shows, the current assets would &#8220;cover&#8221; the current liabilities with an excess of &#36;250,000. Think of it this way: if the current assets could be converted to cash, they could be used to meet the current obligations with another &#36;250,000 of cash leftover.</para>
+    <para>Current liabilities include</para>
+    <list>
+    <item>accounts payable;</item>
+    <item>dividends payable;</item>
+    <item>notes payable (due within a year);</item>
+    <item>current portion of deferred revenue;</item>
+    <item>current maturities of long-term debt;</item>
+    <item>interest payable;</item>
+    <item>income taxes payable; and</item>
+    <item>accrued expenses such as compensation owed to employees.</item>
+    </list>
+    <para>Net working capital possibilities can be thought of as a spectrum from negative working capital to positive, as explained in Table 19.1.</para>
+    <table summary=" ">
+    <title>Spectrum of Net Working Capital</title>
+    <tgroup cols="3">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+    <row><entry align="center">Negative Net Working Capital</entry><entry align="center">Zero Net Working Capital</entry><entry align="center">Positive Net Working Capital</entry></row>
+    </thead>
+    <tbody>
+    <row><entry>Current liabilities are greater than current assets.</entry><entry>Current assets equal current liabilities.</entry><entry>Current assets are greater than current liabilities.</entry></row>
+    <row><entry>Could indicate a liquidity problem. There is difficulty satisfying current obligations.</entry><entry>Indicates that current assets could cover current obligations. However, there is no positive margin (safety cushion) or &#8220;liquid reserve&#8221; to satisfy unexpected cash needs.</entry><entry>Indicates that the company can meet its current obligations. However, excessively high net working capital could mean too little cash and therefore an opportunity cost (forgoing rates of return on alternative investment).</entry></row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para>[link] Measures of Financial Health[/link] [Production: Create short link to Chapter 6].provides information on a variety of financial ratios to help users of financial statements understand the strengths and weakness of companies&#8217; financial statements. Three of the financial ratios covered in that chapter are brought back into this chapter&#8217;s discussion to demonstrate how financial managers examine working capital and liquidity. Liquidity is the ease with which an asset can be converted into cash. Those <term>ratios</term> are the current ratio, the quick ratio, and the cash ratio. A higher ratio indicates a greater level of liquidity.</para>
+    <para>The formulas for the three liquidity ratios are:</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Current</mi><mo>&#xA0;</mo><mi>Ratio</mi><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mfrac><mrow><mi>Current</mi><mo>&#xA0;</mo><mi>Assets</mi></mrow><mrow><mi>Current</mi><mo>&#xA0;</mo><mi>Liabilities</mi></mrow></mfrac></mtd></mtr><mtr><mtd><mi>Quick</mi><mo>&#xA0;</mo><mi>Ratio</mi><mo>&#xA0;</mo><mfenced><mrow><mi>Acid</mi><mo>&#xA0;</mo><mi>Test</mi></mrow></mfenced><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mfrac><mrow><mi>Current</mi><mo>&#xA0;</mo><mi>Assets</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mi>Inventory</mi></mrow><mrow><mi>Current</mi><mo>&#xA0;</mo><mi>Liabilities</mi></mrow></mfrac></mtd></mtr><mtr><mtd><mi>Cash</mi><mo>&#xA0;</mo><mi>Ratio</mi><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mfrac><mfenced><mrow><mi>Cash</mi><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mi>Marketable</mi><mo>&#xA0;</mo><mi>Securities</mi></mrow></mfenced><mrow><mi>Current</mi><mo>&#xA0;</mo><mi>Liabilities</mi></mrow></mfrac></mtd></mtr></mtable></math></equation>
+    <para>Notice how the current ratio includes the two elements of net working capital&#8212;current assets and current liabilities. It makes for a quick comparison of relative size or proportion.</para>
+    <note class="think-through">
+    <title>Current Ratio</title>
+    <exercise class="unnumbered">
+    <problem>
+    <para>A company has &#36;2,000,000 of current assets, while its current liabilities are &#36;1,000,000. What is the current ratio, and what does it mean?</para>
+    </problem>
+    <solution>
+    <para><emphasis effect="bold">Solution:</emphasis></para>
+    <para>The current ratio would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mn>2</mn></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#36;</mo><mn>2</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><mo>/</mo><mo>&#36;</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></mtd></mtr></mtable></math>, which is a 2:1 proportion of current asset value to the amount of the current liabilities. This means that if all the current assets could be converted to cash, then the current liabilities could be satisfied two times.</para>
+    </solution>
+    </exercise>
+    </note>
+    <para>There are two drawbacks to the current ratio: (1) it is a working capital analytic as of a point in time but is not indicative of future liquidity or future cash flows and (2) as an indicator of liquidity, it can be deceptive if a significant proportion of the current assets are inventory, supplies, or prepaid expenses. Inventory is not very liquid as it can take an extended time period to convert to cash, and assets such as supplies and prepaid expenses never become cash and therefore are not a source of funds to pay bills.</para>
+    <para>The quick ratio is considered a more conservative indication of liquidity since it does not include a firm&#8217;s inventory: <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>Current</mi><mo>&#xA0;</mo><mi>Assets</mi><mo>&#xA0;</mo><mo>&#x2013;</mo><mo>&#xA0;</mo><mi>Inventory</mi><mo>)</mo><mo>/</mo><mi>Current</mi><mo>&#xA0;</mo><mi>Liabilities</mi></math>.</para>
+    <note class="think-through">
+    <title>Quick Ratio</title>
+    <exercise class="unnumbered">
+    <problem>
+    <para>A company&#8217;s current assets total &#36;2,000,000, but &#36;500,000 of that is inventory and the current liabilities total &#36;1,000,000. What is the quick ratio, and what does it mean?</para>
+    </problem>
+    <solution>
+    <para><emphasis effect="bold">Solution:</emphasis></para>
+    <para>The quick ratio would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>.</mo><mn>5</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>&#36;</mo><mn>1</mn><mo>,</mo><mn>500</mn><mo>,</mo><mn>000</mn><mo>/</mo><mo>&#36;</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn><mo>&#xA0;</mo></math> and would indicate a smaller cushion of net working capital.</para>
+    </solution>
+    </exercise>
+    </note>
+    <note class="think-through">
+    <title>Cash Ratio</title>
+    <exercise class="unnumbered">
+    <problem>
+    <para>The cash ratio is even more conservative in that it presents a picture of liquidity by excluding all current assets except cash and marketable securities.</para>
+    <para>A company&#8217;s total current assets are &#36;2,000,000, but only &#36;1,100,000 of the current assets consist of cash and marketable securities. Assuming &#36;1,000,000 of current liabilities, what would be the cash ratio and what does it mean?</para>
+    </problem>
+    <solution>
+    <para><emphasis effect="bold">Solution:</emphasis></para>
+    <para>The cash ratio would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>.</mo><mn>1</mn><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>&#36;</mo><mn>1</mn><mo>,</mo><mn>100</mn><mo>,</mo><mn>000</mn><mo>/</mo><mo>&#36;</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></math>, and the amount of cash is enough to pay the current bills by &#36;100,000.</para>
+    </solution>
+    </exercise>
+    </note>
+    <para>Working capital ratios, like any financial ratio, are most valuable when examined in light of trends and in comparison to industry/peer averages. For example, a deteriorating current ratio over several quarters (a decline in the company&#8217;s current ratio) could indicate a reduced ability to pay bills.</para>
+    <para>Working capital ratios are also compared to industry averages, which are available in databases produced by such financial publishers as <term class="no-emphasis">Dun &#38; Bradstreet</term>, <term class="no-emphasis">Dow Jones Company</term>, and the <term class="no-emphasis">Risk Management Association (RMA)</term>.These information services are available via subscriptions and through many libraries. For example, if a company&#8217;s current ratio is 0.9 while the industry average is 2.0, then the company is less liquid than the average company in its industry and strategies, and techniques need to be considered to change things and to better compete with peer groups. Industry averages can be aspirational, motivating management to set liquidity goals and best practices for working capital management.</para>
+    <para>It is common to think about working capital with a simple assumption: current assets are being &#8220;financed&#8221; by current liabilities. However, such an assumption may be an oversimplification. Some level of current assets is often necessary to meet longer-term obligations, and in that way, you could think of some amount of current assets as a permanent based of working capital that may need to be financed with longer-term sources of capital.</para>
+    <para>Think of a company with seasonal business. During busy times, more working capital will be needed than during certain other portions of the year, such as less busy times. But there will always be some level&#8212;a permanent base&#8212;of working capital needed. Think of it this way: the total working capital of many companies will ebb and flow depending on many variables such as the operating cycle, production needs, and the growth of revenue. Therefore, working capital can be thought of as having a permanent base that is always needed and a total working capital amount that increases when activity levels (i.e., production and sales volume) are higher (see Figure 19.2).</para>
+    <section>
+    <title>The Cash Cycle</title>
+    <para>The <term>cash cycle</term>, also called the <term>cash conversion cycle</term>, is the time period between when a business begins production and acquires resources from its suppliers (for example, acquisition of materials and other forms of inventory) and when it receives cash from its customers. This is offset by the time it takes to pay suppliers (called the payables deferral period).</para>
+    <figure>
+    <title>Working Capital Needs Can Vary: Temporary and Permanent Working Capital</title>
+    <media alt="A graph shows the correlation between the permanent working  capital, temporary working capital, and time. The permanent base of working capital rises steadily over time. The temporary total working capital repeatedly increases and decreases over time. The combination of the temporary working capital and permanent working capital is the total working capital."><image mime-type="image/png" src="../../media/FINAN_Figure_19_01_002.png"/></media>
+    </figure>
+    <para>The cash cycle is measured in days, and it is best understood by examining its formula:</para>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Cash</mi><mo>&#xA0;</mo><mi>Cycle</mi><mo>&#xA0;</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>&#xA0;</mo><mi>Inventory</mi><mo>&#xA0;</mo><mi>Conversion</mi><mo>&#xA0;</mo><mi>Period</mi><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mi>Receivables</mi><mo>&#xA0;</mo><mi>Collection</mi><mo>&#xA0;</mo></mtd></mtr><mtr><mtd/><mtd/><mtd><mo>&#xA0;</mo><mi>Period</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mi>Payables</mi><mo>&#xA0;</mo><mi>Deferral</mi><mo>&#xA0;</mo><mi>Period</mi></mtd></mtr></mtable></math></equation>
+    <para>The inventory conversion period is also called the days of inventory. It is the time (days) it takes to convert inventory to sales and is calculated by following these steps:</para>
+    <list list-type="enumerated">
+    <item>First, calculate the <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Inventory</mi><mo>&#xA0;</mo><mi>Turnover</mi><mo>&#xA0;</mo><mi>Ratio</mi><mo>&#xA0;</mo><mo>=</mo><mfrac><mrow><mi>Cost</mi><mo>&#xA0;</mo><mi>of</mi><mo>&#xA0;</mo><mi>Goods</mi><mo>&#xA0;</mo><mi>Sold</mi></mrow><mrow><mi>Average</mi><mo>&#xA0;</mo><mi>Inventory</mi></mrow></mfrac></math><newline/>where <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Average</mi><mo>&#xA0;</mo><mi>Inventory</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mtext>(Beginning&#xA0;Inventory&#xA0;&#43;&#xA0;Ending&#xA0;Inventory)</mtext><mn>2</mn></mfrac></math></item>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Inventory</mi><mo>&#xA0;</mo><mi>Conversion</mi><mo>&#xA0;</mo><mi>Period</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>365</mn><mrow><mi>Inventory</mi><mo>&#xA0;</mo><mi>Turnover</mi></mrow></mfrac></math><newline/>The receivables collection period, also called the days sales outstanding (DSO) or the average collection period, is the number of days it typically takes to collect cash from a credit sale. It is calculated by following these steps:</item>
+    </list>
+    <list list-type="enumerated">
+    <item>First, calculate the <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Accounts</mi><mo>&#xA0;</mo><mi>Receivable</mi><mo>&#xA0;</mo><mi>Turnover</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mi>Credit</mi><mo>&#xA0;</mo><mi>Sales</mi></mrow><mrow><mi>Average</mi><mo>&#xA0;</mo><mi>Accounts</mi><mo>&#xA0;</mo><mi>Receivable</mi></mrow></mfrac></math><newline/>where <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Average</mi><mo>&#xA0;</mo><mi>Accounts</mi><mo>&#xA0;</mo><mi>Receivable</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mo>(</mo><mi>Beginning</mi><mo>&#xA0;</mo><mi>Accounts</mi><mo>&#xA0;</mo><mi>Receivable</mi><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mi>Ending</mi><mo>&#xA0;</mo><mi>Accounts</mi><mo>&#xA0;</mo><mi>Receivable</mi><mo>)</mo></mrow><mn>2</mn></mfrac></math></item>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Receivables</mi><mo>&#xA0;</mo><mi>Collection</mi><mo>&#xA0;</mo><mi>Period</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>365</mn><mrow><mi>Accounts</mi><mo>&#xA0;</mo><mi>Receivable</mi><mo>&#xA0;</mo><mi>Turnover</mi></mrow></mfrac></math><newline/>The payables deferral period, also known as days in payables, is the average number of days its takes for a company to pay its suppliers. It is calculated by following these steps:</item>
+    </list>
+    <list list-type="enumerated">
+    <item>First, calculate the <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Accounts</mi><mo>&#xA0;</mo><mi>Payable</mi><mo>&#xA0;</mo><mi>Turnover</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mi>Cost</mi><mo>&#xA0;</mo><mi>of</mi><mo>&#xA0;</mo><mi>Goods</mi><mo>&#xA0;</mo><mi>Sold</mi></mrow><mrow><mi>Average</mi><mo>&#xA0;</mo><mi>Accounts</mi><mo>&#xA0;</mo><mi>Payable</mi></mrow></mfrac></math><newline/>where <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Average</mi><mo>&#xA0;</mo><mi>Accounts</mi><mo>&#xA0;</mo><mi>Payable</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mo>(</mo><mi>Beginning</mi><mo>&#xA0;</mo><mi>Accounts</mi><mo>&#xA0;</mo><mi>Payable</mi><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mi>Ending</mi><mo>&#xA0;</mo><mi>Accounts</mi><mo>&#xA0;</mo><mi>Payable</mi><mo>)</mo></mrow><mn>2</mn></mfrac></math></item>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Payables</mi><mo>&#xA0;</mo><mi>Deferral</mi><mo>&#xA0;</mo><mi>Period</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>365</mn><mrow><mi>Accounts</mi><mo>&#xA0;</mo><mi>Payable</mi><mo>&#xA0;</mo><mi>Turnover</mi></mrow></mfrac></math></item>
+    </list>
+    <note class="think-through">
+    <title>Periods of the Cash Cycle</title>
+    <exercise class="unnumbered">
+    <problem>
+    <para>Scenario 1: King Sized Products (KSP) Inc. has annual credit sales of &#36;40,000,000. The average inventory is &#36;3,000,000, and the company has average accounts receivable of &#36;6,000,000 and average accounts payable of &#36;2,800,000. The cost of goods sold for KSP Inc. is &#36;30,000,000. The cash cycle for the company is 57.2 days. Calculate the inventory conversion, receivables collection, and payable deferral periods.</para>
+    </problem>
+    <solution>
+    <para><emphasis effect="bold">Solution:</emphasis></para>
+    <para>Inventory conversion period:</para>
+    <list>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Inventory</mi><mo>&#xA0;</mo><mi>Turnover</mi><mo>&#xA0;</mo><mi>Ratio</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mo>&#36;</mo><mn>30</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>&#36;</mo><mn>3</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mo>&#xA0;</mo><mn>10</mn><mo>&#xA0;</mo><mi>times</mi></math></item>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Inventory</mi><mo>&#xA0;</mo><mi>Conversion</mi><mo>&#xA0;</mo><mi>Period</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>365</mn><mn>10</mn></mfrac><mo>=</mo><mn>36</mn><mo>.</mo><mn>5</mn><mo>&#xA0;</mo><mi>days</mi></math></item>
+    </list>
+    <para>Receivables collection period:</para>
+    <list>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Accounts</mi><mo>&#xA0;</mo><mi>Receivable</mi><mo>&#xA0;</mo><mi>Turnover</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mo>&#36;</mo><mn>40</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>&#36;</mo><mn>6</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mo>&#xA0;</mo><mn>6</mn><mo>.</mo><mn>67</mn><mo>&#xA0;</mo><mi>times</mi></math></item>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Receivables</mi><mo>&#xA0;</mo><mi>Collection</mi><mo>&#xA0;</mo><mi>Period</mi><mo>=</mo><mfrac><mn>365</mn><mrow><mn>6</mn><mo>.</mo><mn>67</mn><mo>&#xA0;</mo></mrow></mfrac><mo>=</mo><mn>54</mn><mo>.</mo><mn>7</mn><mo>&#xA0;</mo><mi>days</mi></math></item>
+    </list>
+    <para>Payables deferral period:</para>
+    <list>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Accounts</mi><mo>&#xA0;</mo><mi>Payable</mi><mo>&#xA0;</mo><mi>Turnover</mi><mo>=</mo><mfrac><mrow><mo>&#36;</mo><mn>30</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>&#36;</mo><mn>2</mn><mo>,</mo><mn>800</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>10</mn><mo>.</mo><mn>71</mn><mo>&#xA0;</mo><mi>times</mi></math></item>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Payables</mi><mo>&#xA0;</mo><mi>Deferral</mi><mo>&#xA0;</mo><mi>Period</mi><mo>=</mo><mfrac><mn>365</mn><mrow><mn>10</mn><mo>.</mo><mn>71</mn></mrow></mfrac><mo>=</mo><mn>34</mn><mo>&#xA0;</mo><mi>days</mi></math></item>
+    </list>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Cash</mi><mo>&#xA0;</mo><mi>Conversion</mi><mo>&#xA0;</mo><mi>Cycle</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>36</mn><mo>.</mo><mn>5</mn><mo>&#xA0;</mo><mi>days</mi><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mn>54</mn><mo>.</mo><mn>7</mn><mo>&#xA0;</mo><mi>days</mi><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mn>34</mn><mo>&#xA0;</mo><mi>days</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>57</mn><mo>.</mo><mn>2</mn><mo>&#xA0;</mo><mi>days</mi></math></equation>
+    <para>The solution (the entire cash conversion cycle) is also illustrated in a chart, Figure 19.3.</para>
+    <figure>
+    <title>Cash Conversion Cycle</title>
+    <media alt="A bar graph shows the cash conversion cycle. It consists of four cycles- inventory conversion, receivable conversion, payable deferral, and cash conversion. The inventory conversion cycle begins when the inventory is acquired and ends when the inventory is sold; this cycle is 36.5 days long. The receivable conversion cycle begins when the inventory is sold and ends when the receivable is collected; this cycle is 54.7 days long. The payable deferral cycle begins before the inventory is acquired and ends when the trade credit is paid; this cycle is 34 days long.  The cash conversion cycle begins when the trade credit is paid and ends when the receivable is collected; this cycle is 57.2 days long."><image mime-type="image/png" src="../../media/FINAN_Figure_19_01_003.png"/></media>
+    </figure>
+    </solution>
+    </exercise>
+    </note>
+    <para>Shortening the inventory conversion period and the receivables collection period or lengthening the payables deferral period shortens the cash conversion cycle. Financial managers monitor and analyze each component of the cash conversion cycle. Ideally, a company&#8217;s management should minimize the number of days it takes to convert inventory to cash while maximizing the amount of time it takes to pay suppliers.</para>
+    <para>Quickly converting inventory to sales speeds up cash inflows and shortens the cash cycle, but it also could help reduce inventory losses as a result of obsolescence. Inventory becomes obsolete because of a variety of factors including time&#8212;inventory that has not been sold for a long period of time and is not expected to be sold in the future has to be written down or written off according to accounting rules. Write-offs of inventory can result in significant losses for a company. In the food business, inventory conversion periods take on great importance because of spoilage of perishable goods; in retailing, seasonal items lose value the longer they stay on the shelves.</para>
+    <para>Various inventory management techniques are used to shorten production time in manufacturing, and in retailing, strategies are used to reduce the amount of time a product sits on the shelf or is stored in the warehouse. Production techniques such as <term>just-in-time inventory</term> systems and marketing and pricing strategies can have an impact on the number of days in the inventory conversion cycle.</para>
+    <para>For the receivables collection period, a relatively long receivables collection period means that the company is having trouble collecting cash from its customers and so whatever can be done to speed up collections while still offering competitive credit terms should be pursued by financial managers. For example, companies that converted paper invoicing to e-invoicing most likely reduce the average collection period by some number of days, as it makes sense that if a bill is transmitted electronically, lag time is cut (no delays because of &#8220;snail mail&#8221;) and collections (payments back to the company from customers) may happen sooner. Other credit management techniques, some of which are explained in subsequent sections, can help minimize and control the receivables collection period.</para>
+    <para>The payables deferral period is the one element that probably cannot be optimized without violating credit terms. Certainly, cash balances can be conserved by delaying payments to vendors for as long as possible; however, payments on trade credit need to be made on time or the company&#8217;s relationship with the supplier can suffer. In a worst-case scenario, the company&#8217;s <term>credit rating</term> could also deteriorate.</para>
+    <para>A credit rating, also called a credit score, is a measure produced by an independent agency indicating the likelihood that a company will meet its financial obligations as they come due; it is an indication of the company&#8217;s ability to pay its creditors. Three business credit rating services are <term class="no-emphasis">Equifax Small Business</term>, <term class="no-emphasis">Experian Business</term>, and <term class="no-emphasis">Dun &#38; Bradstreet</term>.</para>
+    <note class="think-through">
+    <title>The Cash Conversion Cycle</title>
+    <exercise class="unnumbered">
+    <problem>
+    <para>Considering the previous Think It Through (Scenario 1), what if you could reduce inventory levels, hold lower accounts receivable balances, and rely more heavily on accounts payable while maintaining the same sales level?</para>
+    <para>Here&#8217;s Scenario 2. Because of better inventory management, credit and collections management, and negotiation of longer payment periods with vendors, King Sized Products (KSP) Inc. needs less investment in inventory and accounts receivable and is able to utilize a greater amount of trade credit financing.</para>
+    <para>Annual credit sales are &#36;40,000,000, average inventory is &#36;2,800,000, average accounts receivable are &#36;5,500,000, average accounts payable are &#36;3,300,000, and cost of goods sold is &#36;30,000,000. What is the cash conversion cycle?</para>
+    </problem>
+    <solution>
+    <para><emphasis effect="bold">Solution:</emphasis></para>
+    <para>Inventory conversion period:</para>
+    <list>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Inventory</mi><mo>&#xA0;</mo><mi>Turnover</mi><mo>&#xA0;</mo><mi>Ratio</mi><mo>=</mo><mfrac><mrow><mo>&#36;</mo><mn>30</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>&#36;</mo><mn>2</mn><mo>,</mo><mn>800</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>10</mn><mo>.</mo><mn>71</mn><mo>&#xA0;</mo><mi>times</mi></math></item>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Inventory</mi><mo>&#xA0;</mo><mi>Conversion</mi><mo>&#xA0;</mo><mi>Period</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>365</mn><mrow><mn>10</mn><mo>.</mo><mn>71</mn></mrow></mfrac><mo>=</mo><mo>&#xA0;</mo><mn>34</mn><mo>.</mo><mn>07</mn><mo>&#xA0;</mo><mi>days</mi></math></item>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Inventory</mi><mo>&#xA0;</mo><mi>Conversion</mi><mo>&#xA0;</mo><mi>Period</mi><mo>=</mo><mfrac><mn>365</mn><mrow><mn>10</mn><mo>.</mo><mn>71</mn></mrow></mfrac><mo>=</mo><mn>34</mn><mo>.</mo><mn>07</mn><mo>&#xA0;</mo><mi>days</mi></math></item>
+    </list>
+    <para>Receivables collection period:</para>
+    <list>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Accounts</mi><mo>&#xA0;</mo><mi>Receivable</mi><mo>&#xA0;</mo><mi>Turnover</mi><mo>=</mo><mfrac><mrow><mo>&#36;</mo><mn>40</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>&#36;</mo><mn>5</mn><mo>,</mo><mn>500</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>7</mn><mo>.</mo><mn>27</mn><mo>&#xA0;</mo><mi>times</mi></math></item>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Receivables</mi><mo>&#xA0;</mo><mi>Collection</mi><mo>&#xA0;</mo><mi>Period</mi><mo>=</mo><mfrac><mn>365</mn><mrow><mn>7</mn><mo>.</mo><mn>27</mn></mrow></mfrac><mo>=</mo><mo>&#xA0;</mo><mn>50</mn><mo>.</mo><mn>19</mn><mo>&#xA0;</mo><mi>days</mi></math></item>
+    </list>
+    <para>Payables deferral period:</para>
+    <list>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Accounts</mi><mo>&#xA0;</mo><mi>Payable</mi><mo>&#xA0;</mo><mi>Turnover</mi><mo>&#xA0;</mo><mo>=</mo><mfrac><mrow><mo>&#36;</mo><mn>30</mn><mo>,</mo><mn>000</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>&#36;</mo><mn>3</mn><mo>,</mo><mn>300</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mo>&#xA0;</mo><mn>9</mn><mo>.</mo><mn>09</mn><mo>&#xA0;</mo><mi>times</mi></math></item>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Payables</mi><mo>&#xA0;</mo><mi>Deferral</mi><mo>&#xA0;</mo><mi>Period</mi><mo>=</mo><mfrac><mn>365</mn><mrow><mn>9</mn><mo>.</mo><mn>09</mn></mrow></mfrac><mo>=</mo><mn>40</mn><mo>.</mo><mn>15</mn><mo>&#xA0;</mo><mi>days</mi></math></item>
+    </list>
+    <equation><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Cash</mi><mo>&#xA0;</mo><mi>Conversion</mi><mo>&#xA0;</mo><mi>Cycle</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>34</mn><mo>.</mo><mn>07</mn><mo>&#xA0;</mo><mi>days</mi><mo>&#xA0;</mo><mo>&#43;</mo><mo>&#xA0;</mo><mn>50</mn><mo>.</mo><mn>19</mn><mo>&#xA0;</mo><mi>days</mi><mo>&#xA0;</mo><mo>&#x2013;</mo><mo>&#xA0;</mo><mn>40</mn><mo>.</mo><mn>15</mn><mo>&#xA0;</mo><mi>days</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>44</mn><mo>.</mo><mn>11</mn><mo>&#xA0;</mo><mi>days</mi></math></equation>
+    <para>Notice that the investment in inventory and accounts receivable is less and the average accounts payable is more with no change in credit sales and cost of goods sold&#8212;you would certainly anticipate a reduction in the cash conversion cycle. The improvement would be about 13 days (from 57.2 in Scenario 1 to 44.1 days in Scenario 2). Figure 19.4 shows a bar chart comparison of the two scenarios.</para>
+    <figure>
+    <title>Scenario 1 and 2 Comparison: Shortening the Cash Conversion Cycle</title>
+    <table summary="Some cells are left blank for visual design purposes.">
+    <tgroup cols="3">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+    <row><entry>&nbsp;</entry><entry align="center">Scenario 1</entry><entry align="center">Scenario 2</entry></row>
+    </thead>
+    <tbody>
+    <row><entry>Inventory Conversion Period</entry><entry align="right">36.50</entry><entry align="right">34.07</entry></row>
+    <row><entry>Receivables Collection Period</entry><entry align="right">54.75</entry><entry align="right">50.19</entry></row>
+    <row><entry>Payables Deferral Period</entry><entry align="right">34.07</entry><entry align="right">40.15</entry></row>
+    <row><entry>Cash Conversion Cycle</entry><entry align="right">57.18</entry><entry align="right">44.10</entry></row>
+    </tbody>
+    </tgroup>
+    </table>
+    <media alt="A bar graph is used to compare the cash conversion cycles for two scenarios. Scenario 2 has slightly shorter inventory conversion and receivables collection periods, while Scenario 1 has a slightly shorter payables deferral period. The cash conversion cycle is longer in Scenario 1 than it is in Scenario 2."><image mime-type="image/png" src="../../media/FINAN_Figure_19_01_004.png"/></media>
+    </figure>
+    </solution>
+    </exercise>
+    </note>
+    <note class="link-to-learning">
+    <title/>
+    <para>A Harvard Business School blog post, <link url="https://openstax.org/r/how-amazon-survived">How Amazon Survived the Dot-Com Bubble</link>, discusses how Amazon managed its cash conversion cycle to the point where it was receiving payment for the things it sold before Amazon had to pay for them. In that way, Amazon had a negative cash conversion cycle (which is really a huge positive for a company trying to manage positive cash flow!).</para>
+    </note>
+    </section>
+    <section>
+    <title>Working Capital Needs by Industry</title>
+    <para>When comparing working capital needs by industry, you can see some variation. For example, some companies in the grocery business can have very low cash conversion cycles, while construction companies can have very high cash conversion cycles. And some companies, like those in the restaurant business, can have very low numbers and even have negative cash conversion cycles.</para>
+    <para>Working capital can also differ from one industry to another. An often cited general rule is that a current ratio of 2 is considered optimal. However, general rules of thumb must be treated with caution. A better <term>benchmarking</term> approach is to compare a firm&#8217;s ratios&#8212;current ratio and quick ratios&#8212;to the average of the industry in which the subject company operates.</para>
+    <para>Take, for example, a home construction company. Such as firm has a long <term>operating cycle</term> because of the production process (building homes), and the &#8220;storage of finished goods&#8221; can result in very high current ratios&#8212;such as 11 or 12 times current liabilities&#8212;whereas a retailer like Walmart or Target would have much lower current ratios.</para>
+    <para>In recent years, <term class="no-emphasis">Walmart Stores Inc.</term> (NYSE: WMT) has had a current ratio of around 0.9 and has been able to manage its working capital needs by efficient management of its supply chain, quick turnover of inventory, and a very small investment in accounts receivables.<footnote>Walmart Inc. &#8220;2020 Annual Report.&#8221; 2020. https://corporate.walmart.com/media-library/document/2020-walmart-annual-report/&#95;proxyDocument?id=00000171-a3ea-dfc0-af71-b3fea8490000</footnote> Big retailers like Walmart are effective at negotiating favorable payment terms with their vendors. The ability to generate consistent positive cash flow from operations allows a retailer like Walmart to operate with relatively low amounts of working capital.</para>
+    <para>The credit policies of a company also affect working capital. A company with a liberal credit policy will require a greater amount of working capital, as collection periods of accounts receivable are longer and therefore tie up more dollars in receivables.</para>
+    <para>Almost all businesses will have times when additional working capital is needed to pay bills, meet the payroll (salaries and wages), and plan for accrued expenses. The wait for the cash to flow into the company&#8217;s treasury from the collection of receivables and cash sales can be longer during tough times.</para>
+    <para>During the COVID-19 pandemic, the US government made paycheck protection program (PPP) loans available to help alleviate working capital problems for small and large business when the economy slowed because of shutdowns and social distancing. And although 60 percent of the PPP loan proceeds were to go to cover payroll-related costs, 40 percent could be used to bolster working capital to meet rent, utilities costs, and some interest expense while companies were &#8220;treading water&#8221;&#8212;waiting for positive cash flow to pick up under a recovery.<footnote>US Small Business Administration. &#8220;PPP Loan Forgiveness.&#8221; n.d. https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-loan-forgiveness</footnote></para>
+    <para>It isn&#8217;t just during downturns that working capital is strained. Growing companies, even if they are extremely profitable, need additional working capital as they ramp up operations by acquiring raw materials, component parts, supplies, or other forms of inventory; hiring temporary or additional employees; and taking on new projects. Whenever additional resources are needed, working capital is also needed.</para>
+    <para>Some of the current assets and expenditures needed in a growing company may need to be financed from sources that are not spontaneous financing&#8212;<term>trade credit</term> (accounts payable). Such forms of external financing such as lines of credit, short-term bank loans, inventory-based loans (also called <term>floor planning</term>), and the <term>factoring</term> of accounts receivables might have to be relied upon.</para>
+    </section>
+    </section>
+    <section class="section-summary">
+    <title/>
+    <para>Working capital is not only necessary to run a business; it is a resource that will expand and contract with business cycles and must be carefully managed and monitored. The daily, weekly, and monthly needs of business operations are met by cash. Financial managers understand the significance of net working capital (current assets &#8211; current liabilities) and various liquidity ratios as they attempt to ensure that bills can be paid. The cash conversion cycle and the cash budget provide additional working capital management tools.</para>
+    </section>
+    <section class="multiple-choice">
+    <title/>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_MCQ1"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_MCQ2"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_MCQ3"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_MCQ4"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_MCQ5"/></para></problem></exercise>
+    </section>
+    <section class="review-questions">
+    <title/>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_RVQ2"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_RVQ3"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_RVQ4"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_RVQ5"/></para></problem></exercise>
+    </section>
+    <section class="video-activity">
+    <title/>
+    <section>
+    <title>How Companies Report Cash Flow</title>
+    <media alt="cash-flow">
+    <iframe width="660" height="371.4" src="https://openstax.org/r/how-companies-report-cash-flow"/></media>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_VA1Q1"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_VA1Q2"/></para></problem></exercise>
+    </section>
+    <section>
+    <title>Trade Credit and Interest Rates on Short-Term Borrowing</title>
+    <media alt="trade-credit">
+    <iframe width="660" height="371.4" src="https://openstax.org/r/cost-of-trade-credit"/></media>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_VA2Q1"/></para></problem></exercise>
+    <exercise><problem><para><link class="os-embed" url="#exercise/FI_Ch19_Sec1_VA2Q2"/></para></problem></exercise>
+    </section>
+    </section>
+    </content>
+    <glossary>
+    <definition><term>cash cycle or cash conversion cycle</term> <meaning>the time period (measured in days) between when a business begins production and acquires resources from its suppliers (for example, acquisition of materials and other forms of inventory) and when it receives cash from its customers; offset by the time it takes to pay suppliers (called the payables deferral period)</meaning></definition>
+    <definition><term>benchmarking</term> <meaning>the process of performance analysis that involves comparing financial condition and operating results against a standard, called a benchmark</meaning></definition>
+    <definition><term>credit rating</term> <meaning>a type of score that indicates a business&#8217;s creditworthiness</meaning></definition>
+    <definition><term>current assets</term> <meaning>assets that are cash or cash equivalents or are expected to be converted to cash in a short period of time and will be consumed, used, or expire through business operations within one year or the business&#8217;s operating cycle, whichever is shorter</meaning></definition>
+    <definition><term>factoring</term> <meaning>the process of selling accounts receivables to a financial institution or, in some cases, using the accounts receivables as security for a loan from a financial institution</meaning></definition>
+    <definition><term>floor planning</term> <meaning>a type of inventory financing whereby a financial institution provides a loan so that the company can acquire inventory with proceeds from the sale of inventory used to pay down the loan; a common method of financing inventory for automobile dealers and sellers of other big-ticket (high-priced) items</meaning></definition>
+    <definition><term>gross working capital</term> <meaning>synonymous with the current assets of a company, those assets that include cash and other assets that can be converted into cash within a period of 12 months</meaning></definition>
+    <definition><term>just-in-time inventory</term> <meaning>inventory management method in which a company maintains as little inventory on hand as possible while still being able to satisfy the demands of its customers</meaning></definition>
+    <definition><term>liquidity</term> <meaning>ability to convert assets into cash in order to meet primarily short-term cash needs or emergencies</meaning></definition>
+    <definition><term>marketable securities</term> <meaning>investments that can be converted to cash quickly; short-term liquid securities that can be bought or sold on a public exchange (market) and tend to mature in a year or less</meaning></definition>
+    <definition><term>net working capital</term> <meaning>the difference between current assets and current liabilities (Current Assets &#8211; Current Liabilities = Net Working Capital)</meaning></definition>
+    <definition><term>operating cycle</term> <meaning>the time it takes a company to acquire inventory, sell inventory, and collect the cash from the sale of said goods; synonymous with cash cycle</meaning></definition>
+    <definition><term>ratios</term> <meaning>numerical values taken from financial statements that are used in formulas to examine financial relationships and create metrics of performance, strengths, weaknesses; help analysts gain insight and meaning</meaning></definition>
+    <definition><term>trade credit</term> <meaning>credit granted to a business, also called accounts payable; allows a business to buy goods and services on account and pay the cash at some point in the future</meaning></definition>
+    <definition><term>working capital</term> <meaning>the resources that are needed to meet the daily, weekly, and monthly operating cash flow needs</meaning></definition>
+    </glossary>

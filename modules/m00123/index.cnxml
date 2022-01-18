@@ -6,8 +6,112 @@
     <md:uuid>f4bcbbb6-30a6-4fda-bef2-9f0e835e50eb</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
-</document>
+    <section class="learning-objectives" id="sect-00001">
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Discuss how decisions on extending credit are made.</item>
+    <item>Explain how to monitor accounts receivables.</item>
+    </list>
+    </section>
+    <para id="para-00002">For any business that sells goods or services on credit, effective accounts receivable management is critical for cash flow and profitability planning and for the long-term viability of the company. Receivables management begins before the sale is made when a number of factors must be considered.</para>
+    <list id="list-00002">
+    <item>Can the customer be approved for a credit sale?</item>
+    <item>If the credit is approved, what will be the credit terms (i.e., how long do we give customers to pay their bills)?</item>
+    <item>Will there be a cash discount for quick payment?</item>
+    <item>How much credit should be extended to each customer (credit limit)?</item>
+    </list>
+    <para id="para-00003">Accounts receivable is not about accepting credit cards. Credit card sales are not technically accounts receivable. When a credit card is accepted, it means that the credit card company (e.g., VISA, MasterCard, or American Express) will guarantee the payment. The cash will be deposited in the merchant’s bank account in a very short period of time.</para>
+    <para id="para-00004">When a business makes a sale on account, management (e.g., a credit manager or analyst) does its best to distinguish between customers who have a high likelihood of paying and customers who have a low likelihood. Customers with low credit risk are approved; the decision is based on an effective analysis of creditworthiness.</para>
+    <para id="para-00005">Creditworthiness is judged by looking at a number of factors including an evaluation of the customer’s financial statements, financial ratios, and credit reports (credit scores) based on a customer’s payment history on credits owed to other firms. If a company has a prior relationship with a customer seeking trade credit, the customer’s payment history with the firm is also carefully evaluated before additional credit is granted.</para>
+    <note class="link-to-learning" id="note-00001">
+    <title>Corporate Finance Institute</title>
+    <para id="para-00006">Credit managers use various tools and techniques to evaluate creditworthiness of customers. The <term class="no-emphasis" id="term-00001">Corporate Finance Institute</term>’s website states that “the ‘5 Cs of Credit’ is a common phrase used to describe the five major factors [character, capacity, collateral, capital, and conditions] used to determine a potential borrower’s creditworthiness.” It goes on to say that “a credit report provides a comprehensive account of the borrower’s total debt, current balances, credit limits, and history of defaults and <term id="term-00002">bankruptcies</term>, if any.”<footnote id="foot-00001">Corporate Finance Institute. “What Are the 5 Cs of Credit?” n.d. https://corporatefinanceinstitute.com/resources/knowledge/credit/5-cs-of-credit/</footnote> More on the 5 Cs of credit can be found on the <link url="https://openstax.org/r/corporate-finance">Corporate Finance Institute’s website</link>.</para>
+    </note>
+    <section id="sect-00002">
+    <title>Determining the Credit Policy</title>
+    <para id="para-00007">A company’s credit policy encompasses rules of credit granting and procedures for the collections of accounts. It’s how a company will process credit applications, utilize credit scoring and credit bureaus, analyze financial statements, make credit limit decisions, and conduct collection efforts when accounts become <emphasis effect="italics">delinquent</emphasis> (still outstanding after their due date).</para>
+    </section>
+    <section id="sect-00003">
+    <title>Establishing Credit Terms</title>
+    <para id="para-00008">Trade credit terms were discussed earlier. Recall that part of the terms and conditions of a sale are the <term id="term-00003">credit terms</term>—elements of a sales agreement (contract) that indicate when payment is due, possible discounts (for quick payments), and any late fee charges.</para>
+    <para id="para-00009">If open credit is for a sales transaction, an agreement is made as to the length of time for which credit is to be granted (payment period) and a discount for early payment. Although companies are free to establish credit terms as they see fit, most companies look to the practice of the particular industry in which they operate. The credit terms offered by the competition are a factor. Net terms usually range between 30 days and 90 days, depending on the industry. Discounts for early payments also differ and are typically from 1 to 3 percent.</para>
+    <para id="para-00010">Establishing credit terms offered can be thought of as a decision process similar to setting a price for products and services. Just as a price is the result of a market forces, so too are credit terms. If credit terms are not competitive within the industry, sales can suffer. Typically, companies follow standard industry credit terms. If most companies in an industry offer a discount for early payments, then most companies will follow suit and also offer an equal discount.</para>
+    <para id="para-00011">Once credit terms are established, they can be changed based on both marketing strategies and financial management goals. For example, discounts for early payments can be more generous, or the full <term id="term-00004">credit period</term> can be extended to stimulate additional sales. Both discount periods and full credit periods can be tightened to try to speed up collections. The establishment of and changes to credit terms are usually made in consultation with the sales and financial management departments.</para>
+    </section>
+    <section id="sect-00004">
+    <title>Monitoring Accounts Receivables</title>
+    <para id="para-00012">Financial managers monitor accounts receivables using some basic tools. One of those tools is the <term id="term-00005">accounts receivable aging schedule</term> (report). To prepare the aging schedule, a classifying of customer account balances is performed with age as the sorting attribute.</para>
+    <para id="para-00013">An account receivable begins its life as a credit sale. The age of a receivable is the number of days that have transpired since the credit sale was made (the date of the invoice). For example, if a credit sale was made on June 1 and is still unpaid on July 15, that receivable is 45 days old. Aging of accounts is thought to be a useful tool because of the idea that the longer the time owed, the greater the possibility that individual accounts receivable will prove to be uncollectible.</para>
+    <para id="para-00014">An aging schedule is a report that organizes the outstanding (unpaid) receivable balances into age categories. The receivables are grouped by the length of time they have been outstanding, and an uncollectible percentage is assigned to each category. The length of uncollectible time increases the percentage assigned. For example, a category might consist of accounts receivable that are 0–30 days past due and is assigned an uncollectible percentage of 6 percent. Another category might be 31–60 days past due and is assigned an uncollectible percentage of 15 percent. All categories of estimated uncollectible amounts are summed to get a total estimated uncollectible balance.</para>
+    <para id="para-00015">The aging of accounts is useful to the credit and collection managers, both from a global view—estimating how much of the accounts receivable asset might be bad debts—and on a micro basis—being able to drill down to see which specific customers are slow paying or delinquent so as to implement collection tactics.</para>
+    <para id="para-00016">Accountants and auditors also find the aging of accounts to determine a reasonable amount to be reported as <term id="term-00006">bad</term> <term id="term-00007">debt expense</term> and to establish a sufficient balance in the <term id="term-00008">allowance for doubtful accounts</term>. Bad debt expense is the cost of doing business because some customers will not pay the amounts they owe (accounts receivable), while the allowance for doubtful accounts is a <term id="term-00009">contra-asset</term> (it will be deducted from accounts receivable on the balance sheet) that contains management’s best guess (management’s estimate) as to how much of its accounts receivable will never be collected.</para>
+    <para id="para-00017">In Figure 19.6, Foodinia Inc.’s accounts receivable aging report shows that the total receivables balance is $189,000. The company splits its accounts into four age categories: not due, 30 to 60 days past due, 61 to 90 days past due, and more than 90 days past due. Of the $189,000 owed to Foodinia by its customers, $75,500 ($189,000 less $113,500) of invoices have been outstanding (not paid yet) beyond their due dates.</para>
+    <figure id="fig-00001">
+    <title>Foodinia Inc. Aging of Accounts Receivable Schedule</title>
+    <media alt="The Aging of Accounts receivable schedule for Foodina, Inc. lists each customer name, and the amount due in each of its four age categories. Foodina, Inc. has $113,500 not yet due; $49,500 30 to 60 days past due; $17,000 61 to 90 days past due; and $9,000 more than 90 days past due.  The total of all receivables is $189,000."><image mime-type="image/png" src="../../media/FINAN_Figure_19_04_006.png"/></media>
+    </figure>
+    <para id="para-00018">In addition to preparing aging schedules, financial managers also use financial ratios to monitor receivables. The accounts receivable turnover ratio determines how many times (i.e., how often) accounts receivable are collected during an operating period and converted to cash. A higher number of times indicates that receivables are collected quickly. In contrast, a lower accounts receivable turnover indicates that receivables are collected at a slower rate, taking more days to collect from a customer.</para>
+    <para id="para-00019">Another receivables ratio is the number of days’ sales in receivables ratio, also called the receivables collection period—the expected days it will take to convert accounts receivable into cash. A comparison of a company’s receivables collection period to the credit terms granted to customers can alert management to collection problems. Both the accounts receivable turnover ratio and receivables collection period are covered, including the formulas for calculating the ratios, in the previous section of this chapter.</para>
+    </section>
+    <section id="sect-00005">
+    <title>Accounts Receivables and Notes Receivable</title>
+    <para id="para-00020">An accounts receivable is an informal arrangement between a seller (a company) and customer. Accounts receivable are usually paid within a month or two. Accounts receivable don’t require any complex paperwork, are evidenced by an invoice, and do not involve interest payments. In contrast, a note receivable is a more formal arrangement that is evidence by a legal contract called a promissory note specifying the payment amount and date and interest.</para>
+    <para id="para-00021">The length of a note receivable can be for any time period including a term longer than the typical account receivable. Some notes receivable have a term greater than a year. The assets of a bank include many notes receivable (a loan made by a bank is an asset for the bank).</para>
+    <para id="para-00022">A note receivable can be used in exchange for products and services or in exchange for cash (usually in the case of a financial lender). Sometimes a company might request that a slow-paying customer sign a note promissory note to further secure the receivable, charge interest, or add some type of collateral to the arrangement, in which case the receivable would be called a secured promissory note. Several characteristics of notes receivable further define the contract elements and scope of use (see Table 19.3).</para>
+    <table summary=" " id="table-00001">
+    <title>Key Feature Comparison of Accounts Receivable and Notes Receivable</title>
+    <tgroup cols="2">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <thead>
+    <row>
+    <entry align="center">Accounts Receivable</entry>
+    <entry align="center">Notes Receivable</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry>
+    <ul>
+    <li>An informal agreement between customer and company</li>
+    <li>Receivable in less than one year or within a company’s operating cycle</li>
+    <li>Does not include interest</li>
+    </ul>
+    </entry>
+    <entry>
+    <ul>
+    <li>A legal contract with established payment terms</li>
+    <li>Receivable beyond one year and outside of a company’s operating cycle</li>
+    <li>Includes interest</li>
+    <li>Could stipulate collateral</li>
+    </ul>
+    </entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    </section>
+    <section class="section-summary" id="sect-00006">
+    <title/>
+    <para id="para-00023">Accounts receivables are monitored by management with tools such as the ratios accounts receivable turnover and average collection period and the aging of receivables. The credit managers’ mantra rings true: “The older the receivable, the greater the likelihood that the account will not be collected.”</para>
+    </section>
+    <section class="multiple-choice" id="sect-00007">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00024"><link class="os-embed" url="#exercise/FI_Ch19_Sec4_MCQ9"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00025"><link class="os-embed" url="#exercise/FI_Ch19_Sec4_MCQ10"/></para></problem></exercise>
+    </section>
+    <section class="review-questions" id="sect-00008">
+    <title/>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch19_Sec4_RVQ1"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch19_Sec4_RVQ7"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>accounts receivable aging schedule</term> <meaning>a report that shows amounts owed by customers by the age of the account, as measured by the number of days since the sale</meaning></definition>
+    <definition id="def-00002"><term>allowance for doubtful accounts</term> <meaning>an account that contains the estimated amount of accounts receivable that will not be collected</meaning></definition>
+    <definition id="def-00003"><term>bad debt expense</term> <meaning>an expense that a business incurs as a result of uncollectible accounts receivables</meaning></definition>
+    <definition id="def-00004"><term>bankruptcies</term> <meaning>federal court procedures that protect distressed businesses from creditor collection efforts while allowing the debtor firm to liquidate its assets or devise a reorganization plan</meaning></definition>
+    <definition id="def-00005"><term>contra-asset</term> <meaning>an account with a balance that is used to offset (reduce) its related asset on the balance sheet (for example, allowance for doubtful accounts reduces the value of accounts receivable reported on the balance sheet)</meaning></definition>
+    <definition id="def-00006"><term>credit terms</term> <meaning>the terms that are part of a sales credit agreement that indicate when payment is due, possible discounts, and any fees that will be charged for a late payment</meaning></definition>
+    </glossary>
+    </document>
