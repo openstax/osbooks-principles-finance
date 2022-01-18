@@ -49,7 +49,7 @@
     <item>Inventory</item>
     </list>
     <para id="para-00013">Here is an example. On December 31, a company has the following balances and gross working capital:</para>
-    <figure id="fig-00001">
+    <figure class="unnumbered" id="fig-00001">
     <media alt="A balance sheet of a company shows cash and equivalents ($100,000), marketable securities ($250,000), accounts receivable ($330,000), inventory ($425,000), and the total gross working capital of $1,105,000."><image mime-type="image/png" src="../../media/FINAN_Figure_19_01_A.png"/></media>
     </figure>
     <para id="para-00014">Think of the $1,105,000 of gross working capital as a source of funds for the most pressing obligations (i.e., current liabilities) of the company. Gross working capital is available to pay the bills. However, some of the current assets would need to be converted to cash first. Accounts receivable need to be collected, and inventory would need to be sold before it too can become cash. What if the company had $600,000 of current liabilities? That amount of current obligations could not be paid out of cash until the marketable securities were sold and a significant portion of accounts receivable were collected.</para>
