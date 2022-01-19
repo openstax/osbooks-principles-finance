@@ -6,8 +6,129 @@
     <md:uuid>55a9e82a-5294-47f6-8302-d93a0981934c</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Explain the difference between stated and effective rates.</item>
+    <item>Calculate the true cost of borrowing.</item>
+  </list>
+    </section>
+    <section id="sect-00002">
+    <title>The Difference between Stated and Effective Rates</title>
+    <para id="para-00002">If you look at the bottom of your monthly credit card statement, you could see language such as “The interest rate on unpaid balances is 1.5% per month.” You might think to yourself, “So, that’s 12 months times 1.5%, or 18% per year.” This is a fine example of the difference between <emphasis effect="italics">stated</emphasis> and <emphasis effect="italics">effective</emphasis> annual interest rates. The <term id="term-00001">effective interest rate</term> reflects compounding within a one-year period, an important distinction because we tend to focus on annual interest rates. Because compounding occurs more than once per year, the true annual rate is higher than appears. Please remember that if interest is calculated and compounded annually, the stated and effective interest rates will be the same. Keep in mind that the following principles work whether you are the debtor paying off an obligation or an investor hoping for more frequent compounding. The dynamics of the time value of money apply in either direction.</para>
+    </section>
+    <section id="sect-00003">
+    <title>Effective Rates and Period of Compounding</title>
+    <para id="para-00003">Let’s remain with our example of a credit card statement that indicates an interest rate of 1.5% per month on unpaid balances. If you use this card only once, to make a $1,000 purchase in January, and then fail to pay the bill when it comes due, the issuer will bill you $15. Now you owe them $1,015. Assume you completely ignore this bill and never pay it throughout the rest of the year. The monthly calculation of interest starts to compound on past interest assessments in addition to the $1,000 initial purchase (see Table 8.4).</para>
+    <table summary="Some cells are left blank for visual design purposes." id="table-00001">
+    <title>Compounded Interest on a Credit Card Statement ($)</title>
+    <tgroup cols="3">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <thead>
+    <row>
+    <entry>Month</entry>
+    <entry>Interest</entry>
+    <entry>Balance</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right">1,000.00</entry>
+    </row>
+    <row>
+    <entry align="center">1</entry>
+    <entry align="right">15.00</entry>
+    <entry align="right">1,015.00</entry>
+    </row>
+    <row>
+    <entry align="center">2</entry>
+    <entry align="right">15.23</entry>
+    <entry align="right">1,030.23</entry>
+    </row>
+    <row>
+    <entry align="center">3</entry>
+    <entry align="right">15.45</entry>
+    <entry align="right">1,045.69</entry>
+    </row>
+    <row>
+    <entry align="center">4</entry>
+    <entry align="right">15.69</entry>
+    <entry align="right">1,061.36</entry>
+    </row>
+    <row>
+    <entry align="center">5</entry>
+    <entry align="right">15.92</entry>
+    <entry align="right">1.077.28</entry>
+    </row>
+    <row>
+    <entry align="center">6</entry>
+    <entry align="right">16.16</entry>
+    <entry align="right">1,093.44</entry>
+    </row>
+    <row>
+    <entry align="center">7</entry>
+    <entry align="right">16.40</entry>
+    <entry align="right">1,109.84</entry>
+    </row>
+    <row>
+    <entry align="center">8</entry>
+    <entry align="right">16.65</entry>
+    <entry align="right">1,126.49</entry>
+    </row>
+    <row>
+    <entry align="center">9</entry>
+    <entry align="right">16.90</entry>
+    <entry align="right">1,143.39</entry>
+    </row>
+    <row>
+    <entry align="center">10</entry>
+    <entry align="right">17.15</entry>
+    <entry align="right">1,160.54</entry>
+    </row>
+    <row>
+    <entry align="center">11</entry>
+    <entry align="right">17.41</entry>
+    <entry align="right">1,177.95</entry>
+    </row>
+    <row>
+    <entry align="center">12</entry>
+    <entry align="right">17.67</entry>
+    <entry align="right">1,195.62</entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00004">Because interest compounds monthly rather than annually, the effective annual rate is 19.56%, not the intuitive rate of the stated 1.5% times 12 months, or 18%. Our basic compounding formula of <emphasis effect="italics">(1+i)^n</emphasis> by substitution shows:</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>+</mo><mn>0.015</mn></mrow><mo>)</mo></mrow></mrow><mrow><mn>12</mn></mrow></msup><mo>=</mo><mn>1.19562</mn></mrow></math></equation>
+    <para id="para-00005" xmlns="http://cnx.rice.edu/cnxml">To isolate the effective annual rate, we then deduct 1 because our interest calculations are based on the value of $1:</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>+</mo><mn>0.015</mn></mrow><mo>)</mo></mrow></mrow><mrow><mn>12</mn></mrow></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>1.19562</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>0.19562</mn><mo>=</mo><mn>19.562</mn><mi>%</mi></mrow></math></equation>
+    <para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">Therefore, it falls to the consumer/borrower to understand the true cost of borrowing, especially when larger dollar amounts are involved. If we had been dealing with $10,000 rather than $1,000, the annual difference would be more than $156.</para>
+    <note class="link-to-learning" id="note-00001">
+    <title>A Helpful Demonstration …</title>
+    <para id="para-00007">From the <link url="https://openstax.org/r/Corporate_Finance_Institute">Corporate Finance Institute</link> comes a fine visual of a similar example. Here, we see the effective annual rate that results from taking a nominal annual rate of 12%, with a benefit to an investor if they have the benefit of monthly compounding.</para>
+    </note>
+    <para id="para-00008">One example of the importance of understanding effective interest rates is an invention from the early 1990s: the <term class="no-emphasis" id="term-00002">payday advance loan</term>, or <term class="no-emphasis" id="term-00003">PAL</term>. The practice of offering such loans can be controversial because it can lead to very high rates of interest, perhaps even illegally high, in an act known as usury. Although some states have outlawed PALs and others place limits on them, some do not. A PAL is a short-term loan in anticipation of a person’s next paycheck. A person in need of money for short-term needs will write a check on Thursday but date the check <emphasis effect="italics">next</emphasis> Thursday, which is their normal payday; assume this transaction is for $200. The lender, typically operating from a storefront, will advance the $200 cash and hold the postdated check. The lender charges a fee—let’s say $14—as their compensation. The following Thursday, the borrower is expected to pay off the advance, and if they do not, the lender can deposit the postdated check. If that check has insufficient funds, more fees and penalties will likely be assessed.</para>
+    <para id="para-00009">One primary reason that arrangements such as these are controversial is the excessively high nominal (stated) interest rate that they can represent. For a one-week loan of $200, the borrower is paying $14, or 7% of the borrowed amount. If this is annualized, with 52 seven-day periods in a year, the stated rate is 364%! While a PAL might seem to be an effective immediate solution to a cash shortfall, the mathematics behind the true cost of borrowing simply do not make sense, and a person who uses such arrangements regularly is placing themselves at a dreadful financial disadvantage.</para>
+    <note class="think-through" id="note-00002">
+    <title>How Tempting Is That Refund Anticipation?</title>
+    <exercise class="unnumbered" id="exer-00001"><problem id="prob-00001"><para id="para-00010"><term class="no-emphasis" id="term-00004">Refund anticipation loans (RALs)</term> began in 1987, and they are still available (though not from banks) and used by millions of people.<footnote id="foot-00001">Michelle Singletary. “Another Reason Not to Opt for a Tax Refund Loan: It May Delay Your Next Stimulus Payment.” <emphasis effect="italics">Washington Post</emphasis>, February 16, 2021. https://www.washingtonpost.com/business/2021/02/16/tax-refund-loan-problems/</footnote> Now, RALs come from private lending chains. These loans allow you to determine your April 15 personal income tax liability through a preparer and receive an advance against your expected refund.<footnote id="foot-00002">Amelia Josephson. “What Is a Refund Anticipation Loan?” SmartAsset. March 18, 2021. https://smartasset.com/taxes/what-is-a-refund-anticipation-loan</footnote> But beware: your ability to analyze the true cost of money is always critical. Like all loans, RALs bear a rate of interest. Let’s assume that the firm that prepared your tax return determines that you’re entitled to an $800 refund. Once they advance that amount to you, it will bear interest at a certain rate; we’ll assume 0.5% per week. You might expect a tax refund in four weeks. Half a percent of $800 doesn’t sound like much, but what happens when you annualize it into an effective rate, assuming your tax refund arrives exactly four weeks from when you accept the loan? Assume no compounding during those four weeks.</para></problem><solution id="sol-00001">
+    <para id="para-00011"><emphasis>Solution:</emphasis></para>
+    <para id="para-00012">A weekly rate of 0.5% on the $800 advance is $4 per week, so for four full weeks, you’ve paid $16 for the use of $800. Of course, that totals 2% of the amount advanced. There are 13 four-week periods in a year, so even though the interest rate appears to be small, it amounts to 26% when annualized! We assumed no compounding to keep the illustration simple, but we further assume that you are not using this advance throughout the year. If you were, then periodic compounding would drive the effective rate even higher, to just over 29.3%.</para>
+    </solution>
+    </exercise>
+    </note>
+    </section>
+    <section class="section-summary" id="sect-00004">
+    <title/>
+    <para id="para-00013">For a borrower to understand the true cost of financing, they must be familiar with interannual compounding, which can cause a stated interest rate that appears to be annual to actually be higher. The effective rate of interest was demonstrated to understand that true cost.</para>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>effective interest rate</term> <meaning>the interest rate that results when compounding occurs multiple times within a year; the true cost of borrowing</meaning></definition>
+    </glossary>    
 </document>

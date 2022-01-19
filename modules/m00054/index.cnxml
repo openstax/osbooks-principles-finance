@@ -6,8 +6,308 @@
     <md:uuid>4b188295-0368-4d49-9632-e4eb0a42288a</md:uuid>
   </metadata>
   <content>
-<section id="sect-00001">
-<para id="para-00001">Placeholder Text</para>
-</section>
-</content>
+    <section class="learning-objectives" id="sect-00001">
+    <title>Learning Outcomes</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+    <item>Distinguish between different types of loans.</item>
+    <item>Explain how amortization works.</item>
+    <item>Create an amortization schedule.</item>
+    <item>Calculate the cost of borrowing.</item>
+    </list>
+    </section>
+    <section id="sect-00002">
+    <title>Types of Loans</title>
+    <para id="para-00002">Funds can be loaned to businesses of any type, including corporations, partnerships, limited liability companies, and proprietorships. Bankers often refer to these lending structures as <emphasis effect="italics">facilities</emphasis>, and they can be tailored to the specific needs of the borrower in a number of ways. Similarly, lenders develop loans and lines of credit for individuals. Whether for a business or an individual, the purpose of the loan, method of repayment, interest rate, specific terms, and time involved must all be tailored to the goals of the borrower and the lender. In this chapter, we will focus on fixed-rate loans, although other alternatives exist.</para>
+    <para id="para-00003">Typical business loans include the following:</para>
+    <list id="list-00002">
+    <item><term class="no-emphasis" id="term-00001">Term loans</term> generally bear a maturity date and a set rate of interest and are typically used to finance investments in assets such as equipment, buildings, and possibly other acquired firms. The length of the term loan is generally designed to match the useful life of the asset being financed, and it will usually be repaid on a monthly schedule. It’s common a the term loan to be backed by collateral, such as the asset itself or other assets of the business.</item>
+    <item><term class="no-emphasis" id="term-00002">Revolving lines of credit (revolvers)</term>, are used to Tablfinance the short-term working capital needs of a business. Revolvers will have a specific maximum but no set schedule of monthly payments. Interest accrues on the amount of cash that a company has drawn down from the facility. These credit lines may be secured by accounts receivable, inventory, other assets of the business, or sometimes simply the good faith and credit of the company if the firm is strong, creditworthy, and established with the lender. Revolvers must often be fully repaid and unused for a short period of time to assure the lender that the borrower is not using this facility for longer-term needs.</item>
+    </list>
+    <para id="para-00004">Personal loans also come in several types, designed for the purpose the borrower (consumer) has in mind, with assistance from the lender in determining the appropriate structure:</para>
+    <list id="list-00003">
+    <item><term class="no-emphasis" id="term-00003">Personal lines of credit</term> are similar to lines of credit on bank cards, with interest being charged on the outstanding balance of the credit line. These are available on the basis of personal credit scores, with data being supplied by the three best-known credit reporting firms: <term class="no-emphasis" id="term-00004">Experian</term>, <term class="no-emphasis" id="term-00005">Equifax</term>, and <term class="no-emphasis" id="term-00006">TransUnion</term>. Individuals should check their scores with each of these companies at least once per year, which they can do for no charge. Additional requests from the same company require a small fee.</item>
+    <item>An <term class="no-emphasis" id="term-00007">unsecured personal loan</term> is an installment loan, initially drawn for a fixed amount and repaid on a periodic schedule with interest, as we have seen in our annuity examples. Unsecured means that the loan is not secured by collateral but is instead based on the strong credit history of the borrower.</item>
+    <item>In contrast, a <term class="no-emphasis" id="term-00008">secured personal loan</term> has an asset backing up the unpaid amount, and if the consumer defaults on the debt, the asset can be seized by the lender to satisfy their claim. A common example is an auto loan, which is secured by the car being purchased; nonpayment or default on the loan can lead to the borrower’s car being repossessed.</item>
+    <item>A <term class="no-emphasis" id="term-00009">mortgage loan</term> is another type of secured personal loan, but for a longer period, such as 20, 25, or even 30 years. The home being purchased or built is the collateral, and the home may be foreclosed upon if the borrower defaults. Full title to the home typically remains with the lender as long as an unpaid balance remains on the debt.</item>
+    <item><term class="no-emphasis" id="term-00010">Student loans</term> are borrowings intended to fund college or career education, and they can come from a financial institution or the federal government. Interest rates on these loans are generally low and advantageous, and repayment does not begin until after the borrower’s education is complete (or if they drop below a certain level of time status, such as becoming a half-time student).</item>
+    </list>
+    </section>
+    <section id="sect-00003">
+    <title>Calculating Loan Payments Using Simple Amortization</title>
+    <para id="para-00005"><term id="term-00011">Loan amortization</term> refers to a schedule of how and when a debt will be repaid with interest. As noted, we will focus on fixed-rate debts, such as auto loans, personal loans with installment payments, or mortgages. Before entering into a borrowing agreement, the borrower can use any of a number of tools to verify the terms being offered, such as the monthly payment on a car loan financed by the dealer. In many cases, this is accomplished by using the present value of an annuity formula:</para>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mtext>PVa</mtext><mo>=</mo><mtext>PYMT</mtext><mo>×</mo><mfrac><mrow><mrow><mo>[</mo> <mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mrow><msup><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow><mo>)</mo></mrow></mrow><mi>n</mi></msup></mrow></mfrac></mrow> <mo>]</mo></mrow></mrow><mi>r</mi></mfrac></mrow></math></equation>
+    <para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">We’ve already reviewed the present value of ordinary annuities in several examples. Before we look into business or consumer loans and their repayment, we must review an area of <link document="m00046">Time Value of Money I</link>.</para>
+    <para id="para-00007">We’re not likely to make annual payments on a home mortgage or auto loan, as these are commonly paid on a monthly basis. Fortunately, our formulas are easily adjusted from annual to non-annual periods. You will recall that we solve for non-annual periods in the same way, with two adjustments: (1) we divide the annual interest rate by the number of periods in the year, and (2) we multiply the time periods by the number of those periods within a year. Therefore, in the case of monthly debt service, including interest and principal, we use 12 periods.</para>
+    <para id="para-00008">Given a three-year car loan at 6%, rather than using the 6% column and 3 periods in our formula, we would instead use 0.5% (6% ÷ 12) and 36 periods (3 years × 12), and then apply the present value of an annuity formula in the same way. Let’s say the three-year, 6% auto loan is for $32,000. You need to know if you can squeeze the monthly payment into your budget. For our examples, we will ignore any other charges, fees, taxes, or extras that your lender might include in these payments, and we will focus only on interest and principal repayment. You will make the first payment one month from now, making this an ordinary annuity. What is the amount of your monthly debt service? In this case, you would be solving for a different unknown: the payment amount.</para>
+    <para id="para-00009">By substitution into the present value of an annuity formula, adjusting for monthly payments as noted:</para>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnalign="left"><mtr><mtd><mi>$</mi><mn>32</mn><mo>,</mo><mn>000</mn><mo>=</mo><mtext>PYMT</mtext><mo>×</mo><mfrac><mrow><mrow><mo>[</mo> <mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mrow><msup><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>+</mo><mn>0.005</mn></mrow><mo>)</mo></mrow></mrow><mrow><mn>36</mn></mrow></msup></mrow></mfrac></mrow> <mo>]</mo></mrow></mrow><mrow><mn>0.005</mn></mrow></mfrac></mtd></mtr><mtr><mtd><mi>$</mi><mn>32</mn><mo>,</mo><mn>000</mn><mo>=</mo><mtext>PYMT</mtext><mo>×</mo><mfrac><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mrow><mn>1.196681</mn></mrow></mfrac></mrow><mo>)</mo></mrow></mrow><mrow><mn>0.005</mn></mrow></mfrac></mtd></mtr><mtr><mtd><mi>$</mi><mn>32</mn><mo>,</mo><mn>000</mn><mo>=</mo><mtext>PYMT</mtext><mo>×</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mn>0.835645</mn></mrow><mrow><mn>0.005</mn></mrow></mfrac></mtd></mtr><mtr><mtd><mi>$</mi><mn>32</mn><mo>,</mo><mn>000</mn><mo>=</mo><mtext>PYMT</mtext><mo>×</mo><mfrac><mrow><mn>0.164355</mn></mrow><mrow><mn>0.005</mn></mrow></mfrac></mtd></mtr><mtr><mtd><mi>$</mi><mn>32</mn><mo>,</mo><mn>000</mn><mo>=</mo><mtext>PYMT</mtext><mo>×</mo><mn>32.871</mn></mtd></mtr></mtable></math></equation>
+    <para id="para-00010" xmlns="http://cnx.rice.edu/cnxml">Dividing both sides by 32.781 to isolate the payment amount (PYMT) gives us</para>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnalign="left"><mtr><mtd><mtext>PYMT</mtext><mo>=</mo><mfrac><mrow><mi>$</mi><mn>32</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>32.871</mn></mrow></mfrac></mtd></mtr><mtr><mtd><mtext>PYMT</mtext><mo>≈</mo><mi>$</mi><mn>973.50</mn></mtd></mtr></mtable></math></equation>
+    <para id="para-00011" xmlns="http://cnx.rice.edu/cnxml">Solving for the payment, we find that it’s approximately $973.50 per month. You consult your monthly budget and find that you can cover this monthly payment, so you conclude the deal. Ask the salesperson for the amortization table on this debt to show how your 36 payments of $973.50 will cover your interest plus repayment of the principal amount of the debt. At this point, you know how to complete your own table. Using a financial calculator or Microsoft Excel simplifies the operation above to a few keystrokes, as presented later in this chapter.</para>
+    <para id="para-00012">Two extracts from an amortization table are shown in Table 8.2.</para>
+    <table summary="Some cells are left blank for visual design purposes." id="table-00001">
+    <title>Extracts from an Amortization Table ($)</title>
+    <tgroup cols="5">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <thead>
+    <row>
+    <entry align="center">Month</entry>
+    <entry align="right">Payment</entry>
+    <entry align="right">Interest</entry>
+    <entry align="right">Principal</entry>
+    <entry align="right">Remaining Balance</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center">1</entry>
+    <entry align="right">973.50</entry>
+    <entry align="right">160.00</entry>
+    <entry align="right">813.50</entry>
+    <entry align="right">31,186.50</entry>
+    </row>
+    <row>
+    <entry align="center">2</entry>
+    <entry align="right">973.50</entry>
+    <entry align="right">155.93</entry>
+    <entry align="right">817.57</entry>
+    <entry align="right">30,368.93</entry>
+    </row>
+    <row>
+    <entry align="center">3</entry>
+    <entry align="right">973.50</entry>
+    <entry align="right">151.84</entry>
+    <entry align="right">821.66</entry>
+    <entry align="right">29,547.27</entry>
+    </row>
+    <row>
+    <entry align="center">4</entry>
+    <entry align="right">973.50</entry>
+    <entry align="right">147.74</entry>
+    <entry align="right">825.77</entry>
+    <entry align="right">28,721.51</entry>
+    </row>
+    <row>
+    <entry align="center">5</entry>
+    <entry align="right">973.50</entry>
+    <entry align="right">143.61</entry>
+    <entry align="right">829.89</entry>
+    <entry align="right">27,891.61</entry>
+    </row>
+    <row>
+    <entry namest="c1" nameend="c5">…continued…</entry>
+    </row>
+    <row>
+    <entry align="center">33</entry>
+    <entry align="right">973.50</entry>
+    <entry align="right">19.23</entry>
+    <entry align="right">954.27</entry>
+    <entry align="right">2,891.54</entry>
+    </row>
+    <row>
+    <entry align="center">34</entry>
+    <entry align="right">973.50</entry>
+    <entry align="right">14.46</entry>
+    <entry align="right">959.04</entry>
+    <entry align="right">1,932.50</entry>
+    </row>
+    <row>
+    <entry align="center">35</entry>
+    <entry align="right">973.50</entry>
+    <entry align="right">9.66</entry>
+    <entry align="right">963.84</entry>
+    <entry align="right">968.66</entry>
+    </row>
+    <row>
+    <entry align="center">36</entry>
+    <entry align="right">973.50</entry>
+    <entry align="right">4.84</entry>
+    <entry align="right">968.66</entry>
+    <entry align="right">0.00</entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Total</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">35,046.00</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">3,046.08</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">32,000.00</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00013">This table resembles proofs we have seen of annuities, but let’s focus on some details:</para>
+    <list id="list-00004">
+    <item>Each fixed payment contains both interest and principal repayment.</item>
+    <item>Because the payments are fixed and the amount of remaining debt is decreasing, the monthly interest portion is always decreasing, and the amount of principal payment therefore must be increasing.</item>
+    </list>
+    <para id="para-00014">We can conclude that the lender is making more of their revenue (interest) in the early months than in the later months. In addition, the debt is decreasing slowly in the early months and more rapidly in the later months. We can all agree that lenders are compensated for the risks they take earlier rather than later. Of the 36 payments of $973.50, $32,000 has been repaid as the principal borrowed. The remaining $3,046.08 is the lender’s revenue, the cost of credit.</para>
+    <para id="para-00015">For an additional example, one that drives home the point that more interest is paid in the early months of a long-term loan, we will consider a 20-year home mortgage. Home mortgage payments are typically made monthly, and again, we will ignore additional charges by the lender, such as real estate tax and homeowner’s insurance. Let’s assume you buy a $200,000 home, pay $60,000 as a cash deposit, and will finance the remaining $140,000 over 20 years. The bank offers you a 3.6% annual interest rate. What will the amount of your monthly payment be for the interest and principal repayment? The bank will tell you, of course, but let’s prove it for ourselves. We’ll do it in exactly the same fashion as the car loan above, using the present value of an annuity formula. Remember that you are not financing the entire $200,000 purchase; you pay $60,000 in cash, so you are only financing the remaining $140,000.</para>
+    <para id="para-00016">We modify the periods from years to months by multiplying by 12, and we modify the annual rate to a monthly rate by dividing by 12, resulting in</para>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnalign="left"><mtr><mtd><mi>n</mi><mo>=</mo><mn>240</mn><mo> </mo><mtext>months</mtext></mtd></mtr><mtr><mtd><mi>r</mi><mo>=</mo><mn>0.3</mn><mi>%</mi></mtd></mtr></mtable></math></equation>
+    <para id="para-00017" xmlns="http://cnx.rice.edu/cnxml">By substitution into the present value of an annuity formula:</para>
+    <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnalign="left"><mtr><mtd><mi>$</mi><mn>140</mn><mo>,</mo><mn>000</mn><mo>=</mo><mtext>PYMT</mtext><mo>×</mo><mfrac><mrow><mrow><mo>[</mo> <mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mrow><msup><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>+</mo><mn>0.003</mn></mrow><mo>)</mo></mrow></mrow><mrow><mn>240</mn></mrow></msup></mrow></mfrac></mrow> <mo>]</mo></mrow></mrow><mrow><mn>0.003</mn></mrow></mfrac></mtd></mtr><mtr><mtd><mi>$</mi><mn>140</mn><mo>,</mo><mn>000</mn><mo>=</mo><mtext>PYMT</mtext><mo>×</mo><mfrac><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mrow><mn>2.052220</mn></mrow></mfrac></mrow><mo>)</mo></mrow></mrow><mrow><mn>0.003</mn></mrow></mfrac></mtd></mtr><mtr><mtd><mi>$</mi><mn>140</mn><mo>,</mo><mn>000</mn><mo>=</mo><mtext>PYMT</mtext><mo>×</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mn>0.487277</mn></mrow><mrow><mn>0.003</mn></mrow></mfrac></mtd></mtr><mtr><mtd><mi>$</mi><mn>140</mn><mo>,</mo><mn>000</mn><mo>=</mo><mtext>PYMT</mtext><mo>×</mo><mfrac><mrow><mn>0.512723</mn></mrow><mrow><mn>0.003</mn></mrow></mfrac></mtd></mtr><mtr><mtd><mi>$</mi><mn>140</mn><mo>,</mo><mn>000</mn><mo>=</mo><mtext>PYMT</mtext><mo>×</mo><mn>170.907667</mn></mtd></mtr></mtable></math></equation>
+    <para id="para-00018" xmlns="http://cnx.rice.edu/cnxml">We divide both sides by 170.907667 to isolate the payment amount (PYMT):</para>
+    <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnalign="left"><mtr><mtd><mtext>PYMT</mtext><mo>=</mo><mfrac><mrow><mi>$</mi><mn>140</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>170.907667</mn></mrow></mfrac></mtd></mtr><mtr><mtd><mtext>PYMT</mtext><mo>≈</mo><mi>$</mi><mn>819.16</mn></mtd></mtr></mtable></math></equation>
+    <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">Your monthly mortgage payment is $819.16. As in our auto loan example, we’ll complete an amortization table of our own—though, of course, you’ll remember to ask your lender for their version. Extracts from a full 240-month table are shown in Table 8.3 below. The front-end packing of interest revenue is more obvious here because of the longer time period.</para>
+    <table summary="Some cells are left blank for visual design purposes." id="table-00002">
+    <title>Amortization Table for a Mortgage ($)</title>
+    <tgroup cols="5">
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
+    <thead>
+    <row>
+    <entry align="center">Month</entry>
+    <entry align="center">Payment</entry>
+    <entry align="center">Interest</entry>
+    <entry align="center">Principal</entry>
+    <entry align="center">Remaining Balance</entry>
+    </row>
+    </thead>
+    <tbody>
+    <row>
+    <entry align="center"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right">140,000.00</entry>
+    </row>
+    <row>
+    <entry align="center">1</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">420.00</entry>
+    <entry align="right">399.16</entry>
+    <entry align="right">139,600.84</entry>
+    </row>
+    <row>
+    <entry align="center">2</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">418.80</entry>
+    <entry align="right">400.36</entry>
+    <entry align="right">139,200.48</entry>
+    </row>
+    <row>
+    <entry align="center">3</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">417.60</entry>
+    <entry align="right">401.56</entry>
+    <entry align="right">138,798.92</entry>
+    </row>
+    <row>
+    <entry align="center">4</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">416.40</entry>
+    <entry align="right">402.76</entry>
+    <entry align="right">138,396.16</entry>
+    </row>
+    <row>
+    <entry align="center">5</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">415.19</entry>
+    <entry align="right">403.97</entry>
+    <entry align="right">137,992.19</entry>
+    </row>
+    <row>
+    <entry align="center">6</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">413.98</entry>
+    <entry align="right">405.18</entry>
+    <entry align="right">137,587.01</entry>
+    </row>
+    <row>
+    <entry align="center">7</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">412.76</entry>
+    <entry align="right">406.40</entry>
+    <entry align="right">137,180.61</entry>
+    </row>
+    <row>
+    <entry align="center">8</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">411.54</entry>
+    <entry align="right">407.62</entry>
+    <entry align="right">136,772.99</entry>
+    </row>
+    <row>
+    <entry align="center">9</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">410.32</entry>
+    <entry align="right">408.84</entry>
+    <entry align="right">136,364.15</entry>
+    </row>
+    <row>
+    <entry align="center" namest="c1" nameend="c5"><emphasis effect="italics">…continued….</emphasis></entry>
+    </row>
+    <row>
+    <entry align="center">236</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">12.17</entry>
+    <entry align="right">806.99</entry>
+    <entry align="right">3,250.84</entry>
+    </row>
+    <row>
+    <entry align="center">237</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">9.75</entry>
+    <entry align="right">809.41</entry>
+    <entry align="right">2,441.44</entry>
+    </row>
+    <row>
+    <entry align="center">238</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">7.32</entry>
+    <entry align="right">811.84</entry>
+    <entry align="right">1,629.60</entry>
+    </row>
+    <row>
+    <entry align="center">239</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">4.89</entry>
+    <entry align="right">814.27</entry>
+    <entry align="right">815.33</entry>
+    </row>
+    <row>
+    <entry align="center">240</entry>
+    <entry align="right">819.16</entry>
+    <entry align="right">2.45</entry>
+    <entry align="right">816.71</entry>
+    <entry align="right">(1.38)</entry>
+    </row>
+    <row>
+    <entry align="center"><emphasis effect="bold">Total</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">196,598.40</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">56,597.02</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">140,001.38</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">(Rounding)</emphasis></entry>
+    </row>
+    </tbody>
+    </tgroup>
+    </table>
+    <para id="para-00020">As with your car loan, earlier payments contain more interest than loan repayment, so the lender’s revenue is at a significant peak in the early years. The length of the loan, coupled with the frequent compounding, emphasizes this. In month 10, the interest and principal amounts “pass” each other, and now the loan balance is dropping at a quicker rate. Finally, note that you will pay more than $56,000 to finance this $140,000 borrowing. If you pay off this mortgage over 240 months as planned, the interest cost represents an additional 28% of the full cost of the home!</para>
+    <para id="para-00021">If the borrower has the means to make an accelerated payment against this debt—for example, due to a bonus or other windfall—doing so can make a significant difference in the total cost of financing over the life of the loan. Assume that after three years (month 36), you receive a bonus of $2,000 and decide to apply the entire amount to prepay the remaining balance. Your loan agreement allows you to apply the entire amount to the remaining unpaid balance of the mortgage. While this might seem equal to just 2.5 months’ worth of payment, the debt is fully paid off almost 6 months ahead of schedule, and total interest is reduced from over $56,000 to $55,000. The ability to prepay long-term debts such as this is clearly worth negotiating initially.</para>
+    </section>
+    <section class="section-summary" id="sect-00004">
+    <title/>
+    <para id="para-00022">Loans are contracts between a lender and a borrower. Failure to observe the rules of that contract, such as payment of interest or repayment of the amount owed, can subject the borrower to substantial penalties as well as damage to their credit. Loan agreements bearing a fixed rate of interest have a scheduled amortization, or rate and time of repayments with interest. Several types of business and personal loans were described.</para>
+    </section>
+    <section class="multiple-choice" id="sect-00005">
+    <title/>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch08_Sec03_MCQ9"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00024"><link class="os-embed" url="#exercise/FI_Ch08_Sec03_MCQ10"/></para></problem></exercise>
+    </section>
+    <section class="problem-set" id="sect-00006">
+    <title/>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00025"><link class="os-embed" url="#exercise/FI_Ch08_Sec03_PRQ5"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch08_Sec03_PRQ6"/></para></problem></exercise>
+    </section>
+    </content>
+    <glossary>
+    <definition id="def-00001"><term>loan amortization</term> <meaning>the scheduling of periodic repayment of a debt, typically involving regular payments or receipts of amounts that include both interest payment and repayment of the principal of the amount owed</meaning></definition>
+    </glossary>    
 </document>
