@@ -100,7 +100,7 @@
     <entry align="right">27,891.61</entry>
     </row>
     <row>
-    <entry namest="c1" nameend="c5">…continued…</entry>
+    <entry align="center" namest="c1" nameend="c5">…continued…</entry>
     </row>
     <row>
     <entry align="center">33</entry>
@@ -140,7 +140,7 @@
     </tgroup>
     </table>
     <para id="para-00013">This table resembles proofs we have seen of annuities, but let’s focus on some details:</para>
-    <list id="list-00004">
+    <list list-type="enumerated" id="list-00004">
     <item>Each fixed payment contains both interest and principal repayment.</item>
     <item>Because the payments are fixed and the amount of remaining debt is decreasing, the monthly interest portion is always decreasing, and the amount of principal payment therefore must be increasing.</item>
     </list>
