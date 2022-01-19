@@ -20,7 +20,7 @@
     </section>
     <section id="sect-00003">
     <title>Effective Rates and Period of Compounding</title>
-    <para id="para-00003">Let’s remain with our example of a credit card statement that indicates an interest rate of 1.5% per month on unpaid balances. If you use this card only once, to make a $1,000 purchase in January, and then fail to pay the bill when it comes due, the issuer will bill you $15. Now you owe them $1,015. Assume you completely ignore this bill and never pay it throughout the rest of the year. The monthly calculation of interest starts to compound on past interest assessments in addition to the $1,000 initial purchase (see Table 8.4).</para>
+    <para id="para-00003">Let’s remain with our example of a credit card statement that indicates an interest rate of 1.5% per month on unpaid balances. If you use this card only once, to make a $1,000 purchase in January, and then fail to pay the bill when it comes due, the issuer will bill you $15. Now you owe them $1,015. Assume you completely ignore this bill and never pay it throughout the rest of the year. The monthly calculation of interest starts to compound on past interest assessments in addition to the $1,000 initial purchase (see <link target-id="table-00001" document="m00055"/>).</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00001">
     <title>Compounded Interest on a Credit Card Statement ($)</title>
     <tgroup cols="3">
