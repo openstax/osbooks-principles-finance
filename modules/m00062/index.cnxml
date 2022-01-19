@@ -91,7 +91,7 @@
     </row>
     <row>
     <entry align="center">3</entry>
-    <entry align="left">Enter interest rate <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mfrac><mrow><mn>5</mn><mi mathvariant="normal">%</mi><mo> </mo><mi>annual</mi><mo> </mo><mi>rate</mi></mrow><mn>2</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>5</mn><mi mathvariant="normal">%</mi><mo> </mo><mi>semiannual</mi><mo> </mo><mi>rate</mi></mrow></mfenced></math></entry>
+    <entry align="left">Enter interest rate <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mfrac><mrow><mn>5</mn><mi mathvariant="normal">%</mi><mi>annual</mi><mi>rate</mi></mrow><mn>2</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>5</mn><mi mathvariant="normal">%</mi><mo> </mo><mi>semiannual</mi><mo> </mo><mi>rate</mi></mrow></mfenced></math></entry>
     <entry align="left" xmlns="http://cnx.rice.edu/cnxml">2.5 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">2.5000</entry>
