@@ -33,7 +33,7 @@
     <section id="sect-00003">
     <title>Common-Size Balance Sheet</title>
     <para id="para-00005">The common-size balance sheet functions much like the common-size income statement. Each line item on the balance sheet is restated as a percentage of total assets.</para>
-    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Common</mi><mo>-</mo><mi>Size</mi><mi>Item</mi><mo>=</mo><mfrac><mrow><mi>Balance</mi><mi>Sheet</mi><mi>Line</mi><mi>Item</mi></mrow><mrow><mi>Total</mi><mi>Assets</mi></mrow></mfrac></math></equation>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Common-Size Item</mtext><mo>=</mo><mfrac><mrow><mi>Balance</mi><mi>Sheet</mi><mi>Line</mi><mi>Item</mi></mrow><mrow><mi>Total</mi><mi>Assets</mi></mrow></mfrac></math></equation>
     <para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">Using Clear Lake Sporting Goods’ current balance sheet, we can see how each line item in its statement is divided by total assets in order to assemble a common-size balance sheet (see <link target-id="fig-00003" document="m00037"/>).</para>
     <figure id="fig-00003">
     <title>Common-Size Balance Sheet</title>
