@@ -496,7 +496,10 @@
     <title>Future Value (FV)</title>
     <para id="para-00050">The Future Value function in Excel is also referred to as FV and can be used to calculate the value of a single lump sum amount carried to any point in the future. The FV function syntax is similar to that of the other four basic time-value functions and has the following inputs (referred to as arguments), similar to the functions listed above:</para>
     <quote id="quote-00002">
-    <para id="para-00051">Rate: Interest Rate<newline/>Nper: Number of Periods<newline/>Pmt: Payment<newline/>PV: Present Value</para>
+    <para id="para-00046">Rate: Interest Rate<newline/>
+    Nper: Number of Periods<newline/>
+    Pmt: Payment<newline/>
+    PV: Present Value</para>
     </quote>
     <para id="para-00055">Lump sum problems do not involve payments, so the value of Pmt in such calculations is 0. Another argument, Type, refers to the timing of a payment and carries a default value of the end of the period, which is the most common timing (as opposed to the beginning of a period). This may be ignored in our current example, which means the default value of the end of the period will be used.</para>
     <para id="para-00056">The spreadsheet in <link target-id="fig-00001" document="m00049"/> shows two examples of using the FV function in Excel to calculate the future value of $100 in five years at 5% interest.</para>
@@ -506,9 +509,9 @@
     <media alt="Screenshot of FV Function within Excel. Cells E1 and E2 show how the FV function appears in the spreadsheet as it is typed in with the required arguments. Cell E4 shows the calculated answer for cell E1 after hitting the enter key. Once the Enter key is pressed, the hint banner appearing in cell E3 will disappear. The second example of the FV function is in cell E6. The actual numerical values are used in the FV function equation rather than cell references. The method in cell E8 is referred to as hardcoding."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_003.png"/></media>
     </figure>
     <para id="para-00058">Cells E1 and E2 show how the FV function appears in the spreadsheet as it is typed in with the required arguments. Cell E4 shows the calculated answer for cell E1 after hitting the enter key. Once the enter key is pressed, the hint banner hovering over cell E3 will disappear. The second example of the FV function in our example spreadsheet is in cell E6. Here, the actual numerical values are used in the FV function equation rather than cell references. The method in cell E8 is referred to as <emphasis effect="italics">hard coding</emphasis>. In general, it is preferable to use the cell reference method, as this allows for copying formulas and provides the user with increased flexibility in accounting for changes to input data. This ability to accept cell references in formulas is one of the greatest strengths of Excel as a spreadsheet tool.</para>
-    <note class="excel-spreadsheet" id="note-00005">
+    
     <para id="para-00059">Download the <link url="https://openstax.org/r/docs.google_uc_export">spreadsheet file</link> containing key Chapter 7 Excel exhibits.</para>
-    </note>
+    
     <para id="para-00060"><emphasis effect="bold">Determining Future Value When Other Variables Are Known</emphasis>. You have $2,000 invested in a money market account that is expected to earn 4% annually. What will be the total value in the account in five years?</para>
     <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Present</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>PV</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>(</mo><mo>$</mo><mn>2</mn><mo>,</mo><mn>000</mn><mo>.</mo><mn>00</mn><mo>)</mo><mo> </mo></mtd></mtr></mtable></math></equation>
     <para id="para-00061" xmlns="http://cnx.rice.edu/cnxml">Note: Be sure to follow the sign conventions. In this case, the PV should be entered as a negative value.</para>
@@ -518,9 +521,7 @@
     <para id="para-00063" xmlns="http://cnx.rice.edu/cnxml">Note: It is always assumed that if not specifically stated, the compounding period of any given interest rate is annual, or based on years.</para>
     <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Future</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>FV</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>2</mn><mo>,</mo><mn>433</mn><mo>.</mo><mn>31</mn></math></equation>
     <para id="para-00064" xmlns="http://cnx.rice.edu/cnxml">Note: The Excel command used to calculate future value is as follows:</para>
-    <quote id="quote-00003">
-    <para id="para-00065">=FV(rate, nper, pmt, [pv], [type])</para>
-    </quote>
+    <code class="centered-code">=FV(rate, nper, pmt, [pv], [type])</code>
     <para id="para-00066">You may simply type the values for the arguments in the above formula. Another option is to use the Excel insert function option. If you decide on this second method, below are several screenshots of dialog boxes you will encounter and will be required to complete.</para>
     <list list-type="enumerated" id="list-00002">
     <item>First, go to Formulas in the upper menu bar, and select the Insert Function option. When you do so, a dialog box will appear that looks like what you see in <link target-id="fig-00002" document="m00049"/>.
@@ -570,9 +571,7 @@
     <item>It is always assumed that if not specifically stated, the compounding period of any given interest rate is annual, or based on years.</item>
     <item>The Excel command used to calculate present value is as shown here:</item>
     </list>
-    <quote id="quote-00004">
-    <para id="para-00076">=PV(rate, nper, pmt, [fv], [type])</para>
-    </quote>
+    <code class="centered-code">=PV(rate, nper, pmt, [fv], [type])</code>
     </problem>
     <solution id="sol-00005">
     <para id="para-00077"><emphasis>Solution:</emphasis></para>
@@ -611,11 +610,10 @@
     <item>As with our other examples, interest and growth rates must be entered as percentages, not as whole integers. So, 6 percent must be entered as 6% or 0.06—not 6, as you would enter in a financial calculator.</item>
     <item>The present value needs to be entered as a negative value in accordance with the sign convention covered earlier.</item>
     <item>The Excel command used to calculate the amount of time, or number of periods, is this:
-    <quote id="quote-00005">
-    <para id="para-00086">=NPER (rate, pmt, pv, [fv], [type])</para>
-    </quote></item>
+    </item>
   </list>
-    <para id="para-00087">As with our FV and PV examples, you may simply type the values of the arguments in the above formula, or we can again use the Insert Function option in Excel. If you do so, you will need to work with the various dialog boxes after you select Insert Function.</para>
+  <code class="centered-code">=NPER (rate, pmt, pv, [fv], [type])</code>
+      <para id="para-00087">As with our FV and PV examples, you may simply type the values of the arguments in the above formula, or we can again use the Insert Function option in Excel. If you do so, you will need to work with the various dialog boxes after you select Insert Function.</para>
     <list list-type="enumerated" id="list-00007">
     <item>First, go to Formulas in the upper menu bar, and select the Insert Function option. When you do so, the Insert Function dialog box will appear (see <link target-id="fig-00009" document="m00049"/>).
     <figure id="fig-00009">
