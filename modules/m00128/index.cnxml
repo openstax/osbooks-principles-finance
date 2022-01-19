@@ -25,8 +25,8 @@
     <colspec colnum="2" colname="c2"/>
     <thead>
     <row>
-    <entry align="left">Date</entry>
-    <entry align="left">Price per Pound ($)</entry>
+    <entry align="center">Date</entry>
+    <entry align="center">Price per Pound ($)</entry>
     </row>
     </thead>
     <tbody>

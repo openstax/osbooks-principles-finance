@@ -240,15 +240,15 @@
     <title/>
     <para id="para-00024">When interest rates increase, the present value of future cash flows decreases. Duration is a measure of interest rate risk. A swap involves two parties agreeing to exchange something, often specified payment streams.</para>
     </section>
-    <section class="cfa-institute" id="sect-00005">
-    <para id="para-00025">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/CFA®_Level_I_Study_Session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
-    </section>
     <section class="multiple-choice" id="sect-00006">
     <title/>
     <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch20_Sec04_MCQ11"/></para></problem></exercise>
     <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch20_Sec04_MCQ12"/></para></problem></exercise>
     </section>
-    </content>
+    <section class="cfa-institute" id="sect-00005">
+      <para id="para-00025">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/CFA®_Level_I_Study_Session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+      </section>
+      </content>
     <glossary>
     <definition id="def-00001"><term>duration</term> <meaning>a measure of interest rate risk</meaning></definition>
     <definition id="def-00002"><term>swap</term> <meaning>an agreement between two parties to exchange something, such as their obligations to make specified payment streams</meaning></definition>

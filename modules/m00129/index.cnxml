@@ -180,40 +180,40 @@
   </thead>
   <tbody>
   <row>
-    <entry align="center">Buyer of a call</entry>
-    <entry align="center">To buy</entry>
-    <entry align="center"> </entry>
-    <entry align="center">Price of underlying rises</entry>
-    <entry align="center">Unlimited</entry>
-    <entry align="center">Price of underlying falls</entry>
-    <entry align="center">Premium paid</entry>
+    <entry align="left">Buyer of a call</entry>
+    <entry align="left">To buy</entry>
+    <entry align="left"> </entry>
+    <entry align="left">Price of underlying rises</entry>
+    <entry align="left">Unlimited</entry>
+    <entry align="left">Price of underlying falls</entry>
+    <entry align="left">Premium paid</entry>
     </row>
     <row>
-    <entry align="center">Seller of a call</entry>
-    <entry align="center"> </entry>
-    <entry align="center">To sell</entry>
-    <entry align="center">Price of underlying falls</entry>
-    <entry align="center">Premium received</entry>
-    <entry align="center">Price of underlying rises</entry>
-    <entry align="center">Unlimited</entry>
+    <entry align="left">Seller of a call</entry>
+    <entry align="left"> </entry>
+    <entry align="left">To sell</entry>
+    <entry align="left">Price of underlying falls</entry>
+    <entry align="left">Premium received</entry>
+    <entry align="left">Price of underlying rises</entry>
+    <entry align="left">Unlimited</entry>
     </row>
     <row>
-    <entry align="center">Buyer of a put</entry>
-    <entry align="center">To sell</entry>
-    <entry align="center"> </entry>
-    <entry align="center">Price of underlying falls</entry>
-    <entry align="center">Strike price minus premium</entry>
-    <entry align="center">Price of underlying rises</entry>
-    <entry align="center">Premium paid</entry>
+    <entry align="left">Buyer of a put</entry>
+    <entry align="left">To sell</entry>
+    <entry align="left"> </entry>
+    <entry align="left">Price of underlying falls</entry>
+    <entry align="left">Strike price minus premium</entry>
+    <entry align="left">Price of underlying rises</entry>
+    <entry align="left">Premium paid</entry>
     </row>
     <row>
-    <entry align="center">Seller of a put</entry>
-    <entry align="center"> </entry>
-    <entry align="center">To buy</entry>
-    <entry align="center">Price of underlying rises</entry>
-    <entry align="center">Premium received</entry>
-    <entry align="center">Price of underlying falls</entry>
-    <entry align="center">Strike price minus premium</entry>
+    <entry align="left">Seller of a put</entry>
+    <entry align="left"> </entry>
+    <entry align="left">To buy</entry>
+    <entry align="left">Price of underlying rises</entry>
+    <entry align="left">Premium received</entry>
+    <entry align="left">Price of underlying falls</entry>
+    <entry align="left">Strike price minus premium</entry>
     </row>
     </tbody>
     </tgroup>
