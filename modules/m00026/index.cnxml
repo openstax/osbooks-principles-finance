@@ -25,7 +25,7 @@
 <media alt="Chris’ Landscaping, Income Statement, For the Month Ended August 31, 2020. Revenue $1,400, Total revenue $1,400. Expenses: Tractor brake repair 100, Tractor fuel 50, Buiness insurance 1,000; Total Expenses 1,150; Net income $250."><image mime-type="image/png" src="../../media/FINAN_Figure_04_02_002.png"/></media>
 </figure>
 <para id="para-00006">The income statement can also be visualized by the formula:</para>
-<equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Revenue</mi><mo> </mo><mo>-</mo><mo> </mo><mi>Expenses</mi><mo>=</mo><mpadded><mi>Net</mi><mi>Income</mi><mi>or</mi><mi>net</mi><mi>Net</mi><mi>Loss</mi></mpadded></math></equation>
+<equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Revenue</mi><mo>-</mo><mi>Expenses</mi><mo>=</mo><mpadded><mi>Net</mi><mi>Income</mi><mi>or</mi><mi>net</mi><mi>Net</mi><mi>Loss</mi></mpadded></math></equation>
 <para id="para-00007" xmlns="http://cnx.rice.edu/cnxml">Let’s change this example slightly and assume the $1,000 payment to the insurance company will be paid in September rather than in August. In this case, the ending balance in Chris’s checking account would be $1,250, a result of earning $1,400 and only spending $100 for the brakes on the tractor and $50 for fuel. This stream of cash flows is an example of cash-basis accounting because it reflects when payments are received and made, not necessarily the time period that they affect. At the end of this section, you will address accrual accounting, which does reflect the time period that payments affect.</para>
 <section id="sect-00003">
 <title>The Accounting Equation</title>
@@ -56,7 +56,7 @@
 <item>Changes in assets and liabilities can <emphasis effect="italics">either</emphasis> increase or decrease the value (equity) of the organization depending on the net result of the transaction.</item>
 </list>
 <para id="para-00016">Let’s look at Chris’s Landscaping business again and do the same quick exercise you did with your personal finances. If we were to total all of Chris’s assets, we would find just one: $250 in cash. She’s using the family’s tractor, but she doesn’t own the tractor, so it is not her asset. Her liabilities are currently $0, as she paid cash for all the expenses she incurred already. If we total her assets, we get $250. Liabilities total $0. Using the accounting equation, we find her equity to currently be $250, or</para>
-<equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>(</mo><mo>$</mo><mn>250</mn><mo>)</mo><mo> </mo><mo>–</mo><mo> </mo><mi>Liabilities</mi><mo>(</mo><mo>$</mo><mn>0</mn><mo>)</mo><mo>=</mo><mi>Equity</mi><mo>(</mo><mo>$</mo><mn>250</mn><mo>)</mo></math></equation>
+<equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Assets</mtext><mo> </mo><mo>(</mo><mo>$</mo><mn>250</mn><mo>)</mo><mo> </mo><mo>–</mo><mo> </mo><mtext>Liabilities</mtext><mo> </mo><mo>(</mo><mo>$</mo><mn>0</mn><mo>)</mo><mo>=</mo><mtext>Equity</mtext><mo> </mo><mo>(</mo><mo>$</mo><mn>250</mn><mo>)</mo></math></equation>
 </section>
 </section>
 <section id="sect-00004" xmlns="http://cnx.rice.edu/cnxml">
@@ -112,7 +112,8 @@
 </section>
 </content>
 <glossary>
-<definition id="def-00001"><term>accounting equation</term> <meaning><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo> </mo><mo>=</mo><mo> </mo><mi>Liabilities</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Owner</mi><mo>’</mo><mi mathvariant="normal">s</mi><mo> </mo><mi>Equity</mi></math></meaning></definition>
+<definition id="def-00001"><term>accounting equation</term> <meaning><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>=</mo><mi>Liabilities</mi><mo>+</mo><mi>Owner</mi><mo>’</mo><mi mathvariant="normal">s</mi><mi>Equity</mi></math>
+</meaning></definition>
 <definition id="def-00002" xmlns="http://cnx.rice.edu/cnxml"><term>credit</term> <meaning>a record of financial information on the right side of an account</meaning></definition>
 <definition id="def-00003"><term>debit</term> <meaning>a record of financial information on the left side of each account</meaning></definition>
 <definition id="def-00004"><term>double-entry accounting</term> <meaning>an accounting method that requires the sum of the debits to equal the sum of the credits for each transaction</meaning></definition>
