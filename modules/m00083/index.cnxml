@@ -253,7 +253,7 @@
     </row>
     </tbody>
     </tgroup>
-    <caption>(data source: https://finance.yahoo.com/)</caption>
+    <caption>(source: Yahoo! Finance)</caption>
     </table>
     <figure id="fig-00004">
     <title>Scatter Plot of Nike Stock Price versus S&amp;P 500</title>

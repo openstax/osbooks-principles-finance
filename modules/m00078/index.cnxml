@@ -62,7 +62,7 @@
     </row>
     </tbody>
     </tgroup>
-    <caption>(source: https://www.treasurydirect.gov)</caption>
+    <caption>(source: Treasury Direct)</caption>
     </table>
     <para id="para-00009">To calculate the arithmetic mean of the amount paid for Treasury bills at auction, in billions of dollars, we use the following formula:</para>
     <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>x</mi><mo>¯</mo></mover><mo>=</mo><mfrac><mrow><mo>∑</mo><mi>x</mi></mrow><mi>n</mi></mfrac><mo>=</mo><mfrac><mrow><mo>$</mo><mn>233</mn><mo>.</mo><mn>7</mn></mrow><mn>5</mn></mfrac><mo>=</mo><mo>$</mo><mn>46</mn><mo>.</mo><mn>74</mn></math></equation>
@@ -74,7 +74,7 @@
     <para id="para-00012">The ordered data set from <link target-id="table-00001" document="m00078"/> appears as follows:</para>
     <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>32</mn><mo>.</mo><mn>9</mn><mo>,</mo><mo> </mo><mn>38</mn><mo>.</mo><mn>4</mn><mo>,</mo><mo> </mo><mn>39</mn><mo>.</mo><mn>7</mn><mo>,</mo><mo> </mo><mn>59</mn><mo>.</mo><mn>6</mn><mo>,</mo><mo> </mo><mn>63</mn><mo>.</mo><mn>1</mn></math></equation>
     <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">The middle value in this ordered data set is the third data value, which is 39.7. Thus, the median is $39.7 billion.</para>
-    <para id="para-00014">You can quickly find the location of the median by using the expression <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>. The variable <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">n</emphasis> represents the total number of data values in the sample. If <emphasis effect="italics">n</emphasis> is an odd number, the median is the middle value of the data values when ordered from smallest to largest. If <emphasis effect="italics">n</emphasis> is an even number, the median is equal to the two middle values of the ordered data values added together and divided by 2. In the example from <link target-id="table-00001" document="m00078"/>, there are five data values, so <emphasis effect="italics">n</emphasis> = 5. To identify the position of the median, calculate <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>, which is <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>5</mn><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>  or 3. This indicates that the median is located in the third data position, which corresponds to the value 39.7.</para>
+    <para id="para-00014">You can quickly find the location of the median by using the expression <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>. The variable <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">n</emphasis> represents the total number of data values in the sample. If <emphasis effect="italics">n</emphasis> is an odd number, the median is the middle value of the data values when ordered from smallest to largest. If <emphasis effect="italics">n</emphasis> is an even number, the median is equal to the two middle values of the ordered data values added together and divided by 2. In the example from <link target-id="table-00001" document="m00078"/>, there are five data values, so <emphasis effect="italics">n</emphasis> = 5. To identify the position of the median, calculate <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>, which is <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>5</mn><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>, or 3. This indicates that the median is located in the third data position, which corresponds to the value 39.7.</para>
     <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">As mentioned earlier, when outliers are present in a data set, the mean can be nonrepresentative of the center of the data set, and the median will provide a better measure of center. The following Think It Through example illustrates this point.</para>
     <note class="think-through" id="note-00001">
     <title>Finding the Measure of Center</title>
@@ -109,7 +109,7 @@
     <para id="para-00027" xmlns="http://cnx.rice.edu/cnxml">Based on the geometric mean, the equivalent annual rate of return for this time period is 2.09%.</para>
     <note class="link-to-learning" id="note-00002">
     <title>Arithmetic versus Geometric Means</title>
-    <para id="para-00028">In <link url="https://openstax.org/r/this-video-on-arithmetic">this video on arithmetic versus geometric means</link>, the returns of the S&amp;P 500 are tracked using an arithmetic mean versus a geometric mean, and the difference between these two measurements is discussed.</para>
+    <para id="para-00028">In <link url="https://openstax.org/r/arithmetic-versus-geometric">this video on arithmetic versus geometric means</link>, the returns of the S&amp;P 500 are tracked using an arithmetic mean versus a geometric mean, and the difference between these two measurements is discussed.</para>
     </note>
     </section>
     <section id="sect-00006">
@@ -133,7 +133,7 @@
     <entry align="center">Date Purchased</entry>
     <entry align="center">Purchase Price ($)</entry>
     <entry align="center">Number of Shares Purchased</entry>
-    <entry align="center">Price ($) Times Number of Shares</entry>
+    <entry align="center">Price ($) Times<newline/>Number of Shares</entry>
     </row>
     </thead>
     <tbody>

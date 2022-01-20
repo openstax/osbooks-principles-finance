@@ -23,19 +23,19 @@
     <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Current</mi><mo> </mo><mi>Ratio</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>$</mo><mn>200</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>$</mo><mn>100</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo> </mo><mi>or</mi><mo> </mo><mn>2</mn><mo>:</mo><mn>1</mn></math></equation>
     <para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">A 2:1 ratio means the company has twice as many current assets as current liabilities; typically, this would be plenty to cover obligations. A 2:1 ratio is actually quite high for most companies and most industries. Again, it’s recommended that ratios be used in conjunction with one another. An analyst would likely look at the high current ratio and low accounts receivable turnover to begin asking questions about management performance, as this might indicate a trouble area (high inventory and slow collections).</para>
     <note class="link-to-learning" id="note-00001">
-    <title><term class="no-emphasis" id="term-00003">Target Corporation</term></title>
+    <title>Target Corporation</title>
     <para id="para-00007">As we have learned, the current ratio shows how well a company can cover short-term liabilities with short-term assets. Look through the balance sheet in the <link url="https://openstax.org/r/annual-report-for-target">2019 Annual Report for Target</link> and calculate the current ratio. What does the outcome mean for Target?</para>
     </note>
     </section>
     <section id="sect-00003">
     <title>Quick Ratio</title>
-    <para id="para-00008">The <term id="term-00004">quick ratio</term>,also known as the <emphasis effect="italics"><term class="no-emphasis" id="term-00005">acid-test ratio</term></emphasis>, is similar to the current ratio except current assets are more narrowly defined as the most liquid assets, which exclude inventory and prepaid expenses. The conversion of inventory and prepaid expenses to cash can sometimes take more time than the liquidation of other current assets. A company will want to know what it has on hand and can use quickly if an immediate obligation is due. The formula for the quick ratio is</para>
+    <para id="para-00008">The <term id="term-00004">quick ratio</term>, also known as the <emphasis effect="italics"><term class="no-emphasis" id="term-00005">acid-test ratio</term></emphasis>, is similar to the current ratio except current assets are more narrowly defined as the most liquid assets, which exclude inventory and prepaid expenses. The conversion of inventory and prepaid expenses to cash can sometimes take more time than the liquidation of other current assets. A company will want to know what it has on hand and can use quickly if an immediate obligation is due. The formula for the quick ratio is</para>
     <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Quick</mi><mo> </mo><mi>Ratio</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>Cash</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Short</mi><mo> </mo><mo>-</mo><mo> </mo><mi>Term</mi><mo> </mo><mi>Investments</mi><mo> </mo><mo>+</mo><mo> </mo><mi>Accounts</mi><mo> </mo><mi>Receivable</mi></mrow><mrow><mi>Current</mi><mo> </mo><mi>Liabilities</mi></mrow></mfrac></math></equation>
     <para id="para-00009" xmlns="http://cnx.rice.edu/cnxml">The quick ratio for Clear Lake Sporting Goods in the current year is</para>
     <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Quick</mi><mo> </mo><mi>Ratio</mi><mo> </mo><mo>=</mo><mfrac><mrow><mo>$</mo><mn>110</mn><mo>,</mo><mn>000</mn><mo>+</mo><mo>$</mo><mn>20</mn><mo>,</mo><mn>000</mn><mo>+</mo><mo>$</mo><mn>30</mn><mo>,</mo><mn>000</mn></mrow><mrow><mo>$</mo><mn>100</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>1</mn><mo>.</mo><mn>6</mn><mo> </mo><mi>or</mi><mo> </mo><mn>1</mn><mo>.</mo><mn>6</mn><mo>:</mo><mn>1</mn></math></equation>
     <para id="para-00010" xmlns="http://cnx.rice.edu/cnxml">A 1.6:1 ratio means the company has enough quick assets to cover current liabilities. It’s again key to note that a single ratio shouldn’t be used out of context. A 1.6 ratio is difficult to interpret on its own. Industry averages and trend analysis for Clear Lake Sporting Goods would also be helpful in giving the ratio more meaning.</para>
     <note class="link-to-learning" id="note-00002">
-    <title><term class="no-emphasis" id="term-00006">Target Corporation</term></title>
+    <title>Target Corporation</title>
     <para id="para-00011">As we have learned, the quick ratio shows how quickly a company can liquidate current assets to cover current liabilities. Look through the financial statements in the <link url="https://openstax.org/r/annual-report-for-target">2019 Annual Report for Target</link> and calculate the quick ratio. What does the outcome mean for Target?</para>
     </note>
     </section>
@@ -49,7 +49,7 @@
     <figure id="fig-00001">
     <title/>
     <media alt="Rolled cash bills of various denominations, including 10, 20, and 100 US dollars."><image mime-type="image/png" src="../../media/FINAN_Figure_06_03_005.jpg"/></media>
-    <caption>Cash is the most liquid asset a company has and is often used by investors and lenders to assess an organization’s liquidity. (credit: “20 US Dollar” by <link url="https://openstax.org/r/jack-sem">Jack Sem</link>/flickr CC BY 2.0)</caption>
+    <caption>Cash is the most liquid asset a company has and is often used by investors and lenders to assess an organization’s liquidity. (credit: “20 US Dollar” by Jack Sem/flickr CC BY 2.0)</caption>
     </figure>
     </section>
     <section class="section-summary" id="sect-00005">
