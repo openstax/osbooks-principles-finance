@@ -233,9 +233,9 @@
             </msub>
             <mo/>
           </mtd>
-          <mtd>
+          <mtd><mo> </mo>
             <mo>=</mo>
-          </mtd>
+            <mo> </mo></mtd>
           <mtd>
             <mo/>
             <mo>$</mo>
@@ -589,9 +589,9 @@
                   </msub>
                   <mo/>
                 </mtd>
-                <mtd>
+                <mtd><mo> </mo>
                   <mo>=</mo>
-                </mtd>
+                  <mo> </mo></mtd>
                 <mtd>
                   <mo/>
                   <mo>$</mo>
@@ -752,9 +752,9 @@
             <mi>FVa</mi>
             <mo/>
           </mtd>
-          <mtd>
+          <mtd><mo> </mo>
             <mo>=</mo>
-          </mtd>
+            <mo> </mo></mtd>
           <mtd>
             <mo/>
             <mrow>
@@ -803,9 +803,9 @@
             <mi>FVa</mi>
             <mo/>
           </mtd>
-          <mtd>
+          <mtd><mo> </mo>
             <mo>=</mo>
-          </mtd>
+            <mo> </mo></mtd>
           <mtd>
             <mo/>
             <mrow>
@@ -856,9 +856,9 @@
           <mtd>
             <mi>FVa</mi>
           </mtd>
-          <mtd>
+          <mtd><mo> </mo>
             <mo>=</mo>
-          </mtd>
+            <mo> </mo></mtd>
           <mtd>
             <mo>$</mo>
             <mn>10,000</mn>
@@ -895,9 +895,9 @@
             </msub>
             <mo/>
           </mtd>
-          <mtd>
+          <mtd><mo> </mo>
             <mo>=</mo>
-          </mtd>
+            <mo> </mo></mtd>
           <mtd>
             <mo/>
             <mo>$</mo>
@@ -940,9 +940,9 @@
             </msub>
             <mo/>
           </mtd>
-          <mtd>
+          <mtd><mo> </mo>
             <mo>=</mo>
-          </mtd>
+            <mo> </mo></mtd>
           <mtd>
             <mo/>
             <mo>$</mo>
@@ -972,29 +972,7 @@
   <equation id="eq-00023">
 
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mtable columnspacing="0px" columnalign="right center left">
-        <mtd>
-          <mn>56,329.76</mn>
-          <mo/>
-          <mo>+</mo>
-          <mo/>
-          <mn>5,408.00</mn>
-          <mo/>
-          <mo>+</mo>
-          <mo/>
-          <mn>5,200</mn>
-          <mo>.</mo>
-          <mn>00</mn>
-        </mtd>
-        <mtd>
-          <mo>=</mo>
-        </mtd>
-        <mtd>
-          <mo>$</mo>
-          <mn>66,937.76</mn>
-        </mtd>
-      
-    </mtable>
+      <mn>56,329.76</mn><mo>+</mo><mn>5,408.00</mn><mo>+</mo><mn>5,200.00</mn><mo>=</mo><mo>$</mo><mn>66,937.76</mn>
   </math>
 </equation>.
 <para id="para-00087" xmlns="http://cnx.rice.edu/cnxml">It works. Whether you view this problem as five separate periods that can be compounded separately and then combined or as a combination of one or more annuities and/or single payment problems, we always arrive at the same solution if we are diligent about the time, the interest, and the stream of payments.</para>
@@ -1064,8 +1042,8 @@
             <mi>PV</mi>
             <mo/>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo/>
@@ -1133,40 +1111,7 @@
   <para id="para-00039">One method is to take each year’s cash flows, which happen at the end of the year, and discount them to today using the present value formula for a single amount:</para>
   <equation id="eq-00012">
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mtable columnspacing="0px" columnalign="right center left">
-        <mtr>
-          <mtd>
-            <mi>PV</mi>
-            <mo/>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo/>
-            <mi>FV</mi>
-            <mo/>
-            <mo>×</mo>
-            <mo/>
-            <mfrac>
-              <mn>1</mn>
-              <msup>
-                <mrow>
-                  <mo>(</mo>
-                  <mn>1</mn>
-                  <mo/>
-                  <mo>+</mo>
-                  <mo/>
-                  <mi>i</mi>
-                  <mo>)</mo>
-                </mrow>
-                <mi>n</mi>
-              </msup>
-            </mfrac>
-          </mtd>
-        </mtr>
-      </mtable>
-    </math>
+      <mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>PV</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi>FV</mi><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi><mo>)</mo></mrow><mi>n</mi></msup></mfrac></mtd></mtr></mtable></math>
   </equation>
   <equation id="eq-00013" xmlns="http://cnx.rice.edu/cnxml">
     <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1179,8 +1124,8 @@
             </msub>
             <mo/>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo/>
@@ -1225,8 +1170,8 @@
             </msub>
             <mo/>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo/>
@@ -1271,8 +1216,8 @@
             </msub>
             <mo/>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo/>
@@ -1446,8 +1391,8 @@
             <mi>PVa</mi>
             <mo> </mo>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo> </mo>
@@ -1500,8 +1445,8 @@
           <mtd>
             <mi>PVa</mi>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo>$</mo>
@@ -1537,8 +1482,8 @@
           <mtd>
             <mi>PVa</mi>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo>$</mo>
@@ -1581,8 +1526,8 @@
               </mrow>
             </msub>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo>$</mo>
@@ -1637,8 +1582,8 @@
               </mrow>
             </msub>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo>$</mo>
@@ -1704,8 +1649,8 @@
             <mo>.</mo>
             <mn>65</mn>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo>$</mo>
