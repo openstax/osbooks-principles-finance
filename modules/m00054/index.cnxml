@@ -100,7 +100,7 @@
     <entry align="right">27,891.61</entry>
     </row>
     <row>
-    <entry align="center" namest="c1" nameend="c5">…continued…</entry>
+    <entry align="center" namest="c1" nameend="c5"><emphasis effect="italics">…continued…</emphasis></entry>
     </row>
     <row>
     <entry align="center">33</entry>
@@ -135,6 +135,7 @@
     <entry align="right"><emphasis effect="bold">35,046.00</emphasis></entry>
     <entry align="right"><emphasis effect="bold">3,046.08</emphasis></entry>
     <entry align="right"><emphasis effect="bold">32,000.00</emphasis></entry>
+    <entry align="right"> </entry>
     </row>
     </tbody>
     </tgroup>
