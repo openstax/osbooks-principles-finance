@@ -10,80 +10,393 @@
       <title>Learning Outcomes</title>
       <para id="para-00001">By the end of this section, you will be able to:</para>
       <list id="list-00001">
-      <item>Describe how multiple payments of unequal value are present in everyday situations.</item>
-      <item>Calculate the future value of a series of multiple payments of unequal value.</item>
-      <item>Calculate the present value of a series of multiple payments of unequal value.</item>
+        <item>Describe how multiple payments of unequal value are present in everyday situations.</item>
+        <item>Calculate the future value of a series of multiple payments of unequal value.</item>
+        <item>Calculate the present value of a series of multiple payments of unequal value.</item>
       </list>
-      </section>
-      <section id="sect-00002">
+    </section>
+    <section id="sect-00002">
       <title>Multiple Payments or Receipts of Unequal Value: The Mixed Stream</title>
       <para id="para-00002">At this point, you are familiar with the time value of money of single amounts and annuities and how they must be managed and controlled for business as well as personal purposes. If a stream of payments occurs in which the amount of the payments changes at any point, the techniques for solving for annuities must be modified. Shortcuts that we have seen in earlier chapters cannot be taken. Fortunately, with tools such as financial or online calculators and Microsoft <term class="no-emphasis" id="term-00001">Excel</term>, the method can be quite simple.</para>
       <para id="para-00003">The ability to analyze and understand <term id="term-00002">cash flow</term> is essential. From a personal point of view, assume that you have an opportunity to invest $2,000 every year, beginning next year, to save for a down payment on the purchase of your first home seven years from now. In the third year, you also inherit $10,000 and put it all toward this goal. In the fifth year, you receive a large bonus of $3,000 and also dedicate this to your ongoing investment.</para>
       <para id="para-00004">The stream of regular payments has been interrupted—which is, of course, good news for you. However, it does add a new complexity to the math involved in finding values related to time, whether compounding into the future or discounting to the present value. Analysts refer to such a series of payments as a <term id="term-00003">mixed stream</term>. If you make the first payment on the first day of next year and continue to do so on the first day of each following year, and if your investment will always be earning 7% interest, how much cash will you have accumulated—principal plus earned interest—at the end of the seven years?</para>
-      <para id="para-00005">This is a future value question, but because the stream of payments is mixed, we cannot use annuity formulas or approaches and the shortcuts they provide. As noted in previous chapters, when solving a problem involving the time value of money, a timeline and/or table is helpful. The cash flows described above are shown in <link target-id="table-00001" document="m00058"/>. Remember that all money is assumed to be deposited in your investment at the beginning of each year. The cumulative cash flows do not yet consider interest.</para>
+      <para id="para-00005">This is a future value question, but because the stream of payments is mixed, we cannot use annuity formulas or approaches and the shortcuts they provide. As noted in previous chapters, when solving a problem involving the time value of money, a timeline and/or table is helpful. The cash flows described above are shown in <link target-id="table-00001" document="m00058"/>
+. Remember that all money is assumed to be deposited in your investment at the beginning of each year. The cumulative cash flows do not yet consider interest.</para>
       <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00001">
-      <tgroup cols="9">
-      <colspec colnum="1" colname="c1"/>
-      <colspec colnum="2" colname="c2"/>
-      <colspec colnum="3" colname="c3"/>
-      <colspec colnum="4" colname="c4"/>
-      <colspec colnum="5" colname="c5"/>
-      <colspec colnum="6" colname="c6"/>
-      <colspec colnum="7" colname="c7"/>
-      <colspec colnum="8" colname="c8"/>
-      <colspec colnum="9" colname="c9"/>
-      <thead>
-      <row>
-      <entry align="center">Year</entry>
-      <entry align="center">0</entry>
-      <entry align="center">1</entry>
-      <entry align="center">2</entry>
-      <entry align="center">3</entry>
-      <entry align="center">4</entry>
-      <entry align="center">5</entry>
-      <entry align="center">6</entry>
-      <entry align="center">7</entry>
-      </row>
-      </thead>
-      <tbody>
-      <row>
-      <entry align="left">Cash Invested</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$12,000</entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$5,000</entry>
-      <entry align="right">$2,000</entry>
-      </row>
-      <row>
-      <entry align="left">Cumulative Cash Flows</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$4,000</entry>
-      <entry align="right">$6,000</entry>
-      <entry align="right">$18,000</entry>
-      <entry align="right">$20,000</entry>
-      <entry align="right">$25,000</entry>
-      <entry align="right">$27,000</entry>
-      </row>
-      </tbody>
-      </tgroup>
+        <tgroup cols="9">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <colspec colnum="9" colname="c9"/>
+          <thead>
+            <row>
+              <entry align="center">Year</entry>
+              <entry align="center">0</entry>
+              <entry align="center">1</entry>
+              <entry align="center">2</entry>
+              <entry align="center">3</entry>
+              <entry align="center">4</entry>
+              <entry align="center">5</entry>
+              <entry align="center">6</entry>
+              <entry align="center">7</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry align="left">Cash Invested</entry>
+              <entry align="right"/>
+              <entry align="right">$2,000</entry>
+              <entry align="right">$2,000</entry>
+              <entry align="right">$2,000</entry>
+              <entry align="right">$12,000</entry>
+              <entry align="right">$2,000</entry>
+              <entry align="right">$5,000</entry>
+              <entry align="right">$2,000</entry>
+            </row>
+            <row>
+              <entry align="left">Cumulative Cash Flows</entry>
+              <entry align="right"/>
+              <entry align="right">$2,000</entry>
+              <entry align="right">$4,000</entry>
+              <entry align="right">$6,000</entry>
+              <entry align="right">$18,000</entry>
+              <entry align="right">$20,000</entry>
+              <entry align="right">$25,000</entry>
+              <entry align="right">$27,000</entry>
+            </row>
+          </tbody>
+        </tgroup>
       </table>
       <para id="para-00006">By the end of seven years, you have invested $27,000 of your own money before we consider interest:</para>
       <list id="list-00002">
-      <item>Seven years times $2,000 each year, or $14,000</item>
-      <item>The extra $10,000 you received in year 3 (which is invested at the start of year 4)</item>
-      <item>The extra $3,000 you received in year 5 (which is invested at the start of year 6)</item>
+        <item>Seven years times $2,000 each year, or $14,000</item>
+        <item>The extra $10,000 you received in year 3 (which is invested at the start of year 4)</item>
+        <item>The extra $3,000 you received in year 5 (which is invested at the start of year 6)</item>
       </list>
       <para id="para-00007">These funds were invested at different times, and time and interest rate will work for you on all accumulated balances as you proceed. Therefore, focus on the line in your table with the cumulative cash flows. How much cash will you have accumulated at the end of this investment program if you’re earning 7% compounded annually? You could use the <emphasis effect="italics">future value of a single amount</emphasis> equation, but not for an annuity. Because the amount invested changes, you must calculate the future value of each amount invested and add them together for your result.</para>
-      <para id="para-00008">Recall that the formula for finding the future value of a single amount is <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>   <mi>FV</mi><mo>=</mo><mi>PV</mi><mo>×</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><msup><mo>)</mo><mi>n</mi></msup>
+      <para id="para-00008">Recall that the formula for finding the future value of a single amount is <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+          <mi>FV</mi>
+          <mo>=</mo>
+          <mi>PV</mi>
+          <mo>×</mo>
+          <mo>(</mo>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mi>i</mi>
+          <msup>
+            <mo>)</mo>
+            <mi>n</mi>
+          </msup>
+        </mrow>
+      </math>, where FV is the future value we are trying to determine, PV is the value invested at the start of each period, <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">i</emphasis> is the interest rate, and <emphasis effect="italics">n</emphasis> is the number of periods remaining for compounding to take effect.</para>
+    <para id="para-00009">Let us repeat the table with your cash flows above. <link target-id="table-00002" document="m00058"/>
+ includes a line to show for how many periods (years, in this case) each investment will compound at 7%.</para>
+    <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00002">
+      <tgroup cols="9">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <thead>
+          <row>
+            <entry align="center">Year</entry>
+            <entry align="center">0</entry>
+            <entry align="center">1</entry>
+            <entry align="center">2</entry>
+            <entry align="center">3</entry>
+            <entry align="center">4</entry>
+            <entry align="center">5</entry>
+            <entry align="center">6</entry>
+            <entry align="center">7</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry align="left">Cash Invested</entry>
+            <entry align="right"/>
+            <entry align="right">$2,000</entry>
+            <entry align="right">$2,000</entry>
+            <entry align="right">$2,000</entry>
+            <entry align="right">$12,000</entry>
+            <entry align="right">$2,000</entry>
+            <entry align="right">$5,000</entry>
+            <entry align="right">$2,000</entry>
+          </row>
+          <row>
+            <entry align="left">Cumulative Cash Flows</entry>
+            <entry align="right"/>
+            <entry align="right">$2,000</entry>
+            <entry align="right">$4,000</entry>
+            <entry align="right">$6,000</entry>
+            <entry align="right">$18,000</entry>
+            <entry align="right">$20,000</entry>
+            <entry align="right">$25,000</entry>
+            <entry align="right">$27,000</entry>
+          </row>
+          <row>
+            <entry align="left">Years to Compound</entry>
+            <entry align="center"/>
+            <entry align="center">7</entry>
+            <entry align="center">6</entry>
+            <entry align="center">5</entry>
+            <entry align="center">4</entry>
+            <entry align="center">3</entry>
+            <entry align="center">2</entry>
+            <entry align="center">1</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="para-00010">The $2,000 that you deposit at the start of year 1 will earn 7% interest for the entire seven years. When you make your second investment at the start of year 2, you will now have spent $4,000. However, the interest from your first $2,000 investment will have earned you <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mrow>
+        <mo>$</mo>
+        <mn>2,000</mn>
+        <mo>×</mo>
+        <mn>0.07</mn>
+        <mo>=</mo>
+        <mo>$</mo>
+        <mn>140</mn>
       </mrow>
-    </math>, where FV is the future value we are trying to determine, PV is the value invested at the start of each period, <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">i</emphasis> is the interest rate, and <emphasis effect="italics">n</emphasis> is the number of periods remaining for compounding to take effect.</para>
-      <para id="para-00009">Let us repeat the table with your cash flows above. <link target-id="table-00002" document="m00058"/> includes a line to show for how many periods (years, in this case) each investment will compound at 7%.</para>
-      <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00002">
-      <tgroup cols="9">
+    </math>, so you will begin year 2 with $4,140 rather than $4,000.</para>
+  <para id="para-00011" xmlns="http://cnx.rice.edu/cnxml">Before we complicate the problem with a schedule that ties everything together, let’s focus on years 1 and 2 with the original formula for the future value of a single amount. What will your year 1 investment be worth at the end of seven years?</para>
+  <equation id="eq-00001">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mi>FV</mi>
+        <mn>1</mn>
+      </msub>
+      <mo>=</mo>
+      <mo>$</mo>
+      <mn>2,000</mn>
+      <mo>×</mo>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mn>0.07</mn>
+          <mo>)</mo>
+        </mrow>
+        <mn>7</mn>
+      </msup>
+      <mo>≈</mo>
+      <mo>$</mo>
+      <mn>3,211.56</mn>
+    </math>
+  </equation>
+  <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">You need to address the year 2 investment separately at this point because you’ve calculated the year 1 investment and its compounding on its own. Now you need to know what your year 2 investment will be worth in the future, but it will only compound for six years. What will it be worth?</para>
+  <equation id="eq-00002">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <msub>
+        <mi>FV</mi>
+        <mn>2</mn>
+      </msub>
+      <mo>=</mo>
+      <mo>$</mo>
+      <mn>2,000</mn>
+      <mo>×</mo>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mn>0.07</mn>
+          <mo>)</mo>
+        </mrow>
+        <mn>6</mn>
+      </msup>
+      <mo>≈</mo>
+      <mo>$</mo>
+      <mn>3,001.46</mn>
+    </math>
+  </equation>
+  <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">You can perform the same operation on each of the remaining five invested amounts, remembering that you invest $12,000 at the start of year 4 and $5,000 at the start of year 6, as per the table. Here are the five remaining calculations:</para>
+  <equation id="eq-00003">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>FV</mi>
+              <mn>3</mn>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>2,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <msup>
+              <mrow>
+                <mo>(</mo>
+                <mn>1</mn>
+                <mo>+</mo>
+                <mn>0.07</mn>
+                <mo>)</mo>
+              </mrow>
+              <mn>5</mn>
+            </msup>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>2,805.10</mn>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>FV</mi>
+              <mn>4</mn>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>12,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <msup>
+              <mrow>
+                <mo>(</mo>
+                <mn>1</mn>
+                <mo>+</mo>
+                <mn>0.07</mn>
+                <mo>)</mo>
+              </mrow>
+              <mn>4</mn>
+            </msup>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>15,729.55</mn>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>FV</mi>
+              <mn>5</mn>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>2,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <msup>
+              <mrow>
+                <mo>(</mo>
+                <mn>1</mn>
+                <mo>+</mo>
+                <mn>0.07</mn>
+                <mo>)</mo>
+              </mrow>
+              <mn>3</mn>
+            </msup>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>2,450.09</mn>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>FV</mi>
+              <mn>6</mn>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>5,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <msup>
+              <mrow>
+                <mo>(</mo>
+                <mn>1</mn>
+                <mo>+</mo>
+                <mn>0.07</mn>
+                <mo>)</mo>
+              </mrow>
+              <mn>2</mn>
+            </msup>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>5,724.50</mn>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>FV</mi>
+              <mn>7</mn>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>2,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <msup>
+              <mrow>
+                <mo>(</mo>
+                <mn>1</mn>
+                <mo>+</mo>
+                <mn>0.07</mn>
+                <mo>)</mo>
+              </mrow>
+              <mn>1</mn>
+            </msup>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>2,140.00</mn>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00014" xmlns="http://cnx.rice.edu/cnxml">Notice how the exponent representing <emphasis effect="italics">n</emphasis> decreases each year to reflect the decreasing number of years that each invested amount will compound until the end of your seven-year stream. For clarity, let us insert each of these amounts in a row of <link target-id="table-00003" document="m00058"/>
+:</para>
+  <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00003">
+    <tgroup cols="9">
       <colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
       <colspec colnum="3" colname="c3"/>
@@ -94,251 +407,698 @@
       <colspec colnum="8" colname="c8"/>
       <colspec colnum="9" colname="c9"/>
       <thead>
-      <row>
-      <entry align="center">Year</entry>
-      <entry align="center">0</entry>
-      <entry align="center">1</entry>
-      <entry align="center">2</entry>
-      <entry align="center">3</entry>
-      <entry align="center">4</entry>
-      <entry align="center">5</entry>
-      <entry align="center">6</entry>
-      <entry align="center">7</entry>
-      </row>
+        <row>
+          <entry align="center">Year</entry>
+          <entry align="center">0</entry>
+          <entry align="center">1</entry>
+          <entry align="center">2</entry>
+          <entry align="center">3</entry>
+          <entry align="center">4</entry>
+          <entry align="center">5</entry>
+          <entry align="center">6</entry>
+          <entry align="center">7</entry>
+        </row>
       </thead>
       <tbody>
-      <row>
-      <entry align="left">Cash Invested</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$12,000</entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$5,000</entry>
-      <entry align="right">$2,000</entry>
-      </row>
-      <row>
-      <entry align="left">Cumulative Cash Flows</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$4,000</entry>
-      <entry align="right">$6,000</entry>
-      <entry align="right">$18,000</entry>
-      <entry align="right">$20,000</entry>
-      <entry align="right">$25,000</entry>
-      <entry align="right">$27,000</entry>
-      </row>
-      <row>
-      <entry align="left">Years to Compound</entry>
-      <entry align="center"> </entry>
-      <entry align="center">7</entry>
-      <entry align="center">6</entry>
-      <entry align="center">5</entry>
-      <entry align="center">4</entry>
-      <entry align="center">3</entry>
-      <entry align="center">2</entry>
-      <entry align="center">1</entry>
-      </row>
+        <row>
+          <entry align="left">Cash Invested</entry>
+          <entry align="right"/>
+          <entry align="right">$2,000</entry>
+          <entry align="right">$2,000</entry>
+          <entry align="right">$2,000</entry>
+          <entry align="right">$12,000</entry>
+          <entry align="right">$2,000</entry>
+          <entry align="right">$5,000</entry>
+          <entry align="right">$2,000</entry>
+        </row>
+        <row>
+          <entry align="left">Cumulative Cash Flows</entry>
+          <entry align="right"/>
+          <entry align="right">$2,000</entry>
+          <entry align="right">$4,000</entry>
+          <entry align="right">$6,000</entry>
+          <entry align="right">$18,000</entry>
+          <entry align="right">$20,000</entry>
+          <entry align="right">$25,000</entry>
+          <entry align="right">$27,000</entry>
+        </row>
+        <row>
+          <entry align="left">Years to Compound</entry>
+          <entry align="right"/>
+          <entry align="center">7</entry>
+          <entry align="center">6</entry>
+          <entry align="center">5</entry>
+          <entry align="center">4</entry>
+          <entry align="center">3</entry>
+          <entry align="center">2</entry>
+          <entry align="center">1</entry>
+        </row>
+        <row>
+          <entry align="left">Compounded Value at End of Year 7</entry>
+          <entry align="right"/>
+          <entry align="right">$3,211.56</entry>
+          <entry align="right">$3,001.46</entry>
+          <entry align="right">$2,805.10</entry>
+          <entry align="right">$15,729.55</entry>
+          <entry align="right">$2,450.09</entry>
+          <entry align="right">$5,724.50</entry>
+          <entry align="right">$2,140.00</entry>
+        </row>
       </tbody>
-      </tgroup>
-      </table>
-      <para id="para-00010">The $2,000 that you deposit at the start of year 1 will earn 7% interest for the entire seven years. When you make your second investment at the start of year 2, you will now have spent $4,000. However, the interest from your first $2,000 investment will have earned you <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>
-        <mo>$</mo><mn>2,000</mn><mo>×</mo><mn>0.07</mn><mo>=</mo><mo>$</mo><mn>140</mn>
-          </mrow>
-        </math>, so you will begin year 2 with $4,140 rather than $4,000.</para>
-      <para id="para-00011" xmlns="http://cnx.rice.edu/cnxml">Before we complicate the problem with a schedule that ties everything together, let’s focus on years 1 and 2 with the original formula for the future value of a single amount. What will your year 1 investment be worth at the end of seven years?</para>
-      <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>FV</mi><mn>1</mn></msub><mo>=</mo><mo>$</mo><mn>2,000</mn><mo>×</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>7</mn></msup><mo>≈</mo><mo>$</mo><mn>3,211.56</mn></math></equation>
-      <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">You need to address the year 2 investment separately at this point because you’ve calculated the year 1 investment and its compounding on its own. Now you need to know what your year 2 investment will be worth in the future, but it will only compound for six years. What will it be worth?</para>
-      <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>FV</mi><mn>2</mn></msub><mo>=</mo><mo>$</mo><mn>2,000</mn><mo>×</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>6</mn></msup><mo>≈</mo><mo>$</mo><mn>3,001.46</mn></math></equation>
-      <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">You can perform the same operation on each of the remaining five invested amounts, remembering that you invest $12,000 at the start of year 4 and $5,000 at the start of year 6, as per the table. Here are the five remaining calculations:</para>
-      <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>FV</mi><mn>3</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>2,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>5</mn></msup><mo>≈</mo><mo>$</mo><mn>2,805.10</mn></mtd></mtr><mtr><mtd><msub><mi>FV</mi><mn>4</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>12,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>≈</mo><mo>$</mo><mn>15,729.55</mn></mtd></mtr><mtr><mtd><msub><mi>FV</mi><mn>5</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>2,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>≈</mo><mo>$</mo><mn>2,450.09</mn></mtd></mtr><mtr><mtd><msub><mi>FV</mi><mn>6</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>5,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>≈</mo><mo>$</mo><mn>5,724.50</mn></mtd></mtr><mtr><mtd><msub><mi>FV</mi><mn>7</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>2,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>1</mn></msup><mo>≈</mo><mo>$</mo><mn>2,140.00</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00014" xmlns="http://cnx.rice.edu/cnxml">Notice how the exponent representing <emphasis effect="italics">n</emphasis> decreases each year to reflect the decreasing number of years that each invested amount will compound until the end of your seven-year stream. For clarity, let us insert each of these amounts in a row of <link target-id="table-00003" document="m00058"/>:</para>
-      <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00003">
-      <tgroup cols="9">
-      <colspec colnum="1" colname="c1"/>
-      <colspec colnum="2" colname="c2"/>
-      <colspec colnum="3" colname="c3"/>
-      <colspec colnum="4" colname="c4"/>
-      <colspec colnum="5" colname="c5"/>
-      <colspec colnum="6" colname="c6"/>
-      <colspec colnum="7" colname="c7"/>
-      <colspec colnum="8" colname="c8"/>
-      <colspec colnum="9" colname="c9"/>
-      <thead>
-      <row>
-      <entry align="center">Year</entry>
-      <entry align="center">0</entry>
-      <entry align="center">1</entry>
-      <entry align="center">2</entry>
-      <entry align="center">3</entry>
-      <entry align="center">4</entry>
-      <entry align="center">5</entry>
-      <entry align="center">6</entry>
-      <entry align="center">7</entry>
-      </row>
-      </thead>
-      <tbody>
-      <row>
-      <entry align="left">Cash Invested</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$12,000</entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$5,000</entry>
-      <entry align="right">$2,000</entry>
-      </row>
-      <row>
-      <entry align="left">Cumulative Cash Flows</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$2,000</entry>
-      <entry align="right">$4,000</entry>
-      <entry align="right">$6,000</entry>
-      <entry align="right">$18,000</entry>
-      <entry align="right">$20,000</entry>
-      <entry align="right">$25,000</entry>
-      <entry align="right">$27,000</entry>
-      </row>
-      <row>
-      <entry align="left">Years to Compound</entry>
-      <entry align="right"> </entry>
-      <entry align="center">7</entry>
-      <entry align="center">6</entry>
-      <entry align="center">5</entry>
-      <entry align="center">4</entry>
-      <entry align="center">3</entry>
-      <entry align="center">2</entry>
-      <entry align="center">1</entry>
-      </row>
-      <row>
-      <entry align="left">Compounded Value at End of Year 7</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$3,211.56</entry>
-      <entry align="right">$3,001.46</entry>
-      <entry align="right">$2,805.10</entry>
-      <entry align="right">$15,729.55</entry>
-      <entry align="right">$2,450.09</entry>
-      <entry align="right">$5,724.50</entry>
-      <entry align="right">$2,140.00</entry>
-      </row>
-      </tbody>
-      </tgroup>
-      </table>
-      <para id="para-00015">The solution to the original question—the value of your seven different investments at the end of the seven-year period—is the total of each individual investment compounded over the remaining years. Adding the compounded values in the bottom row provides the answer: $35,062.26. This includes the $27,000 that you invested plus $8,062.26 in interest earned by compounding.</para>
-      <para id="para-00016">It’s important to note that throughout these sections on the time value of money and compounded or discounted values of mixed streams and their analysis, we are placing the valuation at the end or beginning of a period for simplicity in the examples. In reality, businesses might consider valuations happening within the period to allow for a degree of regularity in the revenue streams provided by the asset being considered. However, because this is a technique of forecasting, which is inherently uncertain, we will continue with analysis by period.</para>
-      <note class="think-through" id="note-00001">
-      <title>Future Value of a Mixed Stream</title>
-      <exercise class="unnumbered" id="exer-00001">
+    </tgroup>
+  </table>
+  <para id="para-00015">The solution to the original question—the value of your seven different investments at the end of the seven-year period—is the total of each individual investment compounded over the remaining years. Adding the compounded values in the bottom row provides the answer: $35,062.26. This includes the $27,000 that you invested plus $8,062.26 in interest earned by compounding.</para>
+  <para id="para-00016">It’s important to note that throughout these sections on the time value of money and compounded or discounted values of mixed streams and their analysis, we are placing the valuation at the end or beginning of a period for simplicity in the examples. In reality, businesses might consider valuations happening within the period to allow for a degree of regularity in the revenue streams provided by the asset being considered. However, because this is a technique of forecasting, which is inherently uncertain, we will continue with analysis by period.</para>
+  <note class="think-through" id="note-00001">
+    <title>Future Value of a Mixed Stream</title>
+    <exercise class="unnumbered" id="exer-00001">
       <problem id="prob-00001">
-      <para id="para-00017">Assume that you can invest five annual payments of $10,000, beginning immediately, but you believe you will be able to invest additional amounts of $5,000 at the beginning of years 4 and 5. This investment is expected to earn 4% each year. What is the anticipated future value of this investment after the full five years?</para>
+        <para id="para-00017">Assume that you can invest five annual payments of $10,000, beginning immediately, but you believe you will be able to invest additional amounts of $5,000 at the beginning of years 4 and 5. This investment is expected to earn 4% each year. What is the anticipated future value of this investment after the full five years?</para>
       </problem>
       <solution id="sol-00001">
-      <para id="para-00018"><emphasis effect="bold">Solution:</emphasis></para>
-      <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00004">
-      <tgroup cols="7">
-      <colspec colnum="1" colname="c1"/>
-      <colspec colnum="2" colname="c2"/>
-      <colspec colnum="3" colname="c3"/>
-      <colspec colnum="4" colname="c4"/>
-      <colspec colnum="5" colname="c5"/>
-      <colspec colnum="6" colname="c6"/>
-      <colspec colnum="7" colname="c7"/>
-      <thead>
-      <row>
-      <entry align="center">Year</entry>
-      <entry align="center">0</entry>
-      <entry align="center">1</entry>
-      <entry align="center">2</entry>
-      <entry align="center">3</entry>
-      <entry align="center">4</entry>
-      <entry align="center">5</entry>
-      </row>
-      </thead>
-      <tbody>
-      <row>
-      <entry align="left">Cash Invested</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$10,000</entry>
-      <entry align="right">$10,000</entry>
-      <entry align="right">$10,000</entry>
-      <entry align="right">$15,000</entry>
-      <entry align="right">$15,000</entry>
-      </row>
-      <row>
-      <entry align="left">Cumulative Cash Flows</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$10,000</entry>
-      <entry align="right">$20,000</entry>
-      <entry align="right">$30,000</entry>
-      <entry align="right">$45,000</entry>
-      <entry align="right">$60,000</entry>
-      </row>
-      <row>
-      <entry align="left">Years to Compound</entry>
-      <entry align="right"> </entry>
-      <entry align="center">5</entry>
-      <entry align="center">4</entry>
-      <entry align="center">3</entry>
-      <entry align="center">2</entry>
-      <entry align="center">1</entry>
-      </row>
-      <row>
-      <entry align="left">Compounded Value at End of Year 5</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$12,166.53</entry>
-      <entry align="right">$11,698.59</entry>
-      <entry align="right">$11,248.64</entry>
-      <entry align="right">$16,224.00</entry>
-      <entry align="right">$15,600.00</entry>
-      </row>
-      </tbody>
-      </tgroup>
-      </table>
-      <para id="para-00019">The equations to calculate each individual year’s compounded value at the end of the five years are as follows:</para>
-      <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>F</mi><msub><mi>V</mi><mn>1</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>10,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>5</mn></msup><mo>≈</mo><mo>$</mo><mn>12,166.53</mn><mo> </mo></mtd></mtr><mtr><mtd><mi>F</mi><msub><mi>V</mi><mn>2</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>10,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>≈</mo><mo>$</mo><mn>11,698.59</mn><mo> </mo></mtd></mtr><mtr><mtd><mi>F</mi><msub><mi>V</mi><mn>3</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>10,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>≈</mo><mo>$</mo><mn>11,248.64</mn></mtd></mtr><mtr><mtd><mi>F</mi><msub><mi>V</mi><mn>4</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>15,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>≈</mo><mo>$</mo><mn>16,224.00</mn></mtd></mtr><mtr><mtd><mi>F</mi><msub><mi>V</mi><mn>5</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>15,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>1</mn></msup><mo>≈</mo><mo>$</mo><mn>15,600.00</mn><mo> </mo></mtd></mtr></mtable></math></equation>
-      <para id="para-00020" xmlns="http://cnx.rice.edu/cnxml">The sum of these individual calculations is $66,937.76, which is the total value of this stream of invested amounts plus compounded interest.</para>
+        <para id="para-00018">
+          <emphasis effect="bold">Solution:</emphasis>
+        </para>
+        <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00004">
+          <tgroup cols="7">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <thead>
+              <row>
+                <entry align="center">Year</entry>
+                <entry align="center">0</entry>
+                <entry align="center">1</entry>
+                <entry align="center">2</entry>
+                <entry align="center">3</entry>
+                <entry align="center">4</entry>
+                <entry align="center">5</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry align="left">Cash Invested</entry>
+                <entry align="right"/>
+                <entry align="right">$10,000</entry>
+                <entry align="right">$10,000</entry>
+                <entry align="right">$10,000</entry>
+                <entry align="right">$15,000</entry>
+                <entry align="right">$15,000</entry>
+              </row>
+              <row>
+                <entry align="left">Cumulative Cash Flows</entry>
+                <entry align="right"/>
+                <entry align="right">$10,000</entry>
+                <entry align="right">$20,000</entry>
+                <entry align="right">$30,000</entry>
+                <entry align="right">$45,000</entry>
+                <entry align="right">$60,000</entry>
+              </row>
+              <row>
+                <entry align="left">Years to Compound</entry>
+                <entry align="right"/>
+                <entry align="center">5</entry>
+                <entry align="center">4</entry>
+                <entry align="center">3</entry>
+                <entry align="center">2</entry>
+                <entry align="center">1</entry>
+              </row>
+              <row>
+                <entry align="left">Compounded Value at End of Year 5</entry>
+                <entry align="right"/>
+                <entry align="right">$12,166.53</entry>
+                <entry align="right">$11,698.59</entry>
+                <entry align="right">$11,248.64</entry>
+                <entry align="right">$16,224.00</entry>
+                <entry align="right">$15,600.00</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="para-00019">The equations to calculate each individual year’s compounded value at the end of the five years are as follows:</para>
+        <equation id="eq-00004">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mtable columnspacing="0px" columnalign="right center left">
+              <mtr>
+                <mtd>
+                  <mi>F</mi>
+                  <msub>
+                    <mi>V</mi>
+                    <mn>1</mn>
+                  </msub>
+                  <mo/>
+                </mtd>
+                <mtd>
+                  <mo>=</mo>
+                </mtd>
+                <mtd>
+                  <mo/>
+                  <mo>$</mo>
+                  <mn>10,000</mn>
+                  <mo/>
+                  <mo>×</mo>
+                  <mo/>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mn>1</mn>
+                      <mo>+</mo>
+                      <mn>0</mn>
+                      <mo>.</mo>
+                      <mn>04</mn>
+                      <mo>)</mo>
+                    </mrow>
+                    <mn>5</mn>
+                  </msup>
+                  <mo>≈</mo>
+                  <mo>$</mo>
+                  <mn>12,166.53</mn>
+                  <mo/>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mi>F</mi>
+                  <msub>
+                    <mi>V</mi>
+                    <mn>2</mn>
+                  </msub>
+                  <mo/>
+                </mtd>
+                <mtd>
+                  <mo>=</mo>
+                </mtd>
+                <mtd>
+                  <mo/>
+                  <mo>$</mo>
+                  <mn>10,000</mn>
+                  <mo/>
+                  <mo>×</mo>
+                  <mo/>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mn>1</mn>
+                      <mo>+</mo>
+                      <mn>0</mn>
+                      <mo>.</mo>
+                      <mn>04</mn>
+                      <mo>)</mo>
+                    </mrow>
+                    <mn>4</mn>
+                  </msup>
+                  <mo>≈</mo>
+                  <mo>$</mo>
+                  <mn>11,698.59</mn>
+                  <mo/>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mi>F</mi>
+                  <msub>
+                    <mi>V</mi>
+                    <mn>3</mn>
+                  </msub>
+                  <mo/>
+                </mtd>
+                <mtd>
+                  <mo>=</mo>
+                </mtd>
+                <mtd>
+                  <mo/>
+                  <mo>$</mo>
+                  <mn>10,000</mn>
+                  <mo/>
+                  <mo>×</mo>
+                  <mo/>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mn>1</mn>
+                      <mo>+</mo>
+                      <mn>0</mn>
+                      <mo>.</mo>
+                      <mn>04</mn>
+                      <mo>)</mo>
+                    </mrow>
+                    <mn>3</mn>
+                  </msup>
+                  <mo>≈</mo>
+                  <mo>$</mo>
+                  <mn>11,248.64</mn>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mi>F</mi>
+                  <msub>
+                    <mi>V</mi>
+                    <mn>4</mn>
+                  </msub>
+                  <mo/>
+                </mtd>
+                <mtd>
+                  <mo>=</mo>
+                </mtd>
+                <mtd>
+                  <mo/>
+                  <mo>$</mo>
+                  <mn>15,000</mn>
+                  <mo/>
+                  <mo>×</mo>
+                  <mo/>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mn>1</mn>
+                      <mo>+</mo>
+                      <mn>0</mn>
+                      <mo>.</mo>
+                      <mn>04</mn>
+                      <mo>)</mo>
+                    </mrow>
+                    <mn>2</mn>
+                  </msup>
+                  <mo>≈</mo>
+                  <mo>$</mo>
+                  <mn>16,224.00</mn>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mi>F</mi>
+                  <msub>
+                    <mi>V</mi>
+                    <mn>5</mn>
+                  </msub>
+                  <mo/>
+                </mtd>
+                <mtd>
+                  <mo>=</mo>
+                </mtd>
+                <mtd>
+                  <mo/>
+                  <mo>$</mo>
+                  <mn>15,000</mn>
+                  <mo/>
+                  <mo>×</mo>
+                  <mo/>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mn>1</mn>
+                      <mo>+</mo>
+                      <mn>0</mn>
+                      <mo>.</mo>
+                      <mn>04</mn>
+                      <mo>)</mo>
+                    </mrow>
+                    <mn>1</mn>
+                  </msup>
+                  <mo>≈</mo>
+                  <mo>$</mo>
+                  <mn>15,600.00</mn>
+                  <mo/>
+                </mtd>
+              </mtr>
+            </mtable>
+          </math>
+        </equation>
+        <para id="para-00020" xmlns="http://cnx.rice.edu/cnxml">The sum of these individual calculations is $66,937.76, which is the total value of this stream of invested amounts plus compounded interest.</para>
       </solution>
-      </exercise>
-      </note>
-      <para id="para-00021">Let’s take the example above and review it from a different angle. Keeping in mind that we have not yet explored the use of Excel, is there another way to view our solution? The problem above takes each annual investment and compounds it into the future, then adds the results of each calculation to find the total future value of the stream of payments.</para>
-      <para id="para-00022">But when you break the problem down, another way to look at the problem is as a five-year annuity of $10,000 per year <emphasis effect="italics">plus </emphasis>added payments in years 4 and 5. Can we solve for the future value of an annuity first and then perform two separate calculations on the additional amounts ($5,000 each in years 4 and 5)? Yes, we can.</para>
-      <para id="para-00023">Let’s summarize:</para>
-      <list id="list-00003">
-      <item>Future value of a $10,000 annuity due, 4%, 5 years, <emphasis effect="italics">plus</emphasis></item>
-      <item>Future value of a single payment of $5,000, 4%, 2 years, <emphasis effect="italics">plus</emphasis></item>
-      <item>Future value of a single payment of $5,000, 4%, 1 year</item>
-      </list>
-      <para id="para-00024">This must give us the same result. The formula for the future value of an annuity due is</para>
-      <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>FVa</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mrow><mi>PYMT</mi><mo> </mo><mo>×</mo><mo> </mo><mfrac><mrow><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow><mi>n</mi></msup><mo>-</mo><mn>1</mn></mrow><mi>i</mi></mfrac><mo> </mo><mo>×</mo><mo> </mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow></mtd></mtr></mtable></math></equation>
-      <para id="para-00025" xmlns="http://cnx.rice.edu/cnxml">This problem can be solved in the three steps of the summary above.</para>
-      <para id="para-00026">Step 1:</para>
-      <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>FVa</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mrow><mo>$</mo><mn>10,000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mrow><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0. 04</mn><mo>)</mo></mrow><mn>5</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mrow><mn>0.04</mn></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.04</mn><mo>)</mo></mrow></mtd></mtr></mtable></math></equation>
-      <equation id="eq-00007" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>FVa</mi></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>10,000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>5.416323</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1.04</mn><mo>≈</mo><mo>$</mo><mn>56,329.76</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00027" xmlns="http://cnx.rice.edu/cnxml">Step 2:</para>
-      <equation id="eq-00008"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>FV</mi><mrow><mi>Year</mi><mo> </mo><mn>4</mn></mrow></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>5,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.04</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>$</mo><mn>5,408.00</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00028" xmlns="http://cnx.rice.edu/cnxml">Step 3:</para>
-      <equation id="eq-00009"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>FV</mi><mrow><mi>Year</mi><mo> </mo><mn>5</mn></mrow></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>5,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.04</mn><mo>)</mo></mrow><mn>1</mn></msup><mo>=</mo><mo>$</mo><mn>5,200.00</mn></mtd></mtr></mtable> 
-      <para id="para-00029" xmlns="http://cnx.rice.edu/cnxml">Combining the results from each of the three steps gives us</para>
-      <equation id="eq-00023" xmlns="http://www.w3.org/1998/Math/MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtd><mn>56,329.76</mn><mo> </mo><mo>+</mo><mo> </mo><mn>5,408.00</mn><mo> </mo><mo>+</mo><mo> </mo><mn>5,200</mn><mo>.</mo><mn>00</mn></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>66,937.76</mn></mtd>.
-      <para id="para-00087" xmlns="http://cnx.rice.edu/cnxml">It works. Whether you view this problem as five separate periods that can be compounded separately and then combined or as a combination of one or more annuities and/or single payment problems, we always arrive at the same solution if we are diligent about the time, the interest, and the stream of payments.</para>
+    </exercise>
+  </note>
+  <para id="para-00021">Let’s take the example above and review it from a different angle. Keeping in mind that we have not yet explored the use of Excel, is there another way to view our solution? The problem above takes each annual investment and compounds it into the future, then adds the results of each calculation to find the total future value of the stream of payments.</para>
+  <para id="para-00022">But when you break the problem down, another way to look at the problem is as a five-year annuity of $10,000 per year <emphasis effect="italics">plus </emphasis>added payments in years 4 and 5. Can we solve for the future value of an annuity first and then perform two separate calculations on the additional amounts ($5,000 each in years 4 and 5)? Yes, we can.</para>
+  <para id="para-00023">Let’s summarize:</para>
+  <list id="list-00003">
+    <item>Future value of a $10,000 annuity due, 4%, 5 years, <emphasis effect="italics">plus</emphasis>
+    </item>
+    <item>Future value of a single payment of $5,000, 4%, 2 years, <emphasis effect="italics">plus</emphasis>
+    </item>
+    <item>Future value of a single payment of $5,000, 4%, 1 year</item>
+  </list>
+  <para id="para-00024">This must give us the same result. The formula for the future value of an annuity due is</para>
+  <equation id="eq-00005">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <mi>FVa</mi>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mrow>
+              <mi>PYMT</mi>
+              <mo/>
+              <mo>×</mo>
+              <mo/>
+              <mfrac>
+                <mrow>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mn>1</mn>
+                      <mo>+</mo>
+                      <mi>i</mi>
+                      <mo>)</mo>
+                    </mrow>
+                    <mi>n</mi>
+                  </msup>
+                  <mo>-</mo>
+                  <mn>1</mn>
+                </mrow>
+                <mi>i</mi>
+              </mfrac>
+              <mo/>
+              <mo>×</mo>
+              <mo/>
+              <mo>(</mo>
+              <mn>1</mn>
+              <mo>+</mo>
+              <mi>i</mi>
+              <mo>)</mo>
+            </mrow>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00025" xmlns="http://cnx.rice.edu/cnxml">This problem can be solved in the three steps of the summary above.</para>
+  <para id="para-00026">Step 1:</para>
+  <equation id="eq-00006">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <mi>FVa</mi>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mrow>
+              <mo>$</mo>
+              <mn>10,000</mn>
+              <mo/>
+              <mo>×</mo>
+              <mo/>
+              <mfrac>
+                <mrow>
+                  <msup>
+                    <mrow>
+                      <mo>(</mo>
+                      <mn>1</mn>
+                      <mo>+</mo>
+                      <mn>0. 04</mn>
+                      <mo>)</mo>
+                    </mrow>
+                    <mn>5</mn>
+                  </msup>
+                  <mo>-</mo>
+                  <mn>1</mn>
+                  <mo>)</mo>
+                </mrow>
+                <mrow>
+                  <mn>0.04</mn>
+                </mrow>
+              </mfrac>
+              <mo/>
+              <mo>×</mo>
+              <mo/>
+              <mo>(</mo>
+              <mn>1</mn>
+              <mo>+</mo>
+              <mn>0.04</mn>
+              <mo>)</mo>
+            </mrow>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <equation id="eq-00007" xmlns="http://cnx.rice.edu/cnxml">
+
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <mi>FVa</mi>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo>$</mo>
+            <mn>10,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mn>5.416323</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mn>1.04</mn>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>56,329.76</mn>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00027" xmlns="http://cnx.rice.edu/cnxml">Step 2:</para>
+  <equation id="eq-00008">
+
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>FV</mi>
+              <mrow>
+                <mi>Year</mi>
+                <mo/>
+                <mn>4</mn>
+              </mrow>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>5,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <msup>
+              <mrow>
+                <mo>(</mo>
+                <mn>1</mn>
+                <mo>+</mo>
+                <mn>0.04</mn>
+                <mo>)</mo>
+              </mrow>
+              <mn>2</mn>
+            </msup>
+            <mo>=</mo>
+            <mo>$</mo>
+            <mn>5,408.00</mn>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00028" xmlns="http://cnx.rice.edu/cnxml">Step 3:</para>
+  <equation id="eq-00009">
+
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>FV</mi>
+              <mrow>
+                <mi>Year</mi>
+                <mo/>
+                <mn>5</mn>
+              </mrow>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>5,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <msup>
+              <mrow>
+                <mo>(</mo>
+                <mn>1</mn>
+                <mo>+</mo>
+                <mn>0.04</mn>
+                <mo>)</mo>
+              </mrow>
+              <mn>1</mn>
+            </msup>
+            <mo>=</mo>
+            <mo>$</mo>
+            <mn>5,200.00</mn>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00029" xmlns="http://cnx.rice.edu/cnxml">Combining the results from each of the three steps gives us</para>
+  <equation id="eq-00023">
+
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtd>
+          <mn>56,329.76</mn>
+          <mo/>
+          <mo>+</mo>
+          <mo/>
+          <mn>5,408.00</mn>
+          <mo/>
+          <mo>+</mo>
+          <mo/>
+          <mn>5,200</mn>
+          <mo>.</mo>
+          <mn>00</mn>
+        </mtd>
+        <mtd>
+          <mo>=</mo>
+        </mtd>
+        <mtd>
+          <mo>$</mo>
+          <mn>66,937.76</mn>
+        </mtd>
       
-      <section id="sect-00003" xmlns="http://cnx.rice.edu/cnxml">
-      <title>The Present Value of a Mixed Stream</title>
-      <para id="para-00030">Now that we’ve seen the calculation of a <term id="term-00004">future value</term>, consider a <term id="term-00005">present value</term>. We will begin with a personal example. You win a cash windfall through your state’s lottery. You would like to take a portion of the funds and place them in a fixed investment so that you can draw $17,000 per year starting one year from now and continue to do so for the next two years. At the end of year 4, you want to withdraw $17,500, and at the end of year 5, you will withdraw the last $18,000 to close the account. When you take your last payment of $18,000, your fund will be totally depleted. You will always be earning 6% annually. How much of your cash windfall should you set aside today to accomplish this?</para>
-      <para id="para-00031">Let us break down the problem, remembering that we are thinking in reverse from the earlier problems that involved future values. In this case, we’re bringing future values back in time to find their present values. You will recall that this process is called <emphasis effect="italics">discounting</emphasis> rather than <emphasis effect="italics">compounding</emphasis>.</para>
-      <para id="para-00032">Regardless of how we solve this, the question remains the same: How much money must we invest today (present value) to achieve this? And remember that we will always be earning 6% compounded annually on any invested balances.</para>
-      <para id="para-00033">We are calculating present values as we did in previous chapters, given a known future value “target,” in order to determine how much money you need today to achieve that goal. Let us break this down by first reviewing the relevant equations from previous chapters.</para>
-      <para id="para-00034">Present value of an ordinary annuity:</para>
-      <equation id="eq-00010"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>PVa</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi>PYMT</mi><mo> </mo><mo>×</mo><mo> </mo><mfrac><mfenced open="[" close="]"><mrow><mn>1</mn><mo>-</mo><mstyle displaystyle="true"><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi><mo>)</mo></mrow><mi>n</mi></msup></mfrac></mstyle></mrow></mfenced><mi>i</mi></mfrac><mtr><mtd/>
-      <para id="para-00035" xmlns="http://cnx.rice.edu/cnxml">Present value of a single amount:</para>
-      <equation id="eq-00011" xmlns="http://www.w3.org/1998/Math/MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd/><mi>PV</mi><mo> </mo><mo>=</mo><mo> </mo><mi>FV</mi><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi><mo>)</mo></mrow><mi>n</mi></msup></mfrac>
-      <para id="para-00036" xmlns="http://cnx.rice.edu/cnxml">where PVa is the present value of an annuity, PYMT is one payment in a consistent stream (an annuity), <emphasis effect="italics">i</emphasis> is the interest rate (annual unless otherwise specified), <emphasis effect="italics">n</emphasis> is the number of periods, PV is the present value of a single amount, and FV is the future value of a single amount.</para>
-      <para id="para-00037" xmlns="http://www.w3.org/1998/Math/MathML">You want to find out how much money you need to set aside today to accomplish your goal. You can also find out how much money you need to set aside in each period to accomplish this goal. Therefore, we can address this problem in increments. Let us look at potential solutions.</para>
-      <para id="para-00038">First, we will break this down into the cash flows of each year. <link target-id="table-00005" document="m00058"/> shows the timing of the future cash flows you’re expecting:</para>
-      <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00005">
-      <tgroup cols="7">
+    </mtable>
+  </math>
+</equation>.
+<para id="para-00087" xmlns="http://cnx.rice.edu/cnxml">It works. Whether you view this problem as five separate periods that can be compounded separately and then combined or as a combination of one or more annuities and/or single payment problems, we always arrive at the same solution if we are diligent about the time, the interest, and the stream of payments.</para>
+
+<section id="sect-00003" xmlns="http://cnx.rice.edu/cnxml">
+  <title>The Present Value of a Mixed Stream</title>
+  <para id="para-00030">Now that we’ve seen the calculation of a <term id="term-00004">future value</term>, consider a <term id="term-00005">present value</term>. We will begin with a personal example. You win a cash windfall through your state’s lottery. You would like to take a portion of the funds and place them in a fixed investment so that you can draw $17,000 per year starting one year from now and continue to do so for the next two years. At the end of year 4, you want to withdraw $17,500, and at the end of year 5, you will withdraw the last $18,000 to close the account. When you take your last payment of $18,000, your fund will be totally depleted. You will always be earning 6% annually. How much of your cash windfall should you set aside today to accomplish this?</para>
+  <para id="para-00031">Let us break down the problem, remembering that we are thinking in reverse from the earlier problems that involved future values. In this case, we’re bringing future values back in time to find their present values. You will recall that this process is called <emphasis effect="italics">discounting</emphasis> rather than <emphasis effect="italics">compounding</emphasis>.
+  </para>
+  <para id="para-00032">Regardless of how we solve this, the question remains the same: How much money must we invest today (present value) to achieve this? And remember that we will always be earning 6% compounded annually on any invested balances.</para>
+  <para id="para-00033">We are calculating present values as we did in previous chapters, given a known future value “target,” in order to determine how much money you need today to achieve that goal. Let us break this down by first reviewing the relevant equations from previous chapters.</para>
+  <para id="para-00034">Present value of an ordinary annuity:</para>
+  <equation id="eq-00010">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <mi>PVa</mi>
+            <mo> </mo>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo> </mo>
+            <mi>PYMT</mi>
+            <mo> </mo>
+            <mo>×</mo>
+            <mo> </mo>
+            <mfrac>
+              <mfenced open="[" close="]">
+                <mrow>
+                  <mn>1</mn>
+                  <mo>-</mo>
+                  <mstyle displaystyle="true">
+                    <mfrac>
+                      <mn>1</mn>
+                      <msup>
+                        <mrow>
+                          <mo>(</mo>
+                          <mn>1</mn>
+                          <mo> </mo>
+                          <mo>+</mo>
+                          <mo> </mo>
+                          <mi>i</mi>
+                          <mo>)</mo>
+                        </mrow>
+                        <mi>n</mi>
+                      </msup>
+                    </mfrac>
+                  </mstyle>
+                </mrow>
+              </mfenced>
+              <mi>i</mi>
+            </mfrac>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00035" xmlns="http://cnx.rice.edu/cnxml">Present value of a single amount:</para>
+  <equation id="eq-00011">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <mi>PV</mi>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mi>FV</mi>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mfrac>
+              <mn>1</mn>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mn>1</mn>
+                  <mo/>
+                  <mo>+</mo>
+                  <mo/>
+                  <mi>i</mi>
+                  <mo>)</mo>
+                </mrow>
+                <mi>n</mi>
+              </msup>
+            </mfrac>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00036" xmlns="http://cnx.rice.edu/cnxml">where PVa is the present value of an annuity, PYMT is one payment in a consistent stream (an annuity), <emphasis effect="italics">i</emphasis> is the interest rate (annual unless otherwise specified), <emphasis effect="italics">n</emphasis> is the number of periods, PV is the present value of a single amount, and FV is the future value of a single amount.</para>
+  <para id="para-00037" xmlns="http://www.w3.org/1998/Math/MathML">You want to find out how much money you need to set aside today to accomplish your goal. You can also find out how much money you need to set aside in each period to accomplish this goal. Therefore, we can address this problem in increments. Let us look at potential solutions.</para>
+  <para id="para-00038" xmlns="http://cnx.rice.edu/cnxml">First, we will break this down into the cash flows of each year. <link target-id="table-00005" document="m00058"/>
+ shows the timing of the future cash flows you’re expecting:</para>
+  <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00005">
+    <tgroup cols="7">
       <colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
       <colspec colnum="3" colname="c3"/>
@@ -347,40 +1107,286 @@
       <colspec colnum="6" colname="c6"/>
       <colspec colnum="7" colname="c7"/>
       <thead>
-      <row>
-      <entry align="center">Year</entry>
-      <entry align="center">0</entry>
-      <entry align="center">1</entry>
-      <entry align="center">2</entry>
-      <entry align="center">3</entry>
-      <entry align="center">4</entry>
-      <entry align="center">5</entry>
-      </row>
+        <row>
+          <entry align="center">Year</entry>
+          <entry align="center">0</entry>
+          <entry align="center">1</entry>
+          <entry align="center">2</entry>
+          <entry align="center">3</entry>
+          <entry align="center">4</entry>
+          <entry align="center">5</entry>
+        </row>
       </thead>
       <tbody>
-      <row>
-      <entry align="left">Expected Amount to Be Withdrawn at End of Year</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$17,000</entry>
-      <entry align="right">$17,000</entry>
-      <entry align="right">$17,000</entry>
-      <entry align="right">$17,500</entry>
-      <entry align="right">$18,000</entry>
-      </row>
+        <row>
+          <entry align="left">Expected Amount to Be Withdrawn at End of Year</entry>
+          <entry align="right"/>
+          <entry align="right">$17,000</entry>
+          <entry align="right">$17,000</entry>
+          <entry align="right">$17,000</entry>
+          <entry align="right">$17,500</entry>
+          <entry align="right">$18,000</entry>
+        </row>
       </tbody>
-      </tgroup>
-      </table>
-      <para id="para-00039">One method is to take each year’s cash flows, which happen at the end of the year, and discount them to today using the present value formula for a single amount:</para>
-      <equation id="eq-00012"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>PV</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi>FV</mi><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi><mo>)</mo></mrow><mi>n</mi></msup></mfrac></mtd></mtr></mtable></math></equation>
-      <equation id="eq-00013" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>PV</mi><mn>1</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>17,000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.06</mn><mo>)</mo></mrow><mn>1</mn></msup></mfrac><mo>≈</mo><mo>$</mo><mn>16,037.74</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00040" xmlns="http://cnx.rice.edu/cnxml">Because year 1’s withdrawal from your fund only has one year to earn interest, we discounted it for one year. The second amount is discounted for two years:</para>
-      <equation id="eq-00014" xmlns="http://www.w3.org/1998/Math/MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>PV</mi><mn>2</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>17,000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.06</mn><mo>)</mo></mrow><mn>2</mn></msup></mfrac><mo>≈</mo><mo>$</mo><mn>15,129.94</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00041" xmlns="http://cnx.rice.edu/cnxml">The next three years are discounted in the same way, for three, four, and five years, respectively:</para>
-      <equation id="eq-00015" xmlns="http://www.w3.org/1998/Math/MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>PV</mi><mn>3</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>17,000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.06</mn><mo>)</mo></mrow><mn>3</mn></msup></mfrac><mo>≈</mo><mo>$</mo><mn>14,273. 53</mn></mtd></mtr><mtr><mtd><msub><mi>PV</mi><mn>4</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>17,500</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.06</mn><mo>)</mo></mrow><mn>4</mn></msup></mfrac><mo> </mo><mo>≈</mo><mo>$</mo><mn>13,861.64</mn></mtd></mtr><mtr><mtd><msub><mi>PV</mi><mn>5</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>18,000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.06</mn><mo>)</mo></mrow><mn>5</mn></msup></mfrac><mo> </mo><mo>≈</mo><mo>$</mo><mn>13,450.65</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00042" xmlns="http://cnx.rice.edu/cnxml">Notice how we reverse our thinking on the exponent <emphasis effect="italics">n</emphasis> from our approach to future value. This time, it increases each period because we discount each future amount for a longer period to arrive at the value in today’s dollars.</para>
-      <para id="para-00043" xmlns="http://www.w3.org/1998/Math/MathML">When we add all five discounted present value amounts from above, we derive today’s value of $72,753.49. Expressed more simply, if you wanted to extract the specified stream of cash flows at the end of each year ($17,000 for three years, then $17,500, then $18,000), you would have to begin with $72,753.49. The thing to remember is that any amounts remaining in this fund, regardless of how you deplete it, will always be earning 6% annually. See <link target-id="table-00006" document="m00058"/>.</para>
-      <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00006">
-      <tgroup cols="7">
+    </tgroup>
+  </table>
+  <para id="para-00039">One method is to take each year’s cash flows, which happen at the end of the year, and discount them to today using the present value formula for a single amount:</para>
+  <equation id="eq-00012">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <mi>PV</mi>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mi>FV</mi>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mfrac>
+              <mn>1</mn>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mn>1</mn>
+                  <mo/>
+                  <mo>+</mo>
+                  <mo/>
+                  <mi>i</mi>
+                  <mo>)</mo>
+                </mrow>
+                <mi>n</mi>
+              </msup>
+            </mfrac>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <equation id="eq-00013" xmlns="http://cnx.rice.edu/cnxml">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>PV</mi>
+              <mn>1</mn>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>17,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mfrac>
+              <mn>1</mn>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mn>1</mn>
+                  <mo/>
+                  <mo>+</mo>
+                  <mo/>
+                  <mn>0.06</mn>
+                  <mo>)</mo>
+                </mrow>
+                <mn>1</mn>
+              </msup>
+            </mfrac>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>16,037.74</mn>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00040" xmlns="http://cnx.rice.edu/cnxml">Because year 1’s withdrawal from your fund only has one year to earn interest, we discounted it for one year. The second amount is discounted for two years:</para>
+  <equation id="eq-00014">
+
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>PV</mi>
+              <mn>2</mn>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>17,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mfrac>
+              <mn>1</mn>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mn>1</mn>
+                  <mo/>
+                  <mo>+</mo>
+                  <mo/>
+                  <mn>0.06</mn>
+                  <mo>)</mo>
+                </mrow>
+                <mn>2</mn>
+              </msup>
+            </mfrac>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>15,129.94</mn>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00041" xmlns="http://cnx.rice.edu/cnxml">The next three years are discounted in the same way, for three, four, and five years, respectively:</para>
+  <equation id="eq-00015">
+
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>PV</mi>
+              <mn>3</mn>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>17,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mfrac>
+              <mn>1</mn>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mn>1</mn>
+                  <mo/>
+                  <mo>+</mo>
+                  <mo/>
+                  <mn>0.06</mn>
+                  <mo>)</mo>
+                </mrow>
+                <mn>3</mn>
+              </msup>
+            </mfrac>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>14,273. 53</mn>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>PV</mi>
+              <mn>4</mn>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>17,500</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mfrac>
+              <mn>1</mn>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mn>1</mn>
+                  <mo/>
+                  <mo>+</mo>
+                  <mo/>
+                  <mn>0.06</mn>
+                  <mo>)</mo>
+                </mrow>
+                <mn>4</mn>
+              </msup>
+            </mfrac>
+            <mo/>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>13,861.64</mn>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>PV</mi>
+              <mn>5</mn>
+            </msub>
+            <mo/>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo/>
+            <mo>$</mo>
+            <mn>18,000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mfrac>
+              <mn>1</mn>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mn>1</mn>
+                  <mo/>
+                  <mo>+</mo>
+                  <mo/>
+                  <mn>0.06</mn>
+                  <mo>)</mo>
+                </mrow>
+                <mn>5</mn>
+              </msup>
+            </mfrac>
+            <mo/>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>13,450.65</mn>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00042" xmlns="http://cnx.rice.edu/cnxml">Notice how we reverse our thinking on the exponent <emphasis effect="italics">n</emphasis> from our approach to future value. This time, it increases each period because we discount each future amount for a longer period to arrive at the value in today’s dollars.</para>
+  <para id="para-00043" xmlns="http://www.w3.org/1998/Math/MathML">When we add all five discounted present value amounts from above, we derive today’s value of $72,753.49. Expressed more simply, if you wanted to extract the specified stream of cash flows at the end of each year ($17,000 for three years, then $17,500, then $18,000), you would have to begin with $72,753.49. The thing to remember is that any amounts remaining in this fund, regardless of how you deplete it, will always be earning 6% annually. See <link target-id="table-00006" document="m00058"/>
+.</para>
+  <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00006" xmlns="http://cnx.rice.edu/cnxml">
+    <tgroup cols="7">
       <colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
       <colspec colnum="3" colname="c3"/>
@@ -389,171 +1395,836 @@
       <colspec colnum="6" colname="c6"/>
       <colspec colnum="7" colname="c7"/>
       <thead>
-      <row>
-      <entry align="center">Year</entry>
-      <entry align="center">0</entry>
-      <entry align="center">1</entry>
-      <entry align="center">2</entry>
-      <entry align="center">3</entry>
-      <entry align="center">4</entry>
-      <entry align="center">5</entry>
-      </row>
+        <row>
+          <entry align="center">Year</entry>
+          <entry align="center">0</entry>
+          <entry align="center">1</entry>
+          <entry align="center">2</entry>
+          <entry align="center">3</entry>
+          <entry align="center">4</entry>
+          <entry align="center">5</entry>
+        </row>
       </thead>
       <tbody>
-      <row>
-      <entry align="left">Withdrawn at End of Year</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$17,000.00</entry>
-      <entry align="right">$17,000.00</entry>
-      <entry align="right">$17,000.00</entry>
-      <entry align="right">$17,500.00</entry>
-      <entry align="right">$18,000.00</entry>
-      </row>
-      <row>
-      <entry align="left">Interest on Balance</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$4,365.21</entry>
-      <entry align="right">$3,607.12</entry>
-      <entry align="right">$2,803.55</entry>
-      <entry align="right">$1,951.76</entry>
-      <entry align="right">$1,018.87</entry>
-      </row>
-      <row>
-      <entry align="left">Remaining Balance</entry>
-      <entry align="right">$72,753.49</entry>
-      <entry align="right">$60,118.70</entry>
-      <entry align="right">$46,725.82</entry>
-      <entry align="right">$32,529.37</entry>
-      <entry align="right">$16,981.13</entry>
-      <entry align="right">$0.00</entry>
-      </row>
+        <row>
+          <entry align="left">Withdrawn at End of Year</entry>
+          <entry align="right"/>
+          <entry align="right">$17,000.00</entry>
+          <entry align="right">$17,000.00</entry>
+          <entry align="right">$17,000.00</entry>
+          <entry align="right">$17,500.00</entry>
+          <entry align="right">$18,000.00</entry>
+        </row>
+        <row>
+          <entry align="left">Interest on Balance</entry>
+          <entry align="right"/>
+          <entry align="right">$4,365.21</entry>
+          <entry align="right">$3,607.12</entry>
+          <entry align="right">$2,803.55</entry>
+          <entry align="right">$1,951.76</entry>
+          <entry align="right">$1,018.87</entry>
+        </row>
+        <row>
+          <entry align="left">Remaining Balance</entry>
+          <entry align="right">$72,753.49</entry>
+          <entry align="right">$60,118.70</entry>
+          <entry align="right">$46,725.82</entry>
+          <entry align="right">$32,529.37</entry>
+          <entry align="right">$16,981.13</entry>
+          <entry align="right">$0.00</entry>
+        </row>
       </tbody>
-      </tgroup>
-      </table>
-      <para id="para-00044">Let us try another approach. Because the amount of cash withdrawn in the first three years remains constant at $17,000, it can be viewed as an annuity—specifically, a three-period annuity of $17,000 and two single payments of $17,500 and $18,000. Therefore, we could also discount (bring to present value) an annuity of $17,000 for three years (the first three) and then combine it with the year 4 discounted amount and the year 5 discounted amount. We can try it using the formulas for PVa and PV<emphasis effect="italics"> </emphasis>used above. In Step 1, we will discount the first three years as an annuity (ordinary, as the first withdrawal is not made until one year from now); in Step 2, we will discount the year 4 single payment amount; and in Step 3, we will do the same for the year 5 single payment amount. Then we can add them together.</para>
-      <para id="para-00045">Step 1: Find the present value of the annuity using the PVa formula:</para>
-      <equation id="eq-00016"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>PVa</mi></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>17</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mfenced open="[" close="]"><mrow><mn>1</mn><mo>-</mo><mstyle displaystyle="true"><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>06</mn><mo>)</mo></mrow><mn>3</mn></msup></mfrac></mstyle></mrow></mfenced><mrow><mn>0</mn><mo>.</mo><mn>06</mn></mrow></mfrac></mtd></mtr></mtable></math></equation>
-      <equation id="eq-00017" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>PVa</mi></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>17</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mrow><mn>1</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>839619</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>06</mn></mrow></mfrac></mtd></mtr></mtable></math></equation>
-      <equation id="eq-00018" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>PVa</mi></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>17</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>673017</mn><mo>≈</mo><mo>$</mo><mn>45</mn><mo>,</mo><mn>441</mn><mo>.</mo><mn>29</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00046" xmlns="http://cnx.rice.edu/cnxml">Step 2: Discount the year 4 amount using the formula for the present value of a single amount:</para>
-      <equation id="eq-00019" xmlns="http://www.w3.org/1998/Math/MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>PV</mi><mrow><mo>(</mo><mi>Year</mi><mo> </mo><mn>4</mn><mo>)</mo></mrow></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>17</mn><mo>,</mo><mn>500</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>06</mn><mo>)</mo></mrow><mn>4</mn></msup></mfrac><mo>≈</mo><mo>$</mo><mn>13</mn><mo>,</mo><mn>861</mn><mo>.</mo><mn>64</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00047" xmlns="http://cnx.rice.edu/cnxml">Step 3: Perform the same operation as in Step 2 for the year 5 amount:</para>
-      <equation id="eq-00020" xmlns="http://www.w3.org/1998/Math/MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>PV</mi><mrow><mo>(</mo><mi>Year</mi><mo> </mo><mn>5</mn><mo>)</mo></mrow></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>18</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>06</mn><mo>)</mo></mrow><mn>5</mn></msup></mfrac><mo>≈</mo><mo>$</mo><mn>13</mn><mo>,</mo><mn>450</mn><mo>.</mo><mn>65</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00048" xmlns="http://cnx.rice.edu/cnxml">Now that all three amounts have been discounted to today’s value, we can add them:</para>
-      <equation id="eq-00021" xmlns="http://www.w3.org/1998/Math/MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mn>45</mn><mo>,</mo><mn>441</mn><mo>.</mo><mn>20</mn><mo> </mo><mo>+</mo><mo> </mo><mn>13</mn><mo>,</mo><mn>861</mn><mo>.</mo><mn>64</mn><mo> </mo><mo>+</mo><mo> </mo><mn>13</mn><mo>,</mo><mn>450</mn><mo>.</mo><mn>65</mn></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>72</mn><mo>,</mo><mn>753</mn><mo>.</mo><mn>49</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00049" xmlns="http://cnx.rice.edu/cnxml">Calculating the present value of cash flows is very common and critical in the analysis of <term id="term-00006">capital investments</term> in business for two compelling reasons: first, the investment is likely quite significant, and second, the risk will usually encompass a longer time frame. When the author of this chapter would purchase a large machine, it would likely take several years for that machine to justify its purchase with the revenues it would generate. This is one of the primary reasons that accountants require us to depreciate the cost of an asset over time: to assess the cost against the time it will take for that asset to produce profits and cash flow.</para>
-      <note class="think-through" id="note-00002" xmlns="http://www.w3.org/1998/Math/MathML">
-      <title>Present Value of a Mixed Stream</title>
-      <exercise class="unnumbered" id="exer-00002">
+    </tgroup>
+  </table>
+  <para id="para-00044">Let us try another approach. Because the amount of cash withdrawn in the first three years remains constant at $17,000, it can be viewed as an annuity—specifically, a three-period annuity of $17,000 and two single payments of $17,500 and $18,000. Therefore, we could also discount (bring to present value) an annuity of $17,000 for three years (the first three) and then combine it with the year 4 discounted amount and the year 5 discounted amount. We can try it using the formulas for PVa and PV<emphasis effect="italics"/>used above. In Step 1, we will discount the first three years as an annuity (ordinary, as the first withdrawal is not made until one year from now); in Step 2, we will discount the year 4 single payment amount; and in Step 3, we will do the same for the year 5 single payment amount. Then we can add them together.</para>
+  <para id="para-00045">Step 1: Find the present value of the annuity using the PVa formula:</para>
+  <equation id="eq-00016">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <mi>PVa</mi>
+            <mo> </mo>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo> </mo>
+            <mo>$</mo>
+            <mn>17, 000</mn>
+            <mo> </mo>
+            <mo>×</mo>
+            <mo> </mo>
+            <mfrac>
+              <mfenced open="[" close="]">
+                <mrow>
+                  <mn>1</mn>
+                  <mo> </mo>
+                  <mo>-</mo>
+                  <mo> </mo>
+                  <mstyle displaystyle="true">
+                    <mfrac>
+                      <mn>1</mn>
+                      <msup>
+                        <mrow>
+                          <mo>(</mo>
+                          <mn>1</mn>
+                          <mo> </mo>
+                          <mo>+</mo>
+                          <mo> </mo>
+                          <mn>0.06</mn>
+                          <mo>)</mo>
+                        </mrow>
+                        <mn>3</mn>
+                      </msup>
+                    </mfrac>
+                  </mstyle>
+                </mrow>
+              </mfenced>
+              <mrow>
+                <mn>0</mn>
+                <mo>.</mo>
+                <mn>06</mn>
+              </mrow>
+            </mfrac>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <equation id="eq-00017" xmlns="http://cnx.rice.edu/cnxml">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <mi>PVa</mi>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo>$</mo>
+            <mn>17</mn>
+            <mo>,</mo>
+            <mn>000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mfrac>
+              <mrow>
+                <mn>1</mn>
+                <mo>-</mo>
+                <mn>0</mn>
+                <mo>.</mo>
+                <mn>839619</mn>
+              </mrow>
+              <mrow>
+                <mn>0</mn>
+                <mo>.</mo>
+                <mn>06</mn>
+              </mrow>
+            </mfrac>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <equation id="eq-00018" xmlns="http://cnx.rice.edu/cnxml">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <mi>PVa</mi>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo>$</mo>
+            <mn>17</mn>
+            <mo>,</mo>
+            <mn>000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mn>2</mn>
+            <mo>.</mo>
+            <mn>673017</mn>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>45</mn>
+            <mo>,</mo>
+            <mn>441</mn>
+            <mo>.</mo>
+            <mn>29</mn>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00046" xmlns="http://cnx.rice.edu/cnxml">Step 2: Discount the year 4 amount using the formula for the present value of a single amount:</para>
+  <equation id="eq-00019">
+
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>PV</mi>
+              <mrow>
+                <mo>(</mo>
+                <mi>Year</mi>
+                <mo/>
+                <mn>4</mn>
+                <mo>)</mo>
+              </mrow>
+            </msub>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo>$</mo>
+            <mn>17</mn>
+            <mo>,</mo>
+            <mn>500</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mfrac>
+              <mn>1</mn>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mn>1</mn>
+                  <mo>+</mo>
+                  <mn>0</mn>
+                  <mo>.</mo>
+                  <mn>06</mn>
+                  <mo>)</mo>
+                </mrow>
+                <mn>4</mn>
+              </msup>
+            </mfrac>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>13</mn>
+            <mo>,</mo>
+            <mn>861</mn>
+            <mo>.</mo>
+            <mn>64</mn>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00047" xmlns="http://cnx.rice.edu/cnxml">Step 3: Perform the same operation as in Step 2 for the year 5 amount:</para>
+  <equation id="eq-00020">
+
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <msub>
+              <mi>PV</mi>
+              <mrow>
+                <mo>(</mo>
+                <mi>Year</mi>
+                <mo/>
+                <mn>5</mn>
+                <mo>)</mo>
+              </mrow>
+            </msub>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo>$</mo>
+            <mn>18</mn>
+            <mo>,</mo>
+            <mn>000</mn>
+            <mo/>
+            <mo>×</mo>
+            <mo/>
+            <mfrac>
+              <mn>1</mn>
+              <msup>
+                <mrow>
+                  <mo>(</mo>
+                  <mn>1</mn>
+                  <mo>+</mo>
+                  <mn>0</mn>
+                  <mo>.</mo>
+                  <mn>06</mn>
+                  <mo>)</mo>
+                </mrow>
+                <mn>5</mn>
+              </msup>
+            </mfrac>
+            <mo>≈</mo>
+            <mo>$</mo>
+            <mn>13</mn>
+            <mo>,</mo>
+            <mn>450</mn>
+            <mo>.</mo>
+            <mn>65</mn>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00048" xmlns="http://cnx.rice.edu/cnxml">Now that all three amounts have been discounted to today’s value, we can add them:</para>
+  <equation id="eq-00021">
+
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mtable columnspacing="0px" columnalign="right center left">
+        <mtr>
+          <mtd>
+            <mn>45</mn>
+            <mo>,</mo>
+            <mn>441</mn>
+            <mo>.</mo>
+            <mn>20</mn>
+            <mo/>
+            <mo>+</mo>
+            <mo/>
+            <mn>13</mn>
+            <mo>,</mo>
+            <mn>861</mn>
+            <mo>.</mo>
+            <mn>64</mn>
+            <mo/>
+            <mo>+</mo>
+            <mo/>
+            <mn>13</mn>
+            <mo>,</mo>
+            <mn>450</mn>
+            <mo>.</mo>
+            <mn>65</mn>
+          </mtd>
+          <mtd>
+            <mo>=</mo>
+          </mtd>
+          <mtd>
+            <mo>$</mo>
+            <mn>72</mn>
+            <mo>,</mo>
+            <mn>753</mn>
+            <mo>.</mo>
+            <mn>49</mn>
+          </mtd>
+        </mtr>
+      </mtable>
+    </math>
+  </equation>
+  <para id="para-00049" xmlns="http://cnx.rice.edu/cnxml">Calculating the present value of cash flows is very common and critical in the analysis of <term id="term-00006">capital investments</term> in business for two compelling reasons: first, the investment is likely quite significant, and second, the risk will usually encompass a longer time frame. When the author of this chapter would purchase a large machine, it would likely take several years for that machine to justify its purchase with the revenues it would generate. This is one of the primary reasons that accountants require us to depreciate the cost of an asset over time: to assess the cost against the time it will take for that asset to produce profits and cash flow.</para>
+  <note class="think-through" id="note-00002" xmlns="http://www.w3.org/1998/Math/MathML">
+    <title>Present Value of a Mixed Stream</title>
+    <exercise class="unnumbered" id="exer-00002">
       <problem id="prob-00002">
-      <para id="para-00050">Assume that you decide to invest $450,000. All cash flows are discounted at 4%. You are told by your financial advisor to expect cash inflows from your investment of $100,000 in year 1, $125,000 in year 2, $175,000 in year 3, $90,000 in year 4, and $50,000 in year 5. Would you agree to this plan based only on the numbers? Each amount will be withdrawn at the end of every year, and interest will be compounded annually.</para>
+        <para id="para-00050">Assume that you decide to invest $450,000. All cash flows are discounted at 4%. You are told by your financial advisor to expect cash inflows from your investment of $100,000 in year 1, $125,000 in year 2, $175,000 in year 3, $90,000 in year 4, and $50,000 in year 5. Would you agree to this plan based only on the numbers? Each amount will be withdrawn at the end of every year, and interest will be compounded annually.</para>
       </problem>
       <solution id="sol-00002">
-      <para id="para-00051"><emphasis effect="bold">Solution:</emphasis></para>
-      <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00007">
-      <tgroup cols="7">
-      <colspec colnum="1" colname="c1"/>
-      <colspec colnum="2" colname="c2"/>
-      <colspec colnum="3" colname="c3"/>
-      <colspec colnum="4" colname="c4"/>
-      <colspec colnum="5" colname="c5"/>
-      <colspec colnum="6" colname="c6"/>
-      <colspec colnum="7" colname="c7"/>
-      <thead>
-      <row>
-      <entry align="center">Year</entry>
-      <entry align="center">0</entry>
-      <entry align="center">1</entry>
-      <entry align="center">2</entry>
-      <entry align="center">3</entry>
-      <entry align="center">4</entry>
-      <entry align="center">5</entry>
-      </row>
-      </thead>
-      <tbody>
-      <row>
-      <entry align="left">Expected Amount to Be Withdrawn at End of Year</entry>
-      <entry align="right"> </entry>
-      <entry align="right">$100,000</entry>
-      <entry align="right">$125,000</entry>
-      <entry align="right">$175,000</entry>
-      <entry align="right">$90,000</entry>
-      <entry align="right">$50,000</entry>
-      </row>
-      </tbody>
-      </tgroup>
-      </table>
-      <para id="para-00052">Applying the formula for the present value of a single amount, we discount each amount and then add the discounted amounts. We will simplify this approach with Excel shortly, but we must understand the reasoning behind discounting uneven cash flow streams with a direct solution.</para>
-      <equation id="eq-00022"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>PV</mi><mn>1</mn></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>100</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>1</mn></msup></mfrac><mo>≈</mo><mo>$</mo><mn>96</mn><mo>,</mo><mn>153</mn><mo>.</mo><mn>85</mn></mtd></mtr><mtr><mtd><msub><mi>PV</mi><mn>2</mn></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>125</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>2</mn></msup></mfrac><mo> </mo><mo>≈</mo><mo>$</mo><mn>115</mn><mo>,</mo><mn>569</mn><mo>.</mo><mn>53</mn></mtd></mtr><mtr><mtd><msub><mi>PV</mi><mn>3</mn></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>175</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>3</mn></msup></mfrac><mo> </mo><mo> </mo><mo>≈</mo><mo>$</mo><mn>155</mn><mo>,</mo><mn>574</mn><mo>.</mo><mn>36</mn></mtd></mtr><mtr><mtd><msub><mi>PV</mi><mn>4</mn></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>90</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>4</mn></msup></mfrac><mo> </mo><mo> </mo><mo>≈</mo><mo>$</mo><mn>76</mn><mo>,</mo><mn>932</mn><mo>.</mo><mn>38</mn></mtd></mtr><mtr><mtd><msub><mi>PV</mi><mn>5</mn></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>50</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>5</mn></msup></mfrac><mo> </mo><mo> </mo><mo>≈</mo><mo>$</mo><mn>41</mn><mo>,</mo><mn>096</mn><mo>.</mo><mn>36</mn></mtd></mtr></mtable></math></equation>
-      <para id="para-00053" xmlns="http://cnx.rice.edu/cnxml">By combining the five discounted amounts above, we get a total present value of $485,326.48. This amount represents the value today of the five expected cash inflows for as long as our remaining balance is earning 4%.</para>
+        <para id="para-00051">
+          <emphasis effect="bold">Solution:</emphasis>
+        </para>
+        <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00007">
+          <tgroup cols="7">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <thead>
+              <row>
+                <entry align="center">Year</entry>
+                <entry align="center">0</entry>
+                <entry align="center">1</entry>
+                <entry align="center">2</entry>
+                <entry align="center">3</entry>
+                <entry align="center">4</entry>
+                <entry align="center">5</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry align="left">Expected Amount to Be Withdrawn at End of Year</entry>
+                <entry align="right"/>
+                <entry align="right">$100,000</entry>
+                <entry align="right">$125,000</entry>
+                <entry align="right">$175,000</entry>
+                <entry align="right">$90,000</entry>
+                <entry align="right">$50,000</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="para-00052">Applying the formula for the present value of a single amount, we discount each amount and then add the discounted amounts. We will simplify this approach with Excel shortly, but we must understand the reasoning behind discounting uneven cash flow streams with a direct solution.</para>
+        <equation id="eq-00022">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mtable columnspacing="0px" columnalign="right center left">
+              <mtr>
+                <mtd>
+                  <msub>
+                    <mi>PV</mi>
+                    <mn>1</mn>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <mo>=</mo>
+                </mtd>
+                <mtd>
+                  <mo>$</mo>
+                  <mn>100</mn>
+                  <mo>,</mo>
+                  <mn>000</mn>
+                  <mo/>
+                  <mo>×</mo>
+                  <mo/>
+                  <mfrac>
+                    <mn>1</mn>
+                    <msup>
+                      <mrow>
+                        <mo>(</mo>
+                        <mn>1</mn>
+                        <mo>+</mo>
+                        <mn>0</mn>
+                        <mo>.</mo>
+                        <mn>04</mn>
+                        <mo>)</mo>
+                      </mrow>
+                      <mn>1</mn>
+                    </msup>
+                  </mfrac>
+                  <mo>≈</mo>
+                  <mo>$</mo>
+                  <mn>96</mn>
+                  <mo>,</mo>
+                  <mn>153</mn>
+                  <mo>.</mo>
+                  <mn>85</mn>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <msub>
+                    <mi>PV</mi>
+                    <mn>2</mn>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <mo>=</mo>
+                </mtd>
+                <mtd>
+                  <mo>$</mo>
+                  <mn>125</mn>
+                  <mo>,</mo>
+                  <mn>000</mn>
+                  <mo/>
+                  <mo>×</mo>
+                  <mo/>
+                  <mfrac>
+                    <mn>1</mn>
+                    <msup>
+                      <mrow>
+                        <mo>(</mo>
+                        <mn>1</mn>
+                        <mo>+</mo>
+                        <mn>0</mn>
+                        <mo>.</mo>
+                        <mn>04</mn>
+                        <mo>)</mo>
+                      </mrow>
+                      <mn>2</mn>
+                    </msup>
+                  </mfrac>
+                  <mo/>
+                  <mo>≈</mo>
+                  <mo>$</mo>
+                  <mn>115</mn>
+                  <mo>,</mo>
+                  <mn>569</mn>
+                  <mo>.</mo>
+                  <mn>53</mn>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <msub>
+                    <mi>PV</mi>
+                    <mn>3</mn>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <mo>=</mo>
+                </mtd>
+                <mtd>
+                  <mo>$</mo>
+                  <mn>175</mn>
+                  <mo>,</mo>
+                  <mn>000</mn>
+                  <mo/>
+                  <mo>×</mo>
+                  <mo/>
+                  <mfrac>
+                    <mn>1</mn>
+                    <msup>
+                      <mrow>
+                        <mo>(</mo>
+                        <mn>1</mn>
+                        <mo>+</mo>
+                        <mn>0</mn>
+                        <mo>.</mo>
+                        <mn>04</mn>
+                        <mo>)</mo>
+                      </mrow>
+                      <mn>3</mn>
+                    </msup>
+                  </mfrac>
+                  <mo/>
+                  <mo/>
+                  <mo>≈</mo>
+                  <mo>$</mo>
+                  <mn>155</mn>
+                  <mo>,</mo>
+                  <mn>574</mn>
+                  <mo>.</mo>
+                  <mn>36</mn>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <msub>
+                    <mi>PV</mi>
+                    <mn>4</mn>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <mo>=</mo>
+                </mtd>
+                <mtd>
+                  <mo>$</mo>
+                  <mn>90</mn>
+                  <mo>,</mo>
+                  <mn>000</mn>
+                  <mo/>
+                  <mo>×</mo>
+                  <mo/>
+                  <mfrac>
+                    <mn>1</mn>
+                    <msup>
+                      <mrow>
+                        <mo>(</mo>
+                        <mn>1</mn>
+                        <mo>+</mo>
+                        <mn>0</mn>
+                        <mo>.</mo>
+                        <mn>04</mn>
+                        <mo>)</mo>
+                      </mrow>
+                      <mn>4</mn>
+                    </msup>
+                  </mfrac>
+                  <mo/>
+                  <mo/>
+                  <mo>≈</mo>
+                  <mo>$</mo>
+                  <mn>76</mn>
+                  <mo>,</mo>
+                  <mn>932</mn>
+                  <mo>.</mo>
+                  <mn>38</mn>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <msub>
+                    <mi>PV</mi>
+                    <mn>5</mn>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <mo>=</mo>
+                </mtd>
+                <mtd>
+                  <mo>$</mo>
+                  <mn>50</mn>
+                  <mo>,</mo>
+                  <mn>000</mn>
+                  <mo/>
+                  <mo>×</mo>
+                  <mo/>
+                  <mfrac>
+                    <mn>1</mn>
+                    <msup>
+                      <mrow>
+                        <mo>(</mo>
+                        <mn>1</mn>
+                        <mo>+</mo>
+                        <mn>0</mn>
+                        <mo>.</mo>
+                        <mn>04</mn>
+                        <mo>)</mo>
+                      </mrow>
+                      <mn>5</mn>
+                    </msup>
+                  </mfrac>
+                  <mo/>
+                  <mo/>
+                  <mo>≈</mo>
+                  <mo>$</mo>
+                  <mn>41</mn>
+                  <mo>,</mo>
+                  <mn>096</mn>
+                  <mo>.</mo>
+                  <mn>36</mn>
+                </mtd>
+              </mtr>
+            </mtable>
+          </math>
+        </equation>
+        <para id="para-00053" xmlns="http://cnx.rice.edu/cnxml">By combining the five discounted amounts above, we get a total present value of $485,326.48. This amount represents the value today of the five expected cash inflows for as long as our remaining balance is earning 4%.</para>
       </solution>
-      </exercise>
-      </note>
-      <note class="concepts-practice" id="note-00003" xmlns="http://www.w3.org/1998/Math/MathML">
-      <title>Thoughts on Cash Flow from Irina Simmons</title>
-      <para id="para-00054">In 2013, the author interviewed Irina <term class="no-emphasis" id="term-00007">Simmons</term>, senior vice president, chief risk officer, and former treasurer of <term class="no-emphasis" id="term-00008">EMC Corporation</term>. The importance and understanding of cash flow analysis is fundamental to this text, and several of her insights are highly relevant to our content and procedures here.</para>
-      <para id="para-00055"><emphasis effect="bold">AA:</emphasis> Ms. Simmons, why is cash management so important to an existing or start-up firm, and how does it compare to the more basic and traditional focus on profitability?</para>
-      <para id="para-00056"><emphasis effect="bold">Simmons:</emphasis> While profitability is very useful for analysis by investors to measure performance, an organization’s cash flow provides superior measurement. Cash flow is easy to understand, provides a transparent way of assessing a firm’s health, and is not subject to any qualifications. By focusing upon cash flow, any firm—whether it is mature or a start-up organization—can have a clear picture of its health and success.</para>
-      <para id="para-00057"><emphasis effect="bold">AA:</emphasis> In your bio, you mention liquidity management. Can you elaborate on this and why liquidity management is so important to a firm?</para>
-      <para id="para-00058"><emphasis effect="bold">Simmons:</emphasis> Just as effective forecasting can provide superior cash management, the same holds true for liquidity management. For example, if you are able to confidently predict levels and timing of cash, then based on that forecast, you can make effective short- and long-term borrowing decisions. A disciplined approach to projecting one’s cash position means that instead of investing cash in the money market to maximize day-to-day liquidity, you can look into longer-term investments that can provide a significantly higher return. This is essential to the effective matching of cash inflows and outflows for the firm.</para>
-      <para id="para-00059"><emphasis effect="bold">AA:</emphasis> In summary, do you have any words of advice to students who might have an eye to entrepreneurial ventures?</para>
-      <para id="para-00060"><emphasis effect="bold">Simmons:</emphasis> “Cash is king,” don’t forget that. Understand how cash moves through a business. It is also very important to implement and retain a cash management discipline. Never put that off until later. Many times, start-ups will say, “Well, I have all this venture money, and we can start making things happen and worry about being good cash managers later.” But what I’ve seen is that the longer companies wait, the harder it is to break bad habits. Making cash management a priority now will serve entrepreneurs in perfect stead as their business starts to gain traction.</para>
-      <para id="para-00061">We closed this excellent interview with agreement that we were “kindred spirits” regarding the importance of cash flow analysis, including capital decisions such as those mentioned in this chapter. We confirmed with each other the core belief that “cash flow is the axis upon which the world of business spins.”</para>
-      <para id="para-00062">(source: <emphasis effect="italics">Business Finance: A Clear View</emphasis>, 3rd edition, by Alan S. Adams. LAD Publishing, 2015.)</para>
-      </note>
-      <note class="link-to-learning" id="note-00004">
-      <title>Analyst Training Materials</title>
-      <para id="para-00063">These materials, developed to help professionals prepare for an analyst certification exam, describe the <link url="https://openstax.org/r/return-investing-bond">sources of return from investing in a bond</link>.</para>
-      </note>
-      
-      <section class="section-summary" id="sect-00004">
-      <title/>
-      <para id="para-00064">To understand the true value and strength of cash, it is necessary to consider its timing. This is relevant for investments for the future and for analyses of the value of projects that require investment today to produce expected flows of cash later. These future cash flows could involve inflows or outflows of cash in unequal amounts. This section analyzed the determination of present and future value of these uneven or mixed cash flows.</para>
-      </section>
-      <section class="multiple-choice" id="sect-00005">
-      <title/>
-      <para id="para-00065">General instructions: Approximations and minor differences because of rounding are acceptable. Ignore the effect of taxes. Please assume that all percentages are annual rates and compounding occurs annually unless otherwise indicated.</para>
-      <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00066"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ1"/></para></problem></exercise>
-      <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00067"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ2"/></para></problem></exercise>
-      <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00068"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ3"/></para></problem></exercise>
-      <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00069"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ4"/></para></problem></exercise>
-      <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00070"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ5"/></para></problem></exercise>
-      <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00071"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ6"/></para></problem></exercise>
-      <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00072"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ7"/></para></problem></exercise>
-      </section>
-      <section class="review-questions" id="sect-00006">
-      <title/>
-      <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00073"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_RVQ1"/></para></problem></exercise>
-      <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00074"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_RVQ2"/></para></problem></exercise>
-      <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00075"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_RVQ3"/></para></problem></exercise>
-      </section>
-      <section class="problem-set" id="sect-00007">
-      <title/>
-      <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00076"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ1"/></para></problem></exercise>
-      <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00077"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ2"/></para></problem></exercise>
-      <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00078"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ3"/></para></problem></exercise>
-      <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00079"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ4"/></para></problem></exercise>
-      <exercise id="exer-00017"><problem id="prob-00017"><para id="para-00080"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ5"/></para></problem></exercise>
-      <exercise id="exer-00018"><problem id="prob-00018"><para id="para-00081"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ6"/></para></problem></exercise>
-      <exercise id="exer-00019"><problem id="prob-00019"><para id="para-00082"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ7"/></para></problem></exercise>
-      <exercise id="exer-00020"><problem id="prob-00020"><para id="para-00083"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ8"/></para></problem></exercise>
-      <exercise id="exer-00021"><problem id="prob-00021"><para id="para-00084"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ9"/></para></problem></exercise>
-      </section>
-      <section class="video-activity" id="sect-00008">
-      <title/>
-      <section id="sect-00009">
+    </exercise>
+  </note>
+  <note class="concepts-practice" id="note-00003" xmlns="http://www.w3.org/1998/Math/MathML">
+    <title>Thoughts on Cash Flow from Irina Simmons</title>
+    <para id="para-00054">In 2013, the author interviewed Irina <term class="no-emphasis" id="term-00007">Simmons</term>, senior vice president, chief risk officer, and former treasurer of <term class="no-emphasis" id="term-00008">EMC Corporation</term>. The importance and understanding of cash flow analysis is fundamental to this text, and several of her insights are highly relevant to our content and procedures here.</para>
+    <para id="para-00055">
+      <emphasis effect="bold">AA:</emphasis> Ms. Simmons, why is cash management so important to an existing or start-up firm, and how does it compare to the more basic and traditional focus on profitability?</para>
+    <para id="para-00056">
+      <emphasis effect="bold">Simmons:</emphasis> While profitability is very useful for analysis by investors to measure performance, an organization’s cash flow provides superior measurement. Cash flow is easy to understand, provides a transparent way of assessing a firm’s health, and is not subject to any qualifications. By focusing upon cash flow, any firm—whether it is mature or a start-up organization—can have a clear picture of its health and success.</para>
+    <para id="para-00057">
+      <emphasis effect="bold">AA:</emphasis> In your bio, you mention liquidity management. Can you elaborate on this and why liquidity management is so important to a firm?</para>
+    <para id="para-00058">
+      <emphasis effect="bold">Simmons:</emphasis> Just as effective forecasting can provide superior cash management, the same holds true for liquidity management. For example, if you are able to confidently predict levels and timing of cash, then based on that forecast, you can make effective short- and long-term borrowing decisions. A disciplined approach to projecting one’s cash position means that instead of investing cash in the money market to maximize day-to-day liquidity, you can look into longer-term investments that can provide a significantly higher return. This is essential to the effective matching of cash inflows and outflows for the firm.</para>
+    <para id="para-00059">
+      <emphasis effect="bold">AA:</emphasis> In summary, do you have any words of advice to students who might have an eye to entrepreneurial ventures?</para>
+    <para id="para-00060">
+      <emphasis effect="bold">Simmons:</emphasis> “Cash is king,” don’t forget that. Understand how cash moves through a business. It is also very important to implement and retain a cash management discipline. Never put that off until later. Many times, start-ups will say, “Well, I have all this venture money, and we can start making things happen and worry about being good cash managers later.” But what I’ve seen is that the longer companies wait, the harder it is to break bad habits. Making cash management a priority now will serve entrepreneurs in perfect stead as their business starts to gain traction.</para>
+    <para id="para-00061">We closed this excellent interview with agreement that we were “kindred spirits” regarding the importance of cash flow analysis, including capital decisions such as those mentioned in this chapter. We confirmed with each other the core belief that “cash flow is the axis upon which the world of business spins.”</para>
+    <para id="para-00062">(source: <emphasis effect="italics">Business Finance: A Clear View</emphasis>, 3rd edition, by Alan S. Adams. LAD Publishing, 2015.)</para>
+  </note>
+  <note class="link-to-learning" id="note-00004" xmlns="http://cnx.rice.edu/cnxml">
+    <title>Analyst Training Materials</title>
+    <para id="para-00063">These materials, developed to help professionals prepare for an analyst certification exam, describe the <link url="https://openstax.org/r/return-investing-bond">sources of return from investing in a bond</link>.
+    </para>
+  </note>
+
+  <section class="section-summary" id="sect-00004">
+    <title/>
+    <para id="para-00064">To understand the true value and strength of cash, it is necessary to consider its timing. This is relevant for investments for the future and for analyses of the value of projects that require investment today to produce expected flows of cash later. These future cash flows could involve inflows or outflows of cash in unequal amounts. This section analyzed the determination of present and future value of these uneven or mixed cash flows.</para>
+  </section>
+  <section class="multiple-choice" id="sect-00005">
+    <title/>
+    <para id="para-00065">General instructions: Approximations and minor differences because of rounding are acceptable. Ignore the effect of taxes. Please assume that all percentages are annual rates and compounding occurs annually unless otherwise indicated.</para>
+    <exercise id="exer-00003">
+      <problem id="prob-00003">
+        <para id="para-00066">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ1"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00004">
+      <problem id="prob-00004">
+        <para id="para-00067">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ2"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00005">
+      <problem id="prob-00005">
+        <para id="para-00068">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ3"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00006">
+      <problem id="prob-00006">
+        <para id="para-00069">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ4"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00007">
+      <problem id="prob-00007">
+        <para id="para-00070">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ5"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00008">
+      <problem id="prob-00008">
+        <para id="para-00071">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ6"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00009">
+      <problem id="prob-00009">
+        <para id="para-00072">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_MCQ7"/>
+        </para>
+      </problem>
+    </exercise>
+  </section>
+  <section class="review-questions" id="sect-00006">
+    <title/>
+    <exercise id="exer-00010">
+      <problem id="prob-00010">
+        <para id="para-00073">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_RVQ1"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00011">
+      <problem id="prob-00011">
+        <para id="para-00074">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_RVQ2"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00012">
+      <problem id="prob-00012">
+        <para id="para-00075">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_RVQ3"/>
+        </para>
+      </problem>
+    </exercise>
+  </section>
+  <section class="problem-set" id="sect-00007">
+    <title/>
+    <exercise id="exer-00013">
+      <problem id="prob-00013">
+        <para id="para-00076">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ1"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00014">
+      <problem id="prob-00014">
+        <para id="para-00077">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ2"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00015">
+      <problem id="prob-00015">
+        <para id="para-00078">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ3"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00016">
+      <problem id="prob-00016">
+        <para id="para-00079">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ4"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00017">
+      <problem id="prob-00017">
+        <para id="para-00080">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ5"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00018">
+      <problem id="prob-00018">
+        <para id="para-00081">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ6"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00019">
+      <problem id="prob-00019">
+        <para id="para-00082">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ7"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00020">
+      <problem id="prob-00020">
+        <para id="para-00083">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ8"/>
+        </para>
+      </problem>
+    </exercise>
+    <exercise id="exer-00021">
+      <problem id="prob-00021">
+        <para id="para-00084">
+          <link class="os-embed" url="#exercise/FI_Ch9_Sec1_PRQ9"/>
+        </para>
+      </problem>
+    </exercise>
+  </section>
+  <section class="video-activity" id="sect-00008">
+    <title/>
+    <section id="sect-00009">
       <title>Calculate the Present Value for Multiple Cash Flows</title>
-      <media alt="present-value"><iframe width="660" height="371.4" src="https://openstax.org/r/calculate-the-present-value"/></media>
-      <exercise id="exer-00022"><problem id="prob-00022"><para id="para-00085"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_VA2Q1"/></para></problem></exercise>
-      <exercise id="exer-00023"><problem id="prob-00023"><para id="para-00086"><link class="os-embed" url="#exercise/FI_Ch9_Sec1_VA2Q2"/></para></problem></exercise>
-      </section>
-      </section>
-      
-      <glossary>
-      <definition id="def-00001"><term>capital investment</term> <meaning>a major expenditure that requires a large up-front investment and is expected to generate substantial cash inflow in return</meaning></definition>
-      <definition id="def-00002"><term>cash flow</term> <meaning>the amount of cash actually flowing into and out of a business, as opposed to <emphasis effect="italics">income</emphasis> (which is based on accounting rules, accruals, and reports)</meaning></definition>
-      <definition id="def-00003"><term>future value</term> <meaning>the value of an asset or holding at a point in the future based on expectations of that asset’s growth at a certain rate of return</meaning></definition>
-      <definition id="def-00004"><term>mixed stream</term> <meaning>a set of cash flows over a period of time that can vary in amount from one period to the next</meaning></definition>
-      <definition id="def-00005"><term>present value</term> <meaning>the value of an asset in today’s dollars based on future growth expectations at an assumed interest rate</meaning></definition>
-      </glossary>
-</mtr></mtable></math></equation></mtr></mtd></mtr></mtable></math></equation></section></mtable></math></equation></mtable></math></equation></section></content></document>
+      <media alt="present-value">
+        <iframe width="660" height="371.4" src="https://openstax.org/r/calculate-the-present-value"/>
+      </media>
+      <exercise id="exer-00022">
+        <problem id="prob-00022">
+          <para id="para-00085">
+            <link class="os-embed" url="#exercise/FI_Ch9_Sec1_VA2Q1"/>
+          </para>
+        </problem>
+      </exercise>
+      <exercise id="exer-00023">
+        <problem id="prob-00023">
+          <para id="para-00086">
+            <link class="os-embed" url="#exercise/FI_Ch9_Sec1_VA2Q2"/>
+          </para>
+        </problem>
+      </exercise>
+    </section>
+  </section>
+
+  <glossary>
+    <definition id="def-00001">
+      <term>capital investment</term>
+      <meaning>a major expenditure that requires a large up-front investment and is expected to generate substantial cash inflow in return</meaning>
+    </definition>
+    <definition id="def-00002">
+      <term>cash flow</term>
+      <meaning>the amount of cash actually flowing into and out of a business, as opposed to <emphasis effect="italics">income</emphasis> (which is based on accounting rules, accruals, and reports)</meaning>
+    </definition>
+    <definition id="def-00003">
+      <term>future value</term>
+      <meaning>the value of an asset or holding at a point in the future based on expectations of that asset’s growth at a certain rate of return</meaning>
+    </definition>
+    <definition id="def-00004">
+      <term>mixed stream</term>
+      <meaning>a set of cash flows over a period of time that can vary in amount from one period to the next</meaning>
+    </definition>
+    <definition id="def-00005">
+      <term>present value</term>
+      <meaning>the value of an asset in today’s dollars based on future growth expectations at an assumed interest rate</meaning>
+    </definition>
+  </glossary>
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+</section>
+</content>
+</document>
