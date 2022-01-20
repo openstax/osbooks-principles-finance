@@ -43,13 +43,13 @@
     <para id="para-00014">For Step 3, we now apply two equations to the set of future cash flows from the bond. This will then provide us with the present values of these cash flows, or the expected present-day value of the bond. Because we know that the coupon payments constitute an annuity stream, we can use the equation for the present value of an annuity (discussed in <link document="m00051">Time Value of Money II: Equal Multiple Payments</link>. To value the one-time par value payment, we use the equation for the present value of a lump sum payment. So, by combining these, we will have the present value of the coupon payment stream, or</para>
     <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Coupon</mi><mi>Payment</mi><mi>Amount</mi><mo>×</mo><mfrac><mfenced open="[" close="]"><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mfrac><mn>1</mn><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>r</mi></mrow></mfenced><mi>n</mi></msup></mfrac></mrow></mfenced><mi>r</mi></mfrac><mo>=</mo><msub><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">V</mi></mrow><mi>Coupon</mi></msub></math></equation>
     <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">So, for our example above, this becomes</para>
-    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>22.50</mn><mo>×</mo><mfrac><mfenced open="[" close="]"><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mfrac><mn>1</mn><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.0124</mn></mrow></mfenced><mn>15</mn></msup></mfrac></mrow></mfenced><mrow><mn>0.0124</mn></mrow></mfrac><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><msub><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">V</mi></mrow><mi>Coupon</mi></msub></mtd></mtr><mtr><mtd><mo>$</mo><mn>22.50</mn><mo>×</mo><mn>13.61099</mn></mtd><mtd><mo>≈</mo></mtd><mtd><mo>$</mo><mn>306.25</mn></mtd></mtr></mtable></math></equation>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>22.50</mn><mo>×</mo><mfrac><mfenced open="[" close="]"><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mfrac><mn>1</mn><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.0124</mn></mrow></mfenced><mn>15</mn></msup></mfrac></mrow></mfenced><mrow><mn>0.0124</mn></mrow></mfrac></mtd><mtd><mo>=</mo></mtd><mtd><msub><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">V</mi></mrow><mi>Coupon</mi></msub></mtd></mtr><mtr><mtd><mo>$</mo><mn>22.50</mn><mo>×</mo><mn>13.61099</mn></mtd><mtd><mo> </mo><mo>≈</mo><mo> </mo></mtd><mtd><mo>$</mo><mn>306.25</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00016" xmlns="http://cnx.rice.edu/cnxml">Next, we need to determine the present value of the payment of the par or face value of the bond at maturity. This is calculated as follows:</para>
     <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Par</mi><mi>Value</mi><mo>×</mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>r</mi><mo>)</mo></mrow><mi>n</mi></msup></mfrac><mo>=</mo><msub><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">V</mi></mrow><mi>Principal</mi></msub></math></equation>
     <para id="para-00017" xmlns="http://cnx.rice.edu/cnxml">Inserting our values into this formula gives us</para>
-    <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>1,000</mn><mo>×</mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.0124</mn><mo>)</mo></mrow><mn>15</mn></msup></mfrac></mtd><mtd><mo>=</mo></mtd><mtd><msub><mi>PV</mi><mi>Principal</mi></msub></mtd></mtr><mtr><mtd><mo>$</mo><mn>1,000</mn><mo>×</mo><mn>0.831224</mn></mtd><mtd><mo>≈</mo></mtd><mtd><mo>$</mo><mn>831.22</mn></mtd></mtr></mtable></math></equation>
+    <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>1,000</mn><mo>×</mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.0124</mn><mo>)</mo></mrow><mn>15</mn></msup></mfrac></mtd><mtd><mo>=</mo></mtd><mtd><msub><mi>PV</mi><mi>Principal</mi></msub></mtd></mtr><mtr><mtd><mo>$</mo><mn>1,000</mn><mo>×</mo><mn>0.831224</mn></mtd><mtd><mo> </mo><mo>≈</mo><mo> </mo></mtd><mtd><mo>$</mo><mn>831.22</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00018" xmlns="http://cnx.rice.edu/cnxml">Adding the present values of the two payment streams gives us</para>
-    <equation id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>306.25</mn><mo>+</mo><mo>$</mo><mn>831.22</mn></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>1,137.47</mn></mtd></mtr></mtable></math></equation>
+    <equation id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>306.25</mn><mo>+</mo><mo>$</mo><mn>831.22</mn></mtd><mtd><mo> </mo><mo>=</mo><mo> </mo></mtd><mtd><mo>$</mo><mn>1,137.47</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">Our bond price is $1,137.47. This bond price represents the value of the financial asset to both a willing buyer and a willing seller.</para>
     <para id="para-00020">In this example, the willing seller is 3M Company. The willing buyer is an investor who is demanding a 1.24% yield on the investment. As per <link target-id="table-00001" document="m00061"/> above, the 3M bond sold for $1,051.20 in March 2021. However, we display the price as a percentage of the par value, so we have the displayed price as</para>
     <equation id="eq-00008"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>1,051.20</mn></mrow><mrow><mo>$</mo><mn>1,000</mn></mrow></mfrac><mo>=</mo><mn>1.05120</mn><mi>or</mi><mn>105.120%</mn></math></equation>
@@ -91,14 +91,14 @@
     </row>
     <row>
     <entry align="center">3</entry>
-    <entry align="left">Enter interest rate <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mfrac><mrow><mn>5</mn><mi mathvariant="normal">%</mi><mi>annual</mi><mi>rate</mi></mrow><mn>2</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>5</mn><mi mathvariant="normal">%</mi><mo> </mo><mi>semiannual</mi><mo> </mo><mi>rate</mi></mrow></mfenced></math></entry>
+    <entry align="left">Enter interest rate <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mfrac><mrow><mn>5</mn><mi mathvariant="normal">%</mi><mi>annual</mi><mi>rate</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2.5</mn><mi mathvariant="normal">%</mi><mo> </mo><mi>semiannual</mi><mi>rate</mi></mrow></mfenced></math></entry>
     <entry align="left" xmlns="http://cnx.rice.edu/cnxml">2.5 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">2.5000</entry>
     </row>
     <row>
     <entry align="center">4</entry>
-    <entry align="left">Enter periods Enter periods <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>15</mn><mo> </mo><mi>years</mi><mo> </mo><mo>×</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>30</mn><mo> </mo><mi>semiannual</mi><mo> </mo><mi>periods</mi><mo>)</mo></math></entry>
+    <entry align="left">Enter periods Enter periods <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>15</mn><mo> </mo><mi>years</mi><mo>×</mo><mn>2</mn><mo>=</mo><mn>30</mn><mo> </mo><mi>semiannual</mi><mi>periods</mi><mo>)</mo></math></entry>
     <entry align="left" xmlns="http://cnx.rice.edu/cnxml">30 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">30.0000</entry>
@@ -107,8 +107,8 @@
     <entry align="center">5</entry>
     <entry align="left">Enter coupon payment <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>4</mn><mo>%</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mo>$</mo><mn>20</mn></math> as a negative amount</entry>
     <entry align="left" xmlns="http://cnx.rice.edu/cnxml">20 <span class="primary-function">+|-</span> <span class="primary-function">PMT</span></entry>
-    <entry align="left">PMT =</entry>
-    <entry align="right">-20.0000</entry>
+    <entry align="left">PMT <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>=</mo></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml">-20.0000</entry>
     </row>
     <row>
     <entry align="center">6</entry>
@@ -218,7 +218,7 @@
     <section id="sect-00008">
     <title>Determining Bond Yield Using an Equation</title>
     <para id="para-00035">The solution, when solving for discount rates, requires us to revisit the bond pricing formula, which is</para>
-    <equation id="eq-00009"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Bond Price</mtext><mo>=</mo><mtext>Par Value</mtext><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mi>n</mi></msup></mfrac><mo> </mo><mo>+</mo><mo> </mo><mtext>Coupon Payment Amount</mtext><mo> </mo><mo>×</mo><mo> </mo><mfrac><mfenced open="[" close="]"><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mi>n</mi></msup></mfrac></mrow></mfenced><mi mathvariant="normal">r</mi></mfrac></math></equation>
+    <equation id="eq-00009"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Bond Price</mtext><mo>=</mo><mtext>Par Value</mtext><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mi>n</mi></msup></mfrac><mo> </mo><mo>+</mo><mo> </mo><mtext>Coupon Payment Amount</mtext><mo> </mo><mo>×</mo><mo> </mo><mfrac><mfenced open="[" close="]"><mrow><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>r</mi></mrow></mfenced><mi>n</mi></msup></mfrac></mrow></mfenced><mi>r</mi></mfrac></math></equation>
     <para id="para-00036" xmlns="http://cnx.rice.edu/cnxml">Of course, with one equation, we can solve for only one unknown, and here the variable of concern is <emphasis effect="italics">r</emphasis>, which is the YTM. Unfortunately, it is difficult to isolate <emphasis effect="italics">r</emphasis> on the left-hand side of the equation. Therefore, we need to use a calculator or spreadsheet to solve for the bond’s YTM.</para>
     <para id="para-00037">Let’s take another bond, the <term class="no-emphasis" id="term-00003">Coca-Cola</term> bond, from <link target-id="table-00001" document="m00061"/> above and again back up our time to March 2021. If the Coca-Cola bond has just been issued in March 2021, then it would be a seven-year, semiannual bond with a coupon rate of 1.0% and an original price of $952.06 at the time of issue (<link target-id="table-00003" document="m00062"/>).</para>
     <table summary=" " id="table-00003">
@@ -318,7 +318,7 @@
     </row>
     <row>
     <entry align="center">4</entry>
-    <entry align="left">Enter periods <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>7</mn><mo> </mo><mi>years</mi><mo> </mo><mo>×</mo><mo> </mo><mn>2</mn><mo> </mo><mo>=</mo><mo> </mo><mn>14</mn><mo> </mo><mi>semiannual</mi><mo> </mo><mi>periods</mi></math></entry>
+    <entry align="left">Enter periods <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>7</mn><mo> </mo><mi>years</mi><mo>×</mo><mn>2</mn><mo>=</mo><mn>14</mn><mi>semiannual</mi><mi>periods</mi></math></entry>
     <entry align="left" xmlns="http://cnx.rice.edu/cnxml">14 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">14.0000</entry>
