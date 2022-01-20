@@ -509,7 +509,7 @@
                   <mo>(</mo>
                   <mn>1</mn>
                   <mo/>
-                  <mo>+</mo>
+                  <mo> </mo><mo>+</mo><mo> </mo>
                   <mo/>
                   <mi>i</mi>
                   <mo>)</mo>
