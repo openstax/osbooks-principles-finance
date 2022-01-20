@@ -23,7 +23,7 @@
     <exercise class="unnumbered" id="exer-00001">
     <problem id="prob-00001">
     <para id="para-00004">A financial consultant at a brokerage firm records the portfolio values for 20 clients, as shown in <link target-id="table-00001" document="m00081"/>, where the portfolio values are shown in thousands of dollars.</para>
-    <table summary=" " id="table-00001">
+    <table frame="all" summary=" " id="table-00001">
     <title>Portfolio Values for 20 Clients at a Brokerage Firm ($000s)</title>
     <tgroup cols="5">
     <colspec colnum="1" colname="c1"/>
@@ -64,14 +64,7 @@
     </tgroup>
     </table>
     <para id="para-00005">Create a frequency distribution table using the following intervals for the portfolio values:</para>
-    <para id="para-00006">       0–299<newline/>
-       300–599<newline/>
-       600–899<newline/>
-       900–1,199<newline/>
-    1,200–1,499<newline/>
-    1,500–1,799<newline/>
-    1,800–2,099<newline/>
-    </para>
+    <code class="centered-code">0–299<newline/>300–599<newline/>600–899<newline/>900–1,199<newline/>1,200–1,499<newline/>1,500–1,799<newline/>1,800–2,099</code>
     </problem>
     <solution id="sol-00001">
     <para id="para-00007"><emphasis effect="bold">Solution:</emphasis></para>
@@ -156,7 +149,7 @@
     <media alt="Graph of a normal distribution. It is a bell shaped curve that is symmetrical about a vertical line drawn through the mean."><image mime-type="image/png" src="../../media/FINAN_Figure_13_04_003.png"/></media>
     </figure>
     <para id="para-00014">The curve in <link target-id="fig-00001" document="m00081"/> is symmetric about a vertical line drawn through the mean, <emphasis effect="italics"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>μ</mi></math></emphasis>. The mean is the same as the median, which is the same as the mode, because the graph is symmetric about <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>μ</mi></math></emphasis>. As the notation indicates, the normal distribution depends only on the mean and the standard deviation. Because the area under the curve must equal 1, a change in the standard deviation, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>σ</mi></math>, causes a change in the shape of the normal curve; the curve becomes fatter and wider or skinnier and taller depending on <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>σ</mi></math></emphasis>. A change in <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>μ</mi></math></emphasis> causes the graph to shift to the left or right. This means there are an infinite number of normal probability distributions.</para>
-    <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">To determine probabilities associated with the normal distribution, we find specific areas under the normal curve, and this is further discussed in <link document="m00082">Apply the Normal Distribution in Financial Contexts</link>. For example, suppose that at a financial consulting company, the mean employee salary is $60,000 with a standard deviation of $7,500. A normal curve can be drawn to represent this scenario, in which the mean of $60,000 would be plotted on the horizontal axis, corresponding to the peak of the curve. Then, to find the probability that an employee earns more than $75,000, you would calculate the area under the normal curve to the right of the data value $75,000.</para>
+    <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">To determine probabilities associated with the normal distribution, we find specific areas under the normal curve, and this is further discussed in <link target-id="sect-00004" document="m00082">Apply the Normal Distribution in Financial Contexts</link>. For example, suppose that at a financial consulting company, the mean employee salary is $60,000 with a standard deviation of $7,500. A normal curve can be drawn to represent this scenario, in which the mean of $60,000 would be plotted on the horizontal axis, corresponding to the peak of the curve. Then, to find the probability that an employee earns more than $75,000, you would calculate the area under the normal curve to the right of the data value $75,000.</para>
     <para id="para-00016">Excel uses the following command to find the area under the normal curve to the <emphasis effect="italics">left</emphasis> of a specified value:</para>
     <code class="centered-code">=NORM.DIST(XVALUE, MEAN, STANDARD_DEV, TRUE)</code>
     <para id="para-00017">For example, at the financial consulting company mentioned above, the mean employee salary is $60,000 with a standard deviation of $7,500. To find the probability that a random employee’s salary is less than $55,000 using Excel, this is the command you would use:</para>
