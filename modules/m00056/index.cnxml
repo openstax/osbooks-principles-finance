@@ -39,16 +39,16 @@
     <tbody>
     <row>
     <entry align="center">1</entry>
-    <entry align="right">Set all variables to defaults</entry>
-    <entry align="right"><span class="primary-function">2ND</span> <span class="secondary-function">[RESET]</span> <span class="primary-function">ENTER</span></entry>
-    <entry align="right">RST</entry>
+    <entry align="left">Set all variables to defaults</entry>
+    <entry align="left"><span class="primary-function">2ND</span> <span class="secondary-function">[RESET]</span> <span class="primary-function">ENTER</span></entry>
+    <entry align="left">RST</entry>
     <entry align="right">0.00</entry>
     </row>
     <row>
     <entry align="center">2</entry>
-    <entry align="right">Enter formula</entry>
-    <entry align="right">2 ÷ 7 % =</entry>
-    <entry align="right"> </entry>
+    <entry align="left">Enter formula</entry>
+    <entry align="left">2 ÷ 7 % =</entry>
+    <entry align="left"> </entry>
     <entry align="right">28.57</entry>
     </row>
     </tbody>
@@ -77,35 +77,35 @@
     <entry align="left">Set all variables to defaults</entry>
     <entry align="left"><span class="primary-function">2ND</span> <span class="secondary-function">[RESET]</span> <span class="primary-function">ENTER</span></entry>
     <entry align="left">RST</entry>
-    <entry align="left">0.00</entry>
+    <entry align="right">0.00</entry>
     </row>
     <row>
     <entry align="center">2</entry>
     <entry align="left">Enter number of payments</entry>
     <entry align="left">5 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
-    <entry align="left">5.00</entry>
+    <entry align="right">5.00</entry>
     </row>
     <row>
     <entry align="center">3</entry>
     <entry align="left">Enter interest rate per payment period</entry>
     <entry align="left">8 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
-    <entry align="left">8.00</entry>
+    <entry align="right">8.00</entry>
     </row>
     <row>
     <entry align="center">4</entry>
     <entry align="left">Enter payment amount</entry>
     <entry align="left">25000 <span class="primary-function">+/- PMT</span></entry>
     <entry align="left">PMT =</entry>
-    <entry align="left">-25,000.00</entry>
+    <entry align="right">-25,000.00</entry>
     </row>
     <row>
     <entry align="center">5</entry>
     <entry align="left">Compute present value</entry>
     <entry align="left"><span class="primary-function">CPT PV</span></entry>
     <entry align="left">PV =</entry>
-    <entry align="left">99,817.75</entry>
+    <entry align="right">99,817.75</entry>
     </row>
     </tbody>
     </tgroup>
@@ -310,7 +310,7 @@
     <para id="para-00009">Earlier in the chapter, we explored the effect of interannual compounding on the true cost of money, recalling the basic compounding formula:</para>
     <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>+</mo><mi>i</mi></mrow><mo>)</mo></mrow></mrow><mi>N</mi></msup></mrow></math></equation>
     <para id="para-00010" xmlns="http://cnx.rice.edu/cnxml">We saw that when modified for monthly compounding at a stated rate of 1.5%, the actual (effective) rate of interest per year was 19.56%. One simple way to prove this is by using the calculator keystrokes listed in <link target-id="table-00006" document="m00056"/>.</para>
-    <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00006">
+    <table summary="Some cells are left blank for visual design purposes." id="table-00006">
     <title>Calculator Steps to Prove the Actual Rate of Interest per Year</title>
     <tgroup cols="5">
     <colspec colnum="1" colname="c1" colwidth="1*"/>
@@ -387,49 +387,49 @@
     </thead>
     <tbody>
     <row>
-    <entry align="right">1</entry>
+    <entry align="center">1</entry>
     <entry align="left">Set all variables to defaults</entry>
     <entry align="left"><span class="primary-function">2ND</span> <span class="secondary-function">[RESET]</span> <span class="primary-function">ENTER</span></entry>
     <entry align="left">RST</entry>
     <entry align="right">0.00</entry>
     </row>
     <row>
-    <entry align="right">2</entry>
+    <entry align="center">2</entry>
     <entry align="left">Set payments per year to 12</entry>
     <entry align="left"><span class="primary-function">2ND</span> <span class="secondary-function">[P/Y]</span> 12 <span class="primary-function">ENTER</span></entry>
     <entry align="left">P/Y =</entry>
     <entry align="right">12.00</entry>
     </row>
     <row>
-    <entry align="right">3</entry>
+    <entry align="center">3</entry>
     <entry align="left">Return to calculator mode</entry>
     <entry align="left"><span class="primary-function">2ND</span> <span class="secondary-function">[QUIT]</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.00</entry>
     </row>
     <row>
-    <entry align="right">4</entry>
+    <entry align="center">4</entry>
     <entry align="left">Enter number of payments with the payment multiplier</entry>
     <entry align="left">3 <span class="primary-function">2ND</span> <span class="secondary-function">[xP/Y]</span> <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">36.00</entry>
     </row>
     <row>
-    <entry align="right">5</entry>
+    <entry align="center">5</entry>
     <entry align="left">Enter annual interest rate</entry>
     <entry align="left">6 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">6.00</entry>
     </row>
     <row>
-    <entry align="right">6</entry>
+    <entry align="center">6</entry>
     <entry align="left">Enter loan amount</entry>
     <entry align="left">32000 <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">32,000.00</entry>
     </row>
     <row>
-    <entry align="right">7</entry>
+    <entry align="center">7</entry>
     <entry align="left">Compute the monthly payment</entry>
     <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
@@ -486,12 +486,14 @@
     </row>
     <row>
     <entry align="center">5</entry>
+    <entry align="left"> </entry>
     <entry align="left">↓</entry>
     <entry align="left">PRN =</entry>
     <entry align="right">-10,034.98</entry>
     </row>
     <row>
     <entry align="center">6</entry>
+    <entry align="left"> </entry>
     <entry align="left">↓</entry>
     <entry align="left">INT =</entry>
     <entry align="right">-1,647.02</entry>
@@ -578,9 +580,7 @@
     <para id="para-00021">Download the <link url="https://openstax.org/r/spreadsheet_file_Chapter08_finance">spreadsheet file</link> containing key Chapter 8 Excel exhibits.</para>
     </note>
     <para id="para-00022">To find the present value of an ordinary annuity, we revisit Section 8.2.1. You will draw $25,000 at the end of each year for five years from a fund earning 8% annually, and you want to know how much you need in that fund today to accomplish this. We accomplish this in Excel easily with the PV function. The format of the PV command is</para>
-    <note class="excel-spreadsheet" id="note-00002">
-    <para id="para-00023">=PV(rate,periods,payment,0,0)</para>
-    </note>
+    <code class="centered-code">=PV(rate,periods,payment,0,0)</code>
     <para id="para-00024">Only the first three arguments inside the parentheses are used. We’ll place them in cells and refer to those cells in our PV function. As an option, you could also type the numbers into the parentheses directly. Notice the slight rounding error because of decimal expansion. Also, the payment must be entered as a negative number for your result to be positive; this can be accomplished either by making the $25,000 in cell B5 a negative amount or by placing a minus sign in front of the B5 in the formula’s arguments. In cell B3, you must enter the percent either as 0.08 or as 8% (with the percent sign). We repeated the formula syntax and the actual formula inputs in column A near the result, for your reference (see <link target-id="fig-00002" document="m00056"/>).</para>
     <figure id="fig-00002">
     <title>Excel Spreadsheet Showing the Present Value of an Ordinary Annuity</title>
@@ -592,9 +592,7 @@
     <media alt="Excel Spreadsheet Showing the Present Value of an Annuity Due. It shows the rate, periods, payments, which gives the present value of the annuity due with a total of $ 107,803.17. The excel formula used to find the present value of an annuity due is =PV open parenthesis B3 comma B4 comma B5 comma 0 comma 1 close parenthesis."><image mime-type="image/png" src="../../media/FINAN_Figure_08_05_004.png"/></media>
     </figure>
     <para id="para-00026">Section 8.2 introduced us to future values. Comparable to the PV function above, Excel provides the FV function. Using the same information—$3,000 invested annually for five years, starting one year from now, at 4%—we’ll solve using Excel (see <link target-id="fig-00004" document="m00056"/>). The format of the command is</para>
-    <note class="excel-spreadsheet" id="note-00003">
-    <para id="para-00027">=FV(rate,periods,payment,0,0)</para>
-    </note>
+    <code class="centered-code">=FV(rate,periods,payment,0,0)</code>
     <figure id="fig-00004">
     <title>Excel Spreadsheet Showing the Future Value of an Ordinary Annuity</title>
     <media alt="Excel Spreadsheet Showing the Future Value of an Ordinary Annuity. It shows the rate, periods, payments, which gives the present value of the annuity due with a total of $ 16,248.97. The excel formula used to calculate the future value of an ordinary annuity is =FV open parenthesis B3 comma B4 comma B5 comma 0 comma 0 close parenthesis."><image mime-type="image/png" src="../../media/FINAN_Figure_08_05_005.png"/></media>
@@ -605,9 +603,7 @@
     <media alt="Excel Spreadsheet Showing the Future Value of an Annuity Due. It shows the rate, periods, payments, which gives the future value of the annuity due with a total of $ 16,898.93. The excel formula used to calculate the future value of an annuity due is =FV open parenthesis B3 comma B4 comma B5 comma 0 comma 1 close parenthesis."><image mime-type="image/png" src="../../media/FINAN_Figure_08_05_006.png"/></media>
     </figure>
     <para id="para-00029">In Section 8.4.2, we explained the difference between stated and effective rates of interest to show the true cost of borrowing, in this case for a one-year period, if interest is compounded for periods within a year. The syntax for the Excel effect function to calculate this rate is</para>
-    <note class="excel-spreadsheet" id="note-00004">
-    <para id="para-00030">=EFFECT(rate,periods)</para>
-    </note>
+    <code class="centered-code">=EFFECT(rate,periods)</code>
     <para id="para-00031">where <emphasis effect="italics">rate</emphasis> is the nominal rate and <emphasis effect="italics">periods</emphasis> represents the number of periods within a year.</para>
     <para id="para-00032">Earlier, our example showed that 1.5% compounded monthly results in not 18% per year but actually over 19.56% (see <link target-id="fig-00006" document="m00056"/>).</para>
     <figure id="fig-00006">
@@ -641,9 +637,7 @@
     <media alt="Amortization table showing the annual rate of interest, years, payments per year, the loan amount, and total remaining balance. The excel formula used to find the principal payment is =B10 minus C10."><image mime-type="image/png" src="../../media/FINAN_Figure_08_05_011.png"/></media>
     </figure></item>
     <item>Because our principal portion of the last payment has reduced our outstanding balance, it is subtracted from the preceding balance in cell E9(see <link target-id="fig-00011" document="m00056"/>). The command therefore is
-    <note class="excel-spreadsheet" id="note-00005">
-    <para id="para-00037">=E9-D10</para>
-    </note>
+      <code class="centered-code">=E9-D10</code>
     <figure id="fig-00011">
     <title>Step 5 of Creating an Amortization Table</title>
     <media alt="Amortization table showing the annual rate of interest, years, payments per year, the loan amount, and total remaining balance. To determine the remaining balance, the principal paid is subtracted from the remaining balance. The excel formula for this is =E9 minus D10."><image mime-type="image/png" src="../../media/FINAN_Figure_08_05_012.png"/></media>
