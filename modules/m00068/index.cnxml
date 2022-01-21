@@ -22,7 +22,7 @@
     <section id="sect-00002">
     <title>The Gordon Growth Model</title>
     <para id="para-00004">The most common DDM is the <term id="term-00002">Gordon growth model</term>, which uses the dividend for the next year (<emphasis effect="italics">D</emphasis><sub>1</sub>), the <term id="term-00003">required return</term> (<emphasis effect="italics">r</emphasis>), and the estimated future dividend <term id="term-00004">growth rate</term> (<emphasis effect="italics">g</emphasis>) to arrive at a final price or value of the stock. The formula for the Gordon growth model is as follows:</para>
-    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Stock</mi><mo> </mo><mi>Value</mi><mo>=</mo><mfrac><msub><mi>D</mi><mn>1</mn></msub><mrow><mi>r</mi><mo> </mo><mo>-</mo><mo> </mo><mi>g</mi></mrow></mfrac></math></equation>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Stock Value</mtext><mo>=</mo><mfrac><msub><mi>D</mi><mn>1</mn></msub><mrow><mi>r</mi><mo> </mo><mo>-</mo><mo> </mo><mi>g</mi></mrow></mfrac></math></equation>
     <para id="para-00005" xmlns="http://cnx.rice.edu/cnxml">This calculation values the stock entirely on expected future dividends. You can then compare the calculated price to the actual market price in order to determine whether purchasing the stock at market will meet your requirements.</para>
     <note class="link-to-learning" id="note-00001">
     <title>Dividend Discount Model</title>
@@ -34,11 +34,11 @@
     <section id="sect-00003">
     <title>Zero Growth Dividend Discount Model</title>
     <para id="para-00009">The zero growth DDM assumes that all future dividends of a stock will be fixed at essentially the same dollar value forever, or at least for as long as an individual investor holds the shares of stock. In such a case, the stock’s <term id="term-00005">intrinsic value</term> is determined by dividing the annual dividend amount by the required rate of return:</para>
-    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Stock</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mi>Annual</mi><mo> </mo><mi>Dividends</mi></mrow><mrow><mi>Required</mi><mo> </mo><mi>Rate</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Return</mi></mrow></mfrac></math></equation>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Stock Value</mtext><mo>=</mo><mfrac><mtext>Annual Dividends</mtext><mtext>Required Rate of Return</mtext></mfrac></math></equation>
     <para id="para-00010" xmlns="http://cnx.rice.edu/cnxml">When examined closely, it can be seen that this is the exact same formula that is used to calculate the present value of a perpetuity, which is</para>
-    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Present</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi>Dividend</mi><mrow><mi>Discount</mi><mo> </mo><mi>Rate</mi></mrow></mfrac></math></equation>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Present Value</mtext><mo>=</mo><mfrac><mtext>Dividend</mtext><mtext>Discount Rate</mtext></mfrac></math></equation>
     <para id="para-00011" xmlns="http://cnx.rice.edu/cnxml">For the purpose of using this formula in stock valuation, we can express this as</para>
-    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>PV</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi>D</mi><mi>r</mi></mfrac></math></equation>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>PV</mi><mo>=</mo><mfrac><mi>D</mi><mi>r</mi></mfrac></math></equation>
     <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">where PV is equal to the price or value of the stock, <emphasis effect="italics">D</emphasis> represents the dividend payment, and <emphasis effect="italics">r</emphasis> represents the required rate of return.</para>
     <para id="para-00013">This makes perfect sense because a stock that pays the exact same dividend amount forever is no different from a <term id="term-00006">perpetuity</term>—a continuous, never-ending annuity—and for this reason, the same formula can be used to price preferred stock. The only factor that might alter the value of a stock based on the zero-growth model would be a change in the required rate of return due to fluctuations in perceived risk levels.</para>
     <para id="para-00076"> </para>
