@@ -224,174 +224,7 @@
   <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">You can perform the same operation on each of the remaining five invested amounts, remembering that you invest $12,000 at the start of year 4 and $5,000 at the start of year 6, as per the table. Here are the five remaining calculations:</para>
   <equation id="eq-00003">
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mtable columnspacing="0px" columnalign="right center left">
-        <mtr>
-          <mtd>
-            <msub>
-              <mi>FV</mi>
-              <mn>3</mn>
-            </msub>
-            <mo/>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo/>
-            <mo>$</mo>
-            <mn>2,000</mn>
-            <mo/>
-            <mo>×</mo>
-            <mo/>
-            <msup>
-              <mrow>
-                <mo>(</mo>
-                <mn>1</mn>
-                <mo>+</mo>
-                <mn>0.07</mn>
-                <mo>)</mo>
-              </mrow>
-              <mn>5</mn>
-            </msup>
-            <mo>≈</mo>
-            <mo>$</mo>
-            <mn>2,805.10</mn>
-          </mtd>
-        </mtr>
-        <mtr>
-          <mtd>
-            <msub>
-              <mi>FV</mi>
-              <mn>4</mn>
-            </msub>
-            <mo/>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo/>
-            <mo>$</mo>
-            <mn>12,000</mn>
-            <mo/>
-            <mo>×</mo>
-            <mo/>
-            <msup>
-              <mrow>
-                <mo>(</mo>
-                <mn>1</mn>
-                <mo>+</mo>
-                <mn>0.07</mn>
-                <mo>)</mo>
-              </mrow>
-              <mn>4</mn>
-            </msup>
-            <mo>≈</mo>
-            <mo>$</mo>
-            <mn>15,729.55</mn>
-          </mtd>
-        </mtr>
-        <mtr>
-          <mtd>
-            <msub>
-              <mi>FV</mi>
-              <mn>5</mn>
-            </msub>
-            <mo/>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo/>
-            <mo>$</mo>
-            <mn>2,000</mn>
-            <mo/>
-            <mo>×</mo>
-            <mo/>
-            <msup>
-              <mrow>
-                <mo>(</mo>
-                <mn>1</mn>
-                <mo>+</mo>
-                <mn>0.07</mn>
-                <mo>)</mo>
-              </mrow>
-              <mn>3</mn>
-            </msup>
-            <mo>≈</mo>
-            <mo>$</mo>
-            <mn>2,450.09</mn>
-          </mtd>
-        </mtr>
-        <mtr>
-          <mtd>
-            <msub>
-              <mi>FV</mi>
-              <mn>6</mn>
-            </msub>
-            <mo/>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo/>
-            <mo>$</mo>
-            <mn>5,000</mn>
-            <mo/>
-            <mo>×</mo>
-            <mo/>
-            <msup>
-              <mrow>
-                <mo>(</mo>
-                <mn>1</mn>
-                <mo>+</mo>
-                <mn>0.07</mn>
-                <mo>)</mo>
-              </mrow>
-              <mn>2</mn>
-            </msup>
-            <mo>≈</mo>
-            <mo>$</mo>
-            <mn>5,724.50</mn>
-          </mtd>
-        </mtr>
-        <mtr>
-          <mtd>
-            <msub>
-              <mi>FV</mi>
-              <mn>7</mn>
-            </msub>
-            <mo/>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo/>
-            <mo>$</mo>
-            <mn>2,000</mn>
-            <mo/>
-            <mo>×</mo>
-            <mo/>
-            <msup>
-              <mrow>
-                <mo>(</mo>
-                <mn>1</mn>
-                <mo>+</mo>
-                <mn>0.07</mn>
-                <mo>)</mo>
-              </mrow>
-              <mn>1</mn>
-            </msup>
-            <mo>≈</mo>
-            <mo>$</mo>
-            <mn>2,140.00</mn>
-          </mtd>
-        </mtr>
-      </mtable>
-    </math>
+      <mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>FV</mi><mn>3</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>2,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>5</mn></msup><mo>≈</mo><mo>$</mo><mn>2,805.10</mn></mtd></mtr><mtr><mtd><msub><mi>FV</mi><mn>4</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>12,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>≈</mo><mo>$</mo><mn>15,729.55</mn></mtd></mtr><mtr><mtd><msub><mi>FV</mi><mn>5</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>2,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>≈</mo><mo>$</mo><mn>2,450.09</mn></mtd></mtr><mtr><mtd><msub><mi>FV</mi><mn>6</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>5,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>≈</mo><mo>$</mo><mn>5,724.50</mn></mtd></mtr><mtr><mtd><msub><mi>FV</mi><mn>7</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>2,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.07</mn><mo>)</mo></mrow><mn>1</mn></msup><mo>≈</mo><mo>$</mo><mn>2,140.00</mn></mtd></mtr></mtable></math>
   </equation>
   <para id="para-00014" xmlns="http://cnx.rice.edu/cnxml">Notice how the exponent representing <emphasis effect="italics">n</emphasis> decreases each year to reflect the decreasing number of years that each invested amount will compound until the end of your seven-year stream. For clarity, let us insert each of these amounts in a row of <link target-id="table-00003" document="m00058"/>
 :</para>
@@ -542,192 +375,7 @@
         <para id="para-00019">The equations to calculate each individual year’s compounded value at the end of the five years are as follows:</para>
         <equation id="eq-00004">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <mtable columnspacing="0px" columnalign="right center left">
-              <mtr>
-                <mtd>
-                  <mi>F</mi>
-                  <msub>
-                    <mi>V</mi>
-                    <mn>1</mn>
-                  </msub>
-                  <mo/>
-                </mtd>
-                <mtd>
-                  <mo>=</mo>
-                </mtd>
-                <mtd>
-                  <mo/>
-                  <mo>$</mo>
-                  <mn>10,000</mn>
-                  <mo/>
-                  <mo>×</mo>
-                  <mo/>
-                  <msup>
-                    <mrow>
-                      <mo>(</mo>
-                      <mn>1</mn>
-                      <mo>+</mo>
-                      <mn>0</mn>
-                      <mo>.</mo>
-                      <mn>04</mn>
-                      <mo>)</mo>
-                    </mrow>
-                    <mn>5</mn>
-                  </msup>
-                  <mo>≈</mo>
-                  <mo>$</mo>
-                  <mn>12,166.53</mn>
-                  <mo/>
-                </mtd>
-              </mtr>
-              <mtr>
-                <mtd>
-                  <mi>F</mi>
-                  <msub>
-                    <mi>V</mi>
-                    <mn>2</mn>
-                  </msub>
-                  <mo/>
-                </mtd>
-                <mtd>
-                  <mo>=</mo>
-                </mtd>
-                <mtd>
-                  <mo/>
-                  <mo>$</mo>
-                  <mn>10,000</mn>
-                  <mo/>
-                  <mo>×</mo>
-                  <mo/>
-                  <msup>
-                    <mrow>
-                      <mo>(</mo>
-                      <mn>1</mn>
-                      <mo>+</mo>
-                      <mn>0</mn>
-                      <mo>.</mo>
-                      <mn>04</mn>
-                      <mo>)</mo>
-                    </mrow>
-                    <mn>4</mn>
-                  </msup>
-                  <mo>≈</mo>
-                  <mo>$</mo>
-                  <mn>11,698.59</mn>
-                  <mo/>
-                </mtd>
-              </mtr>
-              <mtr>
-                <mtd>
-                  <mi>F</mi>
-                  <msub>
-                    <mi>V</mi>
-                    <mn>3</mn>
-                  </msub>
-                  <mo/>
-                </mtd>
-                <mtd>
-                  <mo>=</mo>
-                </mtd>
-                <mtd>
-                  <mo/>
-                  <mo>$</mo>
-                  <mn>10,000</mn>
-                  <mo/>
-                  <mo>×</mo>
-                  <mo/>
-                  <msup>
-                    <mrow>
-                      <mo>(</mo>
-                      <mn>1</mn>
-                      <mo>+</mo>
-                      <mn>0</mn>
-                      <mo>.</mo>
-                      <mn>04</mn>
-                      <mo>)</mo>
-                    </mrow>
-                    <mn>3</mn>
-                  </msup>
-                  <mo>≈</mo>
-                  <mo>$</mo>
-                  <mn>11,248.64</mn>
-                </mtd>
-              </mtr>
-              <mtr>
-                <mtd>
-                  <mi>F</mi>
-                  <msub>
-                    <mi>V</mi>
-                    <mn>4</mn>
-                  </msub>
-                  <mo/>
-                </mtd>
-                <mtd>
-                  <mo>=</mo>
-                </mtd>
-                <mtd>
-                  <mo/>
-                  <mo>$</mo>
-                  <mn>15,000</mn>
-                  <mo/>
-                  <mo>×</mo>
-                  <mo/>
-                  <msup>
-                    <mrow>
-                      <mo>(</mo>
-                      <mn>1</mn>
-                      <mo>+</mo>
-                      <mn>0</mn>
-                      <mo>.</mo>
-                      <mn>04</mn>
-                      <mo>)</mo>
-                    </mrow>
-                    <mn>2</mn>
-                  </msup>
-                  <mo>≈</mo>
-                  <mo>$</mo>
-                  <mn>16,224.00</mn>
-                </mtd>
-              </mtr>
-              <mtr>
-                <mtd>
-                  <mi>F</mi>
-                  <msub>
-                    <mi>V</mi>
-                    <mn>5</mn>
-                  </msub>
-                  <mo/>
-                </mtd>
-                <mtd>
-                  <mo>=</mo>
-                </mtd>
-                <mtd>
-                  <mo/>
-                  <mo>$</mo>
-                  <mn>15,000</mn>
-                  <mo/>
-                  <mo>×</mo>
-                  <mo/>
-                  <msup>
-                    <mrow>
-                      <mo>(</mo>
-                      <mn>1</mn>
-                      <mo>+</mo>
-                      <mn>0</mn>
-                      <mo>.</mo>
-                      <mn>04</mn>
-                      <mo>)</mo>
-                    </mrow>
-                    <mn>1</mn>
-                  </msup>
-                  <mo>≈</mo>
-                  <mo>$</mo>
-                  <mn>15,600.00</mn>
-                  <mo/>
-                </mtd>
-              </mtr>
-            </mtable>
-          </math>
+            <mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>F</mi><msub><mi>V</mi><mn>1</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>10,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>5</mn></msup><mo>≈</mo><mo>$</mo><mn>12,166.53</mn><mo> </mo></mtd></mtr><mtr><mtd><mi>F</mi><msub><mi>V</mi><mn>2</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>10,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>≈</mo><mo>$</mo><mn>11,698.59</mn><mo> </mo></mtd></mtr><mtr><mtd><mi>F</mi><msub><mi>V</mi><mn>3</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>10,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>≈</mo><mo>$</mo><mn>11,248.64</mn></mtd></mtr><mtr><mtd><mi>F</mi><msub><mi>V</mi><mn>4</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>15,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>≈</mo><mo>$</mo><mn>16,224.00</mn></mtd></mtr><mtr><mtd><mi>F</mi><msub><mi>V</mi><mn>5</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>15,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>04</mn><mo>)</mo></mrow><mn>1</mn></msup><mo>≈</mo><mo>$</mo><mn>15,600.00</mn><mo> </mo></mtd></mtr></mtable></math>
         </equation>
         <para id="para-00020" xmlns="http://cnx.rice.edu/cnxml">The sum of these individual calculations is $66,937.76, which is the total value of this stream of invested amounts plus compounded interest.</para>
       </solution>
@@ -746,255 +394,36 @@
   <para id="para-00024">This must give us the same result. The formula for the future value of an annuity due is</para>
   <equation id="eq-00005">
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mtable columnspacing="0px" columnalign="right center left">
-        <mtr>
-          <mtd>
-            <mi>FVa</mi>
-            <mo/>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo/>
-            <mrow>
-              <mi>PYMT</mi>
-              <mo/>
-              <mo>×</mo>
-              <mo/>
-              <mfrac>
-                <mrow>
-                  <msup>
-                    <mrow>
-                      <mo>(</mo>
-                      <mn>1</mn>
-                      <mo>+</mo>
-                      <mi>i</mi>
-                      <mo>)</mo>
-                    </mrow>
-                    <mi>n</mi>
-                  </msup>
-                  <mo>-</mo>
-                  <mn>1</mn>
-                </mrow>
-                <mi>i</mi>
-              </mfrac>
-              <mo/>
-              <mo>×</mo>
-              <mo/>
-              <mo>(</mo>
-              <mn>1</mn>
-              <mo>+</mo>
-              <mi>i</mi>
-              <mo>)</mo>
-            </mrow>
-          </mtd>
-        </mtr>
-      </mtable>
-    </math>
+      <mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>FVa</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mrow><mi>PYMT</mi><mo> </mo><mo>×</mo><mo> </mo><mfrac><mrow><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi><mo>)</mo></mrow><mi>n</mi></msup><mo>-</mo><mn>1</mn></mrow><mi>i</mi></mfrac><mo> </mo><mo>×</mo><mo> </mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>i</mi><mo>)</mo></mrow></mtd></mtr></mtable></math>
   </equation>
   <para id="para-00025" xmlns="http://cnx.rice.edu/cnxml">This problem can be solved in the three steps of the summary above.</para>
   <para id="para-00026">Step 1:</para>
   <equation id="eq-00006">
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mtable columnspacing="0px" columnalign="right center left">
-        <mtr>
-          <mtd>
-            <mi>FVa</mi>
-            <mo/>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo/>
-            <mrow>
-              <mo>$</mo>
-              <mn>10,000</mn>
-              <mo/>
-              <mo>×</mo>
-              <mo/>
-              <mfrac>
-                <mrow>
-                  <msup>
-                    <mrow>
-                      <mo>(</mo>
-                      <mn>1</mn>
-                      <mo>+</mo>
-                      <mn>0. 04</mn>
-                      <mo>)</mo>
-                    </mrow>
-                    <mn>5</mn>
-                  </msup>
-                  <mo>-</mo>
-                  <mn>1</mn>
-                  <mo>)</mo>
-                </mrow>
-                <mrow>
-                  <mn>0.04</mn>
-                </mrow>
-              </mfrac>
-              <mo/>
-              <mo>×</mo>
-              <mo/>
-              <mo>(</mo>
-              <mn>1</mn>
-              <mo>+</mo>
-              <mn>0.04</mn>
-              <mo>)</mo>
-            </mrow>
-          </mtd>
-        </mtr>
-      </mtable>
-    </math>
+      <mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>FVa</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mrow><mo>$</mo><mn>10,000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mrow><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.04</mn><mo>)</mo></mrow><mn>5</mn></msup><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mrow><mn>0.04</mn></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.04</mn><mo>)</mo></mrow></mtd></mtr></mtable></math>
   </equation>
   <equation id="eq-00007" xmlns="http://cnx.rice.edu/cnxml">
 
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mtable columnspacing="0px" columnalign="right center left">
-        <mtr>
-          <mtd>
-            <mi>FVa</mi>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo>$</mo>
-            <mn>10,000</mn>
-            <mo/>
-            <mo>×</mo>
-            <mo/>
-            <mn>5.416323</mn>
-            <mo/>
-            <mo>×</mo>
-            <mo/>
-            <mn>1.04</mn>
-            <mo>≈</mo>
-            <mo>$</mo>
-            <mn>56,329.76</mn>
-          </mtd>
-        </mtr>
-      </mtable>
-    </math>
+      <mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>FVa</mi></mtd><mtd><mo> </mo><mo>=</mo><mo> </mo></mtd><mtd><mo>$</mo><mn>10,000</mn><mo>×</mo><mn>5.416323</mn><mo>×</mo><mn>1.04</mn><mo>≈</mo><mo>$</mo><mn>56,329.76</mn></mtd></mtr></mtable></math>
   </equation>
   <para id="para-00027" xmlns="http://cnx.rice.edu/cnxml">Step 2:</para>
   <equation id="eq-00008">
 
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mtable columnspacing="0px" columnalign="right center left">
-        <mtr>
-          <mtd>
-            <msub>
-              <mi>FV</mi>
-              <mrow>
-                <mi>Year</mi>
-                <mo/>
-                <mn>4</mn>
-              </mrow>
-            </msub>
-            <mo/>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo/>
-            <mo>$</mo>
-            <mn>5,000</mn>
-            <mo/>
-            <mo>×</mo>
-            <mo/>
-            <msup>
-              <mrow>
-                <mo>(</mo>
-                <mn>1</mn>
-                <mo>+</mo>
-                <mn>0.04</mn>
-                <mo>)</mo>
-              </mrow>
-              <mn>2</mn>
-            </msup>
-            <mo>=</mo>
-            <mo>$</mo>
-            <mn>5,408.00</mn>
-          </mtd>
-        </mtr>
-      </mtable>
-    </math>
+      <mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>FV</mi><mrow><mi>Year</mi><mo> </mo><mn>4</mn></mrow></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>5,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.04</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>$</mo><mn>5,408.00</mn></mtd></mtr></mtable></math>
   </equation>
   <para id="para-00028" xmlns="http://cnx.rice.edu/cnxml">Step 3:</para>
   <equation id="eq-00009">
 
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mtable columnspacing="0px" columnalign="right center left">
-        <mtr>
-          <mtd>
-            <msub>
-              <mi>FV</mi>
-              <mrow>
-                <mi>Year</mi>
-                <mo/>
-                <mn>5</mn>
-              </mrow>
-            </msub>
-            <mo/>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo/>
-            <mo>$</mo>
-            <mn>5,000</mn>
-            <mo/>
-            <mo>×</mo>
-            <mo/>
-            <msup>
-              <mrow>
-                <mo>(</mo>
-                <mn>1</mn>
-                <mo>+</mo>
-                <mn>0.04</mn>
-                <mo>)</mo>
-              </mrow>
-              <mn>1</mn>
-            </msup>
-            <mo>=</mo>
-            <mo>$</mo>
-            <mn>5,200.00</mn>
-          </mtd>
-        </mtr>
-      </mtable>
-    </math>
+      <mtd><msub><mi>FV</mi><mrow><mi>Year</mi><mo> </mo><mn>5</mn></mrow></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>5,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.04</mn><mo>)</mo></mrow><mn>1</mn></msup><mo>=</mo><mo>$</mo><mn>5,200.00</mn></mtd></math>
   </equation>
   <para id="para-00029" xmlns="http://cnx.rice.edu/cnxml">Combining the results from each of the three steps gives us</para>
   <equation id="eq-00023">
 
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mtable columnspacing="0px" columnalign="right center left">
-        <mtd>
-          <mn>56,329.76</mn>
-          <mo/>
-          <mo>+</mo>
-          <mo/>
-          <mn>5,408.00</mn>
-          <mo/>
-          <mo>+</mo>
-          <mo/>
-          <mn>5,200</mn>
-          <mo>.</mo>
-          <mn>00</mn>
-        </mtd>
-        <mtd>
-          <mo>=</mo>
-        </mtd>
-        <mtd>
-          <mo>$</mo>
-          <mn>66,937.76</mn>
-        </mtd>
-      
-    </mtable>
+      <mn>56,329.76</mn><mo>+</mo><mn>5,408.00</mn><mo>+</mo><mn>5,200.00</mn><mo>=</mo><mo>$</mo><mn>66,937.76</mn>
   </math>
 </equation>.
 <para id="para-00087" xmlns="http://cnx.rice.edu/cnxml">It works. Whether you view this problem as five separate periods that can be compounded separately and then combined or as a combination of one or more annuities and/or single payment problems, we always arrive at the same solution if we are diligent about the time, the interest, and the stream of payments.</para>
@@ -1064,8 +493,8 @@
             <mi>PV</mi>
             <mo/>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo/>
@@ -1080,7 +509,7 @@
                   <mo>(</mo>
                   <mn>1</mn>
                   <mo/>
-                  <mo>+</mo>
+                  <mo> </mo><mo>+</mo><mo> </mo>
                   <mo/>
                   <mi>i</mi>
                   <mo>)</mo>
@@ -1133,40 +562,7 @@
   <para id="para-00039">One method is to take each year’s cash flows, which happen at the end of the year, and discount them to today using the present value formula for a single amount:</para>
   <equation id="eq-00012">
     <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mtable columnspacing="0px" columnalign="right center left">
-        <mtr>
-          <mtd>
-            <mi>PV</mi>
-            <mo/>
-          </mtd>
-          <mtd>
-            <mo>=</mo>
-          </mtd>
-          <mtd>
-            <mo/>
-            <mi>FV</mi>
-            <mo/>
-            <mo>×</mo>
-            <mo/>
-            <mfrac>
-              <mn>1</mn>
-              <msup>
-                <mrow>
-                  <mo>(</mo>
-                  <mn>1</mn>
-                  <mo/>
-                  <mo>+</mo>
-                  <mo/>
-                  <mi>i</mi>
-                  <mo>)</mo>
-                </mrow>
-                <mi>n</mi>
-              </msup>
-            </mfrac>
-          </mtd>
-        </mtr>
-      </mtable>
-    </math>
+      <mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>PV</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi>FV</mi><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi><mo>)</mo></mrow><mi>n</mi></msup></mfrac></mtd></mtr></mtable></math>
   </equation>
   <equation id="eq-00013" xmlns="http://cnx.rice.edu/cnxml">
     <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1179,8 +575,8 @@
             </msub>
             <mo/>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo/>
@@ -1225,8 +621,8 @@
             </msub>
             <mo/>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo/>
@@ -1271,8 +667,8 @@
             </msub>
             <mo/>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo/>
@@ -1446,8 +842,8 @@
             <mi>PVa</mi>
             <mo> </mo>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo> </mo>
@@ -1500,8 +896,8 @@
           <mtd>
             <mi>PVa</mi>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo>$</mo>
@@ -1537,8 +933,8 @@
           <mtd>
             <mi>PVa</mi>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo>$</mo>
@@ -1581,8 +977,8 @@
               </mrow>
             </msub>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo>$</mo>
@@ -1637,8 +1033,8 @@
               </mrow>
             </msub>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo>$</mo>
@@ -1704,8 +1100,8 @@
             <mo>.</mo>
             <mn>65</mn>
           </mtd>
-          <mtd>
-            <mo>=</mo>
+          <mtd><mo> </mo>
+            <mo>=</mo><mo> </mo>
           </mtd>
           <mtd>
             <mo>$</mo>
