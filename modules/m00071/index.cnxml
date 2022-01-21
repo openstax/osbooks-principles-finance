@@ -13,9 +13,9 @@
     <item>Understand what is meant by the term <emphasis effect="italics">efficient markets</emphasis>.</item>
     <item>Understand the term <emphasis effect="italics">operational efficiency</emphasis> when referring to markets.</item>
     <item>Understand the term <emphasis effect="italics">informational efficiency</emphasis> when referring to markets.</item>
+    <item>Distinguish between strong, semi-strong, and weak levels of efficiency in markets.</item>
     </list>
     </section>
-    <para id="para-00002">Distinguish between strong, semi-strong, and weak levels of efficiency in markets.</para>
     <section id="sect-00002">
     <title>Efficient Markets</title>
     <para id="para-00003">For the public, the real concern when buying and selling of stock through the stock market is the question, “How do I know if I’m getting the best available price for my transaction?” We might ask an even broader question: Do these markets provide the best prices and the quickest possible execution of a trade? In other words, we want to know whether markets are efficient. By <emphasis effect="bold">efficient markets</emphasis>, we mean markets in which costs are minimal and prices are current and fair to all traders. To answer our questions, we will look at two forms of efficiency: operational efficiency and informational efficiency.</para>
@@ -23,13 +23,13 @@
     <section id="sect-00003">
     <title>Operational Efficiency</title>
     <para id="para-00004">Operational efficiency concerns the speed and accuracy of processing a buy or sell order at the best available price. Through the years, the competitive nature of the market has promoted operational efficiency.</para>
-    <para id="para-00005">In the past, the <emphasis effect="bold">NYSE (New York Stock Exchange)</emphasis> used a designated-order turnaround computer system known as SuperDOT to manage orders. SuperDOT was designed to match buyers and sellers and execute trades with confirmation to both parties in a matter of seconds, giving both buyers and sellers the best available prices. SuperDOT was replaced by a system known as the Super Display Book (SDBK) in 2009 and subsequently replaced by the Universal Trading Platform in 2012.</para>
+    <para id="para-00005">In the past, the <emphasis effect="bold">NYSE (New York Stock Exchange)</emphasis> used a designated-order turnaround computer system known as SuperDOT to manage orders. SuperDOT was designed to match buyers and sellers and execute trades with confirmation to both parties in a matter of seconds, giving both buyers and sellers the best available prices. SuperDOT was replaced by a system known as the <term class="no-emphasis" id="term-00001">Super Display Book (SDBK)</term> in 2009 and subsequently replaced by the <term class="no-emphasis" id="term-00002">Universal Trading Platform</term> in 2012.</para>
     <para id="para-00006"><emphasis effect="bold">NASDAQ</emphasis> used a process referred to as the small-order execution system (SOES)<emphasis effect="bold"/> to process orders. The practice for registered dealers had been for SOES to publicly display all limit orders (orders awaiting execution at specified price), the best dealer quotes, and the best customer limit order sizes. The SOES system has now been largely phased out with the emergence of all-electronic trading that increased transaction speed at ever higher trading volumes.</para>
     <para id="para-00007">Public access to the best available prices promotes operational efficiency. This speed in matching buyers and sellers at the best available price is strong evidence that the stock markets are operationally efficient.</para>
     </section>
     <section id="sect-00004">
     <title>Informational Efficiency</title>
-    <para id="para-00008">A second measure of efficiency is informational efficiency, or how quickly a source reflects comprehensive information in the available trading prices. A price is efficient if the market has used all available information to set it, which implies that stocks always trade at their fair value (see <link target-id="fig-00001" document="m00068"/>). If an investor does not receive the most current information, the prices are “stale”; therefore, they are at a trading disadvantage.</para>
+    <para id="para-00008">A second measure of efficiency is informational efficiency, or how quickly a source reflects comprehensive information in the available trading prices. A price is efficient if the market has used all available information to set it, which implies that stocks always trade at their fair value (see <link target-id="fig-00001" document="m00071"/>). If an investor does not receive the most current information, the prices are “stale”; therefore, they are at a trading disadvantage.</para>
     <figure id="fig-00001">
     <title>Forms of Market Efficiency</title>
     <media alt="Diagram depicting market efficiency. Prices that rely on all public information are partially strong. Prices that rely on information about past stock prices are weak."><image mime-type="image/png" src="../../media/FINAN_Figure_11_05_012.png"/></media>
@@ -39,10 +39,6 @@
     <title>Forms of Market Efficiency</title>
     <para id="para-00009">Financial economists have devised three forms of market efficiency from an information perspective: weak form, semi-strong form, and strong form. These three forms constitute the efficient market hypothesis. Believers in these three forms of efficient markets maintain, in varying degrees, that it is pointless to search for undervalued stocks, sell stocks at inflated prices, or predict market trends.</para>
     <para id="para-00010">In weak form efficient markets, current prices reflect the stock’s price history and trading volume. It is useless to chart historical stock prices to predict future stock prices such that you can identify mispriced stocks and routinely outperform the market. In other words, technical analysis cannot beat the market. The market itself is the best technical analyst out there.</para>
-    </section>
-    <section class="cfa-institute" id="sect-00006">
-    <title>CFA Institute</title>
-    <para id="para-00011">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/CFA_Level_I_Study_Session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
     </section>
     <section class="section-summary" id="sect-00007">
     <title/>
@@ -57,6 +53,10 @@
     <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00014"><link class="os-embed" url="#exercise/FI_Ch11_Sec5_RVQ5"/></para></problem></exercise>
     <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00015"><link class="os-embed" url="#exercise/FI_Ch11_Sec5_RVQ7"/></para></problem></exercise>
     <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00016"><link class="os-embed" url="#exercise/FI_Ch11_Sec5_RVQ9"/></para></problem></exercise>
+    </section>
+    <section class="cfa-institute" id="sect-00006">
+    <title>CFA Institute</title>
+    <para id="para-00011">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/CFA_Level_I_Study_Session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
     </section>
     </content>
     <glossary>

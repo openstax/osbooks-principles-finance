@@ -106,7 +106,7 @@
     </section>
     </content>
     <glossary>
-    <definition id="def-00001"><term>accounting equation</term> <meaning><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>assets</mtext><mo>=</mo><mtext>liabilities</mtext><mo>+</mo><mtext>owner’sequity</mtext><mo>.</mo></math></meaning></definition>
+    <definition id="def-00001"><term>accounting equation</term> <meaning><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>assets</mtext><mo>=</mo><mtext>liabilities</mtext><mo>+</mo><mtext>owner’s equity</mtext></math></meaning></definition>
     <definition id="def-00002" xmlns="http://cnx.rice.edu/cnxml"><term>assets</term> <meaning>tangible or intangible resources owned or controlled by a company, individual, or other entity with the intent that they will provide economic value</meaning></definition>
     <definition id="def-00003"><term>current assets</term> <meaning>asset typically used up, sold, or converted to cash in one year or less</meaning></definition>
     <definition id="def-00004"><term>current liabilities</term> <meaning>debt or obligation due within one year or, in rare cases, a company’s standard operating cycle, whichever is greater</meaning></definition>

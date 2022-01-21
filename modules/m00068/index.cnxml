@@ -1,7 +1,7 @@
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
-  <title>Dividend Discount Models (DDM)</title>
+  <title>Dividend Discount Models (DDMs)</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
-    <md:title>Dividend Discount Models (DDM)</md:title>
+    <md:title>Dividend Discount Models (DDMs)</md:title>
     <md:content-id>m00068</md:content-id>
     <md:uuid>98b4140e-7df7-4059-9f7e-b7892c015fda</md:uuid>
   </metadata>
@@ -41,6 +41,7 @@
     <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>PV</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mi>D</mi><mi>r</mi></mfrac></math></equation>
     <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">where PV is equal to the price or value of the stock, <emphasis effect="italics">D</emphasis> represents the dividend payment, and <emphasis effect="italics">r</emphasis> represents the required rate of return.</para>
     <para id="para-00013">This makes perfect sense because a stock that pays the exact same dividend amount forever is no different from a <term id="term-00006">perpetuity</term>—a continuous, never-ending annuity—and for this reason, the same formula can be used to price preferred stock. The only factor that might alter the value of a stock based on the zero-growth model would be a change in the required rate of return due to fluctuations in perceived risk levels.</para>
+    <para id="para-00076"> </para>
     <para id="para-00014"><emphasis effect="bold">Example:</emphasis></para>
     <para id="para-00015">What is the intrinsic value of a stock that pays $2.00 in dividends every year if the required rate of return on similar investments in the market is 6%?</para>
     <para id="para-00016"><emphasis effect="bold">Solution:</emphasis></para>
@@ -162,7 +163,7 @@
     <entry align="right"> </entry>
     <entry align="right"> </entry>
     <entry align="right"> </entry>
-    <entry align="center"><emphasis effect="bold">Total: $43.2466</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">Total: $43.2466</emphasis></entry>
     </row>
     </tbody>
     </tgroup>
@@ -182,22 +183,23 @@
     <item>The dividend payout ratio will be based on company performance and the expected growth rate of its operations.</item>
     </list>
     <para id="para-00039">Let’s use an example. Lore Ltd. estimates that its dividend growth will be 13% per year for the next five years. It will then settle to a sustainable, constant, and continuing rate of 5%. Let’s say that the current year’s dividend is $14 and the required rate of return (or discount rate) is 12%. What is the current value of Lore Ltd. stock?</para>
+    <para id="para-00090"> </para>
     <para id="para-00040"><emphasis effect="bold">Step 1:</emphasis></para>
     <para id="para-00041">First, we will need to calculate the dividends for each year until the second, stable growth rate phase is reached. Based on the current dividend value of $14 and the anticipated growth rate of 13%, the values of dividends (<emphasis effect="italics">D</emphasis><sub>1</sub>, <emphasis effect="italics">D</emphasis><sub>2</sub>, <emphasis effect="italics">D</emphasis><sub>3</sub>, <emphasis effect="italics">D</emphasis><sub>4</sub>, <emphasis effect="italics">D</emphasis><sub>5</sub>) can be determined for each year of the first phase. Because the stable growth rate is achieved in the second phase, after five years have passed, if we assume that the current year is 2021, we can lay out the profile for this stock’s dividends through the year 2026, as per <link target-id="fig-00001" document="m00068"/>.</para>
-    <figure id="fig-00001"><media alt=""><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_003.png"/></media>
+    <figure id="fig-00001"><media alt="A screenshot of excel shows the first step for the profile for stock's dividends for the years 2021 (the current year), 2022, 2023, 2024, 2025, and 2026. It also shows the dividend with a growth of 13% each year along with the total growth rate in dividends. At a growth rate of 13%, the dividend in 2021 is 14, in 2022 it is 15.82, in 2023 it is 17.88, in 2024 it is 20.20, in 2025 it is 22.83, and in 2026 is 25.79. The growth rate in dividends is not applicable in 2021. In all other years it is 13%."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_003.png"/></media>
     <caption>Profile of Stock Dividend through 2026</caption></figure>
     <para id="para-00042"><emphasis effect="bold">Step 2:</emphasis></para>
     <para id="para-00043">Next, we apply the DDM to determine the terminal value, or the value of the stock at the end of the five-year high-growth phase and the beginning of the second, lower growth-phase.</para>
     <para id="para-00044">We can apply the DDM formula at any point in time, but in this example, we are working with a stock that has constant growth in dividends for five years and then decreases to a lower growth rate in its secondary phase. Because of this timing and dividend structure, we calculate the value of the stock five years from now, or the terminal value. Again, this is calculated at the end of the high-growth phase, in 2026. By applying the constant growth DDM formula, we arrive at the following:</para>
     <equation id="eq-00013"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>Stock</mi><mo> </mo><mi>Value</mi></mrow><mi>N</mi></msub><mo>=</mo><mfrac><mrow><msub><mi>D</mi><mi>N</mi></msub><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>g</mi></mrow></mfenced></mrow><mrow><mi>r</mi><mo> </mo><mo>-</mo><mo> </mo><mi>g</mi></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mfrac><msub><mi>D</mi><mrow><mi>N</mi><mo>+</mo><mn>1</mn></mrow></msub><mrow><mi>r</mi><mo> </mo><mo>-</mo><mo> </mo><mi>g</mi></mrow></mfrac></math></equation>
-    <para id="para-00045" xmlns="http://cnx.rice.edu/cnxml">The terminal value can be calculated by applying the DDM formula in Excel, as seen in <link target-id="fig-00002" document="m00068"/> and <link target-id="fig-00003" document="m00068"/>. The terminal value, or the value at the end of 2026, is $386.91 (see <link target-id="fig-00002" document="m00068"/> and <link target-id="fig-00003" document="m00068"/> below).</para>
+    <para id="para-00045" xmlns="http://cnx.rice.edu/cnxml">The terminal value can be calculated by applying the DDM formula in Excel, as seen in <link target-id="fig-00002" document="m00068"/> and <link target-id="fig-00003" document="m00068"/>. The terminal value, or the value at the end of 2026, is $386.91.</para>
     <figure id="fig-00002"><media alt="A screenshot of excel shows the dividend with a growth of 13% each year along with the total growth rate in dividends. This screenshot contains the same data as Figure 11.3 with the following additions. The year 2027 has been added. The dividend at 13% growth for 2027 is 27.08. The growth rate in dividends for 2027 is 5%. The formula for the terminal value is =H13 divided by open parenthesis B17 minus H15 close parenthesis. The required rate of return is 0.12."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_004.png"/></media>
     <caption>Terminal Value at the End of 2026 (Showing Formula)</caption></figure>
     <figure id="fig-00003"><media alt="A screenshot of excel shows the dividend with a growth of 13% each year along with the total growth rate in dividends. The screenshot contains the same data as Figure 11.4, except the formula has been replaced with the value 386.91. This shows that the terminal value at the end of 2026 is 386.91."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_005.png"/></media>
     <caption>Terminal Value at the End of 2026</caption></figure>
     <para id="para-00046"><emphasis effect="bold">Step 3:</emphasis></para>
     <para id="para-00047">Next, we find the PV of all paid dividends that occur during the high-growth period of 2022–2026. This is shown in <link target-id="fig-00004" document="m00068"/>. Our required rate of return (discount rate) is 12%.</para>
-    <figure id="fig-00004"><media alt=""><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_006.png"/></media>
+    <figure id="fig-00004"><media alt="A screenshot of excel shows the present value of all paid dividends from 2022 through 2026. The screenshot contains the same data as Figure 11.5, with the addition of the present value of dividends. For 2021, the present value of dividends is not applicable. For 2022, the present value of dividends is 14.13. For 2023 the present value of dividends is 14.25. For 2024, the present value of dividends is 14.38. For 2025, the present value of dividends is 14.51. For 2026, the present value of dividends is 14.64."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_006.png"/></media>
     <caption>Present Value of All Paid Dividends, 2022–2026</caption></figure>
     <para id="para-00048"><emphasis effect="bold">Step 4:</emphasis></para>
     <para id="para-00049">Next, we calculate the PV of the single lump-sum terminal value:</para>
@@ -222,7 +224,7 @@
     <para id="para-00057">To further illustrate limitations of DDMs, let’s examine the Concepts in Practice case.</para>
     <note class="concepts-practice" id="note-00006">
     <title>Limitations of DDMs</title>
-    <para id="para-00058">A major limitation of the dividend discount model is that it cannot be used to value companies that do not pay dividends. This is becoming a growing trend, particularly for young high-tech companies. Warren <term class="no-emphasis" id="term-00010">Buffett</term>, CEO of <term class="no-emphasis" id="term-00011">Berkshire Hathaway</term>, has stated that companies are usually better off if they take their excess funds and reinvest them into infrastructure, evolving technologies, and other profitable ventures. The payment of dividends to shareholders is “almost a last resort for corporate management,”<footnote id="foot-00001">Dan Caplinger. “Why Don’t These Winning Stocks Pay Dividends?” The Motley Fool. Updated October 3, 2018. https://www.fool.com/investing/general/2015/03/01/why-dont-these-winning-stocks-pay-dividends.aspx</footnote> says Buffett, and cash balances should be invested in “projects to become more efficient, expand territorially, extend and improve product lines or . . . otherwise widen the economic moat separating the company from its competitors.”<footnote id="foot-00002">The Motley Fool. “Why Warren Buffet’s Berkshire Hathaway Won’t Pay a Dividend in 2015.” Nasdaq. November 16, 2014. https://www.nasdaq.com/articles/why-warren-buffetts-berkshire-hathaway-wont-pay-dividend-2015-2014-11-16.</footnote> Berkshire follows this practice of reinvesting cash rather than paying dividends, as do tech companies such as <term class="no-emphasis" id="term-00012">Amazon</term>, <term class="no-emphasis" id="term-00013">Google</term>, and <term class="no-emphasis" id="term-00014">Biogen</term>.<footnote id="foot-00003">Caplinger, “Why Don’t These Winning Stocks”</footnote> So, rather than receiving cash dividends, stockholders of these companies are rewarded by seeing stock price appreciation in their investments and ultimately large capital gains when they finally decide to sell their shares.</para>
+    <para id="para-00058">A major limitation of the dividend discount model is that it cannot be used to value companies that do not pay dividends. This is becoming a growing trend, particularly for young high-tech companies. Warren <term class="no-emphasis" id="term-00010">Buffett</term>, CEO of <term class="no-emphasis" id="term-00011">Berkshire Hathaway</term>, has stated that companies are usually better off if they take their excess funds and reinvest them into infrastructure, evolving technologies, and other profitable ventures. The payment of dividends to shareholders is “almost a last resort for corporate management,”<footnote id="foot-00001">Dan Caplinger. “Why Don’t These Winning Stocks Pay Dividends?” The Motley Fool. Updated October 3, 2018. https://www.fool.com/investing/general/2015/03/01/why-dont-these-winning-stocks-pay-dividends.aspx</footnote> says Buffett, and cash balances should be invested in “projects to become more efficient, expand territorially, extend and improve product lines or . . . otherwise widen the economic moat separating the company from its competitors.”<footnote id="foot-00002">The Motley Fool. “Why Warren Buffet’s Berkshire Hathaway Won’t Pay a Dividend in 2015.” Nasdaq. November 16, 2014. https://www.nasdaq.com/articles/why-warren-buffetts-berkshire-hathaway-wont-pay-dividend-2015-2014-11-16.</footnote> Berkshire follows this practice of reinvesting cash rather than paying dividends, as do tech companies such as <term class="no-emphasis" id="term-00012">Amazon</term>, <term class="no-emphasis" id="term-00013">Google</term>, and <term class="no-emphasis" id="term-00014">Biogen</term>.<footnote id="foot-00003">Caplinger, “Why Don’t These Winning Stocks?” The Motley Fool.</footnote> So, rather than receiving cash dividends, stockholders of these companies are rewarded by seeing stock price appreciation in their investments and ultimately large capital gains when they finally decide to sell their shares.</para>
     <para id="para-00059">The sensitivity of assumptions is also a drawback of using DDMs. The fair price of a stock can be highly sensitive to growth rates and the required rates of return demanded by investors. A single percentage point change in either of these two factors can have a dramatic impact on a company’s stock, potentially changing it by as much as 10 to 20%.</para>
     <para id="para-00060">Finally, the results obtained using DDMs may not be related to the results of a company’s operations or its profitability. Dividend payments should theoretically be tied to a company’s profitability, but in some instances, companies will make misguided efforts to maintain a stable dividend payout even through the use of increased borrowing and debt, which is not beneficial to an organization’s long-term financial health.</para>
     <para id="para-00061">(sources: www.wallstreetmojo.com/dividend-discount-model/; pages.stern.nyu.edu/~adamodar/pdfiles/valn2ed/ch13d.pdf; www.managementstudyguide.com/disadvantages-of-dividend-discount-model.htm)</para>
@@ -245,7 +247,7 @@
     <title>Method 2: Using a Financial Calculator</title>
     <para id="para-00070">We can also use a calculator or spreadsheet to find the price of the stock (see <link target-id="table-00001" document="m00068"/>).</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00001">
-    <title>Calculator Steps for Finding the Price of the Stock<footnote id="foot-00004">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup>Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
+    <title>Calculator Steps for Finding the Price of the Stock<footnote id="foot-00004">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup> Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
     <tgroup cols="5">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -257,7 +259,7 @@
     <entry align="center">Step</entry>
     <entry align="center">Description</entry>
     <entry align="center">Enter</entry>
-    <entry align="center" morerows="1">Display</entry>
+    <entry align="center" namest="c4" nameend="c5">Display</entry>
     </row>
     </thead>
     <tbody>
@@ -266,42 +268,42 @@
     <entry align="left">Clear calculator register</entry>
     <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
-    <entry align="left">0.0000</entry>
+    <entry align="right">0.0000</entry>
     </row>
     <row>
     <entry align="left">2</entry>
     <entry align="left">Enter number of periods (5)</entry>
     <entry align="left">5 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
-    <entry align="left">5.0000</entry>
+    <entry align="right">5.0000</entry>
     </row>
     <row>
     <entry align="left">3</entry>
     <entry align="left">Enter rate of return or interest rate (10%)</entry>
     <entry align="left">10 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
-    <entry align="left">10.0000</entry>
+    <entry align="right">10.0000</entry>
     </row>
     <row>
     <entry align="left">4</entry>
     <entry align="left">Enter eventual sales price ($25)</entry>
     <entry align="left">25 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
-    <entry align="left">25.0000</entry>
+    <entry align="right">25.0000</entry>
     </row>
     <row>
     <entry align="left">5</entry>
     <entry align="left">Enter dividend amount ($5)</entry>
     <entry align="left">5 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
-    <entry align="left">5.0000</entry>
+    <entry align="right">5.0000</entry>
     </row>
     <row>
     <entry align="left">6</entry>
     <entry align="left">Compute present value</entry>
     <entry align="left"><span class="primary-function">CPT PV</span></entry>
     <entry align="left">PV =</entry>
-    <entry align="left">-34.47</entry>
+    <entry align="right">−34.47</entry>
     </row>
     </tbody>
     </tgroup>
@@ -316,9 +318,7 @@
     <figure id="fig-00006"><media alt="A screenshot of excel showing the Nper (N) or Periods of 5, Rate of Return or Interest Rate of 10%, Future Value or Stock Sale Price of $25 each, and Payment (Dividend Amount) of $5 with the total price of the stock amounting to $34.48."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_008.png"/></media>
     <caption>Excel Solution for Finding the Price of the Stock</caption></figure>
     <para id="para-00075">Due to the sign convention in Excel, we can ignore the parentheses around the solution, which indicate a negative value. Therefore, the price is $34.48. The Excel command used in cell F6 to calculate present value is as follows:</para>
-    <note class="excel-spreadsheet" id="note-00009">
-    <para id="para-00076">=PV(rate,nper,pmt,[fv],[type])</para>
-    </note>
+    <code class="centered-code">=PV(rate,nper,pmt,[fv],[type])</code>
     </section>
     </section>
     <section id="sect-00012">
@@ -369,44 +369,44 @@
     <row>
     <entry align="left">1</entry>
     <entry align="left">Clear calculator register</entry>
-    <entry align="left">CE/C</entry>
+    <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
     <entry align="left">2</entry>
     <entry align="left">Enter number of periods (20)</entry>
-    <entry align="left">20 N</entry>
+    <entry align="left">20 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">20.0000</entry>
     </row>
     <row>
     <entry align="left">3</entry>
     <entry align="left">Enter rate of return or interest rate (10%)</entry>
-    <entry align="left">10 I/Y</entry>
+    <entry align="left">10 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">10.0000</entry>
     </row>
     <row>
     <entry align="left">4</entry>
     <entry align="left">Enter eventual sales price (30)</entry>
-    <entry align="left">30 FV</entry>
+    <entry align="left">30 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">30.0000</entry>
     </row>
     <row>
     <entry align="left">5</entry>
     <entry align="left">Enter dividend amount ($1)</entry>
-    <entry align="left">1 PMT</entry>
+    <entry align="left">1 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">1.0000</entry>
     </row>
     <row>
     <entry align="left">6</entry>
     <entry align="left">Compute present value</entry>
-    <entry align="left">CPT PV</entry>
+    <entry align="left"><span class="primary-function">CPT PV</span></entry>
     <entry align="left">PV =</entry>
-    <entry align="right">-12.97</entry>
+    <entry align="right">−12.97</entry>
     </row>
     </tbody>
     </tgroup>
@@ -419,9 +419,7 @@
     <figure id="fig-00007"><media alt="A screenshot of excel showing the Nper (N) or Periods of 20, Rate of Return or Interest Rate of 10%, Payment (Dividend Amount) of $1, and the Future Value or Stock Sale Price of $30 each with the total price of the stock equaling $12.97."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_009.png"/></media>
     <caption>Excel Solution for Finding the Price of Stock Using Constant Dividends</caption></figure>
     <para id="para-00089">Once again, we can ignore the negative indicator that is generated by the Excel sign convention because we know that the stock will not have a negative value 20 years from now. Therefore, the price is $12.97. The Excel command used in cell F13 to calculate present value is as follows:</para>
-    <note class="excel-spreadsheet" id="note-00010">
-    <para id="para-00090">=PV(rate,nper,pmt,[fv],[type])</para>
-  </note>
+    <code class="centered-code">=PV(rate,nper,pmt,[fv],[type])</code>
     <para id="para-00091"><emphasis effect="bold">Example 2:</emphasis></para>
     <para id="para-00092">Let’s look at an example and estimate current stock price given a 10.44% constant growth rate of dividends forever and a desired return on the stock of 13.5%. We will assume that the current stock owner has just received the most recent dividend, <emphasis effect="italics">D</emphasis><sub>0</sub>, and the new buyer will receive all future cash dividends, beginning with <emphasis effect="italics">D</emphasis><sub>1</sub>. This part of the setup of the model is important because the price reflects all future dividends, starting with <emphasis effect="italics">D</emphasis><sub>1</sub>, discounted back to today. (Price<sub>0</sub> refers to the price at time zero, or today.) The first dividend the buyer would receive is one full period away. Using the discounted cash flow approach, we have</para>
     <equation id="eq-00023"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">c</mi><mi mathvariant="normal">e</mi></mrow><mn>0</mn></msub><mo>=</mo><mfrac><mrow><msub><mi>D</mi><mn>0</mn></msub><mo>×</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>g</mi></mrow></mfenced><mn>1</mn></msup></mrow><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mn>1</mn></msup></mfrac><mo> </mo><mo>+</mo><mo> </mo><mfrac><mrow><msub><mi>D</mi><mn>0</mn></msub><mo>×</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>g</mi></mrow></mfenced><mn>2</mn></msup></mrow><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mn>2</mn></msup></mfrac><mo> </mo><mo>+</mo><mo> </mo><mfrac><mrow><msub><mi>D</mi><mn>0</mn></msub><mo>×</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>g</mi></mrow></mfenced><mn>3</mn></msup></mrow><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mn>3</mn></msup></mfrac><mo> </mo><mo>+</mo><mo> </mo><mfrac><mrow><msub><mi>D</mi><mn>0</mn></msub><mo>×</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>g</mi></mrow></mfenced><mn>4</mn></msup></mrow><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfenced><mn>4</mn></msup></mfrac><mo> </mo><mo>…</mo></math></equation>
@@ -437,7 +435,7 @@
     <title>Estimating a Stock Price from a Past Dividend Pattern</title>
     <para id="para-00097"><emphasis effect="bold">Problem:</emphasis></para>
     <para id="para-00098">Phased Solutions Inc. has paid the following dividends per share from 2011 to 2020:</para>
-    <table summary="Some cells are left blank for visual design purposes." id="table-00004">
+    <table summary="Some cells are left blank for visual design purposes." id="table-00004" class="timeline-table">
     <tgroup cols="10">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -497,7 +495,7 @@
     <entry align="center">Step</entry>
     <entry align="center">Description</entry>
     <entry align="center">Enter</entry>
-    <entry align="center" namest="4" nameend="5">Display</entry>
+    <entry align="center" namest="c4" nameend="c5">Display</entry>
     </row>
     </thead>
     <tbody>
@@ -517,7 +515,7 @@
     </row>
     <row>
     <entry align="center">3</entry>
-    <entry align="left">Enter present value or initial dividend ($0.70) as a negative value</entry>
+    <entry align="left">Enter present value or initial dividend ($0.70) as a negative<newline/>value</entry>
     <entry align="left">.7 <span class="primary-function">+|- PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">-0.7000</entry>
@@ -531,7 +529,7 @@
     </row>
     <row>
     <entry align="center">5</entry>
-    <entry align="left">Enter a zero value for payment as a placeholder, as this factor is not used here</entry>
+    <entry align="left">Enter a zero value for payment as a placeholder, as this<newline/>factor is not used here</entry>
     <entry align="left">0 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT</entry>
     <entry align="right">0.0000</entry>
@@ -551,7 +549,7 @@
     <figure id="fig-00008"><media alt="Screenshot of an Excel based solution for growth rate. The present value or current dividend amount is entered as a negative value and is negative $0.70. The Nper (N) or periods is 9. There is no value for the payment or PMT. The future value (dividend amount in nine years) is 13.04% or $2.11. The growth rate is in cell G22 and is 13.0427%."><image mime-type="image/png" src="../../media/FINAN_Figure_11_02_010.png"/></media>
     <caption>Excel Solution for Growth Rate</caption></figure>
     <para id="para-00105">The Excel command used in cell G22 to calculate the growth rate is as follows:</para>
-    <para id="para-00106">=RATE(nper,pmt,pv,[fv],[type],[guess])</para>
+    <code class="centered-code">=RATE(nper,pmt,pv,[fv],[type],[guess])</code>
     <para id="para-00107">We now have two methods to estimate <emphasis effect="italics">g</emphasis>, the growth rate of the dividends. The first method, calculating the change in dividend each year and then averaging these changes, is the arithmetic approach. The second method, using the first and last dividends only, is the geometric approach. The arithmetic approach is equivalent to a simple interest approach, and the geometric approach is equivalent to a compound interest approach.</para>
     <para id="para-00108">To apply our PV formula above, we had to assume that the company would pay dividends forever and that we would hold on to our stock forever. If we assume that we will sell the stock at some point in the future, however, can we use this formula to estimate the value of a stock held for a finite period of time? The answer is a qualified yes. We can adjust this model for a finite horizon to estimate the present value of the dividend stream that we will receive while holding the stock. We will still have a problem estimating the stock’s selling price at the end of this finite dividend stream, and we will address this issue shortly. For the finite growing dividend stream, we adjust the infinite stream in our earlier equation to the following:</para>
     <equation id="eq-00027"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>Price</mi><mn>0</mn></msub><mo> </mo><mo>=</mo><mo> </mo><msub><mi>D</mi><mn>0</mn></msub><mo> </mo><mo>×</mo><mo> </mo><mfrac><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>g</mi></mrow><mrow><mi>r</mi><mo> </mo><mo>-</mo><mo> </mo><mi>g</mi></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><mfenced open="[" close="]"><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><msup><mfenced><mfrac><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>g</mi></mrow><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>r</mi></mrow></mfrac></mfenced><mi>n</mi></msup></mrow></mfenced></math></equation>
@@ -564,7 +562,7 @@
     <para id="para-00113">We need to estimate the dividend in 10 years and assume a growth rate and the required return of the new owner at that point in time. Let’s assume that the new owner also wants a 17% return and that the dividend growth rate will remain at 13.04%. We calculate the dividend in 10 years by taking the current growth rate plus one raised to the tenth power times the current dividend:</para>
     <equation id="eq-00030"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>D</mi><mn>10</mn></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>2</mn><mo>.</mo><mn>11</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mfenced><mrow><mn>1</mn><mo>.</mo><mn>1304</mn></mrow></mfenced><mn>10</mn></msup><mo>=</mo><mo>$</mo><mn>2</mn><mo>.</mo><mn>11</mn><mo> </mo><mo>×</mo><mo> </mo><mn>3</mn><mo>.</mo><mn>4066</mn><mo> </mo><mo>=</mo><mo>$</mo><mn>7</mn><mo>.</mo><mn>1879</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00114" xmlns="http://cnx.rice.edu/cnxml">We then use the dividend growth model with infinite horizon to determine the price in 10 years as follows:</para>
-    <para id="para-00115">Your price for the stock today—given that you will receive the growing dividend stream for 10 years and sell for $258.10 in 10 years, and also given that you want a 17% return over the 10 years—is</para>
+    <para id="para-00115">Your price for the stock today—given that you will receive the growing dividend stream for 10 years and sell for $258.10 in 10 years, and also given that you want a 17% return over the 10 years—is as shown below:</para>
     <equation id="eq-00031"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Price</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mfrac><mrow><mo>$</mo><mn>205</mn><mo>.</mo><mn>18</mn></mrow><msup><mfenced><mrow><mn>1</mn><mo>.</mo><mn>1700</mn></mrow></mfenced><mn>10</mn></msup></mfrac><mo> </mo><mo>+</mo><mo> </mo><mfrac><mrow><mo>$</mo><mn>2</mn><mo>.</mo><mn>11</mn><mo> </mo><mo>×</mo><mo> </mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>1304</mn><mo>)</mo></mrow><mrow><mo>(</mo><mn>0</mn><mo>.</mo><mn>1700</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>1304</mn><mo>)</mo></mrow></mfrac><mo> </mo><mo>×</mo><mo> </mo><mfenced open="[" close="]"><mrow><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><msup><mfenced><mfrac><mrow><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>1304</mn></mrow><mrow><mn>1</mn><mo>+</mo><mn>0</mn><mo>.</mo><mn>1700</mn></mrow></mfrac></mfenced><mn>10</mn></msup></mrow></mfenced></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>42</mn><mo>.</mo><mn>68</mn><mo> </mo><mo>+</mo><mo> </mo><mo>$</mo><mn>17</mn><mo>.</mo><mn>55</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>60</mn><mo>.</mo><mn>23</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00116" xmlns="http://cnx.rice.edu/cnxml">Why did you get the same price of $60.23 for your stock with both the infinite growth model and the finite model? The reason is that the required rate of return of the stock remained at 17% (your rate) and the growth rate of the dividends remained at 13.04%. The infinite growth model gives the same price as the finite model with a future selling price as long as the required return and the growth rate are the same for all future sales of the stock.</para>
     <para id="para-00117">Although this point may be subtle, what we have just shown is that a stock’s price is the present value of its future dividend stream. When you sell the stock, the buyer purchases the remaining dividend stream. If that individual should sell the stock in the future, the new owner would buy the remaining dividends. That will always be the case; a stock’s buyer is always buying the future dividend stream.</para>
@@ -575,7 +573,7 @@
     <note class="think-through" id="note-00008">
     <title>Nonconstant Growth Dividends</title>
     <exercise class="unnumbered" id="exer-00003"><problem id="prob-00003"><para id="para-00119">One final issue to address in this section is how we price a stock when dividends are neither constant nor growing at a constant rate. This can make things a bit more complicated. When a future pattern is not an annuity or the modified annuity stream of constant growth, there is no shortcut. You have to estimate every future dividend and then discount each individual dividend back to the present. All is not lost, however. Sometimes you can see patterns in the dividends. For example, a firm might shift into a dividend stream pattern that will allow you to use one of the dividend models to take a shortcut for pricing the stock. Let’s look at an example.</para>
-    <para id="para-00120">JM and Company is a small start-up firm that will institute a dividend payment—a $0.25 dividend—for the first time at the end of this year. The company expects rapid growth over the next four years and will increase its dividend to $0.50, then to $1.50, and then to $3.00 before settling into a constant growth dividend pattern with dividends growing at 5% every year (see timeline below). If you believe that JM and Company will deliver this dividend pattern and you desire a 13% return on your investment, what price should you pay for this stock?</para>
+    <para id="para-00120">JM and Company is a small start-up firm that will institute a dividend payment—a $0.25 dividend—for the first time at the end of this year. The company expects rapid growth over the next four years and will increase its dividend to $0.50, then to $1.50, and then to $3.00 before settling into a constant growth dividend pattern with dividends growing at 5% every year (see <link target-id="table-00006" document="m00068"/>). If you believe that JM and Company will deliver this dividend pattern and you desire a 13% return on your investment, what price should you pay for this stock?</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00006" class="timeline-table">
     <tgroup cols="6">
     <colspec colnum="1" colname="c1"/>

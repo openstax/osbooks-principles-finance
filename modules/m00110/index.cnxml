@@ -27,8 +27,8 @@
     <para id="para-00006">A company has an incentive to increase leverage to exploit the interest tax shield. However, too much debt will make it more likely that the company will default and incur financial distress costs. Calculating the precise balance between these two is difficult if not impossible.</para>
     <para id="para-00007">For companies with a low level of debt, the risk of default is low, and the main impact of an increase in leverage will be an increase in the interest tax shield. At some point, however, the tax savings that result from increasing the amount of debt in the capital structure will be just offset by the increased probability of incurring the costs of financial distress. For firms that have higher costs of financing distress, this point will be reached sooner. Thus, firms that face higher costs of financial distress have a lower optimal level of leverage than firms that face lower costs of financial distress.</para>
     <note class="link-to-learning" id="note-00001">
-    <title><term class="no-emphasis" id="term-00003">Netflix</term></title>
-    <para id="para-00008">Netflix has experienced phenomenal growth in the past 25 years. Starting as a DVD rental company, Netflix quickly shifted its model to content streaming. In recent years, the company has become a major producer of content, and it is currently the largest media/entertainment company by market capitalization. It is expensive for Netflix to fund the production of this content. Netflix has funded much of its content through selling debt.</para>
+    <title>Netflix</title>
+    <para id="para-00008"><term class="no-emphasis" id="term-00003">Netflix</term> has experienced phenomenal growth in the past 25 years. Starting as a DVD rental company, Netflix quickly shifted its model to content streaming. In recent years, the company has become a major producer of content, and it is currently the largest media/entertainment company by market capitalization. It is expensive for Netflix to fund the production of this content. Netflix has funded much of its content through selling debt.</para>
     <para id="para-00009">You can view the company’s explanation of this capital structure choice by looking at the answers <link url="https://openstax.org/r/the-company-provides">the company provides to common investor questions</link>. You can also find the company’s financial statements on its website and see how the level of debt on Netflix’s balance sheet has increased over the past few years.</para>
     </note>
     <para id="para-00010"><link target-id="fig-00001" document="m00110"/> demonstrates how the value of a levered firm varies with the level of debt financing used. <emphasis effect="italics">V</emphasis><sub>u</sub> is the value of the unlevered firm, or the firm with no debt. As the firm begins to add debt to its capital structure, the value of the firm increases due to the interest tax shield. The more debt the company takes on, the greater the tax benefit it receives, up until the point at which the company’s interest expense exceeds its earnings before interest and taxes (EBIT). Once the interest expense equals EBIT, the firm will have no taxable income. There is no tax benefit from paying more interest after that point.</para>
@@ -59,7 +59,7 @@
     <entry align="center">Beta</entry>
     <entry align="center">Cost of Equity</entry>
     <entry align="center">Tax Rate</entry>
-    <entry align="center">After-Tax Cost of Debt</entry>
+    <entry align="center">After-Tax<newline/>Cost of Debt</entry>
     <entry align="center">WACC</entry>
   </row>
     </thead>
@@ -256,10 +256,10 @@
     </row>
     </tbody>
     </tgroup>
-    <caption>(data source: Aswath Damodaran Online)</caption>
-    </table>
+    <caption>(data source: Aswath <term class="no-emphasis" id="term-00004">Damodaran Online)
+    
     <para id="para-00015">Industries that have high betas, such as hotels/gaming and air transport, have high equity costs of capital. More recession-proof industries, such as food processing and household products, have low betas and low equity costs of capital. The WACC for each industry ends up being influenced by the weights of equity and debt the company chooses, the riskiness of the industry, and the tax rates faced by companies in the industry.</para>
-    </section>
+    
     <section class="section-summary" id="sect-00004">
     <para id="para-00016">A company wants to choose a capital structure that maximizes its value. Although increasing the level of financial leverage, or debt, in the capital structure increases the value of the interest tax shield, it also increases the probability of financial distress. As the weight of debt in the capital structure increases, the return that providers of both debt and equity capital require to entice them to provide money to the firm increases because their risk increases. Trade-off theory suggests that the value of a company that uses debt equals the value of the unlevered firm plus the value of the interest tax shield minus financial distress costs.</para>
     </section>
@@ -281,9 +281,9 @@
     <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00021"><link class="os-embed" url="#exercise/FI_Ch17_Sec5_VA2Q2"/></para></problem></exercise>
     </section>
     </section>
-    </content>
+    
     <glossary>
     <definition id="def-00001"><term>financial distress</term><meaning>when a firm has trouble meeting debt obligations</meaning></definition>
     <definition id="def-00002"><term>trade-off theory</term><meaning>a theory stating that the total value of a levered company is the value of the firm without leverage plus the value of the interest tax shield less financial distress costs</meaning></definition>
     </glossary>
-</document>
+</term></caption></table></section></content></document>
