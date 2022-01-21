@@ -52,10 +52,10 @@
     <row>
     <entry align="center">Issuer</entry>
     <entry align="center">Bond Type</entry>
-    <entry align="center">Current Price %</entry>
+    <entry align="center">Current<newline/>Price %</entry>
     <entry align="center">Callable?</entry>
-    <entry align="center">Coupon Rate %</entry>
-    <entry align="center">Maturity Date</entry>
+    <entry align="center">Coupon<newline/>Rate %</entry>
+    <entry align="center">Maturity<newline/>Date</entry>
     <entry align="center">Yield%</entry>
     <entry align="center">Rating</entry>
     </row>

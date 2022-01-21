@@ -34,6 +34,85 @@
     <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Par</mi><mi>Value</mi><mo>×</mo><mi>Annual</mi><mi>Coupon</mi><mi>Rate</mi><mo>=</mo><mi>Annual</mi><mi>Coupon</mi><mi>Payment</mi></math></equation>
     <equation id="eq-00002" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>1,000</mn><mo>×</mo><mn>2.25%</mn><mo>=</mo><mo>$</mo><mn>22.50</mn></math></equation>
     <para id="para-00010" xmlns="http://cnx.rice.edu/cnxml">The next future cash flow that we need to determine is the payment of the par value or principal—in this case, the $1,000 par value of the bond—at the maturity date of September 19, 2026. We can set out the future cash flows for the bond as shown in the timeline below:</para>
+    <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00009">
+      <tgroup cols="16">
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
+      <colspec colnum="6" colname="c6"/>
+      <colspec colnum="7" colname="c7"/>
+      <colspec colnum="8" colname="c8"/>
+      <colspec colnum="9" colname="c9"/>
+      <colspec colnum="10" colname="c10"/>
+      <colspec colnum="11" colname="c11"/>
+      <colspec colnum="12" colname="c12"/>
+      <colspec colnum="13" colname="c13"/>
+      <colspec colnum="14" colname="c14"/>
+      <colspec colnum="15" colname="c15"/>
+      <colspec colnum="16" colname="c16"/>
+      <thead>
+      <row>
+      <entry align="center">Year (Period)</entry>
+      <entry align="center">1</entry>
+      <entry align="center">2</entry>
+      <entry align="center">3</entry>
+      <entry align="center">4</entry>
+      <entry align="center">5</entry>
+      <entry align="center">6</entry>
+      <entry align="center">7</entry>
+      <entry align="center">8</entry>
+      <entry align="center">9</entry>
+      <entry align="center">10</entry>
+      <entry align="center">11</entry>
+      <entry align="center">12</entry>
+      <entry align="center">13</entry>
+      <entry align="center">14</entry>
+      <entry align="center">15</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row>
+      <entry align="left">Coupons</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      <entry align="right">$22.50</entry>
+      </row>
+      <row>
+      <entry align="left">Principal</entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right"> </entry>
+      <entry align="right">$1,000</entry>
+      </row>
+      </tbody>
+      </tgroup>
+      </table>
+
     <figure class="unnumbered" id="fig-00002">
     <media alt="A timeline of cash flow over a period of 15 years. The coupon for each period is $22.50. The principal of $1,000 is only present in the fifteenth period."><image mime-type="image/png" src="../../media/FINAN_Figure_10_02_006.png"/></media>
     </figure>
@@ -91,7 +170,7 @@
     </row>
     <row>
     <entry align="center">3</entry>
-    <entry align="left">Enter interest rate <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mfrac><mrow><mn>5</mn><mi mathvariant="normal">%</mi><mi>annual</mi><mi>rate</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2.5</mn><mi mathvariant="normal">%</mi><mo> </mo><mi>semiannual</mi><mi>rate</mi></mrow></mfenced></math></entry>
+    <entry align="left">Enter interest rate<newline/><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mfrac><mrow><mn>5</mn><mi mathvariant="normal">%</mi><mi>annual</mi><mi>rate</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2.5</mn><mi mathvariant="normal">%</mi><mo> </mo><mi>semiannual</mi><mi>rate</mi></mrow></mfenced></math></entry>
     <entry align="left" xmlns="http://cnx.rice.edu/cnxml">2.5 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">2.5000</entry>
@@ -105,7 +184,7 @@
     </row>
     <row>
     <entry align="center">5</entry>
-    <entry align="left">Enter coupon payment <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>4</mn><mo>%</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mo>$</mo><mn>20</mn></math> as a negative amount</entry>
+    <entry align="left">Enter coupon payment <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>×</mo><mo> </mo><mn>4</mn><mo>%</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mo>$</mo><mn>20</mn></math><newline xmlns="http://cnx.rice.edu/cnxml"/>as a negative amount</entry>
     <entry align="left" xmlns="http://cnx.rice.edu/cnxml">20 <span class="primary-function">+|-</span> <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>=</mo></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml">-20.0000</entry>
