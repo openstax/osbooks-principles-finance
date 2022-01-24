@@ -431,7 +431,7 @@
       <tbody>
       <row>
       <entry align="left">Cash Invested</entry>
-      <entry align="right"> </entry>
+      <entry align="right">$0.00</entry>
       <entry align="right">$2,000</entry>
       <entry align="right">$2,000</entry>
       <entry align="right">$2,000</entry>
@@ -557,7 +557,7 @@
       <tbody>
       <row>
       <entry align="left">Expected Amount to Be Withdrawn at End of Year</entry>
-      <entry align="right"> </entry>
+      <entry align="right">$0.00</entry>
       <entry align="right">$17,000</entry>
       <entry align="right">$17,000</entry>
       <entry align="right">$17,000</entry>
@@ -611,6 +611,7 @@
       <entry align="right">$17,000</entry>
       <entry align="right">$17,500</entry>
       <entry align="right">$18,000</entry>
+      <entry align="right"> </entry>
       </row>
       <row>
       <entry align="left">Interest Rate</entry>

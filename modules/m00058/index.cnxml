@@ -49,7 +49,7 @@
           <tbody>
             <row>
               <entry align="left">Cash Invested</entry>
-              <entry align="right"/>
+              <entry align="right">$0.00</entry>
               <entry align="right">$2,000</entry>
               <entry align="right">$2,000</entry>
               <entry align="right">$2,000</entry>
@@ -124,7 +124,7 @@
         <tbody>
           <row>
             <entry align="left">Cash Invested</entry>
-            <entry align="right"/>
+            <entry align="right">$0.00</entry>
             <entry align="right">$2,000</entry>
             <entry align="right">$2,000</entry>
             <entry align="right">$2,000</entry>
@@ -255,7 +255,7 @@
       <tbody>
         <row>
           <entry align="left">Cash Invested</entry>
-          <entry align="right"/>
+          <entry align="right">$0.00</entry>
           <entry align="right">$2,000</entry>
           <entry align="right">$2,000</entry>
           <entry align="right">$2,000</entry>
@@ -335,7 +335,7 @@
             <tbody>
               <row>
                 <entry align="left">Cash Invested</entry>
-                <entry align="right"/>
+                <entry align="right">$0.00</entry>
                 <entry align="right">$10,000</entry>
                 <entry align="right">$10,000</entry>
                 <entry align="right">$10,000</entry>
@@ -423,11 +423,9 @@
 
     <math xmlns="http://www.w3.org/1998/Math/MathML">
       <mn>56,329.76</mn><mo>+</mo><mn>5,408.00</mn><mo>+</mo><mn>5,200.00</mn><mo>=</mo><mo>$</mo><mn>66,937.76</mn>
-  </math>
-</equation>.
+  </math></equation>
 <para id="para-00087" xmlns="http://cnx.rice.edu/cnxml">It works. Whether you view this problem as five separate periods that can be compounded separately and then combined or as a combination of one or more annuities and/or single payment problems, we always arrive at the same solution if we are diligent about the time, the interest, and the stream of payments.</para>
-
-<section id="sect-00003" xmlns="http://cnx.rice.edu/cnxml">
+<section id="sect-00003">
   <title>The Present Value of a Mixed Stream</title>
   <para id="para-00030">Now that we’ve seen the calculation of a <term id="term-00004">future value</term>, consider a <term id="term-00005">present value</term>. We will begin with a personal example. You win a cash windfall through your state’s lottery. You would like to take a portion of the funds and place them in a fixed investment so that you can draw $17,000 per year starting one year from now and continue to do so for the next two years. At the end of year 4, you want to withdraw $17,500, and at the end of year 5, you will withdraw the last $18,000 to close the account. When you take your last payment of $18,000, your fund will be totally depleted. You will always be earning 6% annually. How much of your cash windfall should you set aside today to accomplish this?</para>
   <para id="para-00031">Let us break down the problem, remembering that we are thinking in reverse from the earlier problems that involved future values. In this case, we’re bringing future values back in time to find their present values. You will recall that this process is called <emphasis effect="italics">discounting</emphasis> rather than <emphasis effect="italics">compounding</emphasis>.
@@ -489,7 +487,7 @@
       <mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>PV</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi>FV</mi><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi><mo>)</mo></mrow><mi>n</mi></msup></mfrac></mtd></mtr></mtable></math>
   </equation>
   <para id="para-00036" xmlns="http://cnx.rice.edu/cnxml">where PVa is the present value of an annuity, PYMT is one payment in a consistent stream (an annuity), <emphasis effect="italics">i</emphasis> is the interest rate (annual unless otherwise specified), <emphasis effect="italics">n</emphasis> is the number of periods, PV is the present value of a single amount, and FV is the future value of a single amount.</para>
-  <para id="para-00037" xmlns="http://www.w3.org/1998/Math/MathML">You want to find out how much money you need to set aside today to accomplish your goal. You can also find out how much money you need to set aside in each period to accomplish this goal. Therefore, we can address this problem in increments. Let us look at potential solutions.</para>
+  <para id="para-00037">You want to find out how much money you need to set aside today to accomplish your goal. You can also find out how much money you need to set aside in each period to accomplish this goal. Therefore, we can address this problem in increments. Let us look at potential solutions.</para>
   <para id="para-00038" xmlns="http://cnx.rice.edu/cnxml">First, we will break this down into the cash flows of each year. <link target-id="table-00005" document="m00058"/>
  shows the timing of the future cash flows you’re expecting:</para>
   <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00005">
@@ -515,7 +513,7 @@
       <tbody>
         <row>
           <entry align="left">Expected Amount to Be Withdrawn at End of Year</entry>
-          <entry align="right"/>
+          <entry align="right">$0.00</entry>
           <entry align="right">$17,000</entry>
           <entry align="right">$17,000</entry>
           <entry align="right">$17,000</entry>
@@ -543,8 +541,7 @@
     <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><msub><mi>PV</mi><mn>3</mn></msub></mtd><mtd><mo> </mo><mo>=</mo><mo> </mo></mtd><mtd><mo>$</mo><mn>17,000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>06</mn><mo>)</mo></mrow><mn>3</mn></msup></mfrac><mo>≈</mo><mo>$</mo><mn>14,273.53</mn></mtd></mtr><mtr><mtd><msub><mi>PV</mi><mn>4</mn></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>17,500</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>06</mn><mo>)</mo></mrow><mn>4</mn></msup></mfrac><mo>≈</mo><mo>$</mo><mn>13,861.64</mn></mtd></mtr><mtr><mtd><msub><mi>PV</mi><mn>5</mn></msub></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>18,000</mn><mo> </mo><mo>×</mo><mo> </mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>06</mn><mo>)</mo></mrow><mn>5</mn></msup></mfrac><mo>≈</mo><mo>$</mo><mn>13,450.65</mn></mtd></mtr></mtable></math>
   </equation>
   <para id="para-00042" xmlns="http://cnx.rice.edu/cnxml">Notice how we reverse our thinking on the exponent <emphasis effect="italics">n</emphasis> from our approach to future value. This time, it increases each period because we discount each future amount for a longer period to arrive at the value in today’s dollars.</para>
-  <para id="para-00043" xmlns="http://www.w3.org/1998/Math/MathML">When we add all five discounted present value amounts from above, we derive today’s value of $72,753.49. Expressed more simply, if you wanted to extract the specified stream of cash flows at the end of each year ($17,000 for three years, then $17,500, then $18,000), you would have to begin with $72,753.49. The thing to remember is that any amounts remaining in this fund, regardless of how you deplete it, will always be earning 6% annually. See <link target-id="table-00006" document="m00058"/>
-.</para>
+  <para id="para-00043">When we add all five discounted present value amounts from above, we derive today’s value of $72,753.49. Expressed more simply, if you wanted to extract the specified stream of cash flows at the end of each year ($17,000 for three years, then $17,500, then $18,000), you would have to begin with $72,753.49. The thing to remember is that any amounts remaining in this fund, regardless of how you deplete it, will always be earning 6% annually. See <link target-id="table-00006" document="m00058"/>.</para>
   <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00006" xmlns="http://cnx.rice.edu/cnxml">
     <tgroup cols="7">
       <colspec colnum="1" colname="c1"/>
@@ -629,7 +626,7 @@
       <mn>45,441.20</mn><mo>+</mo><mn>13,861.64</mn><mo>+</mo><mn>13,450.65</mn><mo>=</mo><mo>$</mo><mn>72,753.49</mn></math>
   </equation>
   <para id="para-00049" xmlns="http://cnx.rice.edu/cnxml">Calculating the present value of cash flows is very common and critical in the analysis of <term id="term-00006">capital investments</term> in business for two compelling reasons: first, the investment is likely quite significant, and second, the risk will usually encompass a longer time frame. When the author of this chapter would purchase a large machine, it would likely take several years for that machine to justify its purchase with the revenues it would generate. This is one of the primary reasons that accountants require us to depreciate the cost of an asset over time: to assess the cost against the time it will take for that asset to produce profits and cash flow.</para>
-  <note class="think-through" id="note-00002" xmlns="http://www.w3.org/1998/Math/MathML">
+  <note class="think-through" id="note-00002">
     <title>Present Value of a Mixed Stream</title>
     <exercise class="unnumbered" id="exer-00002">
       <problem id="prob-00002">
@@ -680,7 +677,7 @@
       </solution>
     </exercise>
   </note>
-  <note class="concepts-practice" id="note-00003" xmlns="http://www.w3.org/1998/Math/MathML">
+  <note class="concepts-practice" id="note-00003">
     <title>Thoughts on Cash Flow from Irina Simmons</title>
     <para id="para-00054">In 2013, the author interviewed Irina <term class="no-emphasis" id="term-00007">Simmons</term>, senior vice president, chief risk officer, and former treasurer of <term class="no-emphasis" id="term-00008">EMC Corporation</term>. The importance and understanding of cash flow analysis is fundamental to this text, and several of her insights are highly relevant to our content and procedures here.</para>
     <para id="para-00055">
@@ -703,7 +700,8 @@
     <para id="para-00063">These materials, developed to help professionals prepare for an analyst certification exam, describe the <link url="https://openstax.org/r/return-investing-bond">sources of return from investing in a bond</link>.
     </para>
   </note>
-
+  </section>
+  </section>
   <section class="section-summary" id="sect-00004">
     <title/>
     <para id="para-00064">To understand the true value and strength of cash, it is necessary to consider its timing. This is relevant for investments for the future and for analyses of the value of projects that require investment today to produce expected flows of cash later. These future cash flows could involve inflows or outflows of cash in unequal amounts. This section analyzed the determination of present and future value of these uneven or mixed cash flows.</para>
@@ -874,7 +872,7 @@
       </exercise>
     </section>
   </section>
-
+</content>
   <glossary>
     <definition id="def-00001">
       <term>capital investment</term>
@@ -897,23 +895,4 @@
       <meaning>the value of an asset in today’s dollars based on future growth expectations at an assumed interest rate</meaning>
     </definition>
   </glossary>
-
-
-
-
-
-
-
-
-
-
-</section>
-
-
-
-
-
-
-</section>
-</content>
 </document>
