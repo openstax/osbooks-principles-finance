@@ -211,7 +211,7 @@
     <entry align="right"><emphasis effect="bold">22,578.96</emphasis></entry>
     </row>
     <row>
-    <entry align="center" namest="c1" nameend="c8"><equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>NPV</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>86</mn><mo>,</mo><mn>644</mn><mo>.</mo><mn>69</mn></mtd></mtr></mtable></math></equation></entry>
+    <entry align="center" namest="c1" nameend="c8"><equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>NPV</mi></mtd><mo> </mo><mtd><mo>=</mo><mo> </mo></mtd><mtd><mo>$</mo><mn>86,644.69</mn></mtd></mtr></mtable></math></equation></entry>
     </row>
     </tbody>
     </tgroup>
