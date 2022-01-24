@@ -25,7 +25,7 @@
 <media alt="Chris’ Landscaping, Income Statement, For the Month Ended August 31, 2020. Revenue $1,400, Total revenue $1,400. Expenses: Tractor brake repair 100, Tractor fuel 50, Buiness insurance 1,000; Total Expenses 1,150; Net income $250."><image mime-type="image/png" src="../../media/FINAN_Figure_04_02_002.png"/></media>
 </figure>
 <para id="para-00006">The income statement can also be visualized by the formula:</para>
-<equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Revenue</mi><mo>-</mo><mi>Expenses</mi><mo>=</mo><mpadded><mi>Net</mi><mi>Income</mi><mi>or</mi><mi>net</mi><mi>Net</mi><mi>Loss</mi></mpadded></math></equation>
+<equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Revenue</mi><mo>-</mo><mi>Expenses</mi><mo>=</mo><mpadded><mi>Net</mi><mi>Income</mi><mi>or</mi><mi>Net</mi><mi>Loss</mi></mpadded></math></equation>
 <para id="para-00007" xmlns="http://cnx.rice.edu/cnxml">Let’s change this example slightly and assume the $1,000 payment to the insurance company will be paid in September rather than in August. In this case, the ending balance in Chris’s checking account would be $1,250, a result of earning $1,400 and only spending $100 for the brakes on the tractor and $50 for fuel. This stream of cash flows is an example of cash-basis accounting because it reflects when payments are received and made, not necessarily the time period that they affect. At the end of this section, you will address accrual accounting, which does reflect the time period that payments affect.</para>
 <section id="sect-00003">
 <title>The Accounting Equation</title>
@@ -94,7 +94,7 @@
 <section class="section-summary" id="sect-00006">
 <title/>
 <para id="para-00025">Double-entry accounting means that each time a transaction is recorded, there are at minimum two accounts impacted by the entry. Each entry’s debits must total its credits in order to support and maintain the balance in the accounting equation. The accounting equation is expressed as</para>
-<equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>=</mo><mi>Liabilities</mi><mo>+</mo><mi>Owner</mi><mo>’</mo><mi mathvariant="normal">s</mi><mi>Equity</mi></math></equation>
+<equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Assets</mi><mo>=</mo><mi>Liabilities</mi><mo>+</mo><mi>Owner</mi><mo>’</mo><mi mathvariant="normal">s</mi><mi>Equity</mi><mo>.</mo></math></equation>
 </section>
 <section class="multiple-choice" id="sect-00007" xmlns="http://cnx.rice.edu/cnxml">
 <title/>
