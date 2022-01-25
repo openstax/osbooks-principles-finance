@@ -126,7 +126,7 @@
     <para id="para-00011">The frequency table indicates that most customers have portfolio values between $300,000 and $599,000, as this row in the table shows the highest frequency. Very few customers have portfolios with a value below $299,000 or above $1,800,000, as these frequencies in these rows are very low. Because the highest frequency corresponds to the row in the middle of the table and the frequencies decrease with each interval below and above this middle interval, the frequency table indicates that this distribution is a bell-shaped distribution.</para>
     <para id="para-00012">The following is a summary of how to create a frequency distribution table (for integer data). Note that the number of classes in a frequency table is the same as the number of rows in the table.</para>
     <list list-type="enumerated" id="list-00002">
-    <item>Calculate the class width using the formula <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Class</mi><mi>Width</mi><mo>=</mo><mfrac><mrow><mi>Max</mi><mo> </mo><mo>-</mo><mo> </mo>f<mi>Min</mi></mrow><mrow><mi>Number</mi><mi>of</mi><mi>Classes</mi></mrow></mfrac></math>.
+    <item>Calculate the class width using the formula <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Class</mi><mi>Width</mi><mo>=</mo><mfrac><mrow><mi>Max</mi><mo> </mo><mo>-</mo><mo> </mo><mi>Min</mi></mrow><mrow><mi>Number</mi><mi>of</mi><mi>Classes</mi></mrow></mfrac></math>
     <list id="list-00003" xmlns="http://cnx.rice.edu/cnxml">
     <item>Note: For integer data, round the class width up to the next whole number.</item>
     </list></item>
