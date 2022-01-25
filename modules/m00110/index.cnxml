@@ -256,10 +256,9 @@
     </row>
     </tbody>
     </tgroup>
-    <caption>(data source: Aswath <term class="no-emphasis" id="term-00004">Damodaran Online)
-    
+    <caption>(data source: Aswath <term class="no-emphasis" id="term-00004">Damodaran</term> Online)</caption></table>
     <para id="para-00015">Industries that have high betas, such as hotels/gaming and air transport, have high equity costs of capital. More recession-proof industries, such as food processing and household products, have low betas and low equity costs of capital. The WACC for each industry ends up being influenced by the weights of equity and debt the company chooses, the riskiness of the industry, and the tax rates faced by companies in the industry.</para>
-    
+</section>    
     <section class="section-summary" id="sect-00004">
     <para id="para-00016">A company wants to choose a capital structure that maximizes its value. Although increasing the level of financial leverage, or debt, in the capital structure increases the value of the interest tax shield, it also increases the probability of financial distress. As the weight of debt in the capital structure increases, the return that providers of both debt and equity capital require to entice them to provide money to the firm increases because their risk increases. Trade-off theory suggests that the value of a company that uses debt equals the value of the unlevered firm plus the value of the interest tax shield minus financial distress costs.</para>
     </section>
@@ -274,16 +273,14 @@
     <title/>
     <section id="sect-00008">
     <title>Capital Structure for Real Estate Companies</title>
-    <media alt="Capital-Structure">
-    <iframe width="660" height="371.4" src="https://openstax.org/r/optimal-capital"/>
-    </media>
+    <para id="para-00022"><link url="https://openstax.org/r/optimal-capital">Click to view video content</link></para>
     <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00020"><link class="os-embed" url="#exercise/FI_Ch17_Sec5_VA2Q1"/></para></problem></exercise>
     <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00021"><link class="os-embed" url="#exercise/FI_Ch17_Sec5_VA2Q2"/></para></problem></exercise>
     </section>
     </section>
-    
+  </content>
     <glossary>
     <definition id="def-00001"><term>financial distress</term><meaning>when a firm has trouble meeting debt obligations</meaning></definition>
     <definition id="def-00002"><term>trade-off theory</term><meaning>a theory stating that the total value of a levered company is the value of the firm without leverage plus the value of the interest tax shield less financial distress costs</meaning></definition>
     </glossary>
-</term></caption></table></section></content></document>
+</document>
