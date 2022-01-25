@@ -53,7 +53,7 @@
     <tbody>
     <row>
     <entry align="left">Cash Flow ($)</entry>
-    <entry align="right">(16,000.00 )</entry>
+    <entry align="right">(16,000.00)</entry>
     <entry align="right">2,000.00</entry>
     <entry align="right">4,000.00</entry>
     <entry align="right">5,000.00</entry>
@@ -63,7 +63,7 @@
     </row>
     <row>
     <entry align="left">Discounted Cash Flow ($)</entry>
-    <entry align="right">(16,000 )</entry>
+    <entry align="right">(16,000)</entry>
     <entry align="right">1,834.86</entry>
     <entry align="right">3,366.72</entry>
     <entry align="right">3,860.92</entry>
@@ -84,7 +84,7 @@
     </tbody>
     </tgroup>
     </table>
-    <para id="para-00008">When the cash flows are appropriately discounted, the project still has not broken even by the end of year 5. The discounted payback period would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>5</mn><mo>+</mo><mfrac><mrow><mn>145</mn><mo>.</mo><mn>72</mn></mrow><mrow><mn>2</mn><mo>,</mo><mn>981</mn><mo>.</mo><mn>34</mn></mrow></mfrac><mo>=</mo><mn>5</mn><mo>.</mo><mn>05</mn></math> years. This adjusted calculation addresses the payback period method’s flaw of not considering the time value of money, but managers are still confronted with the other disadvantages. No objective criterion for acceptance or rejection exists because of the lack of a theoretical underpinning for what is an acceptable payback period length. The discounted payback period ignores any cash flows after breakeven occurs; this is a serious drawback, especially when comparing mutually exclusive projects.</para>
+    <para id="para-00008">When the cash flows are appropriately discounted, the project still has not broken even by the end of year 5. The discounted payback period would be <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>5</mn><mo>+</mo><mfrac><mrow><mn>145</mn><mo>.</mo><mn>72</mn></mrow><mrow><mn>2</mn><mo>,</mo><mn>981</mn><mo>.</mo><mn>34</mn></mrow></mfrac><mo>=</mo><mn>5.05</mn></math> years. This adjusted calculation addresses the payback period method’s flaw of not considering the time value of money, but managers are still confronted with the other disadvantages. No objective criterion for acceptance or rejection exists because of the lack of a theoretical underpinning for what is an acceptable payback period length. The discounted payback period ignores any cash flows after breakeven occurs; this is a serious drawback, especially when comparing mutually exclusive projects.</para>
     </section>
     <section id="sect-00004" xmlns="http://cnx.rice.edu/cnxml">
     <title>Modified Internal Rate of Return (MIRR)</title>
@@ -196,7 +196,7 @@
     <item>The future value of each of the six expected cash inflows is calculated using the company’s 9% cost of attracting capital. Each of the cash flows is translated to its value in time period 6, the time period of the final cash inflow. The sum of the future value of these six cash flows is $31,595.22. Thus, the terminal value is $31,595.22</item>
     <item>The interest rate that equates the present value of the outflows, $16,000, to the terminal value of $31,595.22 six years later is found using the formula</item>
     </list>
-    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>16</mn><mo>,</mo><mn>000</mn><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi></mrow></mfenced><mn>6</mn></msup><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>31</mn><mo>,</mo><mn>595</mn><mo>.</mo><mn>22</mn></mtd></mtr><mtr><mtd><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi></mrow></mfenced><mn>6</mn></msup><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>1</mn><mo>.</mo><mn>97</mn></mtd></mtr><mtr><mtd><mi>i</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>0</mn><mo>.</mo><mn>12</mn><mo>=</mo><mn>12</mn><mo>%</mo></mtd></mtr></mtable></math></equation>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>16,000</mn><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi></mrow></mfenced><mn>6</mn></msup><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>31,595.22</mn></mtd></mtr><mtr><mtd><msup><mfenced><mrow><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mi>i</mi></mrow></mfenced><mn>6</mn></msup><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>1.97</mn></mtd></mtr><mtr><mtd><mi>i</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>0.12</mn><mo>=</mo><mn>12</mn><mo>%</mo></mtd></mtr></mtable></math></equation>
     <para id="para-00011" xmlns="http://cnx.rice.edu/cnxml">The MIRR solves the reinvestment rate assumption problem of the IRR method because all cash flows are compounded at the cost of capital. In addition, solving for MIRR will result in only one solution, unlike the IRR, which may have multiple mathematical solutions. However, the MIRR method, like the IRR method, suffers from the limitation that it does not distinguish between large-scale and small-scale projects. Because of this limitation, the MIRR cannot be used to rank projects; it can only be used to make accept-or-reject decisions.</para>
     </section>
     <section class="section-summary" id="sect-00005">
