@@ -423,10 +423,11 @@
     <exercise class="unnumbered" id="exer-00004">
     <problem id="prob-00004">
     <para id="para-00040">Here is another example of using a financial calculator to solve a common time value of money problem. Let’s use a similar example to the one we used when calculating periods of time to determine an interest or growth rate. You still want to help your child with their first year of college tuition and related expenses. You also still have a starting amount of $15,000, but you have not yet decided on a savings plan to use.</para>
-    <para id="para-00041">Instead, the information you now have is that your child is just under 10 years old and will begin college at age 18. For simplicity’s sake, let’s say that you have eight and a half years before you will need to meet your total savings target of $25,000. What rate of interest will you need to grow your saved money from $15,000 to $25,000 in this time period, again with no other deposits or withdrawals? Follow the steps shown in <link target-id="table-00007" document="m00049"/>.</para>
+    <para id="para-00041">Instead, the information you now have is that your child is just under 10 years old and will begin college at age 18. For simplicity’s sake, let’s say that you have eight and a half years before you will need to meet your total savings target of $25,000. What rate of interest will you need to grow your saved money from $15,000 to $25,000 in this time period, again with no other deposits or withdrawals?</para>
     </problem>
     <solution id="sol-00004">
     <para id="para-00042"><emphasis>Solution:</emphasis></para>
+    <para id="para-00048">Follow the steps shown in <link target-id="table-00007" document="m00049"/>.</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00007">
     <title>Calculator Steps for Determining Interest Rate</title>
     <tgroup cols="5">
@@ -518,9 +519,9 @@
     <media alt="Screenshot of FV Function within Excel. Cells E1 and E2 show how the FV function appears in the spreadsheet as it is typed in with the required arguments. Cell E4 shows the calculated answer for cell E1 after hitting the enter key. Once the Enter key is pressed, the hint banner appearing in cell E3 will disappear. The second example of the FV function is in cell E6. The actual numerical values are used in the FV function equation rather than cell references. The method in cell E8 is referred to as hardcoding."><image mime-type="image/png" src="../../media/FINAN_Figure_07_03_003.png"/></media>
     </figure>
     <para id="para-00058">Cells E1 and E2 show how the FV function appears in the spreadsheet as it is typed in with the required arguments. Cell E4 shows the calculated answer for cell E1 after hitting the enter key. Once the enter key is pressed, the hint banner hovering over cell E3 will disappear. The second example of the FV function in our example spreadsheet is in cell E6. Here, the actual numerical values are used in the FV function equation rather than cell references. The method in cell E8 is referred to as <emphasis effect="italics">hard coding</emphasis>. In general, it is preferable to use the cell reference method, as this allows for copying formulas and provides the user with increased flexibility in accounting for changes to input data. This ability to accept cell references in formulas is one of the greatest strengths of Excel as a spreadsheet tool.</para>
-    
+    <note class="excel-spreadsheet" id="note-00005">
     <para id="para-00059">Download the <link url="https://openstax.org/r/docs.google_uc_export">spreadsheet file</link> containing key Chapter 7 Excel exhibits.</para>
-    
+  </note>
     <para id="para-00060"><emphasis effect="bold">Determining Future Value When Other Variables Are Known</emphasis>. You have $2,000 invested in a money market account that is expected to earn 4% annually. What will be the total value in the account in five years?</para>
     <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Present</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>PV</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>(</mo><mo>$</mo><mn>2</mn><mo>,</mo><mn>000</mn><mo>.</mo><mn>00</mn><mo>)</mo><mo> </mo></mtd></mtr></mtable></math></equation>
     <para id="para-00061" xmlns="http://cnx.rice.edu/cnxml">Note: Be sure to follow the sign conventions. In this case, the PV should be entered as a negative value.</para>
@@ -723,7 +724,7 @@
     <section id="sect-00019">
     <title>Time Value of Money Calculations with Financial Calculator</title>
     <media alt="cash-profit">
-    <iframe width="660" height="371.4" src="https://openstax.org/r/Time_Value_of_Money_Calculations"/></media>
+    <iframe width="660" height="371.4" src="https://openstax.org/r/Time-Value-of-Money-Calculations"/></media>
     <exercise id="exer-00033"><problem id="prob-00033"><para id="para-00133"><link class="os-embed" url="#exercise/FI_Ch7_Sec03_VA1Q1"/></para></problem></exercise>
     <exercise id="exer-00034"><problem id="prob-00034"><para id="para-00134"><link class="os-embed" url="#exercise/FI_Ch7_Sec03_VA1Q2"/></para></problem></exercise>
     </section>
