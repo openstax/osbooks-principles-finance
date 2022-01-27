@@ -32,11 +32,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00001" xmlns="http://cnx.rice.edu/cnxml">
     <title>Calculator Step to Price a Bond Requiring a 5% Return<footnote id="foot-00001">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup> Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="3*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -89,11 +89,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00002">
     <title>Calculator Steps to Price a Bond Requiring an 8% Return</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="1*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -157,9 +157,9 @@
     <section id="sect-00003">
     <title>Swap-Based Hedging</title>
     <para id="para-00015">As the name suggests, a <term id="term-00002">swap</term> involves two parties agreeing to swap, or exchange, something. Generally, the two parties, known as counterparties, are swapping obligations to make specified payment streams.</para>
-    <para id="para-00016">To illustrate the basics of how an interest rate swap works, let’s consider two hypothetical companies, Alpha and Beta. Alpha is a strong, well-established company with a AAA (triple-A) bond rating. This means that Alpha has the highest rating a company can have. With this high rating, Alpha can borrow at relatively low interest rates. Often, companies in this situation will borrow at a floating rate. This means that their interest rate goes up and down as interest rates in the overall economy vary. The floating rate will be tied to a benchmark rate that is widely quoted in the financial press. Historically, companies have often used the <term class="no-emphasis" id="term-00003">London Interbank Offer Rate (LIBOR)</term> as the benchmark rate. Because published quotes for LIBOR will be phased out by 2023, firms are beginning to use alternative rates. As of yet, no single alternative has emerged as the most commonly used rate; therefore, LIBOR will be used in our example. Suppose that Alpha finds that it can borrow money at rate equal to LIBOR + 0.25%; thus, if LIBOR is 2.75%, the company will pay 3.0% to borrow. If the company wants to borrow at a long-term fixed rate, its cost of borrowing will be 5.0%.</para>
+    <para id="para-00016">To illustrate the basics of how an interest rate swap works, let’s consider two hypothetical companies, Alpha and Beta. Alpha is a strong, well-established company with a AAA (triple-A) bond rating. This means that Alpha has the highest rating a company can have. With this high rating, Alpha can borrow at relatively low interest rates. Often, companies in this situation will borrow at a floating rate. This means that their interest rate goes up and down as interest rates in the overall economy vary. The floating rate will be tied to a benchmark rate that is widely quoted in the financial press. Historically, companies have often used the <term class="no-emphasis" id="term-00003">London Interbank Offered Rate (LIBOR)</term> as the benchmark rate. Because published quotes for LIBOR will be phased out by 2023, firms are beginning to use alternative rates. As of yet, no single alternative has emerged as the most commonly used rate; therefore, LIBOR will be used in our example. Suppose that Alpha finds that it can borrow money at rate equal to LIBOR + 0.25%; thus, if LIBOR is 2.75%, the company will pay 3.0% to borrow. If the company wants to borrow at a long-term fixed rate, its cost of borrowing will be 5.0%.</para>
     <note class="link-to-learning" id="note-00002">
-    <title><term class="no-emphasis" id="term-00004">LIBOR</term> Transition</title>
+    <title>LIBOR Transition</title>
     <para id="para-00017">Although the basic principles of financial transactions remain the same over time, the particular financial instruments used change from time to time. Innovation, regulation, and technological advances lead to these changes in financial instruments. The use of LIBOR as a benchmark rate is winding down in the early 2020s. To find out more about this transition and how it impacts companies, visit the <link url="https://openstax.org/r/About_LIBOR_Transition">About LIBOR Transition</link> website.</para>
     </note>
     <para id="para-00018">Beta has a BBB bond rating. Although this is considered a good, investment-grade rating, it is lower than the rating of Alpha. Because Beta is less creditworthy and a bit riskier than Alpha, it will have to pay a higher interest rate to borrow money. If Beta wants to borrow money at a floating rate, it will need to pay <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>LIBOR</mi><mo>+</mo><mn>0</mn><mo>.</mo><mn>75</mn><mi>%</mi><mo>.</mo></math> If LIBOR is 2.75%, Beta must pay 3.5% on its floating rate debt. In order for Beta to borrow at a long-term fixed rate, its cost of borrowing will be 6.75%.</para>
@@ -246,7 +246,7 @@
     <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch20_Sec04_MCQ12"/></para></problem></exercise>
     </section>
     <section class="cfa-institute" id="sect-00005">
-      <para id="para-00025">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/CFA®_Level_I_Study_Session">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+      <para id="para-00025">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfa-Level-I-Study-Session-Chapter20">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
       </section>
       </content>
     <glossary>
