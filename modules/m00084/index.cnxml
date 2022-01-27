@@ -34,7 +34,7 @@
     <span class="red-code">></span> 
     </code>
     <para id="para-00009">R is a command-driven language, meaning that the user enters commands at the prompt, which R then executes one at a time. R can also execute a program containing multiple commands. There are ways to add a <term class="no-emphasis" id="term-00002">graphic user interface (GUI)</term> to R. An example of a GUI tool for R is <link url="https://openstax.org/r/RStudio">RStudio</link>.</para>
-    <para id="para-00010">The R command line can be used to perform any numeric calculation, similar to a handheld calculator. For example, to evaluate the expression <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>10</mn><mo>+</mo><mn>3</mn><mo>∙</mo><mn>7</mn><mo>,</mo></math> enter the following expression at the command line prompt and hit return:</para>
+    <para id="para-00010">The R command line can be used to perform any numeric calculation, similar to a handheld calculator. For example, to evaluate the expression <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>10</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>7</mn><mo>,</mo></math> enter the following expression at the command line prompt and hit return:</para>
     <code class="r" display="block" xmlns="http://cnx.rice.edu/cnxml">
     <span class="red-code">> 10+3*7</span>
 

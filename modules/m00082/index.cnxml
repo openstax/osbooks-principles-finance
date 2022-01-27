@@ -82,22 +82,22 @@
     <tbody>
     <row>
     <entry align="center">Stocks</entry>
-    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>306</mn><mo>,</mo><mn>000</mn></math></entry>
-    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>306</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>51</mn></math></entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>306,000</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>306,000</mn></mrow><mrow><mn>600,200</mn></mrow></mfrac><mo>=</mo><mn>0.51</mn></math></entry>
     </row>
     <row xmlns="http://cnx.rice.edu/cnxml">
     <entry align="center">Bonds</entry>
-    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>236</mn><mo>,</mo><mn>000</mn></math></entry>
-    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>236</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>39</mn></math></entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>236,000</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>236,000</mn></mrow><mrow><mn>600,200</mn></mrow></mfrac><mo>=</mo><mn>0.39</mn></math></entry>
     </row>
     <row xmlns="http://cnx.rice.edu/cnxml">
     <entry align="center">Cash</entry>
-    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>58</mn><mo>,</mo><mn>200</mn></math></entry>
-    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>58</mn><mo>,</mo><mn>200</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>10</mn></math></entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>58,200</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>58,200</mn></mrow><mrow><mn>600,200</mn></mrow></mfrac><mo>=</mo><mn>0.10</mn></math></entry>
     </row>
     <row xmlns="http://cnx.rice.edu/cnxml">
     <entry align="center"><emphasis effect="bold">Total Value</emphasis></entry>
-    <entry align="right"><emphasis effect="bold"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn mathvariant="bold">600</mn><mo mathvariant="bold">,</mo><mn mathvariant="bold">200</mn></math></emphasis></entry>
+    <entry align="right"><emphasis effect="bold"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn mathvariant="bold">600,200</mn></math></emphasis></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml"> </entry>
     </row>
     </tbody>
@@ -171,20 +171,20 @@
     <tbody>
     <row>
     <entry align="center">Stocks</entry>
-    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>306</mn><mo>,</mo><mn>000</mn></math></entry>
-    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>306</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>51</mn></math></entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>306,000</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>306,000</mn></mrow><mrow><mn>600,200</mn></mrow></mfrac><mo>=</mo><mn>0.51</mn></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml">13.0</entry>
     </row>
     <row>
     <entry align="center">Bonds</entry>
-    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>236</mn><mo>,</mo><mn>000</mn></math></entry>
-    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>236</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>39</mn></math></entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>236,000</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>236,000</mn></mrow><mrow><mn>600,200</mn></mrow></mfrac><mo>=</mo><mn>0.39</mn></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml">4.0</entry>
     </row>
     <row>
     <entry align="center">Cash</entry>
-    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>58</mn><mo>,</mo><mn>200</mn></math></entry>
-    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>58</mn><mo>,</mo><mn>200</mn></mrow><mrow><mn>600</mn><mo>,</mo><mn>200</mn></mrow></mfrac><mo>=</mo><mn>0</mn><mo>.</mo><mn>10</mn></math></entry>
+    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>58,200</mn></math></entry>
+    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>58,200</mn></mrow><mrow><mn>600,200</mn></mrow></mfrac><mo>=</mo><mn>0.10</mn></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml">2.5</entry>
     </row>
     <row>
