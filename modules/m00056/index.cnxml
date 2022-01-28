@@ -58,11 +58,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00002">
     <title>Calculator Steps to Solve for an Ordinary Annuity</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="3*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -110,16 +110,16 @@
     </tbody>
     </tgroup>
     </table>
-    <para id="para-00005">Note that the default setting on the financial calculator is END to indicate that payment is made at the end of a period, as in our ordinary annuity. In addition, we follow the payment amount of $25,000 with the <term id="term-00001">+/-</term> keystroke—an optional step to see the final present value result as a positive value.</para>
+    <para id="para-00005">Note that the default setting on the financial calculator is END to indicate that payment is made at the end of a period, as in our ordinary annuity. In addition, we follow the payment amount of $25,000 with the +/- keystroke—an optional step to see the final present value result as a positive value.</para>
     <para id="para-00006">To perform the same calculation as an annuity due, we can perform the same procedures as above, but with two additional steps after Step 1 to change the default from payments at the end of each period to payments at the beginning of each period (see <link target-id="table-00003" document="m00056"/>).</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00003">
     <title>Calculator Steps to Solve for an Annuity Due</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="3*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -185,11 +185,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00004">
     <title>Calculator Steps to Find the Future Value of an Ordinary Annuity</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="3*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -241,11 +241,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00005">
     <title>Calculator Steps to Find the Future Value of an Annuity Due</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="3*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -313,11 +313,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00006">
     <title>Calculator Steps to Prove the Actual Rate of Interest per Year</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="3*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -372,11 +372,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00007">
     <title>Calculator Steps to Find the Monthly Payment of a Loan</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="3*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -438,21 +438,21 @@
     </tbody>
     </tgroup>
     </table>
-    <para id="para-00014">We’ve verified the amount of our monthly debt service, including both the interest and repayment of the principal, as $973.50. The next step with our calculator is to verify our amortization at any point.</para>
+    <para id="para-00014">We’ve verified the amount of our monthly debt service, including both the interest and repayment of the principal, as $973.50. The next step with our calculator is to verify our amortization at any point (see <link target-id="table-00008" document="m00056"/>).</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00008">
     <title>Calculator Steps to Verify Amortization at the End of One Year</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="3*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
     <entry align="center">Description</entry>
     <entry align="center">Enter</entry>
-    <entry align="center">Display</entry>
+    <entry align="center" namest="c4" nameend="c5">Display</entry>
     </row>
     </thead>
     <tbody>
@@ -505,11 +505,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00009">
     <title>Calculator Steps to Verify Amortization at the End of Two Years</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="3*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -602,7 +602,7 @@
     <title>Excel Spreadsheet Showing the Future Value of an Annuity Due</title>
     <media alt="Excel Spreadsheet Showing the Future Value of an Annuity Due. It shows the rate, periods, payments, which gives the future value of the annuity due with a total of $ 16,898.93. The excel formula used to calculate the future value of an annuity due is =FV open parenthesis B3 comma B4 comma B5 comma 0 comma 1 close parenthesis."><image mime-type="image/png" src="../../media/FINAN_Figure_08_05_006.png"/></media>
     </figure>
-    <para id="para-00029">In Section 8.4.2, we explained the difference between stated and effective rates of interest to show the true cost of borrowing, in this case for a one-year period, if interest is compounded for periods within a year. The syntax for the Excel effect function to calculate this rate is</para>
+    <para id="para-00029">In <link document="m00055">Section 8.4</link>, we explained the difference between stated and effective rates of interest to show the true cost of borrowing, in this case for a one-year period, if interest is compounded for periods within a year. The syntax for the Excel effect function to calculate this rate is</para>
     <code class="centered-code">=EFFECT(rate,periods)</code>
     <para id="para-00031">where <emphasis effect="italics">rate</emphasis> is the nominal rate and <emphasis effect="italics">periods</emphasis> represents the number of periods within a year.</para>
     <para id="para-00032">Earlier, our example showed that 1.5% compounded monthly results in not 18% per year but actually over 19.56% (see <link target-id="fig-00006" document="m00056"/>).</para>
@@ -649,14 +649,14 @@
     <media alt="Amortization table showing the annual rate of interest, years, payments per year, the loan amount, and total remaining balance. The payment, interest, and principle are shown for each payment. In each row, the principal paid is deducted from the remaining balance to identify the new remaining balance amount. This process carries on till the remaining balance is reduced to zero and the amortization table is complete."><image mime-type="image/png" src="../../media/FINAN_Figure_08_05_013.png"/></media>
     </figure>
     <para id="para-00040">This will look familiar; it’s the same amortization table used as a proof in Section 8.3 (see <link target-id="table-00001" document="m00054"/>). There is no rounding error because Excel uses the full decimal expansion in its calculations.</para>
-    <para id="para-00041">This chapter has explored the time value of money by expanding on the concepts discussed in <link document="m00046">Time Value of Money I</link> with additional funds being periodically added to our investment, either compounding or discounting them according to the situation. In all cases, the payments in the stream were identical. If they had not been identical, a separate set of operators would be required, and these will be addressed in the next chapter.</para>
+    <para id="para-00041">This chapter has explored the time value of money by expanding on the concepts discussed in <link document="m00046">Time Value of Money I</link> with additional funds being periodically added to or subtracted from our investment, either compounding or discounting them according to the situation. In all cases, the payments in the stream were identical. If they had not been identical, a separate set of operators would be required, and these will be addressed in the next chapter.</para>
     </section>
     <section class="section-summary" id="sect-00004">
     <title/>
     <para id="para-00042">The use of two tools for managing and understanding the time value of money and its many applications was discussed: a professional financial calculator and the popular Microsoft Office Suite spreadsheet application Excel.</para>
     </section>
     <section class="cfa-institute" id="sect-00005">
-    <para id="para-00043">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/CFA_Level_I_Study_Session_chapter8">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+    <para id="para-00043">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/CFA_Level_I_Study_Session2">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
     </section>
     </content>    
 </document>

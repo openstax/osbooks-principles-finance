@@ -210,11 +210,8 @@
     <entry align="right"><emphasis effect="bold">24,836.85</emphasis></entry>
     <entry align="right"><emphasis effect="bold">22,578.96</emphasis></entry>
     </row>
-  
-    <row>
-     
-    
-      <entry align="center" namest="c1" nameend="c8"><equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>NPV</mi><mo>=</mo><mo>$</mo><mn>86,644.69</mn></math></equation></entry>
+  <row>
+  <entry align="center" namest="c1" nameend="c8"><para id="para-00036"> </para><equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>NPV</mi><mo>=</mo><mo>$</mo><mn>86,644.69</mn></math></equation></entry>
     
     </row>
     </tbody>
