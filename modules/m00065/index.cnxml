@@ -110,7 +110,7 @@
     <item>When arguments have all been entered, the answer will appear in the lower left of the Function Arguments box, as per the above. We arrive at a final answer of $28.24 as the coupon payment.</item>
     </list>
     <para id="para-00010">The coupon rate can be calculated by taking this coupon payment amount and dividing it by the face value:</para>
-    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>28</mn><mo>.</mo><mn>24</mn></mrow><mrow><mo>$</mo><mn>1</mn><mo>,</mo><mn>000</mn></mrow></mfrac><mo>=</mo><mn>2</mn><mo>.</mo><mn>824</mn><mo>%</mo></math></equation>
+    <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>28.24</mn></mrow><mrow><mo>$</mo><mn>1,000</mn></mrow></mfrac><mo>=</mo><mn>2.824%</mn></math></equation>
     <para id="para-00011" xmlns="http://cnx.rice.edu/cnxml">So, the coupon rate is 2.824%.</para>
     </section>
     <section class="section-summary" id="sect-00006">
