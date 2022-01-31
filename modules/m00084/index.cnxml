@@ -92,9 +92,9 @@
     <code class="r" display="block">
     <span class="red-code">> summary(salaries)</span>
 
-    <span class="blue-code"> Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    <span class="blue-code"> Min. 1st Qu.  Median    Mean 3rd Qu.    Max. </span>
    
-     40000   47500   62500   64250   79250   92000</span>
+    <span class="blue-code"> 40000   47500   62500   64250   79250   92000</span>
     </code>
     <para id="para-00018">For measures of spread, R includes a command for standard deviation, called <emphasis effect="italics">sd</emphasis>, and a command for variance, called <emphasis effect="italics">var</emphasis>. The standard deviation and variance are calculated with the assumption that the data set was collected from a sample.</para>
     <code class="r" display="block">

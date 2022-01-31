@@ -64,7 +64,13 @@
     </tgroup>
     </table>
     <para id="para-00005">Create a frequency distribution table using the following intervals for the portfolio values:</para>
-    <code class="centered-code">0–299<newline/>300–599<newline/>600–899<newline/>900–1,199<newline/>1,200–1,499<newline/>1,500–1,799<newline/>1,800–2,099</code>
+    <equation id="eq-00004">0–299</equation>
+    <equation id="eq-00005">300–599</equation>
+    <equation id="eq-00006">600–899</equation>
+    <equation id="eq-00007">900–1,199</equation>
+    <equation id="eq-00008">1,200–1,499</equation>
+    <equation id="eq-00009">1,500–1,799</equation>
+    <equation id="eq-00010">1,800–2,099</equation>
     </problem>
     <solution id="sol-00001">
     <para id="para-00007"><emphasis effect="bold">Solution:</emphasis></para>
