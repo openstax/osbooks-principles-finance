@@ -34,7 +34,7 @@
     </problem>
     <solution id="sol-00001">
       <para id="para-00054"><emphasis effect="bold">Solution:</emphasis></para>
-    <para id="para-00008">Because you purchased 10 shares, you received <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>5.91</mn><mo>×</mo><mn>10</mn><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>59.10</mn></mtd></mtr></mtable></math> in dividend income. You spent <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mtext>175.00</mtext><mo> </mo><mo>×</mo><mo> </mo><mn>10</mn><mo>=</mo><mo>$</mo><mtext>1,750.00</mtext></math> to purchase the stock, and you sold it for <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>169.72</mn><mo>×</mo><mn>10</mn></mtd><mo> </mo><mtd><mo>=</mo></mtd><mo> </mo><mtd><mo>$</mo><mn>1,697.20</mn></mtd></mtr></mtable></math> Your total dollar return is</para>
+    <para id="para-00008">Because you purchased 10 shares, you received <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>5.91</mn><mo>×</mo><mn>10</mn><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>59.10</mn></mtd></mtr></mtable></math> in dividend income. You spent <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mtext>175.00</mtext><mo> </mo><mo>×</mo><mo> </mo><mn>10</mn><mo>=</mo><mo>$</mo><mtext>1,750.00</mtext></math> to purchase the stock, and you sold it for <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mo>$</mo><mn>169.72</mn><mo>×</mo><mn>10</mn></mtd><mo> </mo><mtd><mo>=</mo></mtd><mo> </mo><mtd><mo>$</mo><mn>1,697.20</mn></mtd></mtr></mtable></math>. Your total dollar return is</para>
     <equation id="eq-00003" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Total</mi><mi>Dollar</mi><mi>Return</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mi>Dividend</mi><mi>Income</mi><mo>+</mo><mi>Capital</mi><mi>Gain</mi></mtd></mtr><mtr><mtd/><mtd><mo>=</mo></mtd><mtd><mo> </mo><mrow><mo>$</mo><mn>59.10</mn><mo>+</mo><mo>(</mo><mo>$</mo><mn>1,697.20</mn><mo>-</mo><mo>$</mo><mn>1,750.00</mn><mo>)</mo><mo>=</mo><mo>$</mo><mn>6.30</mn></mrow></mtd></mtr><mtr><mtd/><mtd/><mtd/></mtr></mtable></math></equation>
     <para id="para-00009" xmlns="http://cnx.rice.edu/cnxml">Your dividend yield is <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mfrac><mrow><mo>$</mo><mn>5</mn><mo>.</mo><mn>91</mn></mrow><mrow><mo>$</mo><mn>175</mn><mo>.</mo><mn>00</mn></mrow></mfrac><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>0.0338</mn></mtd></mtr></mtable></math>, or 3.38%, and your capital gain yield is <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mfrac><mrow><mo>$</mo><mn>169</mn><mo>.</mo><mn>72</mn><mo> </mo><mo>-</mo><mo> </mo><mo>$</mo><mn>175</mn><mo>.</mo><mn>00</mn></mrow><mrow><mo>$</mo><mn>175</mn><mo>.</mo><mn>00</mn></mrow></mfrac></mtd><mtd><mo> </mo><mo>=</mo><mo> </mo></mtd><mtd><mo>-</mo><mn>0.0302,</mn></mtd></mtr></mtable></math> or  3.02%. Your total percent return is <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3.38%</mn><mo>+</mo><mo>(</mo><mo>-</mo><mn>3.02%</mn><mo>)</mo><mo>=</mo><mn>0.36%</mn><mo>.</mo></math></para>
     <para id="para-00010" xmlns="http://cnx.rice.edu/cnxml">Notice that you sold MMM for a price lower than what you paid for it at the beginning of the year. Your capital gain is negative, or what is often referred to as a <emphasis effect="italics">capital loss</emphasis>. Although the price fell, you still had a positive total dollar return because of the dividend income.</para>
@@ -42,7 +42,7 @@
     </exercise>
     </note>
     <para id="para-00011">Of course, investors seldom purchase a stock and then sell it exactly one year later. Assume that you purchased shares of <term class="no-emphasis" id="term-00008">Facebook (FB)</term> on June 1, 2020, for $228.50 per share and sold the shares three months later for $261.90. You received no dividends. In this case, your <term id="term-00009">holding period percentage return</term> is calculated as</para>
-    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>261.90</mn><mo>-</mo><mo>$</mo><mn>228.5</mn></mrow><mrow><mo>$</mo><mn>228.50</mn></mrow></mfrac><mo>=</mo><mn>0.1462</mn><mo>=</mo><mn>14.62%</mn></math></equation>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>261.90</mn><mo>-</mo><mo>$</mo><mn>228.50</mn></mrow><mrow><mo>$</mo><mn>228.50</mn></mrow></mfrac><mo>=</mo><mn>0.1462</mn><mo>=</mo><mn>14.62%</mn></math></equation>
     <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">This 14.62% is your return for a three-month holding period. To compare them to other investment opportunities, you need to express returns on a per-year, or <emphasis effect="italics">annualized</emphasis>, basis. The holding period returned is converted to an <term id="term-00010">effective annual rate (EAR)</term> using the formula</para>
     <equation id="eq-00009"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>EAR</mi><mo>=</mo><msup><mfenced><mrow><mn>1</mn><mo>+</mo><mi>Holding</mi><mi>Period</mi><mi>Percentage</mi><mi>Return</mi></mrow></mfenced><mi>m</mi></msup><mo>-</mo><mn>1</mn></math></equation>
      <para id="para-00053" xmlns="http://cnx.rice.edu/cnxml">where <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">m</emphasis> is the number of holding periods in a year.</para>
@@ -83,52 +83,52 @@
 <tbody>
 <row>
 <entry align="center">2011</entry>
-<entry align="center">−0.3579</entry>
+<entry align="right">−0.3579</entry>
 <entry align="center">7.19</entry>
 </row>
 <row>
 <entry align="center">2012</entry>
-<entry align="center">0.4672</entry>
+<entry align="right">0.4672</entry>
 <entry align="center">10.54</entry>
 </row>
 <row>
 <entry align="center">2013</entry>
-<entry align="center">1.3261</entry>
+<entry align="right">1.3261</entry>
 <entry align="center">24.52</entry>
 </row>
 <row>
 <entry align="center">2014</entry>
-<entry align="center">0.8053</entry>
+<entry align="right">0.8053</entry>
 <entry align="center">44.27</entry>
 </row>
 <row>
 <entry align="center">2015</entry>
-<entry align="center">0.0405</entry>
+<entry align="right">0.0405</entry>
 <entry align="center">46.06</entry>
 </row>
 <row>
 <entry align="center">2016</entry>
-<entry align="center">−0.0135</entry>
+<entry align="right">−0.0135</entry>
 <entry align="center">45.44</entry>
 </row>
 <row>
 <entry align="center">2017</entry>
-<entry align="center">0.1623</entry>
+<entry align="right">0.1623</entry>
 <entry align="center">52.81</entry>
 </row>
 <row>
 <entry align="center">2018</entry>
-<entry align="center">−0.0866</entry>
+<entry align="right">−0.0866</entry>
 <entry align="center">48.24</entry>
 </row>
 <row>
 <entry align="center">2019</entry>
-<entry align="center">0.2038</entry>
+<entry align="right">0.2038</entry>
 <entry align="center">58.07</entry>
 </row>
 <row>
 <entry align="center">2020</entry>
-<entry align="center">−0.3077</entry>
+<entry align="right">−0.3077</entry>
 <entry align="center">40.20</entry>
 </row>
 </tbody>
@@ -157,79 +157,79 @@
     <tbody>
     <row>
     <entry align="center">2011</entry>
-    <entry align="center">−0.3579</entry>
+    <entry align="right">−0.3579</entry>
     <entry align="center">0.6421</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2012</entry>
-    <entry align="center">0.4672</entry>
+    <entry align="right">0.4672</entry>
     <entry align="center">1.4672</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2013</entry>
-    <entry align="center">1.3261</entry>
+    <entry align="right">1.3261</entry>
     <entry align="center">2.3261</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2014</entry>
-    <entry align="center">0.8053</entry>
+    <entry align="right">0.8053</entry>
     <entry align="center">1.8053</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2015</entry>
-    <entry align="center">0.0405</entry>
+    <entry align="right">0.0405</entry>
     <entry align="center">1.0405</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2016</entry>
-    <entry align="center">−0.0135</entry>
+    <entry align="right">−0.0135</entry>
     <entry align="center">0.9865</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2017</entry>
-    <entry align="center">0.1623</entry>
+    <entry align="right">0.1623</entry>
     <entry align="center">1.1623</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2018</entry>
-    <entry align="center">−0.0866</entry>
+    <entry align="right">−0.0866</entry>
     <entry align="center">0.9134</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2019</entry>
-    <entry align="center">0.2038</entry>
+    <entry align="right">0.2038</entry>
     <entry align="center">1.2038</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2020</entry>
-    <entry align="center">−0.3077</entry>
+    <entry align="right">−0.3077</entry>
     <entry align="center">0.6923</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center"><emphasis effect="bold">Arithmetic Avg</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">0.2240</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">0.2240</emphasis></entry>
     <entry align="center"><emphasis effect="bold">3.5928</emphasis></entry>
     <entry align="center"><emphasis effect="bold">Product of (1 + Return)</emphasis></entry>
     </row>
     <row>
     <entry align="center"><emphasis effect="bold">Std Dev</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">0.5190</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">0.5190</emphasis></entry>
     <entry align="center"><emphasis effect="bold">1.1364</emphasis></entry>
     <entry align="center"><emphasis effect="bold">Product raised to 1/N</emphasis></entry>
     </row>
     <row>
       <entry align="center"> </entry>
-      <entry align="center"> </entry>
+      <entry align="right"> </entry>
     <entry align="center"><emphasis effect="bold">0.1364</emphasis></entry>
     <entry align="center"><emphasis effect="bold">Geometric Average</emphasis></entry>
     </row>
@@ -237,7 +237,7 @@
     </tgroup>
     </table>
     <para id="para-00024">Looking at <link target-id="table-00002" document="m00093"/>, you will notice that the geometric average return differs from the mean return. Adding each of the annual returns and dividing the sum by 10 results in a 22.4% average annual return. This 22.4% is called the <term id="term-00013">arithmetic average return</term>.</para>
-    <para id="para-00025">The geometric average return will be smaller than the arithmetic average return (unless the returns for all years are identical). This is due to the basic arithmetic of compounding. Think of a very simple example in which you invest $100 for two years. If you have a positive return of 50% the first year and a negative 50% return the second year, you will have an arithmetic average return of <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>0.5</mn><mo> </mo><mo>+</mo><mo> </mo><mfenced><mrow><mo>-</mo><mn>0.50</mn></mrow></mfenced></mrow><mn>2</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>0.0%</mn></math>, but you will have a geometric average return of <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="[" close="]"><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.5</mn><mo>)</mo><mo> </mo><mo>×</mo><mo> </mo><mo>(</mo><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mn>0.5</mn><mo>)</mo></mrow></mfenced><mn>0.5</mn><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>13.4%</mn></math> With a 50% positive return the first year, you ended the year with $150. The second year, you lost 50% of that balance and were left with only $75.</para>
+    <para id="para-00025">The geometric average return will be smaller than the arithmetic average return (unless the returns for all years are identical). This is due to the basic arithmetic of compounding. Think of a very simple example in which you invest $100 for two years. If you have a positive return of 50% the first year and a negative 50% return the second year, you will have an arithmetic average return of <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mn>0.5</mn><mo> </mo><mo>+</mo><mo> </mo><mfenced><mrow><mo>-</mo><mn>0.50</mn></mrow></mfenced></mrow><mn>2</mn></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>0.0%</mn></math>, but you will have a geometric average return of <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="[" close="]"><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mn>0.5</mn><mo>)</mo><mo> </mo><mo>×</mo><mo> </mo><mo>(</mo><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mn>0.5</mn><mo>)</mo></mrow></mfenced><mn>0.5</mn><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mo>-</mo><mn>13.4%</mn></math>. With a 50% positive return the first year, you ended the year with $150. The second year, you lost 50% of that balance and were left with only $75.</para>
     <para id="para-00026" xmlns="http://cnx.rice.edu/cnxml">Another important fact when studying average returns is that the order in which you earn the returns is not important. Consider what would have occurred if the returns in the two years were reversed, so that you faced a loss of 50% in the first year of your investment and a gain of 50% in the second year of your investment. With a −50% return in the first year, you would have ended that year with only $50. Then, if that $50 earned a positive 50% return the second year, you would have a $75 balance at the end of the two-year period. A negative return of 50% followed by a positive return of 50% still results in an arithmetic average return of 0% and a geometric average return of <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="[" close="]"><mrow><mo>(</mo><mn>1</mn><mo> </mo><mo>-</mo><mo> </mo><mtext>0.5</mtext><mo>)</mo><mo> </mo><mo>×</mo><mo> </mo><mo>(</mo><mn>1</mn><mo> </mo><mo>+</mo><mo> </mo><mtext>0.5</mtext><mo>)</mo></mrow></mfenced><mtext>0.5</mtext><mo> </mo><mo>-</mo><mo> </mo><mn>1</mn><mo> </mo><mo>=</mo><mo> </mo><mtext>-13.4</mtext><mo>%</mo></math>.</para>
     <note class="think-through" id="note-00002" xmlns="http://cnx.rice.edu/cnxml">
     <title>Calculating Arithmetic and Geometric Average Return</title>
@@ -258,43 +258,43 @@
     <tbody>
     <row>
     <entry align="center">2011</entry>
-    <entry align="center">18.94%</entry>
+    <entry align="right">18.94%</entry>
     </row>
     <row>
     <entry align="center">2012</entry>
-    <entry align="center">20.28%</entry>
+    <entry align="right">20.28%</entry>
     </row>
     <row>
     <entry align="center">2013</entry>
-    <entry align="center">50.38%</entry>
+    <entry align="right">50.38%</entry>
     </row>
     <row>
     <entry align="center">2014</entry>
-    <entry align="center">37.12%</entry>
+    <entry align="right">37.12%</entry>
     </row>
     <row>
     <entry align="center">2015</entry>
-    <entry align="center">2.90%</entry>
+    <entry align="right">2.90%</entry>
     </row>
     <row>
     <entry align="center">2016</entry>
-    <entry align="center">−17.83%</entry>
+    <entry align="right">−17.83%</entry>
     </row>
     <row>
     <entry align="center">2017</entry>
-    <entry align="center">−5.75%</entry>
+    <entry align="right">−5.75%</entry>
     </row>
     <row>
     <entry align="center">2018</entry>
-    <entry align="center">−7.04%</entry>
+    <entry align="right">−7.04%</entry>
     </row>
     <row>
     <entry align="center">2019</entry>
-    <entry align="center">17.26%</entry>
+    <entry align="right">17.26%</entry>
     </row>
     <row>
     <entry align="center">2020</entry>
-    <entry align="center">−5.14%</entry>
+    <entry align="right">−5.14%</entry>
     </row>
     </tbody>
     </tgroup>
@@ -328,79 +328,79 @@
     </row>
     <row>
     <entry align="center">2011</entry>
-    <entry align="center">0.1894</entry>
+    <entry align="right">0.1894</entry>
     <entry align="center">1.1894</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2012</entry>
-    <entry align="center">0.2028</entry>
+    <entry align="right">0.2028</entry>
     <entry align="center">1.2028</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2013</entry>
-    <entry align="center">0.5038</entry>
+    <entry align="right">0.5038</entry>
     <entry align="center">1.5038</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2014</entry>
-    <entry align="center">0.3712</entry>
+    <entry align="right">0.3712</entry>
     <entry align="center">1.3712</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2015</entry>
-    <entry align="center">0.0290</entry>
+    <entry align="right">0.0290</entry>
     <entry align="center">1.0290</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2016</entry>
-    <entry align="center">−0.1783</entry>
+    <entry align="right">−0.1783</entry>
     <entry align="center">0.8217</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2017</entry>
-    <entry align="center">−0.0575</entry>
+    <entry align="right">−0.0575</entry>
     <entry align="center">0.9425</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2018</entry>
-    <entry align="center">−0.0704</entry>
+    <entry align="right">−0.0704</entry>
     <entry align="center">0.9296</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2019</entry>
-    <entry align="center">0.1726</entry>
+    <entry align="right">0.1726</entry>
     <entry align="center">1.1726</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2020</entry>
-    <entry align="center">−0.0514</entry>
+    <entry align="right">−0.0514</entry>
     <entry align="center">0.9486</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center"><emphasis effect="bold">Sum of Returns</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">1.1112</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">1.1112</emphasis></entry>
     <entry align="center"><emphasis effect="bold">2.4309</emphasis></entry>
     <entry align="center"><emphasis effect="bold">Product of (1 + Return)</emphasis></entry>
     </row>
     <row>
     <entry align="center"><emphasis effect="bold">Sum Divided by 10</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">0.1111</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">0.1111</emphasis></entry>
     <entry align="center"><emphasis effect="bold">1.0929</emphasis></entry>
     <entry align="center"><emphasis effect="bold">Raise Product to 1/10</emphasis></entry>
     </row>
     <row>
     <entry align="center" morerows="1"><emphasis effect="bold">Arithmetic Average</emphasis></entry>
-    <entry align="center" morerows="1"><emphasis effect="bold">11.11%</emphasis></entry>
+    <entry align="right" morerows="1"><emphasis effect="bold">11.11%</emphasis></entry>
     <entry align="center"><emphasis effect="bold">0.0929</emphasis></entry>
     <entry align="center"><emphasis effect="bold">Subtract 1</emphasis></entry>
     </row>
@@ -453,77 +453,77 @@
     <tbody>
     <row>
     <entry align="center">2011</entry>
-    <entry align="center">0.1894</entry>
-    <entry align="center">0.0783</entry>
+    <entry align="right">0.1894</entry>
+    <entry align="right">0.0783</entry>
     <entry align="center">0.0061</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2012</entry>
-    <entry align="center">0.2028</entry>
-    <entry align="center">0.0917</entry>
+    <entry align="right">0.2028</entry>
+    <entry align="right">0.0917</entry>
     <entry align="center">0.0084</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2013</entry>
-    <entry align="center">0.5038</entry>
-    <entry align="center">0.3927</entry>
+    <entry align="right">0.5038</entry>
+    <entry align="right">0.3927</entry>
     <entry align="center">0.1542</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2014</entry>
-    <entry align="center">0.3712</entry>
-    <entry align="center">0.2601</entry>
+    <entry align="right">0.3712</entry>
+    <entry align="right">0.2601</entry>
     <entry align="center">0.0676</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2015</entry>
-    <entry align="center">0.0290</entry>
-    <entry align="center">−0.0821</entry>
+    <entry align="right">0.0290</entry>
+    <entry align="right">−0.0821</entry>
     <entry align="center">0.0067</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2016</entry>
-    <entry align="center">−0.1783</entry>
-    <entry align="center">−0.2894</entry>
+    <entry align="right">−0.1783</entry>
+    <entry align="right">−0.2894</entry>
     <entry align="center">0.0838</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2017</entry>
-    <entry align="center">−0.0575</entry>
-    <entry align="center">−0.1686</entry>
+    <entry align="right">−0.0575</entry>
+    <entry align="right">−0.1686</entry>
     <entry align="center">0.0284</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2018</entry>
-    <entry align="center">−0.0704</entry>
-    <entry align="center">−0.1815</entry>
+    <entry align="right">−0.0704</entry>
+    <entry align="right">−0.1815</entry>
     <entry align="center">0.0329</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2019</entry>
-    <entry align="center">0.1726</entry>
-    <entry align="center">0.0615</entry>
+    <entry align="right">0.1726</entry>
+    <entry align="right">0.0615</entry>
     <entry align="center">0.0038</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center">2020</entry>
-    <entry align="center">−0.0514</entry>
-    <entry align="center">−0.1625</entry>
+    <entry align="right">−0.0514</entry>
+    <entry align="right">−0.1625</entry>
     <entry align="center">0.0264</entry>
     <entry align="center"> </entry>
     </row>
     <row>
     <entry align="center"><emphasis effect="bold">Mean</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">0.1111</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">0.1111</emphasis></entry>
     <entry align="center"> </entry>
     <entry align="center"><emphasis effect="bold">0.4185</emphasis></entry>
     <entry align="center"><emphasis effect="bold">Sum of Squared Differences</emphasis></entry>
@@ -553,7 +553,7 @@
     <section id="sect-00007">
     <title>Firm-Specific Risk</title>
     <para id="para-00037">Investors purchase a share of stock hoping that the stock will increase in value and they will receive a positive return. You can see, however, that even with well-established companies such as ExxonMobil and CVS, returns are highly volatile. Investors can never perfectly predict what the return on a stock will be, or even if it will be positive.</para>
-    <para id="para-00038">The yearly returns for four companies—<term class="no-emphasis" id="term-00017">Delta Airlines (DAL)</term>, <term class="no-emphasis" id="term-00018">Southwest Airlines (LUV)</term>, <term class="no-emphasis" id="term-00019">ExxonMobil (XOM)</term>, and <term class="no-emphasis" id="term-00020">CVS Health Corp. (CVS)</term>.—are shown in <link target-id="table-00006" document="m00093"/>. Each of these stocks had years in which the performance was much better or much worse than the arithmetic average. In fact, none of the stocks appear to have a typical return that occurs year after year.</para>
+    <para id="para-00038">The yearly returns for four companies—<term class="no-emphasis" id="term-00017">Delta Airlines (DAL)</term>, <term class="no-emphasis" id="term-00018">Southwest Airlines (LUV)</term>, <term class="no-emphasis" id="term-00019">ExxonMobil (XOM)</term>, and <term class="no-emphasis" id="term-00020">CVS Health Corp. (CVS)</term>—are shown in <link target-id="table-00006" document="m00093"/>. Each of these stocks had years in which the performance was much better or much worse than the arithmetic average. In fact, none of the stocks appear to have a typical return that occurs year after year.</para>
     <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00006">
     <title>Yearly Returns for <term class="no-emphasis" id="term-00021">DAL</term>, <term class="no-emphasis" id="term-00022">LUV</term>, <term class="no-emphasis" id="term-00023">XOM</term>, and <term class="no-emphasis" id="term-00024">CVS</term></title>
     <tgroup cols="4">
