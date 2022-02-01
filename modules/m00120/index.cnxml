@@ -152,7 +152,7 @@
   <para id="para-00086" xmlns="http://cnx.rice.edu/cnxml">The receivables collection period, also called the days sales outstanding (DSO) or the average collection period, is the number of days it typically takes to collect cash from a credit sale. It is calculated by following these steps:</para>
     <list list-type="enumerated" id="list-00007">
     <item>First, calculate the Accounts Receivable Turnover using this formula:
-      <equation id="eq-00010"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Accounts Receivable Turnover</mtext><mo>=</mo><mfrac><mtext>Credit Sales</mtext><mtext>Average Acc  ounts Receivable</mtext></mfrac></math></equation>
+      <equation id="eq-00010"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Accounts Receivable Turnover</mtext><mo>=</mo><mfrac><mtext>Credit Sales</mtext><mtext>Average Accounts Receivable</mtext></mfrac></math></equation>
       <para id="para-00089" xmlns="http://cnx.rice.edu/cnxml">The Average Accounts Receivable is arrived at as follows:</para>
       <equation id="eq-00011"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Average Accounts Receivable</mtext><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>(</mo><mtext>Beginning Accounts Receivable </mtext><mo> </mo><mo>+</mo><mo> </mo><mtext>Ending Accounts Receivable </mtext><mo>)</mo></mrow><mn>2</mn></mfrac></math></equation></item>
     <item xmlns="http://cnx.rice.edu/cnxml">Then, use the Accounts Receivable Turnover to calculate the Receivables Collection Period:
