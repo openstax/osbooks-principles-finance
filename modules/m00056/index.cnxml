@@ -366,7 +366,7 @@
     </tgroup>
     </table>
     <para id="para-00011">Had we assumed that the stated monthly interest rate of 1.5% could be simply multiplied by 12 months for an annual rate of 18%, we would be ignoring the effect of more frequent compounding. As indicated above, the annual interest on the money that we spent initially, accumulating at a rate of 1.5% <emphasis effect="italics">per month</emphasis>, is 19.56%, not 18%:</para>
-    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>1.1956</mn><mo>−</mo><mi>$</mi><mn>1</mn><mo> </mo><mtext>spent intially</mtext><mo>=</mo><mn>0.1956</mn><mo>=</mo><mn>19.56</mn><mi>%</mi></mrow></math></equation>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.1956</mn><mo> </mo><mo>-</mo><mo> </mo><mo>$</mo><mn>1</mn><mo> </mo><mi>spent</mi><mo> </mo><mi>intially</mi><mo> </mo><mo>=</mo><mo> </mo><mn>0.1956</mn><mo> </mo><mo>=</mo><mo> </mo><mn>19.56</mn><mo>%</mo></math></equation>
     <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">The final example in this chapter will represent the amortization of a loan. Using a 36-month auto loan for $32,000 at 6% per year compounded monthly, we can easily find the monthly payment and the amortization of this loan on our calculator using the following procedures and keystrokes.</para>
     <para id="para-00013">First, we find the monthly payment (see <link target-id="table-00007" document="m00056"/>).</para>
     <table summary="Some cells are left blank for visual design purposes." id="table-00007">
