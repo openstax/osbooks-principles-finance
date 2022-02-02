@@ -36,7 +36,7 @@
     <tbody>
     <row>
     <entry align="center"><emphasis effect="bold">Year</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">0<newline/>(Today)</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">0</emphasis><newline/>(Today)</entry>
     <entry align="center"><emphasis effect="bold">1</emphasis></entry>
     <entry align="center"><emphasis effect="bold">2</emphasis></entry>
     <entry align="center"><emphasis effect="bold">3</emphasis></entry>
@@ -46,11 +46,11 @@
     <row>
       <entry align="center"> </entry>
       <entry align="center"> </entry>
-      <entry align="center"> </entry>
-      <entry align="center"> </entry>
-      <entry align="center"> </entry>
-      <entry align="center"> </entry>
-      <entry align="center"> </entry>
+      <entry align="center">        </entry>
+      <entry align="center">        </entry>
+      <entry align="center">        </entry>
+      <entry align="center">        </entry>
+      <entry align="center">        </entry>
     </row>
 
     </tbody>
@@ -288,35 +288,35 @@
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">2</entry>
+    <entry align="center">2</entry>
     <entry align="left">Enter future value (as a negative integer)</entry>
     <entry align="left">50000 <span class="primary-function">+|-</span> <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">-50,000.0000</entry>
     </row>
     <row>
-    <entry align="left">3</entry>
+    <entry align="center">3</entry>
     <entry align="left">Enter interest rate</entry>
     <entry align="left">5 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">5.0000</entry>
     </row>
     <row>
-    <entry align="left">4</entry>
+    <entry align="center">4</entry>
     <entry align="left">Enter time periods</entry>
     <entry align="left">5 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">5.0000</entry>
     </row>
     <row>
-    <entry align="left">5</entry>
+    <entry align="center">5</entry>
     <entry align="left">Indicate no payments or deposits</entry>
     <entry align="left">0 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">6</entry>
+    <entry align="center">6</entry>
     <entry align="left">Compute present value</entry>
     <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
@@ -363,42 +363,42 @@
     </thead>
     <tbody>
     <row>
-    <entry align="left">1</entry>
+    <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
     <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">2</entry>
+    <entry align="center">2</entry>
     <entry align="left">Enter present value (as a negative integer)</entry>
     <entry align="left">15000 <span class="primary-function">+|-</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">-15,000.0000</entry>
     </row>
     <row>
-    <entry align="left">3</entry>
+    <entry align="center">3</entry>
     <entry align="left">Enter interest rate</entry>
     <entry align="left">6 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">6.0000</entry>
     </row>
     <row>
-    <entry align="left">4</entry>
+    <entry align="center">4</entry>
     <entry align="left">Enter future value</entry>
     <entry align="left">25000 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">25,000.0000</entry>
     </row>
     <row>
-    <entry align="left">5</entry>
+    <entry align="center">5</entry>
     <entry align="left">Indicate no payments or deposits</entry>
     <entry align="left">0 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">6</entry>
+    <entry align="center">6</entry>
     <entry align="left">Compute time periods</entry>
     <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
@@ -431,57 +431,57 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00007">
     <title>Calculator Steps for Determining Interest Rate</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="1*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
-    <entry align="center">Step</entry>
+    <entry align="center">Description</entry>
     <entry align="center">Enter</entry>
     <entry align="center" namest="c4" nameend="c5">Display</entry>
     </row>
     </thead>
     <tbody>
     <row>
-    <entry align="left">1</entry>
+    <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
     <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">2</entry>
+    <entry align="center">2</entry>
     <entry align="left">Enter present value (as a negative integer)</entry>
     <entry align="left">15000 <span class="primary-function">+|-</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">-15,000.0000</entry>
     </row>
     <row>
-    <entry align="left">3</entry>
+    <entry align="center">3</entry>
     <entry align="left">Enter time periods</entry>
     <entry align="left">8.5 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">8.5000</entry>
     </row>
     <row>
-    <entry align="left">4</entry>
+    <entry align="center">4</entry>
     <entry align="left">Enter future value</entry>
     <entry align="left">25000 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">25,000.0000</entry>
     </row>
     <row>
-    <entry align="left">5</entry>
+    <entry align="center">5</entry>
     <entry align="left">Indicate no payments or deposits</entry>
     <entry align="left">0 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">6</entry>
+    <entry align="center">6</entry>
     <entry align="left">Compute interest rate</entry>
     <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
