@@ -49,7 +49,7 @@
     <para id="para-00017">The <term id="term-00005">interquartile range (IQR)</term> is a number that indicates the spread of the middle half, or the middle 50%, of the data. It is the difference between the third quartile, <emphasis effect="italics">Q</emphasis><sub>3</sub>, and the first quartile, <emphasis effect="italics">Q</emphasis><sub>1</sub>.</para>
     <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>I</mi><mi>Q</mi><mi>R</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>Q</mi><mrow><mn>3</mn></mrow></msub><mo>-</mo><mo> </mo><msub><mi>Q</mi><mn>1</mn></msub></math></equation>
     <para id="para-00018" xmlns="http://cnx.rice.edu/cnxml">In the above example, the IQR can be calculated as</para>
-    <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>I</mi><mi>Q</mi><mi>R</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>Q</mi><mn>3</mn></msub><mo>-</mo><mo> </mo><msub><mi>Q</mi><mn>1</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mn>7</mn><mo>.9</mo><mo> </mo><mo>-</mo><mo> </mo><mn>6</mn><mo>.3</mo><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn><mo>.6</mo></math></equation>
+    <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>I</mi><mi>Q</mi><mi>R</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>Q</mi><mn>3</mn></msub><mo>-</mo><mo> </mo><msub><mi>Q</mi><mn>1</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mn>7.9</mn><mo>-</mo><mn>6.3</mn><mo> </mo><mo>=</mo><mo> </mo><mn>1.6</mn></math></equation>
     </section>
     <section id="sect-00004" xmlns="http://cnx.rice.edu/cnxml">
     <title>Outlier Detection</title>
