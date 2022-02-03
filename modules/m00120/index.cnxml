@@ -187,10 +187,10 @@
     </list>
     <para id="para-00046" xmlns="http://cnx.rice.edu/cnxml">Payables deferral period:</para>
     <list id="list-00011">
-    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Accounts Payable Turnover</mtext><mo>=</mo><mfrac><mrow><mo>$</mo><mn>30,000,000</mn></mrow><mrow><mo>$</mo><mn>2, 800, 000</mn></mrow></mfrac><mo>=</mo><mn>10.71</mn><mo> </mo><mtext>times</mtext></math></item>
+    <item><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Accounts Payable Turnover</mtext><mo>=</mo><mfrac><mrow><mo>$</mo><mn>30,000,000</mn></mrow><mrow><mo>$</mo><mn>2,800,000</mn></mrow></mfrac><mo>=</mo><mn>10.71</mn><mo> </mo><mtext>times</mtext></math></item>
     <item xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Payables Deferral Period</mtext><mo>=</mo><mfrac><mn>365</mn><mrow><mn>10</mn><mo>.</mo><mn>71</mn></mrow></mfrac><mo>=</mo><mn>34</mn><mo> </mo><mtext>days</mtext></math></item>
     </list>
-    <equation id="eq-00005" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Cash Conversion Cycle</mtext><mo> </mo><mo>=</mo><mo> </mo><mn>36.5</mn><mo> </mo><mi>days</mi><mo> </mo><mo>+</mo><mo> </mo><mn>54. 7</mn><mo> </mo><mi>days</mi><mo> </mo><mo>-</mo><mo> </mo><mn>34</mn><mo> </mo><mtext>days</mtext><mo> </mo><mo>=</mo><mo> </mo><mn>57.2</mn><mo> </mo><mtext>days</mtext></math></equation>
+    <equation id="eq-00005" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Cash Conversion Cycle</mtext><mo> </mo><mo>=</mo><mo> </mo><mn>36.5</mn><mo> </mo><mi>days</mi><mo> </mo><mo>+</mo><mo> </mo><mn>54.7</mn><mo> </mo><mi>days</mi><mo> </mo><mo>-</mo><mo> </mo><mn>34</mn><mo> </mo><mtext>days</mtext><mo> </mo><mo>=</mo><mo> </mo><mn>57.2</mn><mo> </mo><mtext>days</mtext></math></equation>
     <para id="para-00047" xmlns="http://cnx.rice.edu/cnxml">The solution (the entire cash conversion cycle) is also illustrated in a chart, <link target-id="fig-00003" document="m00120"/>.</para>
     <figure id="fig-00003">
     <title>Cash Conversion Cycle</title>
