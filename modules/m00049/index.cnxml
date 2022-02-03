@@ -36,7 +36,7 @@
     <tbody>
     <row>
     <entry align="center"><emphasis effect="bold">Year</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">0<newline/>(Today)</emphasis></entry>
+    <entry align="center"><emphasis effect="bold">0</emphasis><newline/>(Today)</entry>
     <entry align="center"><emphasis effect="bold">1</emphasis></entry>
     <entry align="center"><emphasis effect="bold">2</emphasis></entry>
     <entry align="center"><emphasis effect="bold">3</emphasis></entry>
@@ -46,11 +46,11 @@
     <row>
       <entry align="center"> </entry>
       <entry align="center"> </entry>
-      <entry align="center"> </entry>
-      <entry align="center"> </entry>
-      <entry align="center"> </entry>
-      <entry align="center"> </entry>
-      <entry align="center"> </entry>
+      <entry align="center">        </entry>
+      <entry align="center">        </entry>
+      <entry align="center">        </entry>
+      <entry align="center">        </entry>
+      <entry align="center">        </entry>
     </row>
 
     </tbody>
@@ -99,7 +99,7 @@
     <section id="sect-00003">
     <title>Using a Financial Calculator to Solve TVM Problems</title>
     <para id="para-00010">An extremely popular method of solving TVM problems is through the use of a financial calculator. Financial calculators such as the <term class="no-emphasis" id="term-00001"><link url="https://openstax.org/r/baii-plus-professional">Texas Instruments BAII Plus™ Professional</link></term> will typically have five keys that represent the critical variables used in most common TVM problems: <span class="primary-function">N</span>, <span class="primary-function">I/Y</span>, <span class="primary-function">PV</span>, <span class="primary-function">FV</span>, and <span class="primary-function">PMT</span>. These represent the following:</para>
-    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd/><mtd/><mtd><mi mathvariant="normal">N</mi><mo>:</mo><mo> </mo><mi>Number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Periods</mi></mtd></mtr><mtr><mtd/><mtd/><mtd><mi mathvariant="normal">I</mi><mo>/</mo><mi mathvariant="normal">Y</mi><mo>:</mo><mo> </mo><mi>Interest</mi><mo> </mo><mi>Rate</mi><mo> </mo><mo>(</mo><mi>Interest</mi><mo> </mo><mi>per</mi><mo> </mo><mi>Year</mi><mo>)</mo></mtd></mtr><mtr><mtd/><mtd/><mtd><mi>PV</mi><mo>:</mo><mo> </mo><mi>Present</mi><mo> </mo><mi>Value</mi><mo> </mo><mi>of</mi><mo> </mo><mi mathvariant="normal">a</mi><mo> </mo><mi>Lump</mi><mo> </mo><mi>Sum</mi></mtd></mtr><mtr><mtd/><mtd/><mtd><mi mathvariant="normal">V</mi><mo>:</mo><mo> </mo><mi>Future</mi><mo> </mo><mi>Value</mi><mo> </mo><mi>of</mi><mo> </mo><mi mathvariant="normal">a</mi><mo> </mo><mi>Lump</mi><mo> </mo><mi>Sum</mi></mtd></mtr><mtr><mtd/><mtd/><mtd><mi>PMT</mi><mo>:</mo><mo> </mo><mi>Payment</mi></mtd></mtr><mtr><mtd/><mtd/><mtd/></mtr></mtable></math></equation>
+    <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>N: Number of Periods</mtext><mspace linebreak="newline"/><mtext>I/Y: Interest Rate (Interest per Year)</mtext><mspace linebreak="newline"/><mtext>PV: Present Value of a Lump Sum</mtext><mspace linebreak="newline"/><mtext>V: Future Value of a Lump Sum</mtext><mspace linebreak="newline"/><mtext>PMT: Payment</mtext></math></equation>
     <para id="para-00011" xmlns="http://cnx.rice.edu/cnxml">These are the only keys on a financial calculator that are necessary to solve TVM problems involving a <term id="term-00002">single payment or lump sum</term>.</para>
     <section id="sect-00004">
     <title>Example 1: Future Value of a Single Payment or Lump Sum</title>
@@ -288,35 +288,35 @@
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">2</entry>
+    <entry align="center">2</entry>
     <entry align="left">Enter future value (as a negative integer)</entry>
     <entry align="left">50000 <span class="primary-function">+|-</span> <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">-50,000.0000</entry>
     </row>
     <row>
-    <entry align="left">3</entry>
+    <entry align="center">3</entry>
     <entry align="left">Enter interest rate</entry>
     <entry align="left">5 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">5.0000</entry>
     </row>
     <row>
-    <entry align="left">4</entry>
+    <entry align="center">4</entry>
     <entry align="left">Enter time periods</entry>
     <entry align="left">5 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">5.0000</entry>
     </row>
     <row>
-    <entry align="left">5</entry>
+    <entry align="center">5</entry>
     <entry align="left">Indicate no payments or deposits</entry>
     <entry align="left">0 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">6</entry>
+    <entry align="center">6</entry>
     <entry align="left">Compute present value</entry>
     <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
@@ -363,42 +363,42 @@
     </thead>
     <tbody>
     <row>
-    <entry align="left">1</entry>
+    <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
     <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">2</entry>
+    <entry align="center">2</entry>
     <entry align="left">Enter present value (as a negative integer)</entry>
     <entry align="left">15000 <span class="primary-function">+|-</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">-15,000.0000</entry>
     </row>
     <row>
-    <entry align="left">3</entry>
+    <entry align="center">3</entry>
     <entry align="left">Enter interest rate</entry>
     <entry align="left">6 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
     <entry align="right">6.0000</entry>
     </row>
     <row>
-    <entry align="left">4</entry>
+    <entry align="center">4</entry>
     <entry align="left">Enter future value</entry>
     <entry align="left">25000 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">25,000.0000</entry>
     </row>
     <row>
-    <entry align="left">5</entry>
+    <entry align="center">5</entry>
     <entry align="left">Indicate no payments or deposits</entry>
     <entry align="left">0 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">6</entry>
+    <entry align="center">6</entry>
     <entry align="left">Compute time periods</entry>
     <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
@@ -431,57 +431,57 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00007">
     <title>Calculator Steps for Determining Interest Rate</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1" colwidth="1*"/>
-    <colspec colnum="2" colname="c2" colwidth="1*"/>
-    <colspec colnum="3" colname="c3" colwidth="3*"/>
-    <colspec colnum="4" colname="c4" colwidth="3*"/>
-    <colspec colnum="5" colname="c5" colwidth="3*"/>
+    <colspec colnum="1" colname="c1"/>
+    <colspec colnum="2" colname="c2"/>
+    <colspec colnum="3" colname="c3"/>
+    <colspec colnum="4" colname="c4"/>
+    <colspec colnum="5" colname="c5"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
-    <entry align="center">Step</entry>
+    <entry align="center">Description</entry>
     <entry align="center">Enter</entry>
     <entry align="center" namest="c4" nameend="c5">Display</entry>
     </row>
     </thead>
     <tbody>
     <row>
-    <entry align="left">1</entry>
+    <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
     <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">2</entry>
+    <entry align="center">2</entry>
     <entry align="left">Enter present value (as a negative integer)</entry>
     <entry align="left">15000 <span class="primary-function">+|-</span> <span class="primary-function">PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">-15,000.0000</entry>
     </row>
     <row>
-    <entry align="left">3</entry>
+    <entry align="center">3</entry>
     <entry align="left">Enter time periods</entry>
     <entry align="left">8.5 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
     <entry align="right">8.5000</entry>
     </row>
     <row>
-    <entry align="left">4</entry>
+    <entry align="center">4</entry>
     <entry align="left">Enter future value</entry>
     <entry align="left">25000 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
     <entry align="right">25,000.0000</entry>
     </row>
     <row>
-    <entry align="left">5</entry>
+    <entry align="center">5</entry>
     <entry align="left">Indicate no payments or deposits</entry>
     <entry align="left">0 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
     <entry align="right">0.0000</entry>
     </row>
     <row>
-    <entry align="left">6</entry>
+    <entry align="center">6</entry>
     <entry align="left">Compute interest rate</entry>
     <entry align="left"><span class="primary-function">CPT</span> <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
@@ -523,13 +523,13 @@
     <para id="para-00059">Download the <link url="https://openstax.org/r/docs.google_uc_export">spreadsheet file</link> containing key Chapter 7 Excel exhibits.</para>
   </note>
     <para id="para-00060"><emphasis effect="bold">Determining Future Value When Other Variables Are Known</emphasis>. You have $2,000 invested in a money market account that is expected to earn 4% annually. What will be the total value in the account in five years?</para>
-    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Present</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>PV</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>(</mo><mo>$</mo><mn>2</mn><mo>,</mo><mn>000</mn><mo>.</mo><mn>00</mn><mo>)</mo><mo> </mo></mtd></mtr></mtable></math></equation>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Present Value (PV)</mtext><mo>=</mo><mo>(</mo><mo>$</mo><mn>2,000.00</mn><mo>)</mo></math></equation>
     <para id="para-00061" xmlns="http://cnx.rice.edu/cnxml">Note: Be sure to follow the sign conventions. In this case, the PV should be entered as a negative value.</para>
-    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Interest</mi><mo> </mo><mi>Rate</mi><mo> </mo><mo>(</mo><mi>Rate</mi><mo> </mo><mi>or</mi><mo> </mo><mi mathvariant="normal">I</mi><mo>/</mo><mi mathvariant="normal">Y</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>4</mn><mi mathvariant="normal">%</mi></math></equation>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Interest Rate (Rate or I/Y)</mtext><mo>=</mo><mn>4</mn><mo>%</mo></math></equation>
     <para id="para-00062" xmlns="http://cnx.rice.edu/cnxml">Note: In Excel, interest and growth rates must be entered as percentages, not as whole integers. So, 4 percent must be entered as 4% or 0.04—not 4, as you would enter in a financial calculator.</para>
-    <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Periods</mi><mo> </mo><mo>(</mo><mi>Nper</mi><mo> </mo><mi>or</mi><mo> </mo><mi mathvariant="normal">N</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mn>5</mn><mo>.</mo><mn>00</mn></math></equation>
+    <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Number of Periods </mtext><mo>(</mo><mtext>Nper or N</mtext><mo>)</mo><mo>=</mo><mn>5.00</mn></math></equation>
     <para id="para-00063" xmlns="http://cnx.rice.edu/cnxml">Note: It is always assumed that if not specifically stated, the compounding period of any given interest rate is annual, or based on years.</para>
-    <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Future</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>FV</mi><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>2</mn><mo>,</mo><mn>433</mn><mo>.</mo><mn>31</mn></math></equation>
+    <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Future Value (FV)</mtext><mo>=</mo><mo>$</mo><mn>2,433.31</mn></math></equation>
     <para id="para-00064" xmlns="http://cnx.rice.edu/cnxml">Note: The Excel command used to calculate future value is as follows:</para>
     <code class="centered-code">=FV(rate, nper, pmt, [pv], [type])</code>
     <para id="para-00066">You may simply type the values for the arguments in the above formula. Another option is to use the Excel insert function option. If you decide on this second method, below are several screenshots of dialog boxes you will encounter and will be required to complete.</para>
@@ -573,7 +573,7 @@
     <exercise class="unnumbered" id="exer-00005">
     <problem id="prob-00005">
     <para id="para-00074">You have just won a second-prize lottery jackpot that will pay a single total lump sum of $50,000 five years from now. You are interested in knowing how much value this would have in today’s dollars, assuming a 5% interest rate.</para>
-    <equation id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Future</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>FV</mi><mo>)</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>(</mo><mo>$</mo><mn>50</mn><mo>,</mo><mn>000</mn><mo>.</mo><mn>00</mn><mo>)</mo></mtd></mtr><mtr><mtd><mi>Interest</mi><mo> </mo><mi>Rate</mi><mo> </mo><mo>(</mo><mi>Rate</mi><mo> </mo><mi>or</mi><mo> </mo><mi mathvariant="normal">I</mi><mo>/</mo><mi mathvariant="normal">Y</mi><mo>)</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>5</mn><mi mathvariant="normal">%</mi></mtd></mtr><mtr><mtd><mi>Number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Periods</mi><mo> </mo><mo>(</mo><mi>Nper</mi><mo> </mo><mi>or</mi><mo> </mo><mi mathvariant="normal">N</mi><mo>)</mo></mtd><mtd><mo>=</mo></mtd><mtd><mn>5</mn><mo>.</mo><mn>00</mn></mtd></mtr><mtr><mtd><mi>Present</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>PV</mi><mo>)</mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>39</mn><mo>,</mo><mn>176</mn><mo>.</mo><mn>31</mn></mtd></mtr><mtr><mtd/><mtd/><mtd/></mtr></mtable></math></equation>
+    <equation id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable><mtr><mtd><mtext>Future Value (FV)</mtext><mo> </mo><mo>=</mo><mo> </mo><mo>(</mo><mo>$</mo><mn>50,000.00</mn><mo>)</mo></mtd></mtr><mtr><mtd><mtext>Interest Rate (Rate or I/Y)</mtext><mo> </mo><mo>=</mo><mo> </mo><mn>5</mn><mo>%</mo></mtd></mtr><mtr><mtd><mtext>Number of Periods ( Nper or N) </mtext><mo>=</mo><mo> </mo><mn>5.00</mn></mtd></mtr><mtr><mtd><mtext>Present Value ( PV)</mtext><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>39,176.31</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00075" xmlns="http://cnx.rice.edu/cnxml">Notes:</para>
     <list list-type="enumerated" id="list-00004">
     <item>If you wish for the present value amount to be positive, the future value you enter here should be a negative value.</item>
@@ -614,7 +614,7 @@
     <title>Periods of Time</title>
     <para id="para-00083">The following discussion will show you how to use Excel to determine the amount of time a given present value will need to grow into a specified future value when the interest or growth rate is known.</para>
     <para id="para-00084">You want to be able to contribute $25,000 to your child’s first year of college tuition and related expenses. You currently have $15,000 in a tuition savings account that is earning 6% interest every year. How long will it take for this account grow into the targeted amount of $25,000, assuming no additional deposits or withdrawals are made?</para>
-    <equation id="eq-00008"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Future</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>FV</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mpadded lspace="+1px"><mo>$</mo><mn>25</mn><mo>,</mo><mn>000</mn><mo>.</mo><mn>00</mn></mpadded></mtd></mtr><mtr><mtd><mi>Interest</mi><mo> </mo><mi>Rate</mi><mo> </mo><mo>(</mo><mi>Rate</mi><mo> </mo><mi>or</mi><mo> </mo><mi mathvariant="normal">I</mi><mo>/</mo><mi mathvariant="normal">Y</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>6</mn><mi mathvariant="normal">%</mi></mtd></mtr><mtr><mtd><mi>Present</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>PV</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>(</mo><mo>$</mo><mn>15</mn><mo>,</mo><mn>000</mn><mo>.</mo><mn>00</mn><mo>)</mo></mtd></mtr><mtr><mtd><mi>Number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Periods</mi><mo> </mo><mo>(</mo><mi>NPER</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>8</mn><mo>.</mo><mn>7667</mn></mtd></mtr><mtr><mtd/><mtd/><mtd/></mtr></mtable></math></equation>
+    <equation id="eq-00008"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable><mtr><mtd><mtext>Future Value (FV) </mtext><mo>=</mo><mo> </mo><mo>$</mo><mn>25,000.00</mn></mtd></mtr><mtr><mtd><mtext>Interest Rate ( Rate or I/Y) </mtext><mo>=</mo><mo> </mo><mn>6</mn><mo>%</mo></mtd></mtr><mtr><mtd><mtext>Present Value ( PV)</mtext><mo>=</mo><mrow><mo> </mo><mo>(</mo><mo>$</mo><mn>15,000.00</mn><mo>)</mo></mrow></mtd></mtr><mtr><mtd><mtext>Number of Periods (NPER)</mtext><mo> </mo><mo>=</mo><mo> </mo><mn>8.7667</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00085" xmlns="http://cnx.rice.edu/cnxml">Notes:</para>
     <list list-type="enumerated" id="list-00006">
     <item>As with our other examples, interest and growth rates must be entered as percentages, not as whole integers. So, 6 percent must be entered as 6% or 0.06—not 6, as you would enter in a financial calculator.</item>
@@ -651,7 +651,7 @@
     <para id="para-00093">You can also use Excel to determine the required growth rate when the present value, future value, and total number of required periods are known.</para>
     <para id="para-00094">Let’s discuss a similar example to the one we used to calculate periods of time. You still want to help your child with their first year of college tuition and related expenses, and you still have a starting amount of $15,000, but you have not yet decided which savings plan to use.</para>
     <para id="para-00095">Instead, the information you now have is that your child is just under 10 years old and will begin college at age 18. For simplicity’s sake, let’s say that you have eight and a half years until you will need to meet your total savings target of $25,000. What rate of interest will you need to grow your saved money from $15,000 to $25,000 in this time, again with no other deposits or withdrawals?</para>
-    <equation id="eq-00009"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>Future</mi><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>FV</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mpadded lspace="+1px"><mo>$</mo><mn>25</mn><mo>,</mo><mn>000</mn><mo>.</mo><mn>00</mn></mpadded></mtd></mtr><mtr><mtd><mi>Number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>Periods</mi><mo> </mo><mo>(</mo><mi>Nper</mi><mo> </mo><mi>or</mi><mo> </mo><mi mathvariant="normal">N</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mn>8</mn><mo>.</mo><mn>50</mn></mtd></mtr><mtr><mtd><mi>Present</mi><mo>\</mo><mo> </mo><mi>Value</mi><mo> </mo><mo>(</mo><mi>PV</mi><mo>)</mo><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>(</mo><mo>$</mo><mn>15</mn><mo>,</mo><mn>000</mn><mo>.</mo><mn>00</mn><mo>)</mo></mtd></mtr><mtr><mtd/><mtd/><mtd/></mtr></mtable></math></equation>
+    <equation id="eq-00009"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable><mtr><mtd><mtext>Future Value (FV)</mtext><mo>=</mo><mo>$</mo><mn>25,000.00</mn></mtd></mtr><mtr><mtd><mtext>Number of Periods (Nper or N)</mtext><mo> </mo><mo>=</mo><mo> </mo><mn>8.50</mn></mtd></mtr><mtr><mtd><mtext>Present</mtext><mo>/</mo><mtext>Value</mtext><mo> </mo><mo>(</mo><mtext>PV</mtext><mo>)</mo><mo> </mo><mo>=</mo><mrow><mo> </mo><mo>(</mo><mo>$</mo><mn>15,000.00</mn><mo>)</mo></mrow></mtd></mtr></mtable></math></equation>
     <para id="para-00096" xmlns="http://cnx.rice.edu/cnxml">Note: The present value needs to be entered as a negative value.</para>
     <code class="centered-code">Interest Rate (RATE)</code>
     <para id="para-00098">Note: The Excel command used to calculate interest or growth rate is as follows:</para>
