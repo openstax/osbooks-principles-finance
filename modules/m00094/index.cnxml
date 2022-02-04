@@ -129,7 +129,7 @@
     </row>
     <row>
     <entry align="center"><emphasis effect="bold">Std Dev</emphasis></entry>
-    <entry align="rightcenter"><emphasis effect="bold">51.90%</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">51.90%</emphasis></entry>
     <entry align="right"><emphasis effect="bold">49.11%</emphasis></entry>
     <entry align="right"><emphasis effect="bold">30.43%</emphasis></entry>
     <entry align="right"><emphasis effect="bold">35.10%</emphasis></entry>
