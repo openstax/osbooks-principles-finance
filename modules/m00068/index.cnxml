@@ -169,7 +169,7 @@
     </tgroup>
     </table>
     <para id="para-00034">Note:</para>
-    <equation id="eq-00012"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Value</mi><mi>after</mi><mi>Year</mi><mn>4</mn><mo>=</mo><mfrac><mrow><mn>2.4310125</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1.03</mn><mo> </mo></mrow><mrow><mn>0.08</mn><mo> </mo><mo>-</mo><mo> </mo><mn>0. 03</mn></mrow></mfrac><mo>=</mo><mn>50.078858</mn></math></equation>
+    <equation id="eq-00012"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Value</mi><mi>after</mi><mi>Year</mi><mn>4</mn><mo>=</mo><mfrac><mrow><mn>2.4310125</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1.03</mn><mo> </mo></mrow><mrow><mn>0.08</mn><mo> </mo><mo>-</mo><mo> </mo><mn>0.03</mn></mrow></mfrac><mo>=</mo><mn>50.078858</mn></math></equation>
     <para id="para-00035" xmlns="http://cnx.rice.edu/cnxml">The value of Maddox stock in this example would be $43.25 per share.</para>
     </section>
     <section id="sect-00006">
