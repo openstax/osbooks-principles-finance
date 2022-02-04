@@ -32,35 +32,35 @@
     <tbody>
     <row>
     <entry align="center">Stock A</entry>
-    <entry align="center">134,000</entry>
+    <entry align="right">134,000</entry>
     </row>
     <row>
     <entry align="center">Stock B</entry>
-    <entry align="center">172,000</entry>
+    <entry align="right">172,000</entry>
     </row>
     <row>
     <entry align="center">Bond C</entry>
-    <entry align="center">38,000</entry>
+    <entry align="right">38,000</entry>
     </row>
     <row>
     <entry align="center">Bond D</entry>
-    <entry align="center">102,000</entry>
+    <entry align="right">102,000</entry>
     </row>
     <row>
     <entry align="center">Bond E</entry>
-    <entry align="center">96,000</entry>
+    <entry align="right">96,000</entry>
     </row>
     <row>
     <entry align="center">Cash in CDs</entry>
-    <entry align="center">35,700</entry>
+    <entry align="right">35,700</entry>
     </row>
     <row>
     <entry align="center">Cash in savings</entry>
-    <entry align="center">22,500</entry>
+    <entry align="right">22,500</entry>
     </row>
     <row>
     <entry align="center"><emphasis effect="bold">Total Value</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">600,200</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">600,200</emphasis></entry>
     </row>
     </tbody>
     </tgroup>
