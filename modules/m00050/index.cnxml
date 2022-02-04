@@ -131,15 +131,16 @@
     <title/>
     <para id="para-00061">The idea of the time value of money is often considered to be the cornerstone concept of the study of finance. TVM can help investors and savers understand the value of money today relative to its earning potential in the future. TVM is critical to understanding the effect that inflation has on money and why saving your money early can help increase the value of your savings dollars by giving them time to grow and outpace the effects of inflation. Of course, it is important to remember that there will always be possible options that are sacrificed with every option you decide on and every choice you make.</para>
     </section>
-    <section class="cfa-institute" id="sect-00015">
-    <para id="para-00062">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfainstitute_link">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
-    </section>
     <section class="review-questions" id="sect-00016">
     <title/>
     <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00063"><link class="os-embed" url="#exercise/FI_Ch7_Sec04_RVQ1"/></para></problem></exercise>
     <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00064"><link class="os-embed" url="#exercise/FI_Ch7_Sec04_RVQ4"/></para></problem></exercise>
     </section>
-    </content>
+    <section class="cfa-institute" id="sect-00015">
+      <title>CFA Institute</title>
+       <para id="para-00062">This chapter supports some of the Learning Outcome Statements (LOS) in this <link url="https://openstax.org/r/cfainstitute_link">CFA® Level I Study Session</link>. Reference with permission of CFA Institute.</para>
+      </section>
+      </content>
     <glossary>
     <definition id="def-00001"><term>Bureau of Labor Statistics</term> <meaning>a group within the United States Department of Labor that is the primary fact-finding agency for the US government in the fields of labor, statistics, and economics; serves as the principal agency of the US Federal Statistical System</meaning></definition>
     <definition id="def-00002"><term>compounding interest</term> <meaning>the continual addition of interest to the original principal sum of a loan or deposit, often referred to as interest on interest</meaning></definition>
