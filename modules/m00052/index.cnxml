@@ -57,7 +57,7 @@
     <para id="para-00024"><emphasis>Solution:</emphasis></para>
     <para id="para-00025">We modify the constant perpetuity formula:</para>
     <equation id="eq-00007"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Gift</mtext><mo> </mo><mo>=</mo><mo> </mo><mfrac><mtext>Annual Distribution</mtext><msub><mi>R</mi><mtext>s</mtext></msub></mfrac></math></equation>
-    <equation id="eq-00008" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Gift</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>$</mo><mn>75</mn><mo>,</mo><mn>000</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>035</mn></mrow></mfrac><mo>=</mo><mo>$</mo><mn>2,142,857</mn></math></equation>
+    <equation id="eq-00008" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Gift</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mrow><mo>$</mo><mn>75,000</mn></mrow><mrow><mn>0.035</mn></mrow></mfrac><mo>=</mo><mo>$</mo><mn>2,142,857</mn></math></equation>
     <para id="para-00026" xmlns="http://cnx.rice.edu/cnxml">In one year, $2,142,857 grows to</para>
     <equation id="eq-00009"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>2,142,857</mn><mo> </mo><mo>×</mo><mo> </mo><mn>1.035</mn><mo>=</mo><mo>$</mo><mn>2,217,857</mn></math></equation>
     <para id="para-00027" xmlns="http://cnx.rice.edu/cnxml">The earnings (gift) of $75,000 are withdrawn to compensate the professor, and we are left with the amount originally endowed, $2,142,857:</para>
