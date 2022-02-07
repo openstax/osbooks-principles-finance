@@ -23,11 +23,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00001">
     <title>Calculator Steps to Find the Required Rate of Return<footnote id="foot-00001">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup> Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <colspec colnum="5" colname="c5"/>
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="3*"/>
+      <colspec colnum="5" colname="c5" colwidth="3*"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -58,11 +58,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00002">
     <title>Calculator Steps to Solve for an Ordinary Annuity</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <colspec colnum="5" colname="c5"/>
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="3*"/>
+      <colspec colnum="5" colname="c5" colwidth="3*"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -115,11 +115,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00003">
     <title>Calculator Steps to Solve for an Annuity Due</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <colspec colnum="5" colname="c5"/>
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="3*"/>
+      <colspec colnum="5" colname="c5" colwidth="3*"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -185,11 +185,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00004">
     <title>Calculator Steps to Find the Future Value of an Ordinary Annuity</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <colspec colnum="5" colname="c5"/>
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="3*"/>
+      <colspec colnum="5" colname="c5" colwidth="3*"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -241,11 +241,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00005">
     <title>Calculator Steps to Find the Future Value of an Annuity Due</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <colspec colnum="5" colname="c5"/>
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="3*"/>
+      <colspec colnum="5" colname="c5" colwidth="3*"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -313,11 +313,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00006">
     <title>Calculator Steps to Prove the Actual Rate of Interest per Year</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <colspec colnum="5" colname="c5"/>
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="3*"/>
+      <colspec colnum="5" colname="c5" colwidth="3*"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -372,11 +372,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00007">
     <title>Calculator Steps to Find the Monthly Payment of a Loan</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <colspec colnum="5" colname="c5"/>
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="3*"/>
+      <colspec colnum="5" colname="c5" colwidth="3*"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -442,11 +442,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00008">
     <title>Calculator Steps to Verify Amortization at the End of One Year</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <colspec colnum="5" colname="c5"/>
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="3*"/>
+      <colspec colnum="5" colname="c5" colwidth="3*"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
@@ -505,11 +505,11 @@
     <table summary="Some cells are left blank for visual design purposes." id="table-00009">
     <title>Calculator Steps to Verify Amortization at the End of Two Years</title>
     <tgroup cols="5">
-    <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <colspec colnum="5" colname="c5"/>
+      <colspec colnum="1" colname="c1" colwidth="1*"/>
+      <colspec colnum="2" colname="c2" colwidth="1*"/>
+      <colspec colnum="3" colname="c3" colwidth="3*"/>
+      <colspec colnum="4" colname="c4" colwidth="3*"/>
+      <colspec colnum="5" colname="c5" colwidth="3*"/>
     <thead>
     <row>
     <entry align="center">Step</entry>
