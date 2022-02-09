@@ -400,13 +400,13 @@
     </row>
     <row>
     <entry align="center" morerows="1"><emphasis effect="bold">Arithmetic Average</emphasis></entry>
-    <entry align="right" morerows="1"><emphasis effect="bold">11.11%</emphasis></entry>
+    <entry align="right" morerows="1" colsep="1"><emphasis effect="bold">11.11%</emphasis></entry>
     <entry align="center"><emphasis effect="bold">0.0929</emphasis></entry>
     <entry align="center"><emphasis effect="bold">Subtract 1</emphasis></entry>
     </row>
     <row>
-    <entry align="center"><emphasis effect="bold">9.29%</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">Geometric Average</emphasis></entry>
+    <entry align="center" rowsep="1"><emphasis effect="bold">9.29%</emphasis></entry>
+    <entry align="center" rowsep="1"><emphasis effect="bold">Geometric Average</emphasis></entry>
     </row>
     </tbody>
     </tgroup>
