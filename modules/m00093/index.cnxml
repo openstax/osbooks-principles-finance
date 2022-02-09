@@ -305,7 +305,7 @@
     <solution id="sol-00002">
     <para id="para-00055"><emphasis effect="bold">Solution:</emphasis></para>
       <para id="para-00029">See <link target-id="table-00004" document="m00093"/> for the arithmetic mean and geometric mean calculations.</para>
-    <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00004">
+    <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00004" colsep="1">
     <title>Yearly Returns for CVS, 2011–2020</title>
     <tgroup cols="4">
     <colspec colnum="1" colname="c1"/>
@@ -401,11 +401,11 @@
     <row>
     <entry align="center" morerows="1"><emphasis effect="bold">Arithmetic Average</emphasis></entry>
     <entry align="right" morerows="1"><emphasis effect="bold">11.11%</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">0.0929</emphasis></entry>
+    <entry align="center" colsep="1"><emphasis effect="bold">0.0929</emphasis></entry>
     <entry align="center"><emphasis effect="bold">Subtract 1</emphasis></entry>
     </row>
     <row>
-    <entry align="center"><emphasis effect="bold">9.29%</emphasis></entry>
+    <entry align="center" colsep="1"><emphasis effect="bold">9.29%</emphasis></entry>
     <entry align="center"><emphasis effect="bold">Geometric Average</emphasis></entry>
     </row>
     </tbody>
