@@ -21,11 +21,11 @@
       <table summary=" " id="table-00001">
       <title>Steps for Calculating Uneven Mixed Cash Flows<footnote id="foot-00001">The specific financial calculator in these examples is the Texas Instruments BA II Plus<sup>TM</sup> Professional model, but you can use other financial calculators for these types of calculations.</footnote></title>
       <tgroup cols="5">
-      <colspec colnum="1" colname="c1" colwidth="0*"/>
-      <colspec colnum="2" colname="c2" colwidth="5*"/>
-      <colspec colnum="3" colname="c3" colwidth="3*"/>
-      <colspec colnum="4" colname="c4" colwidth="2*"/>
-      <colspec colnum="5" colname="c5" colwidth="0*"/>
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
       <thead>
       <row>
       <entry align="center">Step</entry>
@@ -182,11 +182,11 @@
       <table summary=" " id="table-00003">
       <title>Steps for Calculating Uneven Mixed Cash Flows, Continued</title>
       <tgroup cols="5">
-      <colspec colnum="1" colname="c1" colwidth="0*"/>
-      <colspec colnum="2" colname="c2" colwidth="5*"/>
-      <colspec colnum="3" colname="c3" colwidth="3*"/>
-      <colspec colnum="4" colname="c4" colwidth="2*"/>
-      <colspec colnum="5" colname="c5" colwidth="0*"/>
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
       <thead>
       <row>
       <entry align="center">Step</entry>
@@ -263,11 +263,11 @@
       <table summary=" " id="table-00004">
       <title>Steps for Calculating the Present Value of a Mixed Cash Stream</title>
       <tgroup cols="5">
-      <colspec colnum="1" colname="c1" colwidth="0*"/>
-      <colspec colnum="2" colname="c2" colwidth="5*"/>
-      <colspec colnum="3" colname="c3" colwidth="3*"/>
-      <colspec colnum="4" colname="c4" colwidth="2*"/>
-      <colspec colnum="5" colname="c5" colwidth="0*"/>
+      <colspec colnum="1" colname="c1"/>
+      <colspec colnum="2" colname="c2"/>
+      <colspec colnum="3" colname="c3"/>
+      <colspec colnum="4" colname="c4"/>
+      <colspec colnum="5" colname="c5"/>
       <thead>
       <row>
       <entry align="center">Step</entry>

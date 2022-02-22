@@ -25,8 +25,7 @@
       <para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">This predicted value of <emphasis effect="italics">y</emphasis> indicates that the forecasted revenue would be $14,320,700, assuming an advertising spend of $80,000.</para>
       <list id="list-00002">
       <item>Excel can provide this forecasted value directly using the =FORECAST command.</item>
-      <item><para id="para-00007">To use this command, enter the value of the independent variable <emphasis effect="italics">x</emphasis>, followed by the cell range for the <emphasis effect="italics">y</emphasis>-data and the cell range for the <emphasis effect="italics">x</emphasis>-data, as follows:</para>
-      <code class="centered-code">=FORECAST(X_VALUE, Range of Y-DATA, Range of X-DATA)</code></item>
+      <item><para id="para-00007">To use this command, enter the value of the independent variable <emphasis effect="italics">x</emphasis>, followed by the cell range for the <emphasis effect="italics">y</emphasis>-data and the cell range for the <emphasis effect="italics">x</emphasis>-data, as follows: <code>=FORECAST(X_VALUE, Range of Y-DATA, Range of X-DATA)</code></para></item>
       <item>Using this Excel command, the forecasted value for the revenue is $14,320.52 when the advertising spend is $80 (in thousands of dollars) (see <link target-id="fig-00001" document="m00091"/>). (Note: The discrepancy in the more precise Excel result and the formula result is due to rounding in interim calculations.)</item>
       </list>
       <figure id="fig-00001">
