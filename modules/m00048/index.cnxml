@@ -24,9 +24,9 @@
     <para id="para-00005">If a person deposits $300 in an account that pays 5% per year, at the end of one year, they will have</para>
     <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mi>FV</mi><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo> </mo><mo>$</mo><mn>300</mn><mo> </mo><mo>+</mo><mo> </mo><mo>(</mo><mo>$</mo><mn>300</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0.05</mn><mo>)</mo><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>315</mn></mtd></mtr></mtable></math></equation>
     <para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">If a company has earnings of $2.50 per share and experiences a 10% increase in the following year, the earnings per share in year two are</para>
-    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>2.50</mn><mo> </mo><mo>+</mo><mo> </mo><mo>$</mo><mn>2.50</mn><mo> </mo><mo>×</mo><mo> </mo><mn>.10</mn><mo>=</mo><mo>$</mo><mn>2.75</mn><mo> </mo><mtext>per share</mtext></math></equation>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>2.50</mn><mo> </mo><mo>+</mo><mo> </mo><mo>$</mo><mn>2.50</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0.10</mn><mo>=</mo><mo>$</mo><mn>2.75</mn><mo> </mo><mtext>per share</mtext></math></equation>
     <para id="para-00007" xmlns="http://cnx.rice.edu/cnxml">If a retail store decides on a 3% price increase for the following year on an item that is currently selling for $50, the new price in the following year will be</para>
-    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>50</mn><mo> </mo><mo>+</mo><mo> </mo><mo>$</mo><mn>50</mn><mo> </mo><mo>×</mo><mo> </mo><mn>.03</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>51.50</mn></math></equation>
+    <equation id="eq-00004"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo><mn>50</mn><mo> </mo><mo>+</mo><mo> </mo><mo>$</mo><mn>50</mn><mo> </mo><mo>×</mo><mo> </mo><mn>0.03</mn><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>51.50</mn></math></equation>
     </section>
     <section id="sect-00003" xmlns="http://cnx.rice.edu/cnxml">
     <title>The Impact of Compounding</title>
