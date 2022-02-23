@@ -636,7 +636,7 @@
     <title>Step 4 of Creating an Amortization Table</title>
     <media alt="Amortization table showing the annual rate of interest, years, payments per year, the loan amount, and total remaining balance. The excel formula used to find the principal payment is =B10 minus C10."><image mime-type="image/png" src="../../media/FINAN_Figure_08_05_011.png"/></media>
     </figure></item>
-    <item>Because our principal portion of the last payment has reduced our outstanding balance, it is subtracted from the preceding balance in cell E9(see <link target-id="fig-00011" document="m00056"/>). The command therefore is <code>=E9-D10</code>.
+    <item>Because our principal portion of the last payment has reduced our outstanding balance, it is subtracted from the preceding balance in cell E9 (see <link target-id="fig-00011" document="m00056"/>). The command therefore is <code>=E9-D10</code>.
     <figure id="fig-00011">
     <title>Step 5 of Creating an Amortization Table</title>
     <media alt="Amortization table showing the annual rate of interest, years, payments per year, the loan amount, and total remaining balance. To determine the remaining balance, the principal paid is subtracted from the remaining balance. The excel formula for this is =E9 minus D10."><image mime-type="image/png" src="../../media/FINAN_Figure_08_05_012.png"/></media>
