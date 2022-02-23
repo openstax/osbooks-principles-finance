@@ -129,35 +129,35 @@
     <entry align="left">Clear calculator register</entry>
     <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
-    <entry align="right">0.0000</entry>
+    <entry align="right">0.00</entry>
     </row>
     <row>
     <entry align="center">2</entry>
     <entry align="left">Enter present value (as a negative integer)</entry>
     <entry align="left">1000 <span class="primary-function">+|- PV</span></entry>
     <entry align="left">PV =</entry>
-    <entry align="right"> -1,000.0000</entry>
+    <entry align="right"> -1,000.00</entry>
     </row>
     <row>
     <entry align="center">3</entry>
     <entry align="left">Enter interest rate</entry>
     <entry align="left">3 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
-    <entry align="right">3.0000</entry>
+    <entry align="right">3.00</entry>
     </row>
     <row>
     <entry align="center">4</entry>
     <entry align="left">Enter time periods</entry>
     <entry align="left">4 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
-    <entry align="right">4.0000</entry>
+    <entry align="right">4.00</entry>
     </row>
     <row>
     <entry align="center">5</entry>
     <entry align="left">Indicate no payments or deposits</entry>
     <entry align="left">0 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
-    <entry align="right">0.0000</entry>
+    <entry align="right">0.00</entry>
     </row>
     <row>
     <entry align="center">6</entry>
