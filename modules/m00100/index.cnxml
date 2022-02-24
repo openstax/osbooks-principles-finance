@@ -187,21 +187,21 @@
     <entry align="right">1.0</entry>
     </row>
     <row>
-    <entry align="center">11</entry>
+    <entry align="center">10</entry>
     <entry align="left">Select NPV</entry>
     <entry align="left"><span class="primary-function">NPV</span></entry>
     <entry align="left">I</entry>
     <entry align="right">0.00</entry>
     </row>
     <row>
-    <entry align="center">12</entry>
+    <entry align="center">11</entry>
     <entry align="left">Enter discount rate</entry>
     <entry align="left">9 <span class="primary-function">ENTER</span></entry>
     <entry align="left">I =</entry>
     <entry align="right">9.00</entry>
     </row>
     <row>
-    <entry align="center">13</entry>
+    <entry align="center">12</entry>
     <entry align="left">Compute NPV</entry>
     <entry align="left">↓     <span class="primary-function">CPT</span></entry>
     <entry align="left">NPV =</entry>

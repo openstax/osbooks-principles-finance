@@ -201,9 +201,9 @@
 <row>
 <entry align="center">9</entry>
 <entry align="left">Enter second <emphasis effect="italics">y</emphasis>-value of 17590</entry>
-<entry align="left">17590 <span class="primary-function">ENTER</span></entry>
+<entry align="left">17590<span class="primary-function">ENTER</span></entry>
 <entry align="left">Y02 =</entry>
-<entry align="right">17,590</entry>
+<entry align="right">17,590.00</entry>
 </row>
 <row>
 <entry align="center">10</entry>
@@ -252,14 +252,14 @@
 <entry align="left">Continue to scroll down until the value of <emphasis effect="italics">a</emphasis> is displayed</entry>
 <entry align="left">↓</entry>
 <entry align="left"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>=</mo></math></entry>
-<entry align="right" xmlns="http://cnx.rice.edu/cnxml">9,376.7</entry>
+<entry align="right" xmlns="http://cnx.rice.edu/cnxml">9,376.70</entry>
 </row>
 <row>
 <entry align="center">17</entry>
 <entry align="left">Continue to scroll down until the value of <emphasis effect="italics">b</emphasis> is displayed</entry>
 <entry align="left">↓</entry>
 <entry align="left"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>b</mi><mo>=</mo></math></entry>
-<entry align="right" xmlns="http://cnx.rice.edu/cnxml">61.8</entry>
+<entry align="right" xmlns="http://cnx.rice.edu/cnxml">61.80</entry>
 </row>
 </tbody>
 </tgroup>
