@@ -245,7 +245,7 @@
     <problem id="prob-00002">
     <para id="para-00027">The annual returns for <term class="no-emphasis" id="term-00014">CVS Health Corp. (CVS)</term> for the 10-year period of 2011–2020 are shown in <link target-id="table-00003" document="m00093"/>.</para>
     <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00003">
-    <title>CVS Annual Returns, 2011–2020</title>
+    <title>CVS Annual Returns, 2011–2020 (source: Yahoo! Finance)</title>
     <tgroup cols="2">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
@@ -298,7 +298,6 @@
     </row>
     </tbody>
     </tgroup>
-    <caption>(source: Yahoo! Finance)</caption>
     </table>
     <para id="para-00028">What was the arithmetic average return during the decade? What was the geometric average return during the decade?</para>
     </problem>
@@ -555,7 +554,7 @@
     <para id="para-00037">Investors purchase a share of stock hoping that the stock will increase in value and they will receive a positive return. You can see, however, that even with well-established companies such as ExxonMobil and CVS, returns are highly volatile. Investors can never perfectly predict what the return on a stock will be, or even if it will be positive.</para>
     <para id="para-00038">The yearly returns for four companies—<term class="no-emphasis" id="term-00017">Delta Airlines (DAL)</term>, <term class="no-emphasis" id="term-00018">Southwest Airlines (LUV)</term>, <term class="no-emphasis" id="term-00019">ExxonMobil (XOM)</term>, and <term class="no-emphasis" id="term-00020">CVS Health Corp. (CVS)</term>—are shown in <link target-id="table-00006" document="m00093"/>. Each of these stocks had years in which the performance was much better or much worse than the arithmetic average. In fact, none of the stocks appear to have a typical return that occurs year after year.</para>
     <table summary="Some cells are left blank for visual design purposes." class="timeline-table" id="table-00006">
-    <title>Yearly Returns for <term class="no-emphasis" id="term-00021">DAL</term>, <term class="no-emphasis" id="term-00022">LUV</term>, <term class="no-emphasis" id="term-00023">XOM</term>, and <term class="no-emphasis" id="term-00024">CVS</term></title>
+    <title>Yearly Returns for <term class="no-emphasis" id="term-00021">DAL</term>, <term class="no-emphasis" id="term-00022">LUV</term>, <term class="no-emphasis" id="term-00023">XOM</term>, and <term class="no-emphasis" id="term-00024">CVS</term> (source: Yahoo! Finance)</title>
     <tgroup cols="4">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
