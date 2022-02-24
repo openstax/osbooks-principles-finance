@@ -262,42 +262,42 @@
     </thead>
     <tbody>
     <row>
-    <entry align="left">1</entry>
+    <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
     <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
-    <entry align="right">0.0000</entry>
+    <entry align="right">0.00</entry>
     </row>
     <row>
-    <entry align="left">2</entry>
+    <entry align="center">2</entry>
     <entry align="left">Enter number of periods (5)</entry>
     <entry align="left">5 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
-    <entry align="right">5.0000</entry>
+    <entry align="right">5.00</entry>
     </row>
     <row>
-    <entry align="left">3</entry>
+    <entry align="center">3</entry>
     <entry align="left">Enter rate of return or interest rate (10%)</entry>
     <entry align="left">10 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
-    <entry align="right">10.0000</entry>
+    <entry align="right">10.00</entry>
     </row>
     <row>
-    <entry align="left">4</entry>
+    <entry align="center">4</entry>
     <entry align="left">Enter eventual sales price ($25)</entry>
     <entry align="left">25 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
-    <entry align="right">25.0000</entry>
+    <entry align="right">25.00</entry>
     </row>
     <row>
-    <entry align="left">5</entry>
+    <entry align="center">5</entry>
     <entry align="left">Enter dividend amount ($5)</entry>
     <entry align="left">5 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
-    <entry align="right">5.0000</entry>
+    <entry align="right">5.00</entry>
     </row>
     <row>
-    <entry align="left">6</entry>
+    <entry align="center">6</entry>
     <entry align="left">Compute present value</entry>
     <entry align="left"><span class="primary-function">CPT PV</span></entry>
     <entry align="left">PV =</entry>
@@ -365,42 +365,42 @@
     </thead>
     <tbody>
     <row>
-    <entry align="left">1</entry>
+    <entry align="center">1</entry>
     <entry align="left">Clear calculator register</entry>
     <entry align="left"><span class="primary-function">CE/C</span></entry>
     <entry align="left"> </entry>
-    <entry align="right">0.0000</entry>
+    <entry align="right">0.00</entry>
     </row>
     <row>
-    <entry align="left">2</entry>
+    <entry align="center">2</entry>
     <entry align="left">Enter number of periods (20)</entry>
     <entry align="left">20 <span class="primary-function">N</span></entry>
     <entry align="left">N =</entry>
-    <entry align="right">20.0000</entry>
+    <entry align="right">20.00</entry>
     </row>
     <row>
-    <entry align="left">3</entry>
+    <entry align="center">3</entry>
     <entry align="left">Enter rate of return or interest rate (10%)</entry>
     <entry align="left">10 <span class="primary-function">I/Y</span></entry>
     <entry align="left">I/Y =</entry>
-    <entry align="right">10.0000</entry>
+    <entry align="right">10.00</entry>
     </row>
     <row>
-    <entry align="left">4</entry>
+    <entry align="center">4</entry>
     <entry align="left">Enter eventual sales price (30)</entry>
     <entry align="left">30 <span class="primary-function">FV</span></entry>
     <entry align="left">FV =</entry>
-    <entry align="right">30.0000</entry>
+    <entry align="right">30.00</entry>
     </row>
     <row>
-    <entry align="left">5</entry>
+    <entry align="center">5</entry>
     <entry align="left">Enter dividend amount ($1)</entry>
     <entry align="left">1 <span class="primary-function">PMT</span></entry>
     <entry align="left">PMT =</entry>
-    <entry align="right">1.0000</entry>
+    <entry align="right">1.00</entry>
     </row>
     <row>
-    <entry align="left">6</entry>
+    <entry align="center">6</entry>
     <entry align="left">Compute present value</entry>
     <entry align="left"><span class="primary-function">CPT PV</span></entry>
     <entry align="left">PV =</entry>
@@ -514,7 +514,7 @@
     <row>
     <entry align="center">3</entry>
     <entry align="left">Enter present value or initial dividend ($0.70) as a negative<newline/>value</entry>
-    <entry align="left">.7 <span class="primary-function">+|- PV</span></entry>
+    <entry align="left">0.7 <span class="primary-function">+|- PV</span></entry>
     <entry align="left">PV =</entry>
     <entry align="right">-0.7000</entry>
     </row>
