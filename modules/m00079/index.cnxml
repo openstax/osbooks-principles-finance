@@ -79,8 +79,8 @@
     <thead>
     <row>
     <entry align="center"><para id="para-00020">Column 1</para><para id="para-00021"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="bold-italic">x</mi></math></para></entry>
-    <entry align="left" xmlns="http://cnx.rice.edu/cnxml"><para id="para-00022">Column 2</para><para id="para-00023"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="bold"><mo stretchy="true">(</mo><mrow><mi mathvariant="bold-italic">x</mi><mo> </mo><mo>-</mo><mo> </mo><mpadded lspace="-1px"><mover><mi mathvariant="bold-italic">x</mi><mo>¯</mo></mover></mpadded></mrow><mo stretchy="true">)</mo></mstyle></math></para></entry>
-    <entry align="left" xmlns="http://cnx.rice.edu/cnxml"><para id="para-00024">Column 3</para><para id="para-00025"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mstyle mathvariant="bold"><mo stretchy="true">(</mo><mrow><mi mathvariant="bold-italic">x</mi><mo> </mo><mo>-</mo><mo> </mo><mpadded lspace="-1px"><mover><mi mathvariant="bold-italic">x</mi><mo>¯</mo></mover></mpadded></mrow><mo stretchy="true">)</mo></mstyle><mn mathvariant="bold">2</mn></msup></math></para></entry>
+    <entry align="center" xmlns="http://cnx.rice.edu/cnxml"><para id="para-00022">Column 2</para><para id="para-00023"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="bold"><mo stretchy="true">(</mo><mrow><mi mathvariant="bold-italic">x</mi><mo> </mo><mo>-</mo><mo> </mo><mpadded lspace="-1px"><mover><mi mathvariant="bold-italic">x</mi><mo>¯</mo></mover></mpadded></mrow><mo stretchy="true">)</mo></mstyle></math></para></entry>
+    <entry align="center" xmlns="http://cnx.rice.edu/cnxml"><para id="para-00024">Column 3</para><para id="para-00025"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mstyle mathvariant="bold"><mo stretchy="true">(</mo><mrow><mi mathvariant="bold-italic">x</mi><mo> </mo><mo>-</mo><mo> </mo><mpadded lspace="-1px"><mover><mi mathvariant="bold-italic">x</mi><mo>¯</mo></mover></mpadded></mrow><mo stretchy="true">)</mo></mstyle><mn mathvariant="bold">2</mn></msup></math></para></entry>
     </row>
     </thead>
     <tbody xmlns="http://cnx.rice.edu/cnxml">
@@ -111,8 +111,8 @@
     </row>
     <row xmlns="http://cnx.rice.edu/cnxml">
     <entry align="center">55</entry>
-    <entry align="right"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>55</mn><mo> </mo><mo>-</mo><mo> </mo><mn>46</mn><mo> </mo><mo>=</mo><mo> </mo><mn>9</mn></math></entry>
-    <entry align="right" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>9</mn><msup><mo>)</mo><mn>2</mn></msup><mo> </mo><mo>=</mo><mo> </mo><mn>81</mn></math></entry>
+    <entry align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>55</mn><mo> </mo><mo>-</mo><mo> </mo><mn>46</mn><mo> </mo><mo>=</mo><mo> </mo><mn>9</mn></math></entry>
+    <entry align="center" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>9</mn><msup><mo>)</mo><mn>2</mn></msup><mo> </mo><mo>=</mo><mo> </mo><mn>81</mn></math></entry>
     </row>
     <row xmlns="http://cnx.rice.edu/cnxml">
     <entry align="center">39</entry>
