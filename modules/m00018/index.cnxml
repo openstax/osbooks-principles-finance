@@ -60,7 +60,7 @@
 </tgroup>
 </table>
 <para id="para-00005">The information in <link target-id="table-00001" document="m00018"/> can be viewed in the form of a graph, as in <link target-id="fig-00001" document="m00018"/>. Economists refer to the line in <link target-id="fig-00001" document="m00018"/> as a <emphasis effect="italics"><term class="no-emphasis" id="term-00004">demand curve</term></emphasis>. When plotting a demand curve, price is placed on the vertical axis, and quantity is placed on the horizontal axis. Because more pizzas are bought at lower prices than at higher prices, this demand curve is downward sloping. This inverse relationship is referred to as the <term id="term-00005">law of demand</term>.</para>
-<figure id="fig-00001">
+<figure id="fig-00001" class="scaled-down-30">
 <title>Demand Curve for Pizzas</title>
 <media alt="A graph shows the Demand Curve for pizzas as the price increases.A downward sloping line shows that as the price of pizzas go down, the demand increases."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_002.png"/></media>
 </figure>
@@ -108,7 +108,7 @@
 </tgroup>
 </table>
 <para id="para-00010">This change leads to a movement in the demand curve—outward to the right, as shown in <link target-id="fig-00002" document="m00018"/>. This is known as an increase in demand. Now, at a price of $25, people will purchase 19 pizzas instead of 10; and at a price of $15, people will purchase 39 pizzas instead of 30.</para>
-<figure id="fig-00002">
+<figure id="fig-00002" class="scaled-down-30">
 <title>An Increase in Demand Represented as a Movement of the Demand Curve to the Right</title>
 <media alt="The previous Demand Curve for pizzas is labelled as Demand 1. A second demand curve, labelled Demand 2. Both lines slope downard at the same rate, but Demand 2 is shown to the right of Demand 1. This represents an increase in demand for pizzas."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_003.png"/></media>
 </figure>
@@ -161,7 +161,7 @@
 </tgroup>
 </table>
 <para id="para-00014">The data from the supply schedule can be pictured in a graph, as is shown in <link target-id="fig-00003" document="m00018"/>. Because a higher price encourages suppliers to sell more pizzas, the <term class="no-emphasis" id="term-00007">supply curve</term> will be upward sloping.</para>
-<figure id="fig-00003">
+<figure id="fig-00003" class="scaled-down-30">
 <title>Supply Curve for Pizzas</title>
 <media alt="The supply curve shows the relationship between the price of pizzas and the quantity of pizzas supplied. It shows that the price of pizzas increases as the supply of pizzas increases."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_004.png"/></media>
 </figure>
@@ -174,7 +174,7 @@
 <section id="sect-00004">
 <title>Equilibrium Price</title>
 <para id="para-00017">Demand represents buyers, and supply represents sellers. In the market, these two groups interact to determine the price of a good and the quantity of the good that is sold. Because both the demand curve and the supply curve are graphed with price on the vertical axis and quantity on the horizontal axis, these two curves can be placed in the same graph, as is shown in <link target-id="fig-00004" document="m00018"/>.</para>
-<figure id="fig-00004">
+<figure id="fig-00004" class="scaled-down-30">
 <title>Graph of Demand and Supply Showing Equilibrium Price and Quantity</title>
 <media alt="Graph of demand and supply of pizza showing equilibrium price and quantity when supply and demand curves intersect each other. The point where the demand and supply graphs meet is known as the intersection point. In this graph, the equilibrium occurs when the price of pizza is fifteen dollars and the quantity of pizzas is 30."><image mime-type="image/png" src="../../media/FINAN_Figure_03_01_005.png"/></media>
 </figure>
