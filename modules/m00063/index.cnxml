@@ -21,7 +21,7 @@
     <para id="para-00003">When interest rate yields are plotted against their respective maturity periods and these plotted points are connected, the resulting line is called a <term id="term-00001">yield curve</term>. Essentially, the yield curve is a result of this plotting process and becomes a graphical representation of the term structure of interest rates. A yield curve will always be constructed by showing the value of yields (rates) on the <emphasis effect="italics">y</emphasis>-axis and maturities or time periods on the <emphasis effect="italics">x</emphasis>-axis (see <link target-id="fig-00001" document="m00063"/>).</para>
     <para id="para-00004">To create a useful graph of the yield curve, interest rate yields should be computed for all government bonds at all remaining times to maturity. For example, the yields on all government bonds with a single year remaining until maturity should be calculated. This value is then plotted on the <emphasis effect="italics">y</emphasis>-axis against the one-year term on the <emphasis effect="italics">x</emphasis>-axis. Similarly, yields on government bonds with two years remaining until maturity are calculated and plotted on the <emphasis effect="italics">y</emphasis>-axis against two years on the <emphasis effect="italics">x</emphasis>-axis, and so on, until a point of critical mass of information is reached and the resulting graph displays useful information.</para>
     <para id="para-00005">The yield curve for government bonds is also known as the <emphasis effect="italics">risk-free yield curve</emphasis> because these securities are thought of as safe investments that are not expected to fail or default and will in all likelihood repay or otherwise meet all financial obligations made through the bond issuance.</para>
-    <figure id="fig-00001">
+    <figure id="fig-00001" class="scaled-down">
     <title>A Normal Yield Curve: Long-Term Rates Are Higher Than Short-Term Rates</title>
     <media alt="A Normal Yield Curve shows the value of yields (rates) on the y-axis and maturities or time periods on the x-axis. The yield increases as the term increases."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_007.png"/></media>
     </figure>
@@ -34,7 +34,7 @@
     <section id="sect-00003">
     <title>Different Shapes of the Yield Curve</title>
     <para id="para-00009">There are two important elements to any yield curve that will define its shape: its level and its slope. The level of a yield curve directly relates to the yield rates depicted on the <emphasis effect="italics">y</emphasis>-axis of the graph (see <link target-id="fig-00002" document="m00063"/>). The slope of the yield curve indicates the difference between yields on short-term and longer-term investments. The difference in yields is primarily due to investors’ expectations of the direction of interest rates in the economy and how the federal funds rate (referred to as <term id="term-00002">cash rate</term> in many countries) is uncertain and may differ significantly over time. As an example, yields on three-year bonds incorporate the expectations of investors on how bank rates might move over the next three years, combined with the uncertainty of those rates over the three-year period.</para>
-    <figure id="fig-00002">
+    <figure id="fig-00002" class="scaled-down">
     <title>Changes in Yield Curve Depending on Cash Rate</title>
     <media alt="A line graph shows the changes in Yield Curve Depending on Cash Rate. The slope of the yield curve indicates the difference between yields on short- and longer-term investments. Investments with a higher cash rate have a higher yield, although the change in yield is not as dramatic over time. Investments with a lower cash rate have a lower yield, although the change in yield is more dramatic over time."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_008.png"/></media>
     </figure>
@@ -43,7 +43,7 @@
     <note class="concepts-practice" id="note-00002">
     <title>How COVID-19 Impacted the Yield Curve</title>
     <para id="para-00012"><link target-id="fig-00003" document="m00063"/> shows the relatively normal-shaped yield curve effective in February 2021.</para>
-    <figure id="fig-00003">
+    <figure id="fig-00003" class="scaled-down">
     <title>Yield Curve in February 2021</title>
     <media alt="A line graph shows yield increasing as the length of time to maturity also increases."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_009.png"/></media>
     </figure>
@@ -69,7 +69,7 @@
     </note>
     <para id="para-00022">A flat shape for the yield curve occurs when there is not a great deal of difference between short-term and long-term yields (see <link target-id="fig-00006" document="m00063"/>). A flat curve is usually not long lasting and is often observed when the curve is transitioning between a normal and an inverted shape, or vice versa.</para>
     <para id="para-00023">A flat yield curve has also been observed as a result of low interest rate levels or some types of unconventional monetary policy.</para>
-    <figure id="fig-00006">
+    <figure id="fig-00006" class="scaled-down">
     <title>Graph Depicting Normal, Flat, and Inverted Yield Curves</title>
     <media alt="Graph depicting Normal, Flat, and Inverted Yield Curves. A flat shape for the yield curve shows no change between yield and term to maturity. A normal yield curve shows the yield increasing as the maturity rate increases. An inverted yield curve shows the yield decreasing as the maturity rate increases."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_012.png"/></media>
     </figure>

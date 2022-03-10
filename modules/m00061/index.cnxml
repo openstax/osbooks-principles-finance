@@ -200,7 +200,7 @@
     <title>The Global Bond Market versus the Global Stock Market</title>
     <para id="para-00017">Bonds have long been a trusted investment vehicle for many investors. Though the global fixed-income debt market remains considerably larger than the global stock market, this is not an entirely fair comparison. Bond markets include sovereign bonds, or bonds that are issues by governments, while stock markets do not. Some experts believe that a more relevant comparison is between the value of corporate bond markets only (excluding sovereign bonds) and total stock market value.</para>
     <para id="para-00018">The chart in <link target-id="fig-00002" document="m00061"/> provides global market value information by category so that we may make our own conclusions about these markets.</para>
-    <figure id="fig-00002">
+    <figure id="fig-00002" class="scaled-down">
     <title>Global Bonds versus Stocks: Total Market Values ($Trillions), November 2020</title>
     <media alt="A bar graph shows global market value information for the Stock Market, Corporate Bonds, Sovereign Bonds, and Total Bonds. The stock market is just under 100 trillion dollars, corporate bonds are just over 60 trillion dollars, sovereign bonds are also just over 60 trillion dollars, and total bonds are just over 120 trillion dollars."><image mime-type="image/png" src="../../media/FINAN_Figure_10_01_003.png"/></media>
     <caption>(data source: Nasdaq)</caption>

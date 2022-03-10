@@ -134,7 +134,7 @@
     <section id="sect-00004">
     <title>The Cash Cycle</title>
     <para id="para-00039">The <term id="term-00011">cash cycle</term>, also called the <term id="term-00012">cash conversion cycle</term>, is the time period between when a business begins production and acquires resources from its suppliers (for example, acquisition of materials and other forms of inventory) and when it receives cash from its customers. This is offset by the time it takes to pay suppliers (called the payables deferral period).</para>
-    <figure id="fig-00002">
+    <figure id="fig-00002" class="scaled-down">
     <title>Working Capital Needs Can Vary: Temporary and Permanent Working Capital</title>
     <media alt="A graph shows the correlation between the permanent working  capital, temporary working capital, and time. The permanent base of working capital rises steadily over time. The temporary total working capital repeatedly increases and decreases over time. The combination of the temporary working capital and permanent working capital is the total working capital."><image mime-type="image/png" src="../../media/FINAN_Figure_19_01_002.png"/></media>
     </figure>
