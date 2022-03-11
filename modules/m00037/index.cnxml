@@ -20,7 +20,7 @@
     <para id="para-00002">A common-size income statement is created by restating each line as a percentage of net sales. Expressing each item on the income statement as a percentage rather than in absolute dollars makes it much easier to make comparisons, particularly to other divisions or competitors of varying sizes. The formula to calculate each item on the income statement is:</para>
     <equation id="eq-00001"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Common-Size Item</mtext><mo>=</mo><mfrac><mrow><mi>Income</mi><mi>Statement</mi><mi>Line</mi><mi>Item</mi></mrow><mrow><mi>Net</mi><mi>Sales</mi></mrow></mfrac></math></equation>
     <para id="para-00003" xmlns="http://cnx.rice.edu/cnxml">Using Clear Lake Sporting Goods’ current year income statement, we can see how each line item in it is divided by net sales in order to assemble a common-size income statement (see <link target-id="fig-00001" document="m00037"/>).</para>
-    <figure id="fig-00001">
+    <figure id="fig-00001" class="scaled-down">
     <title>Common-Size Income Statement</title>
     <media alt="Common-Size Income Statement for Clear Lake Sporting Goods showing the current year's income, current year percentage, and formula. The net income is $35,000 is about 29% of the net sales. This was calculated by dividing 35,000 (net income) by 120,000 (net sales)."><image mime-type="image/png" src="../../media/FINAN_Figure_05_07_020.png"/></media>
     </figure>
@@ -35,7 +35,7 @@
     <para id="para-00005">The common-size balance sheet functions much like the common-size income statement. Each line item on the balance sheet is restated as a percentage of total assets.</para>
     <equation id="eq-00002"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Common-Size Item</mtext><mo>=</mo><mfrac><mrow><mi>Balance</mi><mi>Sheet</mi><mi>Line</mi><mi>Item</mi></mrow><mrow><mi>Total</mi><mi>Assets</mi></mrow></mfrac></math></equation>
     <para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">Using Clear Lake Sporting Goods’ current balance sheet, we can see how each line item in its statement is divided by total assets in order to assemble a common-size balance sheet (see <link target-id="fig-00003" document="m00037"/>).</para>
-    <figure id="fig-00003">
+    <figure id="fig-00003" class="scaled-down">
     <title>Common-Size Balance Sheet</title>
     <media alt="Comparative year-end balance sheets for Clear Lake Sporting Good’s shows the current year amounts, current year percentage, and formula for assets, liabilities, and stockholder equity. For example, Accounts receivable ($30,000) is divided by the Total Liabilities and Equity figure ($250,000) to derive 12% of the current year’s total."><image mime-type="image/png" src="../../media/FINAN_Figure_05_07_022.png"/></media>
     </figure>

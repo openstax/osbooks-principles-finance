@@ -163,7 +163,7 @@
     </tgroup>
     <caption>(source: US Bureau of Labor Statistics)</caption>
     </table>
-    <figure id="fig-00003">
+    <figure id="fig-00003" class="scaled-down">
     <title>Time Series Graph of Annual CPI, 2012–2021</title>
     <media alt="A time-series graph for the annual CPI index from 2012 to 2021. The graph shows the CPI rising consistently from about 228 in 2012 to over 260 in 2021."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_007.png"/></media>
     </figure>
@@ -255,7 +255,7 @@
     </tgroup>
     <caption>(source: Yahoo! Finance)</caption>
     </table>
-    <figure id="fig-00004">
+    <figure id="fig-00004" class="scaled-down">
     <title>Scatter Plot of Nike Stock Price versus S&amp;P 500</title>
     <media alt="A scatter diagram for Nike stock against S&amp;P 500. The diagram shows that the Nike stock price rises from about 85 to 140 as the S&amp;P 500 rises from 2900 to 4000. The data points generally align along an upwardly sloping line."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_008.png"/></media>
     </figure>
@@ -267,7 +267,7 @@
     <item>Highlight the data with your mouse.</item>
     <item>Go to the Insert menu and select the icon for a scatter plot, as shown in <link target-id="fig-00005" document="m00083"/>.</item>
     </list>
-    <figure id="fig-00005">
+    <figure id="fig-00005" class="scaled-down">
     <title>Excel Menu Showing the Scatter Plot Icon</title>
     <media alt="Screenshot of Excel menu highlighting the Insert menu and the Scatter Plot icon in the Charts area."><image mime-type="image/png" src="../../media/FINAN_Figure_13_06_009.png"/></media>
     </figure>

@@ -34,7 +34,7 @@
     <section id="sect-00003">
     <title>Different Shapes of the Yield Curve</title>
     <para id="para-00009">There are two important elements to any yield curve that will define its shape: its level and its slope. The level of a yield curve directly relates to the yield rates depicted on the <emphasis effect="italics">y</emphasis>-axis of the graph (see <link target-id="fig-00002" document="m00063"/>). The slope of the yield curve indicates the difference between yields on short-term and longer-term investments. The difference in yields is primarily due to investors’ expectations of the direction of interest rates in the economy and how the federal funds rate (referred to as <term id="term-00002">cash rate</term> in many countries) is uncertain and may differ significantly over time. As an example, yields on three-year bonds incorporate the expectations of investors on how bank rates might move over the next three years, combined with the uncertainty of those rates over the three-year period.</para>
-    <figure id="fig-00002" class="scaled-down">
+    <figure id="fig-00002" class="scaled-down-30">
     <title>Changes in Yield Curve Depending on Cash Rate</title>
     <media alt="A line graph shows the changes in Yield Curve Depending on Cash Rate. The slope of the yield curve indicates the difference between yields on short- and longer-term investments. Investments with a higher cash rate have a higher yield, although the change in yield is not as dramatic over time. Investments with a lower cash rate have a lower yield, although the change in yield is more dramatic over time."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_008.png"/></media>
     </figure>
@@ -43,20 +43,20 @@
     <note class="concepts-practice" id="note-00002">
     <title>How COVID-19 Impacted the Yield Curve</title>
     <para id="para-00012"><link target-id="fig-00003" document="m00063"/> shows the relatively normal-shaped yield curve effective in February 2021.</para>
-    <figure id="fig-00003" class="scaled-down">
+    <figure id="fig-00003" class="scaled-down-30">
     <title>Yield Curve in February 2021</title>
     <media alt="A line graph shows yield increasing as the length of time to maturity also increases."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_009.png"/></media>
     </figure>
     <para id="para-00013">A yield curve with an inverted (downward-sloping) shape is considered unusual and will occur when long-term rates are lower than short-term rates. This causes the yield curve to assume an inverted shape with a negative slope. An inverted yield curve has historically been observed as a prelude to a general decline in economic activity and interest rate levels. In some countries, such as the United States, an inverted yield curve has been associated with upcoming recession and economic contraction.</para>
     <para id="para-00014">This may occur because central banks, such as the Federal Reserve in the United States, will often attempt to stimulate a stagnant economy by reducing interest rates. Essentially, the potential actions of the central bank to improve the economy have the effect of lowering overall money rates with the economy, which is exactly what investors anticipated would happen and why the yield curve was inverted to begin with.</para>
     <para id="para-00015">The yield curve was considered normal with an upward slope in August 2018, as shown in <link target-id="fig-00004" document="m00063"/>, but the curve inverted in March 2019 as yields on short-term bonds exceeded those of longer-term bonds, resulting in concerns surrounding impending recession and other economic problems. This inverted shape to the yield curve continued into 2020, as evidenced in <link target-id="fig-00005" document="m00063"/>.</para>
-    <figure id="fig-00004">
+    <figure id="fig-00004" class="scaled-down">
     <title>The Economy Shifts to an Inverted Yield Curve</title>
     <media alt="A line graph plots three lines comparing interest rates to maturity terms. In the line labelled August 13, 2018, interest rates increase as the term increases. In the lines labelled July 12, 2019 and August 13, 2019, interest rates stay flat or crop as the term increases, until around the 5 year term, where interest rates begin to rise with the term lengths."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_010.png"/></media>
     <caption>(data source: US Department of the Treasury, Resource Center, Daily Treasury Yield Curve Rates)</caption>
     </figure>
     <para id="para-00016">Yield curves constructed on different days in early 2020 appeared similar to the examples below. Again, these are obviously not normal yield structures. As a specific example, note on the February 21, 2020, curve that rates on five-year securities are lower than those of one-year and even three-month securities.</para>
-    <figure id="fig-00005">
+    <figure id="fig-00005" class="scaled-down">
     <title>Elements of Inversion in Recent Yield Curves</title>
     <media alt="A line graph shows an inverted yield curve in February 2021, where 5 year securities have a lower interest rate than 1 year securities."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_011.png"/></media>
     <caption>(data source: US Department of the Treasury, Resource Center, Daily Treasury Yield Curve Rates)</caption>
@@ -69,7 +69,7 @@
     </note>
     <para id="para-00022">A flat shape for the yield curve occurs when there is not a great deal of difference between short-term and long-term yields (see <link target-id="fig-00006" document="m00063"/>). A flat curve is usually not long lasting and is often observed when the curve is transitioning between a normal and an inverted shape, or vice versa.</para>
     <para id="para-00023">A flat yield curve has also been observed as a result of low interest rate levels or some types of unconventional monetary policy.</para>
-    <figure id="fig-00006" class="scaled-down">
+    <figure id="fig-00006" class="scaled-down-30">
     <title>Graph Depicting Normal, Flat, and Inverted Yield Curves</title>
     <media alt="Graph depicting Normal, Flat, and Inverted Yield Curves. A flat shape for the yield curve shows no change between yield and term to maturity. A normal yield curve shows the yield increasing as the maturity rate increases. An inverted yield curve shows the yield decreasing as the maturity rate increases."><image mime-type="image/png" src="../../media/FINAN_Figure_10_03_012.png"/></media>
     </figure>

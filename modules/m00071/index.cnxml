@@ -30,7 +30,7 @@
     <section id="sect-00004">
     <title>Informational Efficiency</title>
     <para id="para-00008">A second measure of efficiency is informational efficiency, or how quickly a source reflects comprehensive information in the available trading prices. A price is efficient if the market has used all available information to set it, which implies that stocks always trade at their fair value (see <link target-id="fig-00001" document="m00071"/>). If an investor does not receive the most current information, the prices are “stale”; therefore, they are at a trading disadvantage.</para>
-    <figure id="fig-00001">
+    <figure id="fig-00001" class="scaled-down">
     <title>Forms of Market Efficiency</title>
     <media alt="Diagram depicting market efficiency. Prices that rely on all public information are partially strong. Prices that rely on information about past stock prices are weak."><image mime-type="image/png" src="../../media/FINAN_Figure_11_05_012.png"/></media>
     <caption>A market is efficient if it provides all information that is available.</caption></figure>

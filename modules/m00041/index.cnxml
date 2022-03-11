@@ -50,7 +50,7 @@
     <exercise class="unnumbered" id="exer-00001">
     <problem id="prob-00001">
     <para id="para-00014">You are a consultant assessing cash management practices for two firms, Company A and Company B (see <link target-id="fig-00002" document="m00041"/>).</para>
-    <figure id="fig-00002">
+    <figure id="fig-00002" class="scaled-down">
     <title>Financial Information for Company A and Company B</title>
     <media alt="Financial Information for Company A and Company B. Respectively, the beginning accounts receivables are $50,000 and $60,000, ending accounts receivables are $80,000 and $90,000 and the Net Credit Sales are $550,000 and $460,000."><image mime-type="image/png" src="../../media/FINAN_Figure_06_02_003.png"/></media>
     </figure>

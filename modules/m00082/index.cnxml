@@ -214,7 +214,7 @@
     </list>
     <para id="para-00016">When analyzing data sets that follow a normal distribution, probabilities can be calculated by finding areas under the normal curve. To find the probability that a measurement is within a specific interval, we can compute the area under the normal curve corresponding to the interval of interest.</para>
     <para id="para-00017">Areas under the normal curve are available in tables, and <term class="no-emphasis" id="term-00008">Excel</term> also provides a method to find these areas. The <term id="term-00009">empirical rule</term> is one method for determining areas under the normal curve that fall within a certain number of standard deviations of the mean (see <link target-id="fig-00001" document="m00082"/>).</para>
-    <figure id="fig-00001">
+    <figure id="fig-00001" class="scaled-down">
     <title>Normal Distribution Showing Mean and Increments of Standard Deviation</title>
     <media alt="Graph of a normal distribution showing mean and increments of standard deviation. It is symmetrical about a vertical line drawn through the mean. The standard deviation up to three deviations are displayed on both sides of the mean."><image mime-type="image/png" src="../../media/FINAN_Figure_13_05_004.png"/></media>
     </figure>

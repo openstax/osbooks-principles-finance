@@ -29,7 +29,7 @@
     <section id="sect-00003" xmlns="http://cnx.rice.edu/cnxml">
     <title>The Multiple-Period Scenario</title>
     <para id="para-00006">There will often be situations when you need to determine the present value of a cash flow that is scheduled to occur several years in the future (see <link target-id="fig-00001" document="m00050"/>). We can again use the formula for present value to calculate a value today of future cash flows over multiple time periods.</para>
-    <figure id="fig-00001">
+    <figure id="fig-00001" class="scaled-down">
     <title>Determining Future Cash Flow</title>
     <media alt="A circular graph shows how when present value compounds, it results in the future value. Conversely, when the future value discounts, the result is the present value"><image mime-type="image/png" src="../../media/FINAN_Figure_07_04_017.png"/></media>
     </figure>

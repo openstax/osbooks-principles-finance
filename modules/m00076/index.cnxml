@@ -24,7 +24,7 @@
     <para id="para-00006"><link target-id="fig-00002" document="m00076"/> demonstrates the growth of a $100 investment at the start of 1928. Note that the value of the large company portfolio is more than 50 times greater than the equal investment in long-term US government bonds. This supports the importance of thoughtful asset allocation.</para>
     <para id="para-00007">Still, the size of a firm has a significant impact on how investors choose equity securities. Capital market history also shows that a portfolio of small company stocks has realized larger average annual returns, as well as greater variability, than a portfolio of large companies as represented by the S&amp;P 500. Small-cap stock total returns ranged from a high of 142.9% in 1933 to a low of -58.0% in 1937.</para>
     <para id="para-00008">More recently, the differential return between small and large capital stocks has not been as pronounced. From 1980 through 2020, the <term class="no-emphasis" id="term-00004">Wilshire US Small-Cap Index</term> has averaged an annual compound return of 12.13% compared to the Wilshire US Large Cap Index average of 11.82% over the same period. The 31-basis point premium is much smaller than that realized in the 1926–2019 period, which saw a small-cap average annual compounded return of 11.90% versus 10.14% for the large-cap portfolio.</para>
-    <figure id="fig-00001">
+    <figure id="fig-00001" class="scaled-down">
     <title>The Pyramid of Equity Returns: Distribution of Annual Returns for the S&amp;P 500 Index, 1928–2020</title>
     <media alt="An illustration of The Pyramid of Equity Returns: Distribution of Annual Returns for the S&amp;P 500 Index, 1928–2020.It displays years stacked on top of each other forming a tabular pyramid. It shows the historical returns of US stock markets over a 120-year period. The returns are listed by the number of years in each category. The figure shows that the stock market recorded a growth of 10-20% the highest number of times, while there is only one instance each of -50% to -40% growth and 50% to 60% growth respectively."><image mime-type="image/png" src="../../media/FINAN_Figure_12_04_014.png"/></media>
     <caption>(data source: Aswath <term class="no-emphasis" id="term-00011">Damodaran</term> Online)</caption></figure>
@@ -70,7 +70,7 @@
     </tbody>
     </tgroup>
     </table>
-    <figure id="fig-00002">
+    <figure id="fig-00002" class="scaled-down">
     <title>Growth of a $100 Investment into Selected Asset Portfolios, 1928–2020</title>
     <media alt="A line graph where the four lines show the growth of a $100 investment into selected asset portfolios from 1938 to 2020. The value of $100 invested in 1928 would be $1497 in 2020 when adjusted for inflation. It would be $8921 in 2020 if it had been invested in 10-year T-Bonds. It would be $53,736 in 2020 if it had been invested in Baa Bonds. It would be $592,868 in 2020 if it had been invested in the S&amp;P 500."><image mime-type="image/png" src="../../media/FINAN_Figure_12_04_015.png"/></media>
     <caption>(data source: Aswath <term class="no-emphasis" id="term-00012">Damodaran</term> Online)</caption>
@@ -85,7 +85,7 @@
     </note>
     <note class="concepts-practice" id="note-00003">
     <title>Warren Buffett</title>
-    <figure id="fig-00003" class="scaled-down">
+    <figure id="fig-00003" class="scaled-down-30">
     <title>Warren <term id="term-00005">Buffett</term></title>
     <media alt="Profile picture of Warren Buffett."><image mime-type="image/jpeg" src="../../media/FINAN_Figure_12_04_016.jpg"/></media>
     <caption>(credit: “Warren Buffet at the 2015 Select USA Investment Summit.” USA International Trade Administration/Wikimedia Commons, CC Public Domain Mark)</caption></figure>

@@ -150,7 +150,7 @@
     <section id="sect-00003">
     <title>Normal Distribution</title>
     <para id="para-00013">The normal probability density function, a continuous distribution, is the most important of all the distributions. The <term id="term-00002">normal distribution</term> is applicable when the frequency of data values decreases with each class above and below the mean. The normal distribution can be applied to many examples from the finance industry, including average returns for mutual funds over a certain time period, portfolio values, and others. The normal distribution has two parameters, or numerical descriptive measures: the mean, <emphasis effect="italics"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>μ</mi></math></emphasis>, and the standard deviation, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>σ</mi></math>. The variable <emphasis effect="italics" xmlns="http://cnx.rice.edu/cnxml">x</emphasis> represents the quantity being measured whose data values have a normal distribution.</para>
-    <figure id="fig-00001">
+    <figure id="fig-00001" class="scaled-down">
     <title>Graph of the Normal Distribution</title>
     <media alt="Graph of a normal distribution. It is a bell shaped curve that is symmetrical about a vertical line drawn through the mean."><image mime-type="image/png" src="../../media/FINAN_Figure_13_04_003.png"/></media>
     </figure>

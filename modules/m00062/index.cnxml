@@ -25,7 +25,7 @@
     <para id="para-00005">Note that the 3M bond is selling at a premium (above par or face value) due to the fact that its coupon rate is greater than the YTM percentage. This means that the bond earns more value in interest than it loses due to discounting its cash flows to allow for the time value of money principle.</para>
     <para id="para-00006">Finally, the table tells us some of the bond’s features. For example, Standard &amp; Poor’s, an international rating agency, rates 3M Co. as A+ (high credit quality). Additionally, the bonds are designated as callable, meaning that 3M has the option of redeeming them before their maturity on September 19, 2026.</para>
     <para id="para-00007">We can price a bond using the same methods from earlier chapters: an equation, a calculator, and a spreadsheet. Let’s start with the equation method (see <link target-id="fig-00001" document="m00062"/>).</para>
-    <figure id="fig-00001">
+    <figure id="fig-00001" class="scaled-down">
     <title>Steps in Pricing a Bond</title>
     <media alt="Steps in Pricing a Bond. The first step is to identify the amounts and the timing future cash flows. The second step determines the discount rate. The third step is to find the present value of the lump sum principle and the annuity stream of coupons. The fourth step is to add the present value of the lump sum principle and the present value of coupons."><image mime-type="image/png" src="../../media/FINAN_Figure_10_02_005.png"/></media>
     </figure>
