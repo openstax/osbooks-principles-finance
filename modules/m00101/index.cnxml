@@ -189,7 +189,7 @@
     </tgroup>
     </table>
     <para id="para-00010">The NPV profile for this project looks like <link target-id="fig-00001" document="m00101"/>. The NPV is negative at low interest rates, becomes positive at higher interest rates, and then turns negative again as the interest rate continues to rise. Because the NPV profile line crosses the horizontal axis twice, there are two IRRs. In other words, there are two interest rates at which NPV equals zero.</para>
-    <figure id="fig-00001">
+    <figure id="fig-00001" class="scaled-down">
     <title>NPV Profile Graph for a Project with Two IRRs</title>
     <media alt="Net present value graph for a project with two IRRs. It shows that the NPV is negative at low-interest rates, and becomes positive at higher interest rates. The NPV then turns negative again as the interest rate continues to rise. Because the NPV profile line crosses the horizontal axis twice, there are two IRRs."><image mime-type="image/png" src="../../media/FINAN_Figure_16_03_003.png"/></media>
     </figure>

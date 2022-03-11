@@ -425,7 +425,7 @@
     </tbody>
     </tgroup>
     </table>
-    <figure id="fig-00001">
+    <figure id="fig-00001" class="scaled-down">
     <title>NPV Profile Graph</title>
     <media alt="Net present value graph for Sam's Sporting Goods. It shows that the net present value, NPV, drops significantly as the discount rate goes up from 0% to 21%. When the discount rate is 0, the NPV is $10,000. However, when the discount rate is 21%, the NPV drops to negative $2,939."><image mime-type="image/png" src="../../media/FINAN_Figure_16_02_002.png"/></media>
     </figure>

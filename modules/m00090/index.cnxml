@@ -106,7 +106,7 @@
       <code class="centered-code">=CORREL(C3:C14,B3:B14): 0.947</code>
       <code class="centered-code">=SLOPE(C3:C14,B3:B14): 0.113</code>
       <code class="centered-code">=INTERCEPT(C3:C14,B3:B14): -1,496.340</code>
-      <figure id="fig-00001">
+      <figure id="fig-00001" class="scaled-down">
       <title>Scatter Plot for Monthly Closing Prices of the DJIA versus the Russell 2000 for a 12-Month Time Period</title>
       <media alt="A scatter plot showing a positive correlation between the monthly closing prices of the Russell 2000 and the Dow Jones Industrial Average stock index values over 12 months. The diagram shows the Russell 2000 index rising from approximately 1,400 to over 2,200, as the DJIA increases from approximately 25,000 to over 34,000.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_04_007.png"/></media>
@@ -242,7 +242,7 @@
       <caption>(source: Yahoo! Finance)</caption>
       </table>
       <para id="para-00017">The scatter plot that graphs S&amp;P monthly return versus Nike monthly return is shown in <link target-id="fig-00002" document="m00090"/>.</para>
-      <figure id="fig-00002">
+      <figure id="fig-00002" class="scaled-down">
       <title>Scatter Plot of Monthly Returns of Nike Stock versus Monthly Returns for the S&amp;P 500 ($)</title>
       <media alt="A scatter plot of the monthly return for Nike stock against the monthly return for the S&amp;P 500 index shows a dashed regression line through the scatter points. This is a regression line corresponding to the slope of 0.83 and the formula y = 0.83x + 0.02.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_04_008.png"/></media>

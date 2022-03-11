@@ -47,7 +47,7 @@
     <title>Calculating Betas</title>
     <para id="para-00015">The calculation of beta for DAL is demonstrated in <link target-id="fig-00001" document="m00095"/>. Monthly returns for DAL and for the S&amp;P 500 are plotted in the diagram. Each dot in the scatter plot corresponds to a month from 2018 to 2020; for example, the dot that lies furthest in the upper right-hand corner represents November 2020. The return for the S&amp;P 500 was 10.88% that month; this return is plotted along the horizontal axis. The return for DAL during November 2020 was 31.36%; this return is plotted along the vertical axis.</para>
     <para id="para-00016">You can see that generally, when the overall stock market as measured by the S&amp;P 500 is positive, the return for DAL is also positive. Likewise, in months in which the return for the S&amp;P 500 is negative, the return for DAL is also usually negative. Drawing a line that best fits the data, also known as a regression line, summarizes the relationship between the returns for DAL and the S&amp;P 500. The slope of this line, 1.39, is DAL’s beta. Beta measures the amount of systematic risk that DAL has.</para>
-    <figure id="fig-00001">
+    <figure id="fig-00001" class="scaled-down">
     <title>Calculation of Beta for DAL</title>
     <media alt="A scatter plot shows monthly returns for DAL and the S&amp;P 500. A regression line shows the correlation between the DAL returns and the S&amp;P 500 returns. "><image mime-type="image/png" src="../../media/FINAN_Figure_15_03_003.png"/></media>
     <caption>(data source: Yahoo! Finance)</caption>

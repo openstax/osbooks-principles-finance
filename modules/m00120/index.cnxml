@@ -49,7 +49,7 @@
     <item>Inventory</item>
     </list>
     <para id="para-00013">Here is an example. On December 31, a company has the following balances and gross working capital:</para>
-    <figure class="unnumbered" id="fig-00001">
+    <figure class="unnumbered" "scaled-down" id="fig-00001">
     <media alt="A balance sheet of a company shows cash and equivalents ($100,000), marketable securities ($250,000), accounts receivable ($330,000), inventory ($425,000), and the total gross working capital of $1,105,000."><image mime-type="image/png" src="../../media/FINAN_Figure_19_01_A.png"/></media>
     </figure>
     <para id="para-00014">Think of the $1,105,000 of gross working capital as a source of funds for the most pressing obligations (i.e., current liabilities) of the company. Gross working capital is available to pay the bills. However, some of the current assets would need to be converted to cash first. Accounts receivable need to be collected, and inventory would need to be sold before it too can become cash. What if the company had $600,000 of current liabilities? That amount of current obligations could not be paid out of cash until the marketable securities were sold and a significant portion of accounts receivable were collected.</para>
@@ -192,7 +192,7 @@
     </list>
     <equation id="eq-00005" xmlns="http://cnx.rice.edu/cnxml"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Cash Conversion Cycle</mtext><mo> </mo><mo>=</mo><mo> </mo><mn>36.5</mn><mo> </mo><mi>days</mi><mo> </mo><mo>+</mo><mo> </mo><mn>54.7</mn><mo> </mo><mi>days</mi><mo> </mo><mo>-</mo><mo> </mo><mn>34</mn><mo> </mo><mtext>days</mtext><mo> </mo><mo>=</mo><mo> </mo><mn>57.2</mn><mo> </mo><mtext>days</mtext></math></equation>
     <para id="para-00047" xmlns="http://cnx.rice.edu/cnxml">The solution (the entire cash conversion cycle) is also illustrated in a chart, <link target-id="fig-00003" document="m00120"/>.</para>
-    <figure id="fig-00003">
+    <figure id="fig-00003" class="scaled-down">
     <title>Cash Conversion Cycle</title>
     <media alt="A bar graph shows the cash conversion cycle. It consists of four cycles- inventory conversion, receivable conversion, payable deferral, and cash conversion. The inventory conversion cycle begins when the inventory is acquired and ends when the inventory is sold; this cycle is 36.5 days long. The receivable conversion cycle begins when the inventory is sold and ends when the receivable is collected; this cycle is 54.7 days long. The payable deferral cycle begins before the inventory is acquired and ends when the trade credit is paid; this cycle is 34 days long.  The cash conversion cycle begins when the trade credit is paid and ends when the receivable is collected; this cycle is 57.2 days long."><image mime-type="image/png" src="../../media/FINAN_Figure_19_01_003.png"/></media>
     </figure>
@@ -249,7 +249,7 @@
       </tbody>
       </tgroup>
       </table>
-    <figure id="fig-00004">
+    <figure id="fig-00004" class="scaled-down">
     <title>Scenario 1 and 2 Comparison: Shortening the Cash Conversion Cycle</title>
     <media alt="A bar graph is used to compare the cash conversion cycles for two scenarios. Scenario 2 has slightly shorter inventory conversion and receivables collection periods, while Scenario 1 has a slightly shorter payables deferral period. The cash conversion cycle is longer in Scenario 1 than it is in Scenario 2."><image mime-type="image/png" src="../../media/FINAN_Figure_19_01_004.png"/></media>
     </figure>

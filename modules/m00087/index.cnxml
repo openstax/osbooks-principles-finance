@@ -36,7 +36,7 @@
       <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>y</mi><mo>^</mo></mover><mo>=</mo><mn>9,376.7</mn><mo>+</mo><mn>61.8</mn><mi>x</mi></math></equation>
       <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">where <emphasis effect="italics">x</emphasis> represents the monthly amount spent on advertising (in thousands of dollars) and <math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>y</mi><mo>^</mo></mover></math> represents the monthly revenues for the company (in thousands of dollars).</para>
       <para id="para-00013" xmlns="http://cnx.rice.edu/cnxml">A scatter plot of the (<emphasis effect="italics">x, y</emphasis>) data is shown in <link target-id="fig-00002" document="m00087"/>.</para>
-      <figure id="fig-00002">
+      <figure id="fig-00002" class="scaled-down">
       <title>Scatter Plot of Revenue versus Advertising for a Fortune 500 Company ($000s)</title>
       <media alt="A scatter plot helps a Fortune 500 company predict its monthly revenue, depending on level of advertising spend. The diagram shows its revenue increasing from approximately $12,000,000 to $19,000,000, as advertising spend increases from approximately $50,000 to $150,000.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_02_004.png"/></media>
@@ -79,7 +79,7 @@
       <item>The residual errors are mutually independent (no pattern).</item>
       <item>The data are produced from a well-designed, random sample or randomized experiment.</item>
       </list>
-      <figure id="fig-00003">
+      <figure id="fig-00003" class="scaled-down">
       <title>Best-Fit Line</title>
       <media alt="Two diagrams of a best-fit line. The first diagram (a) shows a linearly descending line running through the center of three vertical sets of scattered points. The second diagram (b) shows a linearly descending line running through the mean of three tilted bell curves. The bottom of each bell curve aligns with the position of the three vertical scattered points in diagram a.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_02_005.png"/></media>

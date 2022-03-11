@@ -106,7 +106,7 @@
       <caption>(source: Yahoo! Finance)</caption>
       </table>
      <para id="para-00006">From the scatter plot in the Nike stock versus S&amp;P 500 example (see <link target-id="fig-00001" document="m00086"/>), we note that the trend reflects a positive correlation in that as the value of the S&amp;P 500 increases, the price of Nike stock tends to increase as well.</para>
-     <figure id="fig-00001">
+     <figure id="fig-00001" class="scaled-down">
       <title>Scatter Plot of Nike Stock Price ($) and Value of S&amp;P 500</title>
       <media alt="A scatter plot showing a positive correlation between the Nike stock price and the value of the S&amp;P 500 over 12 months. As the Nike stock price rises from approximately $87 to $140 per share, the S&amp;P 500 rises from approximately 2,900 to 4,000.">
       <image mime-type="image/jpeg" src="../../media/FINAN_Figure_14_01_002.png"/></media>
