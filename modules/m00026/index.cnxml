@@ -71,7 +71,7 @@
 <section id="sect-00005">
 <title>Debits and Credits</title>
 <para id="para-00019">Each account can be represented visually by splitting the account into left and right sides as shown. The graphic representation of a general ledger account is known as a <term id="term-00009">T-account</term>. It is called this because it looks like a “T,” as you can see with the T-account shown in <link target-id="fig-00002" document="m00026"/>.</para>
-<figure id="fig-00002" class="scaled-down">
+<figure id="fig-00002" class="scaled-down-30">
 <title>T-Account</title>
 <media alt="A general ledger account or T-account shows debit records financial information on the left side of each account and credit records financial information on the right side of an account. A vertical line divides these sections. The account title goes above the debit and credit information; it is underlined. The underline and dividing line forms a T."><image mime-type="image/png" src="../../media/FINAN_Figure_04_02_003.png"/></media>
 </figure>

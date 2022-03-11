@@ -215,7 +215,7 @@
     <section id="sect-00009">
     <title>The Relationship between Bond Prices and Interest Rates</title>
     <para id="para-00022"><term id="term-00019">Bond price</term> and interest rate have an inverse relationship. When interest rates fall, bond prices rise, and vice versa (see <link target-id="fig-00003" document="m00061"/>). If interest rates increase, the value of bonds sold at lower interest rates will decline. Similarly, if interest rates decline, the value of fixed-rate bonds will increase. An exception to this general rule is <term id="term-00020">floating-rate bonds</term> (often referred to as “floaters,” floating-rate notes, or FRNs).</para>
-    <figure id="fig-00003" class="scaled-down-30">
+    <figure id="fig-00003" class="scaled-down">
     <title>The Seesaw Effect of Bond Prices and Interest Rates</title>
     <media alt="A figure shows interest rates and bond prices balanced, as if they were on opposite ends of a seesaw. As interest rates change, the values of bonds goes up or down to maintain the balance between interest rates and bond prices."><image mime-type="image/png" src="../../media/FINAN_Figure_10_01_004.png"/></media>
     </figure>
