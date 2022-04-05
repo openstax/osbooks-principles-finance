@@ -108,27 +108,27 @@
     <tbody>
     <row>
     <entry align="center">1</entry>
-    <entry align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mrow><mtd/><mtd/><mtd><mo>$</mo><mn>25,000</mn><mo> </mo><mo>÷</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1.08</mn><mo>)</mo></mrow><mn>1</mn></msup></mtd></mrow></mtable></math></entry>
+    <entry align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd/><mtd/><mtd><mo>$</mo><mn>25,000</mn><mo> </mo><mo>÷</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1.08</mn><mo>)</mo></mrow><mn>1</mn></msup></mtd></mtr></mtable></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml">$23,148.15</entry>
     </row>
     <row>
     <entry align="center">2</entry>
-    <entry align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mrow><mtd/><mtd/><mtd><mo>$</mo><mn>25,000</mn><mo> </mo><mo>÷</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1.08</mn><mo>)</mo></mrow><mn>2</mn></msup></mtd></mrow></mtable></math></entry>
+    <entry align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd/><mtd/><mtd><mo>$</mo><mn>25,000</mn><mo> </mo><mo>÷</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1.08</mn><mo>)</mo></mrow><mn>2</mn></msup></mtd></mtr></mtable></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml">$21,433.47</entry>
     </row>
     <row>
     <entry align="center">3</entry>
-    <entry align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mrow><mtd/><mtd/><mtd><mo>$</mo><mn>25</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>÷</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1.08</mn><mo>)</mo></mrow><mn>3</mn></msup></mtd></mrow></mtable></math></entry>
+    <entry align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd/><mtd/><mtd><mo>$</mo><mn>25</mn><mo>,</mo><mn>000</mn><mo> </mo><mo>÷</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1.08</mn><mo>)</mo></mrow><mn>3</mn></msup></mtd></mtr></mtable></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml">$19,846.81</entry>
     </row>
     <row>
     <entry align="center">4</entry>
-    <entry align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mrow><mtd/><mtd/><mtd><mo>$</mo><mn>25,000</mn><mo> </mo><mo>÷</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1.08</mn><mo>)</mo></mrow><mn>4</mn></msup></mtd></mrow></mtable></math></entry>
+    <entry align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd/><mtd/><mtd><mo>$</mo><mn>25,000</mn><mo> </mo><mo>÷</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1.08</mn><mo>)</mo></mrow><mn>4</mn></msup></mtd></mtr></mtable></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml">$18,375.75</entry>
     </row>
     <row>
     <entry align="center">5</entry>
-    <entry align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mrow><mtd/><mtd/><mtd><mo>$</mo><mn>25,000</mn><mo> </mo><mo>÷</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>.</mo><mn>08</mn><mo>)</mo></mrow><mn>5</mn></msup></mtd></mrow></mtable></math></entry>
+    <entry align="center"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd/><mtd/><mtd><mo>$</mo><mn>25,000</mn><mo> </mo><mo>÷</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>.</mo><mn>08</mn><mo>)</mo></mrow><mn>5</mn></msup></mtd></mtr></mtable></math></entry>
     <entry align="right" xmlns="http://cnx.rice.edu/cnxml">$17,014.58</entry>
     </row>
     <row>

@@ -415,8 +415,8 @@
   <para id="para-00028" xmlns="http://cnx.rice.edu/cnxml">Step 3:</para>
   <equation id="eq-00009">
 
-    <math xmlns="http://www.w3.org/1998/Math/MathML">
-      <mtd><msub><mi>FV</mi><mrow><mi>Year</mi><mo> </mo><mn>5</mn></mrow></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mo> </mo><mtd><mo>$</mo><mn>5,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.04</mn><mo>)</mo></mrow><mn>1</mn></msup><mo>=</mo><mo>$</mo><mn>5,200.00</mn></mtd></math>
+    <math xmlns="http://www.w3.org/1998/Math/MathML"><mtable><mtr>
+      <mtd><msub><mi>FV</mi><mrow><mi>Year</mi><mo> </mo><mn>5</mn></mrow></msub><mo> </mo></mtd><mtd><mo>=</mo></mtd><mtd><mo>$</mo><mn>5,000</mn><mo> </mo><mo>×</mo><mo> </mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>0.04</mn><mo>)</mo></mrow><mn>1</mn></msup><mo>=</mo><mo>$</mo><mn>5,200.00</mn></mtd></mtr></mtable></math>
   </equation>
   <para id="para-00029" xmlns="http://cnx.rice.edu/cnxml">Combining the results from each of the three steps gives us</para>
   <equation id="eq-00023">
