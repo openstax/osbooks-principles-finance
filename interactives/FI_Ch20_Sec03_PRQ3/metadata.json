@@ -1,0 +1,16 @@
+{
+  "errata_id": "0ffcb91f624be76ef5172ce51955af17ed9091e1b99405fc50bcb4fadc56a8d7",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:20-03-07"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "20-03-07"
+      ]
+    }
+  ]
+}
