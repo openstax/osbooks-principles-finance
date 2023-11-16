@@ -1,0 +1,22 @@
+{
+  "errata_id": "444194266a146ed9a41a16e58fb75ce37a47ec113922633984a69713b976697f",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:0cdb989a-d555-4b67-b241-15a0c1cf0740",
+    "lo:stax-fin:05-01-02",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:5-1-the-income-statement"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "05-01-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00031"
+  ]
+}
