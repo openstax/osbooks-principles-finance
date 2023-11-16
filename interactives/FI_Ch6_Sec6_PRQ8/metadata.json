@@ -1,0 +1,22 @@
+{
+  "errata_id": "5f1aaf76c1ab72b1232574f616ef68f6249b5c78ff598edbaf0b2f3195d2067c",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:6-6-1",
+    "context-cnxmod:df7114e6-23f1-48c3-b8d4-a4e489041f65",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:6-6-profitability-ratios-and-the-dupont-method"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "6-6-1"
+      ]
+    }
+  ],
+  "context": [
+    "m00045"
+  ]
+}
