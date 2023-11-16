@@ -1,0 +1,66 @@
+{
+  "UI": {
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry",
+    "checkAnswerButton": "Check",
+    "tipsLabel": "Show tip",
+    "scoreBarLabel": "You got :num out of :total points",
+    "tipAvailable": "Tip available",
+    "feedbackAvailable": "Feedback available",
+    "readFeedback": "Read feedback",
+    "wrongAnswer": "Wrong answer",
+    "correctAnswer": "Correct answer",
+    "shouldCheck": "Should have been checked",
+    "shouldNotCheck": "Should not have been checked",
+    "noInput": "Please answer before viewing the solution"
+  },
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "type": "auto",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 0,
+      "feedback": "Wrong"
+    },
+    {
+      "from": 1,
+      "to": 99,
+      "feedback": "Almost!"
+    },
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "Correct!"
+    }
+  ],
+  "question": "Jane wants to create a fund today that will provide her a 4% guaranteed compounded annual rate. She wants to withdraw $15,000 one year from now and $27,000 two years from now, after which the fund will be depleted. How much must she invest today to achieve this goal?",
+  "isSolutionPublic": false,
+  "isFreeResponseSupported": false,
+  "answers": [
+    {
+      "text": "$42,400.00"
+    },
+    {
+      "text": "$41,912.43"
+    },
+    {
+      "text": "$40,775.89"
+    },
+    {
+      "text": "$39,386.10"
+    }
+  ],
+  "subContentId": "796e96b2-1c4d-45a2-822d-4fdb065827dc"
+}
