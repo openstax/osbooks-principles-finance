@@ -1,0 +1,22 @@
+{
+  "errata_id": "fe984dea73e6dec37aff70b6033e1ee45f4e8d83e4030bbb1c215aa487ddf5d2",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:10-01-01",
+    "context-cnxmod:41ad1b18-407f-4efe-b4ba-70ea22ce2a51",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:10-1-characteristics-of-bonds"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "10-01-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00061"
+  ]
+}
