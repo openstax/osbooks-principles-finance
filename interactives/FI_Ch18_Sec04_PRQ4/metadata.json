@@ -1,0 +1,26 @@
+{
+  "errata_id": "57fe59894c61fbcd4dc059cc6c03d365303005c3a6f1ea2ca68a23ecf6ada5a6",
+  "attachments": [
+    "media/FINAN_Figure_18_PR_203.png",
+    "media/FINAN_Figure_18_PR_203a.png",
+    "media/FINAN_Figure_18_PR_003.png"
+  ],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:18-04-01",
+    "context-cnxmod:7aa61a82-49c5-455e-9b76-854a94936cc6",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:18-4-generating-the-complete-forecast"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "18-04-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00116"
+  ]
+}

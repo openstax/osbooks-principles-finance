@@ -1,0 +1,31 @@
+{
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100
+    }
+  ],
+  "behaviour": {
+    "inputFieldSize": "10",
+    "enableRetry": true,
+    "ignoreScoring": false,
+    "pointsHost": 1,
+    "linebreakReplacement": " "
+  },
+  "checkAnswer": "Check",
+  "submitAnswer": "Submit",
+  "tryAgain": "Retry",
+  "showSolution": "Show solution",
+  "feedbackHeader": "Feedback",
+  "solutionTitle": "Sample solution",
+  "remainingChars": "Remaining characters: @chars",
+  "notEnoughChars": "You must enter at least @chars characters!",
+  "messageSave": "saved",
+  "ariaYourResult": "You got @score out of @total points",
+  "ariaNavigatedToSolution": "Navigated to newly included sample solution after textarea.",
+  "ariaCheck": "Check the answers.",
+  "ariaShowSolution": "Show the solution. You will be provided with a sample solution.",
+  "ariaRetry": "Retry the task. You can improve your previous answer if the author allowed that.",
+  "taskDescription": "<img src=\"media/FINAN_Figure_18_PR_003.png\" alt=\"The monthly income statement of ABC company shows gross sales by month: January - $41,800; February - $43,890; March - $51,700; April - $61,600; May - $66,000; June - $78,100; July - $58,300; August - $58,300; September - $50,600; October - $40,700; November - $42,900; and December - $34,100.  The total sales for the year is $627,990. It also shows the % of annual sales by month: January – 7%; February – 7.3%; March – 8.2%; April – 9.7%; May – 10.4%; June – 12.3%; July – 9.2%; August – 9.2%; September – 8.0%; October – 6.4%; November – 6.8%; and December – 5.4%.  The total percentage for all of the months equals 100%. There are blank cells for every month for the sales returns and allowances, net sales, cost of goods sold, and gross margin.\">",
+  "isSolutionPublic": false
+}
