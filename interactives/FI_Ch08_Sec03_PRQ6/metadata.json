@@ -1,0 +1,22 @@
+{
+  "errata_id": "7036d3fc8c99672df3e57ce701e667c021817b79296c573c425b231da2053e6c",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:4b188295-0368-4d49-9632-e4eb0a42288a",
+    "lo:stax-fin:08-03-03",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:8-3-loan-amortization"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "08-03-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00054"
+  ]
+}
