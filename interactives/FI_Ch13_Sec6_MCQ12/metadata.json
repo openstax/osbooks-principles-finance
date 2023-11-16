@@ -1,0 +1,22 @@
+{
+  "errata_id": "5a98cd317fa3f9dac4857cf102aa61144288ea1f2dce92c0a6b5d30b09bcff9c",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:13-06-03",
+    "context-cnxmod:a2ca2087-b302-434e-8732-47c677158e5f",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:13-6-data-visualization-and-graphical-displays"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "13-06-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00083"
+  ]
+}
