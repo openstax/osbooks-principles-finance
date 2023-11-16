@@ -1,0 +1,22 @@
+{
+  "errata_id": "d3ee9f61a2f204b9923b84244069f7fc16f6a4bf51bfc95abf18502d34b71e29",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:14e5ea01-68f3-40ec-b409-3ada93f33ba9",
+    "lo:stax-fin:17-03-01",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:17-3-calculating-the-weighted-average-cost-of-capital"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "17-03-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00108"
+  ]
+}
