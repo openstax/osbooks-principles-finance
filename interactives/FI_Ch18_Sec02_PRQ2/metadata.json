@@ -1,0 +1,25 @@
+{
+  "errata_id": "e8369163c8001bc2e2b4aeda75809479f850e1cdc84bf2d0fbd41363077eaaea",
+  "attachments": [
+    "media/FINAN_Figure_18_PR_002.png",
+    "media/FINAN_Figure_18_PR_202.png"
+  ],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:18-02-04",
+    "context-cnxmod:bc5775a3-8adc-42a4-8f3b-f47ce8df9095",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:18-2-forecasting-sales"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "18-02-04"
+      ]
+    }
+  ],
+  "context": [
+    "m00114"
+  ]
+}
