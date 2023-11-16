@@ -1,0 +1,22 @@
+{
+  "errata_id": "3b5ce352563d682789efe3197eb64d1b148fcac3a4ba2c7ef494e13a01182e2e",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:b40c23e1-ffc3-4298-931a-969f44baa9a4",
+    "lo:stax-fin:6-2-3",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:6-2-operating-efficiency-ratios"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "6-2-3"
+      ]
+    }
+  ],
+  "context": [
+    "m00041"
+  ]
+}
