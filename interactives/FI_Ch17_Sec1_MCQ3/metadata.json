@@ -1,0 +1,22 @@
+{
+  "errata_id": "6272ec7e4793cc9e93b98f48e2f5baf59df93370a3b11b464cc27de878285cef",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:17-01-03",
+    "context-cnxmod:1c25c0be-8ddb-4da2-bdbf-ee264421fffc",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:17-1-the-concept-of-capital-structure"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "17-01-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00106"
+  ]
+}
