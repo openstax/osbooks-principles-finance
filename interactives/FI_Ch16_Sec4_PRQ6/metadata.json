@@ -1,0 +1,22 @@
+{
+  "errata_id": "75f02e40b68eb313a45ecfd4b5031016aa613819e8ef934be60dcefe1e1b9186",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:a271d4c3-2541-442d-b4cb-5cae5d56776c",
+    "lo:stax-fin:16-04-02",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:16-4-alternative-methods"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "16-04-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00102"
+  ]
+}
