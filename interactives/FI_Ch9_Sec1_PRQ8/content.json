@@ -1,0 +1,31 @@
+{
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100
+    }
+  ],
+  "behaviour": {
+    "inputFieldSize": "10",
+    "enableRetry": true,
+    "ignoreScoring": false,
+    "pointsHost": 1,
+    "linebreakReplacement": " "
+  },
+  "checkAnswer": "Check",
+  "submitAnswer": "Submit",
+  "tryAgain": "Retry",
+  "showSolution": "Show solution",
+  "feedbackHeader": "Feedback",
+  "solutionTitle": "Sample solution",
+  "remainingChars": "Remaining characters: @chars",
+  "notEnoughChars": "You must enter at least @chars characters!",
+  "messageSave": "saved",
+  "ariaYourResult": "You got @score out of @total points",
+  "ariaNavigatedToSolution": "Navigated to newly included sample solution after textarea.",
+  "ariaCheck": "Check the answers.",
+  "ariaShowSolution": "Show the solution. You will be provided with a sample solution.",
+  "ariaRetry": "Retry the task. You can improve your previous answer if the author allowed that.",
+  "taskDescription": "You hire Susan for a three-year term. She has no retirement plan, so you agree to invest money immediately to allow her a stream of three payments beginning one year after her employment term ends. Draw a timeline! The money you invest for the full six years of this arrangement (three years of employment and three years of withdrawals) always earns 4% compounded annually. When Susan receives her third and last payment, the fund will be depleted and equal zero. The three payments she will receive are as follows:<ul>\n<li>End of year 4: $25,000</li>\n<li>End of year 5: $30,000</li>\n<li>End of year 6: $37,000</li>\n</ul>\n<p>Therefore, your goal is to have enough money in this account at the end of Susan’s three-year employment term to assure her of receiving these payments.</p>\n<p>How much money must you invest today to accomplish this strategy?</p>",
+  "isSolutionPublic": false
+}
