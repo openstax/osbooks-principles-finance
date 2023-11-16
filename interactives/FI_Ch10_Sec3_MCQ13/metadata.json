@@ -1,0 +1,22 @@
+{
+  "errata_id": "b30f7c7ab21c56f45ab33f28295fc9d6660601c3925a7f9f248114e5fba3fa78",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:3416d4a5-0b08-4247-b0e5-3f3cc6d4b94e",
+    "lo:stax-fin:10-03-03",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:10-3-using-the-yield-curve"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "10-03-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00063"
+  ]
+}
