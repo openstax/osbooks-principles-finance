@@ -1,0 +1,22 @@
+{
+  "errata_id": "75c96affe8b3ee07353c1be0156b8f218eb9f17074e88a8c2ff5db0ff92cc516",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:16f20e50-4562-45db-bb3f-54bdd034aa7f",
+    "lo:stax-fin:11-04-02",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:11-4-preferred-stock"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "11-04-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00070"
+  ]
+}
