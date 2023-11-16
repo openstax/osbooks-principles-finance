@@ -1,0 +1,22 @@
+{
+  "errata_id": "97eac010f28fb6e53fd3949161a042748bd3755707898574f681b5abe102d196",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:07-02-03",
+    "context-cnxmod:ad571b15-1736-40c2-8c54-9c5380cd6da0",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:7-2-time-value-of-money-tvm-basics"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "07-02-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00048"
+  ]
+}
