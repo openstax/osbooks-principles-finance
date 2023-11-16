@@ -1,0 +1,22 @@
+{
+  "errata_id": "48478573da81f263882459b611793b24956173e7ac846e1b4c8db9a76eed3b01",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:288ddbf4-fc2e-4bb9-ae48-97f2c7f3fce6",
+    "lo:stax-fin:6-5-2",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:6-5-market-value-ratios"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "6-5-2"
+      ]
+    }
+  ],
+  "context": [
+    "m00044"
+  ]
+}
