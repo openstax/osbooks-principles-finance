@@ -1,0 +1,66 @@
+{
+  "UI": {
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry",
+    "checkAnswerButton": "Check",
+    "tipsLabel": "Show tip",
+    "scoreBarLabel": "You got :num out of :total points",
+    "tipAvailable": "Tip available",
+    "feedbackAvailable": "Feedback available",
+    "readFeedback": "Read feedback",
+    "wrongAnswer": "Wrong answer",
+    "correctAnswer": "Correct answer",
+    "shouldCheck": "Should have been checked",
+    "shouldNotCheck": "Should not have been checked",
+    "noInput": "Please answer before viewing the solution"
+  },
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": false,
+    "showSolutionsRequiresInput": true,
+    "type": "auto",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 0,
+      "feedback": "Wrong"
+    },
+    {
+      "from": 1,
+      "to": 99,
+      "feedback": "Almost!"
+    },
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "Correct!"
+    }
+  ],
+  "question": "Your friend Jamal borrows $5,000 from you, agreeing to pay you back with 8% annual interest, with the first payment due to you one year from today. You ask that you be fully repaid over the next four years. However, to lower his annual payment, Jamal asks you to extend the period over five full years instead. What will be the approximate <b>difference</b> in his total payments to you, including interest and principal, if the debt is amortized over five years rather than four?",
+  "isSolutionPublic": false,
+  "isFreeResponseSupported": false,
+  "answers": [
+    {
+      "text": "Jamal will pay $544 less."
+    },
+    {
+      "text": "Jamal will pay $544 more."
+    },
+    {
+      "text": "Jamal will pay $223 less."
+    },
+    {
+      "text": "Jamal will pay $223 more."
+    }
+  ],
+  "subContentId": "41ad3f29-1b2e-4478-a293-c4852bdfb4bc"
+}
