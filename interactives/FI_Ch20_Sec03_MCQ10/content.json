@@ -1,0 +1,66 @@
+{
+  "UI": {
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry",
+    "checkAnswerButton": "Check",
+    "tipsLabel": "Show tip",
+    "scoreBarLabel": "You got :num out of :total points",
+    "tipAvailable": "Tip available",
+    "feedbackAvailable": "Feedback available",
+    "readFeedback": "Read feedback",
+    "wrongAnswer": "Wrong answer",
+    "correctAnswer": "Correct answer",
+    "shouldCheck": "Should have been checked",
+    "shouldNotCheck": "Should not have been checked",
+    "noInput": "Please answer before viewing the solution"
+  },
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": false,
+    "showSolutionsRequiresInput": true,
+    "type": "auto",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 0,
+      "feedback": "Wrong"
+    },
+    {
+      "from": 1,
+      "to": 99,
+      "feedback": "Almost!"
+    },
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "Correct!"
+    }
+  ],
+  "question": "In January, the exchange rate between the South Korean won and the US dollar was <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow>\n  <mrow class=\"MJX-TeXAtom-ORD\">\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mi mathvariant=\"normal\">K</mi>\n      <mi mathvariant=\"normal\">W</mi>\n      <mi mathvariant=\"normal\">N</mi>\n      <mspace width=\"thickmathspace\"></mspace>\n      <mn>1</mn>\n      <mo>,</mo>\n      <mn>100</mn>\n      <mo>=</mo>\n      <mi mathvariant=\"normal\">U</mi>\n      <mi mathvariant=\"normal\">S</mi>\n      <mi mathvariant=\"normal\">D</mi>\n      <mspace width=\"thickmathspace\"></mspace>\n      <mn>1</mn>\n    </mrow>\n  </mrow>\n</mrow><annotation encoding=\"LaTeX\">{\\rm{KWN\\;1,100 = USD\\;1}}</annotation></semantics></math>. Three months later, the exchange rate was <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow>\n  <mrow class=\"MJX-TeXAtom-ORD\">\n    <mrow class=\"MJX-TeXAtom-ORD\">\n      <mi mathvariant=\"normal\">K</mi>\n      <mi mathvariant=\"normal\">W</mi>\n      <mi mathvariant=\"normal\">N</mi>\n      <mspace width=\"thickmathspace\"></mspace>\n      <mn>1</mn>\n      <mo>,</mo>\n      <mn>200</mn>\n      <mo>=</mo>\n      <mi mathvariant=\"normal\">U</mi>\n      <mi mathvariant=\"normal\">S</mi>\n      <mi mathvariant=\"normal\">D</mi>\n      <mspace width=\"thickmathspace\"></mspace>\n      <mn>1</mn>\n    </mrow>\n  </mrow>\n</mrow><annotation encoding=\"LaTeX\">{\\rm{KWN\\;1,200 = USD\\;1}}</annotation></semantics></math>. This means that ________.",
+  "isSolutionPublic": false,
+  "isFreeResponseSupported": false,
+  "answers": [
+    {
+      "text": "it will cost US companies more to purchase raw materials from South Korea"
+    },
+    {
+      "text": "it will cost Korean companies more to purchase raw materials from the United States"
+    },
+    {
+      "text": "US companies that sell their products in South Korea will find their revenue has increased"
+    },
+    {
+      "text": "Korean companies that sell their products in the United States will find that their revenue has decreased"
+    }
+  ],
+  "subContentId": "6654fcc4-de2f-4e79-96ce-ac0c38eb2337"
+}
