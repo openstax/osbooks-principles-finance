@@ -1,0 +1,22 @@
+{
+  "errata_id": "a79f71e20eee5b403a3bc2238a2ef791fbe3f624a7a278cd9772ee89a3541e62",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:04-05-02",
+    "context-cnxmod:c3986034-092e-4fbb-88a4-c1896e9514d9",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:4-5-what-is-profit-versus-loss-for-the-company"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "04-05-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00029"
+  ]
+}
