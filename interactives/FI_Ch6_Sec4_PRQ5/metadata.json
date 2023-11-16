@@ -1,0 +1,22 @@
+{
+  "errata_id": "619587d8f8855f73e009460935c0d40585e37028163c002f63dc22575adc1b43",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:86278761-8289-43d2-b7fe-9d0b5909cde9",
+    "lo:stax-fin:6-4-1",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:6-4-solvency-ratios"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "6-4-1"
+      ]
+    }
+  ],
+  "context": [
+    "m00043"
+  ]
+}
