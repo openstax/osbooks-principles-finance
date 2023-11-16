@@ -1,0 +1,22 @@
+{
+  "errata_id": "67efa301fed6ab297aa81b6c51378c1a1898d25d541c95cd74ba1e3b5c4b9655",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:18-03-03",
+    "context-cnxmod:9a8d3713-3b98-4004-aa3c-e9c56e778c56",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:18-3-pro-forma-financials"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "18-03-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00115"
+  ]
+}
