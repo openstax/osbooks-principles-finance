@@ -1,0 +1,31 @@
+{
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100
+    }
+  ],
+  "behaviour": {
+    "inputFieldSize": "10",
+    "enableRetry": true,
+    "ignoreScoring": false,
+    "pointsHost": 1,
+    "linebreakReplacement": " "
+  },
+  "checkAnswer": "Check",
+  "submitAnswer": "Submit",
+  "tryAgain": "Retry",
+  "showSolution": "Show solution",
+  "feedbackHeader": "Feedback",
+  "solutionTitle": "Sample solution",
+  "remainingChars": "Remaining characters: @chars",
+  "notEnoughChars": "You must enter at least @chars characters!",
+  "messageSave": "saved",
+  "ariaYourResult": "You got @score out of @total points",
+  "ariaNavigatedToSolution": "Navigated to newly included sample solution after textarea.",
+  "ariaCheck": "Check the answers.",
+  "ariaShowSolution": "Show the solution. You will be provided with a sample solution.",
+  "ariaRetry": "Retry the task. You can improve your previous answer if the author allowed that.",
+  "taskDescription": "<img src=\"media/FINAN_Figure_18_PR_004.png\" alt=\"The monthly income statement of ABC company shows gross sales by month: January - $41,800; February - $43,890; March - $51,700; April - $61,600; May - $66,000; June - $78,100; July - $58,300; August - $58,300; September - $50,600; October - $40,700; November - $42,900; and December - $34,100.  The total sales for the year is $627,990. It also shows the % of annual sales by month: January – 7%; February – 7.3%; March – 8.2%; April – 9.7%; May – 10.4%; June – 12.3%; July – 9.2%; August – 9.2%; September – 8.0%; October – 6.4%; November – 6.8%; and December – 5.4%.  The total percentage for all of the months equals 100%. The sales returns and allowances by month are: January - $418; February - $439; March - $517; April - $616; May - $660; June - $781; July - $583; August - $583; September - $506; October - $407; November - $429; December - $341. The total sales returns and allowances for the year are $6,280. The net sales by month are: January - $41,382; February - $43451; March - $51,183; April - $60,984; May - $65,340; June - $77,319; July - $57,717; August - $57,717; September - $50,094; October - $40,293; November - $42,471; December - $33,759. The total net sales for the year are $621,710. The cost of goods sold by month are: January - $24,829; February - $26,071; March - $30,710; April - $36,590; May - $39,204; June - $46,391; July - $34,630; August - $34,630; September - $30,056; October - $24,176; November - $25,483; and December - $20,255. The total cost of goods sold for the year are $373,026. The gross margin by month are: January - $16,553; February - $17,380; March - $20,473; April - $24,394; May - $26,136; June - $30,928; July - $23,087; August - $23,087; September - $20,038; October - $16,117; November - $16,988; and December - $13,504. The total gross margin for the year is $248,684. There are blank cells for each month for rent expense, depreciation expense, salaries expense, utility expense, operating income, interest expense, income tax expense, and net income.\">",
+  "isSolutionPublic": false
+}
