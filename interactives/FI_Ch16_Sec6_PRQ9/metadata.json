@@ -1,0 +1,22 @@
+{
+  "errata_id": "6abf13b55aeab74803d762923c839d4e17722c15270a25b2b17b8175f5452d68",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:16-06-03",
+    "context-cnxmod:48e217ba-0cc6-4a17-9782-1b0011a2b439",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:16-6-using-excel-to-make-company-investment-decisions"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "16-06-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00104"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100
+    }
+  ],
+  "behaviour": {
+    "inputFieldSize": "10",
+    "enableRetry": true,
+    "ignoreScoring": false,
+    "pointsHost": 1,
+    "linebreakReplacement": " "
+  },
+  "checkAnswer": "Check",
+  "submitAnswer": "Submit",
+  "tryAgain": "Retry",
+  "showSolution": "Show solution",
+  "feedbackHeader": "Feedback",
+  "solutionTitle": "Sample solution",
+  "remainingChars": "Remaining characters: @chars",
+  "notEnoughChars": "You must enter at least @chars characters!",
+  "messageSave": "saved",
+  "ariaYourResult": "You got @score out of @total points",
+  "ariaNavigatedToSolution": "Navigated to newly included sample solution after textarea.",
+  "ariaCheck": "Check the answers.",
+  "ariaShowSolution": "Show the solution. You will be provided with a sample solution.",
+  "ariaRetry": "Retry the task. You can improve your previous answer if the author allowed that.",
+  "taskDescription": "You will be living in your college town for two more years. You are considering purchasing a townhouse that will cost you $250,000 today. You estimate that if you do, your expenses for each of the next two years will be $6,000 less than if you rented an apartment. You think that you would be able to lease the townhouse to another college student afterward for $12,000 per year and that your taxes, maintenance, and other expenses for the townhouse would be $5,000 per year. You expect to lease the townhouse for five years before you sell it, and you expect to be able to sell the townhouse for $275,000. Use Excel to create an NPV profile for this undertaking. If it will cost you 3% to borrow money, should you buy the townhouse? What if it will cost you 8% to borrow money?",
+  "isSolutionPublic": false
+}
