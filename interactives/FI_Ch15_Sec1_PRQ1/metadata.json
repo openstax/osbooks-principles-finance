@@ -1,0 +1,22 @@
+{
+  "errata_id": "462c5c835bfece74a9191649b0c45c463678f78a6b033e582d7852053bb228e1",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:a12f6608-665e-4297-881f-ef136d7d319b",
+    "lo:stax-fin:15-01-01",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:15-1-risk-and-return-to-an-individual-asset"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "15-01-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00093"
+  ]
+}
