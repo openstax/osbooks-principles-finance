@@ -1,0 +1,22 @@
+{
+  "errata_id": "1703fdf86d89e8023f9140ac0de140eae955dc062a7844dffc9eba3f993e19d4",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:f10df1e4-d7f5-483b-954b-f2c5f8b72324",
+    "lo:stax-fin:13-04-01",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:13-4-statistical-distributions"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "13-04-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00081"
+  ]
+}
