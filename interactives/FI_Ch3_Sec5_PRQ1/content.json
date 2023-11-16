@@ -1,0 +1,31 @@
+{
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100
+    }
+  ],
+  "behaviour": {
+    "inputFieldSize": "10",
+    "enableRetry": true,
+    "ignoreScoring": false,
+    "pointsHost": 1,
+    "linebreakReplacement": " "
+  },
+  "checkAnswer": "Check",
+  "submitAnswer": "Submit",
+  "tryAgain": "Retry",
+  "showSolution": "Show solution",
+  "feedbackHeader": "Feedback",
+  "solutionTitle": "Sample solution",
+  "remainingChars": "Remaining characters: @chars",
+  "notEnoughChars": "You must enter at least @chars characters!",
+  "messageSave": "saved",
+  "ariaYourResult": "You got @score out of @total points",
+  "ariaNavigatedToSolution": "Navigated to newly included sample solution after textarea.",
+  "ariaCheck": "Check the answers.",
+  "ariaShowSolution": "Show the solution. You will be provided with a sample solution.",
+  "ariaRetry": "Retry the task. You can improve your previous answer if the author allowed that.",
+  "taskDescription": "You are planning a budget for an upcoming trip to Japan. Your hotel will cost 12,000 yen per night, and you will stay in the hotel for six nights. If the current exchange rate is  <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow>\n  <mtext>YEN</mtext>\n  <mspace width=\"thickmathspace\"></mspace>\n  <mn>98</mn>\n  <mo>=</mo>\n  <mtext>USD</mtext>\n  <mspace width=\"thickmathspace\"></mspace>\n  <mn>1</mn>\n</mrow><annotation encoding=\"LaTeX\">\\text{YEN}\\;98=\\text{USD}\\;1</annotation></semantics></math>, how much will the hotel stay cost you in US dollars?",
+  "isSolutionPublic": false
+}

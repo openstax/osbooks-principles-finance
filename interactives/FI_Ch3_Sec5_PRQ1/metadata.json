@@ -1,0 +1,22 @@
+{
+  "errata_id": "1cf59beb863cd49b308834e227e5f9525e0fe1ca82aa274c6339dbe67e202845",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:03-05-02",
+    "context-cnxmod:c62a097b-1dee-451d-aa18-7f68486c7862",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:3-5-foreign-exchange-rates"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "03-05-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00022"
+  ]
+}
