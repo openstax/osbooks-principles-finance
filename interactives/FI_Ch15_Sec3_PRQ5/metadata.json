@@ -1,0 +1,22 @@
+{
+  "errata_id": "982a57f8231e3161f4db4e5784195213544d55a0f0c256a30fb29425c8be7b1d",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:93dc309c-3781-41d2-b9db-e8e768b2dce4",
+    "lo:stax-fin:15-03-03",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:15-3-the-capital-asset-pricing-model-capm"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "15-03-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00095"
+  ]
+}
