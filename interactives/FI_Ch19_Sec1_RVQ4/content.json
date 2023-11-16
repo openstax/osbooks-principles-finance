@@ -1,0 +1,31 @@
+{
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100
+    }
+  ],
+  "behaviour": {
+    "inputFieldSize": "10",
+    "enableRetry": true,
+    "ignoreScoring": false,
+    "pointsHost": 1,
+    "linebreakReplacement": " "
+  },
+  "checkAnswer": "Check",
+  "submitAnswer": "Submit",
+  "tryAgain": "Retry",
+  "showSolution": "Show solution",
+  "feedbackHeader": "Feedback",
+  "solutionTitle": "Sample solution",
+  "remainingChars": "Remaining characters: @chars",
+  "notEnoughChars": "You must enter at least @chars characters!",
+  "messageSave": "saved",
+  "ariaYourResult": "You got @score out of @total points",
+  "ariaNavigatedToSolution": "Navigated to newly included sample solution after textarea.",
+  "ariaCheck": "Check the answers.",
+  "ariaShowSolution": "Show the solution. You will be provided with a sample solution.",
+  "ariaRetry": "Retry the task. You can improve your previous answer if the author allowed that.",
+  "taskDescription": "<img src=\"media/FINAN_Figure_19_PRB_19B.png\" alt=\"The account balances for Electra Engines, Inc. shows the following line items: Property, Plant, and Equipment - $500,000; Accounts Payable - $9,000; Intangible Assets - $5,000; Cash - $12,000; Marketable Securities (maturing in 6 months of less) - $25,000; Retained Earnings - $25,000; Interest Payable - $2,500; Notes Payable (due in 24 months) - $10,000; Accounts Receivable - $25,000; Notes Payable (due in 6 months) - $20,000; Common Stock - $45,000; Dividends Payable - $3,000; and Inventory - $55,000.\">",
+  "isSolutionPublic": false
+}
