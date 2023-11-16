@@ -1,0 +1,22 @@
+{
+  "errata_id": "22a8fb7ac574437c9307e6fdcb03fb479345198aeb433341826a163a98a74edc",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:03-03-01",
+    "context-cnxmod:f513f18d-d837-483b-a5fc-974190539060",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:3-3-business-cycles-and-economic-activity"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "03-03-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00020"
+  ]
+}
