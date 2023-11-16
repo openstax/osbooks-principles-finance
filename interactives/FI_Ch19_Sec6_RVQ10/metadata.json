@@ -1,0 +1,25 @@
+{
+  "errata_id": "acfee9c442be778ecf3cd71ac19a4efff17c4659e634a1737f581618ac8fba24",
+  "attachments": [
+    "media/FINAN_Figure_19_PRB_19N.png",
+    "media/FINAN_Figure_19_PRB_19M.png"
+  ],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:19-6-1",
+    "context-cnxmod:19528483-ad31-4e0a-9c19-83eee233024a",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:19-6-using-excel-to-create-the-short-term-plan"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "19-6-1"
+      ]
+    }
+  ],
+  "context": [
+    "m00125"
+  ]
+}
