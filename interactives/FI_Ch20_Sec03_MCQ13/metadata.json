@@ -1,0 +1,22 @@
+{
+  "errata_id": "5c64dc7d47050a46f254f72003fd4da4319bf2cbe757afe44c926e88f32bddf5",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:dd6341c6-861d-40fc-aa04-b42c6483ccd2",
+    "lo:stax-fin:20-03-04",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:20-3-exchange-rates-and-risk"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "20-03-04"
+      ]
+    }
+  ],
+  "context": [
+    "m00129"
+  ]
+}
