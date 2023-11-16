@@ -1,0 +1,22 @@
+{
+  "errata_id": "b4626d6b76b9889a537d973bc7e3a35189b9b8c5d2e0de9c7eadbb336b2d3bbf",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:17-05-02",
+    "context-cnxmod:814eb134-b6c9-43c5-998c-a52da2b11db6",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:17-5-optimal-capital-structure"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "17-05-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00110"
+  ]
+}
