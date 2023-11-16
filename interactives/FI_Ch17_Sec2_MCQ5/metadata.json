@@ -1,0 +1,22 @@
+{
+  "errata_id": "2b2759713b3d6f9f12aad4e340572f66524e59b8af595671ad306de1f018bad2",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:5dca0c4c-9695-4b1c-ab4d-240fa9f398f7",
+    "lo:stax-fin:17-02-01",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:17-2-the-costs-of-debt-and-equity-capital"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "17-02-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00107"
+  ]
+}
