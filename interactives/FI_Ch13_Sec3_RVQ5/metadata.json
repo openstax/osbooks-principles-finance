@@ -1,0 +1,22 @@
+{
+  "errata_id": "1f1487863f6a068c8df0acd9ad52c445e8ec12e4b553f0f5acc31ad6f7499ae0",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:cd0601eb-e6f9-46e6-a2eb-9b0740e8a8f5",
+    "lo:stax-fin:13-03-03",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:13-3-measures-of-position"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "13-03-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00080"
+  ]
+}
