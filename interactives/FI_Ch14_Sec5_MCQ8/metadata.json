@@ -1,0 +1,22 @@
+{
+  "errata_id": "b864ed940eafb5ca059795fc8a776d7a7bbb947bded2a5d045b9bf8d26a10b11",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:14-05-01",
+    "context-cnxmod:fa2de103-236f-4a54-92f3-79d2d6a3e54f",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:14-5-predictions-and-prediction-intervals"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "14-05-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00091"
+  ]
+}
