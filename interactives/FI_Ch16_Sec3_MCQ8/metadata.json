@@ -1,0 +1,22 @@
+{
+  "errata_id": "0579a4736f0aea2df7e416be66ce7b32e237ec25453e6d1b46be04b446ed2cd9",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:d3625624-4efc-4379-a4cc-8a69f7e32e1c",
+    "lo:stax-fin:16-03-03",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:16-3-internal-rate-of-return-irr-method"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "16-03-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00101"
+  ]
+}
