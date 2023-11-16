@@ -1,0 +1,66 @@
+{
+  "UI": {
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry",
+    "checkAnswerButton": "Check",
+    "tipsLabel": "Show tip",
+    "scoreBarLabel": "You got :num out of :total points",
+    "tipAvailable": "Tip available",
+    "feedbackAvailable": "Feedback available",
+    "readFeedback": "Read feedback",
+    "wrongAnswer": "Wrong answer",
+    "correctAnswer": "Correct answer",
+    "shouldCheck": "Should have been checked",
+    "shouldNotCheck": "Should not have been checked",
+    "noInput": "Please answer before viewing the solution"
+  },
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": false,
+    "showSolutionsRequiresInput": true,
+    "type": "auto",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 0,
+      "feedback": "Wrong"
+    },
+    {
+      "from": 1,
+      "to": 99,
+      "feedback": "Almost!"
+    },
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "Correct!"
+    }
+  ],
+  "question": "<img src=\"media/FINAN_Figure_19_MC_QUESTION_05.png\" alt=\"The account balances include the following line items: Property, Plant, and Equipment - $500,000; Accounts Payable - $6,000; Intangible Assets - $5,000; Cash - $10,000; Marketable Securities (maturing in 6 months of less) - $30,000; Retained Earnings - $25,000; Interest Payable - $2,000; Notes Payable (due in 24 months) - $10,000; Accounts Receivable - $20,000; Notes Payable (due in 6 months) - $20,000; Common Stock - $45,000; Dividends Payable - $3,000; and Inventory - $50,000.\">",
+  "isSolutionPublic": false,
+  "isFreeResponseSupported": false,
+  "answers": [
+    {
+      "text": "1.29"
+    },
+    {
+      "text": "1.43"
+    },
+    {
+      "text": "1.71"
+    },
+    {
+      "text": ".088"
+    }
+  ],
+  "subContentId": "65435e99-546b-4758-a19c-c786fc21978a"
+}
