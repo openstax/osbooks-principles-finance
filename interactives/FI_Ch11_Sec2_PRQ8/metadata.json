@@ -1,0 +1,22 @@
+{
+  "errata_id": "cebb6885c88c7184315af566c6ec80484a738eff67ff6f0f05480886830f869d",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:98b4140e-7df7-4059-9f7e-b7892c015fda",
+    "lo:stax-fin:11-02-01",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:11-2-dividend-discount-models-ddms"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "11-02-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00068"
+  ]
+}
