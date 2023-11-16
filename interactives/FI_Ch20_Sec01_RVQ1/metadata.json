@@ -1,0 +1,22 @@
+{
+  "errata_id": "c129be943a4247d980c6b57de2aa46e53d762e5b31e357faa9ae1e2db5137c50",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:ba43fa65-0b01-4795-8d6c-b92c6faa8f77",
+    "lo:stax-fin:20-01-03",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:20-1-the-importance-of-risk-management"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "20-01-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00127"
+  ]
+}
