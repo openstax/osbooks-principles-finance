@@ -1,0 +1,22 @@
+{
+  "errata_id": "bec6c7eeafab2710741f1cf3078df195b367cc325415a61402fc04159158bceb",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:17-04-01",
+    "context-cnxmod:39a89836-eca7-4549-a2f7-60b345f250c9",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:17-4-capital-structure-choices"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "17-04-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00109"
+  ]
+}
