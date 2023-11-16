@@ -1,0 +1,22 @@
+{
+  "errata_id": "598444848fdc97026816576eea3511a5e7fa5c12451fddf00e285f88c529f323",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:6-1-1",
+    "context-cnxmod:3f3227a1-78e8-4956-8434-54dbc4fc69b5",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:6-1-ratios-condensing-information-into-smaller-pieces"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "6-1-1"
+      ]
+    }
+  ],
+  "context": [
+    "m00040"
+  ]
+}
