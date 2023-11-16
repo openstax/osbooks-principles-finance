@@ -1,0 +1,31 @@
+{
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100
+    }
+  ],
+  "behaviour": {
+    "inputFieldSize": "10",
+    "enableRetry": true,
+    "ignoreScoring": false,
+    "pointsHost": 1,
+    "linebreakReplacement": " "
+  },
+  "checkAnswer": "Check",
+  "submitAnswer": "Submit",
+  "tryAgain": "Retry",
+  "showSolution": "Show solution",
+  "feedbackHeader": "Feedback",
+  "solutionTitle": "Sample solution",
+  "remainingChars": "Remaining characters: @chars",
+  "notEnoughChars": "You must enter at least @chars characters!",
+  "messageSave": "saved",
+  "ariaYourResult": "You got @score out of @total points",
+  "ariaNavigatedToSolution": "Navigated to newly included sample solution after textarea.",
+  "ariaCheck": "Check the answers.",
+  "ariaShowSolution": "Show the solution. You will be provided with a sample solution.",
+  "ariaRetry": "Retry the task. You can improve your previous answer if the author allowed that.",
+  "taskDescription": "Write a short R program to find the expected return for the data set in the table below.\n<table>\n<tbody><tr><td><strong>Historical Return on United Airlines Stock</strong></td>\n<td><strong>Associated Probability</strong></td></tr>\n<tr><td>12%</td>\n<td>15%</td></tr>\n<tr><td>5%</td>\n<td>35%</td></tr>\n<tr><td>2%</td><td>25%</td></tr><tr><td>-5%</td><td>14%</td></tr>\n<tr><td>-10%</td><td>11%</td></tr>\n</tbody></table>",
+  "isSolutionPublic": false
+}

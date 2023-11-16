@@ -1,0 +1,22 @@
+{
+  "errata_id": "74d5e21466a352ad3c96d0cf96a1f45002c62519f65756c511f93208e5d41c82",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:1129068b-6268-42e8-a9ad-b181c1c220d5",
+    "lo:stax-fin:13-07-02",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:13-7-the-r-statistical-analysis-tool"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "13-07-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00084"
+  ]
+}
