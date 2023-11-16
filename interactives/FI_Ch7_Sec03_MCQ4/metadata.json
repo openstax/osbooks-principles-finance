@@ -1,0 +1,22 @@
+{
+  "errata_id": "b732c3fe149f4fb39f76260cbb57b4a5740223ef480d3344bdff586d47c97a60",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:07-03-01",
+    "context-cnxmod:f4e6c4e8-153f-4cbd-974f-d6eb11f08b72",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:7-3-methods-for-solving-time-value-of-money-problems"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "07-03-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00049"
+  ]
+}
