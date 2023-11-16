@@ -1,0 +1,22 @@
+{
+  "errata_id": "fdf281e54f0050d36b4cad44eba0fb7d22bdca803f17af204ef7725fbbbd9660",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:19-5-1",
+    "context-cnxmod:3ac1c2a2-4d9a-40c6-811e-2b699c380208",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:19-5-inventory-management"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "19-5-1"
+      ]
+    }
+  ],
+  "context": [
+    "m00124"
+  ]
+}

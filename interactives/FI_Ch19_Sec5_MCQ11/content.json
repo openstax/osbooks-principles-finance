@@ -1,0 +1,69 @@
+{
+  "UI": {
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry",
+    "checkAnswerButton": "Check",
+    "tipsLabel": "Show tip",
+    "scoreBarLabel": "You got :num out of :total points",
+    "tipAvailable": "Tip available",
+    "feedbackAvailable": "Feedback available",
+    "readFeedback": "Read feedback",
+    "wrongAnswer": "Wrong answer",
+    "correctAnswer": "Correct answer",
+    "shouldCheck": "Should have been checked",
+    "shouldNotCheck": "Should not have been checked",
+    "noInput": "Please answer before viewing the solution"
+  },
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": false,
+    "showSolutionsRequiresInput": true,
+    "type": "auto",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 0,
+      "feedback": "Wrong"
+    },
+    {
+      "from": 1,
+      "to": 99,
+      "feedback": "Almost!"
+    },
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "Correct!"
+    }
+  ],
+  "question": "Two Way Power Ltd. (2WP) stocks an inventory item, BB3, that is projected to be in great demand over the next 12 months. In discussing its sales forecasts with its suppliers, a reasonable estimate shows that 2WP could lose about $30,000 of sales in month 3 due to inventory financing difficulties. Which, if any, of the following inventory costs would be affected by this development?",
+  "isSolutionPublic": false,
+  "isFreeResponseSupported": false,
+  "answers": [
+    {
+      "text": "purchase cost"
+    },
+    {
+      "text": "carrying costs"
+    },
+    {
+      "text": "ordering costs"
+    },
+    {
+      "text": "stockout costs"
+    },
+    {
+      "text": "none of these costs because loss of sales is not an inventory cost"
+    }
+  ],
+  "subContentId": "b8c1284f-faf6-4991-a62d-122e8fe2524b"
+}
