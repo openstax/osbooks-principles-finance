@@ -1,0 +1,22 @@
+{
+  "errata_id": "c623bec98cfb4d551b85f505ccd8c9302dfa524c8778ffe63f00da9475ef873b",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:d4931017-9c43-4315-ad09-13566f8567f9",
+    "lo:stax-fin:07-04-02",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:7-4-applications-of-tvm-in-finance"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "07-04-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00050"
+  ]
+}
