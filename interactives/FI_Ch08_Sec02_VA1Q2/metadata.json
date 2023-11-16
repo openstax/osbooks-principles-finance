@@ -1,0 +1,22 @@
+{
+  "errata_id": "a767030d74583a216af64c8c71f6aa95956f538581ad711d5ff00cc831f2182f",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:f0fdc220-6f6e-4189-8e19-a59d0d45dece",
+    "lo:stax-fin:08-02-02",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:8-2-annuities"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "08-02-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00053"
+  ]
+}
