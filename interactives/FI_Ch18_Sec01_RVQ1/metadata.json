@@ -1,0 +1,22 @@
+{
+  "errata_id": "1aa812d1d5471e3bc4cfc32d8452a5d2700e95685ede49ecd3d3c951d09052de",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:ac6d2c27-ac1a-400a-b082-bb7647505cd2",
+    "lo:stax-fin:18-01-02",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:18-1-the-importance-of-forecasting"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "18-01-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00113"
+  ]
+}
