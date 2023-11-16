@@ -1,0 +1,22 @@
+{
+  "errata_id": "ffb9180ee2867e87104e3fa33d99c7e0a1b512794c3107c22ca3c759d3d2a2f9",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:cd04a2b9-b771-4c40-b110-fd269c6b1322",
+    "lo:stax-fin:11-01-05",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:11-1-multiple-approaches-to-stock-valuation"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "11-01-05"
+      ]
+    }
+  ],
+  "context": [
+    "m00067"
+  ]
+}
