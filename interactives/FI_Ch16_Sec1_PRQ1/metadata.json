@@ -1,0 +1,22 @@
+{
+  "errata_id": "86b94a36cea3f975a4e4396fb8225fdc7278bdc334b439a89a00782a62875fdc",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:54f734d5-1bb7-43d6-9808-17c8af5f5de4",
+    "lo:stax-fin:16-01-02",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:16-1-payback-period-method"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "16-01-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00099"
+  ]
+}
