@@ -1,0 +1,31 @@
+{
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100
+    }
+  ],
+  "behaviour": {
+    "inputFieldSize": "10",
+    "enableRetry": true,
+    "ignoreScoring": false,
+    "pointsHost": 1,
+    "linebreakReplacement": " "
+  },
+  "checkAnswer": "Check",
+  "submitAnswer": "Submit",
+  "tryAgain": "Retry",
+  "showSolution": "Show solution",
+  "feedbackHeader": "Feedback",
+  "solutionTitle": "Sample solution",
+  "remainingChars": "Remaining characters: @chars",
+  "notEnoughChars": "You must enter at least @chars characters!",
+  "messageSave": "saved",
+  "ariaYourResult": "You got @score out of @total points",
+  "ariaNavigatedToSolution": "Navigated to newly included sample solution after textarea.",
+  "ariaCheck": "Check the answers.",
+  "ariaShowSolution": "Show the solution. You will be provided with a sample solution.",
+  "ariaRetry": "Retry the task. You can improve your previous answer if the author allowed that.",
+  "taskDescription": "You believe that you can set aside $1,200 each year for the next four years, starting immediately, in order to buy a small fishing boat for your retirement. Your friend Luis promises that he’ll pay you back $4,900 that he owes you three years from now, so you will add that to the payment you make at the start of year 4. Then, at the start of year 5, you will increase your payment to $1,400; in year 6, to $1,500; and in year 7, to $1,600. Every payment will be deposited in a fund bearing 4% interest compounded annually. How much will you have set aside for your boat at the end of the seventh year?",
+  "isSolutionPublic": false
+}

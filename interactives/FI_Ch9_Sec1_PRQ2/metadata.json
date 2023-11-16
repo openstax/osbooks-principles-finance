@@ -1,0 +1,22 @@
+{
+  "errata_id": "0d420dc2d723d43f9c6a621f8a14f9a134daf0b1af53b863b0cf679a8acf404b",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:f99895ce-4a77-463b-8cf3-09298ab27545",
+    "lo:stax-fin:09-01-02",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:9-1-timing-of-cash-flows"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "09-01-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00058"
+  ]
+}
