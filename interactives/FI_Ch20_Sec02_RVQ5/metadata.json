@@ -1,0 +1,22 @@
+{
+  "errata_id": "f04a1a2ece7f9ca611a97c045569cb9dee8e9463c667ac11c97c86fed49041a1",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:d4420f31-57a2-4f02-9c04-168b7680e32e",
+    "lo:stax-fin:20-02-04",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:20-2-commodity-price-risk"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "20-02-04"
+      ]
+    }
+  ],
+  "context": [
+    "m00128"
+  ]
+}
