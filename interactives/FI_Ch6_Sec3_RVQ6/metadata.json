@@ -1,0 +1,22 @@
+{
+  "errata_id": "1facba3d42a3470b5abeec72304ac257c0da70d07e6f9b53e6c246a27a2fa911",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:6-3-2",
+    "context-cnxmod:f49e5fa3-089d-4946-b01a-b8b9a5463901",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:6-3-liquidity-ratios"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "6-3-2"
+      ]
+    }
+  ],
+  "context": [
+    "m00042"
+  ]
+}
