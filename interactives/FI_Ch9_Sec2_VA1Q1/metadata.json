@@ -1,0 +1,22 @@
+{
+  "errata_id": "4bb7f5d4ead59663a81d122234a87b3a6178f087844ba3d4883610060640c96c",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:09-02-02",
+    "context-cnxmod:91eff659-989c-4ef1-aa3a-dce3878af5db",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:9-2-unequal-payments-using-a-financial-calculator-or-microsoft-excel"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "09-02-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00059"
+  ]
+}
