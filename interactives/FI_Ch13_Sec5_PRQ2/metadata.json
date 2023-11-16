@@ -1,0 +1,22 @@
+{
+  "errata_id": "ad0087c37254aa093f7a6128c3820650170ee5bec68734f3489d2d757ed13e8c",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:14b7afbe-82b8-444d-987c-4c240f340438",
+    "lo:stax-fin:13-05-03",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:13-5-probability-distributions"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "13-05-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00082"
+  ]
+}
