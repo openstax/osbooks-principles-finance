@@ -1,0 +1,22 @@
+{
+  "errata_id": "c21aacee6b7331aa6abdb182f1048d47850107dbb6bddd0c1f042f2e7fc35b75",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:49dd2b7a-1414-4c0c-9d61-352872a4d024",
+    "lo:stax-fin:16-02-02",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:16-2-net-present-value-npv-method"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "16-02-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00100"
+  ]
+}
