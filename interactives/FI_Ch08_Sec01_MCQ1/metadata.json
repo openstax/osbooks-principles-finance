@@ -1,0 +1,22 @@
+{
+  "errata_id": "9c1ea1a0cf2d1f07973ec0f060882227072e23a4306074525790ee917ccc3d72",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:08-01-1",
+    "context-cnxmod:c1b497ce-114c-49fc-a4dc-3f88cbdad3ef",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:8-1-perpetuities"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "08-01-1"
+      ]
+    }
+  ],
+  "context": [
+    "m00052"
+  ]
+}
