@@ -1,0 +1,26 @@
+{
+  "errata_id": "061d0b16f7e133606e18139dc5e3ef93d42bdaf07e3e1bca3b5e1b3acbb2ca71",
+  "attachments": [
+    "media/FINAN_Figure_19_PRB_19D.png",
+    "media/FINAN_Figure_19_PRB_19C.png",
+    "media/FINAN_Figure_19_PRB_19E.png"
+  ],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:ccbe5604-ac4e-4a16-aeb9-afb74ec16190",
+    "lo:stax-fin:19-1-2",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:19-1-what-is-working-capital"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "19-1-2"
+      ]
+    }
+  ],
+  "context": [
+    "m00120"
+  ]
+}
