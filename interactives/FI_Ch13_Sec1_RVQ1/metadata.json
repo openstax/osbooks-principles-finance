@@ -1,0 +1,22 @@
+{
+  "errata_id": "53cd54faf30fa82cd17b69cfeaa242481f3defec22b0d99179f24334248a2ad3",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:2ac83c94-090a-4f6e-9b07-8b1bfa4987e5",
+    "lo:stax-fin:13-01-01",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:13-1-measures-of-center"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "13-01-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00078"
+  ]
+}
