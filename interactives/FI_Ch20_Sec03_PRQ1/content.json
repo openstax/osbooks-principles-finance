@@ -1,0 +1,31 @@
+{
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100
+    }
+  ],
+  "behaviour": {
+    "inputFieldSize": "10",
+    "enableRetry": true,
+    "ignoreScoring": false,
+    "pointsHost": 1,
+    "linebreakReplacement": " "
+  },
+  "checkAnswer": "Check",
+  "submitAnswer": "Submit",
+  "tryAgain": "Retry",
+  "showSolution": "Show solution",
+  "feedbackHeader": "Feedback",
+  "solutionTitle": "Sample solution",
+  "remainingChars": "Remaining characters: @chars",
+  "notEnoughChars": "You must enter at least @chars characters!",
+  "messageSave": "saved",
+  "ariaYourResult": "You got @score out of @total points",
+  "ariaNavigatedToSolution": "Navigated to newly included sample solution after textarea.",
+  "ariaCheck": "Check the answers.",
+  "ariaShowSolution": "Show the solution. You will be provided with a sample solution.",
+  "ariaRetry": "Retry the task. You can improve your previous answer if the author allowed that.",
+  "taskDescription": "The Olive Orchard is a US retail outlet for high-quality olive oils. One of the major suppliers of olive oil for the company is a farm in Greece. The Olive Orchard must pay the Greek farm 5.00 euros per liter of olive oil it purchases. The Olive Orchard would like to purchase 7,000 liters of the Greek farm’s olive oil next year. Currently, it costs 0.900 euros to purchase 1 US dollar. If the exchange rate remains constant, how much will it cost the Olive Orchard (in US dollars) to purchase the 7,000 liters? If the exchange rate changes so that it costs 0.8599 euros to purchase 1 US dollar, how much will it cost to purchase the 7,000 liters of olive oil?",
+  "isSolutionPublic": false
+}
