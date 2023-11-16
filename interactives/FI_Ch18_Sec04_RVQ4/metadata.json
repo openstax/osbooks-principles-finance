@@ -1,0 +1,22 @@
+{
+  "errata_id": "bb037dab9bd8d050ee868afc5003093efffa23c09a3f13b0e64d8c3662223a1c",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:7aa61a82-49c5-455e-9b76-854a94936cc6",
+    "lo:stax-fin:18-04-03",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:18-4-generating-the-complete-forecast"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "18-04-03"
+      ]
+    }
+  ],
+  "context": [
+    "m00116"
+  ]
+}
