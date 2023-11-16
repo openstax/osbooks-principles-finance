@@ -1,0 +1,22 @@
+{
+  "errata_id": "91f2bdd17f5ad472d04e87a4d3ae8804ce999d1f1a9948be4ed601e65911cb6a",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:5ed7943a-22f5-43ba-9de7-4666cb2f539e",
+    "lo:stax-fin:18-05-02",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:18-5-forecasting-cash-flow-and-assessing-the-value-of-growth"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "18-05-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00117"
+  ]
+}
