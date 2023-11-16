@@ -1,0 +1,22 @@
+{
+  "errata_id": "6b2a9a43c3c4b272a963f94b89d83f9f1703ae523e6f2073c328936b0b282948",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:89a5a903-8a0b-417a-8ba5-eae38a6f9485",
+    "lo:stax-fin:19-3-2",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:19-3-cash-management"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "19-3-2"
+      ]
+    }
+  ],
+  "context": [
+    "m00122"
+  ]
+}
