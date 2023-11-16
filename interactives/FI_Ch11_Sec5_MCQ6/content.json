@@ -1,0 +1,66 @@
+{
+  "UI": {
+    "showSolutionButton": "Show solution",
+    "tryAgainButton": "Retry",
+    "checkAnswerButton": "Check",
+    "tipsLabel": "Show tip",
+    "scoreBarLabel": "You got :num out of :total points",
+    "tipAvailable": "Tip available",
+    "feedbackAvailable": "Feedback available",
+    "readFeedback": "Read feedback",
+    "wrongAnswer": "Wrong answer",
+    "correctAnswer": "Correct answer",
+    "shouldCheck": "Should have been checked",
+    "shouldNotCheck": "Should not have been checked",
+    "noInput": "Please answer before viewing the solution"
+  },
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "type": "auto",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": true,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 0,
+      "feedback": "Wrong"
+    },
+    {
+      "from": 1,
+      "to": 99,
+      "feedback": "Almost!"
+    },
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "Correct!"
+    }
+  ],
+  "question": "The term efficient markets refers to the idea that _______________.",
+  "isSolutionPublic": false,
+  "isFreeResponseSupported": false,
+  "answers": [
+    {
+      "text": "publicly traded companies always file their financial reports on time"
+    },
+    {
+      "text": "investors are able to identify underpriced stocks for purchase"
+    },
+    {
+      "text": "stocks trade with minimal costs and prices are current and fair to all traders"
+    },
+    {
+      "text": "financial information on companies and their stock is only available to efficient traders"
+    }
+  ],
+  "subContentId": "1c4439fb-a375-4d3f-8ed5-a7fd60aae403"
+}
