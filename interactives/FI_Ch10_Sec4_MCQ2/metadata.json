@@ -1,0 +1,22 @@
+{
+  "errata_id": "dacfb3d8104edc05c0ed19fdb1cc481e354723f7bb520bd051f1c43ac34038c4",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:10-04-04",
+    "context-cnxmod:4198bab5-b9e4-4587-831d-5aff9cb97c4b",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:10-4-risks-of-interest-rates-and-default"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "10-04-04"
+      ]
+    }
+  ],
+  "context": [
+    "m00064"
+  ]
+}
