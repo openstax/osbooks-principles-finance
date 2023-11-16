@@ -1,0 +1,22 @@
+{
+  "errata_id": "cb733956cee90dd84ee8c035ff8c49a3645664bb8bf6cfc2389eedc90cb28f6c",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:70a2fea3-7e83-4e62-ad9a-59f3a4ede6d9",
+    "lo:stax-fin:10-02-01",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:10-2-bond-valuation"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "10-02-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00062"
+  ]
+}
