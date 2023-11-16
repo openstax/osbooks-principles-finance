@@ -1,0 +1,22 @@
+{
+  "errata_id": "d3ee88a3c712fab6d20633df3beb80e9a360849ceb38a46d9ae4c88104ae8a93",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:bc5775a3-8adc-42a4-8f3b-f47ce8df9095",
+    "lo:stax-fin:18-02-01",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:18-2-forecasting-sales"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "18-02-01"
+      ]
+    }
+  ],
+  "context": [
+    "m00114"
+  ]
+}
