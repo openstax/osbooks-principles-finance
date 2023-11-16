@@ -1,0 +1,22 @@
+{
+  "errata_id": "4beac96c0ec22aaa2f0b53da13e73007d15dd2affcb524ae01358cabc042595f",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "lo:stax-fin:19-2-2",
+    "context-cnxmod:629286a4-201a-4d04-8e5a-b8edbafc1e73",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:19-2-what-is-trade-credit"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "19-2-2"
+      ]
+    }
+  ],
+  "context": [
+    "m00121"
+  ]
+}
