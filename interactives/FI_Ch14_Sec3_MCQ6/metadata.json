@@ -1,0 +1,22 @@
+{
+  "errata_id": "5b971cc739db1d01f5802296cd1a672e32944b827c55dc001e29d53a77d1a60d",
+  "attachments": [],
+  "tags": [
+    "lo:stax-fin:14-03-02",
+    "context-cnxmod:90199356-2f30-46cc-afb7-518370a50735",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:14-3-best-fit-linear-model"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "14-03-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00089"
+  ]
+}
