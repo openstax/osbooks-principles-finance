@@ -1,0 +1,22 @@
+{
+  "errata_id": "a999b56190466f98cf1918c18225c7511547a7c9ff855bfa60815b6f44aea528",
+  "attachments": [],
+  "tags": [
+    "context-cnxmod:aa1be439-4af7-4102-97df-717615d3b5f5",
+    "lo:stax-fin:03-04-02",
+    "book:stax-fin",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:3-4-interest-rates"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "03-04-02"
+      ]
+    }
+  ],
+  "context": [
+    "m00021"
+  ]
+}
