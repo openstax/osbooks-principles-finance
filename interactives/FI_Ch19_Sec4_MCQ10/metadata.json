@@ -1,0 +1,22 @@
+{
+  "errata_id": "0763abfcc2526369c39fc75fb084a0ca5f145f03e7074933a8895af29d7a6a07",
+  "attachments": [],
+  "tags": [
+    "book:stax-fin",
+    "context-cnxmod:f4bcbbb6-30a6-4fda-bef2-9f0e835e50eb",
+    "lo:stax-fin:19-4-2",
+    "book-slug:principles-finance",
+    "module-slug:principles-finance:19-4-receivables-management"
+  ],
+  "books": [
+    {
+      "name": "stax-fin",
+      "lo": [
+        "19-4-2"
+      ]
+    }
+  ],
+  "context": [
+    "m00123"
+  ]
+}
