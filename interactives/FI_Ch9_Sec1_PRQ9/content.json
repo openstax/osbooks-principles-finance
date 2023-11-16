@@ -1,0 +1,31 @@
+{
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100
+    }
+  ],
+  "behaviour": {
+    "inputFieldSize": "10",
+    "enableRetry": true,
+    "ignoreScoring": false,
+    "pointsHost": 1,
+    "linebreakReplacement": " "
+  },
+  "checkAnswer": "Check",
+  "submitAnswer": "Submit",
+  "tryAgain": "Retry",
+  "showSolution": "Show solution",
+  "feedbackHeader": "Feedback",
+  "solutionTitle": "Sample solution",
+  "remainingChars": "Remaining characters: @chars",
+  "notEnoughChars": "You must enter at least @chars characters!",
+  "messageSave": "saved",
+  "ariaYourResult": "You got @score out of @total points",
+  "ariaNavigatedToSolution": "Navigated to newly included sample solution after textarea.",
+  "ariaCheck": "Check the answers.",
+  "ariaShowSolution": "Show the solution. You will be provided with a sample solution.",
+  "ariaRetry": "Retry the task. You can improve your previous answer if the author allowed that.",
+  "taskDescription": "Abby owns a business that projects two years of strong cash flow, followed by a two-year hiatus while she pursues a graduate degree. She then plans to resume her business and is confident about the following two years of cash flow. At the end of each year, she will invest her profits in a fund that returns 3% compounded annually. Each investment will be made at the end of the year. Her expected investments are as follows:\n<ul>\n<li>Year 1: $50,000</li>\n<li>Year 2: $78,000</li>\n<li>Year 3: 0</li>\n<li>Year 4: 0</li>\n<li>Year 5: $84,000</li>\n<li>Year 6: $89,000</li>\n</ul>\n<p>If Abby meets her expectations, how much money will she have in this fund at the end of year 7?</p>",
+  "isSolutionPublic": false
+}
