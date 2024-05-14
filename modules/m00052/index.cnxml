@@ -72,14 +72,14 @@
     </section>
     <section class="multiple-choice" id="sect-00005">
     <title/>
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00029"><link class="os-embed" url="#exercise/FI_Ch08_Sec01_MCQ1"/></para></problem></exercise>
-    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00030"><link class="os-embed" url="#exercise/FI_Ch08_Sec01_MCQ2"/></para></problem></exercise>
-    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00031"><link class="os-embed" url="#exercise/FI_Ch08_Sec01_MCQ3"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00029"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec01_MCQ1"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00030"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec01_MCQ2"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00031"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec01_MCQ3"/></para></problem></exercise>
     </section>
     <section class="problem-set" id="sect-00006">
     <title/>
     <para id="para-00032"><emphasis effect="italics">Use four decimal places on time value of money factors unless otherwise specified. Approximations and minor differences because of rounding are acceptable. Ignore the effect of taxes. Assume that all percentages are annual rates and that compounding occurs annually unless indicated otherwise.</emphasis></para>
-    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00033"><link class="os-embed" url="#exercise/FI_Ch08_Sec01_PRQ3"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00033"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec01_PRQ3"/></para></problem></exercise>
     </section>
     </content>
     <glossary>

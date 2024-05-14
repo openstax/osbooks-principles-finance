@@ -280,18 +280,18 @@
     </section>
     <section class="multiple-choice" id="sect-00007">
     <title/>
-    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00073"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_MCQ1"/></para></problem></exercise>
-    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00074"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_MCQ2"/></para></problem></exercise>
-    <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00075"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_MCQ3"/></para></problem></exercise>
-    <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00076"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_MCQ4"/></para></problem></exercise>
-    <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00077"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_MCQ5"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00073"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_MCQ1"/></para></problem></exercise>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00074"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_MCQ2"/></para></problem></exercise>
+    <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00075"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_MCQ3"/></para></problem></exercise>
+    <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00076"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_MCQ4"/></para></problem></exercise>
+    <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00077"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_MCQ5"/></para></problem></exercise>
     </section>
     <section class="review-questions" id="sect-00008">
     <title/>
-    <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00078"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_RVQ2"/></para></problem></exercise>
-    <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00079"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_RVQ3"/></para></problem></exercise>
-    <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00080"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_RVQ4"/></para></problem></exercise>
-    <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00081"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_RVQ5"/></para></problem></exercise>
+    <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00078"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_RVQ2"/></para></problem></exercise>
+    <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00079"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_RVQ3"/></para></problem></exercise>
+    <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00080"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_RVQ4"/></para></problem></exercise>
+    <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00081"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_RVQ5"/></para></problem></exercise>
     </section>
     <section class="video-activity" id="sect-00009">
     <title/>
@@ -299,15 +299,15 @@
     <title>How Companies Report Cash Flow</title>
     <media alt="cash-flow">
     <iframe width="660" height="371.4" src="https://openstax.org/r/how-companies-report-cash-flow"/></media>
-    <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00082"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_VA1Q1"/></para></problem></exercise>
-    <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00083"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_VA1Q2"/></para></problem></exercise>
+    <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00082"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_VA1Q1"/></para></problem></exercise>
+    <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00083"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_VA1Q2"/></para></problem></exercise>
     </section>
     <section id="sect-00011">
     <title>Trade Credit and Interest Rates on Short-Term Borrowing</title>
     <media alt="trade-credit">
     <iframe width="660" height="371.4" src="https://openstax.org/r/cost-of-trade-credit"/></media>
-    <exercise id="exer-00017"><problem id="prob-00017"><para id="para-00084"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_VA2Q1"/></para></problem></exercise>
-    <exercise id="exer-00018"><problem id="prob-00018"><para id="para-00085"><link class="os-embed" url="#exercise/FI_Ch19_Sec1_VA2Q2"/></para></problem></exercise>
+    <exercise id="exer-00017"><problem id="prob-00017"><para id="para-00084"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_VA2Q1"/></para></problem></exercise>
+    <exercise id="exer-00018"><problem id="prob-00018"><para id="para-00085"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec1_VA2Q2"/></para></problem></exercise>
     </section>
     </section>
     </content>

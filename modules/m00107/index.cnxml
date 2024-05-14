@@ -206,15 +206,15 @@
     <para id="para-00025">The yield to maturity (YTM) on a company’s outstanding bonds represents the return that debt holders are requiring to lend money to the company. Because interest expenses are tax-deductible, the cost of debt to the company is less than the YTM. The cost of equity capital is not directly observed, so financial managers must estimate this cost. Two common methods for estimating the cost of equity capital are the constant dividend growth model and the capital asset pricing model (CAPM).</para>
     </section>
     <section class="multiple-choice" id="sect-00009">
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch17_Sec2_MCQ4"/></para></problem></exercise>
-    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch17_Sec2_MCQ5"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00026"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch17_Sec2_MCQ4"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00027"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch17_Sec2_MCQ5"/></para></problem></exercise>
     </section>
     <section class="review-questions" id="sect-00010">
     <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00028"><link class="os-embed" url="#exercise/FI_Ch17_Sec2_RVQ2"/></para></problem></exercise>
     </section>
     <section class="problem-set" id="sect-00011">
     <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00029"><link class="os-embed" url="#exercise/FI_Ch17_Sec2_PRQ2"/></para></problem></exercise>
-    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00030"><link class="os-embed" url="#exercise/FI_Ch17_Sec2_PRQ3"/></para></problem></exercise>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00030"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch17_Sec2_PRQ3"/></para></problem></exercise>
     <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00031"><link class="os-embed" url="#exercise/FI_Ch17_Sec2_PRQ4"/></para></problem></exercise>
     </section>
     </content>

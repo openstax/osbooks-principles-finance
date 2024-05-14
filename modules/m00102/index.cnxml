@@ -210,7 +210,7 @@
     <section class="problem-set" id="sect-00007">
     <title/>
     <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00014"><link class="os-embed" url="#exercise/FI_Ch16_Sec4_PRQ5"/></para></problem></exercise>
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00015"><link class="os-embed" url="#exercise/FI_Ch16_Sec4_PRQ6"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00015"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch16_Sec4_PRQ6"/></para></problem></exercise>
     <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00016"><link class="os-embed" url="#exercise/FI_Ch16_Sec4_PRQ7"/></para></problem></exercise>
     </section>
     </content>

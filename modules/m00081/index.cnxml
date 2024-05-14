@@ -192,15 +192,15 @@
     </section>
     <section class="problem-set" id="sect-00006" xmlns="http://cnx.rice.edu/cnxml">
     <title/>
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00028"><link class="os-embed" url="#exercise/FI_Ch13_Sec4_PRQ6"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00028"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec4_PRQ6"/></para></problem></exercise>
     </section>
     <section class="video-activity" id="sect-00007">
     <title/>
     <section id="sect-00008">
     <title>Normal Distribution Stock Return Calculations</title>
     <media alt="stock-return"><iframe width="660" height="371.4" src="https://openstax.org/r/stock-return"/></media>
-    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00029"><link class="os-embed" url="#exercise/FI_Ch13_Sec4_VA2Q1"/></para></problem></exercise>
-    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00030"><link class="os-embed" url="#exercise/FI_Ch13_Sec4_VA2Q2"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00029"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec4_VA2Q1"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00030"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec4_VA2Q2"/></para></problem></exercise>
     </section>
     </section>
     </content>

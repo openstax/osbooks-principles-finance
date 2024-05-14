@@ -295,21 +295,21 @@
     </section>
     <section class="multiple-choice" id="sect-00008">
     <title/>
-    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00060"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_MCQ4"/></para></problem></exercise>
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00061"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_MCQ5"/></para></problem></exercise>
-    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00062"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_MCQ6"/></para></problem></exercise>
-    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00063"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_MCQ7"/></para></problem></exercise>
-    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00064"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_MCQ8"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00060"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_MCQ4"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00061"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_MCQ5"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00062"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_MCQ6"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00063"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_MCQ7"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00064"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_MCQ8"/></para></problem></exercise>
     </section>
     <section class="problem-set" id="sect-00009">
     <title/>
-    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00065"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_PRQ1"/></para></problem></exercise>
-    <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00066"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_PRQ2"/></para></problem></exercise>
-    <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00067"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_PRQ4"/></para></problem></exercise>
-    <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00068"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_PRQ7"/></para></problem></exercise>
-    <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00069"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_PRQ8"/></para></problem></exercise>
-    <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00070"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_PRQ9"/></para></problem></exercise>
-    <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00071"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_PRQ10"/></para></problem></exercise>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00065"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_PRQ1"/></para></problem></exercise>
+    <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00066"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_PRQ2"/></para></problem></exercise>
+    <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00067"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_PRQ4"/></para></problem></exercise>
+    <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00068"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_PRQ7"/></para></problem></exercise>
+    <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00069"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_PRQ8"/></para></problem></exercise>
+    <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00070"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_PRQ9"/></para></problem></exercise>
+    <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00071"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_PRQ10"/></para></problem></exercise>
     </section>
     <section class="video-activity" id="sect-00010">
     <title/>
@@ -317,8 +317,8 @@
     <title>Future Value of Ordinary Annuities</title>
     <media alt="cash-profit">
     <iframe width="660" height="371.4" src="https://openstax.org/r/Future_Value_of_an_Annuity"/></media>
-    <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00072"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_VA1Q1"/></para></problem></exercise>
-    <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00073"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_VA1Q2"/></para></problem></exercise>
+    <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00072"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_VA1Q1"/></para></problem></exercise>
+    <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00073"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_VA1Q2"/></para></problem></exercise>
     </section>
     </section>
     <section class="video-activity" id="sect-00012">
@@ -327,8 +327,8 @@
     <title>Practical Example of Annuities</title>
     <media alt="cash-profit">
     <iframe width="660" height="371.4" src="https://openstax.org/r/What_is_an_annuity?"/></media>
-    <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00074"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_VA2Q1"/></para></problem></exercise>
-    <exercise id="exer-00017"><problem id="prob-00017"><para id="para-00075"><link class="os-embed" url="#exercise/FI_Ch08_Sec02_VA2Q2"/></para></problem></exercise>
+    <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00074"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_VA2Q1"/></para></problem></exercise>
+    <exercise id="exer-00017"><problem id="prob-00017"><para id="para-00075"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch08_Sec02_VA2Q2"/></para></problem></exercise>
     </section>
     </section>
     </content>

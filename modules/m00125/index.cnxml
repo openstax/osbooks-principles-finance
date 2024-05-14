@@ -84,9 +84,9 @@
     </section>
     <section class="review-questions" id="sect-00005">
     <title/>
-    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00022"><link class="os-embed" url="#exercise/FI_Ch19_Sec6_RVQ8"/></para></problem></exercise>
-    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch19_Sec6_RVQ9"/></para></problem></exercise>
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00024"><link class="os-embed" url="#exercise/FI_Ch19_Sec6_RVQ10"/></para></problem></exercise>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00022"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec6_RVQ8"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00023"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec6_RVQ9"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00024"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch19_Sec6_RVQ10"/></para></problem></exercise>
     </section>
     </content>
     </document>

@@ -179,17 +179,17 @@
     </section>
     <section class="multiple-choice" id="sect-00008">
     <title/>
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00036"><link class="os-embed" url="#exercise/FI_Ch13_Sec1_MCQ1"/></para></problem></exercise>
-    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00037"><link class="os-embed" url="#exercise/FI_Ch13_Sec1_MCQ2"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00036"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec1_MCQ1"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00037"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec1_MCQ2"/></para></problem></exercise>
     </section>
     <section class="review-questions" id="sect-00009">
     <title/>
-    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00038"><link class="os-embed" url="#exercise/FI_Ch13_Sec1_RVQ1"/></para></problem></exercise>
-    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00039"><link class="os-embed" url="#exercise/FI_Ch13_Sec1_RVQ2"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00038"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec1_RVQ1"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00039"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec1_RVQ2"/></para></problem></exercise>
     </section>
     <section class="problem-set" id="sect-00010">
     <title/>
-    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00040"><link class="os-embed" url="#exercise/FI_Ch13_Sec1_PRQ5"/></para></problem></exercise>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00040"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec1_PRQ5"/></para></problem></exercise>
     </section>
     </content>
     <glossary>

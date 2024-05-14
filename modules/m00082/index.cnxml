@@ -236,21 +236,21 @@
     </section>
     <section class="multiple-choice" id="sect-00006">
     <title/>
-    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00022"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_MCQ10"/></para></problem></exercise>
-    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_MCQ11"/></para></problem></exercise>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00022"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec5_MCQ10"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00023"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec5_MCQ11"/></para></problem></exercise>
     </section>
     <section class="problem-set" id="sect-00007">
     <title/>
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00024"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_PRQ1"/></para></problem></exercise>
-    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00025"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_PRQ2"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00024"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec5_PRQ1"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00025"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec5_PRQ2"/></para></problem></exercise>
     </section>
     <section class="video-activity" id="sect-00008">
     <title/>
     <section id="sect-00009">
     <title>Portfolio Weights</title>
     <media alt="port-weights"><iframe width="660" height="371.4" src="https://openstax.org/r/port-weights"/></media>
-    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00026"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_VA1Q1"/></para></problem></exercise>
-    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00027"><link class="os-embed" url="#exercise/FI_Ch13_Sec5_VA1Q2"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00026"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec5_VA1Q1"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00027"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch13_Sec5_VA1Q2"/></para></problem></exercise>
     </section>
     </section>
     </content>

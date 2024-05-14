@@ -108,7 +108,7 @@
     </section>
     <section class="multiple-choice" id="sect-00006">
     <title/>
-    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00018"><link class="os-embed" url="#exercise/FI_Ch11_Sec4_MCQ10"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00018"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch11_Sec4_MCQ10"/></para></problem></exercise>
     </section>
     <section class="review-questions" id="sect-00007">
     <title/>
@@ -117,7 +117,7 @@
     </section>
     <section class="problem-set" id="sect-00008">
     <title/>
-    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00021"><link class="os-embed" url="#exercise/FI_Ch11_Sec4_PRQ3"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00021"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch11_Sec4_PRQ3"/></para></problem></exercise>
     </section>
     <section class="video-activity" id="sect-00009">
     <title/>
@@ -126,7 +126,7 @@
     <media alt="cash-profit">
     <iframe width="660" height="371.4" src="https://openstax.org/r/Preferred_Stock"/></media>
     <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00022"><link class="os-embed" url="#exercise/FI_Ch11_Sec4_VA2Q1"/></para></problem></exercise>
-    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00023"><link class="os-embed" url="#exercise/FI_Ch11_Sec4_VA2Q2"/></para></problem></exercise>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00023"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch11_Sec4_VA2Q2"/></para></problem></exercise>
     </section>
     </section>
     </content>

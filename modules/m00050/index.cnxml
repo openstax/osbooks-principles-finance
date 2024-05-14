@@ -133,8 +133,8 @@
     </section>
     <section class="review-questions" id="sect-00016">
     <title/>
-    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00063"><link class="os-embed" url="#exercise/FI_Ch7_Sec04_RVQ1"/></para></problem></exercise>
-    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00064"><link class="os-embed" url="#exercise/FI_Ch7_Sec04_RVQ4"/></para></problem></exercise>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00063"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch7_Sec04_RVQ1"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00064"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch7_Sec04_RVQ4"/></para></problem></exercise>
     </section>
     <section class="cfa-institute" id="sect-00015">
       <title>CFA Institute</title>

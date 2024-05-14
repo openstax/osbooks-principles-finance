@@ -179,8 +179,8 @@
     </section>
     <section class="multiple-choice" id="sect-00012">
     <title/>
-    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00041"><link class="os-embed" url="#exercise/FI_Ch10_Sec4_MCQ2"/></para></problem></exercise>
-    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00042"><link class="os-embed" url="#exercise/FI_Ch10_Sec4_MCQ3"/></para></problem></exercise>
+    <exercise id="exer-00001"><problem id="prob-00001"><para id="para-00041"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch10_Sec4_MCQ2"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00042"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch10_Sec4_MCQ3"/></para></problem></exercise>
     <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00043"><link class="os-embed" url="#exercise/FI_Ch10_Sec4_MCQ8"/></para></problem></exercise>
     </section>
     <section class="review-questions" id="sect-00013">

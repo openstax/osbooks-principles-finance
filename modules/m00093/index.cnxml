@@ -689,7 +689,7 @@
     </section>
     <section class="problem-set" id="sect-00009">
     <title/>
-    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00046"><link class="os-embed" url="#exercise/FI_Ch15_Sec1_PRQ1"/></para></problem></exercise>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00046"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch15_Sec1_PRQ1"/></para></problem></exercise>
     <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00047"><link class="os-embed" url="#exercise/FI_Ch15_Sec1_PRQ2"/></para></problem></exercise>
     <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00048"><link class="os-embed" url="#exercise/FI_Ch15_Sec1_PRQ3"/></para></problem></exercise>
     <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00049"><link class="os-embed" url="#exercise/FI_Ch15_Sec1_PRQ4"/></para></problem></exercise>

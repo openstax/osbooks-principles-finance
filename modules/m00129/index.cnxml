@@ -226,26 +226,26 @@
     </section>
     <section class="multiple-choice" id="sect-00015">
     <title/>
-    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00070"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_MCQ2"/></para></problem></exercise>
-    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00071"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_MCQ3"/></para></problem></exercise>
-    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00072"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_MCQ4"/></para></problem></exercise>
-    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00073"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_MCQ6"/></para></problem></exercise>
-    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00074"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_MCQ8"/></para></problem></exercise>
-    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00075"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_MCQ9"/></para></problem></exercise>
-    <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00076"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_MCQ10"/></para></problem></exercise>
-    <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00077"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_MCQ13"/></para></problem></exercise>
+    <exercise id="exer-00002"><problem id="prob-00002"><para id="para-00070"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_MCQ2"/></para></problem></exercise>
+    <exercise id="exer-00003"><problem id="prob-00003"><para id="para-00071"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_MCQ3"/></para></problem></exercise>
+    <exercise id="exer-00004"><problem id="prob-00004"><para id="para-00072"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_MCQ4"/></para></problem></exercise>
+    <exercise id="exer-00005"><problem id="prob-00005"><para id="para-00073"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_MCQ6"/></para></problem></exercise>
+    <exercise id="exer-00006"><problem id="prob-00006"><para id="para-00074"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_MCQ8"/></para></problem></exercise>
+    <exercise id="exer-00007"><problem id="prob-00007"><para id="para-00075"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_MCQ9"/></para></problem></exercise>
+    <exercise id="exer-00008"><problem id="prob-00008"><para id="para-00076"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_MCQ10"/></para></problem></exercise>
+    <exercise id="exer-00009"><problem id="prob-00009"><para id="para-00077"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_MCQ13"/></para></problem></exercise>
     </section>
     <section class="review-questions" id="sect-00016">
     <title/>
-    <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00078"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_RVQ3"/></para></problem></exercise>
-    <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00079"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_RVQ4"/></para></problem></exercise>
-    <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00080"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_RVQ6"/></para></problem></exercise>
+    <exercise id="exer-00010"><problem id="prob-00010"><para id="para-00078"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_RVQ3"/></para></problem></exercise>
+    <exercise id="exer-00011"><problem id="prob-00011"><para id="para-00079"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_RVQ4"/></para></problem></exercise>
+    <exercise id="exer-00012"><problem id="prob-00012"><para id="para-00080"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_RVQ6"/></para></problem></exercise>
     </section>
     <section class="problem-set" id="sect-00017">
     <title/>
-    <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00081"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_PRQ1"/></para></problem></exercise>
-    <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00082"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_PRQ2"/></para></problem></exercise>
-    <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00083"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_PRQ3"/></para></problem></exercise>
+    <exercise id="exer-00013"><problem id="prob-00013"><para id="para-00081"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_PRQ1"/></para></problem></exercise>
+    <exercise id="exer-00014"><problem id="prob-00014"><para id="para-00082"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_PRQ2"/></para></problem></exercise>
+    <exercise id="exer-00015"><problem id="prob-00015"><para id="para-00083"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_PRQ3"/></para></problem></exercise>
     </section>
     <section class="video-activity" id="sect-00018">
     <title/>
@@ -254,8 +254,8 @@
     <media alt="cash-profit">
     <iframe width="660" height="371.4" src="https://openstax.org/r/BMW_US_Natural_Hedging"/></media>
     <para id="para-00084">While the name BMW may sound German, a significant amount of BMW’s production occurs outside of Germany. Watch this video to learn about this international activity of BMW.</para>
-    <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00085"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_VA2Q1"/></para></problem></exercise>
-    <exercise id="exer-00017"><problem id="prob-00017"><para id="para-00086"><link class="os-embed" url="#exercise/FI_Ch20_Sec03_VA2Q2"/></para></problem></exercise>
+    <exercise id="exer-00016"><problem id="prob-00016"><para id="para-00085"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_VA2Q1"/></para></problem></exercise>
+    <exercise id="exer-00017"><problem id="prob-00017"><para id="para-00086"><link class="os-embed" url="{INTERACTIVES_ROOT}/FI_Ch20_Sec03_VA2Q2"/></para></problem></exercise>
     </section>
     </section>
     </content>
