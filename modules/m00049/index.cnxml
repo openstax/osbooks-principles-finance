@@ -33,16 +33,18 @@
     <colspec colnum="5" colname="c5"/>
     <colspec colnum="6" colname="c6"/>
     <colspec colnum="7" colname="c7"/>
+    <thead><row>
+      <entry align="center">Year</entry>
+      <entry align="center">0<newline/>(Today)</entry>
+      <entry align="center">1</entry>
+      <entry align="center">2</entry>
+      <entry align="center">3</entry>
+      <entry align="center">4</entry>
+      <entry align="center">5</entry>
+      </row>
+  </thead>
     <tbody>
-    <row>
-    <entry align="center"><emphasis effect="bold">Year</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">0</emphasis><newline/>(Today)</entry>
-    <entry align="center"><emphasis effect="bold">1</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">2</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">3</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">4</emphasis></entry>
-    <entry align="center"><emphasis effect="bold">5</emphasis></entry>
-    </row>
+    
     <row>
       <entry align="center"> </entry>
       <entry align="center"> </entry>
