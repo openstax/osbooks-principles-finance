@@ -47,7 +47,7 @@
     <equation id="eq-00005"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mo>$</mo><mn>4.00</mn></mrow><mrow><mn>0.03</mn></mrow></mfrac><mo>=</mo><mo>$</mo><mn>133.33</mn></math></equation>
     <para id="para-00021" xmlns="http://cnx.rice.edu/cnxml">When we factor in the 0.2% annual growth in the dividend, what does the price per share become?</para></problem><solution id="sol-00001">
     <para id="para-00022"><emphasis>Solution:</emphasis></para>
-    <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>PV</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mn>4</mn><mfenced><mrow><mn>0</mn><mo>.</mo><mn>03</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>002</mn></mrow></mfenced></mfrac><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>142.86</mn><mo>.</mo><mn>86</mn></math></equation>
+    <equation id="eq-00006"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>PV</mi><mo> </mo><mo>=</mo><mo> </mo><mfrac><mn>4</mn><mfenced><mrow><mn>0</mn><mo>.</mo><mn>03</mn><mo>-</mo><mn>0</mn><mo>.</mo><mn>002</mn></mrow></mfenced></mfrac><mo> </mo><mo>=</mo><mo> </mo><mo>$</mo><mn>142.86</mn></math></equation>
     </solution>
     </exercise>
     </note>
