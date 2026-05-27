@@ -278,7 +278,7 @@
       <para id="para-00021">In the previous example, the linear regression model for the monthly amount spent on advertising and the monthly revenue for a Fortune 500 company for 12 months was generated as follows:</para>
       <equation id="eq-00008"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnspacing="0px" columnalign="right center left"><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo> </mo><mo>=</mo><mo> </mo></mtd><mtd><mi>a</mi><mo>+</mo><mi>b</mi><mi>x</mi></mtd></mtr><mtr><mtd><mover><mi>y</mi><mo>^</mo></mover></mtd><mtd><mo>=</mo></mtd><mtd><mn>9</mn><mo>,</mo><mn>376</mn><mo>.</mo><mn>7</mn><mo>+</mo><mn>61</mn><mo>.</mo><mn>8</mn><mi>x</mi></mtd></mtr></mtable></math></equation>
       <para id="para-00022" xmlns="http://cnx.rice.edu/cnxml">Since the slope was determined to be 61.8, the company can interpret this to mean that for every $1,000 dollars spent on advertising, on average, this will result in an increase in revenues of $61,800.</para>
-      <para id="para-00023">The intercept of the regression equation is the corresponding <emphasis effect="italics">y</emphasis>-value when.</para>
+      <para id="para-00023">The intercept of the regression equation is the corresponding <emphasis effect="italics">y</emphasis>-value when the <emphasis effect="italics">x</emphasis>-value (independent variable) is equal to zero.</para>
       </section>
       <section id="sect-00006">
       <title>Interpretation of the Intercept</title>
