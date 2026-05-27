@@ -180,8 +180,8 @@
     </problem>
     <solution id="sol-00002">
     <para id="para-00025"><emphasis effect="bold">Solution:</emphasis></para>
-    <para id="para-00026">To calculate the probability, find the area under the curve to the left of 1 minute. The mean time is given as 45 seconds, which is the same as 0.75 minutes. The probability can then be calculated as follows:</para>
-    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mpadded lspace="-1px"><mi>Probability</mi></mpadded><mo>=</mo><mn>1</mn><mo>-</mo><mo> </mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mrow><mn>0</mn><mo>.</mo><mn>75</mn></mrow></mfrac><mfenced><mn>1</mn></mfenced></mrow></msup><mo>=</mo><mn>0.736</mn></math></equation>
+    <para id="para-00026">To calculate the probability, find the area under the curve to the left of 2 minutes. The mean time is given as 45 seconds, which is the same as 0.75 minutes. The probability can then be calculated as follows:</para>
+    <equation id="eq-00003"><math xmlns="http://www.w3.org/1998/Math/MathML"><mpadded lspace="-1px"><mi>Probability</mi></mpadded><mo>=</mo><mn>2</mn><mo>-</mo><mo> </mo><msup><mi>e</mi><mrow><mo>-</mo><mfrac><mn>1</mn><mrow><mn>0.75</mn></mrow></mfrac><mfenced><mn>1</mn></mfenced></mrow></msup><mo>=</mo><mn>0.9305</mn></math></equation>
     </solution>
     </exercise>
     </note>
