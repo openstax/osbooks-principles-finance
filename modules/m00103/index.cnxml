@@ -119,9 +119,9 @@
     <entry align="right">40,000</entry>
     <entry align="right">40,000</entry>
     <entry align="right"> 40,000</entry>
-    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
-    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
-    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
+<entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
     </row>
     <row>
     <entry align="left">Older Truck ($)</entry>
@@ -129,9 +129,9 @@
     <entry align="right"> </entry>
     <entry align="right"> </entry>
     <entry align="right"><emphasis effect="bold">(50,000)</emphasis></entry>
-    <entry align="right"> </entry>
-    <entry align="right"> </entry>
-    <entry align="right"> </entry>
+        <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
     </row>
     <row>
     <entry align="left"> </entry>
@@ -186,19 +186,20 @@
     <entry align="right">40,000</entry>
     <entry align="right">40,000</entry>
     <entry align="right">40,000</entry>
-    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
-    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
-    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
-    </row>
+        <entry align="right"> </entry>
+    <entry align="right"> </entry>
+    <entry align="right"> </entry>
+  </row>
     <row>
     <entry align="left">Older Truck ($)</entry>
     <entry align="right"> </entry>
     <entry align="right"> </entry>
     <entry align="right"> </entry>
     <entry align="right"><emphasis effect="bold">(50,000)</emphasis></entry>
-    <entry align="right"> </entry>
-    <entry align="right"> </entry>
-    <entry align="right"> </entry>
+    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
+    <entry align="right"><emphasis effect="bold">40,000</emphasis></entry>
+
     </row>
     <row>
     <entry align="left">Net Present Value</entry>
