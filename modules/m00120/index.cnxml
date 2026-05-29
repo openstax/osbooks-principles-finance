@@ -80,7 +80,7 @@
     </thead>
     <tbody>
     <row><entry>Current liabilities are greater than current assets.</entry><entry>Current assets equal current liabilities.</entry><entry>Current assets are greater than current liabilities.</entry></row>
-    <row><entry>Could indicate a liquidity problem. There is difficulty satisfying current obligations.</entry><entry>Indicates that current assets could cover current obligations. However, there is no positive margin (safety cushion) or “liquid reserve” to satisfy unexpected cash needs.</entry><entry>Indicates that the company can meet its current obligations. However, excessively high net working capital could mean too little cash and therefore an opportunity cost (forgoing rates of return on alternative investment).</entry></row>
+    <row><entry>Could indicate a liquidity problem. There is difficulty satisfying current obligations.</entry><entry>Indicates that current assets could cover current obligations. However, there is no positive margin (safety cushion) or “liquid reserve” to satisfy unexpected cash needs.</entry><entry>Indicates that the company can meet its current obligations. However, excessively high net working capital could mean too much cash and therefore an opportunity cost (forgoing rates of return on alternative investment).</entry></row>
     </tbody>
     </tgroup>
     </table>
