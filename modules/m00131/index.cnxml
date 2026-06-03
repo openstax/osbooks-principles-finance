@@ -54,6 +54,9 @@
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
+<thead><row><entry>#</entry>
+<entry>Title</entry>
+<entry>Status</entry></row></thead>
 <tbody>
 <row>
 <entry align="center">1</entry>

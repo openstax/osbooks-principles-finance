@@ -66,6 +66,8 @@
     <tgroup cols="2">
     <colspec colnum="1" colname="c1"/>
     <colspec colnum="2" colname="c2"/>
+    <thead><row><entry>Budget Stage</entry>
+    <entry>Formulas</entry></row></thead>
     <tbody>
     <row><entry valign="top">Beginning Cash Balance</entry><entry valign="top">This is the amount of cash the company expects to have on the first day of the month. For example, in <link target-id="fig-00004" document="m00125"/>, cell B2 is the amount of cash on Jan. 1 to start the year (the planning period). The remaining beginning cash balances for the months February through December are the ending cash balances of the previous month. For example, February’s beginning cash balance (C2) is referenced from cell B9 (ending cash balance for January).</entry></row>
     <row><entry valign="top">Cash Collections</entry><entry valign="top">These are the projected cash inflows from collections from customers (accounts receivable), cash sales, and any other significant cash inflows, such as dividends and interest on investments or sale of fixed assets. For example, the Cash Collections shown in the Sample Cash Budget (<link target-id="fig-00004" document="m00125"/>) are referenced from the Sales and Collections Budget (<link target-id="fig-00001" document="m00125"/>). January’s Cash Collections (cell B3) in the Sample Cash Budget are from cell B12 of the Sales and Collection Budget.</entry></row>

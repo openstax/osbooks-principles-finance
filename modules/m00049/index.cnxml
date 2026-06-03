@@ -35,7 +35,7 @@
     <colspec colnum="7" colname="c7"/>
     <thead><row>
       <entry align="center">Year</entry>
-      <entry align="center">0<newline/>(Today)</entry>
+      <entry align="center">0 (Today)</entry>
       <entry align="center">1</entry>
       <entry align="center">2</entry>
       <entry align="center">3</entry>

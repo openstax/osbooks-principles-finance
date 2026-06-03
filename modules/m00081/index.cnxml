@@ -24,41 +24,36 @@
     <problem id="prob-00001">
     <para id="para-00004">A financial consultant at a brokerage firm records the portfolio values for 20 clients, as shown in <link target-id="table-00001" document="m00081"/>, where the portfolio values are shown in thousands of dollars.</para>
     <table frame="all" summary=" " id="table-00001">
-    <title>Portfolio Values for 20 Clients at a Brokerage Firm ($000s)</title>
+    <title>Portfolio Values for 20 Clients at a Brokerage Firm</title>
     <tgroup cols="5">
     <colspec colnum="1" colname="c1"/>
-    <colspec colnum="2" colname="c2"/>
-    <colspec colnum="3" colname="c3"/>
-    <colspec colnum="4" colname="c4"/>
-    <colspec colnum="5" colname="c5"/>
+    <thead><row><entry>Thousands of Dollars</entry></row></thead>
     <tbody>
     <row>
-    <entry align="right">278</entry>
-    <entry align="right">318</entry>
-    <entry align="right">422</entry>
-    <entry align="right">577</entry>
-    <entry align="right">618</entry>
-    </row>
-    <row>
-    <entry align="right">735</entry>
-    <entry align="right">798</entry>
-    <entry align="right">864</entry>
-    <entry align="right">903</entry>
-    <entry align="right">944</entry>
-    </row>
-    <row>
-    <entry align="right">1,052</entry>
-    <entry align="right">1,099</entry>
-    <entry align="right">1,132</entry>
-    <entry align="right">1,180</entry>
-    <entry align="right">1,279</entry>
-    </row>
-    <row>
-    <entry align="right">1,365</entry>
-    <entry align="right">1,471</entry>
-    <entry align="right">1,572</entry>
-    <entry align="right">1,787</entry>
-    <entry align="right">1,905</entry>
+    <entry align="right">
+      <list list-type="bulleted" id="list-00004">
+        <item>278</item>
+<item>318</item>
+<item>422</item>
+<item>577</item>
+<item>618</item>
+<item>735</item>
+<item>798</item>
+<item>864</item>
+<item>903</item>
+<item>944</item>
+<item>1,052</item>
+<item>1,099</item>
+<item>1,132</item>
+<item>1,180</item>
+<item>1,279</item>
+<item>1,365</item>
+<item>1,471</item>
+<item>1,572</item>
+<item>1,787</item>
+<item>1,905</item>
+      </list>
+    </entry>
     </row>
     </tbody>
     </tgroup>
