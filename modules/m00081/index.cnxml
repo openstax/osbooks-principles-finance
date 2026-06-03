@@ -31,7 +31,7 @@
     <tbody>
     <row>
     <entry align="right">
-      <list list-type="bulleted" id="list-00004">
+      <list list-type="bulleted" bullet-style="none" id="list-00004">
         <item>278</item>
 <item>318</item>
 <item>422</item>
